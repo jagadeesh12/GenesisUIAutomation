@@ -1,0 +1,932 @@
+<testdata>
+
+	<!-- this test data is use for check as a payment method -->
+	<testcase id="teacher_add_check_as_payment_method" description="this test data is use for validate Checks As Payment Method in Shipping And Payment Section Of Checkout">
+		<userid>check01@example.com</userid>
+		<password>passw0rd</password>
+		<item>3B6</item>
+		<addAccountInfo>true</addAccountInfo>
+		<noofstudents>2</noofstudents>
+		<module>teacher</module>
+		<username>mr. V23</username>
+		<removeCartFlag>true</removeCartFlag>
+		<tdm>
+			<type>teacher_with_no_details</type>
+    	</tdm>
+	</testcase>
+
+	<testcase id="teacher_edit_emailid_on_order_and_submit_section" description="Verifying shades of all three checkout step page">
+		<username>Ms. Automation</username>
+		<userid>test_auto01@scholastic.com</userid>
+		<password>passw0rd</password>
+		<cardname>Amex ending in 0005</cardname>
+		<item>3B6</item>
+		<email>abc@gmail.com</email>
+		<module>teacher</module>
+		<addAccountInfo>true</addAccountInfo>
+		<tdm>
+			<type>teacher_with_no_details</type>
+    	</tdm>
+	</testcase>
+
+
+
+	<testcase id="teacher_return_edit_cart_from_orderandsubmitsection" description="Verifying shades of all three checkout step page">
+		<username>Ms. Automation</username>
+		<userid>test_auto01@scholastic.com</userid>
+		<password>passw0rd</password>
+		<item>3B6</item>
+		<module>teacher</module>
+		<removeCartFlag>true</removeCartFlag>
+	</testcase>
+	
+	<testcase id="teacher_return_to_shop_from_orderandsubmitsection" description="Verifying shades of all three checkout step page">
+		<username>Ms. Automation</username>
+		<userid>test_auto01@scholastic.com</userid>
+		<password>passw0rd</password>
+		<item>3B6</item>
+		<module>teacher</module>
+		<removeCartFlag>true</removeCartFlag>
+	</testcase>
+
+
+	<testcase id="teacher_verify_checkout_section_tab_state" description="Verifying shades of all three checkout step page">
+		<username>Ms. Automation</username>
+		<userid>test_auto01@scholastic.com</userid>
+		<password>passw0rd</password>
+		<item>3B6</item>
+		<module>teacher</module>
+		<tdm>
+			<type>teacher_with_no_details</type>
+    	</tdm>
+	</testcase>
+
+	<!-- this test data is use for validate shipping method -->
+	<testcase id="teacher_login_to_verify_shipping_method">
+		<userid>teacher_order01@example.com</userid>
+		<password>passw0rd</password>
+		<item>3B6</item>
+		<addAccountInfo>true</addAccountInfo>
+		<module>teacher</module>
+		<noofstudents>2</noofstudents>
+		<module>teacher</module>
+		<username>mr. V23</username>
+		<removeCartFlag>true</removeCartFlag>
+		<specificAmttOrder>true</specificAmttOrder>
+		<orderprice>840</orderprice>
+		<bonuspointlabel>5000 Bonus Points</bonuspointlabel>
+		<tdm>
+			<type>teacher_with_no_details</type>
+    	</tdm>
+	</testcase>
+
+	<testcase id="teacher_check_Insufficient_Bonutpoint_message_for_checkout" description="DW_192_this test data is use for validate  not enough Bonus Points in your bank to complete the order.">
+		<userid>teachernegbp123@example.com</userid>
+		<password>passw0rd</password>
+		<noofstudents>2</noofstudents>
+		<removeCartFlag>true</removeCartFlag>
+		<tdm>
+			<type>teacher_with_no_details</type>
+    	</tdm>
+	</testcase>
+
+
+	<testcase id="teacher_add_new_creditcard_AMEX">
+		<userid>automation3@example.com</userid>
+		<password>passw0rd</password>
+		<addAccountInfo>true</addAccountInfo>
+		<module>teacher</module>
+		<removeCartFlag>true</removeCartFlag>
+		<item>3B6</item>
+		<cardname>v12 v23</cardname>
+		<cardnumber>378282246310005</cardnumber>
+		<expmonth>03</expmonth>
+		<expyear>2017</expyear>
+		<securitycode>4389</securitycode>
+		<firstname>v12</firstname>
+		<lastname>v23</lastname>
+		<address1>Patrick Henry Drive</address1>
+		<address2>St. Mark Place</address2>
+		<country>United States</country>
+		<zip>10012</zip>
+		<city>New York</city>
+		<state>New York</state>
+		<phone>333-333-3333</phone>
+		<default>yes</default>
+	</testcase>
+
+	<testcase id="teacher_see_recommandation_on_shop_and_bookpage" description="verifying the navigation by control-bubbles and arrows for products in recommendations">
+		<userid>bts12_t19@scholastic.com</userid>
+		<password>passw0rd</password>
+		<item>3B6</item>
+		<tdm>
+			<type>teacher_with_no_details</type>
+    	</tdm>
+	</testcase>
+
+
+	<testcase id="teacher_edit_cart_and_continue_checkout_from_shipping_and_payment_section" description="verifying ">
+		<userid>test_auto01@scholastic.com</userid>
+		<addAccountInfo>true</addAccountInfo>
+		<password>passw0rd</password>
+		<item>3B6</item>
+		<noofstudents>2</noofstudents>
+		<module>teacher</module>
+		<username>Ms. Automation</username>
+		<removeCartFlag>true</removeCartFlag>
+		<orderprice>10</orderprice>
+		<tdm>
+			<type>teacher_with_no_details</type>
+    	</tdm>
+	</testcase>
+
+	<testcase id="teacher_select_my_scholastic_link_from_shipping_and_payment_section" description="verifying ">
+		<userid>test_auto01@scholastic.com</userid>
+		<addAccountInfo>true</addAccountInfo>
+		<password>passw0rd</password>
+		<item>3B6</item>
+		<noofstudents>2</noofstudents>
+		<module>teacher</module>
+		<username>Ms. Automation</username>
+		<removeCartFlag>true</removeCartFlag>
+		<orderprice>10</orderprice>
+	</testcase>
+	
+	<testcase id="teacher_switch_credit_card_on_shippingandpaymentsection">
+		<userid>automation1@example.com</userid>
+		<removeCartFlag>true</removeCartFlag>
+		<addAccountInfo>true</addAccountInfo>
+		<password>passw0rd</password>
+		<module>teacher</module>
+		<item>3B6</item>
+		<noofstudents>2</noofstudents>
+		<card>Amex</card>
+		<cardnumber>Amex ending in 0005</cardnumber>
+		<cardname>test auto</cardname>
+		<expmonth>03</expmonth>
+		<expyear>2017</expyear>
+		<address1>Patrick Henry Drive</address1>
+		<address2>St. Mark Place</address2>
+		<zip>10012</zip>
+		<city>New York</city>
+		<state>NY</state>
+		<phone>333-333-3333</phone>
+		<tdm>
+			<type>teacher_with_1_visa_1_AMEX_cc_info</type>
+    	</tdm>
+			
+	</testcase>
+
+	<testcase id="teacher_make_payment_with_combinationof_creditcard_and_check">
+		<userid>tester123@example.com</userid>
+		<module>teacher</module>
+		<addAccountInfo>true</addAccountInfo>
+		<password>passw0rd</password>
+		<item>3B6</item>
+		<paymentmethod>COMBO_CC_CHECKS</paymentmethod>
+		<cardname>test auto</cardname>
+		<cardnumber>378282246310005</cardnumber>
+		<expirymonth>03</expirymonth>
+		<expiryyear>2017</expiryyear>
+		<firstname>test</firstname>
+		<lastname>auto</lastname>
+		<address1>Patrick Henry Drive</address1>
+		<address2>St. Mark Place</address2>
+		<country>United States</country>
+		<zip>10012</zip>
+		<city>New York</city>
+		<state>new york</state>
+		<phonenumber>3333333333</phonenumber>
+		<securitycode>4389</securitycode>
+		<noofstudents>3</noofstudents>
+		<removeCartFlag>true</removeCartFlag>
+	</testcase>
+
+	<testcase id="teacher_do_payment_with_combinationofcreditcardandchecks">
+		<addAccountInfo>true</addAccountInfo>
+		<module>teacher</module>
+		<userid>tester123@example.com</userid>
+		<password>passw0rd</password>
+		<item>3B6</item>
+		<paymentmethod>COMBO_CC_CHECKS</paymentmethod>
+		<cardname>test auto</cardname>
+		<cardnumber>378282246310005</cardnumber>
+		<expirymonth>03</expirymonth>
+		<expiryyear>2017</expiryyear>
+		<firstname>test</firstname>
+		<lastname>auto</lastname>
+		<address1>Patrick Henry Drive</address1>
+		<address2>St. Mark Place</address2>
+		<country>United States</country>
+		<zip>10012</zip>
+		<city>New York</city>
+		<state>new york</state>
+		<phonenumber>3333333333</phonenumber>
+		<securitycode>4389</securitycode>
+		<noofstudents>3</noofstudents>
+		<removeCartFlag>true</removeCartFlag>
+		<specificAmttOrder>true</specificAmttOrder>
+		<orderprice>1000</orderprice>
+	</testcase>
+
+
+	<testcase id="teacher_fill_invalid_discover_credit_card">
+		<addAccountInfo>true</addAccountInfo>
+		<userid>automation2@example.com</userid>
+		<password>passw0rd</password>
+		<module>teacher</module>
+		<removeCartFlag>true</removeCartFlag>
+		<item>3B6</item>
+		<cardname>test auto</cardname>
+		<invalidcardnumber>4111111111111110</invalidcardnumber>
+		<cardnumber>4111111111111111</cardnumber>
+		<expmonth>03</expmonth>
+		<expyear>2017</expyear>
+		<securitycode>389</securitycode>
+		<firstname>test</firstname>
+		<lastname>auto</lastname>
+		<address1>Patrick Henry Drive</address1>
+		<address2>St. Mark Place</address2>
+		<country>United States</country>
+		<zip>10012</zip>
+		<city>New York</city>
+		<state>New York</state>
+		<phone>3333333333</phone>
+		<default>yes</default>
+	</testcase>
+
+<testcase id="teacher_fill_invalid_firstname_lastname_in_credit_card_information">
+		<addAccountInfo>true</addAccountInfo>
+		<userid>automation2@example.com</userid>
+		<password>passw0rd</password>
+		<module>teacher</module>
+		<removeCartFlag>true</removeCartFlag>
+		<item>3B6</item>
+		<cardname>v12 v23</cardname>
+		<cardnumber>378282246310005</cardnumber>
+		<expmonth>02</expmonth>
+		<expyear>2017</expyear>
+		<securitycode>4389</securitycode>
+		<firstname>v12</firstname>
+		<lastname>v23</lastname>
+		<address1>Patrick Henry Drive</address1>
+		<address2>St. Mark Place</address2>
+		<country>United States</country>
+		<zip>10012</zip>
+		<city>New York</city>
+		<state>New York</state>
+		<phone>333-333-3333</phone>
+		<default>yes</default>
+	</testcase>
+
+	<testcase id="teacher_add_new_credit_card_and_select_exsisting_credit_card">
+		<addAccountInfo>true</addAccountInfo>
+		<userid>automation2@example.com</userid>
+		<password>passw0rd</password>
+		<module>teacher</module>
+		<removeCartFlag>true</removeCartFlag>
+		<item>3B6</item>
+		<cardname>v12 v23</cardname>
+		<cardnumber>378282246310005</cardnumber>
+		<expmonth>02</expmonth>
+		<expyear>2017</expyear>
+		<securitycode>4389</securitycode>
+		<firstname>v12</firstname>
+		<lastname>v23</lastname>
+		<address1>Patrick Henry Drive</address1>
+		<address2>St. Mark Place</address2>
+		<country>United States</country>
+		<zip>10012</zip>
+		<city>New York</city>
+		<state>New York</state>
+		<phone>333-333-3333</phone>
+		<default>yes</default>
+		<tdm>
+			<type>teacher_with_1_visa_cc_info</type>
+    	</tdm>
+	</testcase>
+
+	<testcase id="teacher_edit_creditcard_AMEX">
+		<userid>automation4@example.com</userid>
+		<password>passw0rd</password>
+		<module>teacher</module>
+		<item>3B6</item>
+		<cardname>automation test</cardname>
+		<cardnumber>378282246310005</cardnumber>
+		<expmonth>02</expmonth>
+		<expyear>2017</expyear>
+		<securitycode>4389</securitycode>
+		<firstname>automation</firstname>
+		<lastname>test</lastname>
+		<address1>Patrick Henry Drive</address1>
+		<address2>St. Mark Place</address2>
+		<country>United States</country>
+		<zip>10012</zip>
+		<city>New York</city>
+		<state>New York</state>
+		<phone>333-333-3333</phone>
+		<default>yes</default>
+	</testcase>
+	<testcase id="teacher_do_payment_with_combinationofcreditcardandcheckswithamexcard">
+		<addAccountInfo>true</addAccountInfo>
+		<module>teacher</module>
+	    <userid>teacher_auto01@scholastic.com</userid>
+		<password>passw0rd</password>
+		<username>Mr. tester123</username>
+		<item>3B6</item>
+		<paymentmethod>COMBO_CC_CHECKS</paymentmethod>
+		<cardname>test auto</cardname>
+		<noofstudents>3</noofstudents>
+		<removeCartFlag>false</removeCartFlag>
+		<specificAmttOrder>true</specificAmttOrder>
+		<orderprice>1000</orderprice>
+	</testcase>
+
+	<testcase id="teacher_add_purchase_order_as_payment_method">
+		<addAccountInfo>true</addAccountInfo>
+		<module>teacher</module>
+		<userid>teacher_purchaseorder01@example.com</userid>
+		<password>passw0rd</password>
+		<username>Mr. tester123</username>
+		<item>3B6</item>
+		<paymentmethod>PO</paymentmethod>
+		<cardname>test auto</cardname>
+		<noofstudents>3</noofstudents>
+		<removeCartFlag>true</removeCartFlag>
+		<specificAmttOrder>false</specificAmttOrder>
+		<orderprice>1000</orderprice>
+		<tdm>
+			<type>teacher_with_no_details</type>
+    	</tdm>
+	</testcase>
+
+	<testcase id="teacher_login_with_no_pcool_order_more_then_20dolar_item_1134">
+		<userid>test123@example.com</userid>
+		<password>passw0rd</password>
+		<item>3B6</item>
+		<username>ms. TestName123</username>
+		<removeCartFlag>true</removeCartFlag>
+		<noofstudents>2</noofstudents>
+		<module>teacher</module>
+		<specificAmttOrder>true</specificAmttOrder>
+		<orderprice>40</orderprice>
+	</testcase>
+
+	<testcase id="teacher_checkoutwith_with_pcoolorder_ytoitemlessthen20dolar">
+		<userid>teacher_shipping01@example.com</userid>
+		<password>passw0rd</password>
+		<item>3B6</item>
+		<username>mr. test</username>
+		<removeCartFlag>true</removeCartFlag>
+		<removeSooFlag>false</removeSooFlag>
+		<noofstudents>2</noofstudents>
+		<module>teacher</module>
+		<removeytoItems>true</removeytoItems>
+		<pcoolordersubmit>off</pcoolordersubmit>
+	</testcase>
+
+	<testcase id="apple_user_teacher_login_1132">
+		<userid>bts12_t19@scholastic.com</userid>
+		<password>passw0rd</password>
+		<item>3B6</item>
+		<username>TCOOL_QA19 TCOOL_QA19</username>
+		<removeCartFlag>true</removeCartFlag>
+		<noofstudents>2</noofstudents>
+		<module>teacher</module>
+	</testcase>
+
+	<testcase id="teacher_login_yto_order_less_then_20dolar_item_1133">
+		<userid>teacherorder_02@example.com</userid>
+		<password>passw0rd</password>
+		<item>3B6</item>
+		<username>ms. TestName123</username>
+		<removeCartFlag>true</removeCartFlag>
+		<noofstudents>2</noofstudents>
+		<module>teacher</module>
+		<tdm>
+			<type>teacher_with_no_details</type>
+    	</tdm>
+	</testcase>
+
+	<!-- this test data for test case 2340 -->
+	<testcase id="teacher_login_with_no_pcool_order_less_then_20_dolar_in_item_cart">
+		<userid>teachershipping_03@example.com</userid>
+		<password>passw0rd</password>
+		<item>3B6</item>
+		<username>ms. TestName123</username>
+		<removeCartFlag>true</removeCartFlag>
+		<noofstudents>2</noofstudents>
+		<module>teacher</module>
+		<tdm>
+			<type>teacher_with_no_details</type>
+    	</tdm>
+	</testcase>
+
+	<testcase id="teacher_login_with_no_pcool_order_more_then_20_dolar_in_item_cart">
+		<userid>check01@example.com</userid>
+		<password>passw0rd</password>
+		<item>3B6</item>
+		<username>ms. TestName123</username>
+		<removeCartFlag>true</removeCartFlag>
+		<noofstudents>2</noofstudents>
+		<module>teacher</module>
+		<specificAmttOrder>true</specificAmttOrder>
+		<orderprice>40</orderprice>
+		<tdm>
+			<type>teacher_with_no_details</type>
+    	</tdm>
+	</testcase>
+
+	<testcase id="teacher_set_due_date_on_teacher_desk" description="this test data is use for setting due date on teacher desk page">
+		<userid>test_auto01@scholastic.com</userid>
+		<password>passw0rd</password>
+		<item>3B6</item>
+		<noofstudents>2</noofstudents>
+		<module>teacher</module>
+		<date>29</date>
+		<month>June</month>
+		<year>2016</year>
+		<username>Ms. Automation</username>
+		<removeCartFlag>true</removeCartFlag>
+		<tdm>
+			<type>teacher_with_no_details</type>
+    	</tdm>
+	</testcase>
+
+	<testcase id="teacher_loginwith_without_due_date" description="this test data is use for verifying due date is not set on teacher desk page">
+		<userid>teacherduedate@example.com</userid>
+		<password>passw0rd</password>
+		<item>3B6</item>
+		<noofstudents>2</noofstudents>
+		<module>teacher</module>
+		<username>Ms.Automation</username>
+		<removeCartFlag>true</removeCartFlag>
+		<tdm>
+			<type>teacher_with_no_details</type>
+    	</tdm>
+	</testcase>
+
+
+	<testcase id="teacher_login_with_pcool_order_and_more_then_20_dolar_in_item_cart">
+		<userid>teacher_shipping01@example.com</userid>
+		<password>passw0rd</password>
+		<item>3B6</item>
+		<username>mr. test</username>
+		<removeCartFlag>true</removeCartFlag>
+		<noofstudents>2</noofstudents>
+		<module>teacher</module>
+		<removeytoItems>true</removeytoItems>
+		<specificAmttOrder>true</specificAmttOrder>
+		<orderprice>40</orderprice>
+	</testcase>
+
+	<testcase id="teacher_login_with_pcool_order_and_less_then_20_dolar_in_item_cart">
+		<userid>teacher_shipping01@example.com</userid>
+		<password>passw0rd</password>
+		<item>3B6</item>
+		<username>mr. test</username>
+		<removeCartFlag>true</removeCartFlag>
+		<noofstudents>2</noofstudents>
+		<module>teacher</module>
+		<removeytoItems>true</removeytoItems>
+	</testcase>
+
+	<testcase id="teacher_login_with_gold_apple_status_id" description="testdata for gold apple teacher  ">
+		<userid>goldapple@scholastic.com</userid>
+		<password>passw0rd</password>
+		<item>3B6</item>
+		<applestatus>gold</applestatus>
+	</testcase>
+	
+	<testcase id="teacher_login_with_green_apple_status_id" description="testdata for green apple teacher ">
+		<userid>test_auto01@scholastic.com</userid>
+		<password>passw0rd</password>
+		<item>3B6</item>
+		<applestatus>green</applestatus>
+	</testcase>
+
+	<testcase id="teacher_login_with_red_apple_status_id" description="testdata for red apple teacher ">
+		<userid>bts12_t19@scholastic.com</userid>
+		<password>passw0rd</password>
+		<item>3B6</item>
+		<applestatus>red</applestatus>
+	</testcase>
+	<testcase id="teacher_do_payment_with_paypal_account">
+		<userid>automation5@example.com</userid>
+		<password>passw0rd</password>
+		<item>3B6</item>
+		<module>teacher</module>
+		<paypalemail>parent@scholastic.com</paypalemail>
+		<paypalpassword>Scholastic</paypalpassword>
+	</testcase>
+
+
+	<testcase id="teacher_change_payment_method_from_paypal" description="testdata for payment through paypal">
+		<userid>test_auto01@scholastic.com</userid>
+		<password>passw0rd</password>
+		<item>3B6</item>
+	</testcase>
+	<testcase id="teacher_do_payment_with_savedpaypalaccount">
+		<userid>teacher_shipping02@example.com</userid>
+		<password>passw0rd</password>
+		<item>3B6</item>
+		<removeCartFlag>true</removeCartFlag>
+		<noofstudents>2</noofstudents>
+		<module>teacher</module>
+	</testcase>
+	
+	<testcase id="teacher_make_payment_with_purchase_order_payment_method">
+	<userid>xyz_automation@scholastic.com</userid>
+<!-- 		<userid>tst123@scholastic.com</userid> -->
+		<module>teacher</module>
+		<addAccountInfo>true</addAccountInfo>
+		<password>passw0rd</password>
+		<studentname>John</studentname>
+		<paymentmethod>Purchase Order</paymentmethod>
+		<itemid>2B6</itemid>
+		</testcase>
+	<testcase id="teacher_see_order_summary_on_checkout_page">
+	    <userid>teacher_check03@example.com</userid>
+		<password>passw0rd</password>
+	    <noofstudents>2</noofstudents>
+		<module>teacher</module>
+	    <studentname>John</studentname>
+	    <item>3B6</item>
+		<itemid>7B6</itemid>
+		<quantity>2</quantity>
+		<removeCartFlag>true</removeCartFlag>
+	</testcase>
+	
+	<testcase id="teacher_applies_coupouns_on_rewards_and_coupons">
+	    <userid>sfotest123@scholastic.com</userid>
+		<password>passw0rd</password>
+		<removeCartFlag>true</removeCartFlag>
+		<couponnumber>C000194</couponnumber>
+		<selectgrade>1st Grade</selectgrade>
+		<couponitemnumber>0</couponitemnumber>
+		<module>teacher</module>
+		<studentname>John</studentname>
+		<itemid>2B6</itemid>
+	</testcase>
+	
+	
+	<testcase id="teacher_applies_invalid_coupon_code_on_rewards_and_coupons">
+	    <userid>sfotest123@scholastic.com</userid>
+		<password>passw0rd</password>
+		<removeCartFlag>true</removeCartFlag>
+		<couponnumber>2354</couponnumber>
+		<selectgrade>1st Grade</selectgrade>
+		<couponitemnumber>0</couponitemnumber>
+		<module>teacher</module>
+		<studentname>John</studentname>
+		<itemid>2B6</itemid>
+	</testcase>
+	
+	<testcase id="teacher_applies_and_verifies_coupons">
+	    <userid>sfotest123@scholastic.com</userid>
+		<password>passw0rd</password>
+		<removeCartFlag>true</removeCartFlag>
+		<couponnumber>DW5DTS</couponnumber>
+		<selectgrade>1st Grade</selectgrade>
+		<couponitemnumber>0,1,2</couponitemnumber>
+		<module>teacher</module>
+		<studentname>John,Harry,Abc</studentname>
+		<itemid>2B6,13K6,1K6</itemid>
+	</testcase>
+	
+	
+	<testcase id="teacher_verify_endtoend_checkout_flow">
+	    <userid>teacher_order01@example.com</userid>
+		<password>passw0rd</password>
+	  	<addAccountInfo>true</addAccountInfo>
+		<noofstudents>2</noofstudents>
+		<module>teacher</module>
+		<studentname>John</studentname>
+		<itemid>4B6</itemid>
+	    <item>3B6</item>
+		<removeCartFlag>true</removeCartFlag>
+		<email>test123@example.com</email>
+	</testcase>
+	
+	<testcase id="teacher_applies_and_verifies_different_coupons">
+	    <userid>sfotest123@scholastic.com</userid>
+		<password>passw0rd</password>
+		<removeCartFlag>true</removeCartFlag>
+		<couponnumber>C000002,DW5DTS,F000002,D000002</couponnumber>
+		<coupontype>freepick,dollartpospend,bonuspoint,MGM</coupontype>
+		<selectgrade>1st Grade,1st Grade,NA,NA</selectgrade>
+		<couponitemnumber>0,1,2</couponitemnumber>
+		<module>teacher</module>
+		<studentname>John,Harry</studentname>
+		<itemid>2B6,13K6</itemid>
+		<teachercustomerno>1623370002</teachercustomerno>
+		<teacherfirstname>Mr. SFO</teacherfirstname>
+		<teacherlastname>test</teacherlastname>
+		<couponselctionmethod>ByGrade,ByGrade,NA,NA</couponselctionmethod>
+	</testcase>
+
+	<testcase id="teacher_with_soo_and_QA_tossin_promotions">
+	    <userid>testteacher</userid>
+		<password>passw0rd</password>
+		<studentname>John</studentname>
+		<itemid>2B6</itemid>
+		<noofstudents>2</noofstudents>
+	</testcase>
+	<testcase id="teacher_coupon_not_meet_requirements">
+	    <userid>chromelatest_auto@scholastic.com</userid>
+		<password>passw0rd</password>
+		<studentname>John</studentname>
+		<itemid>2B6</itemid>
+		<couponnumber>DW5DTS</couponnumber>
+		<removeCartFlag>true</removeCartFlag>
+	</testcase>
+
+	<testcase id="teacher_select_my_scholastic_link_from_shipping_and_payment_section">
+	  <userid>teacher_order01@example.com</userid>
+		<password>passw0rd</password>
+	  	<addAccountInfo>true</addAccountInfo>
+		<noofstudents>2</noofstudents>
+		<item>3B6</item>
+		<removeCartFlag>true</removeCartFlag>
+		<module>teacher</module>
+	</testcase>
+	<testcase id="teacher_verify_added_coupon_item">
+	   <userid>test_dom75@scholastic.com</userid>
+		<password>passw0rd</password>
+		<studentname>Harry,Jane</studentname>
+		<itemid>7B6,6B6</itemid>
+		<couponstudent>Mark</couponstudent>
+		<couponnumber>C000021</couponnumber>
+		<selectgrade>2nd Grade</selectgrade>
+		<couponitemnumber>2</couponitemnumber>
+		<flagid>true</flagid>
+		<removeCartFlag>true</removeCartFlag>
+	</testcase>
+
+	<testcase id="teacher_verifies_MGM_coupons_functionalities">
+	    <userid>goldapple@scholastic.com</userid>
+		<password>passw0rd</password>
+		<removeCartFlag>true</removeCartFlag>
+		<couponnumber>D000005</couponnumber>
+		<coupontype>MGM</coupontype>
+		<selectgrade>NA</selectgrade>
+		<module>teacher</module>
+		<studentname>John,Harry</studentname>
+		<itemid>2B6,13K6</itemid>
+		<teachercustomerno>1623370002</teachercustomerno>
+		<teacherfirstname>SFO</teacherfirstname>
+		<teacherlastname>test</teacherlastname>
+		<couponselctionmethod>NA</couponselctionmethod>
+		<invalidcustomerno>162334</invalidcustomerno>
+		<mgmcoupontobeverified>D000005</mgmcoupontobeverified>
+	</testcase>
+	
+	<testcase id="teacher_verifies_coupon_entry_functionalities">
+	   <userid>goldapple@scholastic.com</userid>
+		<password>passw0rd</password>
+		<removeCartFlag>true</removeCartFlag>
+		<couponnumber>C000002</couponnumber>
+		<coupontype>freepick</coupontype>
+		<selectgrade>1st Grade</selectgrade>
+		<module>teacher</module>
+		<studentname>John,Harry</studentname>
+		<itemid>2B6,13K6</itemid>
+		<couponselctionmethod>ByGrade</couponselctionmethod>
+		<invalidcouponnumber>2354</invalidcouponnumber>
+		<incompletecouponnumber>DW5DTS</incompletecouponnumber>
+	</testcase>
+	<testcase id="teacher_with_all_types_of_coupons_and_promotions">
+	    <userid>chromelatest_auto@scholastic.com</userid>
+		<password>passw0rd</password>
+		<studentname>John</studentname>
+		<itemid>2B6</itemid>
+		<removeCartFlag>true</removeCartFlag>
+		<quantity>3</quantity>
+		<couponstudent>John</couponstudent>
+		<couponnumber>A000112</couponnumber>
+		<selectgrade>2nd Grade</selectgrade>
+		<couponitemnumber>2</couponitemnumber>
+	
+		<!-- <couponnumber>DW5DTS,C000091,F000072</couponnumber>
+		<coupontype>dollartpospend,freepick,bonuspoint</coupontype>
+		<selectgrade>1st Grade,1st Grade,NA</selectgrade>
+		<couponselctionmethod>ByGrade,ByGrade,NA</couponselctionmethod>
+		<couponitemnumber>1</couponitemnumber>
+		<module>teacher</module> -->
+	</testcase>
+	
+	<testcase id="teacher_verify_toss-in-quantity_with_null">
+	   <userid>abc_12@gmail.com</userid>
+		<password>passw0rd</password>	 
+		<item>40B5</item> 
+		<flagid>true</flagid>
+		<removeCartFlag>true</removeCartFlag>
+	</testcase>
+
+	
+	
+	<testcase id="teacher_verifies_coupon_edit_and_delete_functionalities">
+	   <userid>goldapple@scholastic.com</userid>
+		<password>passw0rd</password>
+		<removeCartFlag>true</removeCartFlag>
+		<couponnumber>C000002,F000002,D000002</couponnumber>
+		<coupontype>freepick,bonuspoint,MGM</coupontype>
+		<selectgrade>1st Grade,NA,NA</selectgrade>
+		<module>teacher</module>
+		<studentname>John,Harry</studentname>
+		<itemid>2B6,13K6</itemid>
+		<teachercustomerno>1623370002</teachercustomerno>
+		<teacherfirstname>Mr. SFO</teacherfirstname>
+		<teacherlastname>test</teacherlastname>
+		<couponselctionmethod>ByGrade,NA,NA</couponselctionmethod>
+		<editcouponname>C000002</editcouponname>
+		<editcouponitemselctionmethod>ByGrade</editcouponitemselctionmethod>
+		<editcoupomselectgrade>1st Grade</editcoupomselectgrade>
+		<editcouponitemnumber>1,2</editcouponitemnumber>
+		<removecouponno>F000002</removecouponno>
+	</testcase>
+	
+	<testcase id="teacher_verifies_qualifying_order_and_invalid_keyword">
+	   <userid>goldapple@scholastic.com</userid>
+		<password>passw0rd</password>
+		<removeCartFlag>true</removeCartFlag>
+		<couponnumber>DW5DTS</couponnumber>
+		<coupontype>dollartpospend</coupontype>
+		<selectgrade>1st Grade</selectgrade>
+		<couponitemnumber>0,1,2</couponitemnumber>
+		<module>teacher</module>
+		<studentname>John,Harry</studentname>
+		<itemid>2B6,13K6</itemid>
+		<couponselctionmethod>ByGrade</couponselctionmethod>
+		<invalidkeyword>hij%</invalidkeyword>
+		<couponforinvalidkeyword>C000001</couponforinvalidkeyword>
+	</testcase>
+
+	<testcase id="teacher_free_pick_dollar_coupon_with_top-off">
+		<userid>auto_Z0gsqVK391@gmail.com</userid>
+		<password>passw0rd</password>
+		<removeCartFlag>true</removeCartFlag>
+		<itemid>1B6,13K6</itemid>
+		<couponnumber>DW5DTS</couponnumber>
+		<coupontype>dollartpospend</coupontype>
+		<selectgrade>1st Grade</selectgrade>
+		<couponitemnumber>3,4</couponitemnumber>
+		<couponselctionmethod>ByGrade</couponselctionmethod>
+		<module>teacher</module>
+		<addAccountInfo>true</addAccountInfo>
+		<paymentmethod>Checks</paymentmethod>
+	</testcase>
+
+	<testcase id="teacher_verify_edit_freepick_coupon">
+	    <userid>abc_12@gmail.com</userid>
+		<password>passw0rd</password>
+		<removeCartFlag>true</removeCartFlag>
+		<couponnumber>C000002</couponnumber>
+		<coupontype>freepick</coupontype>
+		<selectgrade>1st Grade</selectgrade>
+		<module>teacher</module>
+		<studentname>John</studentname>
+		<itemid>2B6</itemid>
+		<teachercustomerno>1623370002</teachercustomerno>
+		<teacherfirstname>Mr. SFO</teacherfirstname>
+		<teacherlastname>test</teacherlastname>
+		<couponselctionmethod>ByGrade</couponselctionmethod>
+		<editcouponname>C000002</editcouponname>
+		<editcouponitemselctionmethod>ByGrade</editcouponitemselctionmethod>
+		<editcoupomselectgrade>1st Grade</editcoupomselectgrade>
+		<editcouponitemnumber>1</editcouponitemnumber>
+		<addAccountInfo>true</addAccountInfo>
+	</testcase>
+	
+	<testcase id="teacher_verifies_coupon_on_cart">
+	   <userid>goldapple@scholastic.com</userid>
+		<password>passw0rd</password>
+		<removeCartFlag>true</removeCartFlag>
+		<couponnumber>C000006</couponnumber>
+		<couponstudent>Kate</couponstudent>
+		<selectgrade>1st Grade</selectgrade>
+		<couponitemnumber>0</couponitemnumber>
+		<module>teacher</module>
+		<studentname>John</studentname>
+		<itemid>2B6</itemid>
+	</testcase>
+	
+	<testcase id="teacher_verifies_free_pick_modal">
+	   <userid>goldapple@scholastic.com</userid>
+		<password>passw0rd</password>
+		<removeCartFlag>true</removeCartFlag>
+		<studentname>John</studentname>
+		<itemid>2B6</itemid>
+		<couponnumber>C000002</couponnumber>
+		<module>teacher</module>
+		<keytobesearched>judy moody</keytobesearched>
+		<gradetosearch>5th Grade</gradetosearch>
+		<invalidkeyword>sdfg</invalidkeyword>
+	</testcase>
+	
+	
+	<testcase id="teacher_verifies_maximum_student_limit_for_toss_in">
+	   <userid>goldapple@scholastic.com</userid>
+		<password>passw0rd</password>
+<!-- 		<removeCartFlag>true</removeCartFlag> -->
+		<studentname>John</studentname>
+		<itemid>2B6</itemid>
+		<module>teacher</module>
+		<numberofstudents>55</numberofstudents>		
+	</testcase>
+	<testcase id="teacher_verifies_coupon_delete_nooption">
+	   <userid>test_dom75@scholastic.com</userid>
+		<password>passw0rd</password>
+		<removeCartFlag>true</removeCartFlag>
+		<couponnumber>C000002,F000002,D000002</couponnumber>
+		<coupontype>freepick,bonuspoint,MGM</coupontype>
+		<selectgrade>1st Grade,NA,NA</selectgrade>
+		<module>teacher</module>
+		<studentname>John,Harry</studentname>
+		<itemid>2B6,13K6</itemid>
+		<teachercustomerno>1623370002</teachercustomerno>
+		<teacherfirstname>Mr. SFO</teacherfirstname>
+		<teacherlastname>test</teacherlastname>
+		<couponselctionmethod>ByGrade,NA,NA</couponselctionmethod>
+		<editcouponname>C000002</editcouponname>
+		<editcouponitemselctionmethod>ByGrade</editcouponitemselctionmethod>
+		<editcoupomselectgrade>1st Grade</editcoupomselectgrade>
+		<editcouponitemnumber>1,2</editcouponitemnumber>
+		<removecouponno>F000002</removecouponno>
+	</testcase>
+	
+	<testcase id="teacher_verifies_coupon_delete_nooption">
+	   <userid>test_dom75@scholastic.com</userid>
+		<password>passw0rd</password>
+		<removeCartFlag>true</removeCartFlag>
+		<couponnumber>C000002,F000002,D000002</couponnumber>
+		<coupontype>freepick,bonuspoint,MGM</coupontype>
+		<selectgrade>1st Grade,NA,NA</selectgrade>
+		<module>teacher</module>
+		<studentname>John,Harry</studentname>
+		<itemid>2B6,13K6</itemid>
+		<teachercustomerno>1623370002</teachercustomerno>
+		<teacherfirstname>Mr. SFO</teacherfirstname>
+		<teacherlastname>test</teacherlastname>
+		<couponselctionmethod>ByGrade,NA,NA</couponselctionmethod>
+		<editcouponname>C000002</editcouponname>
+		<editcouponitemselctionmethod>ByGrade</editcouponitemselctionmethod>
+		<editcoupomselectgrade>1st Grade</editcoupomselectgrade>
+		<editcouponitemnumber>1,2</editcouponitemnumber>
+		<removecouponno>F000002</removecouponno>
+	</testcase>
+	
+	
+
+	<testcase id="teacher_login_with_twentydollar_enterstudents_0" description="this test data is use for validate QA toss-in with zero students">
+		<userid>7527750</userid>
+		<password>passw0rd</password>
+		<studentname>Harry</studentname>
+		<itemid>5</itemid>
+		<addAccountInfo>true</addAccountInfo>
+		<noofstudents>0</noofstudents>
+		<module>teacher</module>
+		<username>mr. V23</username>
+		<removeCartFlag>true</removeCartFlag>
+		<tdm>
+			<type>teacher_with_no_details</type>
+    	</tdm>
+	</testcase>
+	
+	<testcase id="teacher_login_with_twentydollar_enterstudents_50" description="this test data is use for validate QA toss-in with zero students">
+		<userid>7527750</userid>
+		<password>passw0rd</password>
+		<studentname>John</studentname>
+		<itemid>5</itemid>
+		<addAccountInfo>true</addAccountInfo>
+		<noofstudents>50</noofstudents>
+		<module>teacher</module>
+		<username>mr. V23</username>
+		<removeCartFlag>true</removeCartFlag>
+		<tdm>
+			<type>teacher_with_no_details</type>
+    	</tdm>
+	</testcase>
+	
+	
+	<testcase id="teacher_login_with_twentydollar_enterstudents_49" description="this test data is use for validate QA toss-in with zero students">
+		<userid>7527750</userid>
+		<password>passw0rd</password>
+		<studentname>Margit</studentname>
+		<itemid>5</itemid>
+		<addAccountInfo>true</addAccountInfo>
+		<noofstudents>49</noofstudents>
+		<module>teacher</module>
+		<username>mr. V23</username>
+		<removeCartFlag>true</removeCartFlag>
+		<tdm>
+			<type>teacher_with_no_details</type>
+    	</tdm>
+	</testcase>
+
+	
+	
+	
+	
+
+</testdata>

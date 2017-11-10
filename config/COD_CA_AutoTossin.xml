@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Demandware" parallel="tests" thread-count="1">
+<test name="Auto_Tossins" enabled="true">            
+<parameter name="features" value="features/AutoTossin.feature" />
+<parameter name="glue" value="com.dw.automation.steps" />
+<parameter name="sauce" value="true" />
+<parameter name="remote.driver.url" value="http://sereti_qe:b9b8a9e1-e525-46af-9c7f-4a11c372b5c5@ondemand.saucelabs.com:80/wd/hub"/>
+<parameter name="tdm.data" value="off" />
+<parameter name="driver.name" value="Firefox" />
+<parameter name="driver.capabilities" value="{'version': '44.0','platform':'Windows 10','name':'Auto_Tossin_Features'}" />
+  <classes>
+   <class name="com.scholastic.torque.runner.Run" />
+  </classes>
+</test>
+</suite>
+
+

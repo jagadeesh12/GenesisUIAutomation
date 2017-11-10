@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Demandware_CA">
+
+		
+<test name="Edit Redemptions" enabled="true">
+ <parameter name="features" value="features/COD_CA_Edit_Redemptions.feature" />
+ <parameter name="glue" value="com.dw.automation.steps" />
+ <parameter name="sauce" value="false" />
+<!--<parameter name="remote.driver.url"-->
+		<!--value="http://canada_on_demand:559408d0-a1cb-4b79-90ca-0e85282a0d47@ondemand.saucelabs.com:80/wd/hub" />-->
+ <parameter name="tdm.data" value="off" />
+ <!--<parameter name="tags" value="@qastudentincentive,@DollarstoSpend,@ManualFreePick,@Auto-FreeShipping,@Manual-FreeShipping" />-->
+ <parameter name="driver.name" value="Firefox" />
+ <!--<parameter name="driver.capabilities" value="{'version': '44.0','platform':'Windows 10','name':'testCanada'}" />-->
+  <classes>
+   <class name="com.scholastic.torque.runner.Run" />
+  </classes>
+ </test>
+ 
+ 
+ <!-- <test name="Auto_DTS" enabled="true">		
+ <parameter name="features" value="features/COD_CA_DollarsToSpend.feature" />
+ <parameter name="glue" value="com.dw.automation.steps" />
+ <parameter name="sauce" value="true" />
+ <parameter name="tdm.data" value="off" />
+ <parameter name="tags" value="@DollarstoSpend" />
+ <parameter name="driver.name" value="Firefox" />
+  <classes>
+   <class name="com.scholastic.torque.runner.Run" />
+  </classes>
+ </test>  -->
+
+</suite>

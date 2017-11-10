@@ -1,0 +1,92 @@
+<testdata>
+	<testcase id="CIM_TeacherName">
+		<userid>bmekala</userid>
+		<password>July2018!</password>
+		<AcNum>5062104</AcNum>
+		<TeacherFullName>5062104-Fname 5062104-Lname</TeacherFullName>
+		<ItemNum>1</ItemNum>
+		<ItemQty>1</ItemQty>
+	</testcase>
+	
+	<testcase id="CIM_TeacherName_NoPrefix">
+		<userid>bmekala</userid>
+		<password>July2018!</password>
+		<AcNum>5089439</AcNum>
+		<TeacherFullName>5089439-Fname 5089439-Lname</TeacherFullName>
+	</testcase>
+	
+	<testcase id="CIM_NoAppleStatus">
+		<userid>bmekala</userid>
+		<password>July2018!</password>
+		<AcNum>5093711</AcNum>
+	</testcase>
+	
+	<testcase id="CIM_SchoolInfo">
+		<userid>bmekala</userid>
+		<password>July2018!</password>
+		<AcNum>5096583</AcNum>
+	</testcase>
+	
+	<testcase id="CIM_AccountNumber">
+		<userid>bmekala</userid>
+		<password>July2018!</password>
+		<AcNum>3908384</AcNum>
+	</testcase>
+	
+	<testcase id="CIM_Active_status">
+		<userid>bmekala</userid>
+		<password>July2018!</password>
+		<AcNum>3971125</AcNum>
+	</testcase>
+	
+	<testcase id="CIM_Inactive_status">
+		<userid>bmekala</userid>
+		<password>July2018!</password>
+		<AcNum>331851</AcNum>
+	</testcase>
+	
+	<testcase id="CIM_TemporaryHold_Status">
+		<userid>bmekala</userid>
+		<password>July2018!</password>
+		<AcNum>4034378</AcNum>
+	</testcase>
+	
+	<testcase id="CIM_Pre-Paid_Status">
+		<userid>bmekala</userid>
+		<password>July2018!</password>
+		<AcNum>4046175</AcNum>
+	</testcase>
+	
+	<testcase id="CIM_HeldByAR">
+		<userid>bmekala</userid>
+		<password>July2018!</password>
+		<AcNum>4047933</AcNum>
+	</testcase>
+	
+	<testcase id="CIM_BonusBank">
+		<userid>bmekala</userid>
+		<password>July2018!</password>
+		<AcNum>5111795</AcNum>
+	</testcase>
+	
+	<testcase id="CIM_BonusBankFlyout">
+		<userid>bmekala</userid>
+		<password>July2018!</password>
+		<AcNum>5105293</AcNum>
+	</testcase>
+	
+	<testcase id="CIM_0BonusBank">
+		<userid>bmekala</userid>
+		<password>July2018!</password>
+		<AcNum>4063848</AcNum>
+	</testcase>
+	
+	<testcase id="CIM_BonusBankBalance">
+		<userid>bmekala</userid>
+		<password>July2018!</password>
+		<AcNum>3616903</AcNum>
+		<BonusBankAmt>1,000.00</BonusBankAmt>
+	</testcase>
+	
+
+</testdata>

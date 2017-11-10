@@ -1,0 +1,1660 @@
+<testdata>
+	<testcase id="CSR_Teacher_using_TGAT_coupon_for_student_club_items">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>277675</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>2</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>2</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+  		<TGATcoupon>TGAT1234</TGATcoupon>
+		<RefTeacherCustNo>270405</RefTeacherCustNo>
+		<RefTeacherFname>John</RefTeacherFname>
+		<RefTeacherLname>Son</RefTeacherLname>
+	</testcase>
+	
+	<testcase id="CSR_Teacher_using_TGAT_coupon_for_student_and_teacher_club_items">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>277716</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>2</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>2</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+  		<TGATcoupon>TGAT1234</TGATcoupon>
+	</testcase>
+	
+	<testcase id="CSR_Teacher_using_TGAT_coupon_for_teacher_club_items">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>277758</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>2</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>2</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+  		<TGATcoupon>TGAT1234</TGATcoupon>
+	</testcase>
+	
+	<testcase id="CSR_Teacher_using_TGAT_coupon_and_enters_Inactive_account_number">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>277831</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>2</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>2</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+  		<TGATcoupon>TGAT1234</TGATcoupon>
+		<RefTeacherCustNo>654321</RefTeacherCustNo>
+		<RefTeacherFname>John</RefTeacherFname>
+		<RefTeacherLname>Son</RefTeacherLname>
+	</testcase>
+	
+	<testcase id="CSR_TGAT_coupon_information_in_Confirm_and_Submit_and_Confirmation_page">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>277881</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>2</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>2</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+  		<TGATcoupon>TGAT5678</TGATcoupon>
+		<RefTeacherCustNo>270405</RefTeacherCustNo>
+		<RefTeacherFname>John</RefTeacherFname>
+		<RefTeacherLname>Son</RefTeacherLname>
+	</testcase>
+	
+	<testcase id="CSR_TGAT_coupon_information_in_Order_History_section">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>278029</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>2</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>2</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+  		<TGATcoupon>TGAT5678</TGATcoupon>
+		<RefTeacherCustNo>270405</RefTeacherCustNo>
+		<RefTeacherFname>John</RefTeacherFname>
+		<RefTeacherLname>Son</RefTeacherLname>
+	</testcase>
+	
+	<testcase id="CSR_TGAT_coupon_with_incorrect_referring_teacher">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>278136</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>2</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>2</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+  		<TGATcoupon>TGAT1234</TGATcoupon>
+		<RefTeacherCustNo>654321</RefTeacherCustNo>
+		<RefTeacherFname>John</RefTeacherFname>
+		<RefTeacherLname>Son</RefTeacherLname>
+	</testcase>
+	
+	<testcase id="CSR_TGAT_coupon_with_only_Fname_Lname_referring_teacher">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>278186</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>2</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>2</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+  		<TGATcoupon>TGAT1234</TGATcoupon>
+		<RefTeacherFname>John</RefTeacherFname>
+		<RefTeacherLname>Son</RefTeacherLname>
+	</testcase>
+	
+	<testcase id="CSR_TGAT_coupon_with_only_AcNumber_Lname_referring_teacher">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>278326</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>2</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>2</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+  		<TGATcoupon>TGAT1234</TGATcoupon>
+		<RefTeacherCustNo>270405</RefTeacherCustNo>
+		<RefTeacherLname>Son</RefTeacherLname>
+	</testcase>
+	
+	<testcase id="CSR_TGAT_coupon_with_only_AcNumber_Lname_referring_teacher">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>278681</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>2</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>2</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+  		<TGATcoupon>TGAT1234</TGATcoupon>
+		<RefTeacherCustNo>270405</RefTeacherCustNo>
+		<RefTeacherLname>Son</RefTeacherLname>
+	</testcase>
+	
+	<testcase id="CSR_Teacher_using_multiple_TGAT_coupon_for_same_orders">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>278699</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>2</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>2</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+  		<TGATcouponTeacher1>TGAT1234</TGATcouponTeacher1>
+		<RefTeacherCustNo>270405</RefTeacherCustNo>
+		<RefTeacherFname>John</RefTeacherFname>
+		<RefTeacherLname>Son</RefTeacherLname>
+		<TGATcouponTeacher2>TGAT5678</TGATcouponTeacher2>
+	</testcase>
+	
+	<testcase id="CSR_Teacher_enters_invalid_TGAT_coupon">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>278756</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>2</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>2</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+  		<TGATcoupon>TGAT1433</TGATcoupon>
+	</testcase>
+	
+	<testcase id="CSR_Teacher_enters_expired_TGAT_coupon">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>278772</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>2</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>2</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+  		<TGATcoupon>TGAT1433</TGATcoupon>
+	</testcase>
+	
+	<testcase id="CSR_TGAT_coupon_without_qualifying_order_value">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>278839</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>2</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>2</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+  		<TGATcoupon>TGAT1234</TGATcoupon>
+	</testcase>
+	
+	<testcase id="CSR_Already_redeemed_TGAT_coupon_with_qualifying_order_value">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>278863</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>2</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>2</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+  		<TGATcoupon>TGAT3456</TGATcoupon>
+	</testcase>
+	
+	<testcase id="CSR_Already_redeemed_TGAT_coupon_using_different_TGAT_coupon">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>278920</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>2</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>2</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+  		<TGATcoupon>TGAT3456</TGATcoupon>
+	</testcase>
+	
+	<testcase id="CSR_TeacherA_using_TGAT_coupon_referred_by_Teacher1">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>278946</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>2</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>2</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+  		<TGATcouponTeacher1>TGAT1234</TGATcouponTeacher1>
+	</testcase>
+	
+	<testcase id="CSR_TeacherB_using_TGAT_coupon_referred_by_Teacher1">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>278988</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>2</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>2</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+  		<TGATcouponTeacher1>TGAT1234</TGATcouponTeacher1>
+	</testcase>
+	
+	<testcase id="CSR_TeacherC_using_TGAT_coupon_referred_by_Teacher1">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>279019</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>2</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>2</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+  		<TGATcouponTeacher1>TGAT1234</TGATcouponTeacher1>
+	</testcase>
+	
+	<testcase id="CSR_TeacherD_using_TGAT_coupon_referred_by_Teacher1">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>279069</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>2</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>2</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+  		<TGATcouponTeacher1>TGAT1234</TGATcouponTeacher1>
+	</testcase>
+	
+	<testcase id="CSR_ToolTip_for_TGAT_coupon_number">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>279100</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>2</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>2</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+  		<TGATcoupon>TGAT1234</TGATcoupon>
+		<RefTeacherCustNo>270405</RefTeacherCustNo>
+		<RefTeacherFname>John</RefTeacherFname>
+		<RefTeacherLname>Son</RefTeacherLname>
+	</testcase>
+	
+	<testcase id="CSR_Teacher_without_enter_TGAT_coupon_details_and_proceedToCheckout">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>279291</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>2</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>2</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+  		<TGATcoupon>TGAT1234</TGATcoupon>
+	</testcase>
+	
+	<testcase id="CSR_Enter_same_TGAT_coupon_error_message">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>279374</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>2</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>2</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+  		<TGATcoupon>TGAT1234</TGATcoupon>
+		<RefTeacherCustNo>270405</RefTeacherCustNo>
+		<RefTeacherFname>John</RefTeacherFname>
+		<RefTeacherLname>Son</RefTeacherLname>
+	</testcase>
+	
+	<testcase id="CSR_TGAT_coupon_when_selects_NO_to_delete">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>279639</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>2</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>2</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+  		<TGATcoupon>TGAT1234</TGATcoupon>
+		<RefTeacherCustNo>270405</RefTeacherCustNo>
+		<RefTeacherFname>John</RefTeacherFname>
+		<RefTeacherLname>Son</RefTeacherLname>
+	</testcase>
+	
+	<testcase id="CSR_TGAT_coupon_when_selects_YES_to_delete">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>279663</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>2</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>2</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+  		<TGATcoupon>TGAT1234</TGATcoupon>
+		<RefTeacherCustNo>270405</RefTeacherCustNo>
+		<RefTeacherFname>John</RefTeacherFname>
+		<RefTeacherLname>Son</RefTeacherLname>
+	</testcase>
+	
+	<testcase id="CSR_Same_TGAT_coupon_when_delete_and_apply">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>279762</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>2</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>2</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+  		<TGATcouponTeacher1>TGAT1234</TGATcouponTeacher1>
+		<RefTeacherCustNo>270405</RefTeacherCustNo>
+		<RefTeacherFname>John</RefTeacherFname>
+		<RefTeacherLname>Son</RefTeacherLname>
+	</testcase>
+	
+	<testcase id="CSR_Diff_TGAT_coupon_when_delete_and_apply">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>279902</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>2</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>2</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+  		<TGATcouponTeacher1>TGAT1234</TGATcouponTeacher1>
+		<TGATcouponTeacher2>TGAT5678</TGATcouponTeacher2>
+		<RefTeacherCustNo>270405</RefTeacherCustNo>
+		<RefTeacherFname>John</RefTeacherFname>
+		<RefTeacherLname>Son</RefTeacherLname>
+	</testcase>
+	
+	<testcase id="CSR_Teacher_removes_items_to_make_cart_non_qualifying">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>280058</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>2</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>2</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+  		<TGATcoupon>TGAT1234</TGATcoupon>
+		<RefTeacherCustNo>270405</RefTeacherCustNo>
+		<RefTeacherFname>John</RefTeacherFname>
+		<RefTeacherLname>Son</RefTeacherLname>
+	</testcase>
+	
+	<testcase id="CSR_Teacher_removes_items_to_make_cart_non_qualifying">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>280280</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>2</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>2</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+  		<TGATcoupon>TGAT1234</TGATcoupon>
+		<RefTeacherCustNo>270405</RefTeacherCustNo>
+		<RefTeacherFname>John</RefTeacherFname>
+		<RefTeacherLname>Son</RefTeacherLname>
+	</testcase>
+	
+	<testcase id="CSR_Top_off_from_DTS_makes_the_cart_qualify">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>280496</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>1</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>1</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>1</ItemQty3>
+  		<TGATcoupon>TGAT1234</TGATcoupon>
+		<RefTeacherCustNo>270405</RefTeacherCustNo>
+		<RefTeacherFname>John</RefTeacherFname>
+		<RefTeacherLname>Son</RefTeacherLname>
+		<grade>Grades 2 &amp; 3</grade>
+		<itemValue>15</itemValue>
+	</testcase>
+	
+	<testcase id="CSR_Redemptions_against_a_qualifying_cart_total">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>4001583</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>1</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>1</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>1</ItemQty3>
+  		<TGATcoupon>TGAT1234</TGATcoupon>
+		<sBonusBank>10</sBonusBank>
+		<sPaperBank>5</sPaperBank>
+	</testcase>
+	
+	<testcase id="CSR_Applied_TGAT_coupon_with_Redemptions_against_a_qualifying_cart_total">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>4125573</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>1</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>1</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>1</ItemQty3>
+  		<TGATcoupon>TGAT1234</TGATcoupon>
+		<RefTeacherCustNo>270405</RefTeacherCustNo>
+		<RefTeacherFname>John</RefTeacherFname>
+		<RefTeacherLname>Son</RefTeacherLname>
+		<sBonusBank>10</sBonusBank>
+		<sPaperBank>7</sPaperBank>
+	</testcase>
+	
+	<testcase id="CSR:Teacher_FREEshipping_with_coupon">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>1193341</AcNum>
+  		<FlyerCode>Z8A16</FlyerCode>
+  		<ItemNum>700</ItemNum>
+  		<ItemQty>1</ItemQty>
+  		<ItemNum2>701</ItemNum2>
+  		<ItemQty2>1</ItemQty2>
+  		<ItemNum3></ItemNum3>
+  		<ItemQty3></ItemQty3>
+  		<CouponCode>MAR17FS</CouponCode>
+	</testcase>
+	
+	<testcase id="CSR:Teacher_StudentItems_FREEshipping_with_coupon">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>1257048</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>1</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>1</ItemQty2>
+  		<ItemNum3></ItemNum3>
+  		<ItemQty3></ItemQty3>
+  		<CouponCode>MAR17FS</CouponCode>
+	</testcase>
+	
+	<testcase id="CSR:Teacher_StudentTeacherItems_FREEshipping_with_coupon">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>1279092</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>1</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>1</ItemQty2>
+  		<FlyerCode2>Z8A16</FlyerCode2>
+  		<ItemNum3>700</ItemNum3>
+  		<ItemQty3>1</ItemQty3>
+  		<CouponCode>MAR17FS</CouponCode>
+	</testcase>
+	
+	<testcase id="CSR:Teacher_deletes_items_from_cart_ManualShippingCoupon">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>1292557</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>1</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>1</ItemQty2>
+  		<ItemNum3></ItemNum3>
+  		<ItemQty3></ItemQty3>
+  		<CouponCode>MAR17FS</CouponCode>
+	</testcase>
+	
+	<testcase id="CSR:Teacher_charged_ShippingFee_lessthan_Shipping_Threshold_Coupon">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>1315383</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>1</ItemQty>
+  		<ItemNum2></ItemNum2>
+  		<ItemQty2></ItemQty2>
+  		<ItemNum3></ItemNum3>
+  		<ItemQty3></ItemQty3>
+  		<CouponCode>MAR17FS</CouponCode>
+	</testcase>
+	
+	<testcase id="CSR:Teacher_applies_StudentBonusandpaperRedemptions_charged_ShippingFee_Coupon">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>1355579</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>1</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>1</ItemQty2>
+  		<ItemNum3></ItemNum3>
+  		<ItemQty3></ItemQty3>
+  		<CouponCode>MAR17FS</CouponCode>
+  		<sBonusBank>3</sBonusBank>
+  		<sPaperBank>3</sPaperBank>
+	</testcase>
+	
+	<testcase id="CSR:Teacher_applies_StudentBonusRedemptions_charged_ShippingFee_Coupon">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>1370618</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>1</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>1</ItemQty2>
+  		<ItemNum3></ItemNum3>
+  		<ItemQty3></ItemQty3>
+  		<CouponCode>MAR17FS</CouponCode>
+  		<sBonusBank>5</sBonusBank>
+	</testcase>
+	
+	<testcase id="CSR:Teacher_applies_StudentPaperRedemptions_charged_ShippingFee_Coupon">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>1436072</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>1</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>1</ItemQty2>
+  		<ItemNum3></ItemNum3>
+  		<ItemQty3></ItemQty3>
+  		<CouponCode>MAR17FS</CouponCode>
+  		<sPaperBank>5</sPaperBank>
+	</testcase>
+	
+	<testcase id="CSR:Teacher_applies_TeacherBonusRedemptions_charged_ShippingFee_Coupon">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>1444695</AcNum>
+  		<FlyerCode>Z8A16</FlyerCode>
+  		<ItemNum>700</ItemNum>
+  		<ItemQty>1</ItemQty>
+  		<ItemNum2>701</ItemNum2>
+  		<ItemQty2>1</ItemQty2>
+  		<ItemNum3></ItemNum3>
+  		<ItemQty3></ItemQty3>
+  		<CouponCode>MAR17FS</CouponCode>
+  		<tBonusBank>3</tBonusBank>
+	</testcase>
+	
+	<testcase id="CSR:Teacher_applies_TeacherPaperRedemptions_charged_ShippingFee_Coupon">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>1461590</AcNum>
+  		<FlyerCode>Z8A16</FlyerCode>
+  		<ItemNum>700</ItemNum>
+  		<ItemQty>1</ItemQty>
+  		<ItemNum2>701</ItemNum2>
+  		<ItemQty2>1</ItemQty2>
+  		<ItemNum3></ItemNum3>
+  		<ItemQty3></ItemQty3>
+  		<CouponCode>MAR17FS</CouponCode>
+  		<tPaperBank>3</tPaperBank>
+	</testcase>
+	
+	<testcase id="CSR:Teacher_applies_TeacherBonusandpaperRedemptions_charged_ShippingFee_Coupon">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>1461938</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>1</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>1</ItemQty2>
+  		<FlyerCode2>Z8A16</FlyerCode2>
+  		<ItemNum3>700</ItemNum3>
+  		<ItemQty3>1</ItemQty3>
+  		<CouponCode>MAR17FS</CouponCode>
+  		<tBonusBank>3</tBonusBank>
+  		<tPaperBank>3</tPaperBank>
+	</testcase>
+	
+	<testcase id="CSR:Teacher_deletes_Coupon_AddsCoupon_ManualShippingCoupon">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>1468372</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>1</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>1</ItemQty2>
+  		<FlyerCode2>Z8A16</FlyerCode2>
+  		<ItemNum3>700</ItemNum3>
+  		<ItemQty3>1</ItemQty3>
+  		<CouponCode>MAR17FS</CouponCode>
+	</testcase>
+	
+	<testcase id="CSR:Teacher_FREEshipping_DeleteNo_with_coupon">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>1482497</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>1</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>1</ItemQty2>
+  		<FlyerCode2>Z8A16</FlyerCode2>
+  		<ItemNum3>700</ItemNum3>
+  		<ItemQty3>1</ItemQty3>
+  		<CouponCode>MAR17FS</CouponCode>
+	</testcase>
+	
+	<testcase id="CSR:Teacher_FREEshipping_SameCoupon_with_coupon">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>1623059</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>1</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>1</ItemQty2>
+  		<FlyerCode2>Z8A16</FlyerCode2>
+  		<ItemNum3>700</ItemNum3>
+  		<ItemQty3>1</ItemQty3>
+  		<CouponCode>MAR17FS</CouponCode>
+	</testcase>
+	
+	<testcase id="CSR:Teacher_FREEshipping_SameCoupon_with_coupon_2">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>1689796</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>4</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>2</ItemQty2>
+  		<FlyerCode2>Z8A16</FlyerCode2>
+  		<ItemNum3>700</ItemNum3>
+  		<ItemQty3>1</ItemQty3>
+  		<CouponCode>MAR17FS</CouponCode>
+	</testcase>
+	
+	<testcase id="CSR:TeacherOrder_GST_PST_Province_BC_0_0_0_0_payment">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>4243333</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>1</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>1</ItemQty2>
+  		<FlyerCode2>Z8A16</FlyerCode2>
+  		<ItemNum3>700</ItemNum3>
+  		<ItemQty3>1</ItemQty3>
+  		<sBonusBank>0</sBonusBank>
+		<sPaperBank>0</sPaperBank>
+		<tBonusBank>0</tBonusBank>
+		<tPaperBank>0</tPaperBank>
+	</testcase>
+	
+	<testcase id="CSR:TeacherOrder_GST_PST_Province_BC_2_2_0_0_payment">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>1697757</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>1</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>2</ItemQty2>
+  		<FlyerCode2>Z8A16</FlyerCode2>
+  		<ItemNum3>700</ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+  		<sBonusBank>2</sBonusBank>
+		<sPaperBank>2</sPaperBank>
+		<tBonusBank>0</tBonusBank>
+		<tPaperBank>0</tPaperBank>
+	</testcase>
+	
+	<testcase id="CSR:TeacherOrder_GST_PST_Province_BC_0_0_2_2_payment">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>1731381</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>1</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>2</ItemQty2>
+  		<FlyerCode2>Z8A16</FlyerCode2>
+  		<ItemNum3>700</ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+  		<sBonusBank>0</sBonusBank>
+		<sPaperBank>0</sPaperBank>
+		<tBonusBank>2</tBonusBank>
+		<tPaperBank>2</tPaperBank>
+	</testcase>
+	
+	<testcase id="CSR:TeacherOrder_GST_PST_Province_BC_2.1_2.1_2.1_2.1_payment">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>1738519</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>1</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>2</ItemQty2>
+  		<FlyerCode2>Z8A16</FlyerCode2>
+  		<ItemNum3>700</ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+  		<sBonusBank>2.1</sBonusBank>
+		<sPaperBank>2.1</sPaperBank>
+		<tBonusBank>2.1</tBonusBank>
+		<tPaperBank>2.1</tPaperBank>
+	</testcase>
+	
+	<testcase id="CSR:TeacherOrder_GST_QST_Province_QC_0_0_0_0_payment">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>1809724</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>1</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>2</ItemQty2>
+  		<FlyerCode2>Z8A16</FlyerCode2>
+  		<ItemNum3>700</ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+  		<sBonusBank>0</sBonusBank>
+		<sPaperBank>0</sPaperBank>
+		<tBonusBank>0</tBonusBank>
+		<tPaperBank>0</tPaperBank>
+	</testcase>
+	
+	<testcase id="CSR:TeacherOrder_GST_QST_Province_QC_2_2_0_0_payment">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>1825887</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>1</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>2</ItemQty2>
+  		<FlyerCode2>Z8A16</FlyerCode2>
+  		<ItemNum3>700</ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+  		<sBonusBank>2</sBonusBank>
+		<sPaperBank>2</sPaperBank>
+		<tBonusBank>0</tBonusBank>
+		<tPaperBank>0</tPaperBank>
+	</testcase>
+	
+	<testcase id="CSR:TeacherOrder_GST_QST_Province_QC_0_0_2_2_payment">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>1830399</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>1</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>2</ItemQty2>
+  		<FlyerCode2>Z8A16</FlyerCode2>
+  		<ItemNum3>700</ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+  		<sBonusBank>0</sBonusBank>
+		<sPaperBank>0</sPaperBank>
+		<tBonusBank>2</tBonusBank>
+		<tPaperBank>2</tPaperBank>
+	</testcase>
+	
+	<testcase id="CSR:TeacherOrder_GST_QST_Province_QC_2.1_2.1_2.1_2.1_payment">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>1836173</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>1</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>2</ItemQty2>
+  		<FlyerCode2>Z8A16</FlyerCode2>
+  		<ItemNum3>700</ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+  		<sBonusBank>2.1</sBonusBank>
+		<sPaperBank>2.1</sPaperBank>
+		<tBonusBank>2.1</tBonusBank>
+		<tPaperBank>2.1</tPaperBank>
+	</testcase>
+	
+	<testcase id="CSR:TeacherOrder_HST_Province_NL_0_0_0_0_payment">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>1850488</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>1</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>2</ItemQty2>
+  		<FlyerCode2>Z8A16</FlyerCode2>
+  		<ItemNum3>700</ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+  		<sBonusBank>0</sBonusBank>
+		<sPaperBank>0</sPaperBank>
+		<tBonusBank>0</tBonusBank>
+		<tPaperBank>0</tPaperBank>
+	</testcase>
+	
+	<testcase id="CSR:TeacherOrder_HST_Province_NL_2_2_0_0_payment">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>1901538</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>1</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>2</ItemQty2>
+  		<FlyerCode2>Z8A16</FlyerCode2>
+  		<ItemNum3>700</ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+  		<sBonusBank>2</sBonusBank>
+		<sPaperBank>2</sPaperBank>
+		<tBonusBank>0</tBonusBank>
+		<tPaperBank>0</tPaperBank>
+	</testcase>
+	
+	<testcase id="CSR:TeacherOrder_HST_Province_NL_0_0_2_2_payment">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>1921122</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>1</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>2</ItemQty2>
+  		<FlyerCode2>Z8A16</FlyerCode2>
+  		<ItemNum3>700</ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+  		<sBonusBank>0</sBonusBank>
+		<sPaperBank>0</sPaperBank>
+		<tBonusBank>2</tBonusBank>
+		<tPaperBank>2</tPaperBank>
+	</testcase>
+	
+	<testcase id="CSR:TeacherOrder_HST_Province_NL_2.1_2.1_2.1_2.1_payment">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>1932723</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>1</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>2</ItemQty2>
+  		<FlyerCode2>Z8A16</FlyerCode2>
+  		<ItemNum3>700</ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+  		<sBonusBank>2.1</sBonusBank>
+		<sPaperBank>2.1</sPaperBank>
+		<tBonusBank>2.1</tBonusBank>
+		<tPaperBank>2.1</tPaperBank>
+	</testcase>
+	
+	<testcase id="CSR:TeacherOrder_GST_Province_NU_0_0_0_0_payment">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>1947508</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>1</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>2</ItemQty2>
+  		<FlyerCode2>Z8A16</FlyerCode2>
+  		<ItemNum3>700</ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+  		<sBonusBank>0</sBonusBank>
+		<sPaperBank>0</sPaperBank>
+		<tBonusBank>0</tBonusBank>
+		<tPaperBank>0</tPaperBank>
+	</testcase>
+	
+	<testcase id="CSR:TeacherOrder_GST_Province_NU_2_2_0_0_payment">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>2091809</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>1</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>2</ItemQty2>
+  		<FlyerCode2>Z8A16</FlyerCode2>
+  		<ItemNum3>700</ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+  		<sBonusBank>2</sBonusBank>
+		<sPaperBank>2</sPaperBank>
+		<tBonusBank>0</tBonusBank>
+		<tPaperBank>0</tPaperBank>
+	</testcase>
+	
+	<testcase id="CSR:TeacherOrder_GST_Province_NU_0_0_2_2_payment">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>2133073</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>1</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>2</ItemQty2>
+  		<FlyerCode2>Z8A16</FlyerCode2>
+  		<ItemNum3>700</ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+  		<sBonusBank>0</sBonusBank>
+		<sPaperBank>0</sPaperBank>
+		<tBonusBank>2</tBonusBank>
+		<tPaperBank>2</tPaperBank>
+	</testcase>
+	
+	<testcase id="CSR:TeacherOrder_GST_Province_NU_2.1_2.1_2.1_2.1_payment">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>2170554</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>1</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>2</ItemQty2>
+  		<FlyerCode2>Z8A16</FlyerCode2>
+  		<ItemNum3>700</ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+  		<sBonusBank>2.1</sBonusBank>
+		<sPaperBank>2.1</sPaperBank>
+		<tBonusBank>2.1</tBonusBank>
+		<tPaperBank>2.1</tPaperBank>
+	</testcase>
+	
+	<testcase id="CSR:TeacherOrder_StudentItems_GST_PST_Province_BC_2.1_2.1_PaymentPage">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>2196360</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>2</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>2</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+  		<sBonusBank>2.1</sBonusBank>
+		<sPaperBank>2.1</sPaperBank>
+	</testcase>
+	
+	<testcase id="CSR:TeacherOrder_TeacherItems_GST_PST_Province_BC_2.1_2.1_PaymentPage">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>2213049</AcNum>
+  		<FlyerCode>Z8A16</FlyerCode>
+  		<ItemNum>700</ItemNum>
+  		<ItemQty>2</ItemQty>
+  		<ItemNum2>701</ItemNum2>
+  		<ItemQty2>2</ItemQty2>
+  		<ItemNum3>702</ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+  		<tBonusBank>2.1</tBonusBank>
+		<tPaperBank>2.1</tPaperBank>
+	</testcase>
+	
+	<testcase id="CSR:TeacherOrder_StudentItems_GST_QST_Province_QC_2.1_2.1_PaymentPage">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>2294768</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>2</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>2</ItemQty2>
+  		<FlyerCode2>Z8A16</FlyerCode2>
+  		<ItemNum3>700</ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+  		<sBonusBank>2.1</sBonusBank>
+		<sPaperBank>2.1</sPaperBank>
+	</testcase>
+	
+	<testcase id="CSR:TeacherOrder_TeacherItems_GST_QST_Province_QC_2.1_2.1_PaymentPage">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>2311348</AcNum>
+  		<FlyerCode>Z8A16</FlyerCode>
+  		<ItemNum>700</ItemNum>
+  		<ItemQty>2</ItemQty>
+  		<ItemNum2>701</ItemNum2>
+  		<ItemQty2>2</ItemQty2>
+  		<ItemNum3>702</ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+  		<tBonusBank>2.1</tBonusBank>
+		<tPaperBank>2.1</tPaperBank>
+	</testcase>
+	
+	<testcase id="CSR:TeacherOrder_StudentItems_HST_Province_NB_2.1_2.1_PaymentPage">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>2314798</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>2</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>2</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+  		<sBonusBank>2.1</sBonusBank>
+		<sPaperBank>2.1</sPaperBank>
+	</testcase>
+	
+	<testcase id="CSR:TeacherOrder_TeacherItems_HST_Province_NS_2.1_2.1_PaymentPage">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>2389527</AcNum>
+  		<FlyerCode>Z8A16</FlyerCode>
+  		<ItemNum>700</ItemNum>
+  		<ItemQty>2</ItemQty>
+  		<ItemNum2>701</ItemNum2>
+  		<ItemQty2>2</ItemQty2>
+  		<ItemNum3>702</ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+  		<tBonusBank>2.1</tBonusBank>
+		<tPaperBank>2.1</tPaperBank>
+	</testcase>
+	
+	<testcase id="CSR:TeacherOrder_StudentItems_GST_Province_AB_2.1_2.1_PaymentPage">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>2811471</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>2</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>2</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+  		<sBonusBank>2.1</sBonusBank>
+		<sPaperBank>2.1</sPaperBank>
+	</testcase>
+	
+	<testcase id="CSR:TeacherOrder_TeacherItems_GST_Province_NT_2.1_2.1_PaymentPage">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>2851823</AcNum>
+  		<FlyerCode>Z8A16</FlyerCode>
+  		<ItemNum>700</ItemNum>
+  		<ItemQty>2</ItemQty>
+  		<ItemNum2>701</ItemNum2>
+  		<ItemQty2>2</ItemQty2>
+  		<ItemNum3>702</ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+  		<tBonusBank>2.1</tBonusBank>
+		<tPaperBank>2.1</tPaperBank>
+	</testcase>
+	
+	<testcase id="CSR:Payment:TeacherOrder_ItemsInCart_CreditCard_3">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>2853663</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>2</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>2</ItemQty2>
+  		<FlyerCode2>Z8A16</FlyerCode2>
+  		<ItemNum3>700</ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+	</testcase>
+	
+	<testcase id="CSR:TeacherOrder_ItemsInCart_CreditCard_3">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>2868175</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>2</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>2</ItemQty2>
+  		<FlyerCode2>Z8A16</FlyerCode2>
+  		<ItemNum3>700</ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+	</testcase>
+	
+	<testcase id="CSR_Payment_tab_highlights">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>2869199</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>2</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>2</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+	</testcase>
+	
+	<testcase id="CSR_Continue_Checkout_btn_disabled">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>2869917</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>2</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>2</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+	</testcase>
+	
+	<testcase id="CSR_Payment_method_Alternate_shipping">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>2881846</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>2</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>2</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+	</testcase>
+	
+	<testcase id="Payment_tab_highlights">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>2882711</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>2</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>2</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+	</testcase>
+	
+	<testcase id="Number_for_the_Payment_tab">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>2919069</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>2</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>2</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+	</testcase>
+	
+	<testcase id="CSR_Teacher_payment">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>2965822</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>2</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>2</ItemQty2>
+  		<FlyerCode2>Z8A16</FlyerCode2>
+  		<ItemNum3>700</ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+	</testcase>
+	
+	<testcase id="CSR_Teacher_Payment_module">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>2970425</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>2</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>1</ItemQty2>
+  		<FlyerCode2>Z8A16</FlyerCode2>
+  		<ItemNum3>700</ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+	</testcase>
+	
+	<testcase id="CSR:Teacher_apply_Bonuspercentagecoupon">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>3023728</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>4</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>5</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>10</ItemQty3>
+  		<CouponCode>BBPERC</CouponCode>
+	</testcase>
+	
+	<testcase id="CSR:Teacher_apply_Bonuspercentagecoupon_2">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>3060613</AcNum>
+  		<FlyerCode>Z8A16</FlyerCode>
+  		<ItemNum>700</ItemNum>
+  		<ItemQty>20</ItemQty>
+  		<ItemNum2>701</ItemNum2>
+  		<ItemQty2>10</ItemQty2>
+  		<ItemNum3>702</ItemNum3>
+  		<ItemQty3>5</ItemQty3>
+  		<CouponCode>BBPERC</CouponCode>
+	</testcase>
+	
+	<testcase id="CSR:Teacher_apply_Bonuspercentagecoupon_3">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>3179191</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>4</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>5</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>5</ItemQty3>
+  		<CouponCode>BBPERC</CouponCode>
+	</testcase>
+	
+	<testcase id="CSR:Teacher_apply_Bonuspercentagecoupon_4">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>3229904</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>4</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>5</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>10</ItemQty3>
+  		<CouponCode>BBPERC</CouponCode>
+	</testcase>
+	
+	<testcase id="CSR:teacher_Bonus_Percentage_Desc_4">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>3240140</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>4</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>5</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>10</ItemQty3>
+  		<CouponCode>BBPERC</CouponCode>
+	</testcase>
+	
+	<testcase id="CSR:Teacher_entered_expiredcouponcode">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>3245752</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>4</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>5</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>10</ItemQty3>
+  		<CouponCode>EXPIRED</CouponCode>
+	</testcase>
+	
+	<testcase id="CSR:Teacher_entered_redeemedcouponcode">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>3247857</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>4</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>5</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>10</ItemQty3>
+  		<CouponCode>REDEEMED</CouponCode>
+	</testcase>
+	
+	<testcase id="CSR:Teacher_BonusPercentage_DTSTopOffAmt_ManualCoupon">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>3291896</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>4</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>4</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>10</ItemQty3>
+  		<CouponCode>BBPERC</CouponCode>
+  		<grade>Grades 2 &amp; 3</grade>
+		<itemValue>12</itemValue>
+	</testcase>
+	
+	<testcase id="CSR:teacher_login_FreeItemCoupon">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>3294866</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>2</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>1</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>7</ItemQty3>
+  		<CouponCode>CLUBKIT1</CouponCode>
+	</testcase>
+	
+	<testcase id="CSR:teacher_ManualFreeItem_StudentBonusRedemption">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>3338408</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>2</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>1</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>1</ItemQty3>
+  		<CouponCode>CLUBKIT1</CouponCode>
+  		<sBonusBank>4</sBonusBank>
+	</testcase>
+	
+	<testcase id="CSR:teacher_login_FreeItemCoupon_2">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>3346477</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>2</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>2</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+  		<CouponCode>CLUBKIT1</CouponCode>
+	</testcase>
+	
+	<testcase id="CSR:teacher_login_FreeItemCoupon_3">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>3361508</AcNum>
+  		<FlyerCode>Z8A16</FlyerCode>
+  		<ItemNum>700</ItemNum>
+  		<ItemQty>3</ItemQty>
+  		<ItemNum2>701</ItemNum2>
+  		<ItemQty2>3</ItemQty2>
+  		<ItemNum3>702</ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+  		<CouponCode>CLUBKIT1</CouponCode>
+	</testcase>
+	
+	<testcase id="CSR:teacher_login_FreeItemCoupon_4">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>3430709</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>1</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>1</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>1</ItemQty3>
+  		<CouponCode>CLUBKIT1</CouponCode>
+	</testcase>
+	
+	<testcase id="CSR:teacher_FreeItemCoupon_Expires">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>3524560</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>2</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>1</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>1</ItemQty3>
+  		<CouponCode>Expired</CouponCode>
+	</testcase>
+	
+	<testcase id="CSR:teacher_StudentPaperRedemption_FreeItemCoupon">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>3541077</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>2</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>1</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>1</ItemQty3>
+  		<CouponCode>CLUBKIT1</CouponCode>
+  		<sPaperBank>4</sPaperBank>
+	</testcase>
+	
+	<testcase id="CSR:teacher_TeacherBonusRedemption_FreeItemCoupon">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>3555565</AcNum>
+  		<FlyerCode>Z8A16</FlyerCode>
+  		<ItemNum>700</ItemNum>
+  		<ItemQty>3</ItemQty>
+  		<ItemNum2>701</ItemNum2>
+  		<ItemQty2>3</ItemQty2>
+  		<ItemNum3>702</ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+  		<CouponCode>CLUBKIT1</CouponCode>
+  		<tBonusBank>4</tBonusBank>
+	</testcase>
+	
+	<testcase id="CSR:teacher_TeacherPaperRedemption_FreeItemCoupon">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>3570620</AcNum>
+  		<FlyerCode>Z8A16</FlyerCode>
+  		<ItemNum>700</ItemNum>
+  		<ItemQty>3</ItemQty>
+  		<ItemNum2>701</ItemNum2>
+  		<ItemQty2>3</ItemQty2>
+  		<ItemNum3>702</ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+  		<CouponCode>CLUBKIT1</CouponCode>
+  		<tPaperBank>4</tPaperBank>
+	</testcase>
+	
+	<testcase id="CSR:Teacher_ManualFREEItemCoupon">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>3570977</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>2</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>1</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>7</ItemQty3>
+  		<CouponCode>CLUBKIT1</CouponCode>
+	</testcase>
+	
+	<testcase id="CSR:Teacher_ManualFREEItem_RedeemedCoupon">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>3608744</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>2</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>1</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>7</ItemQty3>
+  		<CouponCode>Redeemed</CouponCode>
+	</testcase>
+	
+	<testcase id="Blue_step_script_icon_displays_Payment_page">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>3635630</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>2</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>2</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+	</testcase>
+	
+	<testcase id="Blue_step_script_icon_modalWindow_Payment_page">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>3645499</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>2</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>2</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+	</testcase>
+	
+	<testcase id="Blue_step_script_icon_modalWindow_disappeared_Payment_page">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>3654515</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>2</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>2</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+	</testcase>
+	
+	<testcase id="CSR:TeacherOrder_BonusFlatCoupon_1">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>3825059</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>1</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>2</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+  		<CouponCode>NJTWZ</CouponCode>
+	</testcase>
+	
+	<testcase id="CSR:TeacherOrder_BonusFlatCoupon_2">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>3825794</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>1</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>1</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>1</ItemQty3>
+  		<CouponCode>NJTWZ</CouponCode>
+	</testcase>
+	
+	<testcase id="CSR:TeacherOrder_BonusFlatCoupon_3">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>3832715</AcNum>
+  		<FlyerCode>Z8A16</FlyerCode>
+  		<ItemNum>700</ItemNum>
+  		<ItemQty>4</ItemQty>
+  		<ItemNum2>701</ItemNum2>
+  		<ItemQty2>3</ItemQty2>
+  		<ItemNum3>702</ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+  		<CouponCode>NJTWZ</CouponCode>
+	</testcase>
+	
+	<testcase id="CSR:TeacherOrder_BonusFlatCoupon_4">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>3833135</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>1</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>2</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+  		<CouponCode>NJTWZ</CouponCode>
+	</testcase>
+	
+	<testcase id="CSR:TeacherOrder_BonusFlatCoupon_5">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>3868603</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>1</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>2</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>1</ItemQty3>
+  		<CouponCode>REDEEMED</CouponCode>
+	</testcase>
+	
+	<testcase id="CSR:Teacher_BonusFlat_UpsellMessage">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>3908384</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>2</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>3</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>4</ItemQty3>
+	</testcase>
+	
+</testdata>

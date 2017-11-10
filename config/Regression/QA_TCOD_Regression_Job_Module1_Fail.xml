@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite thread-count="25" guice-stage="DEVELOPMENT" verbose="0"  name="Demandware" parallel="tests">
+    <parameter name="remote.driver.url" value="http://sereti_qe:b9b8a9e1-e525-46af-9c7f-4a11c372b5c5@ondemand.saucelabs.com:80/wd/hub" />
+    <parameter name="tdm.data" value="off" />
+    <parameter name="glue" value="com.dw.automation.steps" />
+    <parameter name="sauce" value="true" />
+
+
+    <test name="Enters only 1 character in Last Name field on the Forgot Password modal/page" >
+        <parameter name="features" value="features/Modules/CARegressionModuleJob/Module1/LoginPage.feature"/>
+        <parameter name="scenario" value="Enters only 1 character in Last Name field on the Forgot Password modal/page"/>
+        <parameter name="driver.capabilities" value="{'version': '48.0','platform':'Windows 10','name':'DWCA'}"/>
+        <parameter name="driver.name" value="Chrome"/>
+        <classes>
+            <class name="com.scholastic.torque.runner.Run">
+            </class>
+        </classes>
+    </test><!--Enters only 1 character in Last Name field on the Forgot Password modal/page-->
+    <test name="Teacher enters invalid account number/email address and selects Remember me" >
+        <parameter name="features" value="features/Modules/CARegressionModuleJob/Module1/LoginPage.feature"/>
+        <parameter name="scenario" value="Teacher enters invalid account number/email address and selects Remember me"/>
+        <parameter name="driver.capabilities" value="{'version': '48.0','platform':'Windows 10','name':'DWCA'}"/>
+        <parameter name="driver.name" value="Chrome"/>
+        <classes>
+            <class name="com.scholastic.torque.runner.Run">
+            </class>
+        </classes>
+    </test><!--Teacher enters invalid account number/email address and selects Remember me -->
+    <test name="Teacher enters email in mixed case in Account Number or Email field in login page" >
+        <parameter name="features" value="features/Modules/CARegressionModuleJob/Module1/LoginPage.feature"/>
+        <parameter name="scenario" value="Teacher enters email in mixed case in Account Number or Email field in login page"/>
+        <parameter name="driver.capabilities" value="{'version': '48.0','platform':'Windows 10','name':'DWCA'}"/>
+        <parameter name="driver.name" value="Chrome"/>
+        <classes>
+            <class name="com.scholastic.torque.runner.Run">
+            </class>
+        </classes>
+    </test><!-- Teacher enters email in mixed case in Account Number or Email field in login page-->
+    <test name="Teacher enters email in upper case in My Profile section in My Account page" >
+        <parameter name="features" value="features/Modules/CARegressionModuleJob/Module1/LoginPage.feature"/>
+        <parameter name="scenario" value="Teacher enters email in upper case in My Profile section in My Account page"/>
+        <parameter name="driver.capabilities" value="{'version': '48.0','platform':'Windows 10','name':'DWCA'}"/>
+        <parameter name="driver.name" value="Chrome"/>
+        <classes>
+            <class name="com.scholastic.torque.runner.Run">
+            </class>
+        </classes>
+    </test>
+    <!-- Teacher enters email in upper case in My Profile section in My Account page -->
+
+    <test name="Enters only 1 character in First Name field on the Forgot Password modal/page" >
+        <parameter name="features" value="features/Modules/CARegressionModuleJob/Module1/LoginPage.feature"/>
+        <parameter name="scenario" value="Enters only 1 character in First Name field on the Forgot Password modal/page"/>
+        <parameter name="driver.capabilities" value="{'version': '48.0','platform':'Windows 10','name':'DWCA'}"/>
+        <parameter name="driver.name" value="Chrome"/>
+        <classes>
+            <class name="com.scholastic.torque.runner.Run">
+            </class>
+        </classes>
+    </test>
+    <!-- Enters only 1 character in First Name field on the Forgot Password modal/page -->
+    <test name="As a teacher, I want to be taken to the Content page when clicked on a Content Marketing link" >
+        <parameter name="features" value="features/Modules/CARegressionModuleJob/Module1/Marketing_Links.feature"/>
+        <parameter name="scenario" value="As a teacher, I want to be taken to the Content page when clicked on a Content Marketing link"/>
+        <parameter name="driver.capabilities" value="{'version': '48.0','platform':'Windows 10','name':'DWCA'}"/>
+        <parameter name="driver.name" value="Chrome"/>
+        <classes>
+            <class name="com.scholastic.torque.runner.Run">
+            </class>
+        </classes>
+    </test>
+    <!-- As a teacher, I want to be taken to the Content page when clicked on a Content Marketing link -->
+    <test name="As a teacher, I want to be taken to the Category page when clicked on a Category Marketing link" >
+        <parameter name="features" value="features/Modules/CARegressionModuleJob/Module1/Marketing_Links.feature"/>
+        <parameter name="scenario" value="As a teacher, I want to be taken to the Category page when clicked on a Category Marketing link"/>
+        <parameter name="driver.capabilities" value="{'version': '48.0','platform':'Windows 10','name':'DWCA'}"/>
+        <parameter name="driver.name" value="Chrome"/>
+        <classes>
+            <class name="com.scholastic.torque.runner.Run">
+            </class>
+        </classes>
+    </test>
+    <!-- As a teacher, I want to be taken to the Category page when clicked on a Category Marketing link -->
+    <test name="Marketing link displayed after login" >
+        <parameter name="features" value="features/Modules/CARegressionModuleJob/Module1/Marketing_Links.feature"/>
+        <parameter name="scenario" value="Marketing link displayed after login"/>
+        <parameter name="driver.capabilities" value="{'version': '48.0','platform':'Windows 10','name':'DWCA'}"/>
+        <parameter name="driver.name" value="Chrome"/>
+        <classes>
+            <class name="com.scholastic.torque.runner.Run">
+            </class>
+        </classes>
+    </test>
+    <!--  Marketing link displayed after login  -->
+    <test name="Teacher is able to search with Item# on the homepage" >
+        <parameter name="features" value="features/Modules/CARegressionModuleJob/Module1/Search.feature"/>
+        <parameter name="scenario" value="Teacher is able to search with Item# on the homepage"/>
+        <parameter name="driver.capabilities" value="{'version': '48.0','platform':'Windows 10','name':'DWCA'}"/>
+        <parameter name="driver.name" value="Chrome"/>
+        <classes>
+            <class name="com.scholastic.torque.runner.Run">
+            </class>
+        </classes>
+    </test>
+    <!-- Teacher is able to search with Item# on the homepage -->
+    <test name="Teacher is able to search with Item# on the YTO Page" >
+        <parameter name="features" value="features/Modules/CARegressionModuleJob/Module1/Search.feature"/>
+        <parameter name="scenario" value="Teacher is able to search with Item# on the YTO Page"/>
+        <parameter name="driver.capabilities" value="{'version': '48.0','platform':'Windows 10','name':'DWCA'}"/>
+        <parameter name="driver.name" value="Chrome"/>
+        <classes>
+            <class name="com.scholastic.torque.runner.Run">
+
+            </class>
+        </classes>
+    </test>
+    <!-- Teacher is able to search with Item# on the YTO Page -->
+    <test name="Teacher is able to search with Item# on the ReviewCart Page" >
+        <parameter name="features" value="features/Modules/CARegressionModuleJob/Module1/Search.feature"/>
+        <parameter name="scenario" value="Teacher is able to search with Item# on the ReviewCart Page"/>
+        <parameter name="driver.capabilities" value="{'version': '48.0','platform':'Windows 10','name':'DWCA'}"/>
+        <parameter name="driver.name" value="Chrome"/>
+        <classes>
+            <class name="com.scholastic.torque.runner.Run">
+            </class>
+        </classes>
+    </test>
+    <!-- Teacher is able to search with Item# on the ReviewCart Page -->
+</suite> <!-- Demandware -->

@@ -1,0 +1,544 @@
+<testdata>
+
+
+<!--##################################################################################################################################################    
+##################################################################################################################################################    
+###########################################   							             #############################################################   
+###########################################    STORY - 3699 LINE ITEM LABELS         #############################################################
+###########################################   							             #############################################################        
+##################################################################################################################################################        
+##################################################################################################################################################-->
+
+
+
+
+<testcase id="Sprint_11.3:dev35:TeacherOrder_StudentTeacherClubs_Label_Checkout">
+		<userid>4706109</userid>
+		<password>passw0rd</password>
+		<sname1>Manu</sname1>
+		<sname2>Rocky</sname2>
+		<sname3>Johnson</sname3>
+		<qty1>4</qty1>
+		<qty2>1</qty2>
+		<qty3>7</qty3>
+		<default>yes</default>
+		<numberofstudents>1</numberofstudents>
+	<noofstudents>5</noofstudents>
+	</testcase>
+	
+	
+	
+	
+<testcase id="Sprint_11.3:dev35:TeacherOrder_StudentTeacherClubs_Label_OrderHistory">
+		<userid>4746353</userid>
+		<password>passw0rd</password>
+		<sname1>Manu</sname1>
+		<sname2>Rocky</sname2>
+		<sname3>Johnson</sname3>
+		<qty1>4</qty1>
+		<qty2>1</qty2>
+		<qty3>7</qty3>
+		<default>yes</default>
+		<numberofstudents>1</numberofstudents>
+	<noofstudents>5</noofstudents>
+	</testcase>
+	
+	
+	
+<!-- ##################################################################################################################################################    
+##################################################################################################################################################    
+###########################################   							             #############################################################   
+###########################################    STORY - 3919 SEARCH RESULTS           #############################################################
+###########################################   							             #############################################################        
+##################################################################################################################################################        
+################################################################################################################################################## -->
+
+<testcase id="Sprint_11.3:dev35:Search_NoResult" description="No Search Result">
+		<userid>4755172</userid>
+		<password>passw0rd</password>
+		<removeCartFlag>true</removeCartFlag>
+		<nitemName>satts</nitemName>
+
+
+	</testcase>
+
+
+
+	<testcase id="Sprint_11.3:dev35:Search_NoResult_fromSearchResultPage"		description="No Search Result">
+		<userid>4773249</userid>
+		<password>passw0rd</password>
+		<itemName>books</itemName>
+		<removeCartFlag>true</removeCartFlag>
+		<prodcount>15</prodcount>
+		<nitemName>NSatts</nitemName>
+
+
+	</testcase>
+	
+	
+	<testcase id="Sprint_11.3:dev35:Search_NoResult_AgainSearchPage"		description="No Search Result">
+		<userid>4793809</userid>
+		<password>passw0rd</password>
+		<itemName>books</itemName>
+		<removeCartFlag>true</removeCartFlag>
+		<prodcount>15</prodcount>
+		<nitemName>NSatts</nitemName>
+
+	</testcase>
+	
+	
+	
+	
+<!--##################################################################################################################################################    
+##################################################################################################################################################    
+###########################################   							             #############################################################   
+###########################################    STORY - 3698 PAYMENT PAGE             #############################################################
+###########################################   							             #############################################################        
+##################################################################################################################################################        
+##################################################################################################################################################-->
+	
+	
+<testcase id="Sprint_11.3:dev35:Golden:TeacherOrder_GST_PST_Province_BC_0_0_0_0_payment">
+		<userid>3657204</userid>
+		<password>passw0rd</password>
+		<itemName>The Night Before Summer! Pack</itemName>
+		<itemName2>First Hockey Words</itemName2>
+		<itemQty>1</itemQty>
+		<itemQty2>2</itemQty2>
+		<sBonusBank>0</sBonusBank>
+		<sPaperBank>0</sPaperBank>
+		<tBonusBank>0</tBonusBank>
+		<tPaperBank>0</tPaperBank>
+		<numberofstudents>2</numberofstudents>
+	</testcase>
+	
+	
+<testcase id="Sprint_11.3:dev35:Golden:TeacherOrder_GST_PST_Province_BC_2_2_0_0_payment">
+		<userid>3700540</userid>
+		<password>passw0rd</password>
+		<itemName>The Night Before Summer! Pack</itemName>
+		<itemName2>First Hockey Words</itemName2>
+		<itemQty>3</itemQty>
+		<itemQty2>2</itemQty2>
+		<sBonusBank>2</sBonusBank>
+		<sPaperBank>2</sPaperBank>
+		<tBonusBank>0</tBonusBank>
+		<tPaperBank>0</tPaperBank>
+		<numberofstudents>2</numberofstudents>
+	</testcase>
+	
+<testcase id="Sprint_11.3:dev35:Golden:TeacherOrder_GST_PST_Province_BC_0_0_2_2_payment">
+		<userid>3712561</userid>
+		<password>passw0rd</password>
+		<itemName>The Night Before Summer! Pack</itemName>
+		<itemName2>First Hockey Words</itemName2>
+		<itemQty>2</itemQty>
+		<itemQty2>4</itemQty2>
+		<sBonusBank>0</sBonusBank>
+		<sPaperBank>0</sPaperBank>
+		<tBonusBank>2</tBonusBank>
+		<tPaperBank>2</tPaperBank>
+		<numberofstudents>2</numberofstudents>
+	</testcase>			
+
+<testcase id="Sprint_11.3:dev35:Golden:TeacherOrder_GST_PST_Province_BC_2.1_2.1_2.1_2.1_payment">
+		<userid>1129453</userid>
+		<password>passw0rd</password>
+		<removeCartFlag>true</removeCartFlag>
+		<itemName>The Night Before Summer! Pack</itemName>
+		<itemName2>First Hockey Words</itemName2>
+		<itemQty>3</itemQty>
+		<itemQty2>3</itemQty2>
+		<sBonusBank>2.1</sBonusBank>
+		<sPaperBank>2.1</sPaperBank>
+		<tBonusBank>2.1</tBonusBank>
+		<tPaperBank>2.1</tPaperBank>
+		<numberofstudents>2</numberofstudents>
+	</testcase>
+	
+	
+<testcase id="Sprint_11.3:dev35:Golden:TeacherOnlyOrder_GST_PST_Province_BC_2.1_2.1_payment">
+		<userid>4810455</userid>
+		<password>passw0rd</password>
+		<removeCartFlag>true</removeCartFlag>
+		<itemName>The Night Before Summer! Pack</itemName>
+		<itemName2>First Hockey Words</itemName2>
+		<itemQty>3</itemQty>
+		<itemQty2>3</itemQty2>
+		<tBonusBank>2.1</tBonusBank>
+		<tPaperBank>2.1</tPaperBank>
+		<numberofstudents>2</numberofstudents>
+	</testcase>	
+	
+	
+<testcase id="Sprint_11.3:dev35:Golden:StudentOrder_GST_QST_Province_QC_2.1_2.1_2.1_2.1_payment">
+		<userid>4805282</userid>
+		<password>passw0rd</password>
+		<itemName>The Night Before Summer! Pack</itemName>
+		<itemName2>First Hockey Words</itemName2>
+		<itemQty>3</itemQty>
+		<itemQty2>3</itemQty2>
+		<sBonusBank>2.1</sBonusBank>
+		<sPaperBank>2.1</sPaperBank>
+		<numberofstudents>2</numberofstudents>
+	</testcase>	
+
+
+<testcase id="Sprint_11.3:dev35:Golden:TeacherOrder_GST_QST_Province_QC_2.1_2.1_2.1_2.1_payment">
+		<userid>1168831</userid>
+		<password>passw0rd</password>
+		<itemName>The Night Before Summer! Pack</itemName>
+		<itemName2>First Hockey Words</itemName2>
+		<itemQty>3</itemQty>
+		<itemQty2>3</itemQty2>
+		<sBonusBank>2.1</sBonusBank>
+		<sPaperBank>2.1</sPaperBank>
+		<tBonusBank>2.1</tBonusBank>
+		<tPaperBank>2.1</tPaperBank>
+		<numberofstudents>2</numberofstudents>
+	</testcase>
+	
+	
+<testcase id="Sprint_11.3:dev35:Golden:TeacherOnlyOrder_GST_QST_Province_QC_2.1_2.1_payment">
+		<userid>4817378</userid>
+		<password>passw0rd</password>
+		<itemName>The Night Before Summer! Pack</itemName>
+		<itemName2>First Hockey Words</itemName2>
+		<itemQty>3</itemQty>
+		<itemQty2>3</itemQty2>
+		<tBonusBank>2.1</tBonusBank>
+		<tPaperBank>2.1</tPaperBank>
+		<numberofstudents>2</numberofstudents>
+	</testcase>		
+	
+
+<testcase id="Sprint_11.3:dev35:Golden:StudentOrder_GST_Province_NU_2.1_2.1_2.1_2.1_payment">
+		<userid>4810398</userid>
+		<password>passw0rd</password>
+		<itemName>The Night Before Summer! Pack</itemName>
+		<itemName2>First Hockey Words</itemName2>
+		<itemQty>3</itemQty>
+		<itemQty2>3</itemQty2>
+		<sBonusBank>2.1</sBonusBank>
+		<sPaperBank>2.1</sPaperBank>
+		<numberofstudents>2</numberofstudents>
+	</testcase>	
+	
+<testcase id="Sprint_11.3:dev35:Golden:TeacherOrder_GST_Province_NU_2.1_2.1_2.1_2.1_payment">
+		<userid>1181685</userid>
+		<password>passw0rd</password>
+		<itemName>The Night Before Summer! Pack</itemName>
+		<itemName2>First Hockey Words</itemName2>
+		<itemQty>3</itemQty>
+		<itemQty2>3</itemQty2>
+		<sBonusBank>2.1</sBonusBank>
+		<sPaperBank>2.1</sPaperBank>
+		<tBonusBank>2.1</tBonusBank>
+		<tPaperBank>2.1</tPaperBank>
+		<numberofstudents>2</numberofstudents>
+	</testcase>
+	
+	
+<testcase id="Sprint_11.3:dev35:Golden:TeacherOnlyOrder_GST_Province_NU_2.1_2.1_payment">
+		<userid>4817873</userid>
+		<password>passw0rd</password>
+		<itemName>The Night Before Summer! Pack</itemName>
+		<itemName2>First Hockey Words</itemName2>
+		<itemQty>3</itemQty>
+		<itemQty2>3</itemQty2>
+		<tBonusBank>2.1</tBonusBank>
+		<tPaperBank>2.1</tPaperBank>
+		<numberofstudents>2</numberofstudents>
+	</testcase>
+	
+	
+
+<testcase id="Sprint_11.3:dev35:Golden:StudentOrder_HST_Province_NL_2.1_2.1_payment">
+		<userid>4822749</userid>
+		<password>passw0rd</password>
+		<itemName>The Night Before Summer! Pack</itemName>
+		<itemName2>First Hockey Words</itemName2>
+		<itemQty>3</itemQty>
+		<itemQty2>3</itemQty2>
+		<sBonusBank>2.1</sBonusBank>
+		<sPaperBank>2.1</sPaperBank>
+		<default>yes</default>
+		<numberofstudents>2</numberofstudents>
+	</testcase>	
+	
+<testcase id="Sprint_11.3:dev35:Golden:TeacherOrder_HST_Province_NL_2.1_2.1_2.1_2.1_payment">
+		<userid>1176959</userid>
+		<password>passw0rd</password>
+		<itemName>The Night Before Summer! Pack</itemName>
+		<itemName2>First Hockey Words</itemName2>
+		<itemQty>3</itemQty>
+		<itemQty2>3</itemQty2>
+		<sBonusBank>2.1</sBonusBank>
+		<sPaperBank>2.1</sPaperBank>
+		<tBonusBank>2.1</tBonusBank>
+		<tPaperBank>2.1</tPaperBank>
+		<default>yes</default>
+		<numberofstudents>2</numberofstudents>
+	</testcase>
+	
+	
+<testcase id="Sprint_11.3:dev35:Golden:TeacherOnlyOrder_HST_Province_NL_2.1_2.1_payment">
+		<userid>4830271</userid>
+		<password>passw0rd</password>
+		<itemName>The Night Before Summer! Pack</itemName>
+		<itemName2>First Hockey Words</itemName2>
+		<itemQty>3</itemQty>
+		<itemQty2>3</itemQty2>
+		<tBonusBank>2.1</tBonusBank>
+		<tPaperBank>2.1</tPaperBank>
+		<default>yes</default>
+		<numberofstudents>2</numberofstudents>
+	</testcase>
+	
+	
+	
+<!--##################################################################################################################################################    
+##################################################################################################################################################    
+###########################################   							             #############################################################   
+###########################################    STORY - 3433 PAYMENT PAGE - SHIPPING  #############################################################
+###########################################   							             #############################################################        
+##################################################################################################################################################        
+##################################################################################################################################################-->
+	
+	
+<testcase id="Sprint_11.3:dev35:ShippingOrder_GST_PST_Province_BC_0_0_payment">
+		<userid>4834306</userid>
+		<password>passw0rd</password>
+		<itemName>The Night Before Summer! Pack</itemName>
+		<itemName2>First Hockey Words</itemName2>
+		<itemQty>1</itemQty>
+		<itemQty2>2</itemQty2>
+		<shipBonusBank>0</shipBonusBank>
+		<shipPaperBank>0</shipPaperBank>
+		<numberofstudents>2</numberofstudents>
+	</testcase>
+
+<testcase id="Sprint_11.3:dev35:Golden:ShippingOrder_GST_PST_Province_BC_2.2_2.2_payment">
+		<userid>4837665</userid>
+		<password>passw0rd</password>
+		<itemName>The Night Before Summer! Pack</itemName>
+		<itemName2>First Hockey Words</itemName2>
+		<itemQty>1</itemQty>
+		<itemQty2>2</itemQty2>
+		<shipBonusBank>2.2</shipBonusBank>
+		<shipPaperBank>2.2</shipPaperBank>
+		<numberofstudents>2</numberofstudents>
+	</testcase>
+	
+	
+<testcase id="Sprint_11.3:dev35:ShippingOrder_GST_PST_Province_BC_0_2_payment">
+		<userid>4840212</userid>
+		<password>passw0rd</password>
+		<itemName>The Night Before Summer! Pack</itemName>
+		<itemName2>First Hockey Words</itemName2>
+		<itemQty>1</itemQty>
+		<itemQty2>2</itemQty2>
+		<shipBonusBank>0</shipBonusBank>
+		<shipPaperBank>2</shipPaperBank>
+		<numberofstudents>2</numberofstudents>
+	</testcase>
+	
+<testcase id="Sprint_11.3:dev35:ShippingOrder_GST_PST_Province_BC_5_0_payment">
+		<userid>4843597</userid>
+		<password>passw0rd</password>
+		<itemName>The Night Before Summer! Pack</itemName>
+		<itemName2>First Hockey Words</itemName2>
+		<itemQty>1</itemQty>
+		<itemQty2>2</itemQty2>
+		<shipBonusBank>4</shipBonusBank>
+		<shipPaperBank>0</shipPaperBank>
+		<numberofstudents>2</numberofstudents>
+	</testcase>
+	
+	
+	
+<testcase id="Sprint_11.3:dev35:ShippingOrder_GST_QST_Province_QC_0_0_payment">
+		<userid>4866953</userid>
+		<password>passw0rd</password>
+		<itemName>The Night Before Summer! Pack</itemName>
+		<itemName2>First Hockey Words</itemName2>
+		<itemQty>1</itemQty>
+		<itemQty2>2</itemQty2>
+		<shipBonusBank>0</shipBonusBank>
+		<shipPaperBank>0</shipPaperBank>
+		<numberofstudents>2</numberofstudents>
+	</testcase>
+
+<testcase id="Sprint_11.3:dev35:Golden:ShippingOrder_GST_QST_Province_QC_2.2_2.2_payment">
+		<userid>4914380</userid>
+		<password>passw0rd</password>
+		<itemName>The Night Before Summer! Pack</itemName>
+		<itemName2>First Hockey Words</itemName2>
+		<itemQty>1</itemQty>
+		<itemQty2>2</itemQty2>
+		<shipBonusBank>2.2</shipBonusBank>
+		<shipPaperBank>2.2</shipPaperBank>
+		<numberofstudents>2</numberofstudents>
+	</testcase>
+	
+	
+<testcase id="Sprint_11.3:dev35:ShippingOrder_GST_QST_Province_QC_0_2_payment">
+		<userid>4924595</userid>
+		<password>passw0rd</password>
+		<itemName>The Night Before Summer! Pack</itemName>
+		<itemName2>First Hockey Words</itemName2>
+		<itemQty>1</itemQty>
+		<itemQty2>2</itemQty2>
+		<shipBonusBank>0</shipBonusBank>
+		<shipPaperBank>2</shipPaperBank>
+		<numberofstudents>2</numberofstudents>
+	</testcase>
+	
+<testcase id="Sprint_11.3:dev35:ShippingOrder_GST_QST_Province_QC_5_0_payment">
+		<userid>4991221</userid>
+		<password>passw0rd</password>
+		<itemName>The Night Before Summer! Pack</itemName>
+		<itemName2>First Hockey Words</itemName2>
+		<itemQty>1</itemQty>
+		<itemQty2>2</itemQty2>
+		<shipBonusBank>4</shipBonusBank>
+		<shipPaperBank>0</shipPaperBank>
+		<numberofstudents>2</numberofstudents>
+	</testcase>	
+	
+	
+<testcase id="Sprint_11.3:dev35:Golden:ShippingOrder_GST_Province_AB_0_0_payment">
+		<userid>4991271</userid>
+		<password>passw0rd</password>
+		<itemName>The Night Before Summer! Pack</itemName>
+		<itemName2>First Hockey Words</itemName2>
+		<itemQty>1</itemQty>
+		<itemQty2>2</itemQty2>
+		<shipBonusBank>0</shipBonusBank>
+		<shipPaperBank>0</shipPaperBank>
+		<numberofstudents>2</numberofstudents>
+	</testcase>
+
+<testcase id="Sprint_11.3:dev35:Golden:ShippingOrder_GST_Province_MB_2.2_2.2_payment">
+		<userid>4991289</userid>
+		<password>passw0rd</password>
+		<itemName>The Night Before Summer! Pack</itemName>
+		<itemName2>First Hockey Words</itemName2>
+		<itemQty>1</itemQty>
+		<itemQty2>2</itemQty2>
+		<shipBonusBank>2.2</shipBonusBank>
+		<shipPaperBank>2.2</shipPaperBank>
+		<numberofstudents>2</numberofstudents>
+	</testcase>
+	
+	
+<testcase id="Sprint_11.3:dev35:Golden:ShippingOrder_GST_Province_NT_0_2_payment">
+		<userid>5046968</userid>
+		<password>passw0rd</password>
+		<itemName>The Night Before Summer! Pack</itemName>
+		<itemName2>First Hockey Words</itemName2>
+		<itemQty>1</itemQty>
+		<itemQty2>2</itemQty2>
+		<shipBonusBank>0</shipBonusBank>
+		<shipPaperBank>2</shipPaperBank>
+		<numberofstudents>2</numberofstudents>
+	</testcase>
+	
+<testcase id="Sprint_11.3:dev35:Golden:ShippingOrder_GST_Province_SK_5_0_payment">
+		<userid>5054797</userid>
+		<password>passw0rd</password>
+		<itemName>The Night Before Summer! Pack</itemName>
+		<itemName2>First Hockey Words</itemName2>
+		<itemQty>1</itemQty>
+		<itemQty2>2</itemQty2>
+		<shipBonusBank>4</shipBonusBank>
+		<shipPaperBank>0</shipPaperBank>
+		<numberofstudents>2</numberofstudents>
+	</testcase>	
+	
+	
+<testcase id="Sprint_11.3:dev35:ShippingOrder_HST_Province_NS_0_0_payment">
+		<userid>5067625</userid>
+		<password>passw0rd</password>
+		<itemName>The Night Before Summer! Pack</itemName>
+		<itemName2>First Hockey Words</itemName2>
+		<itemQty>1</itemQty>
+		<itemQty2>2</itemQty2>
+		<shipBonusBank>0</shipBonusBank>
+		<shipPaperBank>0</shipPaperBank>
+		<numberofstudents>2</numberofstudents>
+	</testcase>
+
+<testcase id="Sprint_11.3:dev35:Golden:ShippingOrder_HST_Province_NS_2.2_2.2_payment">
+		<userid>5083192</userid>
+		<password>passw0rd</password>
+		<itemName>The Night Before Summer! Pack</itemName>
+		<itemName2>First Hockey Words</itemName2>
+		<itemQty>1</itemQty>
+		<itemQty2>2</itemQty2>
+		<shipBonusBank>2.2</shipBonusBank>
+		<shipPaperBank>2.2</shipPaperBank>
+		<numberofstudents>2</numberofstudents>
+	</testcase>
+	
+	
+<testcase id="Sprint_11.3:dev35:Golden:ShippingOrder_HST_Province_NB_0_2_payment">
+		<userid>5095501</userid>
+		<password>passw0rd</password>
+		<itemName>The Night Before Summer! Pack</itemName>
+		<itemName2>First Hockey Words</itemName2>
+		<itemQty>1</itemQty>
+		<itemQty2>2</itemQty2>
+		<shipBonusBank>0</shipBonusBank>
+		<shipPaperBank>2</shipPaperBank>
+		<numberofstudents>2</numberofstudents>
+	</testcase>
+	
+<testcase id="Sprint_11.3:dev35:Golden:ShippingOrder_HST_Province_NL_5_0_payment">
+		<userid>5099537</userid>
+		<password>passw0rd</password>
+		<itemName>The Night Before Summer! Pack</itemName>
+		<itemName2>First Hockey Words</itemName2>
+		<itemQty>1</itemQty>
+		<itemQty2>2</itemQty2>
+		<shipBonusBank>4</shipBonusBank>
+		<shipPaperBank>0</shipPaperBank>
+		<numberofstudents>2</numberofstudents>
+	</testcase>	
+	
+	<testcase id="Sprint_11.3:dev35:Golden:ShippingOrder_GST_Province_YT_Redeem_Entire_payment">
+		<userid>5105201</userid>
+		<password>passw0rd</password>
+		<itemName>The Night Before Summer! Pack</itemName>
+		<itemName2>First Hockey Words</itemName2>
+		<itemQty>1</itemQty>
+		<itemQty2>2</itemQty2>
+		<shipBonusBank>4</shipBonusBank>
+		<shipPaperBank>0</shipPaperBank>
+		<numberofstudents>2</numberofstudents>
+	</testcase>
+	
+	
+	<testcase id="Sprint_11.3:dev35:Golden:ShippingOrder_FreeShipping_payment" description="this test data is use for validate Free Shipping in paymentpage">
+		<userid>5114492</userid>
+		<password>passw0rd</password>
+		<removeCartFlag>true</removeCartFlag>
+		<itemName>The Night Before Summer! Pack</itemName>
+		<itemQty>6</itemQty>
+		<itemName2>First Hockey Words</itemName2>
+		<itemQty2>2</itemQty2>
+		<numberofstudents>2</numberofstudents>
+		<shippingCharge>FREE!</shippingCharge>
+		
+	</testcase>
+	
+	
+			
+
+	
+
+	
+	
+
+
+</testdata>	

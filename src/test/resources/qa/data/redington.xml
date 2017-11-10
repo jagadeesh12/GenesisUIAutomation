@@ -1,0 +1,25 @@
+<testdata>
+	<testcase id="RedingtonLogin">
+		<userid>sa6.qa2@3.emailfreedom.ml</userid>
+		<password>Pass@123</password>
+		<department>Sales</department>
+		<function>Marketing</function>
+		<mobile>1234567890</mobile>
+		<tele>0221234572</tele>
+		<fax>0221263342</fax>
+		<role>PM</role>
+		<country>61: ARE</country>
+		<status>Active</status>
+		<newPassword>Pass@123</newPassword>
+		<mailUrl>https://www.mailinator.com/</mailUrl>
+		<appUrl>https://test.redington.market/</appUrl>
+	</testcase>
+	<testcase id="OrderApproval">
+		<userid>pm6.qa@mailinator.com</userid>
+		<password>Pass@123</password>
+		<userFm>fm6.qa@mailinator.com</userFm>
+		<passFm>Pass@123</passFm>
+	
+	</testcase>
+</testdata>
+

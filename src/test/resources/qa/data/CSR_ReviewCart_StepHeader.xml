@@ -1,0 +1,20 @@
+<testdata>
+	<testcase id="ReviewCart_tab_highlights">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>5295317</AcNum>
+  		<FlyerCode>Z8A16</FlyerCode>
+  		<ItemNum>700</ItemNum>
+  		<ItemQty>1</ItemQty>
+	</testcase>
+	
+	<testcase id="Number_for_the_ReviewCart_tab">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>5295474</AcNum>
+  		<FlyerCode>Z8A16</FlyerCode>
+  		<ItemNum>700</ItemNum>
+  		<ItemQty>2</ItemQty>
+	</testcase>
+
+</testdata>

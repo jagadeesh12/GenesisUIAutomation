@@ -1,0 +1,740 @@
+<testdata>
+        
+<!-- #####################################################################################################################################
+	##########################################################################################################################################
+	###########################################   							             #####################################################
+	###########################################   		   DWCAPCOD-206          	     #####################################################
+	###########################################   							             #####################################################       
+	##########################################################################################################################################
+	###################################################################################################################################### -->
+   
+    <testcase id="Dev35:PCOD:ReviewCart_SOO_DeleteItems_ModalWindow">
+	<userid>178104</userid>
+	<password>passw0rd</password>
+	<childname>testchild1</childname>
+	<option>Other.</option>
+	</testcase>
+		
+	 <testcase id="Dev35:PCOD:ReviewCart_SOO_DeleteItems">
+	<userid>178112</userid>
+	<parent>test42schlast@schl.com</parent>
+	<password>passw0rd</password>
+	<option>Other.</option>
+	</testcase> 
+	
+    <testcase id="Dev35:PCOD:ReviewCart_SOO_DeleteItems_No">
+	<userid>178120</userid>
+	<password>passw0rd</password>
+	<option>Other.</option>
+	</testcase>
+
+	<!-- #####################################################################################################################################
+	##########################################################################################################################################
+	###########################################   							             #####################################################
+	###########################################   		   DWCAPCOD-1662          	     #####################################################
+	###########################################   							             #####################################################       
+	##########################################################################################################################################
+	###################################################################################################################################### -->
+
+	<testcase id="InSprint16.4:PCOD:ReviewCart:Freepick_Search:NoTeacherResource">
+		<acc_no>schl1504639338350@abc.com</acc_no>
+		<password>passw0rd</password>
+		<couponCode>${teacherResourceCoupon}</couponCode>
+		<searchTerm>${teacherResourceItemTite}</searchTerm>
+	</testcase>
+	
+	<testcase id="InSprint16.4:PCOD:ReviewCart:Freepick_GradeDropdown:NoTeacherResource">
+		<acc_no>schl1504639593254@abc.com</acc_no>
+		<password>passw0rd</password>
+		<couponCode>${teacherResourceCoupon}</couponCode>
+		<grade>${teacherResourceItemGrade}</grade>
+		<searchTerm>${teacherResourceItemNumber}</searchTerm>
+	</testcase>
+	
+	<testcase id="InSprint16.4:PCOD:Search:NoTeacherResource">
+		<acc_no>schl1504639866300@abc.com</acc_no>
+		<password>passw0rd</password>
+		<searchTerm>${teacherResourceItemTite}</searchTerm>
+	</testcase>
+
+	<!-- #####################################################################################################################################
+	##########################################################################################################################################
+	###########################################   							             #####################################################
+	###########################################   		   DWCAPCOD-1914          	     #####################################################
+	###########################################   							             #####################################################       
+	##########################################################################################################################################
+	###################################################################################################################################### -->
+	
+	<testcase id="InSprint16.4:PCOD:ParentRegistration:TeacherEmail_LowerCase_AlreadyUsed">
+		<accnum>369729</accnum>
+		<postalcode>V0B 1G5</postalcode>
+		<schoolName>Prince Charles Sec School</schoolName>
+		<firstname>Mark</firstname>
+		<lastname>Value</lastname>
+		<email>dwcanadacsrtes.t@gmail.com</email>
+		<password>passw0rd</password>
+		<mobnumber>9786732112</mobnumber>
+	</testcase>
+	
+	<testcase id="InSprint16.4:PCOD:ParentRegistration:TeacherEmail_UpperCase_AlreadyUsed">
+		<accnum>369729</accnum>
+		<postalcode>V0B 1G5</postalcode>
+		<schoolName>Prince Charles Sec School</schoolName>
+		<firstname>Mark</firstname>
+		<lastname>Value</lastname>
+		<email>DWCANADACSRTES.T@GMAIL.COM</email>
+		<password>passw0rd</password>
+		<mobnumber>9786732112</mobnumber>
+	</testcase>
+	
+	<testcase id="InSprint16.4:PCOD:ParentRegistration:TeacherEmail_MixedCase_AlreadyUsed">
+		<accnum>369729</accnum>
+		<postalcode>V0B 1G5</postalcode>
+		<schoolName>Prince Charles Sec School</schoolName>
+		<firstname>Mark</firstname>
+		<lastname>Value</lastname>
+		<email>DwcanAdacsRtes.T@Gmail.Com</email>
+		<password>passw0rd</password>
+		<mobnumber>9786732112</mobnumber>
+	</testcase>
+	
+	<testcase id="InSprint16.4:PCOD:ParentRegistration:TeacherEmail_ForgotPassword">
+		<accnum>369729</accnum>
+		<postalcode>V0B 1G5</postalcode>
+		<schoolName>Prince Charles Sec School</schoolName>
+		<firstname>Mark</firstname>
+		<lastname>Value</lastname>
+		<email>dwcanadacsrtes.t@gmail.com</email>
+		<password>passw0rd</password>
+		<mobnumber>9786732112</mobnumber>
+	</testcase>
+	
+	<testcase id="InSprint16.4:PCOD:ParentRegistration:AnyDomain">
+		<accnum>369729</accnum>
+		<postalcode>V0B 1G5</postalcode>
+		<schoolName>Prince Charles Sec School</schoolName>
+		<firstname>Mark</firstname>
+		<lastname>Value</lastname>
+		<email>@sco.education</email>
+		<password>passw0rd</password>
+		<mobnumber>9786732112</mobnumber>
+		<child_firstname>test</child_firstname>
+		<child_lastname>Value</child_lastname>
+	</testcase>
+	
+	<!-- #####################################################################################################################################
+	##########################################################################################################################################
+	###########################################   							             #####################################################
+	###########################################   		   DWCAPCOD-1914          	     #####################################################
+	###########################################   							             #####################################################       
+	##########################################################################################################################################
+	###################################################################################################################################### -->
+	
+	<testcase id="InSprint16.4:PCOD:MyAccount:OptIn">
+		<userid>262676</userid>
+		<password>passw0rd</password>
+	</testcase>
+	
+	<testcase id="InSprint16.4:PCOD:MyAccount:OptOut">
+		<userid>262709</userid>
+		<password>passw0rd</password>
+	</testcase>
+	
+	<testcase id="InSprint16.4:PCOD:ParentSiteLaunch:OptOut_Previously">
+		<userid>263187</userid>
+		<password>passw0rd</password>
+		<BMUser>cgayle</BMUser>
+		<BMpassword>Mercury12!</BMpassword>
+		<optinParentPay>false</optinParentPay>
+		<env>dev35</env>
+	</testcase>
+	
+	<testcase id="InSprint16.4:PCOD:ParentSiteLaunch:OptIn_Previously">
+		<userid>263195</userid>
+		<password>passw0rd</password>
+		<BMUser>cgayle</BMUser>
+		<BMpassword>Mercury12!</BMpassword>
+		<optinParentPay>true</optinParentPay>
+		<env>dev35</env>
+	</testcase>
+
+
+	<!-- #####################################################################################################################################
+	##########################################################################################################################################
+	###########################################   							             #####################################################
+	###########################################   		   DWCAPCOD-1914          	     #####################################################
+	###########################################   							             #####################################################       
+	##########################################################################################################################################
+	###################################################################################################################################### -->
+
+	<testcase id="InSprint16.4:PCOD:MyAccount:PaymentBilling:RemoveCard_NO">
+		<acc_no>j@i.com</acc_no>
+		<password>passw0rd</password>
+		<cardname>Kole Baker</cardname>
+		<cardtype>Visa</cardtype>
+		<cardnumber>4111111111111111</cardnumber>
+		<expmonth>09</expmonth>
+		<expyear>2018</expyear>
+		<securitycode>344</securitycode>
+		<firstname>Kole</firstname>
+		<lastname>Baker</lastname>
+		<address1>223 18th Ave S</address1>
+		<address2></address2>
+		<province>BC</province>
+		<zip>V0B 1G5</zip>
+		<city>Creston</city>
+		<phone>9785463221</phone>
+	</testcase>
+	
+	<testcase id="InSprint16.4:PCOD:MyAccount:PaymentBilling:AddNewCard_AMEX">
+		<acc_no>j@ie.com</acc_no>
+		<password>passw0rd</password>
+		<cardname>Kole Baker</cardname>
+		<cardtype>Amex</cardtype>
+		<cardnumber>373731623811006</cardnumber>
+		<expmonth>09</expmonth>
+		<expyear>2018</expyear>
+		<securitycode>344</securitycode>
+		<firstname>Kole</firstname>
+		<lastname>Baker</lastname>
+		<address1>223 18th Ave S</address1>
+		<address2></address2>
+		<province>BC</province>
+		<zip>V0B 1G5</zip>
+		<city>Creston</city>
+		<phone>9785463221</phone>
+	</testcase>
+	
+	<testcase id="InSprint16.4:PCOD:MyAccount:PaymentBilling:AddNewCard_VISA">
+		<acc_no>op@name.com</acc_no>
+		<password>passw0rd</password>
+		<cardname>Kole Baker</cardname>
+		<cardtype>Visa</cardtype>
+		<cardnumber>4111111111111111</cardnumber>
+		<expmonth>09</expmonth>
+		<expyear>2018</expyear>
+		<securitycode>344</securitycode>
+		<firstname>Kole</firstname>
+		<lastname>Baker</lastname>
+		<address1>223 18th Ave S</address1>
+		<address2></address2>
+		<province>BC</province>
+		<zip>V0B 1G5</zip>
+		<city>Creston</city>
+		<phone>9785463221</phone>
+	</testcase>
+	
+	<testcase id="InSprint16.4:PCOD:MyAccount:PaymentBilling:AddNewCard_MasterCard">
+		<acc_no>t@1t.cn</acc_no>
+		<password>passw0rd</password>
+		<cardname>Kole Baker</cardname>
+		<cardtype>MasterCard</cardtype>
+		<cardnumber>5431111111111111</cardnumber>
+		<expmonth>09</expmonth>
+		<expyear>2018</expyear>
+		<securitycode>344</securitycode>
+		<firstname>Kole</firstname>
+		<lastname>Baker</lastname>
+		<address1>223 18th Ave S</address1>
+		<address2></address2>
+		<province>BC</province>
+		<zip>V0B 1G5</zip>
+		<city>Creston</city>
+		<phone>9785463221</phone>
+	</testcase>
+	
+	<testcase id="InSprint16.4:PCOD:MyAccount:PaymentBilling:EditSavedCard_AMEX">
+		<acc_no>ui@ui.ui</acc_no>
+		<password>passw0rd</password>
+		<cardname>Kole Baker</cardname>
+		<cardtype>Amex</cardtype>
+		<cardnumber>373731623811006</cardnumber>
+		<expmonth>09</expmonth>
+		<expyear>2018</expyear>
+		<securitycode>4545</securitycode>
+		<firstname>Kole</firstname>
+		<lastname>Baker</lastname>
+		<address1>223 18th Ave S</address1>
+		<address2></address2>
+		<province>BC</province>
+		<zip>V0B 1G5</zip>
+		<city>Creston</city>
+		<phone>9785463221</phone>
+		<expmonth2>12</expmonth2>
+		<expyear2>2022</expyear2>
+		<firstname2>Mary</firstname2>
+		<lastname2>Sue</lastname2>
+		<address1_2>Eagle Dr IR 6</address1_2>
+		<address2_2>Apt. C3</address2_2>
+		<province2>BC</province2>
+		<expprovince>British Columbia</expprovince>
+		<zip2>V0N 2K0</zip2>
+		<city2>Mount Currie</city2>
+		<phone2>6541237890</phone2>
+	</testcase>
+	
+	<testcase id="InSprint16.4:PCOD:MyAccount:PaymentBilling:EditSavedCard_VISA">
+		<acc_no>many@name.com</acc_no>
+		<password>passw0rd</password>
+		<cardname>Kole Baker</cardname>
+		<cardtype>Visa</cardtype>
+		<cardnumber>4111111111111111</cardnumber>
+		<expmonth>09</expmonth>
+		<expyear>2018</expyear>
+		<securitycode>344</securitycode>
+		<firstname>Kole</firstname>
+		<lastname>Baker</lastname>
+		<address1>223 18th Ave S</address1>
+		<address2></address2>
+		<province>BC</province>
+		<zip>V0B 1G5</zip>
+		<city>Creston</city>
+		<phone>9785463221</phone>
+		<expmonth2>12</expmonth2>
+		<expyear2>2022</expyear2>
+		<firstname2>Mary</firstname2>
+		<lastname2>Sue</lastname2>
+		<address1_2>Eagle Dr IR 6</address1_2>
+		<address2_2>Apt. C3</address2_2>
+		<province2>BC</province2>
+		<expprovince>British Columbia</expprovince>
+		<zip2>V0N 2K0</zip2>
+		<city2>Mount Currie</city2>
+		<phone2>6541237890</phone2>
+	</testcase>
+	
+	<testcase id="InSprint16.4:PCOD:MyAccount:PaymentBilling:EditSavedCard_MasterCard">
+		<acc_no>d@name.com</acc_no>
+		<password>passw0rd</password>
+		<cardname>Kole Baker</cardname>
+		<cardtype>MasterCard</cardtype>
+		<cardnumber>5431111111111111</cardnumber>
+		<expmonth>09</expmonth>
+		<expyear>2018</expyear>
+		<securitycode>344</securitycode>
+		<firstname>Kole</firstname>
+		<lastname>Baker</lastname>
+		<address1>223 18th Ave S</address1>
+		<address2></address2>
+		<province>BC</province>
+		<zip>V0B 1G5</zip>
+		<city>Creston</city>
+		<phone>9785463221</phone>
+		<expmonth2>12</expmonth2>
+		<expyear2>2022</expyear2>
+		<firstname2>Mary</firstname2>
+		<lastname2>Sue</lastname2>
+		<address1_2>Eagle Dr IR 6</address1_2>
+		<address2_2>Apt. C3</address2_2>
+		<province2>BC</province2>
+		<expprovince>British Columbia</expprovince>
+		<zip2>V0N 2K0</zip2>
+		<city2>Mount Currie</city2>
+		<phone2>6541237890</phone2>
+	</testcase>
+	
+	<testcase id="InSprint16.4:PCOD:MyAccount:PaymentBilling:InvalidCreditCard_ErrorMessage">
+		<acc_no>e@name.com</acc_no>
+		<password>passw0rd</password>
+		<cardname>Kole Baker</cardname>
+		<cardnumber>2222333344445555</cardnumber>
+		<expmonth>09</expmonth>
+		<expyear>2018</expyear>
+		<securitycode>344</securitycode>
+		<firstname>Kole</firstname>
+		<lastname>Baker</lastname>
+		<address1>223 18th Ave S</address1>
+		<address2></address2>
+		<province>BC</province>
+		<zip>V0B 1G5</zip>
+		<city>Creston</city>
+		<phone>9785463221</phone>
+	</testcase>
+	
+	
+	<testcase id="InSprint16.4:PCOD:MyAccount:PaymentBilling:SecurityCodeCleared">
+		<acc_no>auto_1505976231070@sco.education</acc_no>
+		<password>passw0rd</password>
+		<cardname>Kole Baker</cardname>
+		<cardnumber>5431111111111111</cardnumber>
+		<expmonth>09</expmonth>
+		<expyear>2018</expyear>
+		<securitycode>344</securitycode>
+		<firstname>Kole</firstname>
+		<lastname>Baker</lastname>
+		<address1>223 18th Ave S</address1>
+		<address2></address2>
+		<province>BC</province>
+		<zip>V0B 1G5</zip>
+		<city>Creston</city>
+		<phone>9785463221</phone>
+	</testcase>
+	
+	<testcase id="InSprint16.4:PCOD:MyAccount:PaymentBilling:RemoveCard_Tooltip">
+		<acc_no>hh@name.com</acc_no>
+		<password>passw0rd</password>
+		<cardname>Kole Baker</cardname>
+		<cardnumber>5431111111111111</cardnumber>
+		<expmonth>09</expmonth>
+		<expyear>2018</expyear>
+		<securitycode>344</securitycode>
+		<firstname>Kole</firstname>
+		<lastname>Baker</lastname>
+		<address1>223 18th Ave S</address1>
+		<address2></address2>
+		<province>BC</province>
+		<zip>V0B 1G5</zip>
+		<city>Creston</city>
+		<phone>9785463221</phone>
+	</testcase>
+	
+	<testcase id="InSprint16.4:PCOD:MyAccount:PaymentBilling:CannotAddMoreThan3CreditCard">
+		<acc_no>i@name.com</acc_no>
+		<password>passw0rd</password>
+		<cardname>Kole Baker</cardname>
+		<cardnumber>5431111111111111</cardnumber>
+		<expmonth>09</expmonth>
+		<expyear>2018</expyear>
+		<securitycode>344</securitycode>
+		<firstname>Kole</firstname>
+		<lastname>Baker</lastname>
+		<address1>223 18th Ave S</address1>
+		<address2></address2>
+		<province>BC</province>
+		<zip>V0B 1G5</zip>
+		<city>Creston</city>
+		<phone>9785463221</phone>
+	</testcase>
+	
+	<testcase id="InSprint16.4:PCOD:MyAccount:PaymentBilling:DeleteSavedCard">
+		<acc_no>j@name.com</acc_no>
+		<password>passw0rd</password>
+		<cardname>Kole Baker</cardname>
+		<cardnumber>5431111111111111</cardnumber>
+		<expmonth>09</expmonth>
+		<expyear>2018</expyear>
+		<securitycode>344</securitycode>
+		<firstname>Kole</firstname>
+		<lastname>Baker</lastname>
+		<address1>223 18th Ave S</address1>
+		<address2></address2>
+		<province>BC</province>
+		<zip>V0B 1G5</zip>
+		<city>Creston</city>
+		<phone>9785463221</phone>
+	</testcase>
+	
+	<testcase id="InSprint16.4:PCOD:MyAccount:PaymentBilling:CancelEditCard">
+		<acc_no>a@name.com</acc_no>
+		<password>passw0rd</password>
+		<cardname>Kole Baker</cardname>
+		<cardnumber>5431111111111111</cardnumber>
+		<expmonth>09</expmonth>
+		<expyear>2018</expyear>
+		<securitycode>344</securitycode>
+		<firstname>Kole</firstname>
+		<lastname>Baker</lastname>
+		<address1>223 18th Ave S</address1>
+		<address2></address2>
+		<province>BC</province>
+		<zip>V0B 1G5</zip>
+		<city>Creston</city>
+		<phone>9785463221</phone>
+		<expmonth2>12</expmonth2>
+		<expyear2>2022</expyear2>
+		<firstname2>Mary</firstname2>
+		<lastname2>Sue</lastname2>
+		<address1_2>Eagle Dr IR 6</address1_2>
+		<address2_2>Apt. C5</address2_2>
+		<province2>BC</province2>
+		<expprovince>British Columbia</expprovince>
+		<zip2>V0N 2K0</zip2>
+		<city2>Mount Currie</city2>
+		<phone2>6541237890</phone2>
+	</testcase>
+	
+<!--     <testcase id="Dev35:PCOD:ReviewCart_SOO_DeleteItems_ModalWindow">
+	<userid>202755</userid> -->
+<!-- #####################################################################################################################################
+	##########################################################################################################################################
+	###########################################   							             #####################################################
+	###########################################   		   DWCAPCOD-150         	     #####################################################
+	###########################################   							             #####################################################       
+	##########################################################################################################################################
+	###################################################################################################################################### -->
+		
+	<testcase id="Dev35:PCOD:2Childs_2Teach_SOO_PaymentPage_GSTQST_ItemInfo">
+	<userid>177560</userid>
+	<userid2>177594</userid2>
+	<parent>test39schlast@schl.com</parent>
+	<password>passw0rd</password>
+	<shippingCharge>FREE!</shippingCharge>
+	</testcase>
+	
+	<testcase id="Dev35:PCOD:2Childs_2Teach_SOO_PaymentPage_GST_ItemInfo">
+	<userid>176562</userid>
+	<userid2>176603</userid2>
+	<parent>test31schlast@schl.com</parent>
+	<password>passw0rd</password>
+	<shippingCharge>FREE!</shippingCharge>
+	</testcase>
+	
+	<testcase id="Dev35:PCOD:2Childs_1Teach_SOO_PaymentPage_GSTPST_ItemInfo">
+	<userid>171182</userid>
+	<userid2>171257</userid2>
+	<parent>test30schlast@schl.com</parent>
+	<password>passw0rd</password>
+	<shippingCharge>FREE!</shippingCharge>
+	</testcase>
+	
+	<testcase id="Dev35:PCOD:1Child1_1Teach_SOO_PaymentPage_HST_ItemInfo">
+	<userid>168783</userid>
+	<parent>test18schlast@schl.com</parent>
+	<password>passw0rd</password>
+	<shippingCharge>FREE!</shippingCharge>
+	</testcase>
+	
+	<testcase id="Dev35:PCOD:3Childs_2Teach_SOO_PaymentPage_TaxExempt_ItemInfo">
+	<userid>177479</userid>
+	<userid2>177528</userid2>
+	<parent>test38schlast@schl.com</parent>
+	<password>passw0rd</password>
+	<shippingCharge>FREE!</shippingCharge>
+	</testcase>
+	
+	<testcase id="Dev35:PCOD:1Childs_1Teach_SOO_PaymentPage_FreePickCoupon">
+	<userid>177073</userid>
+	<parent>test37schlast@schl.com</parent>
+	<password>passw0rd</password>
+	<shippingCharge>FREE!</shippingCharge>
+	</testcase>
+	
+	<testcase id="Dev35:PCOD:2Parents_1Child_1Teach_SOO_PaymentPage_ItemInfo">
+	<userid>176801</userid>
+	<parent>test35schlast@schl.com</parent>
+	<parent>test36schlast@schl.com</parent>
+	<password>passw0rd</password>
+    <shippingCharge>FREE!</shippingCharge>
+	</testcase>
+	
+	<testcase id="Dev35:PCOD:SOOSFOYTOTE_PaymentPage_GST_ItemInfo">
+	<userid>176778</userid>
+	<parent>test34schlast@schl.com</parent>
+	<password>passw0rd</password>
+	<studentname1>${studentname1}</studentname1>
+	<sfo_Item1>${PROD_BVT_SFO_ITEM1}</sfo_Item1>
+	<studentname2>${studentname2}</studentname2>
+	<sfo_Item2>${PROD_BVT_SFO_ITEM2}</sfo_Item2>
+	<studentname3>${studentname3}</studentname3>
+	<sfo_Item3>${PROD_BVT_SFO_ITEM3}</sfo_Item3>
+	<itemName>${TCOD_YTO_ITEM3}</itemName>
+    <itemName2>${TCOD_YTO_ITEM1}</itemName2>
+    <te_itemName1>${TCOD_TE_ITEM1}</te_itemName1>
+	<te_itemName2>${TCOD_TE_ITEM2}</te_itemName2>
+    <shippingCharge>FREE!</shippingCharge>
+    <redemptions>1</redemptions>
+	</testcase>	
+	
+	<testcase id="Dev35:PCOD:SOOSFO_PaymentPage_GST_ItemInfo">
+	<userid>176752</userid>
+	<parent>test33schlast@schl.com</parent>
+	<password>passw0rd</password>
+	<studentname1>${studentname1}</studentname1>
+	<sfo_Item1>${PROD_BVT_SFO_ITEM1}</sfo_Item1>
+	<studentname2>${studentname2}</studentname2>
+	<sfo_Item2>${PROD_BVT_SFO_ITEM2}</sfo_Item2>
+	<studentname3>${studentname3}</studentname3>
+	<sfo_Item3>${PROD_BVT_SFO_ITEM3}</sfo_Item3>
+    <shippingCharge>FREE!</shippingCharge>
+	</testcase>
+	
+	<testcase id="Dev35:PCOD:SOOYTO_PaymentPage_GSTQST_ItemInfo">
+	<userid>176702</userid>
+	<parent>test32schlast@schl.com</parent>
+	<password>passw0rd</password>
+	<itemName>${TCOD_YTO_ITEM3}</itemName>
+    <itemName2>${TCOD_YTO_ITEM1}</itemName2>
+    <shippingCharge>FREE!</shippingCharge>
+	</testcase>
+	
+	<testcase id="Dev35:PCOD:SOOTE_PaymentPage_GST_ItemInfo">
+	<userid>170283</userid>
+	<parent>test29schlast@schl.com</parent>
+	<password>passw0rd</password>
+    <te_itemName1>${TCOD_TE_ITEM1}</te_itemName1>
+	<te_itemName2>${TCOD_TE_ITEM2}</te_itemName2>
+    <shippingCharge>FREE!</shippingCharge>
+	</testcase>
+	
+	<testcase id="Dev35:PCOD:SOOSFOYTO_PaymentPage_GST_ItemInfo">
+	<userid>168246</userid>
+	<parent>test16schlast@schl.com</parent>
+	<password>passw0rd</password>
+	<studentname1>${studentname1}</studentname1>
+	<sfo_Item1>${PROD_BVT_SFO_ITEM1}</sfo_Item1>
+	<studentname2>${studentname2}</studentname2>
+	<sfo_Item2>${PROD_BVT_SFO_ITEM2}</sfo_Item2>
+	<studentname3>${studentname3}</studentname3>
+	<sfo_Item3>${PROD_BVT_SFO_ITEM3}</sfo_Item3>
+	<itemName>${TCOD_YTO_ITEM3}</itemName>
+    <itemName2>${TCOD_YTO_ITEM1}</itemName2>
+    <shippingCharge>FREE!</shippingCharge>
+	</testcase> 
+	
+	<testcase id="Dev35:PCOD:SOOSFOTE_PaymentPage_GST_ItemInfo">
+	<userid>168353</userid>
+	<parent>test17schlast@schl.com</parent>
+	<password>passw0rd</password>
+	<studentname1>${studentname1}</studentname1>
+	<sfo_Item1>${PROD_BVT_SFO_ITEM1}</sfo_Item1>
+	<studentname2>${studentname2}</studentname2>
+	<sfo_Item2>${PROD_BVT_SFO_ITEM2}</sfo_Item2>
+	<studentname3>${studentname3}</studentname3>
+	<sfo_Item3>${PROD_BVT_SFO_ITEM3}</sfo_Item3>
+	<te_itemName1>${TCOD_TE_ITEM1}</te_itemName1>
+	<te_itemName2>${TCOD_TE_ITEM2}</te_itemName2>
+    <shippingCharge>FREE!</shippingCharge>
+	</testcase>
+	
+	<testcase id="Dev35:PCOD:SOOYTOTE_PaymentPage_GST_ItemInfo">
+	<userid>168923</userid>
+	<parent>test19schlast@schl.com</parent>
+	<password>passw0rd</password>
+	<itemName>${TCOD_YTO_ITEM3}</itemName>
+    <itemName2>${TCOD_YTO_ITEM1}</itemName2>
+    <te_itemName1>${TCOD_TE_ITEM1}</te_itemName1>
+	<te_itemName2>${TCOD_TE_ITEM2}</te_itemName2>
+    <shippingCharge>FREE!</shippingCharge>
+	</testcase>
+
+    <testcase id="Dev35:PCOD:SOOSFOYTOTE_Redemptions_PaymentPage_GST_ItemInfo">
+	<userid>177619</userid>
+	<parent>test40schlast@schl.com</parent>
+	<password>passw0rd</password>
+	<studentname1>${studentname1}</studentname1>
+	<sfo_Item1>${PROD_BVT_SFO_ITEM1}</sfo_Item1>
+	<studentname2>${studentname2}</studentname2>
+	<sfo_Item2>${PROD_BVT_SFO_ITEM2}</sfo_Item2>
+	<studentname3>${studentname3}</studentname3>
+	<sfo_Item3>${PROD_BVT_SFO_ITEM3}</sfo_Item3>
+	<itemName>${TCOD_YTO_ITEM3}</itemName>
+    <itemName2>${TCOD_YTO_ITEM1}</itemName2>
+    <te_itemName1>${TCOD_TE_ITEM1}</te_itemName1>
+	<te_itemName2>${TCOD_TE_ITEM2}</te_itemName2>
+    <shippingCharge>FREE!</shippingCharge>
+    <redemptions>1</redemptions>
+	</testcase>
+
+
+	<testcase id="Dev35_PCOD_SendReminder_1">
+		<userid>466020</userid>
+		<password>passw0rd</password>
+		<option>Other.</option>
+	</testcase>
+
+
+	<testcase id="Dev35:PCOD:TeacherDesk3">
+		<userid>466062</userid>
+		<password>passw0rd</password>
+		<option>Other.</option>
+	</testcase>
+
+	<!--<testcase id="Dev35:PCOD:SetDate">
+		<userid>466062</userid>
+		<password>passw0rd</password>
+		<option>Other.</option>
+	</testcase>-->
+
+	<testcase id="Dev35:PCOD:TeacherDesk4">
+		<userid>466377</userid>
+		<password>passw0rd</password>
+		<option>Other.</option>
+	</testcase>
+
+
+	<testcase id="Dev35:PCOD:TeacherDesk6">
+		<userid>466400</userid>
+		<password>passw0rd</password>
+		<option>Other.</option>
+	</testcase>
+
+	<testcase id="Dev35:PCOD:TeacherDesk7">
+		<userid>466442</userid>
+		<password>passw0rd</password>
+		<option>Other.</option>
+	</testcase>
+	
+<!-- #####################################################################################################################################
+	##########################################################################################################################################
+	###########################################   							             #####################################################
+	###########################################   		   DWCAPCOD-52         	     #####################################################
+	###########################################   							             #####################################################       
+	##########################################################################################################################################
+	###################################################################################################################################### -->
+
+    <testcase id="Dev35:PCOD:ProfileEditPasswordValid">
+		<acc_no>P24@schl.com</acc_no>
+		<password>passw0rd</password>
+		<newpassword>passw0rd</newpassword>
+		<confirmpassword>passw0rd</confirmpassword>
+		<updatedpassword>passw0rd</updatedpassword>
+	</testcase>
+		
+
+    <testcase id="Dev35:PCOD:ProfileEditPasswordHide">
+		<acc_no>P25@schl.com</acc_no>
+		<password>passw0rd</password>
+		<newpassword>passw0rd</newpassword>
+		<confirmpassword>passw0rd</confirmpassword>
+	</testcase>
+	
+	<testcase id="Dev35:PCOD:ProfileEditPasswordShow">
+		<acc_no>P25@schl.com</acc_no>
+		<password>passw0rd</password>
+		<newpassword>passw0rd</newpassword>
+		<confirmpassword>passw0rd</confirmpassword>
+	</testcase>
+	
+	<testcase id="Dev35:PCOD:ProfileEditPasswordNotMatching">
+		<acc_no>P25@schl.com</acc_no>
+		<password>passw0rd</password>
+		<newpassword>passw0rd</newpassword>
+		<confirmpassword>passw1rd</confirmpassword>
+	</testcase>
+	
+	<testcase id="Dev35:PCOD:ProfileEditPasswordWithoutNumber">
+		<acc_no>P25@schl.com</acc_no>
+		<password>passw0rd</password>
+		<newpassword>password</newpassword>
+	</testcase>
+	
+	<testcase id="Dev35:PCOD:ProfileEditPasswordWithoutLetters">
+		<acc_no>P25@schl.com</acc_no>
+		<password>passw0rd</password>
+		<newpassword>12345678</newpassword>
+	</testcase>
+
+    <testcase id="Dev35:PCOD:ProfileEditPasswordLess7Characters">
+		<acc_no>P25@schl.com</acc_no>
+		<password>passw0rd</password>
+		<newpassword>passw0</newpassword>
+	</testcase>
+
+
+
+	
+
+	<testcase id="Dev35:PCOD:TeacherDesk8">
+		<userid>466476</userid>
+		<password>passw0rd</password>
+		<option>Other.</option>
+	</testcase>
+
+	<testcase id="Dev35:PCOD:TeacherDesk9">
+		<userid>466856</userid>
+		<password>passw0rd</password>
+		<option>Other.</option>
+	</testcase>
+
+
+</testdata>

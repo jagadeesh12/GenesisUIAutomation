@@ -1,0 +1,573 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<suite guice-stage="DEVELOPMENT" name="Demandware" parallel="tests" thread-count="25" verbose="0">
+    <parameter name="remote.driver.url" value="http://sereti_qe:b9b8a9e1-e525-46af-9c7f-4a11c372b5c5@ondemand.saucelabs.com:80/wd/hub"/>
+    <parameter name="tdm.data" value="off"/>
+    <parameter name="glue" value="com.dw.automation.steps"/>
+    <parameter name="sauce" value="true"/>
+
+    <test name="Teacher is charged HST on the shipping fee against &#039;ON&#039; Province in Coupons and Rewards page">
+    <parameter name="features" value="features/Modules/CARegressionModuleJob/Module2/Auto_FreeShipping.feature"/>
+    <parameter name="scenario" value="Teacher is charged HST on the shipping fee against &#039;ON&#039; Province in Coupons and Rewards page"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Teacher is charged HST on the shipping fee against 'ON' Province in Coupons and Rewards page -->
+  <test name="Teacher is charged GST on the shipping fee against &#039;AB&#039; Province in Coupons and Rewards page">
+    <parameter name="features" value="features/Modules/CARegressionModuleJob/Module2/Manual_Shipping.feature"/>
+    <parameter name="scenario" value="Teacher is charged GST on the shipping fee against &#039;AB&#039; Province in Coupons and Rewards page"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Teacher is charged GST on the shipping fee against 'AB' Province in Coupons and Rewards page -->
+  <test name="Teacher cannot apply Free Shipping coupon on a cart which does not meet minimum amount">
+    <parameter name="features" value="features/Modules/CARegressionModuleJob/Module2/Manual_Shipping.feature"/>
+    <parameter name="scenario" value="Teacher cannot apply Free Shipping coupon on a cart which does not meet minimum amount"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Teacher cannot apply Free Shipping coupon on a cart which does not meet minimum amount -->
+  <test name="Teacher is charged GST on shipping fee against &#039;AB&#039; Province in Coupons and Rewards page">
+    <parameter name="features" value="features/Modules/CARegressionModuleJob/Module2/Auto_FreeShipping.feature"/>
+    <parameter name="scenario" value="Teacher is charged GST on shipping fee against &#039;AB&#039; Province in Coupons and Rewards page"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Teacher is charged GST on shipping fee against 'AB' Province in Coupons and Rewards page -->
+  <test name="Correct SFO subtotal,Qty,taxes,Total and Order Total displays in Payment page with applicable taxes GST">
+    <parameter name="features" value="features/Modules/CARegressionModuleJob/Module2/Payments.feature"/>
+    <parameter name="scenario" value="Correct SFO subtotal,Qty,taxes,Total and Order Total displays in Payment page with applicable taxes GST"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Correct SFO subtotal,Qty,taxes,Total and Order Total displays in Payment page with applicable taxes GST -->
+  
+  <test name="next tier of promotions when teacher qualifies for Bonus percentage">
+    <parameter name="features" value="features/Modules/CARegressionModuleJob/Module2/BonusPercentage.feature"/>
+    <parameter name="scenario" value="next tier of promotions when teacher qualifies for Bonus percentage"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- next tier of promotions when teacher qualifies for Bonus percentage -->
+  <test name="Bonus Flat dollars with qualifying amount on Student Club orders and checkout for tier3">
+    <parameter name="features" value="features/Modules/CARegressionModuleJob/Module2/BonusFlat.feature"/>
+    <parameter name="scenario" value="Bonus Flat dollars with qualifying amount on Student Club orders and checkout for tier3"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Bonus Flat dollars with qualifying amount on Student Club orders and checkout for tier3 -->
+  <test name="Teacher is notified with the next tier of promotions when teacher qualifies for Bonus Flat promotion">
+    <parameter name="features" value="features/Modules/CARegressionModuleJob/Module2/BonusFlat.feature"/>
+    <parameter name="scenario" value="Teacher is notified with the next tier of promotions when teacher qualifies for Bonus Flat promotion"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Teacher is notified with the next tier of promotions when teacher qualifies for Bonus Flat promotion -->
+  
+  <test name="Teacher enters invalid account number/email address and selects Remember me">
+    <parameter name="features" value="features/Modules/CARegressionModuleJob/Module1/LoginPage.feature"/>
+    <parameter name="scenario" value="Teacher enters invalid account number/email address and selects Remember me"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Teacher enters invalid account number/email address and selects Remember me -->
+  <test name="As a teacher, I want to be taken to the Content page when clicked on a Content Marketing link">
+    <parameter name="features" value="features/Modules/CARegressionModuleJob/Module1/Marketing_Links.feature"/>
+    <parameter name="scenario" value="As a teacher, I want to be taken to the Content page when clicked on a Content Marketing link"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- As a teacher, I want to be taken to the Content page when clicked on a Content Marketing link -->
+  <test name="As a teacher, I want to be taken to the Category page when clicked on a Category Marketing link">
+    <parameter name="features" value="features/Modules/CARegressionModuleJob/Module1/Marketing_Links.feature"/>
+    <parameter name="scenario" value="As a teacher, I want to be taken to the Category page when clicked on a Category Marketing link"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- As a teacher, I want to be taken to the Category page when clicked on a Category Marketing link -->
+  <test name="Marketing link displayed after login">
+    <parameter name="features" value="features/Modules/CARegressionModuleJob/Module1/Marketing_Links.feature"/>
+    <parameter name="scenario" value="Marketing link displayed after login"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Marketing link displayed after login -->
+  <test name="Teacher is able to search with Item# on the YTO Page">
+    <parameter name="features" value="features/Modules/CARegressionModuleJob/Module1/Search.feature"/>
+    <parameter name="scenario" value="Teacher is able to search with Item# on the YTO Page"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Teacher is able to search with Item# on the YTO Page -->
+  <test name="Teacher is able to search with Item# on the homepage">
+    <parameter name="features" value="features/Modules/CARegressionModuleJob/Module1/Search.feature"/>
+    <parameter name="scenario" value="Teacher is able to search with Item# on the homepage"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Teacher is able to search with Item# on the homepage -->
+  <test name="Teacher is able to search with Item# on the ReviewCart Page">
+    <parameter name="features" value="features/Modules/CARegressionModuleJob/Module1/Search.feature"/>
+    <parameter name="scenario" value="Teacher is able to search with Item# on the ReviewCart Page"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Teacher is able to search with Item# on the ReviewCart Page -->
+  
+  <test name="Teacher receives Free item promotion on a cart with qualifying minimum amount on Student Club orders">
+    <parameter name="features" value="features/Modules/CARegressionModuleJob/Module3/FreeItem.feature"/>
+    <parameter name="scenario" value="Teacher receives Free item promotion on a cart with qualifying minimum amount on Student Club orders"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Teacher receives Free item promotion on a cart with qualifying minimum amount on Student Club orders -->
+  <test name="Teacher should not receive Free item promotion on a cart which does not meet qualifying minimum amount">
+    <parameter name="features" value="features/Modules/CARegressionModuleJob/Module3/FreeItem.feature"/>
+    <parameter name="scenario" value="Teacher should not receive Free item promotion on a cart which does not meet qualifying minimum amount"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Teacher should not receive Free item promotion on a cart which does not meet qualifying minimum amount -->
+  <test name="Teacher cannot apply coupon on a cart which does not meet the minimum cart total">
+    <parameter name="features" value="features/Modules/CARegressionModuleJob/Module3/FreePick.feature"/>
+    <parameter name="scenario" value="Teacher cannot apply coupon on a cart which does not meet the minimum cart total"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Teacher cannot apply coupon on a cart which does not meet the minimum cart total -->
+  <test name="Teacher can apply a deleted toss-in coupon">
+    <parameter name="features" value="features/Modules/CARegressionModuleJob/Module3/FreeItem.feature"/>
+    <parameter name="scenario" value="Teacher can apply a deleted toss-in coupon"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Teacher can apply a deleted toss-in coupon -->
+  <test name="cannot apply Manual Free pick on a cart with qualifying minimum amount on Teacher Club orders">
+    <parameter name="features" value="features/Modules/CARegressionModuleJob/Module3/FreePick.feature"/>
+    <parameter name="scenario" value="cannot apply Manual Free pick on a cart with qualifying minimum amount on Teacher Club orders"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- cannot apply Manual Free pick on a cart with qualifying minimum amount on Teacher Club orders -->
+  <test name="Teacher selects specific free pick item and checkout">
+    <parameter name="features" value="features/Modules/CARegressionModuleJob/Module3/FreePick.feature"/>
+    <parameter name="scenario" value="Teacher selects specific free pick item and checkout"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Teacher selects specific free pick item and checkout -->
+  <test name="Teacher should not receive Q&amp;A Student incentive promotion when teacher deletes items from Student club">
+    <parameter name="features" value="features/Modules/CARegressionModuleJob/Module3/QA_StudentIncentive.feature"/>
+    <parameter name="scenario" value="Teacher should not receive Q&amp;A Student incentive promotion when teacher deletes items from Student club"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Teacher should not receive Q&A Student incentive promotion when teacher deletes items from Student club -->
+  <test name="No taxes are charged and correct YTO subtotal,Qty and Total displays in Redemptions page for tax exempted schools GST">
+    <parameter name="features" value="features/Modules/CARegressionModuleJob/Module3/Redemptions_Rewards.feature"/>
+    <parameter name="scenario" value="No taxes are charged and correct YTO subtotal,Qty and Total displays in Redemptions page for tax exempted schools GST"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- No taxes are charged and correct YTO subtotal,Qty and Total displays in Redemptions page for tax exempted schools GST -->
+
+  <test name="Teacher selects an item by searching for a qualifying item on Free pick modal">
+    <parameter name="features" value="features/Modules/CARegressionModuleJob/Module3/FreePick.feature"/>
+    <parameter name="scenario" value="Teacher selects an item by searching for a qualifying item on Free pick modal"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Teacher selects an item by searching for a qualifying item on Free pick modal -->
+  <test name="Teacher selects an item by searching with Item title">
+    <parameter name="features" value="features/Modules/CARegressionModuleJob/Module3/FreePick.feature"/>
+    <parameter name="scenario" value="Teacher selects an item by searching with Item title"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Teacher selects an item by searching with Item title -->
+  <test name="Teacher trying to apply a stackable coupon to a basket with a previously applied non-stackable coupon">
+    <parameter name="features" value="features/Modules/CARegressionModuleJob/Module3/StackableCoupons.feature"/>
+    <parameter name="scenario" value="Teacher trying to apply a stackable coupon to a basket with a previously applied non-stackable coupon"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Teacher trying to apply a stackable coupon to a basket with a previously applied non-stackable coupon -->
+  <test name="Shipping upsell message displays when teacher deletes items from cart making cart eligible for paid shipping">
+    <parameter name="features" value="features/Modules/CARegressionModuleJob/Module3/Redemptions_Rewards.feature"/>
+    <parameter name="scenario" value="Shipping upsell message displays when teacher deletes items from cart making cart eligible for paid shipping"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Shipping upsell message displays when teacher deletes items from cart making cart eligible for paid shipping -->
+
+  <test name="Enter Valid coupon code which has expired on SFO coupon modal">
+    <parameter name="features" value="features/Modules/CARegressionModuleJob/Module4/SFO.feature"/>
+    <parameter name="scenario" value="Enter Valid coupon code which has expired on SFO coupon modal"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Enter Valid coupon code which has expired on SFO coupon modal -->
+  <test name="SFO Apply coupon Modal">
+    <parameter name="features" value="features/Modules/CARegressionModuleJob/Module4/SFO.feature"/>
+    <parameter name="scenario" value="SFO Apply coupon Modal"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- SFO Apply coupon Modal -->
+  <test name="Teacher Apply Free Pick Coupon on SFO modal">
+    <parameter name="features" value="features/Modules/CARegressionModuleJob/Module4/SFO.feature"/>
+    <parameter name="scenario" value="Teacher Apply Free Pick Coupon on SFO modal"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Teacher Apply Free Pick Coupon on SFO modal -->
+  <test name="When FreePick coupon is applied Student Name remains active">
+    <parameter name="features" value="features/Modules/CARegressionModuleJob/Module4/SFO.feature"/>
+    <parameter name="scenario" value="When FreePick coupon is applied Student Name remains active"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- When FreePick coupon is applied Student Name remains active -->
+  <test name="When FreePick coupon is applied Coupon code field is deactivated">
+    <parameter name="features" value="features/Modules/CARegressionModuleJob/Module4/SFO.feature"/>
+    <parameter name="scenario" value="When FreePick coupon is applied Coupon code field is deactivated"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- When FreePick coupon is applied Coupon code field is deactivated -->
+  <test name="Teacher can search for free pick item by ItemID">
+    <parameter name="features" value="features/Modules/CARegressionModuleJob/Module4/SFO.feature"/>
+    <parameter name="scenario" value="Teacher can search for free pick item by ItemID"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Teacher can search for free pick item by ItemID -->
+  <test name="Teacher applies coupon and call out message is displayed on the modal">
+    <parameter name="features" value="features/Modules/CARegressionModuleJob/Module4/SFO.feature"/>
+    <parameter name="scenario" value="Teacher applies coupon and call out message is displayed on the modal"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Teacher applies coupon and call out message is displayed on the modal -->
+  <test name="SFO Free Pick Confirm modal close">
+    <parameter name="features" value="features/Modules/CARegressionModuleJob/Module4/SFO.feature"/>
+    <parameter name="scenario" value="SFO Free Pick Confirm modal close"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- SFO Free Pick Confirm modal close -->
+  <test name="SFO Free Pick Selected modal close">
+    <parameter name="features" value="features/Modules/CARegressionModuleJob/Module4/SFO.feature"/>
+    <parameter name="scenario" value="SFO Free Pick Selected modal close"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- SFO Free Pick Selected modal close -->
+  <test name="Teacher can search for free pick item by ItemName">
+    <parameter name="features" value="features/Modules/CARegressionModuleJob/Module4/SFO.feature"/>
+    <parameter name="scenario" value="Teacher can search for free pick item by ItemName"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Teacher can search for free pick item by ItemName -->
+  <test name="SFO Teacher selects an item by searching for a qualifying item on Free pick modal">
+    <parameter name="features" value="features/Modules/CARegressionModuleJob/Module4/SFO.feature"/>
+    <parameter name="scenario" value="SFO Teacher selects an item by searching for a qualifying item on Free pick modal"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- SFO Teacher selects an item by searching for a qualifying item on Free pick modal -->
+  <test name="SFO Coupon modal displays free pick item">
+    <parameter name="features" value="features/Modules/CARegressionModuleJob/Module4/SFO.feature"/>
+    <parameter name="scenario" value="SFO Coupon modal displays free pick item"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- SFO Coupon modal displays free pick item -->
+  <test name="Teacher adds more than one Students Order in SFO page">
+    <parameter name="features" value="features/Modules/CARegressionModuleJob/Module4/SFO.feature"/>
+    <parameter name="scenario" value="Teacher adds more than one Students Order in SFO page"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Teacher adds more than one Students Order in SFO page -->
+  <test name="Teacher adds single Students Order in SFO page">
+    <parameter name="features" value="features/Modules/CARegressionModuleJob/Module4/SFO.feature"/>
+    <parameter name="scenario" value="Teacher adds single Students Order in SFO page"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Teacher adds single Students Order in SFO page -->
+  <test name="Teacher add multiple items- Multiple students and Items from different Flyer">
+    <parameter name="features" value="features/Modules/CARegressionModuleJob/Module4/SFO.feature"/>
+    <parameter name="scenario" value="Teacher add multiple items- Multiple students and Items from different Flyer"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Teacher add multiple items- Multiple students and Items from different Flyer -->
+  <test name="Teacher add multiple items with multiple QTY- Multiple students and Items from different Flyer">
+    <parameter name="features" value="features/Modules/CARegressionModuleJob/Module4/SFO.feature"/>
+    <parameter name="scenario" value="Teacher add multiple items with multiple QTY- Multiple students and Items from different Flyer"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Teacher add multiple items with multiple QTY- Multiple students and Items from different Flyer -->
+  <test name="Teacher add multiple items to same Student from different Flyer">
+    <parameter name="features" value="features/Modules/CARegressionModuleJob/Module4/SFO.feature"/>
+    <parameter name="scenario" value="Teacher add multiple items to same Student from different Flyer"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Teacher add multiple items to same Student from different Flyer -->
+  <test name="SFO page Enter student name message close">
+    <parameter name="features" value="features/Modules/CARegressionModuleJob/Module4/SFO.feature"/>
+    <parameter name="scenario" value="SFO page Enter student name message close"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- SFO page Enter student name message close -->
+  <test name="SFO Free Pick modal closed by X">
+    <parameter name="features" value="features/Modules/CARegressionModuleJob/Module4/SFO.feature"/>
+    <parameter name="scenario" value="SFO Free Pick modal closed by X"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- SFO Free Pick modal closed by X -->
+  <test name="SFO page displays free pick item">
+    <parameter name="features" value="features/Modules/CARegressionModuleJob/Module4/SFO.feature"/>
+    <parameter name="scenario" value="SFO page displays free pick item"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- SFO page displays free pick item -->
+  <test name="SFO display mini PDP for added Free Item for 2 Sec">
+    <parameter name="features" value="features/Modules/CARegressionModuleJob/Module4/SFO.feature"/>
+    <parameter name="scenario" value="SFO display mini PDP for added Free Item for 2 Sec"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- SFO display mini PDP for added Free Item for 2 Sec -->
+  <test name="SFO coupon code hyperlink is clicked">
+    <parameter name="features" value="features/Modules/CARegressionModuleJob/Module4/SFO.feature"/>
+    <parameter name="scenario" value="SFO coupon code hyperlink is clicked"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- SFO coupon code hyperlink is clicked -->
+  <test name="Teacher views correct tool tip for TGAT coupon number">
+    <parameter name="features" value="features/Modules/CARegressionModuleJob/Module4/TGAT.feature"/>
+    <parameter name="scenario" value="Teacher views correct tool tip for TGAT coupon number"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Teacher views correct tool tip for TGAT coupon number -->
+  <test name="Teacher views TGAT coupon information in Confirm &amp; Submit and Confirmation page">
+    <parameter name="features" value="features/Modules/CARegressionModuleJob/Module4/TGAT.feature"/>
+    <parameter name="scenario" value="Teacher views TGAT coupon information in Confirm &amp; Submit and Confirmation page"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Teacher views TGAT coupon information in Confirm & Submit and Confirmation page -->
+  <test name="New teacher using TGAT coupon for student club items with qualifying order value">
+    <parameter name="features" value="features/Modules/CARegressionModuleJob/Module4/TGAT.feature"/>
+    <parameter name="scenario" value="New teacher using TGAT coupon for student club items with qualifying order value"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- New teacher using TGAT coupon for student club items with qualifying order value -->
+  <test name="Teacher can navigate to the Rewards and Redemption page with no items in cart when the hyperlink “Redeem your Coupons” is selected on Review Cart page">
+    <parameter name="features" value="features/Modules/CARegressionModuleJob/Module4/YTO.feature"/>
+    <parameter name="scenario" value="Teacher can navigate to the Rewards and Redemption page with no items in cart when the hyperlink “Redeem your Coupons” is selected on Review Cart page"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Teacher can navigate to the Rewards and Redemption page with no items in cart when the hyperlink “Redeem your Coupons” is selected on Review Cart page -->
+
+  <test name="No prices are charged for Student subtotal, taxes, Totals when teacher adds multiple FreePick items to the cart for BC province">
+    <parameter name="features" value="features/Modules/CARegressionModuleJob/Module4/ConfirmSubmit_And_OrderConfirmation.feature"/>
+    <parameter name="scenario" value="No prices are charged for Student subtotal, taxes, Totals when teacher adds multiple FreePick items to the cart for BC province"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- No prices are charged for Student subtotal, taxes, Totals when teacher adds multiple FreePick items to the cart for BC province -->
+  <test name="SFO Item# special character validation rules">
+    <parameter name="features" value="features/Modules/CARegressionModuleJob/Module4/SFO.feature"/>
+    <parameter name="scenario" value="SFO Item# special character validation rules"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- SFO Item# special character validation rules -->
+  <test name="Enter coupon code which has already been redeemed on SFO coupon modal">
+    <parameter name="features" value="features/Modules/CARegressionModuleJob/Module4/SFO.feature"/>
+    <parameter name="scenario" value="Enter coupon code which has already been redeemed on SFO coupon modal"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Enter coupon code which has already been redeemed on SFO coupon modal -->
+  <test name="Teacher already redeemed TGAT coupon using different TGAT coupon with qualifying order value">
+    <parameter name="features" value="features/Modules/CARegressionModuleJob/Module4/TGAT.feature"/>
+    <parameter name="scenario" value="Teacher already redeemed TGAT coupon using different TGAT coupon with qualifying order value"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Teacher already redeemed TGAT coupon using different TGAT coupon with qualifying order value -->
+  <test name="No prices are charged for Student subtotal, taxes, Totals when teacher adds single FreePick item to the cart for BC province">
+    <parameter name="features" value="features/Modules/CARegressionModuleJob/Module4/ConfirmSubmit_And_OrderConfirmation.feature"/>
+    <parameter name="scenario" value="No prices are charged for Student subtotal, taxes, Totals when teacher adds single FreePick item to the cart for BC province"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- No prices are charged for Student subtotal, taxes, Totals when teacher adds single FreePick item to the cart for BC province -->
+  <test name="Teacher already redeemed TGAT coupon using same TGAT coupon with qualifying order value">
+    <parameter name="features" value="features/Modules/CARegressionModuleJob/Module4/TGAT.feature"/>
+    <parameter name="scenario" value="Teacher already redeemed TGAT coupon using same TGAT coupon with qualifying order value"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Teacher already redeemed TGAT coupon using same TGAT coupon with qualifying order value -->
+  <test name="New teacher deletes the applied TGAT coupon and enters the different TGAT coupon">
+    <parameter name="features" value="features/Modules/CARegressionModuleJob/Module4/TGAT.feature"/>
+    <parameter name="scenario" value="New teacher deletes the applied TGAT coupon and enters the different TGAT coupon"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- New teacher deletes the applied TGAT coupon and enters the different TGAT coupon -->
+  <test name="New teacher using TGAT coupon for student club and teacher club items with qualifying order value">
+    <parameter name="features" value="features/Modules/CARegressionModuleJob/Module4/TGAT.feature"/>
+    <parameter name="scenario" value="New teacher using TGAT coupon for student club and teacher club items with qualifying order value"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- New teacher using TGAT coupon for student club and teacher club items with qualifying order value -->
+  <test name="New teacher using multiple TGAT coupon in different orders with qualifying order value">
+    <parameter name="features" value="features/Modules/CARegressionModuleJob/Module4/TGAT.feature"/>
+    <parameter name="scenario" value="New teacher using multiple TGAT coupon in different orders with qualifying order value"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- New teacher using multiple TGAT coupon in different orders with qualifying order value -->
+</suite> <!-- Failed suite [Demandware] -->
+  

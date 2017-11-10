@@ -1,0 +1,1197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="10" guice-stage="DEVELOPMENT" verbose="0" name="Demandware" parallel="tests">
+  <parameter name="remote.driver.url" value="http://sereti_qe:b9b8a9e1-e525-46af-9c7f-4a11c372b5c5@ondemand.saucelabs.com:80/wd/hub"/>
+  <parameter name="tdm.data" value="off"/>
+  <parameter name="glue" value="com.dw.automation.steps"/>
+  <parameter name="sauce" value="true"/>
+  
+  <test name="FreeItem promotion displays when CSR enters into Redemptions and Rewards page with minimum cart total">
+    <parameter name="features" value="features/Modules/CSR_Regression_QA_IE/FreeItem.feature"/>
+    <parameter name="scenario" value="FreeItem promotion displays when CSR enters into Redemptions and Rewards page with minimum cart total"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;57.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;,&#039;maxDuration&#039;:&#039;10800&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- FreeItem promotion displays when CSR enters into Redemptions and Rewards page with minimum cart total -->
+  <test name="CSR presented with the correct FreeItem promotion label in Redemptions and Rewards page">
+    <parameter name="features" value="features/Modules/CSR_Regression_QA_IE/FreeItem.feature"/>
+    <parameter name="scenario" value="CSR presented with the correct FreeItem promotion label in Redemptions and Rewards page"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;57.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;,&#039;maxDuration&#039;:&#039;10800&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- CSR presented with the correct FreeItem promotion label in Redemptions and Rewards page -->
+  <test name="FreeItem promotion is not displayed if the system date is outside of the date range with minimum cart total">
+    <parameter name="features" value="features/Modules/CSR_Regression_QA_IE/FreeItem.feature"/>
+    <parameter name="scenario" value="FreeItem promotion is not displayed if the system date is outside of the date range with minimum cart total"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;57.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;,&#039;maxDuration&#039;:&#039;10800&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- FreeItem promotion is not displayed if the system date is outside of the date range with minimum cart total -->
+  <test name="FreeItem promotion is not displayed when CSR enters into Redemptions and Rewards page without minimum cart total">
+    <parameter name="features" value="features/Modules/CSR_Regression_QA_IE/FreeItem.feature"/>
+    <parameter name="scenario" value="FreeItem promotion is not displayed when CSR enters into Redemptions and Rewards page without minimum cart total"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;57.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;,&#039;maxDuration&#039;:&#039;10800&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- FreeItem promotion is not displayed when CSR enters into Redemptions and Rewards page without minimum cart total -->
+  <test name="CSR enters invalid coupon code">
+    <parameter name="features" value="features/Modules/CSR_Regression_QA_IE/FreeItem.feature"/>
+    <parameter name="scenario" value="CSR enters invalid coupon code"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;57.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;,&#039;maxDuration&#039;:&#039;10800&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- CSR enters invalid coupon code -->
+  <test name="CSR enters already applied coupon">
+    <parameter name="features" value="features/Modules/CSR_Regression_QA_IE/FreeItem.feature"/>
+    <parameter name="scenario" value="CSR enters already applied coupon"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;57.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;,&#039;maxDuration&#039;:&#039;10800&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- CSR enters already applied coupon -->
+  <test name="Apply button active on entering 3 characters">
+    <parameter name="features" value="features/Modules/CSR_Regression_QA_IE/FreeItem.feature"/>
+    <parameter name="scenario" value="Apply button active on entering 3 characters"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;57.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;,&#039;maxDuration&#039;:&#039;10800&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Apply button active on entering 3 characters -->
+  <test name="CSR can apply Free item coupon on a cart with qualifying minimum amount on Student Club orders and Checkout">
+    <parameter name="features" value="features/Modules/CSR_Regression_QA_IE/FreeItem.feature"/>
+    <parameter name="scenario" value="CSR can apply Free item coupon on a cart with qualifying minimum amount on Student Club orders and Checkout"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;57.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;,&#039;maxDuration&#039;:&#039;10800&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- CSR can apply Free item coupon on a cart with qualifying minimum amount on Student Club orders and Checkout -->
+  <test name="CSR cannot apply the Free item coupon if the cart total qualifying for promotion includes Redemptions">
+    <parameter name="features" value="features/Modules/CSR_Regression_QA_IE/FreeItem.feature"/>
+    <parameter name="scenario" value="CSR cannot apply the Free item coupon if the cart total qualifying for promotion includes Redemptions"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;57.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;,&#039;maxDuration&#039;:&#039;10800&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- CSR cannot apply the Free item coupon if the cart total qualifying for promotion includes Redemptions -->
+  <test name="Free item coupon is removed when CSR deletes items from cart making cart non-qualifying">
+    <parameter name="features" value="features/Modules/CSR_Regression_QA_IE/FreeItem.feature"/>
+    <parameter name="scenario" value="Free item coupon is removed when CSR deletes items from cart making cart non-qualifying"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;57.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;,&#039;maxDuration&#039;:&#039;10800&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Free item coupon is removed when CSR deletes items from cart making cart non-qualifying -->
+  <test name="CSR cannot apply Free item coupon on cart with Teacher catalogs">
+    <parameter name="features" value="features/Modules/CSR_Regression_QA_IE/FreeItem.feature"/>
+    <parameter name="scenario" value="CSR cannot apply Free item coupon on cart with Teacher catalogs"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;57.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;,&#039;maxDuration&#039;:&#039;10800&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- CSR cannot apply Free item coupon on cart with Teacher catalogs -->
+  <test name="CSR cannot apply Free item coupon on a cart which does not meet qualifying minimum amount">
+    <parameter name="features" value="features/Modules/CSR_Regression_QA_IE/FreeItem.feature"/>
+    <parameter name="scenario" value="CSR cannot apply Free item coupon on a cart which does not meet qualifying minimum amount"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;57.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;,&#039;maxDuration&#039;:&#039;10800&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- CSR cannot apply Free item coupon on a cart which does not meet qualifying minimum amount -->
+  <test name="CSR cannot apply Free item coupon when promotion expires">
+    <parameter name="features" value="features/Modules/CSR_Regression_QA_IE/FreeItem.feature"/>
+    <parameter name="scenario" value="CSR cannot apply Free item coupon when promotion expires"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;57.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;,&#039;maxDuration&#039;:&#039;10800&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- CSR cannot apply Free item coupon when promotion expires -->
+  <test name="CSR cannot apply Free item coupon if Redemptions from student paper coupon makes the cart non-qualifying">
+    <parameter name="features" value="features/Modules/CSR_Regression_QA_IE/FreeItem.feature"/>
+    <parameter name="scenario" value="CSR cannot apply Free item coupon if Redemptions from student paper coupon makes the cart non-qualifying"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;57.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;,&#039;maxDuration&#039;:&#039;10800&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- CSR cannot apply Free item coupon if Redemptions from student paper coupon makes the cart non-qualifying -->
+  <test name="CSR can apply Free item coupon if Redemptions from Teacher Bonus coupon makes the cart non-qualifying">
+    <parameter name="features" value="features/Modules/CSR_Regression_QA_IE/FreeItem.feature"/>
+    <parameter name="scenario" value="CSR can apply Free item coupon if Redemptions from Teacher Bonus coupon makes the cart non-qualifying"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;57.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;,&#039;maxDuration&#039;:&#039;10800&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- CSR can apply Free item coupon if Redemptions from Teacher Bonus coupon makes the cart non-qualifying -->
+  <test name="CSR can apply Free item promotion if Redemptions from Teacher paper coupon makes the cart non-qualifying">
+    <parameter name="features" value="features/Modules/CSR_Regression_QA_IE/FreeItem.feature"/>
+    <parameter name="scenario" value="CSR can apply Free item promotion if Redemptions from Teacher paper coupon makes the cart non-qualifying"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;57.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;,&#039;maxDuration&#039;:&#039;10800&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- CSR can apply Free item promotion if Redemptions from Teacher paper coupon makes the cart non-qualifying -->
+  <test name="CSR can apply a deleted toss-in coupon">
+    <parameter name="features" value="features/Modules/CSR_Regression_QA_IE/FreeItem.feature"/>
+    <parameter name="scenario" value="CSR can apply a deleted toss-in coupon"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;57.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;,&#039;maxDuration&#039;:&#039;10800&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- CSR can apply a deleted toss-in coupon -->
+  <test name="CSR cannot apply a Toss-in coupon that is already redeemed">
+    <parameter name="features" value="features/Modules/CSR_Regression_QA_IE/FreeItem.feature"/>
+    <parameter name="scenario" value="CSR cannot apply a Toss-in coupon that is already redeemed"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;57.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;,&#039;maxDuration&#039;:&#039;10800&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- CSR cannot apply a Toss-in coupon that is already redeemed -->
+  <test name="Delete coupon code clicking option &#039;No&#039;">
+    <parameter name="features" value="features/Modules/CSR_Regression_QA_IE/FreePick.feature"/>
+    <parameter name="scenario" value="Delete coupon code clicking option &#039;No&#039;"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;57.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;,&#039;maxDuration&#039;:&#039;10800&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Delete coupon code clicking option 'No' -->
+  <test name="Delete coupon code clicking option &#039;Yes&#039;">
+    <parameter name="features" value="features/Modules/CSR_Regression_QA_IE/FreePick.feature"/>
+    <parameter name="scenario" value="Delete coupon code clicking option &#039;Yes&#039;"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;57.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;,&#039;maxDuration&#039;:&#039;10800&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Delete coupon code clicking option 'Yes' -->
+  <test name="Correct Item, item title, price, Flyer are displayed on selecting an item from Search Results on free pick modal">
+    <parameter name="features" value="features/Modules/CSR_Regression_QA_IE/FreePick.feature"/>
+    <parameter name="scenario" value="Correct Item, item title, price, Flyer are displayed on selecting an item from Search Results on free pick modal"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;57.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;,&#039;maxDuration&#039;:&#039;10800&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Correct Item, item title, price, Flyer are displayed on selecting an item from Search Results on free pick modal -->
+  <test name="CSR can view the expanded table row of an item on freepick modal">
+    <parameter name="features" value="features/Modules/CSR_Regression_QA_IE/FreePick.feature"/>
+    <parameter name="scenario" value="CSR can view the expanded table row of an item on freepick modal"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;57.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;,&#039;maxDuration&#039;:&#039;10800&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- CSR can view the expanded table row of an item on freepick modal -->
+  <test name="CSR can hide the expanded table row of an item on freepick modal">
+    <parameter name="features" value="features/Modules/CSR_Regression_QA_IE/FreePick.feature"/>
+    <parameter name="scenario" value="CSR can hide the expanded table row of an item on freepick modal"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;57.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;,&#039;maxDuration&#039;:&#039;10800&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- CSR can hide the expanded table row of an item on freepick modal -->
+  <test name="CSR selects an item by searching for a qualifying item Title_2">
+    <parameter name="features" value="features/Modules/CSR_Regression_QA_IE/FreePick.feature"/>
+    <parameter name="scenario" value="CSR selects an item by searching for a qualifying item Title_2"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;57.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;,&#039;maxDuration&#039;:&#039;10800&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- CSR selects an item by searching for a qualifying item Title_2 -->
+  <test name="CSR selects an item by searching for a qualifying item Keyword_2">
+    <parameter name="features" value="features/Modules/CSR_Regression_QA_IE/FreePick.feature"/>
+    <parameter name="scenario" value="CSR selects an item by searching for a qualifying item Keyword_2"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;57.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;,&#039;maxDuration&#039;:&#039;10800&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- CSR selects an item by searching for a qualifying item Keyword_2 -->
+  <test name="CSR cannot Search for expired item on freepick modal">
+    <parameter name="features" value="features/Modules/CSR_Regression_QA_IE/FreePick.feature"/>
+    <parameter name="scenario" value="CSR cannot Search for expired item on freepick modal"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;57.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;,&#039;maxDuration&#039;:&#039;10800&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- CSR cannot Search for expired item on freepick modal -->
+  <test name="CSR does not find any results when Searched for a term with no results on Freepick modal">
+    <parameter name="features" value="features/Modules/CSR_Regression_QA_IE/FreePick.feature"/>
+    <parameter name="scenario" value="CSR does not find any results when Searched for a term with no results on Freepick modal"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;57.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;,&#039;maxDuration&#039;:&#039;10800&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- CSR does not find any results when Searched for a term with no results on Freepick modal -->
+  <test name="CSR cannot Search for teacher club items on freepick modal">
+    <parameter name="features" value="features/Modules/CSR_Regression_QA_IE/FreePick.feature"/>
+    <parameter name="scenario" value="CSR cannot Search for teacher club items on freepick modal"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;57.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;,&#039;maxDuration&#039;:&#039;10800&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- CSR cannot Search for teacher club items on freepick modal -->
+  <test name="Prev link when CSR is on the first page">
+    <parameter name="features" value="features/Modules/CSR_Regression_QA_IE/FreePick.feature"/>
+    <parameter name="scenario" value="Prev link when CSR is on the first page"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;57.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;,&#039;maxDuration&#039;:&#039;10800&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Prev link when CSR is on the first page -->
+  <test name="Next link when CSR is on the last page on freepick modal">
+    <parameter name="features" value="features/Modules/CSR_Regression_QA_IE/FreePick.feature"/>
+    <parameter name="scenario" value="Next link when CSR is on the last page on freepick modal"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;57.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;,&#039;maxDuration&#039;:&#039;10800&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Next link when CSR is on the last page on freepick modal -->
+  <test name="CSR clicks on CANCEL on freepick modal">
+    <parameter name="features" value="features/Modules/CSR_Regression_QA_IE/FreePick.feature"/>
+    <parameter name="scenario" value="CSR clicks on CANCEL on freepick modal"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;57.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;,&#039;maxDuration&#039;:&#039;10800&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- CSR clicks on CANCEL on freepick modal -->
+  <test name="CSR clicks on Confirm Selection on freepick modal">
+    <parameter name="features" value="features/Modules/CSR_Regression_QA_IE/FreePick.feature"/>
+    <parameter name="scenario" value="CSR clicks on Confirm Selection on freepick modal"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;57.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;,&#039;maxDuration&#039;:&#039;10800&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- CSR clicks on Confirm Selection on freepick modal -->
+  <test name="CSR views the current selections section as the item is added on freepick">
+    <parameter name="features" value="features/Modules/CSR_Regression_QA_IE/FreePick.feature"/>
+    <parameter name="scenario" value="CSR views the current selections section as the item is added on freepick"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;57.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;,&#039;maxDuration&#039;:&#039;10800&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- CSR views the current selections section as the item is added on freepick -->
+  <test name="CSR selects a different item on the freepick modal">
+    <parameter name="features" value="features/Modules/CSR_Regression_QA_IE/FreePick.feature"/>
+    <parameter name="scenario" value="CSR selects a different item on the freepick modal"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;57.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;,&#039;maxDuration&#039;:&#039;10800&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- CSR selects a different item on the freepick modal -->
+  <test name="CSR deletes items from current selection section on freepick modal">
+    <parameter name="features" value="features/Modules/CSR_Regression_QA_IE/FreePick.feature"/>
+    <parameter name="scenario" value="CSR deletes items from current selection section on freepick modal"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;57.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;,&#039;maxDuration&#039;:&#039;10800&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- CSR deletes items from current selection section on freepick modal -->
+  <test name="Edit state of Freepick modal">
+    <parameter name="features" value="features/Modules/CSR_Regression_QA_IE/FreePick.feature"/>
+    <parameter name="scenario" value="Edit state of Freepick modal"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;57.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;,&#039;maxDuration&#039;:&#039;10800&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Edit state of Freepick modal -->
+  <test name="CSR can apply coupon on a cart with qualifying minimum amount on Student Club orders to receive free shipping">
+    <parameter name="features" value="features/Modules/CSR_Regression_QA_IE/FreeShipping.feature"/>
+    <parameter name="scenario" value="CSR can apply coupon on a cart with qualifying minimum amount on Student Club orders to receive free shipping"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;57.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;,&#039;maxDuration&#039;:&#039;10800&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- CSR can apply coupon on a cart with qualifying minimum amount on Student Club orders to receive free shipping -->
+  <test name="CSR applies Shipping coupon and deletes items from cart making cart non-qualifying resulting in coupon being removed">
+    <parameter name="features" value="features/Modules/CSR_Regression_QA_IE/FreeShipping.feature"/>
+    <parameter name="scenario" value="CSR applies Shipping coupon and deletes items from cart making cart non-qualifying resulting in coupon being removed"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;57.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;,&#039;maxDuration&#039;:&#039;10800&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- CSR applies Shipping coupon and deletes items from cart making cart non-qualifying resulting in coupon being removed -->
+  <test name="CSR cannot apply Free Shipping coupon on a cart which does not meet minimum amount">
+    <parameter name="features" value="features/Modules/CSR_Regression_QA_IE/FreeShipping.feature"/>
+    <parameter name="scenario" value="CSR cannot apply Free Shipping coupon on a cart which does not meet minimum amount"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;57.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;,&#039;maxDuration&#039;:&#039;10800&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- CSR cannot apply Free Shipping coupon on a cart which does not meet minimum amount -->
+  <test name="CSR can still apply Free Shipping coupon if redemptions from Student Bonus and paper coupon makes the cart non-qualifying">
+    <parameter name="features" value="features/Modules/CSR_Regression_QA_IE/FreeShipping.feature"/>
+    <parameter name="scenario" value="CSR can still apply Free Shipping coupon if redemptions from Student Bonus and paper coupon makes the cart non-qualifying"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;57.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;,&#039;maxDuration&#039;:&#039;10800&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- CSR can still apply Free Shipping coupon if redemptions from Student Bonus and paper coupon makes the cart non-qualifying -->
+  <test name="CSR can still apply Free Shipping coupon if redemptions from Student Bonus coupon makes the cart non-qualifying">
+    <parameter name="features" value="features/Modules/CSR_Regression_QA_IE/FreeShipping.feature"/>
+    <parameter name="scenario" value="CSR can still apply Free Shipping coupon if redemptions from Student Bonus coupon makes the cart non-qualifying"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;57.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;,&#039;maxDuration&#039;:&#039;10800&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- CSR can still apply Free Shipping coupon if redemptions from Student Bonus coupon makes the cart non-qualifying -->
+  <test name="CSR can still apply Free Shipping coupon if redemptions from Student Paper coupon makes the cart non-qualifying">
+    <parameter name="features" value="features/Modules/CSR_Regression_QA_IE/FreeShipping.feature"/>
+    <parameter name="scenario" value="CSR can still apply Free Shipping coupon if redemptions from Student Paper coupon makes the cart non-qualifying"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;57.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;,&#039;maxDuration&#039;:&#039;10800&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- CSR can still apply Free Shipping coupon if redemptions from Student Paper coupon makes the cart non-qualifying -->
+  <test name="CSR can still apply Free Shipping coupon if redemptions from Teacher Bonus coupon makes the cart non-qualifying">
+    <parameter name="features" value="features/Modules/CSR_Regression_QA_IE/FreeShipping.feature"/>
+    <parameter name="scenario" value="CSR can still apply Free Shipping coupon if redemptions from Teacher Bonus coupon makes the cart non-qualifying"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;57.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;,&#039;maxDuration&#039;:&#039;10800&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- CSR can still apply Free Shipping coupon if redemptions from Teacher Bonus coupon makes the cart non-qualifying -->
+  <test name="CSR can still apply Free Shipping coupon if redemptions from Teacher Paper coupon makes the cart non-qualifying">
+    <parameter name="features" value="features/Modules/CSR_Regression_QA_IE/FreeShipping.feature"/>
+    <parameter name="scenario" value="CSR can still apply Free Shipping coupon if redemptions from Teacher Paper coupon makes the cart non-qualifying"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;57.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;,&#039;maxDuration&#039;:&#039;10800&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- CSR can still apply Free Shipping coupon if redemptions from Teacher Paper coupon makes the cart non-qualifying -->
+  <test name="CSR can still apply Free Shipping coupon if redemptions from Teacher Bonus and paper coupon makes the cart non-qualifying">
+    <parameter name="features" value="features/Modules/CSR_Regression_QA_IE/FreeShipping.feature"/>
+    <parameter name="scenario" value="CSR can still apply Free Shipping coupon if redemptions from Teacher Bonus and paper coupon makes the cart non-qualifying"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;57.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;,&#039;maxDuration&#039;:&#039;10800&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- CSR can still apply Free Shipping coupon if redemptions from Teacher Bonus and paper coupon makes the cart non-qualifying -->
+  <test name="CSR can apply a deleted coupon again">
+    <parameter name="features" value="features/Modules/CSR_Regression_QA_IE/FreeShipping.feature"/>
+    <parameter name="scenario" value="CSR can apply a deleted coupon again"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;57.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;,&#039;maxDuration&#039;:&#039;10800&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- CSR can apply a deleted coupon again -->
+  <test name="CSR click on delete and No option does not delete the coupon">
+    <parameter name="features" value="features/Modules/CSR_Regression_QA_IE/FreeShipping.feature"/>
+    <parameter name="scenario" value="CSR click on delete and No option does not delete the coupon"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;57.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;,&#039;maxDuration&#039;:&#039;10800&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- CSR click on delete and No option does not delete the coupon -->
+  <test name="CSR cannot apply already redeemed coupon">
+    <parameter name="features" value="features/Modules/CSR_Regression_QA_IE/FreeShipping.feature"/>
+    <parameter name="scenario" value="CSR cannot apply already redeemed coupon"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;57.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;,&#039;maxDuration&#039;:&#039;10800&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- CSR cannot apply already redeemed coupon -->
+  <test name="CSR cannot apply Free Shipping coupon on a Free shipping cart">
+    <parameter name="features" value="features/Modules/CSR_Regression_QA_IE/FreeShipping.feature"/>
+    <parameter name="scenario" value="CSR cannot apply Free Shipping coupon on a Free shipping cart"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;57.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;,&#039;maxDuration&#039;:&#039;10800&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- CSR cannot apply Free Shipping coupon on a Free shipping cart -->
+  <test name="CSR completes order with US account using Credit Card payment method using US Billing Address">
+    <parameter name="features" value="features/Modules/CSR_Regression_QA_IE/InternationalOrders.feature"/>
+    <parameter name="scenario" value="CSR completes order with US account using Credit Card payment method using US Billing Address"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;57.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;,&#039;maxDuration&#039;:&#039;10800&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- CSR completes order with US account using Credit Card payment method using US Billing Address -->
+  <test name="CSR completes order with US account using Credit Card payment method using Canadian Billing Address">
+    <parameter name="features" value="features/Modules/CSR_Regression_QA_IE/InternationalOrders.feature"/>
+    <parameter name="scenario" value="CSR completes order with US account using Credit Card payment method using Canadian Billing Address"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;57.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;,&#039;maxDuration&#039;:&#039;10800&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- CSR completes order with US account using Credit Card payment method using Canadian Billing Address -->
+  <test name="Error message shown when Flyer Code entered is not mapped to US account">
+    <parameter name="features" value="features/Modules/CSR_Regression_QA_IE/InternationalOrders.feature"/>
+    <parameter name="scenario" value="Error message shown when Flyer Code entered is not mapped to US account"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;57.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;,&#039;maxDuration&#039;:&#039;10800&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Error message shown when Flyer Code entered is not mapped to US account -->
+  <test name="CSR completes an order with US account">
+    <parameter name="features" value="features/Modules/CSR_Regression_QA_IE/InternationalOrders.feature"/>
+    <parameter name="scenario" value="CSR completes an order with US account"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;57.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;,&#039;maxDuration&#039;:&#039;10800&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- CSR completes an order with US account -->
+  <test name="CSR sees the hyperlink with the label Start a New Search in a Search Results page">
+    <parameter name="features" value="features/Modules/CSR_Regression_QA_IE/Locate_Account.feature"/>
+    <parameter name="scenario" value="CSR sees the hyperlink with the label Start a New Search in a Search Results page"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;57.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;,&#039;maxDuration&#039;:&#039;10800&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- CSR sees the hyperlink with the label Start a New Search in a Search Results page -->
+  <test name="CSR will be re-directed to the Locate Account page when he clicks on Start a New Search hyperlink">
+    <parameter name="features" value="features/Modules/CSR_Regression_QA_IE/Locate_Account.feature"/>
+    <parameter name="scenario" value="CSR will be re-directed to the Locate Account page when he clicks on Start a New Search hyperlink"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;57.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;,&#039;maxDuration&#039;:&#039;10800&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- CSR will be re-directed to the Locate Account page when he clicks on Start a New Search hyperlink -->
+  <test name="CSR sees the hyperlink with the label &#039;Start a New Search&#039; in a Search Results page when he searches by Teacher Name">
+    <parameter name="features" value="features/Modules/CSR_Regression_QA_IE/Locate_Account.feature"/>
+    <parameter name="scenario" value="CSR sees the hyperlink with the label &#039;Start a New Search&#039; in a Search Results page when he searches by Teacher Name"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;57.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;,&#039;maxDuration&#039;:&#039;10800&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- CSR sees the hyperlink with the label 'Start a New Search' in a Search Results page when he searches by Teacher Name -->
+  <test name="CSR will be re-directed to the Locate Account page when he clicks on Start a New Search hyperlink searches by Teacher Name">
+    <parameter name="features" value="features/Modules/CSR_Regression_QA_IE/Locate_Account.feature"/>
+    <parameter name="scenario" value="CSR will be re-directed to the Locate Account page when he clicks on Start a New Search hyperlink searches by Teacher Name"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;57.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;,&#039;maxDuration&#039;:&#039;10800&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- CSR will be re-directed to the Locate Account page when he clicks on Start a New Search hyperlink searches by Teacher Name -->
+  <test name="CSR sees the hyperlink with the label &#039;Start a New Search&#039; in a Search Results page when he searches by School Address">
+    <parameter name="features" value="features/Modules/CSR_Regression_QA_IE/Locate_Account.feature"/>
+    <parameter name="scenario" value="CSR sees the hyperlink with the label &#039;Start a New Search&#039; in a Search Results page when he searches by School Address"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;57.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;,&#039;maxDuration&#039;:&#039;10800&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- CSR sees the hyperlink with the label 'Start a New Search' in a Search Results page when he searches by School Address -->
+  <test name="CSR will be re-directed to the Locate Account page when he clicks on Start a New Search hyperlink searches by School Address">
+    <parameter name="features" value="features/Modules/CSR_Regression_QA_IE/Locate_Account.feature"/>
+    <parameter name="scenario" value="CSR will be re-directed to the Locate Account page when he clicks on Start a New Search hyperlink searches by School Address"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;57.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;,&#039;maxDuration&#039;:&#039;10800&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- CSR will be re-directed to the Locate Account page when he clicks on Start a New Search hyperlink searches by School Address -->
+  <test name="CSR sees the Locate Customer Account by: section with Account Number and Search By options to search the account">
+    <parameter name="features" value="features/Modules/CSR_Regression_QA_IE/Locate_Account.feature"/>
+    <parameter name="scenario" value="CSR sees the Locate Customer Account by: section with Account Number and Search By options to search the account"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;57.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;,&#039;maxDuration&#039;:&#039;10800&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- CSR sees the Locate Customer Account by: section with Account Number and Search By options to search the account -->
+  <test name="CSR can enter up to maximum of ten integers within the Account Number textbox">
+    <parameter name="features" value="features/Modules/CSR_Regression_QA_IE/Locate_Account.feature"/>
+    <parameter name="scenario" value="CSR can enter up to maximum of ten integers within the Account Number textbox"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;57.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;,&#039;maxDuration&#039;:&#039;10800&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- CSR can enter up to maximum of ten integers within the Account Number textbox -->
+  <test name="CSR cannot enter other than integers and cannot enter more than 10 integers in the Account Number textbox">
+    <parameter name="features" value="features/Modules/CSR_Regression_QA_IE/Locate_Account.feature"/>
+    <parameter name="scenario" value="CSR cannot enter other than integers and cannot enter more than 10 integers in the Account Number textbox"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;57.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;,&#039;maxDuration&#039;:&#039;10800&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- CSR cannot enter other than integers and cannot enter more than 10 integers in the Account Number textbox -->
+  <test name="CSR cannot enter other than integers and cannot enter more than 10 integers in the Account Number textbox_2">
+    <parameter name="features" value="features/Modules/CSR_Regression_QA_IE/Locate_Account.feature"/>
+    <parameter name="scenario" value="CSR cannot enter other than integers and cannot enter more than 10 integers in the Account Number textbox_2"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;57.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;,&#039;maxDuration&#039;:&#039;10800&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- CSR cannot enter other than integers and cannot enter more than 10 integers in the Account Number textbox_2 -->
+  <test name="CSR cannot enter other than integers and cannot enter more than 10 integers in the Account Number textbox_3">
+    <parameter name="features" value="features/Modules/CSR_Regression_QA_IE/Locate_Account.feature"/>
+    <parameter name="scenario" value="CSR cannot enter other than integers and cannot enter more than 10 integers in the Account Number textbox_3"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;57.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;,&#039;maxDuration&#039;:&#039;10800&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- CSR cannot enter other than integers and cannot enter more than 10 integers in the Account Number textbox_3 -->
+  <test name="Search button is disabled when CSR enters into the Locate Account page">
+    <parameter name="features" value="features/Modules/CSR_Regression_QA_IE/Locate_Account.feature"/>
+    <parameter name="scenario" value="Search button is disabled when CSR enters into the Locate Account page"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;57.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;,&#039;maxDuration&#039;:&#039;10800&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Search button is disabled when CSR enters into the Locate Account page -->
+  <test name="Blue step script icon displays beside Locate Account header in a page">
+    <parameter name="features" value="features/Modules/CSR_Regression_QA_IE/Locate_Account.feature"/>
+    <parameter name="scenario" value="Blue step script icon displays beside Locate Account header in a page"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;57.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;,&#039;maxDuration&#039;:&#039;10800&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Blue step script icon displays beside Locate Account header in a page -->
+  <test name="Modal window displays with the title &#039;Locate Account&#039; when CSR clicks on Blue step script icon in Locate Account page">
+    <parameter name="features" value="features/Modules/CSR_Regression_QA_IE/Locate_Account.feature"/>
+    <parameter name="scenario" value="Modal window displays with the title &#039;Locate Account&#039; when CSR clicks on Blue step script icon in Locate Account page"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;57.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;,&#039;maxDuration&#039;:&#039;10800&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Modal window displays with the title 'Locate Account' when CSR clicks on Blue step script icon in Locate Account page -->
+  <test name="Modal window disappered and presented with Locate Account page when CSR closes the modal window">
+    <parameter name="features" value="features/Modules/CSR_Regression_QA_IE/Locate_Account.feature"/>
+    <parameter name="scenario" value="Modal window disappered and presented with Locate Account page when CSR closes the modal window"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;57.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;,&#039;maxDuration&#039;:&#039;10800&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Modal window disappered and presented with Locate Account page when CSR closes the modal window -->
+  <test name="Locate Account tab highlights in the step indicator when CSR enters into the Locate Account Search Results page">
+    <parameter name="features" value="features/Modules/CSR_Regression_QA_IE/Locate_Account.feature"/>
+    <parameter name="scenario" value="Locate Account tab highlights in the step indicator when CSR enters into the Locate Account Search Results page"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;57.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;,&#039;maxDuration&#039;:&#039;10800&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Locate Account tab highlights in the step indicator when CSR enters into the Locate Account Search Results page -->
+  <test name="Number of the LOCATE ACCOUNT page displays correctly in a bubble containing step header in a Search Results">
+    <parameter name="features" value="features/Modules/CSR_Regression_QA_IE/Locate_Account.feature"/>
+    <parameter name="scenario" value="Number of the LOCATE ACCOUNT page displays correctly in a bubble containing step header in a Search Results"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;57.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;,&#039;maxDuration&#039;:&#039;10800&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Number of the LOCATE ACCOUNT page displays correctly in a bubble containing step header in a Search Results -->
+  <test name="Locate Account tab highlights in the step indicator when CSR enters into the Locate Account page">
+    <parameter name="features" value="features/Modules/CSR_Regression_QA_IE/Locate_Account.feature"/>
+    <parameter name="scenario" value="Locate Account tab highlights in the step indicator when CSR enters into the Locate Account page"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;57.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;,&#039;maxDuration&#039;:&#039;10800&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Locate Account tab highlights in the step indicator when CSR enters into the Locate Account page -->
+  <test name="Number of the LOCATE ACCOUNT page displays correctly in a bubble containing step header">
+    <parameter name="features" value="features/Modules/CSR_Regression_QA_IE/Locate_Account.feature"/>
+    <parameter name="scenario" value="Number of the LOCATE ACCOUNT page displays correctly in a bubble containing step header"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;57.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;,&#039;maxDuration&#039;:&#039;10800&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Number of the LOCATE ACCOUNT page displays correctly in a bubble containing step header -->
+  <test name="CSR clicks on &#039;School Not in System&#039; hyperlink">
+    <parameter name="features" value="features/Modules/CSR_Regression_QA_IE/Locate_Account.feature"/>
+    <parameter name="scenario" value="CSR clicks on &#039;School Not in System&#039; hyperlink"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;57.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;,&#039;maxDuration&#039;:&#039;10800&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- CSR clicks on 'School Not in System' hyperlink -->
+  <test name="CSR clicks on Close button on School Not in System modal window">
+    <parameter name="features" value="features/Modules/CSR_Regression_QA_IE/Locate_Account.feature"/>
+    <parameter name="scenario" value="CSR clicks on Close button on School Not in System modal window"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;57.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;,&#039;maxDuration&#039;:&#039;10800&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- CSR clicks on Close button on School Not in System modal window -->
+  <test name="CSR view the &#039;School Not in System&#039; hyperlink">
+    <parameter name="features" value="features/Modules/CSR_Regression_QA_IE/Locate_Account.feature"/>
+    <parameter name="scenario" value="CSR view the &#039;School Not in System&#039; hyperlink"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;57.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;,&#039;maxDuration&#039;:&#039;10800&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- CSR view the 'School Not in System' hyperlink -->
+  <test name="Character limit on School Name field">
+    <parameter name="features" value="features/Modules/CSR_Regression_QA_IE/Locate_Account.feature"/>
+    <parameter name="scenario" value="Character limit on School Name field"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;57.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;,&#039;maxDuration&#039;:&#039;10800&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Character limit on School Name field -->
+  <test name="CSR sees a list of teachers with matching information when using the teacher’s first and last name">
+    <parameter name="features" value="features/Modules/CSR_Regression_QA_IE/Locate_Account.feature"/>
+    <parameter name="scenario" value="CSR sees a list of teachers with matching information when using the teacher’s first and last name"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;57.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;,&#039;maxDuration&#039;:&#039;10800&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- CSR sees a list of teachers with matching information when using the teacher’s first and last name -->
+  <test name="CSR sees the school name, province and city in result paragraph when the school name, province and city entered in search form_1528">
+    <parameter name="features" value="features/Modules/CSR_Regression_QA_IE/Locate_Account.feature"/>
+    <parameter name="scenario" value="CSR sees the school name, province and city in result paragraph when the school name, province and city entered in search form_1528"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;57.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;,&#039;maxDuration&#039;:&#039;10800&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- CSR sees the school name, province and city in result paragraph when the school name, province and city entered in search form_1528 -->
+  <test name="Only school name, postal, province and city in result paragraph when the school name, postal, province and city are entered_1528">
+    <parameter name="features" value="features/Modules/CSR_Regression_QA_IE/Locate_Account.feature"/>
+    <parameter name="scenario" value="Only school name, postal, province and city in result paragraph when the school name, postal, province and city are entered_1528"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;57.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;,&#039;maxDuration&#039;:&#039;10800&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Only school name, postal, province and city in result paragraph when the school name, postal, province and city are entered_1528 -->
+  <test name="The school value in the result paragraph matches the school clicked from the school listing page">
+    <parameter name="features" value="features/Modules/CSR_Regression_QA_IE/Locate_Account.feature"/>
+    <parameter name="scenario" value="The school value in the result paragraph matches the school clicked from the school listing page"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;57.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;,&#039;maxDuration&#039;:&#039;10800&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- The school value in the result paragraph matches the school clicked from the school listing page -->
+  <test name="The school address value in the result paragraph matches the school address clicked from the school listing page">
+    <parameter name="features" value="features/Modules/CSR_Regression_QA_IE/Locate_Account.feature"/>
+    <parameter name="scenario" value="The school address value in the result paragraph matches the school address clicked from the school listing page"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;57.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;,&#039;maxDuration&#039;:&#039;10800&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- The school address value in the result paragraph matches the school address clicked from the school listing page -->
+  <test name="Hyperlink &#039;Back to School Listing&#039; is present on the teacher listing result page after click on a school in the school listing page_1532">
+    <parameter name="features" value="features/Modules/CSR_Regression_QA_IE/Locate_Account.feature"/>
+    <parameter name="scenario" value="Hyperlink &#039;Back to School Listing&#039; is present on the teacher listing result page after click on a school in the school listing page_1532"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;57.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;,&#039;maxDuration&#039;:&#039;10800&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Hyperlink 'Back to School Listing' is present on the teacher listing result page after click on a school in the school listing page_1532 -->
+  <test name="Hyperlink &#039;Back to School Listing&#039; is not present on the teacher listing page after searching using the teachers F and L name_1532">
+    <parameter name="features" value="features/Modules/CSR_Regression_QA_IE/Locate_Account.feature"/>
+    <parameter name="scenario" value="Hyperlink &#039;Back to School Listing&#039; is not present on the teacher listing page after searching using the teachers F and L name_1532"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;57.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;,&#039;maxDuration&#039;:&#039;10800&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Hyperlink 'Back to School Listing' is not present on the teacher listing page after searching using the teachers F and L name_1532 -->
+  <test name="The hyperlink &#039;Back to School Listing&#039; returns to the school listing result page that was previously shown_1532">
+    <parameter name="features" value="features/Modules/CSR_Regression_QA_IE/Locate_Account.feature"/>
+    <parameter name="scenario" value="The hyperlink &#039;Back to School Listing&#039; returns to the school listing result page that was previously shown_1532"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;57.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;,&#039;maxDuration&#039;:&#039;10800&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- The hyperlink 'Back to School Listing' returns to the school listing result page that was previously shown_1532 -->
+  <test name="CSR sees a list of teachers with matching information when using the teacher&#039;s first and last name">
+    <parameter name="features" value="features/Modules/CSR_Regression_QA_IE/Locate_Account.feature"/>
+    <parameter name="scenario" value="CSR sees a list of teachers with matching information when using the teacher&#039;s first and last name"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;57.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;,&#039;maxDuration&#039;:&#039;10800&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- CSR sees a list of teachers with matching information when using the teacher's first and last name -->
+  <test name="A result paragraph that has no results when the school name, postal code, province and city are provided">
+    <parameter name="features" value="features/Modules/CSR_Regression_QA_IE/Locate_Account.feature"/>
+    <parameter name="scenario" value="A result paragraph that has no results when the school name, postal code, province and city are provided"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;57.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;,&#039;maxDuration&#039;:&#039;10800&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- A result paragraph that has no results when the school name, postal code, province and city are provided -->
+  <test name="A result paragraph that has no results when the teacher’s first and last name are provided">
+    <parameter name="features" value="features/Modules/CSR_Regression_QA_IE/Locate_Account.feature"/>
+    <parameter name="scenario" value="A result paragraph that has no results when the teacher’s first and last name are provided"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;57.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;,&#039;maxDuration&#039;:&#039;10800&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- A result paragraph that has no results when the teacher’s first and last name are provided -->
+  <test name="A result paragraph that has no results when the school name and postal code are provided only">
+    <parameter name="features" value="features/Modules/CSR_Regression_QA_IE/Locate_Account.feature"/>
+    <parameter name="scenario" value="A result paragraph that has no results when the school name and postal code are provided only"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;57.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;,&#039;maxDuration&#039;:&#039;10800&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- A result paragraph that has no results when the school name and postal code are provided only -->
+  <test name="A result paragraph that has no results when the province and city are provided">
+    <parameter name="features" value="features/Modules/CSR_Regression_QA_IE/Locate_Account.feature"/>
+    <parameter name="scenario" value="A result paragraph that has no results when the province and city are provided"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;57.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;,&#039;maxDuration&#039;:&#039;10800&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- A result paragraph that has no results when the province and city are provided -->
+  <test name="CSR searches with Account number on Locate Account page">
+    <parameter name="features" value="features/Modules/CSR_Regression_QA_IE/Locate_Account.feature"/>
+    <parameter name="scenario" value="CSR searches with Account number on Locate Account page"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;57.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;,&#039;maxDuration&#039;:&#039;10800&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- CSR searches with Account number on Locate Account page -->
+  <test name="CSR enters non-existing account number">
+    <parameter name="features" value="features/Modules/CSR_Regression_QA_IE/Locate_Account.feature"/>
+    <parameter name="scenario" value="CSR enters non-existing account number"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;57.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;,&#039;maxDuration&#039;:&#039;10800&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- CSR enters non-existing account number -->
+  <test name="Active Inactive state of Search button in Locate Account page">
+    <parameter name="features" value="features/Modules/CSR_Regression_QA_IE/Locate_Account.feature"/>
+    <parameter name="scenario" value="Active Inactive state of Search button in Locate Account page"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;57.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;,&#039;maxDuration&#039;:&#039;10800&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Active Inactive state of Search button in Locate Account page -->
+  <test name="Search button enabled when First Name field has at least 1 character then Last Name has at least 1 character">
+    <parameter name="features" value="features/Modules/CSR_Regression_QA_IE/Locate_Account.feature"/>
+    <parameter name="scenario" value="Search button enabled when First Name field has at least 1 character then Last Name has at least 1 character"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;57.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;,&#039;maxDuration&#039;:&#039;10800&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Search button enabled when First Name field has at least 1 character then Last Name has at least 1 character -->
+  <test name="Character limit on First Name field">
+    <parameter name="features" value="features/Modules/CSR_Regression_QA_IE/Locate_Account.feature"/>
+    <parameter name="scenario" value="Character limit on First Name field"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;57.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;,&#039;maxDuration&#039;:&#039;10800&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Character limit on First Name field -->
+  <test name="Character limit on Last Name field">
+    <parameter name="features" value="features/Modules/CSR_Regression_QA_IE/Locate_Account.feature"/>
+    <parameter name="scenario" value="Character limit on Last Name field"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;57.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;,&#039;maxDuration&#039;:&#039;10800&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Character limit on Last Name field -->
+  <test name="Teacher Listing Search Results page is shown after First and Last name are entered and searched">
+    <parameter name="features" value="features/Modules/CSR_Regression_QA_IE/Locate_Account.feature"/>
+    <parameter name="scenario" value="Teacher Listing Search Results page is shown after First and Last name are entered and searched"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;57.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;,&#039;maxDuration&#039;:&#039;10800&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Teacher Listing Search Results page is shown after First and Last name are entered and searched -->
+  <test name="Character limit in the Postal Code">
+    <parameter name="features" value="features/Modules/CSR_Regression_QA_IE/Locate_Account.feature"/>
+    <parameter name="scenario" value="Character limit in the Postal Code"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;57.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;,&#039;maxDuration&#039;:&#039;10800&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Character limit in the Postal Code -->
+  <test name="Search button enabled when a valid Postal Code is entered">
+    <parameter name="features" value="features/Modules/CSR_Regression_QA_IE/Locate_Account.feature"/>
+    <parameter name="scenario" value="Search button enabled when a valid Postal Code is entered"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;57.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;,&#039;maxDuration&#039;:&#039;10800&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Search button enabled when a valid Postal Code is entered -->
+  <test name="Error message shown when a invalid Postal Code is entered">
+    <parameter name="features" value="features/Modules/CSR_Regression_QA_IE/Locate_Account.feature"/>
+    <parameter name="scenario" value="Error message shown when a invalid Postal Code is entered"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;57.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;,&#039;maxDuration&#039;:&#039;10800&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Error message shown when a invalid Postal Code is entered -->
+  <test name="CSR sees School Listing Search Results page when using only valid Postal Code">
+    <parameter name="features" value="features/Modules/CSR_Regression_QA_IE/Locate_Account.feature"/>
+    <parameter name="scenario" value="CSR sees School Listing Search Results page when using only valid Postal Code"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;57.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;,&#039;maxDuration&#039;:&#039;10800&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- CSR sees School Listing Search Results page when using only valid Postal Code -->
+  <test name="CSR sees all provinces in Canada when Province drop-down is clicked">
+    <parameter name="features" value="features/Modules/CSR_Regression_QA_IE/Locate_Account.feature"/>
+    <parameter name="scenario" value="CSR sees all provinces in Canada when Province drop-down is clicked"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;57.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;,&#039;maxDuration&#039;:&#039;10800&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- CSR sees all provinces in Canada when Province drop-down is clicked -->
+  <test name="Character limit in the Zip Code">
+    <parameter name="features" value="features/Modules/CSR_Regression_QA_IE/Locate_Account.feature"/>
+    <parameter name="scenario" value="Character limit in the Zip Code"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;57.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;,&#039;maxDuration&#039;:&#039;10800&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Character limit in the Zip Code -->
+  <test name="Search button enabled when a valid Zip Code is entered">
+    <parameter name="features" value="features/Modules/CSR_Regression_QA_IE/Locate_Account.feature"/>
+    <parameter name="scenario" value="Search button enabled when a valid Zip Code is entered"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;57.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;,&#039;maxDuration&#039;:&#039;10800&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Search button enabled when a valid Zip Code is entered -->
+  <test name="Error message shown when a invalid Zip Code is entered">
+    <parameter name="features" value="features/Modules/CSR_Regression_QA_IE/Locate_Account.feature"/>
+    <parameter name="scenario" value="Error message shown when a invalid Zip Code is entered"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;57.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;,&#039;maxDuration&#039;:&#039;10800&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Error message shown when a invalid Zip Code is entered -->
+  <test name="CSR sees School Listing Search Results page when using only valid Zip Code">
+    <parameter name="features" value="features/Modules/CSR_Regression_QA_IE/Locate_Account.feature"/>
+    <parameter name="scenario" value="CSR sees School Listing Search Results page when using only valid Zip Code"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;57.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;,&#039;maxDuration&#039;:&#039;10800&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- CSR sees School Listing Search Results page when using only valid Zip Code -->
+  <test name="CSR sees all states in US when State drop-down is clicked">
+    <parameter name="features" value="features/Modules/CSR_Regression_QA_IE/Locate_Account.feature"/>
+    <parameter name="scenario" value="CSR sees all states in US when State drop-down is clicked"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;57.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;,&#039;maxDuration&#039;:&#039;10800&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- CSR sees all states in US when State drop-down is clicked -->
+  <test name="CSR sees instruction modal when &#039;School is not in the system&#039; hyperlink is clicked after a school name search">
+    <parameter name="features" value="features/Modules/CSR_Regression_QA_IE/Locate_Account.feature"/>
+    <parameter name="scenario" value="CSR sees instruction modal when &#039;School is not in the system&#039; hyperlink is clicked after a school name search"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;57.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;,&#039;maxDuration&#039;:&#039;10800&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- CSR sees instruction modal when 'School is not in the system' hyperlink is clicked after a school name search -->
+  <test name="CSR sees instruction modal when &#039;School is not in the system&#039; hyperlink is clicked after a school name and postal search">
+    <parameter name="features" value="features/Modules/CSR_Regression_QA_IE/Locate_Account.feature"/>
+    <parameter name="scenario" value="CSR sees instruction modal when &#039;School is not in the system&#039; hyperlink is clicked after a school name and postal search"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;57.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;,&#039;maxDuration&#039;:&#039;10800&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- CSR sees instruction modal when 'School is not in the system' hyperlink is clicked after a school name and postal search -->
+  <test name="CSR sees instruction modal when &#039;School is not in the system&#039; hyperlink is clicked after a school name, province and city search">
+    <parameter name="features" value="features/Modules/CSR_Regression_QA_IE/Locate_Account.feature"/>
+    <parameter name="scenario" value="CSR sees instruction modal when &#039;School is not in the system&#039; hyperlink is clicked after a school name, province and city search"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;57.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;,&#039;maxDuration&#039;:&#039;10800&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- CSR sees instruction modal when 'School is not in the system' hyperlink is clicked after a school name, province and city search -->
+  <test name="CSR sees instruction modal when &#039;School is not in the system&#039; hyperlink is clicked after a school name, postal, province and city search">
+    <parameter name="features" value="features/Modules/CSR_Regression_QA_IE/Locate_Account.feature"/>
+    <parameter name="scenario" value="CSR sees instruction modal when &#039;School is not in the system&#039; hyperlink is clicked after a school name, postal, province and city search"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;57.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;,&#039;maxDuration&#039;:&#039;10800&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- CSR sees instruction modal when 'School is not in the system' hyperlink is clicked after a school name, postal, province and city search -->
+  <test name="CSR sees instruction modal when &#039;School is not in the system&#039; hyperlink is clicked after a postal code search">
+    <parameter name="features" value="features/Modules/CSR_Regression_QA_IE/Locate_Account.feature"/>
+    <parameter name="scenario" value="CSR sees instruction modal when &#039;School is not in the system&#039; hyperlink is clicked after a postal code search"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;57.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;,&#039;maxDuration&#039;:&#039;10800&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- CSR sees instruction modal when 'School is not in the system' hyperlink is clicked after a postal code search -->
+  <test name="CSR sees instruction modal when &#039;School is not in the system&#039; hyperlink is clicked after a postal, province and city search">
+    <parameter name="features" value="features/Modules/CSR_Regression_QA_IE/Locate_Account.feature"/>
+    <parameter name="scenario" value="CSR sees instruction modal when &#039;School is not in the system&#039; hyperlink is clicked after a postal, province and city search"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;57.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;,&#039;maxDuration&#039;:&#039;10800&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- CSR sees instruction modal when 'School is not in the system' hyperlink is clicked after a postal, province and city search -->
+  <test name="CSR sees instruction modal when &#039;School is not in the system&#039; hyperlink is clicked after a province and city search">
+    <parameter name="features" value="features/Modules/CSR_Regression_QA_IE/Locate_Account.feature"/>
+    <parameter name="scenario" value="CSR sees instruction modal when &#039;School is not in the system&#039; hyperlink is clicked after a province and city search"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;57.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;,&#039;maxDuration&#039;:&#039;10800&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- CSR sees instruction modal when 'School is not in the system' hyperlink is clicked after a province and city search -->
+  <test name="As a CSR rep, I am taken to Order source page when I enter valid credentials">
+    <parameter name="features" value="features/Modules/CSR_Regression_QA_IE/Login_Page.feature"/>
+    <parameter name="scenario" value="As a CSR rep, I am taken to Order source page when I enter valid credentials"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;57.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;,&#039;maxDuration&#039;:&#039;10800&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- As a CSR rep, I am taken to Order source page when I enter valid credentials -->
+  <test name="Enter button disabled upon page load">
+    <parameter name="features" value="features/Modules/CSR_Regression_QA_IE/Login_Page.feature"/>
+    <parameter name="scenario" value="Enter button disabled upon page load"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;57.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;,&#039;maxDuration&#039;:&#039;10800&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Enter button disabled upon page load -->
+  <test name="ENTER box is disabled when CSR doesn&#039;t enter the UserName in a field">
+    <parameter name="features" value="features/Modules/CSR_Regression_QA_IE/Login_Page.feature"/>
+    <parameter name="scenario" value="ENTER box is disabled when CSR doesn&#039;t enter the UserName in a field"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;57.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;,&#039;maxDuration&#039;:&#039;10800&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- ENTER box is disabled when CSR doesn't enter the UserName in a field -->
+  <test name="ENTER box is disabled when CSR doesn&#039;t enter the Password in a field">
+    <parameter name="features" value="features/Modules/CSR_Regression_QA_IE/Login_Page.feature"/>
+    <parameter name="scenario" value="ENTER box is disabled when CSR doesn&#039;t enter the Password in a field"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;57.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;,&#039;maxDuration&#039;:&#039;10800&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- ENTER box is disabled when CSR doesn't enter the Password in a field -->
+  <test name="ENTER box is enabled when CSR enters the Username and Password in the fields">
+    <parameter name="features" value="features/Modules/CSR_Regression_QA_IE/Login_Page.feature"/>
+    <parameter name="scenario" value="ENTER box is enabled when CSR enters the Username and Password in the fields"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;57.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;,&#039;maxDuration&#039;:&#039;10800&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- ENTER box is enabled when CSR enters the Username and Password in the fields -->
+  <test name="Error message displays when CSR logs in with invalid user name and valid password_1">
+    <parameter name="features" value="features/Modules/CSR_Regression_QA_IE/Login_Page.feature"/>
+    <parameter name="scenario" value="Error message displays when CSR logs in with invalid user name and valid password_1"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;57.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;,&#039;maxDuration&#039;:&#039;10800&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Error message displays when CSR logs in with invalid user name and valid password_1 -->
+  <test name="Error message displays when CSR logs in with invalid user name and valid password_2">
+    <parameter name="features" value="features/Modules/CSR_Regression_QA_IE/Login_Page.feature"/>
+    <parameter name="scenario" value="Error message displays when CSR logs in with invalid user name and valid password_2"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;57.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;,&#039;maxDuration&#039;:&#039;10800&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Error message displays when CSR logs in with invalid user name and valid password_2 -->
+  <test name="Error message displays when CSR logs in with invalid user name and valid password_3">
+    <parameter name="features" value="features/Modules/CSR_Regression_QA_IE/Login_Page.feature"/>
+    <parameter name="scenario" value="Error message displays when CSR logs in with invalid user name and valid password_3"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;57.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;,&#039;maxDuration&#039;:&#039;10800&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Error message displays when CSR logs in with invalid user name and valid password_3 -->
+  <test name="Error message displays when CSR logs in with invalid user name and valid password_4">
+    <parameter name="features" value="features/Modules/CSR_Regression_QA_IE/Login_Page.feature"/>
+    <parameter name="scenario" value="Error message displays when CSR logs in with invalid user name and valid password_4"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;57.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;,&#039;maxDuration&#039;:&#039;10800&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Error message displays when CSR logs in with invalid user name and valid password_4 -->
+  <test name="Error message displays when CSR logs in with valid user name and invalid password_1">
+    <parameter name="features" value="features/Modules/CSR_Regression_QA_IE/Login_Page.feature"/>
+    <parameter name="scenario" value="Error message displays when CSR logs in with valid user name and invalid password_1"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;57.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;,&#039;maxDuration&#039;:&#039;10800&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Error message displays when CSR logs in with valid user name and invalid password_1 -->
+  <test name="Error message displays when CSR logs in with valid user name and invalid password_2">
+    <parameter name="features" value="features/Modules/CSR_Regression_QA_IE/Login_Page.feature"/>
+    <parameter name="scenario" value="Error message displays when CSR logs in with valid user name and invalid password_2"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;57.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;,&#039;maxDuration&#039;:&#039;10800&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Error message displays when CSR logs in with valid user name and invalid password_2 -->
+  <test name="Error message displays when CSR logs in with valid user name and invalid password_3">
+    <parameter name="features" value="features/Modules/CSR_Regression_QA_IE/Login_Page.feature"/>
+    <parameter name="scenario" value="Error message displays when CSR logs in with valid user name and invalid password_3"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;57.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;,&#039;maxDuration&#039;:&#039;10800&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Error message displays when CSR logs in with valid user name and invalid password_3 -->
+  <test name="Error message displays when CSR logs in with valid user name and invalid password_4">
+    <parameter name="features" value="features/Modules/CSR_Regression_QA_IE/Login_Page.feature"/>
+    <parameter name="scenario" value="Error message displays when CSR logs in with valid user name and invalid password_4"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;57.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;,&#039;maxDuration&#039;:&#039;10800&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Error message displays when CSR logs in with valid user name and invalid password_4 -->
+  <test name="Error message displays when CSR logs in with invalid user name and invalid password_1">
+    <parameter name="features" value="features/Modules/CSR_Regression_QA_IE/Login_Page.feature"/>
+    <parameter name="scenario" value="Error message displays when CSR logs in with invalid user name and invalid password_1"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;57.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;,&#039;maxDuration&#039;:&#039;10800&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Error message displays when CSR logs in with invalid user name and invalid password_1 -->
+  <test name="Error message displays when CSR logs in with invalid user name and invalid password_2">
+    <parameter name="features" value="features/Modules/CSR_Regression_QA_IE/Login_Page.feature"/>
+    <parameter name="scenario" value="Error message displays when CSR logs in with invalid user name and invalid password_2"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;57.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;,&#039;maxDuration&#039;:&#039;10800&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Error message displays when CSR logs in with invalid user name and invalid password_2 -->
+  <test name="Error message displays when CSR logs in with invalid user name and invalid password_3">
+    <parameter name="features" value="features/Modules/CSR_Regression_QA_IE/Login_Page.feature"/>
+    <parameter name="scenario" value="Error message displays when CSR logs in with invalid user name and invalid password_3"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;57.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;,&#039;maxDuration&#039;:&#039;10800&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Error message displays when CSR logs in with invalid user name and invalid password_3 -->
+  <test name="Error message displays when CSR logs in with invalid user name and invalid password_4">
+    <parameter name="features" value="features/Modules/CSR_Regression_QA_IE/Login_Page.feature"/>
+    <parameter name="scenario" value="Error message displays when CSR logs in with invalid user name and invalid password_4"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;57.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;,&#039;maxDuration&#039;:&#039;10800&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Error message displays when CSR logs in with invalid user name and invalid password_4 -->
+  <test name="As a CSR, I am not able to login to the CSR site with non-CSR credentials">
+    <parameter name="features" value="features/Modules/CSR_Regression_QA_IE/Login_Page.feature"/>
+    <parameter name="scenario" value="As a CSR, I am not able to login to the CSR site with non-CSR credentials"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;57.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;,&#039;maxDuration&#039;:&#039;10800&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- As a CSR, I am not able to login to the CSR site with non-CSR credentials -->
+  <test name="Error message displays when CSR enters lessthan min characters in password field">
+    <parameter name="features" value="features/Modules/CSR_Regression_QA_IE/Login_Page.feature"/>
+    <parameter name="scenario" value="Error message displays when CSR enters lessthan min characters in password field"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;57.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;,&#039;maxDuration&#039;:&#039;10800&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Error message displays when CSR enters lessthan min characters in password field -->
+</suite> <!-- Demandware -->

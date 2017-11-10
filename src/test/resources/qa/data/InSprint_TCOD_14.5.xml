@@ -1,0 +1,53 @@
+<testdata>
+    <!-- ##################################################################################################################################################
+##################################################################################################################################################
+###########################################   							             #############################################################
+###########################################   		   SCSCOD-5158         	     #############################################################
+###########################################   							             #############################################################
+##################################################################################################################################################
+################################################################################################################################################## -->
+
+
+<testcase id="InSprint14.5:TCOD:teacher_with_soo_and_Automatic_NewTeacherKit_Redemptions">
+		<userid>202937</userid>
+		<password>passw0rd</password>
+		<sname1>Manu</sname1>
+		<qty1>1</qty1>
+	</testcase>
+	
+<testcase id="InSprint14.5:TCOD:teacher_with_soo_and_Automatic_NewTeacherKit">
+		<userid>202896</userid>
+		<password>passw0rd</password>
+		<sname1>Manu</sname1>
+		<qty1>1</qty1>
+	</testcase>
+	
+<testcase id="InSprint14.5:TCOD:teacher_with_soo_and_Automatic_NewTeacherKit_TeacherClubItems">
+		<userid>203026</userid>
+		<password>passw0rd</password>
+		<itemprice>0.01</itemprice>
+		<itemprice_limit>20.00</itemprice_limit>
+		<studentname>Hillary</studentname>
+		<itemQty>1</itemQty>
+	</testcase>
+	
+<testcase id="InSprint14.5:TCOD:teacher_with_soo_and_Automatic_Existing_NewTeacherKit">
+		<userid>203034</userid>
+		<password>passw0rd</password>
+		<sname1>Manu</sname1>
+		<qty1>1</qty1>
+	</testcase>
+	
+	
+<testcase id="InSprint14.3:TCOD:teacher_with_soo_and_Automatic_NewTeacherKit_FreeItemPromo">
+		<userid>203042</userid>
+		<password>passw0rd</password>
+		<itemprice>9.01</itemprice>
+		<itemprice_limit>20.00</itemprice_limit>
+		<studentname>Hillary</studentname>
+		<itemQty>5</itemQty>
+	</testcase>	
+			
+
+
+</testdata>

@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="25" guice-stage="DEVELOPMENT" verbose="0" name="Demandware" parallel="tests">
+  <parameter name="remote.driver.url" value="http://sereti_qe:b9b8a9e1-e525-46af-9c7f-4a11c372b5c5@ondemand.saucelabs.com:80/wd/hub"/>
+  <parameter name="tdm.data" value="off"/>
+  <parameter name="glue" value="com.dw.automation.steps"/>
+  <parameter name="sauce" value="true"/>
+  <test name="Correct Unique Item ID should be seen for any item in PDP page">
+    <parameter name="features" value="features/Modules/CA_Regression_QA/InSprintAutomation.feature"/>
+    <parameter name="scenario" value="Correct Unique Item ID should be seen for any item in PDP page"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Correct Unique Item ID should be seen for any item in PDP page -->
+  <test name="Select multiple items from Teacher Catalogues and checkout">
+    <parameter name="features" value="features/Modules/CA_Regression_QA/InSprintAutomation.feature"/>
+    <parameter name="scenario" value="Select multiple items from Teacher Catalogues and checkout"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Select multiple items from Teacher Catalogues and checkout -->
+  <test name="Correct Unique Item ID should be seen for items in order history page">
+    <parameter name="features" value="features/Modules/CA_Regression_QA/InSprintAutomation.feature"/>
+    <parameter name="scenario" value="Correct Unique Item ID should be seen for items in order history page"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Correct Unique Item ID should be seen for items in order history page -->
+  <test name="Select any item from DTS model and checkout">
+    <parameter name="features" value="features/Modules/CA_Regression_QA/InSprintAutomation.feature"/>
+    <parameter name="scenario" value="Select any item from DTS model and checkout"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Select any item from DTS model and checkout -->
+  <test name="Select any item from FreePick model and checkout">
+    <parameter name="features" value="features/Modules/CA_Regression_QA/InSprintAutomation.feature"/>
+    <parameter name="scenario" value="Select any item from FreePick model and checkout"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Select any item from FreePick model and checkout -->
+  <test name="Select any item from Student Clubs without redemptions and checkout">
+    <parameter name="features" value="features/Modules/CA_Regression_QA/InSprintAutomation.feature"/>
+    <parameter name="scenario" value="Select any item from Student Clubs without redemptions and checkout"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Select any item from Student Clubs without redemptions and checkout -->
+  <test name="Correct Unique Item ID should be seen for any item in PDP Quick View window">
+    <parameter name="features" value="features/Modules/CA_Regression_QA/InSprintAutomation.feature"/>
+    <parameter name="scenario" value="Correct Unique Item ID should be seen for any item in PDP Quick View window"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Correct Unique Item ID should be seen for any item in PDP Quick View window -->
+  <test name="Select any item from Teacher Catalogues without redemptions and checkout">
+    <parameter name="features" value="features/Modules/CA_Regression_QA/InSprintAutomation.feature"/>
+    <parameter name="scenario" value="Select any item from Teacher Catalogues without redemptions and checkout"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Select any item from Teacher Catalogues without redemptions and checkout -->
+  <test name="Edit and Apply buttons should be present for Student Clubs, Teacher Catalogues, and Shipping &amp; Handling sections in Redemptions &amp; Rewards page">
+    <parameter name="features" value="features/Modules/CA_Regression_QA/InSprintAutomation.feature"/>
+    <parameter name="scenario" value="Edit and Apply buttons should be present for Student Clubs, Teacher Catalogues, and Shipping &amp; Handling sections in Redemptions &amp; Rewards page"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Edit and Apply buttons should be present for Student Clubs, Teacher Catalogues, and Shipping & Handling sections in Redemptions & Rewards page -->
+  <test name="Skip button should not be present for Student Clubs, Teacher Catalogues, and Shipping &amp; Handling sections in Redemptions &amp; Rewards page">
+    <parameter name="features" value="features/Modules/CA_Regression_QA/InSprintAutomation.feature"/>
+    <parameter name="scenario" value="Skip button should not be present for Student Clubs, Teacher Catalogues, and Shipping &amp; Handling sections in Redemptions &amp; Rewards page"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Skip button should not be present for Student Clubs, Teacher Catalogues, and Shipping & Handling sections in Redemptions & Rewards page -->
+  <test name="Postal code field is auto-formatted to correct format when valid postal code is entered in combination of lower case and upper case with space">
+    <parameter name="features" value="features/Modules/CA_Regression_QA/InSprintAutomation.feature"/>
+    <parameter name="scenario" value="Postal code field is auto-formatted to correct format when valid postal code is entered in combination of lower case and upper case with space"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Postal code field is auto-formatted to correct format when valid postal code is entered in combination of lower case and upper case with space -->
+  <test name="Postal code field is auto-formatted to correct format when valid postal code is entered in lower case with space">
+    <parameter name="features" value="features/Modules/CA_Regression_QA/InSprintAutomation.feature"/>
+    <parameter name="scenario" value="Postal code field is auto-formatted to correct format when valid postal code is entered in lower case with space"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Postal code field is auto-formatted to correct format when valid postal code is entered in lower case with space -->
+  <test name="Postal code field is auto-formatted to correct format when valid postal code is entered in combination of lower case and upper case without space">
+    <parameter name="features" value="features/Modules/CA_Regression_QA/InSprintAutomation.feature"/>
+    <parameter name="scenario" value="Postal code field is auto-formatted to correct format when valid postal code is entered in combination of lower case and upper case without space"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Postal code field is auto-formatted to correct format when valid postal code is entered in combination of lower case and upper case without space -->
+  <test name="Postal code field is auto-formatted to correct format when valid postal code is entered in lower case without space">
+    <parameter name="features" value="features/Modules/CA_Regression_QA/InSprintAutomation.feature"/>
+    <parameter name="scenario" value="Postal code field is auto-formatted to correct format when valid postal code is entered in lower case without space"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Postal code field is auto-formatted to correct format when valid postal code is entered in lower case without space -->
+  <test name="Proper validation message is seen if teacher enters postal code with 7 characters with no space">
+    <parameter name="features" value="features/Modules/CA_Regression_QA/InSprintAutomation.feature"/>
+    <parameter name="scenario" value="Proper validation message is seen if teacher enters postal code with 7 characters with no space"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Proper validation message is seen if teacher enters postal code with 7 characters with no space -->
+  <test name="Proper validation message is seen if teacher enters postal code as less than 6 characters">
+    <parameter name="features" value="features/Modules/CA_Regression_QA/InSprintAutomation.feature"/>
+    <parameter name="scenario" value="Proper validation message is seen if teacher enters postal code as less than 6 characters"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Proper validation message is seen if teacher enters postal code as less than 6 characters -->
+  <test name="Proper UI should be present for postal code text field in alternative shipping address option">
+    <parameter name="features" value="features/Modules/CA_Regression_QA/InSprintAutomation.feature"/>
+    <parameter name="scenario" value="Proper UI should be present for postal code text field in alternative shipping address option"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Proper UI should be present for postal code text field in alternative shipping address option -->
+  <test name="Correct unique item number is displayed on order history page for DTS">
+    <parameter name="features" value="features/Modules/CA_Regression_QA/InSprintAutomation.feature"/>
+    <parameter name="scenario" value="Correct unique item number is displayed on order history page for DTS"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Correct unique item number is displayed on order history page for DTS -->
+  <test name="Correct unique item number is displayed on order history page for Free pick">
+    <parameter name="features" value="features/Modules/CA_Regression_QA/InSprintAutomation.feature"/>
+    <parameter name="scenario" value="Correct unique item number is displayed on order history page for Free pick"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Correct unique item number is displayed on order history page for Free pick -->
+  <test name="Teacher should be able to udpate unique email address at time of profile edits">
+    <parameter name="features" value="features/Modules/CA_Regression_QA/InSprintAutomation.feature"/>
+    <parameter name="scenario" value="Teacher should be able to udpate unique email address at time of profile edits"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Teacher should be able to udpate unique email address at time of profile edits -->
+  <test name="Proper error message should be seen if email associated to other account is updated at time of profile edits">
+    <parameter name="features" value="features/Modules/CA_Regression_QA/InSprintAutomation.feature"/>
+    <parameter name="scenario" value="Proper error message should be seen if email associated to other account is updated at time of profile edits"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Proper error message should be seen if email associated to other account is updated at time of profile edits -->
+  <test name="Continue Checkout button is enabled when incorrect postal code is entered and changed back to correct postal code">
+    <parameter name="features" value="features/Modules/CA_Regression_QA/InSprintAutomation.feature"/>
+    <parameter name="scenario" value="Continue Checkout button is enabled when incorrect postal code is entered and changed back to correct postal code"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Continue Checkout button is enabled when incorrect postal code is entered and changed back to correct postal code -->
+  <test name="Teacher is charged correct HST on top-off amount for DTS when single item is selected with multiple quantity for NL province">
+    <parameter name="features" value="features/Modules/CA_Regression_QA/InSprintAutomation.feature"/>
+    <parameter name="scenario" value="Teacher is charged correct HST on top-off amount for DTS when single item is selected with multiple quantity for NL province"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Teacher is charged correct HST on top-off amount for DTS when single item is selected with multiple quantity for NL province -->
+  <test name="Teacher is charged correct HST on top-off amount for DTS when single item is selected with multiple quantity for NB province">
+    <parameter name="features" value="features/Modules/CA_Regression_QA/InSprintAutomation.feature"/>
+    <parameter name="scenario" value="Teacher is charged correct HST on top-off amount for DTS when single item is selected with multiple quantity for NB province"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Teacher is charged correct HST on top-off amount for DTS when single item is selected with multiple quantity for NB province -->
+  <test name="Teacher is charged correct HST on top-off amount for DTS when single item is selected with multiple quantity for NS province">
+    <parameter name="features" value="features/Modules/CA_Regression_QA/InSprintAutomation.feature"/>
+    <parameter name="scenario" value="Teacher is charged correct HST on top-off amount for DTS when single item is selected with multiple quantity for NS province"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Teacher is charged correct HST on top-off amount for DTS when single item is selected with multiple quantity for NS province -->
+  <test name="Teacher is charged correct HST on top-off amount for DTS when single item is selected with multiple quantity for ON province">
+    <parameter name="features" value="features/Modules/CA_Regression_QA/InSprintAutomation.feature"/>
+    <parameter name="scenario" value="Teacher is charged correct HST on top-off amount for DTS when single item is selected with multiple quantity for ON province"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Teacher is charged correct HST on top-off amount for DTS when single item is selected with multiple quantity for ON province -->
+  <test name="Teacher is charged correct HST on top-off amount for DTS when single item is selected with multiple quantity for PE province">
+    <parameter name="features" value="features/Modules/CA_Regression_QA/InSprintAutomation.feature"/>
+    <parameter name="scenario" value="Teacher is charged correct HST on top-off amount for DTS when single item is selected with multiple quantity for PE province"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Teacher is charged correct HST on top-off amount for DTS when single item is selected with multiple quantity for PE province -->
+  <test name="Teacher is charged correct GST on top-off amount for DTS when single item is selected with multiple quantity for AB province">
+    <parameter name="features" value="features/Modules/CA_Regression_QA/InSprintAutomation.feature"/>
+    <parameter name="scenario" value="Teacher is charged correct GST on top-off amount for DTS when single item is selected with multiple quantity for AB province"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Teacher is charged correct GST on top-off amount for DTS when single item is selected with multiple quantity for AB province -->
+  <test name="Teacher is charged correct GST &amp; PST on top-off amount for DTS when single item is selected with multiple quantity for BC province">
+    <parameter name="features" value="features/Modules/CA_Regression_QA/InSprintAutomation.feature"/>
+    <parameter name="scenario" value="Teacher is charged correct GST &amp; PST on top-off amount for DTS when single item is selected with multiple quantity for BC province"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Teacher is charged correct GST & PST on top-off amount for DTS when single item is selected with multiple quantity for BC province -->
+  <test name="Teacher is charged correct GST &amp; QST on top-off amount for DTS when single item is selected with multiple quantity for QC province">
+    <parameter name="features" value="features/Modules/CA_Regression_QA/InSprintAutomation.feature"/>
+    <parameter name="scenario" value="Teacher is charged correct GST &amp; QST on top-off amount for DTS when single item is selected with multiple quantity for QC province"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Teacher is charged correct GST & QST on top-off amount for DTS when single item is selected with multiple quantity for QC province -->
+  <test name="Teacher is not charged taxes on top-off amount for DTS when single item is selected with multiple quantities for tax exempted schools for MB province">
+    <parameter name="features" value="features/Modules/CA_Regression_QA/InSprintAutomation.feature"/>
+    <parameter name="scenario" value="Teacher is not charged taxes on top-off amount for DTS when single item is selected with multiple quantities for tax exempted schools for MB province"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Teacher is not charged taxes on top-off amount for DTS when single item is selected with multiple quantities for tax exempted schools for MB province -->
+  <test name="Teacher is navigated to specific grade&#039;s flyer by month as linked by marketing team when clicked on All Flyers option">
+    <parameter name="features" value="features/Modules/CA_Regression_QA/InSprintAutomation.feature"/>
+    <parameter name="scenario" value="Teacher is navigated to specific grade&#039;s flyer by month as linked by marketing team when clicked on All Flyers option"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Teacher is navigated to specific grade's flyer by month as linked by marketing team when clicked on All Flyers option -->
+  <test name="Teacher is naviagted to special collection&#039;s flyer by month as linked by marketing team when clicked on All Flyers option">
+    <parameter name="features" value="features/Modules/CA_Regression_QA/InSprintAutomation.feature"/>
+    <parameter name="scenario" value="Teacher is naviagted to special collection&#039;s flyer by month as linked by marketing team when clicked on All Flyers option"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Teacher is naviagted to special collection's flyer by month as linked by marketing team when clicked on All Flyers option -->
+  <test name="Teacher is naviagted to French Club&#039;s flyer by month as linked by marketing team when clicked on All Flyers option">
+    <parameter name="features" value="features/Modules/CA_Regression_QA/InSprintAutomation.feature"/>
+    <parameter name="scenario" value="Teacher is naviagted to French Club&#039;s flyer by month as linked by marketing team when clicked on All Flyers option"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Teacher is naviagted to French Club's flyer by month as linked by marketing team when clicked on All Flyers option -->
+  <test name="Teacher sees Item ID and flyer according to logged in teachers grade in PDP page, when same item is available in other grades and teacher teaching at a grade level that matches one of those flyers">
+    <parameter name="features" value="features/Modules/CA_Regression_QA/InSprintAutomation.feature"/>
+    <parameter name="scenario" value="Teacher sees Item ID and flyer according to logged in teachers grade in PDP page, when same item is available in other grades and teacher teaching at a grade level that matches one of those flyers"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Teacher sees Item ID and flyer according to logged in teachers grade in PDP page, when same item is available in other grades and teacher teaching at a grade level that matches one of those flyers -->
+  <test name="Teacher sees Item ID according to logged in teachers grade in Review Cart page, when same item is available in other grades and teacher teaching at a grade level that matches one of those flyers">
+    <parameter name="features" value="features/Modules/CA_Regression_QA/InSprintAutomation.feature"/>
+    <parameter name="scenario" value="Teacher sees Item ID according to logged in teachers grade in Review Cart page, when same item is available in other grades and teacher teaching at a grade level that matches one of those flyers"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Teacher sees Item ID according to logged in teachers grade in Review Cart page, when same item is available in other grades and teacher teaching at a grade level that matches one of those flyers -->
+  <test name="Teacher sees Item ID from default grade or according to search ranking rule to teacher’s grade in PDP page, when item is not available in logged in teacher’s grade">
+    <parameter name="features" value="features/Modules/CA_Regression_QA/InSprintAutomation.feature"/>
+    <parameter name="scenario" value="Teacher sees Item ID from default grade or according to search ranking rule to teacher’s grade in PDP page, when item is not available in logged in teacher’s grade"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Teacher sees Item ID from default grade or according to search ranking rule to teacher’s grade in PDP page, when item is not available in logged in teacher’s grade -->
+  <test name="Teacher sees Item ID from default grade or according to search ranking rule to teacher’s grade in Review Cart page, when item is not available in logged in teacher’s grade">
+    <parameter name="features" value="features/Modules/CA_Regression_QA/InSprintAutomation.feature"/>
+    <parameter name="scenario" value="Teacher sees Item ID from default grade or according to search ranking rule to teacher’s grade in Review Cart page, when item is not available in logged in teacher’s grade"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Teacher sees Item ID from default grade or according to search ranking rule to teacher’s grade in Review Cart page, when item is not available in logged in teacher’s grade -->
+  <test name="Teacher do not see Item ID in PDP page, when same item is available in other grades and logged in teacher is admin or teacher by speciality">
+    <parameter name="features" value="features/Modules/CA_Regression_QA/InSprintAutomation.feature"/>
+    <parameter name="scenario" value="Teacher do not see Item ID in PDP page, when same item is available in other grades and logged in teacher is admin or teacher by speciality"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Teacher do not see Item ID in PDP page, when same item is available in other grades and logged in teacher is admin or teacher by speciality -->
+  <test name="Teacher sees correct order Item ID&#039;s and flyers on pop up in PDP page, when same item is available in other grades and teacher teaching at a grade level that matches one of those flyers">
+    <parameter name="features" value="features/Modules/CA_Regression_QA/InSprintAutomation.feature"/>
+    <parameter name="scenario" value="Teacher sees correct order Item ID&#039;s and flyers on pop up in PDP page, when same item is available in other grades and teacher teaching at a grade level that matches one of those flyers"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Teacher sees correct order Item ID's and flyers on pop up in PDP page, when same item is available in other grades and teacher teaching at a grade level that matches one of those flyers -->
+  <test name="Teacher applies Free shipping coupon and adds more items to cart making the cart qualifying for automatic free promotion">
+    <parameter name="features" value="features/Modules/CA_Regression_QA/InSprintAutomation.feature"/>
+    <parameter name="scenario" value="Teacher applies Free shipping coupon and adds more items to cart making the cart qualifying for automatic free promotion"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Teacher applies Free shipping coupon and adds more items to cart making the cart qualifying for automatic free promotion -->
+</suite> <!-- Demandware -->

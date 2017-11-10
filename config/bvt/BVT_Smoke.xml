@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="10" guice-stage="DEVELOPMENT" verbose="0" name="Demandware" parallel="tests">
+  <parameter name="remote.driver.url" value="http://demandware_rco_qe:5a8c653e-40d8-4326-a789-20fd44e65499@ondemand.saucelabs.com:80/wd/hub"/>
+  <parameter name="tdm.data" value="on"/>
+  <parameter name="glue" value="com.dw.automation.steps"/>
+  <parameter name="sauce" value="true"/>
+  
+  <test name="New teacher registration with reading club">
+    <parameter name="scenario" value="New teacher registration with reading club"/>
+    <parameter name="features" value="features/BVT"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;47.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;SP1-Chrome-47-BVT&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- New teacher registration with reading club -->
+  <test name="Add Credit Card on Shipping and Payments Page">
+    <parameter name="scenario" value="Add Credit Card on Shipping and Payments Page"/>
+    <parameter name="features" value="features/BVT"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;47.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;SP1-Chrome-47-BVT&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Add Credit Card on Shipping and Payments Page -->
+  <test name="Student Flyer Orders Quantity Update Validation">
+    <parameter name="scenario" value="Student Flyer Orders Quantity Update Validation"/>
+    <parameter name="features" value="features/BVT"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;47.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;SP1-Chrome-47-BVT&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Student Flyer Orders Quantity Update Validation -->
+  <test name="Student Flyer Orders Set Quantity Zero And Remove Item">
+    <parameter name="scenario" value="Student Flyer Orders Set Quantity Zero And Remove Item"/>
+    <parameter name="features" value="features/BVT"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;47.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;SP1-Chrome-47-BVT&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Student Flyer Orders Set Quantity Zero And Remove Item -->
+  <test name="Student Flyer Orders Remove Item Validation">
+    <parameter name="scenario" value="Student Flyer Orders Remove Item Validation"/>
+    <parameter name="features" value="features/BVT"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;47.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;SP1-Chrome-47-BVT&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Student Flyer Orders Remove Item Validation -->
+  <test name="DWA:299 Verify Add Button functionality for YTO orders On Cart Page">
+    <parameter name="scenario" value="DWA:299 Verify Add Button functionality for YTO orders On Cart Page"/>
+    <parameter name="features" value="features/BVT"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;47.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;SP1-Chrome-47-BVT&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- DWA:299 Verify Add Button functionality for YTO orders On Cart Page -->
+  <test name="To change the creditcard by coming back from submit page and submitting order later">
+    <parameter name="scenario" value="To change the creditcard by coming back from submit page and submitting order later"/>
+    <parameter name="features" value="features/BVT"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;47.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;SP1-Chrome-47-BVT&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- To change the creditcard by coming back from submit page and submitting order later -->
+  <test name="DWA-201 Verify Instruction note on your teacher order page">
+    <parameter name="scenario" value="DWA-201 Verify Instruction note on your teacher order page"/>
+    <parameter name="features" value="features/BVT"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;47.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;SP1-Chrome-47-BVT&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- DWA-201 Verify Instruction note on your teacher order page -->
+</suite> <!-- Demandware -->

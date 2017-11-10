@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" verbose="0" name="CA_Dev35_Insprint_12.1" parallel="tests">
+  <parameter name="remote.driver.url" value="http://sereti_qe:b9b8a9e1-e525-46af-9c7f-4a11c372b5c5@ondemand.saucelabs.com:80/wd/hub"/>
+  <parameter name="tdm.data" value="off"/>
+  <parameter name="glue" value="com.dw.automation.steps"/>
+  <parameter name="sauce" value="true"/>
+  
+   <test name="Parent cannot give any spaces in CAC text field">
+    <parameter name="features" value="features/InSprint_12.3/CA_InSprint_12.3_PCOD.feature"/>
+    <parameter name="scenario" value="Parent cannot give any spaces in CAC text field"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Parent cannot give any spaces in CAC text field -->
+  <test name="Parent see correct message text when mouse hover on “What&#039;s this?” link in Connect to Teacher model window">
+    <parameter name="features" value="features/InSprint_12.3/CA_InSprint_12.3_PCOD.feature"/>
+    <parameter name="scenario" value="Parent see correct message text when mouse hover on “What&#039;s this?” link in Connect to Teacher model window"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Parent see correct message text when mouse hover on “What's this?” link in Connect to Teacher model window -->
+  <test name="Connect button in Connect to Teacher model window is disabled when CAC text field is blank">
+    <parameter name="features" value="features/InSprint_12.3/CA_InSprint_12.3_PCOD.feature"/>
+    <parameter name="scenario" value="Connect button in Connect to Teacher model window is disabled when CAC text field is blank"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Connect button in Connect to Teacher model window is disabled when CAC text field is blank -->
+  <test name="Connect button in Connect to Teacher model window is enabled when CAC is entered in CAC text field">
+    <parameter name="features" value="features/InSprint_12.3/CA_InSprint_12.3_PCOD.feature"/>
+    <parameter name="scenario" value="Connect button in Connect to Teacher model window is enabled when CAC is entered in CAC text field"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Connect button in Connect to Teacher model window is enabled when CAC is entered in CAC text field -->
+  <test name="Parent cannot enter more than 5 characters in CAC text field">
+    <parameter name="features" value="features/InSprint_12.3/CA_InSprint_12.3_PCOD.feature"/>
+    <parameter name="scenario" value="Parent cannot enter more than 5 characters in CAC text field"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Parent cannot enter more than 5 characters in CAC text field -->
+  <test name="Connect button should be disabled if parent enters less than 5 characters in CAC text field">
+    <parameter name="features" value="features/InSprint_12.3/CA_InSprint_12.3_PCOD.feature"/>
+    <parameter name="scenario" value="Connect button should be disabled if parent enters less than 5 characters in CAC text field"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Connect button should be disabled if parent enters less than 5 characters in CAC text field -->
+  <test name="Parent see proper validation message if incorrect CAC is entered">
+    <parameter name="features" value="features/InSprint_12.3/CA_InSprint_12.3_PCOD.feature"/>
+    <parameter name="scenario" value="Parent see proper validation message if incorrect CAC is entered"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Parent see proper validation message if incorrect CAC is entered -->
+  <test name="Parent cannot enter special characters in CAC text field">
+    <parameter name="features" value="features/InSprint_12.3/CA_InSprint_12.3_PCOD.feature"/>
+    <parameter name="scenario" value="Parent cannot enter special characters in CAC text field"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Parent cannot enter special characters in CAC text field -->
+</suite> <!-- Demandware -->

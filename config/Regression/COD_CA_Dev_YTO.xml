@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="15" guice-stage="DEVELOPMENT" verbose="0"  name="Demandware" parallel="tests">
+    <parameter name="remote.driver.url" value="http://sereti_qe:b9b8a9e1-e525-46af-9c7f-4a11c372b5c5@ondemand.saucelabs.com:80/wd/hub" />
+    <parameter name="tdm.data" value="off" />
+    <parameter name="glue" value="com.dw.automation.steps" />
+    <parameter name="sauce" value="true" />
+    <parameter name="driver.name" value="Chrome"/>
+    
+  <test name="Teacher has the ability to click - to remove items from cart on YTO page">
+    <parameter name="features" value="features/Modules/CA_Regression_QA/YTO.feature"/>
+    <parameter name="scenario" value="Teacher has the ability to click - to remove items from cart on YTO page"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Teacher has the ability to click - to remove items from cart on YTO page -->
+  <test name="Teacher has the ability to click + to add items to cart on YTO page">
+    <parameter name="features" value="features/Modules/CA_Regression_QA/YTO.feature"/>
+    <parameter name="scenario" value="Teacher has the ability to click + to add items to cart on YTO page"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Teacher has the ability to click + to add items to cart on YTO page -->
+  <test name="Teacher can save the student name by entering name and clicking Enter">
+    <parameter name="features" value="features/Modules/CA_Regression_QA/YTO.feature"/>
+    <parameter name="scenario" value="Teacher can save the student name by entering name and clicking Enter"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Teacher can save the student name by entering name and clicking Enter -->
+  <test name="Teacher can get back to the same flyer and month which she was shopping on when clicks on browser back">
+    <parameter name="features" value="features/Modules/CA_Regression_QA/YTO.feature"/>
+    <parameter name="scenario" value="Teacher can get back to the same flyer and month which she was shopping on when clicks on browser back"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Teacher can get back to the same flyer and month which she was shopping on when clicks on browser back -->
+  <test name="Teacher can get back to same flyer and month which she was shopping for when she comes back from search results page">
+    <parameter name="features" value="features/Modules/CA_Regression_QA/YTO.feature"/>
+    <parameter name="scenario" value="Teacher can get back to same flyer and month which she was shopping for when she comes back from search results page"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Teacher can get back to same flyer and month which she was shopping for when she comes back from search results page -->
+  <test name="Teacher should land on default flyer on YTO when selects a specific flyer and month and logout and login">
+    <parameter name="features" value="features/Modules/CA_Regression_QA/YTO.feature"/>
+    <parameter name="scenario" value="Teacher should land on default flyer on YTO when selects a specific flyer and month and logout and login"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Teacher should land on default flyer on YTO when selects a specific flyer and month and logout and login -->
+  <test name="Long Description should display on PDP">
+    <parameter name="features" value="features/Modules/CA_Regression_QA/YTO.feature"/>
+    <parameter name="scenario" value="Long Description should display on PDP"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Long Description should display on PDP -->
+  <test name="Teacher should see correct downloadable link labels for any flyer under Early Childhood Elf catalog">
+    <parameter name="features" value="features/Modules/CA_Regression_QA/YTO.feature"/>
+    <parameter name="scenario" value="Teacher should see correct downloadable link labels for any flyer under Early Childhood Elf catalog"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Teacher should see correct downloadable link labels for any flyer under Early Childhood Elf catalog -->
+  <test name="Teacher should see correct downloadable link labels for any flyer under Grades 4&amp;5 Arrow catalog">
+    <parameter name="features" value="features/Modules/CA_Regression_QA/YTO.feature"/>
+    <parameter name="scenario" value="Teacher should see correct downloadable link labels for any flyer under Grades 4&amp;5 Arrow catalog"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Teacher should see correct downloadable link labels for any flyer under Grades 4&5 Arrow catalog -->
+  <test name="Teacher should see correct downloadable link labels for any flyer under Teacher Catalogues">
+    <parameter name="features" value="features/Modules/CA_Regression_QA/YTO.feature"/>
+    <parameter name="scenario" value="Teacher should see correct downloadable link labels for any flyer under Teacher Catalogues"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Teacher should see correct downloadable link labels for any flyer under Teacher Catalogues -->
+  <test name="Teacher navigates to YTO page when clicked on “ENTER ORDERS” option present in Review Cart page">
+    <parameter name="features" value="features/Modules/CA_Regression_QA/YTO.feature"/>
+    <parameter name="scenario" value="Teacher navigates to YTO page when clicked on “ENTER ORDERS” option present in Review Cart page"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Teacher navigates to YTO page when clicked on “ENTER ORDERS” option present in Review Cart page -->
+  <test name="navigated to specific grade&#039;s flyer by month as linked by marketing team when clicked on All Flyers option">
+    <parameter name="features" value="features/Modules/CA_Regression_QA/YTO.feature"/>
+    <parameter name="scenario" value="navigated to specific grade&#039;s flyer by month as linked by marketing team when clicked on All Flyers option"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- navigated to specific grade's flyer by month as linked by marketing team when clicked on All Flyers option -->
+  <test name="Teacher is naviagted to special collection&#039;s flyer by month as linked by marketing team when clicked on All Flyers option">
+    <parameter name="features" value="features/Modules/CA_Regression_QA/YTO.feature"/>
+    <parameter name="scenario" value="Teacher is naviagted to special collection&#039;s flyer by month as linked by marketing team when clicked on All Flyers option"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Teacher is naviagted to special collection's flyer by month as linked by marketing team when clicked on All Flyers option -->
+  <test name="Teacher is naviagted to French Club&#039;s flyer by month as linked by marketing team when clicked on All Flyers option">
+    <parameter name="features" value="features/Modules/CA_Regression_QA/YTO.feature"/>
+    <parameter name="scenario" value="Teacher is naviagted to French Club&#039;s flyer by month as linked by marketing team when clicked on All Flyers option"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Teacher is naviagted to French Club's flyer by month as linked by marketing team when clicked on All Flyers option -->
+  <test name="Teacher can navigate to the Rewards and Redemption page with no items in cart when the hyperlink “Redeem your Coupons” is selected on Review Cart page">
+    <parameter name="features" value="features/Modules/CA_Regression_QA/YTO.feature"/>
+    <parameter name="scenario" value="Teacher can navigate to the Rewards and Redemption page with no items in cart when the hyperlink “Redeem your Coupons” is selected on Review Cart page"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Teacher can navigate to the Rewards and Redemption page with no items in cart when the hyperlink “Redeem your Coupons” is selected on Review Cart page -->
+  <test name="The label for the “UPDATE CART” button is changed to “SAVE” on the Your Teacher Order page">
+    <parameter name="features" value="features/Modules/CA_Regression_QA/YTO.feature"/>
+    <parameter name="scenario" value="The label for the “UPDATE CART” button is changed to “SAVE” on the Your Teacher Order page"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- The label for the “UPDATE CART” button is changed to “SAVE” on the Your Teacher Order page -->
+  <test name="Teacher can navigate to Redemptions page with no items in cart when the hyperlink “Redeem your Coupons” is selected on YTO page">
+    <parameter name="features" value="features/Modules/CA_Regression_QA/YTO.feature"/>
+    <parameter name="scenario" value="Teacher can navigate to Redemptions page with no items in cart when the hyperlink “Redeem your Coupons” is selected on YTO page"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Teacher can navigate to Redemptions page with no items in cart when the hyperlink “Redeem your Coupons” is selected on YTO page -->
+  <test name="The link ‘By Flyer’ is selected by default when teacher navigates to the ‘Your Teacher Order’ page">
+    <parameter name="features" value="features/Modules/CA_Regression_QA/YTO.feature"/>
+    <parameter name="scenario" value="The link ‘By Flyer’ is selected by default when teacher navigates to the ‘Your Teacher Order’ page"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- The link ‘By Flyer’ is selected by default when teacher navigates to the ‘Your Teacher Order’ page -->
+</suite> <!-- Demandware -->

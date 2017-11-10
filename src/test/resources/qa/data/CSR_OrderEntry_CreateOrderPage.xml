@@ -1,0 +1,12 @@
+<testdata>
+	<testcase id="CSR_clicks_ProceedToCheckout">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>1623359963</AcNum>
+		<ITEMCODE>6</ITEMCODE>
+		<Qty>1</Qty>
+	</testcase>
+
+
+
+</testdata>

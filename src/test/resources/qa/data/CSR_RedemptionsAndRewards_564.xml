@@ -1,0 +1,738 @@
+<testdata>
+	<testcase id="Redemptions_Rewards_GST_PST_Province_BC">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>4243333</AcNum>
+  		<FlyerCode>Z8A16</FlyerCode>
+  		<ItemNum>700</ItemNum>
+  		<ItemQty>1</ItemQty>
+  		<ItemNum2>701</ItemNum2>
+  		<ItemQty2>1</ItemQty2>
+  		<ItemNum3>702</ItemNum3>
+  		<ItemQty3>1</ItemQty3>
+  		<stateTaxGST>5</stateTaxGST>
+  		<stateTaxPST>7</stateTaxPST>
+	</testcase>
+	
+	<testcase id="Redemptions_Rewards_GST_PST_Province_BC_2">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>4247971</AcNum>
+  		<FlyerCode>Z8A16</FlyerCode>
+  		<FlyerCode2>B7A17</FlyerCode2>
+  		<ItemNum>701</ItemNum>
+  		<ItemQty>1</ItemQty>
+  		<ItemNum2>702</ItemNum2>
+  		<ItemQty2>1</ItemQty2>
+  		<ItemNum3>301</ItemNum3>
+  		<ItemQty3>1</ItemQty3>
+  		<stateTaxGST>5</stateTaxGST>
+  		<stateTaxPST>7</stateTaxPST>
+	</testcase>
+	
+	<testcase id="Redemptions_Rewards_GST_QST_Province_QC">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>4249357</AcNum>
+  		<FlyerCode>Z8A16</FlyerCode>
+  		<ItemNum>700</ItemNum>
+  		<ItemQty>1</ItemQty>
+  		<ItemNum2>701</ItemNum2>
+  		<ItemQty2>1</ItemQty2>
+  		<ItemNum3>702</ItemNum3>
+  		<ItemQty3>1</ItemQty3>
+  		<stateTaxGST>5</stateTaxGST>
+  		<stateTaxQST>9.975</stateTaxQST>
+	</testcase>
+	
+	<testcase id="Redemptions_Rewards_GST_QST_Province_QC_2">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>4249513</AcNum>
+  		<FlyerCode>Z8A16</FlyerCode>
+  		<FlyerCode2>B7A17</FlyerCode2>
+  		<ItemNum>701</ItemNum>
+  		<ItemQty>1</ItemQty>
+  		<ItemNum2>702</ItemNum2>
+  		<ItemQty2>1</ItemQty2>
+  		<ItemNum3>301</ItemNum3>
+  		<ItemQty3>1</ItemQty3>
+  		<stateTaxGST>5</stateTaxGST>
+  		<stateTaxQST>9.975</stateTaxQST>
+	</testcase>
+	
+	<testcase id="Redemptions_Rewards_HST_Province_NL">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>4257243</AcNum>
+  		<FlyerCode>Z8A16</FlyerCode>
+  		<FlyerCode2>B7A17</FlyerCode2>
+  		<ItemNum>701</ItemNum>
+  		<ItemQty>1</ItemQty>
+  		<ItemNum2>702</ItemNum2>
+  		<ItemQty2>1</ItemQty2>
+  		<ItemNum3>301</ItemNum3>
+  		<ItemQty3>1</ItemQty3>
+  		<stateTaxHST>15</stateTaxHST>
+	</testcase>
+	
+	<testcase id="Redemptions_Rewards_HST_Province_NB">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>4262656</AcNum>
+  		<FlyerCode>Z8A16</FlyerCode>
+  		<FlyerCode2>B7A17</FlyerCode2>
+  		<ItemNum>701</ItemNum>
+  		<ItemQty>1</ItemQty>
+  		<ItemNum2>702</ItemNum2>
+  		<ItemQty2>1</ItemQty2>
+  		<ItemNum3>301</ItemNum3>
+  		<ItemQty3>1</ItemQty3>
+  		<stateTaxHST>15</stateTaxHST>
+	</testcase>
+	
+	<testcase id="Redemptions_Rewards_HST_Province_NS">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>4267359</AcNum>
+  		<FlyerCode>Z8A16</FlyerCode>
+  		<FlyerCode2>B7A17</FlyerCode2>
+  		<ItemNum>701</ItemNum>
+  		<ItemQty>1</ItemQty>
+  		<ItemNum2>702</ItemNum2>
+  		<ItemQty2>1</ItemQty2>
+  		<ItemNum3>301</ItemNum3>
+  		<ItemQty3>1</ItemQty3>
+  		<stateTaxHST>15</stateTaxHST>
+	</testcase>
+	
+	<testcase id="Redemptions_Rewards_HST_Province_ON">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>4286804</AcNum>
+  		<FlyerCode>Z8A16</FlyerCode>
+  		<FlyerCode2>B7A17</FlyerCode2>
+  		<ItemNum>701</ItemNum>
+  		<ItemQty>1</ItemQty>
+  		<ItemNum2>702</ItemNum2>
+  		<ItemQty2>1</ItemQty2>
+  		<ItemNum3>301</ItemNum3>
+  		<ItemQty3>1</ItemQty3>
+  		<stateTaxHST>13</stateTaxHST>
+	</testcase>
+	
+	<testcase id="Redemptions_Rewards_HST_Province_PE">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>4287828</AcNum>
+  		<FlyerCode>Z8A16</FlyerCode>
+  		<FlyerCode2>B7A17</FlyerCode2>
+  		<ItemNum>701</ItemNum>
+  		<ItemQty>1</ItemQty>
+  		<ItemNum2>702</ItemNum2>
+  		<ItemQty2>1</ItemQty2>
+  		<ItemNum3>301</ItemNum3>
+  		<ItemQty3>1</ItemQty3>
+  		<stateTaxHST>14</stateTaxHST>
+	</testcase>
+	
+	<testcase id="Redemptions_Rewards_GST_Province_AB">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>4289121</AcNum>
+  		<FlyerCode>Z8A16</FlyerCode>
+  		<FlyerCode2>B7A17</FlyerCode2>
+  		<ItemNum>701</ItemNum>
+  		<ItemQty>1</ItemQty>
+  		<ItemNum2>702</ItemNum2>
+  		<ItemQty2>1</ItemQty2>
+  		<ItemNum3>301</ItemNum3>
+  		<ItemQty3>1</ItemQty3>
+  		<stateTaxGST>5</stateTaxGST>
+	</testcase>
+	
+	<testcase id="Redemptions_Rewards_GST_Province_MB">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>4298742</AcNum>
+  		<FlyerCode>Z8A16</FlyerCode>
+  		<FlyerCode2>B7A17</FlyerCode2>
+  		<ItemNum>701</ItemNum>
+  		<ItemQty>1</ItemQty>
+  		<ItemNum2>702</ItemNum2>
+  		<ItemQty2>1</ItemQty2>
+  		<ItemNum3>301</ItemNum3>
+  		<ItemQty3>1</ItemQty3>
+  		<stateTaxGST>5</stateTaxGST>
+	</testcase>
+	
+	<testcase id="Redemptions_Rewards_GST_Province_NT">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>4302155</AcNum>
+  		<FlyerCode>Z8A16</FlyerCode>
+  		<FlyerCode2>B7A17</FlyerCode2>
+  		<ItemNum>701</ItemNum>
+  		<ItemQty>1</ItemQty>
+  		<ItemNum2>702</ItemNum2>
+  		<ItemQty2>1</ItemQty2>
+  		<ItemNum3>301</ItemNum3>
+  		<ItemQty3>1</ItemQty3>
+  		<stateTaxGST>5</stateTaxGST>
+	</testcase>
+	
+	<testcase id="Redemptions_Rewards_GST_Province_NU">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>4303989</AcNum>
+  		<FlyerCode>Z8A16</FlyerCode>
+  		<FlyerCode2>B7A17</FlyerCode2>
+  		<ItemNum>701</ItemNum>
+  		<ItemQty>1</ItemQty>
+  		<ItemNum2>702</ItemNum2>
+  		<ItemQty2>1</ItemQty2>
+  		<ItemNum3>301</ItemNum3>
+  		<ItemQty3>1</ItemQty3>
+  		<stateTaxGST>5</stateTaxGST>
+	</testcase>
+	
+	<testcase id="Redemptions_Rewards_GST_Province_SK">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>4328309</AcNum>
+  		<FlyerCode>Z8A16</FlyerCode>
+  		<FlyerCode2>B7A17</FlyerCode2>
+  		<ItemNum>701</ItemNum>
+  		<ItemQty>1</ItemQty>
+  		<ItemNum2>702</ItemNum2>
+  		<ItemQty2>1</ItemQty2>
+  		<ItemNum3>301</ItemNum3>
+  		<ItemQty3>1</ItemQty3>
+  		<stateTaxGST>5</stateTaxGST>
+	</testcase>
+	
+	<testcase id="Redemptions_Rewards_GST_Province_YT">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>4330817</AcNum>
+  		<FlyerCode>Z8A16</FlyerCode>
+  		<FlyerCode2>B7A17</FlyerCode2>
+  		<ItemNum>701</ItemNum>
+  		<ItemQty>1</ItemQty>
+  		<ItemNum2>702</ItemNum2>
+  		<ItemQty2>1</ItemQty2>
+  		<ItemNum3>301</ItemNum3>
+  		<ItemQty3>1</ItemQty3>
+  		<stateTaxGST>5</stateTaxGST>
+	</testcase>
+	
+	<testcase id="Redemptions_Rewards_GST_PST_Province_BC_NoTaxes">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>4333952</AcNum>
+  		<FlyerCode>Z8A16</FlyerCode>
+  		<FlyerCode2>B7A17</FlyerCode2>
+  		<ItemNum>701</ItemNum>
+  		<ItemQty>1</ItemQty>
+  		<ItemNum2>702</ItemNum2>
+  		<ItemQty2>1</ItemQty2>
+  		<ItemNum3>301</ItemNum3>
+  		<ItemQty3>1</ItemQty3>
+	</testcase>
+	
+	<testcase id="Redemptions_Rewards_GST_QST_Province_QC_NoTaxes">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>4335180</AcNum>
+  		<FlyerCode>Z8A16</FlyerCode>
+  		<FlyerCode2>B7A17</FlyerCode2>
+  		<ItemNum>701</ItemNum>
+  		<ItemQty>1</ItemQty>
+  		<ItemNum2>702</ItemNum2>
+  		<ItemQty2>1</ItemQty2>
+  		<ItemNum3>301</ItemNum3>
+  		<ItemQty3>1</ItemQty3>
+	</testcase>
+	
+	<testcase id="StudentClubs_Redemptions_Rewards_GST_PST_Province_BC">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>4342515</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>1</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>1</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>1</ItemQty3>
+  		<stateTaxGST>5</stateTaxGST>
+  		<stateTaxPST>7</stateTaxPST>
+	</testcase>
+	
+	<testcase id="StudentClubs_Redemptions_Rewards_GST_PST_Province_BC_2">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>4348927</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<FlyerCode2>L0A16</FlyerCode2>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>1</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>1</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>1</ItemQty3>
+  		<stateTaxGST>5</stateTaxGST>
+  		<stateTaxPST>7</stateTaxPST>
+	</testcase>
+	
+	<testcase id="StudentClubs_Redemptions_Rewards_GST_QST_Province_QC">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>4352283</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>2</ItemQty>
+  		<ItemNum2>3</ItemNum2>
+  		<ItemQty2>1</ItemQty2>
+  		<ItemNum3>4</ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+  		<stateTaxGST>5</stateTaxGST>
+  		<stateTaxQST>9.975</stateTaxQST>
+	</testcase>
+	
+	<testcase id="StudentClubs_Redemptions_Rewards_GST_QST_Province_QC_2">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>4357192</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<FlyerCode2>L0A16</FlyerCode2>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>1</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>1</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+  		<stateTaxGST>5</stateTaxGST>
+  		<stateTaxQST>9.975</stateTaxQST>
+	</testcase>
+	
+	<testcase id="StudentClubs_Redemptions_Rewards_HST_Province_NL">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>4360707</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<FlyerCode2>L0A16</FlyerCode2>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>1</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>1</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>1</ItemQty3>
+  		<stateTaxHST>15</stateTaxHST>
+	</testcase>
+	
+	<testcase id="StudentClubs_Redemptions_Rewards_HST_Province_NB">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>4361755</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<FlyerCode2>L0A16</FlyerCode2>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>1</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>1</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>1</ItemQty3>
+  		<stateTaxHST>15</stateTaxHST>
+	</testcase>
+	
+	<testcase id="StudentClubs_Redemptions_Rewards_HST_Province_NS">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>4363694</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<FlyerCode2>L0A16</FlyerCode2>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>1</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>1</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>1</ItemQty3>
+  		<stateTaxHST>15</stateTaxHST>
+	</testcase>
+	
+	<testcase id="StudentClubs_Redemptions_Rewards_HST_Province_ON">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>4367571</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<FlyerCode2>L0A16</FlyerCode2>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>1</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>1</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>1</ItemQty3>
+  		<stateTaxHST>13</stateTaxHST>
+	</testcase>
+	
+	<testcase id="StudentClubs_Redemptions_Rewards_HST_Province_PE">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>4368454</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<FlyerCode2>L0A16</FlyerCode2>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>1</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>1</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>1</ItemQty3>
+  		<stateTaxHST>14</stateTaxHST>
+	</testcase>
+	
+	<testcase id="StudentClubs_Redemptions_Rewards_GST_Province_AB">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>4381901</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<FlyerCode2>L0A16</FlyerCode2>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>1</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>1</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>1</ItemQty3>
+  		<stateTaxGST>5</stateTaxGST>
+	</testcase>
+	
+	<testcase id="StudentClubs_Redemptions_Rewards_GST_Province_MB">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>4383692</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<FlyerCode2>L0A16</FlyerCode2>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>1</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>1</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>1</ItemQty3>
+  		<stateTaxGST>5</stateTaxGST>
+	</testcase>
+	
+	<testcase id="StudentClubs_Redemptions_Rewards_GST_Province_NT">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>4392916</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<FlyerCode2>L0A16</FlyerCode2>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>1</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>1</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>1</ItemQty3>
+  		<stateTaxGST>5</stateTaxGST>
+	</testcase>
+	
+	<testcase id="StudentClubs_Redemptions_Rewards_GST_Province_NU">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>4396140</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<FlyerCode2>L0A16</FlyerCode2>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>1</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>1</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>1</ItemQty3>
+  		<stateTaxGST>5</stateTaxGST>
+	</testcase>
+	
+	<testcase id="StudentClubs_Redemptions_Rewards_GST_Province_SK">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>4399912</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<FlyerCode2>L0A16</FlyerCode2>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>1</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>1</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>1</ItemQty3>
+  		<stateTaxGST>5</stateTaxGST>
+	</testcase>
+	
+	<testcase id="StudentClubs_Redemptions_Rewards_GST_Province_YT">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>4400032</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<FlyerCode2>L0A16</FlyerCode2>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>1</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>1</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>1</ItemQty3>
+  		<stateTaxGST>5</stateTaxGST>
+	</testcase>
+	
+	<testcase id="StudentClubs_Redemptions_Rewards_GST_PST_Province_BC_NoTaxes">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>4402351</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<FlyerCode2>L0A16</FlyerCode2>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>1</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>1</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>1</ItemQty3>
+	</testcase>
+	
+	<testcase id="StudentClubs_Redemptions_Rewards_GST_QST_Province_QC_NoTaxes">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>4415396</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<FlyerCode2>L0A16</FlyerCode2>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>1</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>1</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>1</ItemQty3>
+	</testcase>
+	
+	<testcase id="Student_And_TeacherCatalogues_Redemptions_Rewards_GST_PST_Province_BC">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>4418853</AcNum>
+  		<FlyerCode>Z8A16</FlyerCode>
+  		<FlyerCode2>L0A16</FlyerCode2>
+  		<ItemNum>700</ItemNum>
+  		<ItemQty>1</ItemQty>
+  		<ItemNum2>701</ItemNum2>
+  		<ItemQty2>1</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>1</ItemQty3>
+  		<stateTaxGST>5</stateTaxGST>
+  		<stateTaxPST>7</stateTaxPST>
+	</testcase>
+	
+	<testcase id="Student_And_TeacherCatalogues_Redemptions_Rewards_GST_QST_Province_QC">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>4428654</AcNum>
+  		<FlyerCode>Z8A16</FlyerCode>
+  		<FlyerCode2>L0A16</FlyerCode2>
+  		<ItemNum>700</ItemNum>
+  		<ItemQty>1</ItemQty>
+  		<ItemNum2>701</ItemNum2>
+  		<ItemQty2>1</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>1</ItemQty3>
+  		<stateTaxGST>5</stateTaxGST>
+  		<stateTaxQST>9.975</stateTaxQST>
+	</testcase>
+	
+	<testcase id="Student_And_TeacherCatalogues_Redemptions_Rewards_HST_Province_NL">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>4435394</AcNum>
+  		<FlyerCode>Z8A16</FlyerCode>
+  		<FlyerCode2>L0A16</FlyerCode2>
+  		<ItemNum>700</ItemNum>
+  		<ItemQty>1</ItemQty>
+  		<ItemNum2>701</ItemNum2>
+  		<ItemQty2>1</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>1</ItemQty3>
+  		<stateTaxHST>15</stateTaxHST>
+	</testcase>
+	
+	<testcase id="Student_And_TeacherCatalogues_Redemptions_Rewards_HST_Province_NB">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>4446416</AcNum>
+  		<FlyerCode>Z8A16</FlyerCode>
+  		<FlyerCode2>L0A16</FlyerCode2>
+  		<ItemNum>700</ItemNum>
+  		<ItemQty>1</ItemQty>
+  		<ItemNum2>701</ItemNum2>
+  		<ItemQty2>1</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>1</ItemQty3>
+  		<stateTaxHST>15</stateTaxHST>
+	</testcase>
+	
+	<testcase id="Student_And_TeacherCatalogues_Redemptions_Rewards_HST_Province_NS">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>4447901</AcNum>
+  		<FlyerCode>Z8A16</FlyerCode>
+  		<FlyerCode2>L0A16</FlyerCode2>
+  		<ItemNum>700</ItemNum>
+  		<ItemQty>1</ItemQty>
+  		<ItemNum2>701</ItemNum2>
+  		<ItemQty2>1</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>1</ItemQty3>
+  		<stateTaxHST>15</stateTaxHST>
+	</testcase>
+	
+	<testcase id="Student_And_TeacherCatalogues_Redemptions_Rewards_HST_Province_ON">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>4457067</AcNum>
+  		<FlyerCode>Z8A16</FlyerCode>
+  		<FlyerCode2>L0A16</FlyerCode2>
+  		<ItemNum>700</ItemNum>
+  		<ItemQty>1</ItemQty>
+  		<ItemNum2>701</ItemNum2>
+  		<ItemQty2>1</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>1</ItemQty3>
+  		<stateTaxHST>13</stateTaxHST>
+	</testcase>
+	
+	<testcase id="Student_And_TeacherCatalogues_Redemptions_Rewards_HST_Province_PE">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>4464723</AcNum>
+  		<FlyerCode>Z8A16</FlyerCode>
+  		<FlyerCode2>L0A16</FlyerCode2>
+  		<ItemNum>700</ItemNum>
+  		<ItemQty>1</ItemQty>
+  		<ItemNum2>701</ItemNum2>
+  		<ItemQty2>1</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>1</ItemQty3>
+  		<stateTaxHST>14</stateTaxHST>
+	</testcase>
+	
+	<testcase id="Student_And_TeacherCatalogues_Redemptions_Rewards_GST_Province_AB">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>4465276</AcNum>
+  		<FlyerCode>Z8A16</FlyerCode>
+  		<FlyerCode2>L0A16</FlyerCode2>
+  		<ItemNum>700</ItemNum>
+  		<ItemQty>1</ItemQty>
+  		<ItemNum2>701</ItemNum2>
+  		<ItemQty2>1</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>1</ItemQty3>
+  		<stateTaxGST>5</stateTaxGST>
+	</testcase>
+	
+	<testcase id="Student_And_TeacherCatalogues_Redemptions_Rewards_GST_Province_MB">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>4465698</AcNum>
+  		<FlyerCode>Z8A16</FlyerCode>
+  		<FlyerCode2>L0A16</FlyerCode2>
+  		<ItemNum>700</ItemNum>
+  		<ItemQty>1</ItemQty>
+  		<ItemNum2>701</ItemNum2>
+  		<ItemQty2>1</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>1</ItemQty3>
+  		<stateTaxGST>5</stateTaxGST>
+	</testcase>
+	
+	<testcase id="Student_And_TeacherCatalogues_Redemptions_Rewards_GST_Province_NT">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>4483723</AcNum>
+  		<FlyerCode>Z8A16</FlyerCode>
+  		<FlyerCode2>L0A16</FlyerCode2>
+  		<ItemNum>700</ItemNum>
+  		<ItemQty>1</ItemQty>
+  		<ItemNum2>701</ItemNum2>
+  		<ItemQty2>1</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>1</ItemQty3>
+  		<stateTaxGST>5</stateTaxGST>
+	</testcase>
+	
+	<testcase id="Student_And_TeacherCatalogues_Redemptions_Rewards_GST_Province_NU">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>4485969</AcNum>
+  		<FlyerCode>Z8A16</FlyerCode>
+  		<FlyerCode2>L0A16</FlyerCode2>
+  		<ItemNum>700</ItemNum>
+  		<ItemQty>1</ItemQty>
+  		<ItemNum2>701</ItemNum2>
+  		<ItemQty2>1</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>1</ItemQty3>
+  		<stateTaxGST>5</stateTaxGST>
+	</testcase>
+	
+	<testcase id="Student_And_TeacherCatalogues_Redemptions_Rewards_GST_Province_SK">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>4496619</AcNum>
+  		<FlyerCode>Z8A16</FlyerCode>
+  		<FlyerCode2>L0A16</FlyerCode2>
+  		<ItemNum>700</ItemNum>
+  		<ItemQty>1</ItemQty>
+  		<ItemNum2>701</ItemNum2>
+  		<ItemQty2>1</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>1</ItemQty3>
+  		<stateTaxGST>5</stateTaxGST>
+	</testcase>
+	
+	<testcase id="Student_And_TeacherCatalogues_Redemptions_Rewards_GST_Province_YT">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>4510162</AcNum>
+  		<FlyerCode>Z8A16</FlyerCode>
+  		<FlyerCode2>L0A16</FlyerCode2>
+  		<ItemNum>700</ItemNum>
+  		<ItemQty>1</ItemQty>
+  		<ItemNum2>701</ItemNum2>
+  		<ItemQty2>1</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>1</ItemQty3>
+  		<stateTaxGST>5</stateTaxGST>
+	</testcase>
+	
+	<testcase id="Student_And_TeacherCatalogues_Redemptions_Rewards_GST_PST_Province_BC_NoTaxes">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>4512788</AcNum>
+  		<FlyerCode>Z8A16</FlyerCode>
+  		<FlyerCode2>L0A16</FlyerCode2>
+  		<ItemNum>700</ItemNum>
+  		<ItemQty>1</ItemQty>
+  		<ItemNum2>701</ItemNum2>
+  		<ItemQty2>1</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>1</ItemQty3>
+	</testcase>
+	
+	<testcase id="Student_And_TeacherCatalogues_Redemptions_Rewards_GST_QST_Province_QC_NoTaxes">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>4515120</AcNum>
+  		<FlyerCode>Z8A16</FlyerCode>
+  		<FlyerCode2>L0A16</FlyerCode2>
+  		<ItemNum>700</ItemNum>
+  		<ItemQty>1</ItemQty>
+  		<ItemNum2>701</ItemNum2>
+  		<ItemQty2>1</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>1</ItemQty3>
+	</testcase>
+	
+
+</testdata>

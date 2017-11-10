@@ -1,0 +1,940 @@
+<testdata>
+
+
+<!-- ##################################################################################################################################################    
+##################################################################################################################################################    
+###########################################   							             #############################################################   
+###########################################   		   DWCAPCOD-330          	     #############################################################
+###########################################   							             #############################################################        
+##################################################################################################################################################        
+################################################################################################################################################## -->
+
+<testcase id="InSprint13.4:PCOD:ParentOrder_Reassign_PaidItems">
+<acc_no>testls131504816858710@abc.com</acc_no>
+<password>passw0rd</password>
+<itemName>${item1Title}</itemName>
+<itemName2>${item4Title}</itemName2>
+<itemQty>1</itemQty>
+<itemQty2>1</itemQty2>
+</testcase>
+
+
+<testcase id="InSprint13.4:PCOD:ParentOrder_ChildOrder_Dropdown">
+<acc_no>schl1504646169566@abc.com</acc_no>
+<password>passw0rd</password>
+<itemName>${item1Title}</itemName>
+<itemQty>2</itemQty>
+</testcase>
+
+
+
+<testcase id="InSprint13.4:PCOD:ParentOrder_ChildOrder_Dropdown_Different">
+<acc_no>testls131504816443516@abc.com</acc_no>
+<password>passw0rd</password>
+<itemName>${item1Title}</itemName>
+<itemName2>${item4Title}</itemName2>
+<itemQty>1</itemQty>
+<itemQty2>1</itemQty2>
+</testcase>
+
+
+<testcase id="InSprint13.4:PCOD:ParentOrder_ChildNameReassign_BackandForth">
+<acc_no>testls131504816154931@abc.com</acc_no>
+<password>passw0rd</password>
+<itemName>${item1Title}</itemName>
+<itemName2>${item4Title}</itemName2>
+<itemQty>1</itemQty>
+<itemQty2>1</itemQty2>
+</testcase>
+
+
+
+<!-- ##################################################################################################################################################    
+##################################################################################################################################################    
+###########################################   							             #############################################################   
+###########################################   		   DWCAPCOD-358          	     #############################################################
+###########################################   							             #############################################################        
+##################################################################################################################################################        
+################################################################################################################################################## -->
+
+<testcase id="InSprint13.4:PCOD:ParentOrder_Reassign_FreePickItem">
+<acc_no>schl1504646418312@abc.com</acc_no>
+<password>passw0rd</password>
+<itemName>${item1Title}</itemName>
+<itemQty>2</itemQty>
+<couponcode>FP-B9EG-33K2-RB</couponcode>
+<freebooktitle>${freepick_item1}</freebooktitle>
+<freepick_grade>${freepick_item1_grade}</freepick_grade>
+<freepick_age>${freepick_item1_ages}</freepick_age>
+<freepick_readinglevel>${freepick_item1_readinglevel}</freepick_readinglevel>
+</testcase>
+
+
+
+<testcase id="InSprint13.4:ParentOrder_FreePickItem_Added">
+<acc_no>schl1504646665454@abc.com</acc_no>
+<password>passw0rd</password>
+<itemName>${item1Title}</itemName>
+<itemQty>2</itemQty>
+<couponcode>FP-S4LM-CPYO-QT</couponcode>
+<freebookID>${item5Number}</freebookID>
+<freepick_grade>${freepick_item1_grade}</freepick_grade>
+<freepick_age>${freepick_item1_ages}</freepick_age>
+<freepick_readinglevel>${freepick_item1_readinglevel}</freepick_readinglevel>
+</testcase>
+
+
+
+<testcase id="InSprint13.4:ParentOrder_FreePickCoupon_Removed">
+<acc_no>schl1504646917591@abc.com</acc_no>
+<password>passw0rd</password>
+<itemName>${item1Title}</itemName>
+<itemQty>2</itemQty>
+<couponcode>FP-TCD2-GTSU-HG</couponcode>
+<freebookID>${freepick_item1}</freebookID>
+</testcase>
+
+
+
+<testcase id="InSprint13.4:ParentOrder_FreepickCoupon_ConfirmSelectionDisabled">
+<acc_no>schl1504647162535@abc.com</acc_no>
+<password>passw0rd</password>
+<itemName>${item1Title}</itemName>
+<itemQty>2</itemQty>
+<couponcode>FP-IIV4-PBF9-NI</couponcode>
+<grade>Grade 6 &amp; 7</grade>
+<freebookID>${freepick_item1}</freebookID>
+</testcase>
+
+
+<testcase id="InSprint13.4:ParentOrder_FreepickCoupon_CloseBtn">
+<acc_no>schl1504651575461@abc.com</acc_no>
+<password>passw0rd</password>
+<itemName>${item1Title}</itemName>
+<itemQty>2</itemQty>
+<couponcode>FP-AHMY-AUDE-NP</couponcode>
+<grade>Grade 6 &amp; 7</grade>
+<freebookID>${freepick_item1}</freebookID>
+</testcase>
+
+<testcase id="InSprint13.4:ParentOrder_FreepickCoupon_CancelBtn">
+<acc_no>schl1504651132557@abc.com</acc_no>
+<password>passw0rd</password>
+<itemName>${item1Title}</itemName>
+<itemQty>2</itemQty>
+<couponcode>FP-R2Q5-WP4Y-A6</couponcode>
+<grade>Grade 6 &amp; 7</grade>
+<freebookID>${freepick_item1}</freebookID>
+</testcase>
+
+
+<testcase id="InSprint13.4:ParentOrder_FreepickCoupon_ReassignChild">
+<acc_no>schl1504650875509@abc.com</acc_no>
+<password>passw0rd</password>
+<itemName>${item1Title}</itemName>
+<itemQty>2</itemQty>
+<couponcode>FP-E4BP-IKUV-3E</couponcode>
+<grade>Grade 6 &amp; 7</grade>
+<freebookID>${freepick_item1}</freebookID>
+</testcase>
+
+<!-- ##################################################################################################################################################    
+##################################################################################################################################################    
+###########################################   							             #############################################################   
+###########################################   		   DWCAPCOD-365          	     #############################################################
+###########################################   							             #############################################################        
+##################################################################################################################################################        
+################################################################################################################################################## -->
+
+<testcase id="InSprint13.4:PCOD:ParentOrder_OrderCheckoutFooter">
+<acc_no>schl1504650622024@abc.com</acc_no>
+<password>passw0rd</password>
+<itemName>${item1Title}</itemName>
+<itemQty>2</itemQty>
+</testcase>
+
+
+<testcase id="InSprint13.4:ParentOrder_OrderCheckoutFooter_scholasticca">
+<acc_no>schl1504650361429@abc.com</acc_no>
+<password>passw0rd</password>
+<itemName>${item1Title}</itemName>
+<itemQty>2</itemQty>
+<url>http://www.scholastic.ca</url>
+</testcase>
+
+
+<testcase id="InSprint13.4:ParentOrder_OrderCheckoutFooter_AboutScholastic">
+<acc_no>schl1504649672003@abc.com</acc_no>
+<password>passw0rd</password>
+<itemName>${item1Title}</itemName>
+<itemQty>2</itemQty>
+<url>http://www.scholastic.ca/aboutscholastic</url>
+</testcase>
+
+
+<testcase id="InSprint13.4:ParentOrder_OrderCheckoutFooter_Careers">
+<acc_no>schl1504649145644@abc.com</acc_no>
+<password>passw0rd</password>
+<itemName>${item1Title}</itemName>
+<itemQty>2</itemQty>
+<url>http://www.scholastic.ca/aboutscholastic/careers.php</url>
+</testcase>
+
+
+<testcase id="InSprint13.4:ParentOrder_OrderCheckoutFooter_International">
+<acc_no>schl1504648640219@abc.com</acc_no>
+<password>passw0rd</password>
+<itemName>${item1Title}</itemName>
+<itemQty>2</itemQty>
+<url>http://www.scholastic.ca/aboutscholastic/businesses_worldwide.php</url>
+</testcase>
+
+
+<testcase id="InSprint13.4:ParentOrder_OrderCheckoutFooter_privacypolicy">
+<acc_no>schl1504648396226@abc.com</acc_no>
+<password>passw0rd</password>
+<itemName>${item1Title}</itemName>
+<itemQty>2</itemQty>
+<url>http://www.scholastic.ca/aboutscholastic/privacy.php</url>
+</testcase>
+
+
+<testcase id="InSprint13.4:ParentOrder_OrderCheckoutFooter_WebPrivacyPolicy">
+<acc_no>schl1504648153860@abc.com</acc_no>
+<password>passw0rd</password>
+<itemName>${item1Title}</itemName>
+<itemQty>2</itemQty>
+<url>http://www.scholastic.ca/aboutscholastic/webprivacy.php</url>
+</testcase>
+
+<testcase id="InSprint13.4:ParentOrder_OrderCheckoutFooter_TermsOfUse">
+<acc_no>schl1504647906335@abc.com</acc_no>
+<password>passw0rd</password>
+<itemName>${item1Title}</itemName>
+<itemQty>2</itemQty>
+<url>http://www.scholastic.ca/aboutscholastic/webterms.php</url>
+</testcase>
+
+
+<!-- ##################################################################################################################################################    
+##################################################################################################################################################    
+###########################################   							             #############################################################   
+###########################################   		   DWCAPCOD-520          	     #############################################################
+###########################################   							             #############################################################        
+##################################################################################################################################################        
+################################################################################################################################################## -->
+
+
+
+<testcase id="InSprint13.4:ParentOrder_OrderCheckoutHeader_HomeIcon">
+<acc_no>schl1504647659846@abc.com</acc_no>
+<password>passw0rd</password>
+<itemName>${item1Title}</itemName>
+<itemQty>2</itemQty>
+</testcase>
+
+
+<!-- ##################################################################################################################################################    
+##################################################################################################################################################    
+###########################################   							             #############################################################   
+###########################################   		   DWCAPCOD-362          	     #############################################################
+###########################################   							             #############################################################        
+##################################################################################################################################################        
+################################################################################################################################################## -->
+
+
+<testcase id="InSprint13.4:ParentOrder_SubmitOrder_StepHeader">
+<acc_no>schl1504647414342@abc.com</acc_no>
+<password>passw0rd</password>
+<itemName>${item1Title}</itemName>
+<itemQty>2</itemQty>
+</testcase>
+
+
+<testcase id="InSprint13.4:ParentOrder_SubmitOrder_StepHeader_ClickShipingHeader">
+<acc_no>schl1504647162535@abc.com</acc_no>
+<password>passw0rd</password>
+<itemName>${item1Title}</itemName>
+<itemQty>2</itemQty>
+</testcase>
+
+
+
+
+
+<!-- ##################################################################################################################################################    
+##################################################################################################################################################    
+###########################################   							             #############################################################   
+###########################################   		   DWCAPCOD-361          	     #############################################################
+###########################################   							             #############################################################        
+##################################################################################################################################################        
+################################################################################################################################################## -->
+
+
+
+<testcase id="InSprint13.4:ParentOrder_CreditCard_AddNewCard_CA_Visa">
+<acc_no>schl1504646917591@abc.com</acc_no>
+<password>passw0rd</password>
+<itemName>${item1Title}</itemName>
+<itemQty>2</itemQty>
+<paymentmethod>CREDIT_CARD</paymentmethod>
+<cardtype>Add a New Card</cardtype>
+<cardname>Visa</cardname>
+<cardnumber>4111111111111111</cardnumber>
+<expmonth>09</expmonth>
+<expyear>2018</expyear>
+<securitycode>111</securitycode>
+<firstname>test</firstname>
+<lastname>test2</lastname>
+<address1>New York</address1>
+<address2>street</address2>
+<zip>T5A 0A7</zip>
+<city>Airdrie</city>
+<state>Alberta</state>
+<country>Canada</country>
+<phonenumber>333-333-3333</phonenumber>
+</testcase>
+
+
+
+<testcase id="InSprint13.4:ParentOrder_CreditCard_AddNewCard_CA_Master">
+<acc_no>schl1504646665454@abc.com</acc_no>
+<password>passw0rd</password>
+<itemName>${item1Title}</itemName>
+<itemQty>2</itemQty>
+<paymentmethod>CREDIT_CARD</paymentmethod>
+<cardtype>Add a New Card</cardtype>
+<cardname>Master</cardname>
+<cardnumber>5555555555554444</cardnumber>
+<expmonth>09</expmonth>
+<expyear>2018</expyear>
+<securitycode>111</securitycode>
+<firstname>test</firstname>
+<lastname>test2</lastname>
+<address1>New York</address1>
+<address2>street</address2>
+<zip>T5A 0A7</zip>
+<city>Airdrie</city>
+<state>Alberta</state>
+<country>Canada</country>
+<phonenumber>333-333-3333</phonenumber>
+</testcase>
+
+
+<testcase id="InSprint13.4:ParentOrder_CreditCard_AddNewCard_CA_Master2">
+<acc_no>schl1504646418312@abc.com</acc_no>
+<password>passw0rd</password>
+<itemName>${item1Title}</itemName>
+<itemQty>2</itemQty>
+<paymentmethod>CREDIT_CARD</paymentmethod>
+<cardtype>Add a New Card</cardtype>
+<cardname>Master2</cardname>
+<cardnumber>2221000000000009</cardnumber>
+<expmonth>09</expmonth>
+<expyear>2018</expyear>
+<securitycode>111</securitycode>
+<firstname>test</firstname>
+<lastname>test2</lastname>
+<address1>New York</address1>
+<address2>street</address2>
+<zip>T5A 0A7</zip>
+<city>Airdrie</city>
+<state>Alberta</state>
+<country>Canada</country>
+<phonenumber>333-333-3333</phonenumber>
+</testcase>
+
+
+
+<testcase id="InSprint13.4:ParentOrder_CreditCard_AddNewCard_CA_Amex">
+<acc_no>schl1504646169566@abc.com</acc_no>
+<password>passw0rd</password>
+<itemName>${item1Title}</itemName>
+<itemQty>2</itemQty>
+<paymentmethod>CREDIT_CARD</paymentmethod>
+<cardtype>Add a New Card</cardtype>
+<cardname>Amex</cardname>
+<cardnumber>373731623811006</cardnumber>
+<expmonth>09</expmonth>
+<expyear>2018</expyear>
+<securitycode>111</securitycode>
+<firstname>test</firstname>
+<lastname>test2</lastname>
+<address1>New York</address1>
+<address2>street</address2>
+<zip>T5A 0A7</zip>
+<city>Airdrie</city>
+<state>Alberta</state>
+<country>Canada</country>
+<phonenumber>333-333-3333</phonenumber>
+</testcase>
+
+
+<testcase id="InSprint13.4:ParentOrder_CreditCard_AddNewCard_US_Visa">
+<acc_no>schl1504645856938@abc.com</acc_no>
+<password>passw0rd</password>
+<itemName>${item1Title}</itemName>
+<itemQty>2</itemQty>
+<paymentmethod>CREDIT_CARD</paymentmethod>
+<cardtype>Add a New Card</cardtype>
+<cardname>Visa</cardname>
+<cardnumber>4111111111111111</cardnumber>
+<expmonth>09</expmonth>
+<expyear>2018</expyear>
+<securitycode>111</securitycode>
+<firstname>test</firstname>
+<lastname>test2</lastname>
+<address1>New York</address1>
+<address2>street</address2>
+<zip>35005</zip>
+<city>Adamsville</city>
+<state>Alabama</state>
+<country>United States</country>
+<phonenumber>333-333-3333</phonenumber>
+</testcase>
+
+
+<testcase id="InSprint13.4:ParentOrder_CreditCard_AddNewCard_US_Master">
+<acc_no>schl1504645604783@abc.com</acc_no>
+<password>passw0rd</password>
+<itemName>${item1Title}</itemName>
+<itemQty>2</itemQty>
+<paymentmethod>CREDIT_CARD</paymentmethod>
+<cardtype>Add a New Card</cardtype>
+<cardname>Master</cardname>
+<cardnumber>5555555555554444</cardnumber>
+<expmonth>09</expmonth>
+<expyear>2018</expyear>
+<securitycode>111</securitycode>
+<firstname>test</firstname>
+<lastname>test2</lastname>
+<address1>New York</address1>
+<address2>street</address2>
+<zip>35005</zip>
+<city>Adamsville</city>
+<state>Alabama</state>
+<country>United States</country>
+<phonenumber>333-333-3333</phonenumber>
+</testcase>
+
+
+<testcase id="InSprint13.4:ParentOrder_CreditCard_AddNewCard_US_Master2">
+<acc_no>schl1504645350690@abc.com</acc_no>
+<password>passw0rd</password>
+<itemName>${item1Title}</itemName>
+<itemQty>2</itemQty>
+<paymentmethod>CREDIT_CARD</paymentmethod>
+<cardtype>Add a New Card</cardtype>
+<cardname>Master2</cardname>
+<cardnumber>2221000000000009</cardnumber>
+<expmonth>09</expmonth>
+<expyear>2018</expyear>
+<securitycode>111</securitycode>
+<firstname>test</firstname>
+<lastname>test2</lastname>
+<address1>New York</address1>
+<address2>street</address2>
+<zip>35005</zip>
+<city>Adamsville</city>
+<state>Alabama</state>
+<country>United States</country>
+<phonenumber>333-333-3333</phonenumber>
+</testcase>
+
+
+<testcase id="InSprint13.4:ParentOrder_CreditCard_AddNewCard_US_Amex">
+<acc_no>schl1504645101295@abc.com</acc_no>
+<password>passw0rd</password>
+<itemName>${item1Title}</itemName>
+<itemQty>2</itemQty>
+<paymentmethod>CREDIT_CARD</paymentmethod>
+<cardtype>Add a New Card</cardtype>
+<cardname>Amex</cardname>
+<cardnumber>373731623811006</cardnumber>
+<expmonth>09</expmonth>
+<expyear>2018</expyear>
+<securitycode>111</securitycode>
+<firstname>test</firstname>
+<lastname>test2</lastname>
+<address1>New York</address1>
+<address2>street</address2>
+<zip>35005</zip>
+<city>Adamsville</city>
+<state>Alabama</state>
+<country>United States</country>
+<phonenumber>333-333-3333</phonenumber>
+</testcase>
+
+
+
+
+<testcase id="InSprint13.4:PCOD:ParentOrder_CreditCard_AddNewCard_EmptyFirstName">
+<acc_no>schl1504644657097@abc.com</acc_no>
+<password>passw0rd</password>
+<itemName>${item1Title}</itemName>
+<itemQty>2</itemQty>
+<paymentmethod>CREDIT_CARD</paymentmethod>
+<cardtype>Add a New Card</cardtype>
+<cardname>Amex</cardname>
+<cardnumber>373731623811006</cardnumber>
+<expmonth>09</expmonth>
+<expyear>2018</expyear>
+<securitycode>111</securitycode>
+<firstname></firstname>
+<lastname>test</lastname>
+<address1>New York</address1>
+<address2>street</address2>
+<zip>T5A 0A7</zip>
+<city>Airdrie</city>
+<state>Alberta</state>
+<country>Canada</country>
+<phonenumber>333-333-3333</phonenumber>
+</testcase>
+
+
+<testcase id="InSprint13.4:PCOD:ParentOrder_CreditCard_AddNewCard_EmptyLastName">
+<acc_no>schl1504644406446@abc.com</acc_no>
+<password>passw0rd</password>
+<itemName>${item1Title}</itemName>
+<itemQty>2</itemQty>
+<paymentmethod>CREDIT_CARD</paymentmethod>
+<cardtype>Add a New Card</cardtype>
+<cardname>Amex</cardname>
+<cardnumber>373731623811006</cardnumber>
+<expmonth>09</expmonth>
+<expyear>2018</expyear>
+<securitycode>111</securitycode>
+<firstname>test</firstname>
+<lastname></lastname>
+<address1>New York</address1>
+<address2>street</address2>
+<zip>T5A 0A7</zip>
+<city>Airdrie</city>
+<state>Alberta</state>
+<country>Canada</country>
+<phonenumber>333-333-3333</phonenumber>
+</testcase>
+
+
+
+<testcase id="InSprint13.4:PCOD:ParentOrder_CreditCard_AddNewCard_EmptyAddress1">
+<acc_no>schl1504644155534@abc.com</acc_no>
+<password>passw0rd</password>
+<itemName>${item1Title}</itemName>
+<itemQty>2</itemQty>
+<paymentmethod>CREDIT_CARD</paymentmethod>
+<cardtype>Add a New Card</cardtype>
+<cardname>Amex</cardname>
+<cardnumber>373731623811006</cardnumber>
+<expmonth>09</expmonth>
+<expyear>2018</expyear>
+<securitycode>111</securitycode>
+<firstname>test</firstname>
+<lastname>test</lastname>
+<address1></address1>
+<address2>street</address2>
+<zip>T5A 0A7</zip>
+<city>Airdrie</city>
+<state>Alberta</state>
+<country>Canada</country>
+<phonenumber>333-333-3333</phonenumber>
+</testcase>
+
+
+<testcase id="InSprint13.4:PCOD:ParentOrder_CreditCard_PaymentDropdown">
+<acc_no>schl1504643907623@abc.com</acc_no>
+<password>passw0rd</password>
+<itemName>${item1Title}</itemName>
+<itemQty>2</itemQty>
+<payment_header>Payment Method</payment_header>
+<payment_drpdown_header>Select Payment Method</payment_drpdown_header>
+<payment_option>Credit Card</payment_option>
+</testcase>
+
+
+
+<testcase id="InSprint13.4:PCOD:ParentOrder_CreditCard_CCDropdown">
+<acc_no>schl1504643653748@abc.com</acc_no>
+<password>passw0rd</password>
+<itemName>${item1Title}</itemName>
+<itemQty>2</itemQty>
+<selectcard_drpdown_header>Select a Card</selectcard_drpdown_header>
+<selectcard_option>Add a New Card</selectcard_option>
+
+</testcase>
+
+<testcase id="InSprint13.4:PCOD:ParentOrder_CreditCard_AddNewCard_EmptyPostalCode">
+<acc_no>schl1504643406749@abc.com</acc_no>
+<password>passw0rd</password>
+<itemName>${item1Title}</itemName>
+<itemQty>2</itemQty>
+<paymentmethod>CREDIT_CARD</paymentmethod>
+<cardtype>Add a New Card</cardtype>
+<cardname>Amex</cardname>
+<cardnumber>373731623811006</cardnumber>
+<expmonth>09</expmonth>
+<expyear>2018</expyear>
+<securitycode>111</securitycode>
+<firstname>test</firstname>
+<lastname>test</lastname>
+<address1>New York</address1>
+<address2>street</address2>
+<zip></zip>
+<city>Airdrie</city>
+<state>Alberta</state>
+<country>Canada</country>
+<phonenumber>333-333-3333</phonenumber>
+</testcase>
+
+<!-- InSprint13.4:PCOD:ParentOrder_CreditCard_CCDropdown -->
+
+<testcase id="InSprint13.4:PCOD:ParentOrder_CreditCard_AddNewCard_EmptyCity">
+<acc_no>schl1504643157475@abc.com</acc_no>
+<password>passw0rd</password>
+<itemName>${item1Title}</itemName>
+<itemQty>2</itemQty>
+<paymentmethod>CREDIT_CARD</paymentmethod>
+<cardtype>Add a New Card</cardtype>
+<cardname>Amex</cardname>
+<cardnumber>373731623811006</cardnumber>
+<expmonth>09</expmonth>
+<expyear>2018</expyear>
+<securitycode>111</securitycode>
+<firstname>test</firstname>
+<lastname>test</lastname>
+<address1>New York</address1>
+<address2>street</address2>
+<zip>T5A 0A7</zip>
+<city></city>
+<state>Alberta</state>
+<country>Canada</country>
+<phonenumber>333-333-3333</phonenumber>
+</testcase>
+
+
+<!-- InSprint13.4:PCOD:ParentOrder_CreditCard_AddNewCard -->
+
+
+
+<testcase id="InSprint13.4:PCOD:ParentOrder_CreditCard_AddNewCard_EmptyCardName">
+<acc_no>schl1504642906000@abc.com</acc_no>
+<password>passw0rd</password>
+<itemName>${item1Title}</itemName>
+<itemQty>2</itemQty>
+<paymentmethod>CREDIT_CARD</paymentmethod>
+<cardtype>Add a New Card</cardtype>
+<cardname></cardname>
+<cardnumber>373731623811006</cardnumber>
+<expmonth>09</expmonth>
+<expyear>2018</expyear>
+<securitycode>111</securitycode>
+<firstname>test</firstname>
+<lastname>test</lastname>
+<address1>New York</address1>
+<address2>street</address2>
+<zip>T5A 0A7</zip>
+<city>Airdrie</city>
+<state>Alberta</state>
+<country>Canada</country>
+<phonenumber>333-333-3333</phonenumber>
+</testcase>
+
+
+
+<testcase id="InSprint13.4:PCOD:ParentOrder_CreditCard_AddNewCard_EmptyProvince">
+<acc_no>schl1504283661809@abc.com</acc_no>
+<password>passw0rd</password>
+<itemName>${item1Title}</itemName>
+<itemQty>2</itemQty>
+<paymentmethod>CREDIT_CARD</paymentmethod>
+<cardtype>Add a New Card</cardtype>
+<cardname>Amex</cardname>
+<cardnumber>373731623811006</cardnumber>
+<expmonth>09</expmonth>
+<expyear>2018</expyear>
+<securitycode>111</securitycode>
+<firstname>test</firstname>
+<lastname>test</lastname>
+<address1>New York</address1>
+<address2>street</address2>
+<zip>T5A 0A7</zip>
+<city>Airdrie</city>
+<state>Select Province/State</state>
+<country>Canada</country>
+<phonenumber>333-333-3333</phonenumber>
+</testcase>
+
+
+<testcase id="InSprint13.4:PCOD:ParentOrder_CreditCard_AddNewCard_EmptyCardName">
+<acc_no>schl1504283781177@abc.com</acc_no>
+<password>passw0rd</password>
+<itemName>${item1Title}</itemName>
+<itemQty>2</itemQty>
+<paymentmethod>CREDIT_CARD</paymentmethod>
+<cardtype>Add a New Card</cardtype>
+<cardname>Amex</cardname>
+<cardnumber></cardnumber>
+<expmonth>09</expmonth>
+<expyear>2018</expyear>
+<securitycode>111</securitycode>
+<firstname>test</firstname>
+<lastname>test</lastname>
+<address1>New York</address1>
+<address2>street</address2>
+<zip>T5A 0A7</zip>
+<city>Airdrie</city>
+<state>Alberta</state>
+<country>Canada</country>
+<phonenumber>333-333-3333</phonenumber>
+</testcase>
+
+
+<testcase id="InSprint13.4:PCOD:ParentOrder_CreditCard_AddNewCard_EmptyPhoneNumber">
+<acc_no>schl1504283921946@abc.com</acc_no>
+<password>passw0rd</password>
+<itemName>${item1Title}</itemName>
+<itemQty>2</itemQty>
+<paymentmethod>CREDIT_CARD</paymentmethod>
+<cardtype>Add a New Card</cardtype>
+<cardname>Amex</cardname>
+<cardnumber>373731623811006</cardnumber>
+<expmonth>09</expmonth>
+<expyear>2018</expyear>
+<securitycode>111</securitycode>
+<firstname>test</firstname>
+<lastname>test</lastname>
+<address1>New York</address1>
+<address2>street</address2>
+<zip>T5A 0A7</zip>
+<city>Airdrie</city>
+<state>Alberta</state>
+<country>Canada</country>
+<phonenumber></phonenumber>
+</testcase>
+
+
+
+<testcase id="InSprint13.4:PCOD:ParentOrder_CreditCard_AddNewCard_EmptyDateMonth">
+<acc_no>schl1504284027953@abc.com</acc_no>
+<password>passw0rd</password>
+<itemName>${item1Title}</itemName>
+<itemQty>2</itemQty>
+<paymentmethod>CREDIT_CARD</paymentmethod>
+<cardtype>Add a New Card</cardtype>
+<cardname>Amex</cardname>
+<cardnumber>373731623811006</cardnumber>
+<expmonth>--</expmonth>
+<expyear>2018</expyear>
+<securitycode>111</securitycode>
+<firstname>test</firstname>
+<lastname>test</lastname>
+<address1>New York</address1>
+<address2>street</address2>
+<zip>T5A 0A7</zip>
+<city>Airdrie</city>
+<state>Alberta</state>
+<country>Canada</country>
+<phonenumber>333-333-3333</phonenumber>
+</testcase>
+
+
+<testcase id="InSprint13.4:PCOD:ParentOrder_CreditCard_AddNewCard_EmptyYear">
+<acc_no>schl1504284132650@abc.com</acc_no>
+<password>passw0rd</password>
+<itemName>${item1Title}</itemName>
+<itemQty>2</itemQty>
+<paymentmethod>CREDIT_CARD</paymentmethod>
+<cardtype>Add a New Card</cardtype>
+<cardname>Amex</cardname>
+<cardnumber>373731623811006</cardnumber>
+<expmonth>9</expmonth>
+<expyear>--</expyear>
+<securitycode>111</securitycode>
+<firstname>test</firstname>
+<lastname>test</lastname>
+<address1>New York</address1>
+<address2>street</address2>
+<zip>T5A 0A7</zip>
+<city>Airdrie</city>
+<state>Alberta</state>
+<country>Canada</country>
+<phonenumber>333-333-3333</phonenumber>
+</testcase>
+
+
+
+<testcase id="InSprint13.4:PCOD:ParentOrder_CreditCard_AddNewCard_EmptySecurity">
+<acc_no>schl1504284258048@abc.com</acc_no>
+<password>passw0rd</password>
+<itemName>${item1Title}</itemName>
+<itemQty>2</itemQty>
+<paymentmethod>CREDIT_CARD</paymentmethod>
+<cardtype>Add a New Card</cardtype>
+<cardname>Amex</cardname>
+<cardnumber>373731623811006</cardnumber>
+<expmonth>9</expmonth>
+<expyear>2019</expyear>
+<securitycode></securitycode>
+<firstname>test</firstname>
+<lastname>test</lastname>
+<address1>New York</address1>
+<address2>street</address2>
+<zip>T5A 0A7</zip>
+<city>Airdrie</city>
+<state>Alberta</state>
+<country>Canada</country>
+<phonenumber>333-333-3333</phonenumber>
+</testcase>
+
+<!-- ##################################################################################################################################################    
+##################################################################################################################################################    
+###########################################   							             #############################################################   
+###########################################   		   DWCAPCOD-1163          	     #############################################################
+###########################################   							             #############################################################        
+##################################################################################################################################################        
+################################################################################################################################################## -->
+
+<testcase id="InSprint13.4:PCOD:ParentOrder_InvalidCreditCard">
+<acc_no>schl1504284363365@abc.com</acc_no>
+<password>passw0rd</password>
+<itemName>${item1Title}</itemName>
+<itemQty>2</itemQty>
+<paymentmethod>CREDIT_CARD</paymentmethod>
+<cardtype>Add a New Card</cardtype>
+<cardname>Master</cardname>
+<cardnumber>3111111111111111</cardnumber>
+<expmonth>09</expmonth>
+<expyear>2018</expyear>
+<securitycode>111</securitycode>
+<firstname>test</firstname>
+<lastname>test2</lastname>
+<address1>New York</address1>
+<address2>street</address2>
+<zip>35005</zip>
+<city>Adamsville</city>
+<state>Alabama</state>
+<country>United States</country>
+<phonenumber>333-333-3333</phonenumber>
+</testcase>
+
+
+<!-- ##################################################################################################################################################    
+##################################################################################################################################################    
+###########################################   							             #############################################################   
+###########################################   		   DWCAPCOD-1178         	     #############################################################
+###########################################   							             #############################################################        
+##################################################################################################################################################        
+################################################################################################################################################## -->
+
+
+<testcase id="InSprint13.4:PCOD:ParentOrder_SubmitYourOrder_ShippingSection_1Child_DifferentTeacher">
+<acc_no>testls131504902123459@abc.com</acc_no>
+<password>passw0rd</password>
+<itemName>${item1Title}</itemName>
+<itemName2>${item4Title}</itemName2>
+<itemQty>1</itemQty>
+<itemQty2>1</itemQty2>
+<child1_header>testchild1's Items will be shipped to</child1_header>
+<childname>testchild1</childname>
+<teach_firstname>149882-Fname</teach_firstname>
+<teach_lastname>149882-Lname</teach_lastname>
+<schoolname>Centennial Park Elem Sch</schoolname>
+<street>2527 Gladwin Rd</street>
+<city>Abbotsford</city>
+<province>BC</province>
+<postalcode>V2T 3N8</postalcode>
+<child2_header>testchild2's Items will be shipped to</child2_header>
+<childname2>testchild2</childname2>
+<child2_teach_firstname>5540473-Fname</child2_teach_firstname>
+<child2_teach_lastname>5540473-Lname</child2_teach_lastname>
+<child2_schoolname>La Salle Secondary School</child2_schoolname>
+<child2_street>773 Hwy 15</child2_street>
+<child2_city>Kingston</child2_city>
+<child2_province>ON</child2_province>
+<child2_postalcode> K7L 5H6</child2_postalcode>
+</testcase>
+
+
+
+<testcase id="InSprint13.4:PCOD:ParentOrder_SubmitYourOrder_ShippingSection_1Child">
+<acc_no>schl1504284468683@abc.com</acc_no>
+<password>passw0rd</password>
+<itemName>${item1Title}</itemName>
+<itemName2>${item4Title}</itemName2>
+<itemQty>1</itemQty>
+<itemQty2>1</itemQty2>
+<child1_header>test1504284468683's Items will be shipped to</child1_header>
+<childname>test1504284468683</childname>
+<teach_firstname>5562203-Fname</teach_firstname>
+<teach_lastname>5562203-Lname</teach_lastname>
+<schoolname>Treherne Elem School</schoolname>
+<street>224 Andrews Ave</street>
+<city>Treherne</city>
+<province>MB</province>
+<postalcode>R0G 2V0</postalcode>
+</testcase>
+
+
+
+<testcase id="InSprint13.4:PCOD:ParentOrder_SubmitYourOrder_ShippingSection_2Child">
+<acc_no>testls131504816858710@abc.com</acc_no>
+<password>passw0rd</password>
+<itemName>${item1Title}</itemName>
+<itemName2>${item4Title}</itemName2>
+<itemQty>1</itemQty>
+<itemQty2>1</itemQty2>
+<child1_header>child11504816858710's Items will be shipped to</child1_header>
+<childname>testchild2</childname>
+<childname2>child21504816858710</childname2>
+<teach_firstname>5564100-Fname</teach_firstname>
+<teach_lastname>5564100-Lname</teach_lastname>
+<schoolname>Stratford Hall Lower Scho</schoolname>
+<street>3070 Commercial Dr</street>
+<city>Vancouver</city>
+<province>BC</province>
+<postalcode>V5N 4E2</postalcode>
+<child2_header>child21504816858710's Items will be shipped to</child2_header>
+<child2name>child21504816858710</child2name>
+<child2_teach_firstname>5564100-Fname</child2_teach_firstname>
+<child2_teach_lastname>5564100-Lname</child2_teach_lastname>
+<child2_schoolname>Stratford Hall Lower Scho</child2_schoolname>
+<child2_street>3070 Commercial Dr</child2_street>
+<child2_city>Vancouver</child2_city>
+<child2_province>BC</child2_province>
+<child2_postalcode>V5N 4E2</child2_postalcode>
+</testcase>
+
+
+<testcase id="InSprint13.4:PCOD:ParentOrder_SubmitYourOrder_ShippingSection_3Child">
+<acc_no>testls131504901698551@abc.com</acc_no>
+<password>passw0rd</password>
+<itemName>${item1Title}</itemName>
+<itemName2>${item4Title}</itemName2>
+<itemName3>${item3Title}</itemName3>
+<itemQty>1</itemQty>
+<itemQty2>1</itemQty2>
+<itemQty3>1</itemQty3>
+<child1_header>testchild1's Items will be shipped to</child1_header>
+<childname>testchild1</childname>
+<teach_firstname>5567261-Fname</teach_firstname>
+<teach_lastname>5567261-Lname</teach_lastname>
+<schoolname>Kingsway College School</schoolname>
+<street>4600 Dundas St W</street>
+<city>Etobicoke</city>
+<province>ON</province>
+<postalcode>M9A 1A5</postalcode>
+<child2_header>testchild2's Items will be shipped to</child2_header>
+<childname2>testchild2</childname2>
+<child2_teach_firstname>4245917-Fname</child2_teach_firstname>
+<child2_teach_lastname>4245917-Lname</child2_teach_lastname>
+<child2_schoolname>Scholastic Canada/WHSE</child2_schoolname>
+<child2_street>175 Hillmount Rd</child2_street>
+<child2_city>Markham</child2_city>
+<child2_province>ON</child2_province>
+<child2_postalcode>L6C 1Z7</child2_postalcode>
+<childname3>testchild3</childname3>
+</testcase>
+
+
+
+</testdata>	

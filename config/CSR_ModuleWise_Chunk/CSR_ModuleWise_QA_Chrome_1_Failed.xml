@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Demandware" parallel="tests" thread-count="10" verbose="0">
+   <parameter name="remote.driver.url" value="http://sereti_qe:b9b8a9e1-e525-46af-9c7f-4a11c372b5c5@ondemand.saucelabs.com:80/wd/hub" />
+   <parameter name="tdm.data" value="off" />
+   <parameter name="glue" value="com.dw.automation.steps" />
+   <parameter name="sauce" value="true" />
+
+   <test name="CSR sees correct values for Teacher Catalogues when multiple items are added from same flyer for HST_NS">
+      <parameter name="features" value="features/Modules/CSR_Regression_QA_IE/Confirm_And_Submit.feature" />
+      <parameter name="scenario" value="CSR sees correct values for Teacher Catalogues when multiple items are added from same flyer for HST_NS" />
+      <parameter name="driver.capabilities" value="{'version': '57.0','platform':'Windows 10','name':'DWCA','maxDuration':'10800'}"/>
+      <parameter name="driver.name" value="Chrome" />
+      <classes>
+         <class name="com.scholastic.torque.runner.Run" />
+      </classes>
+   </test>
+   <!-- CSR sees correct values for Teacher Catalogues when multiple items are added from same flyer for HST_NS -->
+   <test name="CSR sees correct values for Student Clubs when multiple items are added from different flyer for GST &amp; PST">
+      <parameter name="features" value="features/Modules/CSR_Regression_QA_IE/Confirm_And_Submit.feature" />
+      <parameter name="scenario" value="CSR sees correct values for Student Clubs when multiple items are added from different flyer for GST &amp; PST" />
+      <parameter name="driver.capabilities" value="{'version': '57.0','platform':'Windows 10','name':'DWCA','maxDuration':'10800'}" />
+      <parameter name="driver.name" value="Chrome" />
+      <classes>
+         <class name="com.scholastic.torque.runner.Run" />
+      </classes>
+   </test>
+   <!-- CSR sees correct values for Student Clubs when multiple items are added from different flyer for GST &amp; PST -->
+   <test name="CSR sees correct values for Student Clubs when multiple items are added from different flyer for GST_AB">
+      <parameter name="features" value="features/Modules/CSR_Regression_QA_IE/Confirm_And_Submit.feature" />
+      <parameter name="scenario" value="CSR sees correct values for Student Clubs when multiple items are added from different flyer for GST_AB" />
+      <parameter name="driver.capabilities" value="{'version': '57.0','platform':'Windows 10','name':'DWCA','maxDuration':'10800'}" />
+      <parameter name="driver.name" value="Chrome" />
+      <classes>
+         <class name="com.scholastic.torque.runner.Run" />
+      </classes>
+   </test>
+   <!-- CSR sees correct values for Student Clubs when multiple items are added from different flyer for GST_AB -->
+   <test name="CSR sees correct values for Student Clubs when multiple items are added from different flyer for GST_SK">
+      <parameter name="features" value="features/Modules/CSR_Regression_QA_IE/Confirm_And_Submit.feature" />
+      <parameter name="scenario" value="CSR sees correct values for Student Clubs when multiple items are added from different flyer for GST_SK" />
+      <parameter name="driver.capabilities" value="{'version': '57.0','platform':'Windows 10','name':'DWCA','maxDuration':'10800'}" />
+      <parameter name="driver.name" value="Chrome" />
+      <classes>
+         <class name="com.scholastic.torque.runner.Run" />
+      </classes>
+   </test>
+   <!-- CSR sees correct values for Student Clubs when multiple items are added from different flyer for GST_SK -->
+   <test name="CSR sees correct values for Student and Teacher Catalogues when multiple items are added from different flyer for GST_AB">
+      <parameter name="features" value="features/Modules/CSR_Regression_QA_IE/Confirm_And_Submit.feature" />
+      <parameter name="scenario" value="CSR sees correct values for Student and Teacher Catalogues when multiple items are added from different flyer for GST_AB" />
+      <parameter name="driver.capabilities" value="{'version': '57.0','platform':'Windows 10','name':'DWCA','maxDuration':'10800'}" />
+      <parameter name="driver.name" value="Chrome" />
+      <classes>
+         <class name="com.scholastic.torque.runner.Run" />
+      </classes>
+   </test>
+   <!-- CSR sees correct values for Student and Teacher Catalogues when multiple items are added from different flyer for GST_AB -->
+   <test name="CSR sees correct values for Student and Teacher Catalogues when multiple items are added from different flyer for GST_YT">
+      <parameter name="features" value="features/Modules/CSR_Regression_QA_IE/Confirm_And_Submit.feature" />
+      <parameter name="scenario" value="CSR sees correct values for Student and Teacher Catalogues when multiple items are added from different flyer for GST_YT" />
+      <parameter name="driver.capabilities" value="{'version': '57.0','platform':'Windows 10','name':'DWCA','maxDuration':'10800'}" />
+      <parameter name="driver.name" value="Chrome" />
+      <classes>
+         <class name="com.scholastic.torque.runner.Run" />
+      </classes>
+   </test>
+   <!-- CSR sees correct values for Student and Teacher Catalogues when multiple items are added from different flyer for GST_YT -->
+   <test name="No taxes are charged for Student and Teacher Catalogues for tax exempted schools for GST &amp; QST in Confirm &amp; Submit page">
+      <parameter name="features" value="features/Modules/CSR_Regression_QA_IE/Confirm_And_Submit.feature" />
+      <parameter name="scenario" value="No taxes are charged for Student and Teacher Catalogues for tax exempted schools for GST &amp; QST in Confirm &amp; Submit page" />
+      <parameter name="driver.capabilities" value="{'version': '57.0','platform':'Windows 10','name':'DWCA','maxDuration':'10800'}" />
+      <parameter name="driver.name" value="Chrome" />
+      <classes>
+         <class name="com.scholastic.torque.runner.Run" />
+      </classes>
+   </test>
+   <!-- No taxes are charged for Student and Teacher Catalogues for tax exempted schools for GST &amp; QST in Confirm &amp; Submit page -->
+   <test name="CSR sees Amount Paid by Purchase Order label in the Payment section of Confirm &amp; Submit page">
+      <parameter name="features" value="features/Modules/CSR_Regression_QA_IE/Confirm_And_Submit.feature" />
+      <parameter name="scenario" value="CSR sees Amount Paid by Purchase Order label in the Payment section of Confirm &amp; Submit page" />
+      <parameter name="driver.capabilities" value="{'version': '57.0','platform':'Windows 10','name':'DWCA','maxDuration':'10800'}" />
+      <parameter name="driver.name" value="Chrome" />
+      <classes>
+         <class name="com.scholastic.torque.runner.Run" />
+      </classes>
+   </test>
+   <!-- CSR sees Amount Paid by Purchase Order label in the Payment section of Confirm &amp; Submit page -->
+   <test name="CSR sees Amount Paid by Credit Card and Amount Paid by Purchase Order labels in the Payment section of Confirm &amp; Submit page">
+      <parameter name="features" value="features/Modules/CSR_Regression_QA_IE/Confirm_And_Submit.feature" />
+      <parameter name="scenario" value="CSR sees Amount Paid by Credit Card and Amount Paid by Purchase Order labels in the Payment section of Confirm &amp; Submit page" />
+      <parameter name="driver.capabilities" value="{'version': '57.0','platform':'Windows 10','name':'DWCA','maxDuration':'10800'}" />
+      <parameter name="driver.name" value="Chrome" />
+      <classes>
+         <class name="com.scholastic.torque.runner.Run" />
+      </classes>
+   </test>
+   <!-- CSR sees Amount Paid by Credit Card and Amount Paid by Purchase Order labels in the Payment section of Confirm &amp; Submit page -->
+</suite>
+        <!-- Failed suite [Demandware] -->

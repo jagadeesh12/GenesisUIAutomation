@@ -1,0 +1,935 @@
+<testdata>
+
+
+<!-- ##################################################################################################################################################    
+##################################################################################################################################################    
+###########################################   							             #############################################################   
+###########################################   		   DWCAPCOD-363          	     #############################################################
+###########################################   							             #############################################################        
+##################################################################################################################################################        
+################################################################################################################################################## -->
+
+<testcase id="InSprint14.1:PCOD:ParentOrder_ShippingPayment_OrderDetailsSection_1Child">
+<acc_no>schl1504639338350@abc.com</acc_no>
+<password>passw0rd</password>
+<itemName>${item1Title}</itemName>
+<itemQty>2</itemQty>
+<teachername1>150045-Lname</teachername1>
+<childname>testchild1</childname>
+<item1_no>item1</item1_no>
+<tax_province>GST</tax_province>
+<item1_tax>GST</item1_tax>
+<item2_tax>GSTPST</item2_tax>
+<tax>5</tax>
+<tax2>7</tax2>
+<child1_header>testchild1 in null 150045-Lname's Class</child1_header>
+<paymentsection_creditcardno>XXXX-XXXX-XXXX-1111</paymentsection_creditcardno>
+<!--below is dummy data  -->
+<state_notax>0</state_notax>
+<stateTax1_hst>0</stateTax1_hst>
+<stateTax2_hst>0</stateTax2_hst>
+</testcase>
+
+
+
+<testcase id="InSprint14.1:PCOD:ParentOrder_ShippingPayment_OrderDetailsSection_2Child_1Teacher">
+<acc_no>testls131504815568772@abc.com</acc_no>
+<password>passw0rd</password>
+<itemName>${item1Title}</itemName>
+<itemName2>${item4Title}</itemName2>
+<itemQty>1</itemQty>
+<itemQty2>1</itemQty2>
+<childname>testchild1</childname>
+<childname2>testchild2</childname2>
+<item1_no>item1</item1_no>
+<item2_no>item2</item2_no>
+<tax_province>GSTPST</tax_province>
+<item1_tax>GSTPST</item1_tax>
+<item2_tax>GSTPST</item2_tax>
+<tax>5</tax>
+<tax2>7</tax2>
+<paymentsection_creditcardno>XXXX-XXXX-XXXX-1006</paymentsection_creditcardno>
+<teachername1>Mr 149882-Lname</teachername1>
+<teachername2>Mr 149882-Lname</teachername2>
+<!--below is dummy data  -->
+<state_notax>0</state_notax>
+<stateTax1_hst>0</stateTax1_hst>
+<stateTax2_hst>0</stateTax2_hst>
+</testcase>
+
+
+<testcase id="InSprint14.1:PCOD:ParentOrder_ShippingPayment_OrderDetailsSection_1Child_DifferentTeacher">
+<acc_no>testls131504899340754@abc.com</acc_no>
+<password>passw0rd</password>
+<itemName>${item1Title}</itemName>
+<itemName2>${item2Title}</itemName2>
+<itemQty>1</itemQty>
+<itemQty2>1</itemQty2>
+<childname>testchild1</childname>
+<childname2>testchild2</childname2>
+<item1_no>item1</item1_no>
+<item2_no>item2</item2_no>
+<tax_province>GSTPST</tax_province>
+<item1_tax>GSTPST</item1_tax>
+<item2_tax>GSTPST</item2_tax>
+<tax>5</tax>
+<tax2>7</tax2>
+<paymentsection_creditcardno>XXXX-XXXX-XXXX-1006</paymentsection_creditcardno>
+<teachername1>Mr 149882-Lname</teachername1>
+<teachername2>Mr 5546132-Lname</teachername2>
+<!--below is dummy data  -->
+<state_notax>0</state_notax>
+<stateTax1_hst>0</stateTax1_hst>
+<stateTax2_hst>0</stateTax2_hst>
+</testcase>
+
+
+
+<testcase id="InSprint14.1:PCOD:ParentOrder_ShippingPayment_OrderDetailsSection_3Child">
+<acc_no>schl180@abc.com</acc_no>
+<password>passw0rd</password>
+<itemName>${item1Title}</itemName>
+<itemName2>${item4Title}</itemName2>
+<itemName3>${item3Title}</itemName3>
+<itemQty>1</itemQty>
+<itemQty2>1</itemQty2>
+<itemQty3>1</itemQty3>
+<childname>testchild1</childname>
+<childname2>testchild2</childname2>
+<item1_no>item1</item1_no>
+<item2_no>item2</item2_no>
+<tax_province>GSTPST</tax_province>
+<item1_tax>GSTPST</item1_tax>
+<item2_tax>GSTPST</item2_tax>
+<tax>5</tax>
+<tax2>7</tax2>
+<paymentsection_creditcardno>XXXX-XXXX-XXXX-1006</paymentsection_creditcardno>
+<teachername1>Mr 232207-Lname</teachername1>
+<teachername2>Mr 232356-Lname</teachername2>
+<teachername3>Mr 232207-Lname</teachername3>
+<!--below is dummy data  -->
+<state_notax>0</state_notax>
+<stateTax1_hst>0</stateTax1_hst>
+<stateTax2_hst>0</stateTax2_hst>
+</testcase>
+
+
+
+<testcase id="InSprint14.1:PCOD:ParentOrder_ShippingPayment_ShippingSection_2Child_DifferentTeacher">
+<acc_no>testls131504898078325@abc.com</acc_no>
+<password>passw0rd</password>
+<itemName>${item1Title}</itemName>
+<itemName2>${item4Title}</itemName2>
+<itemName3>${item3Title}</itemName3>
+<itemQty>1</itemQty>
+<itemQty2>1</itemQty2>
+<itemQty3>1</itemQty3>
+<childname>child11504898078325</childname>
+<childname2>child21504898078325</childname2>
+<item1_no>item1</item1_no>
+<item2_no>item2</item2_no>
+<tax_province>GSTPST</tax_province>
+<item1_tax>GSTPST</item1_tax>
+<item2_tax>GSTPST</item2_tax>
+<tax>5</tax>
+<tax2>7</tax2>
+<paymentsection_creditcardno>XXXX-XXXX-XXXX-1006</paymentsection_creditcardno>
+<teachername1>Mr 5566544-Lname</teachername1>
+<teachername2>Mr 5566594-Lname</teachername2>
+<teachername3>Mr 232207-Lname</teachername3>
+<!--below is dummy data  -->
+<state_notax>0</state_notax>
+<stateTax1_hst>0</stateTax1_hst>
+<stateTax2_hst>0</stateTax2_hst>
+</testcase>
+
+
+
+<testcase id="InSprint14.1:PCOD:ParentOrder_ShippingPayment_OrderDetailsSection_2Child">
+<acc_no>testls131504901271638@abc.com</acc_no>
+<password>passw0rd</password>
+<itemName>${item1Title}</itemName>
+<itemName2>${item4Title}</itemName2>
+<itemName3>${item3Title}</itemName3>
+<itemQty>1</itemQty>
+<itemQty2>1</itemQty2>
+<itemQty3>1</itemQty3>
+<childname>child11504901271638</childname>
+<childname2>child21504901271638</childname2>
+<item1_no>item1</item1_no>
+<item2_no>item2</item2_no>
+<tax_province>GSTPST</tax_province>
+<item1_tax>GSTPST</item1_tax>
+<item2_tax>GSTPST</item2_tax>
+<tax>5</tax>
+<tax2>7</tax2>
+<paymentsection_creditcardno>XXXX-XXXX-XXXX-1006</paymentsection_creditcardno>
+<teachername1>Mr 5567188-Lname</teachername1>
+<teachername2>Mr 5567203-Lname</teachername2>
+<teachername3>Mr 232207-Lname</teachername3>
+<!--below is dummy data  -->
+<state_notax>0</state_notax>
+<stateTax1_hst>0</stateTax1_hst>
+<stateTax2_hst>0</stateTax2_hst>
+</testcase>
+
+
+
+
+<testcase id="InSprint14.1:PCOD:ParentOrder_ShippingPayment_FreeItem_2Child_DifferentTeacher">
+<acc_no>auto_parent1@gmail.com</acc_no>
+<password>passw0rd</password>
+<itemName>${item1Title}</itemName>
+<itemName2>${item4Title}</itemName2>
+<itemName3>${item3Title}</itemName3>
+<itemQty>1</itemQty>
+<itemQty2>1</itemQty2>
+<itemQty3>1</itemQty3>
+<couponcode>FP-IIV4-PBF9-NI</couponcode>
+<couponcode2>FP-TCD2-GTSU-HG</couponcode2>
+<couponsearch>${freepick_item1}</couponsearch>
+<childname>testchild2</childname>
+<childname2>testchild1</childname2>
+<item1_no>item1</item1_no>
+<item2_no>item2</item2_no>
+<tax_province>GSTPST</tax_province>
+<item1_tax>GSTPST</item1_tax>
+<item2_tax>GSTPST</item2_tax>
+<tax>5</tax>
+<tax2>7</tax2>
+<paymentsection_creditcardno>XXXX-XXXX-XXXX-1006</paymentsection_creditcardno>
+<teachername1>Mr 5566990-Lname</teachername1>
+<teachername2>Mr 5567055-Lname</teachername2>
+<teachername3>Mr 232207-Lname</teachername3>
+<!--below is dummy data  -->
+<state_notax>0</state_notax>
+<stateTax1_hst>0</stateTax1_hst>
+<stateTax2_hst>0</stateTax2_hst>
+</testcase>
+
+
+
+<testcase id="InSprint14.1:PCOD:ParentOrder_ShippingPayment_FreeItem_2Child_DifferentTeachers">
+<acc_no>auto_parent1@gmail.com</acc_no>
+<password>passw0rd</password>
+<itemName>${item1Title}</itemName>
+<itemName2>${item2Title}</itemName2>
+<itemQty>1</itemQty>
+<itemQty2>1</itemQty2>
+<couponcode>FP-IIV4-PBF9-NI</couponcode>
+<couponcode2>FP-TCD2-GTSU-HG</couponcode2>
+<couponsearch>${freepick_item1}</couponsearch>
+<childname>testchild2</childname>
+<childname2>testchild1</childname2>
+<item1_no>item1</item1_no>
+<item2_no>item2</item2_no>
+<tax_province>GSTPST</tax_province>
+<item1_tax>GSTPST</item1_tax>
+<item2_tax>GSTPST</item2_tax>
+<tax>5</tax>
+<tax2>7</tax2>
+<paymentsection_creditcardno>XXXX-XXXX-XXXX-1006</paymentsection_creditcardno>
+<teachername1>Mr 5566776-Lname</teachername1>
+<teachername2>Mr 5566841-Lname</teachername2>
+<!--below is dummy data  -->
+<state_notax>0</state_notax>
+<stateTax1_hst>0</stateTax1_hst>
+<stateTax2_hst>0</stateTax2_hst>
+</testcase>
+
+
+<!-- ##################################################################################################################################################    
+##################################################################################################################################################    
+###########################################   							             #############################################################   
+###########################################   		   DWCAPCOD-366          	     #############################################################
+###########################################   							             #############################################################        
+##################################################################################################################################################        
+################################################################################################################################################## -->
+
+<testcase id="InSprint14.1:PCOD:ParentOrder_ConfirmationPage_OrderDetailsSection_Reassigned_1Child">
+<acc_no>testls131504900209920@abc.com</acc_no>
+<password>passw0rd</password>
+<itemName>${item1Title}</itemName>
+<itemName2>${item4Title}</itemName2>
+<itemQty>2</itemQty>
+<itemQty2>1</itemQty2>
+<childname>child11504900209920</childname>
+<item1_no>item1</item1_no>
+<item2_no>item2</item2_no>
+<tax_province>GSTPST</tax_province>
+<tax>5</tax>
+<tax2>7</tax2>
+<teachername1>Mr 5566940-Lname</teachername1>
+<teachername2>4245917-Lname</teachername2>
+<paymentsection_creditcardno>XXXX-XXXX-XXXX-1006</paymentsection_creditcardno>
+<!--below is dummy data  -->
+<state_notax>0</state_notax>
+<stateTax1_hst>0</stateTax1_hst>
+<stateTax2_hst>0</stateTax2_hst>
+</testcase>
+
+
+
+<testcase id="InSprint14.1:PCOD:ParentOrder_ConfirmationPage_OrderDetailsSection_Freepick_1Child_DifferentTeacher">
+<acc_no>testls131504900628844@abc.com</acc_no>
+<password>passw0rd</password>
+<itemName>${item1Title}</itemName>
+<itemName2>${item4Title}</itemName2>
+<itemQty>1</itemQty>
+<itemQty2>1</itemQty2>
+<couponcode>FP-IIV4-PBF9-NI</couponcode>
+<couponcode2>FP-TCD2-GTSU-HG</couponcode2>
+<couponsearch>${freepick_item1}</couponsearch>
+<childname>child11504900628844</childname>
+<childname2>child21504900628844</childname2>
+<item1_no>item1</item1_no>
+<item2_no>item2</item2_no>
+<tax_province>GSTPST</tax_province>
+<item1_tax>GSTPST</item1_tax>
+<item2_tax>GSTPST</item2_tax>
+<tax>5</tax>
+<tax2>7</tax2>
+<paymentsection_creditcardno>XXXX-XXXX-XXXX-1006</paymentsection_creditcardno>
+<teachername1>Mr 5566990-Lname</teachername1>
+<teachername2>Mr 5567055-Lname</teachername2>
+<!--below is dummy data  -->
+<state_notax>0</state_notax>
+<stateTax1_hst>0</stateTax1_hst>
+<stateTax2_hst>0</stateTax2_hst>
+</testcase>
+
+
+
+
+<testcase id="InSprint14.1:PCOD:ParentOrder_ConfirmationPage_OrderDetailsSection_Freepick_2Childs_DifferentTeacher">
+<acc_no>testls131504899340754@abc.com</acc_no>
+<password>passw0rd</password>
+<itemName>${item1Title}</itemName>
+<itemName2>${item2Title}</itemName2>
+<itemQty>1</itemQty>
+<itemQty2>1</itemQty2>
+<couponcode>FP-IIV4-PBF9-NI</couponcode>
+<couponcode2>FP-TCD2-GTSU-HG</couponcode2>
+<couponsearch>${freepick_item1}</couponsearch>
+<childname>child11504899340754</childname>
+<childname2>child21504899340754</childname2>
+<item1_no>item1</item1_no>
+<item2_no>item2</item2_no>
+<tax_province>GSTPST</tax_province>
+<item1_tax>GSTPST</item1_tax>
+<item2_tax>GSTPST</item2_tax>
+<tax>5</tax>
+<tax2>7</tax2>
+<paymentsection_creditcardno>XXXX-XXXX-XXXX-1006</paymentsection_creditcardno>
+<teachername1>Mr 5566776-Lname</teachername1>
+<teachername2>Mr 5566841-Lname</teachername2>
+<!--below is dummy data  -->
+<state_notax>0</state_notax>
+<stateTax1_hst>0</stateTax1_hst>
+<stateTax2_hst>0</stateTax2_hst>
+</testcase>
+
+
+<testcase id="InSprint14.1:PCOD:ParentOrder_ConfirmationPage_OrderDetailsSection_1Child">
+<acc_no>schl1504639593254@abc.com</acc_no>
+<password>passw0rd</password>
+<itemName>${item1Title}</itemName>
+<itemName2>${item4Title}</itemName2>
+<itemQty>1</itemQty>
+<itemQty2>1</itemQty2>
+<childname>child1504639593254</childname>
+<childname2>testchild2</childname2>
+<item1_no>item1</item1_no>
+<item2_no>item2</item2_no>
+<tax_province>GSTPST</tax_province>
+<tax>5</tax>
+<tax2>7</tax2>
+<paymentsection_creditcardno>XXXX-XXXX-XXXX-1006</paymentsection_creditcardno>
+<teachername1>Mr 5562005-Lname</teachername1>
+<!--below is dummy data  -->
+<state_notax>0</state_notax>
+<stateTax1_hst>0</stateTax1_hst>
+<stateTax2_hst>0</stateTax2_hst>
+</testcase>
+
+
+
+<testcase id="InSprint14.1:PCOD:ParentOrder_ConfirmationPage_OrderDetailsSection_2Child_SameTeacher">
+<acc_no>testls131504815861831@abc.com</acc_no>
+<password>passw0rd</password>
+<itemName>${item1Title}</itemName>
+<itemName2>${item4Title}</itemName2>
+<itemQty>1</itemQty>
+<itemQty2>1</itemQty2>
+<childname>child11504815861831</childname>
+<childname2>child21504815861831</childname2>
+<item1_no>item1</item1_no>
+<item2_no>item2</item2_no>
+<tax_province>GSTPST</tax_province>
+<tax>5</tax>
+<tax2>7</tax2>
+<paymentsection_creditcardno>XXXX-XXXX-XXXX-1006</paymentsection_creditcardno>
+<teachername1>Mr 5563368-Lname</teachername1>
+<teachername2>Mr 5563368-Lname</teachername2>
+<!--below is dummy data  -->
+<state_notax>0</state_notax>
+<stateTax1_hst>0</stateTax1_hst>
+<stateTax2_hst>0</stateTax2_hst>
+</testcase>
+
+
+
+
+<testcase id="InSprint14.1:PCOD:ParentOrder_ConfirmationPage_OrderDetailsSection_2Child_DiffTeacher">
+<acc_no>testls131504899340754@abc.com</acc_no>
+<password>passw0rd</password>
+<itemName>${item1Title}</itemName>
+<itemName2>${item2Title}</itemName2>
+<itemQty>1</itemQty>
+<itemQty2>1</itemQty2>
+<childname>child11504899340754</childname>
+<childname2>child21504899340754</childname2>
+<item1_no>item1</item1_no>
+<item2_no>item2</item2_no>
+<tax_province>GSTPST</tax_province>
+<item1_tax>GSTPST</item1_tax>
+<item2_tax>GSTPST</item2_tax>
+<tax>5</tax>
+<tax2>7</tax2>
+<paymentsection_creditcardno>XXXX-XXXX-XXXX-1006</paymentsection_creditcardno>
+<teachername1>Mr 5566776-Lname</teachername1>
+<teachername2>Mr 5566841-Lname</teachername2>
+<!--below is dummy data  -->
+<state_notax>0</state_notax>
+<stateTax1_hst>0</stateTax1_hst>
+<stateTax2_hst>0</stateTax2_hst>
+</testcase>
+
+
+
+<testcase id="InSprint14.1:PCOD:ParentOrder_ConfirmationPage_OrderDetailsSection_3Childs_2Same_1Diff">
+<acc_no>schl191@abc.com</acc_no>
+<password>passw0rd</password>
+<itemName>${item1Title}</itemName>
+<itemName2>${item4Title}</itemName2>
+<itemName3>${item3Title}</itemName3>
+<itemQty>1</itemQty>
+<itemQty2>1</itemQty2>
+<itemQty3>1</itemQty3>
+<childname>testchild1</childname>
+<childname2>testchild2</childname2>
+<item1_no>item1</item1_no>
+<item2_no>item2</item2_no>
+<tax_province>GSTPST</tax_province>
+<tax>5</tax>
+<tax2>7</tax2>
+<teachername1>Mr 232207-Lname</teachername1>
+<teachername2>Mr 232356-Lname</teachername2>
+<teachername3>Mr 232207-Lname</teachername3>
+<!--below is dummy data  -->
+<state_notax>0</state_notax>
+<stateTax1_hst>0</stateTax1_hst>
+<stateTax2_hst>0</stateTax2_hst>
+</testcase>
+
+
+
+<testcase id="InSprint14.1:PCOD:ParentOrder_ConfirmationPage_OrderDetailsSection_2Child_DifferentTeacher_Reassigns">
+<acc_no>testls131504899768866@abc.com</acc_no>
+<password>passw0rd</password>
+<itemName>${item1Title}</itemName>
+<itemName2>${item4Title}</itemName2>
+<itemQty>1</itemQty>
+<itemQty2>1</itemQty2>
+<item1_no>item1</item1_no>
+<item2_no>item2</item2_no>
+<tax_province>GSTPST</tax_province>
+<tax>5</tax>
+<tax2>7</tax2>
+<teachername1>Mr 5566875-Lname</teachername1>
+<teachername2>5566932-Lname</teachername2>
+<!--below is dummy data  -->
+<state_notax>0</state_notax>
+<stateTax1_hst>0</stateTax1_hst>
+<stateTax2_hst>0</stateTax2_hst>
+</testcase>
+
+
+
+<!-- ##################################################################################################################################################    
+##################################################################################################################################################    
+###########################################   							             #############################################################   
+###########################################   		   DWCAPCOD-97          	     #############################################################
+###########################################   							             #############################################################        
+##################################################################################################################################################        
+################################################################################################################################################## -->
+
+
+<testcase id="InSprint14.1:PCOD:ParentOrder_ConfirmationPage_Details_MultipleChilds_GST_GSTPST">
+<acc_no>testls131504892375151@abc.com</acc_no>
+<password>passw0rd</password>
+<itemName>${item1Title}</itemName>
+<itemName2>${item4Title}</itemName2>
+<itemQty>1</itemQty>
+<itemQty2>1</itemQty2>
+<childname>child11504892375151</childname>
+<childname2>child21504892375151</childname2>
+<item1_no>item1</item1_no>
+<item2_no>item2</item2_no>
+<item1_tax>GST</item1_tax>
+<item2_tax>GSTPST</item2_tax>
+<tax>5</tax>
+<tax2>7</tax2>
+<paymentsection_creditcardno>XXXX-XXXX-XXXX-1111</paymentsection_creditcardno>
+<!--below is dummy data  -->
+<stateTax1_hst>0</stateTax1_hst>
+<stateTax2_hst>0</stateTax2_hst>
+<state_notax>0</state_notax>
+</testcase>
+
+
+
+<testcase id="InSprint14.1:PCOD:ParentOrder_ConfirmationPage_Details_MultipleChilds_GSTPST_HST">
+<acc_no>testls131504886755879@abc.com</acc_no>
+<password>passw0rd</password>
+<itemName>${item1Title}</itemName>
+<itemName2>${item4Title}</itemName2>
+<itemQty>1</itemQty>
+<itemQty2>1</itemQty2>
+<childname>child11504886755879</childname>
+<childname2>child21504886755879</childname2>
+<item1_no>item1</item1_no>
+<item2_no>item2</item2_no>
+<item1_tax>GSTPST</item1_tax>
+<item2_tax>HST</item2_tax>
+<tax>5</tax>
+<tax2>7</tax2>
+<paymentsection_creditcardno>XXXX-XXXX-XXXX-1111</paymentsection_creditcardno>
+<stateTax1_hst>5</stateTax1_hst>
+<stateTax2_hst>10</stateTax2_hst>
+<!--below is dummy data  -->
+<state_notax>0</state_notax>
+</testcase>
+
+
+
+
+<testcase id="InSprint14.1:PCOD:ParentOrder_ConfirmationPage_Details_4MultipleChilds_Taxes">
+<acc_no>schl195@abc.com</acc_no>
+<password>passw0rd</password>
+<itemName>${item1Title}</itemName>
+<itemName2>${item4Title}</itemName2>
+<itemName3>${item3Title}</itemName3>
+<itemName4>${item4}</itemName4>
+<itemQty>1</itemQty>
+<itemQty2>1</itemQty2>
+<itemQty3>1</itemQty3>
+<itemQty4>1</itemQty4>
+<childname>testchild1-ab</childname>
+<childname2>testchild2-bc</childname2>
+<childname3>testchild3-nl</childname3>
+<childname4>testchild4-qc</childname4>
+<item1_no>item1</item1_no>
+<item2_no>item2</item2_no>
+<item3_no>item3</item3_no>
+<item4_no>item4</item4_no>
+<item1_tax>GST</item1_tax>
+<item2_tax>GSTPST</item2_tax>
+<item3_tax>HST</item3_tax>
+<item4_tax>GSTQST</item4_tax>
+<state_item1_tax1>5</state_item1_tax1>
+<state_item1_tax2>0</state_item1_tax2>
+<state_item2_tax1>5</state_item2_tax1>
+<state_item2_tax2>7</state_item2_tax2>
+<state_item3_tax1>5</state_item3_tax1>
+<state_item3_tax2>10</state_item3_tax2>
+<state_item4_tax1>5</state_item4_tax1>
+<state_item4_tax2>9.975</state_item4_tax2>
+<paymentsection_creditcardno>XXXX-XXXX-XXXX-1006</paymentsection_creditcardno>
+<!--below is dummy data  -->
+<stateTax1_hst>0</stateTax1_hst>
+<stateTax2_hst>0</stateTax2_hst>
+<state_notax>0</state_notax>
+</testcase>
+
+
+
+
+
+<testcase id="InSprint14.1:PCOD:ParentOrder_ConfirmationPage_Details_GSTPST_GSTPST_GSTPSTExempt">
+<acc_no>testls131504886243509@abc.com</acc_no>
+<password>passw0rd</password>
+<itemName>${item1Title}</itemName>
+<itemName2>${item4Title}</itemName2>
+<itemQty>1</itemQty>
+<itemQty2>1</itemQty2>
+<childname>child11504886243509</childname>
+<childname2>child21504886243509</childname2>
+<item1_no>item1</item1_no>
+<item2_no>item2</item2_no>
+<item1_tax>GSTPST</item1_tax>
+<item2_tax>GSTPST_BothExempt</item2_tax>
+<tax>5</tax>
+<tax2>7</tax2>
+<state_notax>0</state_notax>
+<state_notax>0</state_notax>
+<paymentsection_creditcardno>XXXX-XXXX-XXXX-1111</paymentsection_creditcardno>
+<paymentmethod>CREDIT_CARD</paymentmethod>
+<cardtype>Add a New Card</cardtype>
+<cardname>Visa</cardname>
+<cardnumber>4111111111111111</cardnumber>
+<expmonth>09</expmonth>
+<expyear>2018</expyear>
+<securitycode>111</securitycode>
+<firstname>test</firstname>
+<lastname>test2</lastname>
+<address1>New York</address1>
+<address2>street</address2>
+<zip>T5A 0A7</zip>
+<city>Airdrie</city>
+<state>Alberta</state>
+<country>Canada</country>
+<phonenumber>333-333-3333</phonenumber>
+<!--below is dummy data  -->
+<stateTax1_hst>0</stateTax1_hst>
+<stateTax2_hst>0</stateTax2_hst>
+</testcase>
+
+
+
+<testcase id="InSprint14.1:PCOD:ParentOrder_ConfirmationPage_Details_1Child_DifferentTeacher_2GSTPST_PSTExempt">
+<acc_no>testls131504886243509@abc.com</acc_no>
+<password>passw0rd</password>
+<itemName>${item4Title}</itemName>
+<itemName2>${item1Title}</itemName2>
+<itemQty>1</itemQty>
+<itemQty2>1</itemQty2>
+<childname>child11504886243509</childname>
+<childname2>child21504886243509</childname2>
+<item1_no>item1</item1_no>
+<item2_no>item2</item2_no>
+<item1_tax>GSTPST</item1_tax>
+<item2_tax>GSTPST_Exempt</item2_tax>
+<tax>5</tax>
+<tax2>7</tax2>
+<state_notax>0</state_notax>
+<paymentsection_creditcardno>XXXX-XXXX-XXXX-1111</paymentsection_creditcardno>
+<paymentmethod>CREDIT_CARD</paymentmethod>
+<cardtype>Add a New Card</cardtype>
+<cardname>Visa</cardname>
+<cardnumber>4111111111111111</cardnumber>
+<expmonth>09</expmonth>
+<expyear>2018</expyear>
+<securitycode>111</securitycode>
+<firstname>test</firstname>
+<lastname>test2</lastname>
+<address1>New York</address1>
+<address2>street</address2>
+<zip>T5A 0A7</zip>
+<city>Airdrie</city>
+<state>Alberta</state>
+<country>Canada</country>
+<phonenumber>333-333-3333</phonenumber>
+<!--below is dummy data  -->
+<stateTax1_hst>0</stateTax1_hst>
+<stateTax2_hst>0</stateTax2_hst>
+</testcase>
+
+
+
+<testcase id="InSprint14.1:PCOD:ParentOrder_ConfirmationPage_Details">
+<acc_no>schl1504640372434@abc.com</acc_no>
+<password>passw0rd</password>
+<itemName>${item1Title}</itemName>
+<itemQty>1</itemQty>
+<childname>child1504640372434</childname>
+<item1_no>item1</item1_no>
+<tax_province>GST</tax_province>
+<tax>5</tax>
+<tax2>7</tax2>
+<state_notax>0</state_notax>
+<!--below is dummy data  -->
+<stateTax1_hst>0</stateTax1_hst>
+<stateTax2_hst>0</stateTax2_hst>
+</testcase>
+
+
+<testcase id="InSprint14.1:PCOD:ParentOrderConfirmationPage_GSTPST_ItemPSTExempt">
+<acc_no>testls131504816858710@abc.com</acc_no>
+<password>passw0rd</password>
+<itemName>${item1Title}</itemName>
+<itemName2>${item2Title}</itemName2>
+<itemQty>1</itemQty>
+<itemQty2>1</itemQty2>
+<childname>child11504816858710</childname>
+<childname2>child21504816858710</childname2>
+<item1_no>item1</item1_no>
+<item2_no>item2</item2_no>
+<tax_province>GSTPST</tax_province>
+<tax>5</tax>
+<tax2>0</tax2>
+<paymentsection_creditcardno>XXXX-XXXX-XXXX-1111</paymentsection_creditcardno>
+<!--below is dummy data  -->
+<state_notax>0</state_notax>
+<stateTax1_hst>0</stateTax1_hst>
+<stateTax2_hst>0</stateTax2_hst>
+</testcase>
+
+
+<testcase id="InSprint14.1:PCOD:ParentOrderConfirmationPage_1Child_DifferentTeacher">
+<acc_no>testls131504886243509@abc.com</acc_no>
+<password>passw0rd</password>
+<itemName>${item1Title}</itemName>
+<itemName2>${item4Title}</itemName2>
+<itemQty>1</itemQty>
+<itemQty2>1</itemQty2>
+<childname>child11504886243509</childname>
+<childname2>child21504886243509</childname2>
+<item1_no>item1</item1_no>
+<item2_no>item2</item2_no>
+<tax_province>GST</tax_province>
+<item1_tax>GST</item1_tax>
+<item2_tax>GSTPST</item2_tax>
+<tax>5</tax>
+<tax2>7</tax2>
+<!--below is dummy data  -->
+<state_notax>0</state_notax>
+<stateTax1_hst>0</stateTax1_hst>
+<stateTax2_hst>0</stateTax2_hst>
+</testcase>
+
+
+
+<testcase id="InSprint14.1:PCOD:ParentOrderConfirmationPage_ShippingSection_1Child">
+<acc_no>schl1504640372434@abc.com</acc_no>
+<password>passw0rd</password>
+<itemName>${item1Title}</itemName>
+<itemName2>${item4Title}</itemName2>
+<itemQty>1</itemQty>
+<itemQty2>1</itemQty2>
+<child1_header>child1504640372434's Items will be shipped to</child1_header>
+<childname>child1504640372434</childname>
+<teach_firstname>5562089-Fname</teach_firstname>
+<teach_lastname>5562089-Lname</teach_lastname>
+<schoolname>FFCA/SE Campus</schoolname>
+<street>9711 Academy Dr SE</street>
+<city>Calgary</city>
+<province>AB</province>
+<postalcode>T2J 1A9</postalcode>
+</testcase>
+
+
+<testcase id="InSprint14.1:PCOD:ParentOrderConfirmationPage_ShippingSection_2Child_DifferentTeacher">
+<acc_no>testls131504902123459@abc.com</acc_no>
+<password>passw0rd</password>
+<itemName>${item4Title}</itemName>
+<itemName2>${item1Title}</itemName2>
+<itemQty>1</itemQty>
+<itemQty2>1</itemQty2>
+<childname>child11504902123459</childname>
+<teach_firstname>5567302-Fname</teach_firstname>
+<teach_lastname>5567302-Lname</teach_lastname>
+<schoolname>Carberry Public School</schoolname>
+<street>526 Fernforest Dr</street>
+<city>Brampton</city>
+<province>ON</province>
+<postalcode>L6R 0W1</postalcode>
+<childname2>child21504902123459</childname2>
+<child2_teach_firstname>5567310-Fname</child2_teach_firstname>
+<child2_teach_lastname>5567310-Lname</child2_teach_lastname>
+<child2_schoolname>Fallingdale School</child2_schoolname>
+<child2_street>510 Clark Blvd</child2_street>
+<child2_city>Brampton</child2_city>
+<child2_province>ON</child2_province>
+<child2_postalcode>L6T 2E4</child2_postalcode>
+<child2_header>child21504902123459's Items will be shipped to</child2_header>
+</testcase>
+
+
+
+<testcase id="InSprint14.1:PCOD:ParentOrderConfirmationPage_1Child_GST">
+<acc_no>schl1504642906000@abc.com</acc_no>
+<password>passw0rd</password>
+<itemName>${item1Title}</itemName>
+<itemQty>1</itemQty>
+<childname>child1504642906000</childname>
+<item1_no>item1</item1_no>
+<tax_province>GSTPST</tax_province>
+<tax>5</tax>
+<tax2>7</tax2>
+<paymentsection_creditcardno>XXXX-XXXX-XXXX-1111</paymentsection_creditcardno>
+<!--below is dummy data  -->
+<state_notax>0</state_notax>
+<stateTax1_hst>0</stateTax1_hst>
+<stateTax2_hst>0</stateTax2_hst>
+</testcase>
+
+
+<testcase id="InSprint14.1:PCOD:ParentOrderConfirmationPager_ShippingSection_2Child">
+<acc_no>testls131504801491338@abc.com</acc_no>
+<password>passw0rd</password>
+<itemName>${item4Title}</itemName>
+<itemName2>${item1Title}</itemName2>
+<itemQty>1</itemQty>
+<itemQty2>1</itemQty2>
+<childname>child11504801491338</childname>
+<teach_firstname>5562964-Fname</teach_firstname>
+<teach_lastname>5562964-Lname</teach_lastname>
+<schoolname>Vanier Elem School</schoolname>
+<street>85 Ennis Ave</street>
+<city>St. John's</city>
+<province>NL</province>
+<postalcode>A1A 1Y7</postalcode>
+<childname2>child21504801491338</childname2>
+<child2_teach_firstname>5562964-Fname</child2_teach_firstname>
+<child2_teach_lastname>5562964-Lname</child2_teach_lastname>
+<child2_schoolname>Vanier Elem School</child2_schoolname>
+<child2_street>85 Ennis Ave</child2_street>
+<child2_city>St. John's</child2_city>
+<child2_province>NL</child2_province>
+<child2_postalcode>A1A 1Y7</child2_postalcode>
+</testcase>
+
+
+
+<testcase id="InSprint14.1:PCOD:ParentOrderConfirmationPager_1Child_GSTPST">
+<acc_no>schl1504642653256@abc.com</acc_no>
+<password>passw0rd</password>
+<itemName>${item1Title}</itemName>
+<itemQty>1</itemQty>
+<childname>child1504642653256</childname>
+<item1_no>item1</item1_no>
+<tax_province>GSTPST</tax_province>
+<tax>5</tax>
+<tax2>7</tax2>
+<paymentsection_creditcardno>XXXX-XXXX-XXXX-4444</paymentsection_creditcardno>
+<!--below is dummy data  -->
+<state_notax>0</state_notax>
+<stateTax1_hst>0</stateTax1_hst>
+<stateTax2_hst>0</stateTax2_hst>
+</testcase>
+
+
+
+
+<testcase id="InSprint14.1:PCOD:ParentOrderConfirmationPage_1Child_HST">
+<acc_no>schl1504643157475@abc.com</acc_no>
+<password>passw0rd</password>
+<itemName>${item1Title}</itemName>
+<itemQty>1</itemQty>
+<itemQty2>1</itemQty2>
+<item1_no>item1</item1_no>
+<tax_province>HST</tax_province>
+<tax>5</tax>
+<tax2>10</tax2>
+<childname>child1504643157475</childname>
+<teachername1>Mr 5562469-Lname</teachername1>
+<teachername2>Mr 5562469-Lname</teachername2>
+<paymentsection_creditcardno>XXXX-XXXX-XXXX-1006</paymentsection_creditcardno>
+<!--below is dummy data  -->
+<state_notax>0</state_notax>
+<stateTax1_hst>5</stateTax1_hst>
+<stateTax2_hst>10</stateTax2_hst>
+</testcase>
+
+
+
+<testcase id="InSprint14.1:PCOD:ParentOrderConfirmationPage_ShippingSection_3Child">
+<acc_no>schl207@abc.com</acc_no>
+<password>passw0rd</password>
+<itemName>${item1Title}</itemName>
+<itemName2>${item4Title}</itemName2>
+<itemName3>${item3Title}</itemName3>
+<itemQty>1</itemQty>
+<itemQty2>1</itemQty2>
+<itemQty3>1</itemQty3>
+<child1_header>testchild2's Items will be shipped to</child1_header>
+<childname>testchild1</childname>
+<teach_firstname>232356-Fname</teach_firstname>
+<teach_lastname>232356-Lname</teach_lastname>
+<schoolname>St Ann's Academy School</schoolname>
+<street>205 Columbia St</street>
+<city>Kamloops</city>
+<province>BC</province>
+<postalcode>V2C 2S7</postalcode>
+<child2_header>testchild2's Items will be shipped to</child2_header>
+<childname2>testchild2</childname2>
+<child2_teach_firstname>232207-Fname</child2_teach_firstname>
+<child2_teach_lastname>232207-Lname</child2_teach_lastname>
+<child2_schoolname>Harry Hooge Elementary</child2_schoolname>
+<child2_street>12280 230th St</child2_street>
+<child2_city>Maple Ridge</child2_city>
+<child2_province>BC</child2_province>
+<child2_postalcode>V2X 0P6</child2_postalcode>
+<childname3>testchild3</childname3>
+</testcase>
+
+
+
+<testcase id="InSprint14.1:PCOD:ParentOrderConfirmationPage_2Child_DifferentTeacher_GST_GSTPST">
+<acc_no>testls131504901698551@abc.com</acc_no>
+<password>passw0rd</password>
+<itemName>${item1Title}</itemName>
+<itemName2>${item4Title}</itemName2>
+<itemQty>1</itemQty>
+<itemQty2>1</itemQty2>
+<paymentmethod>CREDIT_CARD</paymentmethod>
+<cardtype>Add a New Card</cardtype>
+<cardname>Master</cardname>
+<cardnumber>5555555555554444</cardnumber>
+<expmonth>09</expmonth>
+<expyear>2018</expyear>
+<securitycode>111</securitycode>
+<firstname>test</firstname>
+<lastname>test2</lastname>
+<address1>New York</address1>
+<address2>street</address2>
+<zip>T5A 0A7</zip>
+<city>Airdrie</city>
+<state>Alberta</state>
+<country>Canada</country>
+<phonenumber>333-333-3333</phonenumber>
+<childname>child11504901698551</childname>
+<childname2>child21504901698551</childname2>
+<item1_no>item1</item1_no>
+<item2_no>item2</item2_no>
+<item1_tax>GST</item1_tax>
+<item2_tax>GSTPST</item2_tax>
+<tax>5</tax>
+<tax2>7</tax2>
+<paymentsection_creditcardno>XXXX-XXXX-XXXX-4444</paymentsection_creditcardno>
+<!--below is dummy data  -->
+<stateTax1_hst>0</stateTax1_hst>
+<stateTax2_hst>0</stateTax2_hst>
+<state_notax>0</state_notax>
+</testcase>
+
+
+<testcase id="InSprint14.1:PCOD:ParentOrderConfirmationPage_ShippingSection_2Child_Reassign">
+<acc_no>testls131504902123459@abc.com</acc_no>
+<password>passw0rd</password>
+<itemName>${item1Title}</itemName>
+<itemName2>${item4Title}</itemName2>
+<itemQty>1</itemQty>
+<itemQty2>1</itemQty2>
+<child1_header>child11504902123459's Items will be shipped to</child1_header>
+<childname>child11504902123459</childname>
+<teach_firstname>5567302-Fname</teach_firstname>
+<teach_lastname>5567302-Lname</teach_lastname>
+<schoolname>Carberry Public School</schoolname>
+<street>526 Fernforest Dr</street>
+<city>Brampton</city>
+<province>ON</province>
+<postalcode>L6R 0W1</postalcode>
+<child2_header>child21504902123459's Items will be shipped to</child2_header>
+<childname2>child21504902123459</childname2>
+<child2_teach_firstname>5567310-Fname</child2_teach_firstname>
+<child2_teach_lastname>5567310-Lname</child2_teach_lastname>
+<child2_schoolname>Fallingdale School</child2_schoolname>
+<child2_street>510 Clark Blvd</child2_street>
+<child2_city>Brampton</child2_city>
+<child2_province>ON</child2_province>
+<child2_postalcode>L6T 2E4</child2_postalcode>
+</testcase>
+
+</testdata>	

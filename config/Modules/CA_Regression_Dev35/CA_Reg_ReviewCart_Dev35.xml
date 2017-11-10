@@ -1,0 +1,432 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="10" guice-stage="DEVELOPMENT" verbose="0" name="Demandware" parallel="tests">
+  <parameter name="remote.driver.url" value="http://sereti_qe:b9b8a9e1-e525-46af-9c7f-4a11c372b5c5@ondemand.saucelabs.com:80/wd/hub"/>
+  <parameter name="tdm.data" value="off"/>
+  <parameter name="glue" value="com.dw.automation.steps"/>
+  <parameter name="sauce" value="true"/>
+  
+ <test name="Items grouped by Student club when teacher creates order with more than one Student Club same month">
+    <parameter name="features" value="features/Modules/CA_Regression_Dev35/Review Cart/ReviewCart.feature"/>
+    <parameter name="scenario" value="Items grouped by Student club when teacher creates order with more than one Student Club same month"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Items grouped by Student club when teacher creates order with more than one Student Club same month -->
+  <test name="Items grouped by Student club when teacher creates order with more than one Student Club different month">
+    <parameter name="features" value="features/Modules/CA_Regression_Dev35/Review Cart/ReviewCart.feature"/>
+    <parameter name="scenario" value="Items grouped by Student club when teacher creates order with more than one Student Club different month"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Items grouped by Student club when teacher creates order with more than one Student Club different month -->
+  <test name="Teacher charged with correct subtotal on Student Club &amp; Teacher club  items for GST &amp; PST against &#039;BC&#039; Province in ReviewCart page">
+    <parameter name="features" value="features/Modules/CA_Regression_Dev35/Review Cart/ReviewCart.feature"/>
+    <parameter name="scenario" value="Teacher charged with correct subtotal on Student Club &amp; Teacher club  items for GST &amp; PST against &#039;BC&#039; Province in ReviewCart page"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Teacher charged with correct subtotal on Student Club & Teacher club  items for GST & PST against 'BC' Province in ReviewCart page -->
+  <test name="Teacher charged with correct subtotal on Student and Teacher club items for GST &amp; QST against &#039;QC&#039; Province in ReviewCart page">
+    <parameter name="features" value="features/Modules/CA_Regression_Dev35/Review Cart/ReviewCart.feature"/>
+    <parameter name="scenario" value="Teacher charged with correct subtotal on Student and Teacher club items for GST &amp; QST against &#039;QC&#039; Province in ReviewCart page"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Teacher charged with correct subtotal on Student and Teacher club items for GST & QST against 'QC' Province in ReviewCart page -->
+  <test name="Teacher charged with correct subtotal on Student Club and Teacher club items for HST against &#039;NL&#039; Province in ReviewCart page">
+    <parameter name="features" value="features/Modules/CA_Regression_Dev35/Review Cart/ReviewCart.feature"/>
+    <parameter name="scenario" value="Teacher charged with correct subtotal on Student Club and Teacher club items for HST against &#039;NL&#039; Province in ReviewCart page"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Teacher charged with correct subtotal on Student Club and Teacher club items for HST against 'NL' Province in ReviewCart page -->
+  <test name="Teacher charged with correct subtotal on Student Club and Teacher club items for HST against &#039;NB&#039; Province in ReviewCart page">
+    <parameter name="features" value="features/Modules/CA_Regression_Dev35/Review Cart/ReviewCart.feature"/>
+    <parameter name="scenario" value="Teacher charged with correct subtotal on Student Club and Teacher club items for HST against &#039;NB&#039; Province in ReviewCart page"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Teacher charged with correct subtotal on Student Club and Teacher club items for HST against 'NB' Province in ReviewCart page -->
+  <test name="Teacher charged with correct subtotal on Student Club and Teacher club items for HST against &#039;NS&#039; Province in ReviewCart page">
+    <parameter name="features" value="features/Modules/CA_Regression_Dev35/Review Cart/ReviewCart.feature"/>
+    <parameter name="scenario" value="Teacher charged with correct subtotal on Student Club and Teacher club items for HST against &#039;NS&#039; Province in ReviewCart page"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Teacher charged with correct subtotal on Student Club and Teacher club items for HST against 'NS' Province in ReviewCart page -->
+  <test name="Teacher charged with correct subtotal on Student Club and Teacher club items for HST against &#039;ON&#039; Province in ReviewCart page">
+    <parameter name="features" value="features/Modules/CA_Regression_Dev35/Review Cart/ReviewCart.feature"/>
+    <parameter name="scenario" value="Teacher charged with correct subtotal on Student Club and Teacher club items for HST against &#039;ON&#039; Province in ReviewCart page"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Teacher charged with correct subtotal on Student Club and Teacher club items for HST against 'ON' Province in ReviewCart page -->
+  <test name="Teacher charged with correct subtotal on Student Club and Teacher club items for HST against &#039;PE&#039; Province in ReviewCart page">
+    <parameter name="features" value="features/Modules/CA_Regression_Dev35/Review Cart/ReviewCart.feature"/>
+    <parameter name="scenario" value="Teacher charged with correct subtotal on Student Club and Teacher club items for HST against &#039;PE&#039; Province in ReviewCart page"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Teacher charged with correct subtotal on Student Club and Teacher club items for HST against 'PE' Province in ReviewCart page -->
+  <test name="Teacher charged with correct subtotal for Student &amp; Teacher Club items for GST against &#039;AB&#039; Province in ReviewCart page">
+    <parameter name="features" value="features/Modules/CA_Regression_Dev35/Review Cart/ReviewCart.feature"/>
+    <parameter name="scenario" value="Teacher charged with correct subtotal for Student &amp; Teacher Club items for GST against &#039;AB&#039; Province in ReviewCart page"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Teacher charged with correct subtotal for Student & Teacher Club items for GST against 'AB' Province in ReviewCart page -->
+  <test name="Teacher charged with correct subtotal for Student &amp; Teacher Club items for GST against &#039;NT&#039; Province in ReviewCart page">
+    <parameter name="features" value="features/Modules/CA_Regression_Dev35/Review Cart/ReviewCart.feature"/>
+    <parameter name="scenario" value="Teacher charged with correct subtotal for Student &amp; Teacher Club items for GST against &#039;NT&#039; Province in ReviewCart page"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Teacher charged with correct subtotal for Student & Teacher Club items for GST against 'NT' Province in ReviewCart page -->
+  <test name="Teacher charged with correct subtotal for Student &amp; Teacher Club items for GST against &#039;NU&#039; Province in ReviewCart page">
+    <parameter name="features" value="features/Modules/CA_Regression_Dev35/Review Cart/ReviewCart.feature"/>
+    <parameter name="scenario" value="Teacher charged with correct subtotal for Student &amp; Teacher Club items for GST against &#039;NU&#039; Province in ReviewCart page"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Teacher charged with correct subtotal for Student & Teacher Club items for GST against 'NU' Province in ReviewCart page -->
+  <test name="Teacher charged with correct subtotal for Student &amp; Teacher Club items for GST against &#039;YT&#039; Province in ReviewCart page">
+    <parameter name="features" value="features/Modules/CA_Regression_Dev35/Review Cart/ReviewCart.feature"/>
+    <parameter name="scenario" value="Teacher charged with correct subtotal for Student &amp; Teacher Club items for GST against &#039;YT&#039; Province in ReviewCart page"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Teacher charged with correct subtotal for Student & Teacher Club items for GST against 'YT' Province in ReviewCart page -->
+  <test name="Teacher charged with correct subtotal for Student &amp; Teacher Club items for Tax exempted schools against &#039;AB&#039; Province in ReviewCart page">
+    <parameter name="features" value="features/Modules/CA_Regression_Dev35/Review Cart/ReviewCart.feature"/>
+    <parameter name="scenario" value="Teacher charged with correct subtotal for Student &amp; Teacher Club items for Tax exempted schools against &#039;AB&#039; Province in ReviewCart page"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Teacher charged with correct subtotal for Student & Teacher Club items for Tax exempted schools against 'AB' Province in ReviewCart page -->
+  <test name="Teacher charged with correct subtotal for Student &amp; Teacher Club items for Tax exempted schools against &#039;MB&#039; Province in ReviewCart page">
+    <parameter name="features" value="features/Modules/CA_Regression_Dev35/Review Cart/ReviewCart.feature"/>
+    <parameter name="scenario" value="Teacher charged with correct subtotal for Student &amp; Teacher Club items for Tax exempted schools against &#039;MB&#039; Province in ReviewCart page"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Teacher charged with correct subtotal for Student & Teacher Club items for Tax exempted schools against 'MB' Province in ReviewCart page -->
+  <test name="Teacher edits Qty on Review Cart page">
+    <parameter name="features" value="features/Modules/CA_Regression_Dev35/Review Cart/ReviewCart.feature"/>
+    <parameter name="scenario" value="Teacher edits Qty on Review Cart page"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Teacher edits Qty on Review Cart page -->
+  <test name="Teacher has the ability to click + to increase the Qty of an item on Review Cart page">
+    <parameter name="features" value="features/Modules/CA_Regression_Dev35/Review Cart/ReviewCart.feature"/>
+    <parameter name="scenario" value="Teacher has the ability to click + to increase the Qty of an item on Review Cart page"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Teacher has the ability to click + to increase the Qty of an item on Review Cart page -->
+  <test name="Teacher clicks on - to make the Qty as 0 and delete the item on Review Cart page">
+    <parameter name="features" value="features/Modules/CA_Regression_Dev35/Review Cart/ReviewCart.feature"/>
+    <parameter name="scenario" value="Teacher clicks on - to make the Qty as 0 and delete the item on Review Cart page"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Teacher clicks on - to make the Qty as 0 and delete the item on Review Cart page -->
+  <test name="Items grouped by Teacher club when teacher creates order with more than one Teacher Club">
+    <parameter name="features" value="features/Modules/CA_Regression_Dev35/Review Cart/ReviewCart.feature"/>
+    <parameter name="scenario" value="Items grouped by Teacher club when teacher creates order with more than one Teacher Club"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Items grouped by Teacher club when teacher creates order with more than one Teacher Club -->
+  <test name="Teacher charged with correct subtotal on Student Club items for GST &amp; PST">
+    <parameter name="features" value="features/Modules/CA_Regression_Dev35/Review Cart/ReviewCart.feature"/>
+    <parameter name="scenario" value="Teacher charged with correct subtotal on Student Club items for GST &amp; PST"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Teacher charged with correct subtotal on Student Club items for GST & PST -->
+  <test name="Teacher charged with correct subtotal on Teacher club  items for GST &amp; PST">
+    <parameter name="features" value="features/Modules/CA_Regression_Dev35/Review Cart/ReviewCart.feature"/>
+    <parameter name="scenario" value="Teacher charged with correct subtotal on Teacher club  items for GST &amp; PST"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Teacher charged with correct subtotal on Teacher club  items for GST & PST -->
+  <test name="Teacher charged with correct subtotal on Teacher club items for GST &amp; QST in Review Cart page">
+    <parameter name="features" value="features/Modules/CA_Regression_Dev35/Review Cart/ReviewCart.feature"/>
+    <parameter name="scenario" value="Teacher charged with correct subtotal on Teacher club items for GST &amp; QST in Review Cart page"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Teacher charged with correct subtotal on Teacher club items for GST & QST in Review Cart page -->
+  <test name="Teacher charged with correct subtotal on Student club items for GST &amp; QST in Review Cart page">
+    <parameter name="features" value="features/Modules/CA_Regression_Dev35/Review Cart/ReviewCart.feature"/>
+    <parameter name="scenario" value="Teacher charged with correct subtotal on Student club items for GST &amp; QST in Review Cart page"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Teacher charged with correct subtotal on Student club items for GST & QST in Review Cart page -->
+  <test name="Teacher charged with correct subtotal on Student Club items for HST">
+    <parameter name="features" value="features/Modules/CA_Regression_Dev35/Review Cart/ReviewCart.feature"/>
+    <parameter name="scenario" value="Teacher charged with correct subtotal on Student Club items for HST"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Teacher charged with correct subtotal on Student Club items for HST -->
+  <test name="Teacher charged with correct subtotal on Teacher Club items for HST">
+    <parameter name="features" value="features/Modules/CA_Regression_Dev35/Review Cart/ReviewCart.feature"/>
+    <parameter name="scenario" value="Teacher charged with correct subtotal on Teacher Club items for HST"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Teacher charged with correct subtotal on Teacher Club items for HST -->
+  <test name="Teacher charged with correct subtotal for Student Club items for GST">
+    <parameter name="features" value="features/Modules/CA_Regression_Dev35/Review Cart/ReviewCart.feature"/>
+    <parameter name="scenario" value="Teacher charged with correct subtotal for Student Club items for GST"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Teacher charged with correct subtotal for Student Club items for GST -->
+  <test name="Teacher charged with correct subtotal on Teacher Club items for GST">
+    <parameter name="features" value="features/Modules/CA_Regression_Dev35/Review Cart/ReviewCart.feature"/>
+    <parameter name="scenario" value="Teacher charged with correct subtotal on Teacher Club items for GST"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Teacher charged with correct subtotal on Teacher Club items for GST -->
+  <test name="Teacher edits Student Name on Review Cart page">
+    <parameter name="features" value="features/Modules/CA_Regression_Dev35/Review Cart/ReviewCart.feature"/>
+    <parameter name="scenario" value="Teacher edits Student Name on Review Cart page"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Teacher edits Student Name on Review Cart page -->
+  <test name="Teacher has the ability to decrease the quantity of an item by clicking on - on Review Cart page">
+    <parameter name="features" value="features/Modules/CA_Regression_Dev35/Review Cart/ReviewCart.feature"/>
+    <parameter name="scenario" value="Teacher has the ability to decrease the quantity of an item by clicking on - on Review Cart page"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Teacher has the ability to decrease the quantity of an item by clicking on - on Review Cart page -->
+  <test name="Teacher can delete item by updating Qty to 0 on Review Cart page">
+    <parameter name="features" value="features/Modules/CA_Regression_Dev35/Review Cart/ReviewCart.feature"/>
+    <parameter name="scenario" value="Teacher can delete item by updating Qty to 0 on Review Cart page"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Teacher can delete item by updating Qty to 0 on Review Cart page -->
+  <test name="Teacher views empty cart message when no items added">
+    <parameter name="features" value="features/Modules/CA_Regression_Dev35/Review Cart/ReviewCart.feature"/>
+    <parameter name="scenario" value="Teacher views empty cart message when no items added"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Teacher views empty cart message when no items added -->
+  <test name="Teacher Clicks Enter Orders and lands on YTO page">
+    <parameter name="features" value="features/Modules/CA_Regression_Dev35/Review Cart/ReviewCart.feature"/>
+    <parameter name="scenario" value="Teacher Clicks Enter Orders and lands on YTO page"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Teacher Clicks Enter Orders and lands on YTO page -->
+  <test name="Teacher Clicks Shop books and Resources and lands on shop books and resources page">
+    <parameter name="features" value="features/Modules/CA_Regression_Dev35/Review Cart/ReviewCart.feature"/>
+    <parameter name="scenario" value="Teacher Clicks Shop books and Resources and lands on shop books and resources page"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Teacher Clicks Shop books and Resources and lands on shop books and resources page -->
+  <test name="Teacher adding items with Student Name and without Qty are not carried over to Review Cart page">
+    <parameter name="features" value="features/Modules/CA_Regression_Dev35/Review Cart/ReviewCart.feature"/>
+    <parameter name="scenario" value="Teacher adding items with Student Name and without Qty are not carried over to Review Cart page"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Teacher adding items with Student Name and without Qty are not carried over to Review Cart page -->
+  <test name="Items grouped by Student club when teacher saves cart for later with more than one Student Club same month">
+    <parameter name="features" value="features/Modules/CA_Regression_Dev35/Review Cart/SavedCart.feature"/>
+    <parameter name="scenario" value="Items grouped by Student club when teacher saves cart for later with more than one Student Club same month"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Items grouped by Student club when teacher saves cart for later with more than one Student Club same month -->
+  <test name="Items grouped by teacher club when teacher saves cart for later with more than one teacher club">
+    <parameter name="features" value="features/Modules/CA_Regression_Dev35/Review Cart/SavedCart.feature"/>
+    <parameter name="scenario" value="Items grouped by teacher club when teacher saves cart for later with more than one teacher club"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Items grouped by teacher club when teacher saves cart for later with more than one teacher club -->
+  <test name="Subtotals, Qty and totals displayed correctly when teacher saves cart for later with Student Club">
+    <parameter name="features" value="features/Modules/CA_Regression_Dev35/Review Cart/SavedCart.feature"/>
+    <parameter name="scenario" value="Subtotals, Qty and totals displayed correctly when teacher saves cart for later with Student Club"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Subtotals, Qty and totals displayed correctly when teacher saves cart for later with Student Club -->
+  <test name="Subtotals, Qty and totals displayed correctly when teacher saves cart for later with teacher Club">
+    <parameter name="features" value="features/Modules/CA_Regression_Dev35/Review Cart/SavedCart.feature"/>
+    <parameter name="scenario" value="Subtotals, Qty and totals displayed correctly when teacher saves cart for later with teacher Club"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Subtotals, Qty and totals displayed correctly when teacher saves cart for later with teacher Club -->
+  <test name="Teacher clicks on No on delete confirmation modal for saved cart">
+    <parameter name="features" value="features/Modules/CA_Regression_Dev35/Review Cart/SavedCart.feature"/>
+    <parameter name="scenario" value="Teacher clicks on No on delete confirmation modal for saved cart"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Teacher clicks on No on delete confirmation modal for saved cart -->
+  <test name="Teacher can restore cart">
+    <parameter name="features" value="features/Modules/CA_Regression_Dev35/Review Cart/SavedCart.feature"/>
+    <parameter name="scenario" value="Teacher can restore cart"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Teacher can restore cart -->
+  <test name="Teacher can view saved cart from Manage saved carts page">
+    <parameter name="features" value="features/Modules/CA_Regression_Dev35/Review Cart/SavedCart.feature"/>
+    <parameter name="scenario" value="Teacher can view saved cart from Manage saved carts page"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Teacher can view saved cart from Manage saved carts page -->
+  <test name="Teacher can delete a saved cart from Manage saved carts page">
+    <parameter name="features" value="features/Modules/CA_Regression_Dev35/Review Cart/SavedCart.feature"/>
+    <parameter name="scenario" value="Teacher can delete a saved cart from Manage saved carts page"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Teacher can delete a saved cart from Manage saved carts page -->
+  <test name="Teacher clicks on Close on delete confirmation modal of saved cart">
+    <parameter name="features" value="features/Modules/CA_Regression_Dev35/Review Cart/SavedCart.feature"/>
+    <parameter name="scenario" value="Teacher clicks on Close on delete confirmation modal of saved cart"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Teacher clicks on Close on delete confirmation modal of saved cart -->
+  <test name="Teacher can return to manage saved carts from a saved cart page">
+    <parameter name="features" value="features/Modules/CA_Regression_Dev35/Review Cart/SavedCart.feature"/>
+    <parameter name="scenario" value="Teacher can return to manage saved carts from a saved cart page"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Teacher can return to manage saved carts from a saved cart page -->
+  <test name="Teacher updates the quantity of item in save card, updated quantity should be reflected">
+    <parameter name="features" value="features/Modules/CA_Regression_Dev35/Review Cart/SavedCart.feature"/>
+    <parameter name="scenario" value="Teacher updates the quantity of item in save card, updated quantity should be reflected"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Teacher updates the quantity of item in save card, updated quantity should be reflected -->
+  <test name="As a teacher, I should see correct line item label for student clubs total and teacher catalogues total in all checkout pages">
+    <parameter name="features" value="features/Modules/CA_Regression_Dev35/Review Cart/Story3699_ItemLabel.feature"/>
+    <parameter name="scenario" value="As a teacher, I should see correct line item label for student clubs total and teacher catalogues total in all checkout pages"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- As a teacher, I should see correct line item label for student clubs total and teacher catalogues total in all checkout pages -->
+  <test name="As a teacher, I should see correct line item label for student clubs total and teacher club total in order history">
+    <parameter name="features" value="features/Modules/CA_Regression_Dev35/Review Cart/Story3699_ItemLabel.feature"/>
+    <parameter name="scenario" value="As a teacher, I should see correct line item label for student clubs total and teacher club total in order history"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- As a teacher, I should see correct line item label for student clubs total and teacher club total in order history -->
+</suite> <!-- Demandware -->

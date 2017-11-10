@@ -1,0 +1,93 @@
+<testdata>
+
+
+<!--##################################################################################################################################################    
+##################################################################################################################################################    
+###########################################   							             #############################################################   
+###########################################    STORY - 3699 LINE ITEM LABELS         #############################################################
+###########################################   							             #############################################################        
+##################################################################################################################################################        
+##################################################################################################################################################-->
+
+
+
+
+<testcase id="Sprint_11.3:dev35:TeacherOrder_StudentTeacherClubs_Label_Checkout">
+		<userid>4706109</userid>
+		<password>passw0rd</password>
+		<sname1>Manu</sname1>
+		<sname2>Rocky</sname2>
+		<sname3>Johnson</sname3>
+		<qty1>4</qty1>
+		<qty2>1</qty2>
+		<qty3>7</qty3>
+		<default>yes</default>
+		<numberofstudents>1</numberofstudents>
+	<noofstudents>5</noofstudents>
+	</testcase>
+	
+	
+	
+	
+<testcase id="Sprint_11.3:dev35:TeacherOrder_StudentTeacherClubs_Label_OrderHistory">
+		<userid>4746353</userid>
+		<password>passw0rd</password>
+		<sname1>Manu</sname1>
+		<sname2>Rocky</sname2>
+		<sname3>Johnson</sname3>
+		<qty1>4</qty1>
+		<qty2>1</qty2>
+		<qty3>7</qty3>
+		<default>yes</default>
+		<numberofstudents>1</numberofstudents>
+	<noofstudents>5</noofstudents>
+	</testcase>
+	
+	
+	
+<!-- ##################################################################################################################################################    
+##################################################################################################################################################    
+###########################################   							             #############################################################   
+###########################################    STORY - 3919 SEARCH RESULTS           #############################################################
+###########################################   							             #############################################################        
+##################################################################################################################################################        
+################################################################################################################################################## -->
+
+<testcase id="Sprint_11.3:dev35:Search_NoResult" description="No Search Result">
+		<userid>4755172</userid>
+		<password>passw0rd</password>
+		<removeCartFlag>true</removeCartFlag>
+		<nitemName>satts</nitemName>
+
+
+	</testcase>
+
+
+
+	<testcase id="Sprint_11.3:dev35:Search_NoResult_fromSearchResultPage"		description="No Search Result">
+		<userid>4773249</userid>
+		<password>passw0rd</password>
+		<itemName>books</itemName>
+		<removeCartFlag>true</removeCartFlag>
+		<prodcount>15</prodcount>
+		<nitemName>NSatts</nitemName>
+
+
+	</testcase>
+	
+	
+	<testcase id="Sprint_11.3:dev35:Search_NoResult_AgainSearchPage"		description="No Search Result">
+		<userid>4793809</userid>
+		<password>passw0rd</password>
+		<itemName>books</itemName>
+		<removeCartFlag>true</removeCartFlag>
+		<prodcount>15</prodcount>
+		<nitemName>NSatts</nitemName>
+
+	</testcase>
+	
+	
+	
+
+
+</testdata>	

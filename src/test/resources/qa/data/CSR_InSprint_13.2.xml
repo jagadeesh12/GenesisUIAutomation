@@ -1,0 +1,174 @@
+<testdata>
+	
+	<testcase id="Hyperlink_in_SearchResultsPage">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>226367</AcNum>
+	</testcase>
+	
+	<testcase id="CSR_redirects_to_LocateAccount_page">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>226523</AcNum>
+	</testcase>
+	
+	<testcase id="TeacherName_Hyperlink_in_SearchResultsPage">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<Fname>Siva</Fname>
+  		<Lname>Devineni</Lname>
+	</testcase>
+	
+	<testcase id="CSR_redirects_to_LocateAccount_page_TeacherName">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<Fname>Siva</Fname>
+  		<Lname>Devineni</Lname>
+	</testcase>
+	
+	<testcase id="CSR_LocateCustomer_Account_section">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+	</testcase>
+	
+	<testcase id="CSR_enters_10_integers">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>1234567890</AcNum>
+	</testcase>
+	
+	<testcase id="CSR_enters_11_integers">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>12345678901</AcNum>
+	</testcase>
+	
+	<testcase id="CSR_enters_alphabets">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>abcdefg</AcNum>
+	</testcase>
+	
+	<testcase id="CSR_enters_special_chars">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>&amp;&quot;&amp;</AcNum>
+	</testcase>
+	
+	<testcase id="Search_btn_disabled">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+	</testcase>
+	
+	<testcase id="Blue_step_script_icon_displays_LocateAccount_page">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+	</testcase>
+	
+	<testcase id="Blue_step_script_icon_modalWindow_LocateAccount_page">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+	</testcase>
+	
+	<testcase id="Blue_step_script_icon_modalWindow_disappeared_LocateAccount_page">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+	</testcase>
+	
+	<testcase id="SearchResults_Locate_Account_tab_highlights">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>226630</AcNum>
+	</testcase>
+	
+	<testcase id="SearchResults_Number_for_the_Locate_Account_tab">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>226713</AcNum>
+	</testcase>
+	
+	<testcase id="Locate_Account_tab_highlights">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+	</testcase>
+	
+	<testcase id="Number_for_the_Locate_Account_tab">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+	</testcase>
+	
+	<testcase id="SchoolAddress_Hyperlink_in_SearchResultsPage">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<SchoolName>Avalon</SchoolName>
+	</testcase>
+	
+	<testcase id="CSR_redirects_to_LocateAccount_page_SchoolAddress">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<SchoolName>Avalon</SchoolName>
+	</testcase>
+	
+	<testcase id="Blue_step_script_icon_displays_SearchResults_page">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>226721</AcNum>
+	</testcase>
+	
+	<testcase id="Blue_step_script_icon_modalWindow_SearchResults_page">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>226763</AcNum>
+	</testcase>
+	
+	<testcase id="Blue_step_script_icon_modalWindow_disappeared_SearchResults_page">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>226789</AcNum>
+	</testcase>
+	
+	<testcase id="Search_results_SchoolNotInSystem">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>226820</AcNum>
+	</testcase>
+	
+	<testcase id="Search_results_SchoolNotInSystem_OnClick">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>227208</AcNum>
+	</testcase>
+	
+	<testcase id="Search_results_SchoolNotInSystem_OnClick_CloseButton">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>227307</AcNum>
+	</testcase>
+	
+	<testcase id="Payment_Account_Hold_Status_radio_btns">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>424870</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>2</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>1</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>1</ItemQty3>
+	</testcase>
+	
+	<testcase id="Payment_radio_btns_not_selected">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>425092</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>2</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>1</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>1</ItemQty3>
+	</testcase>
+	
+</testdata>

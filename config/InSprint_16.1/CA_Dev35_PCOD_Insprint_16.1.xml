@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+    <suite thread-count="25" guice-stage="DEVELOPMENT" verbose="0" name="CA_PCOD_Insprint_13.1" parallel="tests">
+      <parameter name="remote.driver.url" value="http://sereti_qe:b9b8a9e1-e525-46af-9c7f-4a11c372b5c5@ondemand.saucelabs.com:80/wd/hub"/>
+      <parameter name="tdm.data" value="off"/>
+      <parameter name="glue" value="com.dw.automation.steps"/>
+      <parameter name="sauce" value="true"/>
+
+  <test name="Teacher tries to enter more than 150 characters in Online note">
+    <parameter name="features" value="features/InSprintFeatures/InSprint_16.2_PCOD/DWCAPCOD-156.feature"/>
+    <parameter name="scenario" value="Teacher tries to enter more than 150 characters in Online note"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;57.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;,&#039;maxDuration&#039;:&#039;10800&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Teacher tries to enter more than 150 characters in Online note -->
+  <test name="Teacher deletes the default online note">
+    <parameter name="features" value="features/InSprintFeatures/InSprint_16.2_PCOD/DWCAPCOD-156.feature"/>
+    <parameter name="scenario" value="Teacher deletes the default online note"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;57.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;,&#039;maxDuration&#039;:&#039;10800&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Teacher deletes the default online note -->
+  <test name="Teacher can enter a max of 30 characters in the name on Online Note modal">
+    <parameter name="features" value="features/InSprintFeatures/InSprint_16.2_PCOD/DWCAPCOD-156.feature"/>
+    <parameter name="scenario" value="Teacher can enter a max of 30 characters in the name on Online Note modal"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;57.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;,&#039;maxDuration&#039;:&#039;10800&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Teacher can enter a max of 30 characters in the name on Online Note modal -->
+  <test name="Teacher edits salutation and display name on Online Note modal">
+    <parameter name="features" value="features/InSprintFeatures/InSprint_16.2_PCOD/DWCAPCOD-156.feature"/>
+    <parameter name="scenario" value="Teacher edits salutation and display name on Online Note modal"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;57.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;,&#039;maxDuration&#039;:&#039;10800&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Teacher edits salutation and display name on Online Note modal -->
+  <test name="Online Note section on Teachers Desk">
+    <parameter name="features" value="features/InSprintFeatures/InSprint_16.2_PCOD/DWCAPCOD-156.feature"/>
+    <parameter name="scenario" value="Online Note section on Teachers Desk"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;57.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;,&#039;maxDuration&#039;:&#039;10800&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Online Note section on Teachers Desk -->
+  <test name="Teacher edits the default welcome note and clicks on Save">
+    <parameter name="features" value="features/InSprintFeatures/InSprint_16.2_PCOD/DWCAPCOD-156.feature"/>
+    <parameter name="scenario" value="Teacher edits the default welcome note and clicks on Save"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;57.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;,&#039;maxDuration&#039;:&#039;10800&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Teacher edits the default welcome note and clicks on Save -->
+  <test name="Teacher edits the default welcome note and clicks on Cancel">
+    <parameter name="features" value="features/InSprintFeatures/InSprint_16.2_PCOD/DWCAPCOD-156.feature"/>
+    <parameter name="scenario" value="Teacher edits the default welcome note and clicks on Cancel"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;57.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;,&#039;maxDuration&#039;:&#039;10800&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Teacher edits the default welcome note and clicks on Cancel -->
+  <test name="Teacher edits the default welcome note and clicks on Close">
+    <parameter name="features" value="features/InSprintFeatures/InSprint_16.2_PCOD/DWCAPCOD-156.feature"/>
+    <parameter name="scenario" value="Teacher edits the default welcome note and clicks on Close"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;57.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;,&#039;maxDuration&#039;:&#039;10800&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Teacher edits the default welcome note and clicks on Close -->
+  <test name="Salutation values for Teacher">
+    <parameter name="features" value="features/InSprintFeatures/InSprint_16.2_PCOD/DWCAPCOD-156.feature"/>
+    <parameter name="scenario" value="Salutation values for Teacher"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;57.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;,&#039;maxDuration&#039;:&#039;10800&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Salutation values for Teacher -->
+    <test name="Default due date when teacher does not set a due date">
+    <parameter name="features" value="features/InSprintFeatures/InSprint_16.1_PCOD/DWCAPCOD-158.feature"/>
+    <parameter name="scenario" value="Default due date when teacher does not set a due date"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+    </test> <!-- Default due date when teacher does not set a due date -->
+    <test name="Teacher clicks on edit due date">
+    <parameter name="features" value="features/InSprintFeatures/InSprint_16.1_PCOD/DWCAPCOD-158.feature"/>
+    <parameter name="scenario" value="Teacher clicks on edit due date"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+    </test> <!-- Teacher clicks on edit due date -->
+    <test name="Teacher selects a due date from Order Due Date section">
+    <parameter name="features" value="features/InSprintFeatures/InSprint_16.1_PCOD/DWCAPCOD-158.feature"/>
+    <parameter name="scenario" value="Teacher selects a due date from Order Due Date section"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+    </test> <!-- Teacher selects a due date from Order Due Date section -->
+    <test name="Teacher clicks on Send Reminder in Order Due Date section">
+    <parameter name="features" value="features/InSprintFeatures/InSprint_16.1_PCOD/DWCAPCOD-158.feature"/>
+    <parameter name="scenario" value="Teacher clicks on Send Reminder in Order Due Date section"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+    </test> <!-- Teacher clicks on Send Reminder in Order Due Date section -->
+    <test name="Teacher selects a due date from Order Due Date section from French">
+    <parameter name="features" value="features/InSprintFeatures/InSprint_16.1_PCOD/DWCAPCOD-158.feature"/>
+    <parameter name="scenario" value="Teacher selects a due date from Order Due Date section from French"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+    </test> <!-- Teacher selects a due date from Order Due Date section from French -->
+    <test name="Parent clicks on Remove link next to Child info on My Account page">
+    <parameter name="features" value="features/InSprintFeatures/InSprint_16.1_PCOD/DWCAPCOD-65.feature"/>
+    <parameter name="scenario" value="Parent clicks on Remove link next to Child info on My Account page"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+    </test> <!-- Parent clicks on Remove link next to Child info on My Account page -->
+    <test name="Parent deletes child from My Account page">
+    <parameter name="features" value="features/InSprintFeatures/InSprint_16.1_PCOD/DWCAPCOD-65.feature"/>
+    <parameter name="scenario" value="Parent deletes child from My Account page"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+    </test> <!-- &lt;!&ndash; Parent deletes child from My Account page &ndash;&gt;-->
+    <test name="Parent Clicks Remove &amp; &quot;No&quot; option for a child from My Account page">
+    <parameter name="features" value="features/InSprintFeatures/InSprint_16.1_PCOD/DWCAPCOD-65.feature"/>
+    <parameter name="scenario" value="Parent Clicks Remove &amp; &quot;No&quot; option for a child from My Account page"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+    </test> <!-- Parent Clicks Remove & "No" option for a child from My Account page -->
+    <test name="Items in cart reassigned when the child is deleted">
+    <parameter name="features" value="features/InSprintFeatures/InSprint_16.1_PCOD/DWCAPCOD-65.feature"/>
+    <parameter name="scenario" value="Items in cart reassigned when the child is deleted"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+    </test> <!-- Items in cart reassigned when the child is deleted -->
+    <test name="Parent view child information on My account page for parent with no child">
+    <parameter name="features" value="features/InSprintFeatures/InSprint_16.1_PCOD/DWCAPCOD-82.feature"/>
+    <parameter name="scenario" value="Parent view child information on My account page for parent with no child"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+    </test> <!-- Parent view child information on My account page for parent with no child -->
+    <test name="Parent view the connected child information on My account page">
+    <parameter name="features" value="features/InSprintFeatures/InSprint_16.1_PCOD/DWCAPCOD-82.feature"/>
+    <parameter name="scenario" value="Parent view the connected child information on My account page"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+    </test> <!-- Parent view the connected child information on My account page -->
+    <test name="Parent views the information of a child not connected to teacher on My account page">
+    <parameter name="features" value="features/InSprintFeatures/InSprint_16.1_PCOD/DWCAPCOD-82.feature"/>
+    <parameter name="scenario" value="Parent views the information of a child not connected to teacher on My account page"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+    </test> <!-- Parent views the information of a child not connected to teacher on My account page -->
+            </suite> <!-- Demandware -->

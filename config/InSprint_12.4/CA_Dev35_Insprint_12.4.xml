@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" verbose="0" name="CA_Dev35_Insprint_12.3" parallel="tests">
+  <parameter name="remote.driver.url" value="http://sereti_qe:b9b8a9e1-e525-46af-9c7f-4a11c372b5c5@ondemand.saucelabs.com:80/wd/hub"/>
+  <parameter name="tdm.data" value="off"/>
+  <parameter name="glue" value="com.dw.automation.steps"/>
+  <parameter name="sauce" value="true"/>
+  
+   <test name="Teacher applies Free shipping coupon and adds more items to cart making the cart qualifying for automatic free promotion">
+    <parameter name="features" value="features/InSprint_12.4/CA_InSprint_12.4_TCOD.feature"/>
+    <parameter name="scenario" value="Teacher applies Free shipping coupon and adds more items to cart making the cart qualifying for automatic free promotion"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Teacher applies Free shipping coupon and adds more items to cart making the cart qualifying for automatic free promotion -->
+</suite> <!-- Demandware -->

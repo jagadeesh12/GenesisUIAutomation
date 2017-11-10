@@ -1,0 +1,688 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="10" guice-stage="DEVELOPMENT" verbose="0" name="Demandware" parallel="tests">
+  <parameter name="remote.driver.url" value="http://sereti_qe:b9b8a9e1-e525-46af-9c7f-4a11c372b5c5@ondemand.saucelabs.com:80/wd/hub"/>
+  <parameter name="tdm.data" value="off"/>
+  <parameter name="glue" value="com.dw.automation.steps"/>
+  <parameter name="sauce" value="true"/>
+  
+  <test name="CSR can apply coupon on  a cart with qualifying minimum amount on Teacher Catalogue orders to receive free shipping">
+    <parameter name="features" value="features/InSprint_12.4/DW_CA_CS_FreeShipping_787.feature"/>
+    <parameter name="scenario" value="CSR can apply coupon on  a cart with qualifying minimum amount on Teacher Catalogue orders to receive free shipping"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- CSR can apply coupon on  a cart with qualifying minimum amount on Teacher Catalogue orders to receive free shipping -->
+  <test name="CSR can apply coupon on  a cart with qualifying minimum amount on Student Club orders to receive free shipping">
+    <parameter name="features" value="features/InSprint_12.4/DW_CA_CS_FreeShipping_787.feature"/>
+    <parameter name="scenario" value="CSR can apply coupon on  a cart with qualifying minimum amount on Student Club orders to receive free shipping"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- CSR can apply coupon on  a cart with qualifying minimum amount on Student Club orders to receive free shipping -->
+  <test name="CSR can apply coupon on  a cart with qualifying minimum amount on Teacher and Student Club orders to receive free shipping">
+    <parameter name="features" value="features/InSprint_12.4/DW_CA_CS_FreeShipping_787.feature"/>
+    <parameter name="scenario" value="CSR can apply coupon on  a cart with qualifying minimum amount on Teacher and Student Club orders to receive free shipping"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- CSR can apply coupon on  a cart with qualifying minimum amount on Teacher and Student Club orders to receive free shipping -->
+  <test name="CSR applies Shipping coupon and deletes items from cart making cart non-qualifying resulting in coupon being removed">
+    <parameter name="features" value="features/InSprint_12.4/DW_CA_CS_FreeShipping_787.feature"/>
+    <parameter name="scenario" value="CSR applies Shipping coupon and deletes items from cart making cart non-qualifying resulting in coupon being removed"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- CSR applies Shipping coupon and deletes items from cart making cart non-qualifying resulting in coupon being removed -->
+  <test name="CSR cannot apply Free Shipping coupon on a cart which does not meet minimum amount">
+    <parameter name="features" value="features/InSprint_12.4/DW_CA_CS_FreeShipping_787.feature"/>
+    <parameter name="scenario" value="CSR cannot apply Free Shipping coupon on a cart which does not meet minimum amount"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- CSR cannot apply Free Shipping coupon on a cart which does not meet minimum amount -->
+  <test name="CSR can still apply Free Shipping coupon if redemptions from Student Bonus and paper coupon makes the cart non-qualifying">
+    <parameter name="features" value="features/InSprint_12.4/DW_CA_CS_FreeShipping_787.feature"/>
+    <parameter name="scenario" value="CSR can still apply Free Shipping coupon if redemptions from Student Bonus and paper coupon makes the cart non-qualifying"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- CSR can still apply Free Shipping coupon if redemptions from Student Bonus and paper coupon makes the cart non-qualifying -->
+  <test name="CSR can still apply Free Shipping coupon if redemptions from Student Bonus coupon makes the cart non-qualifying">
+    <parameter name="features" value="features/InSprint_12.4/DW_CA_CS_FreeShipping_787.feature"/>
+    <parameter name="scenario" value="CSR can still apply Free Shipping coupon if redemptions from Student Bonus coupon makes the cart non-qualifying"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- CSR can still apply Free Shipping coupon if redemptions from Student Bonus coupon makes the cart non-qualifying -->
+  <test name="CSR can still apply Free Shipping coupon if redemptions from Student Paper coupon makes the cart non-qualifying">
+    <parameter name="features" value="features/InSprint_12.4/DW_CA_CS_FreeShipping_787.feature"/>
+    <parameter name="scenario" value="CSR can still apply Free Shipping coupon if redemptions from Student Paper coupon makes the cart non-qualifying"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- CSR can still apply Free Shipping coupon if redemptions from Student Paper coupon makes the cart non-qualifying -->
+  <test name="CSR can still apply Free Shipping coupon if redemptions from Teacher Bonus coupon makes the cart non-qualifying">
+    <parameter name="features" value="features/InSprint_12.4/DW_CA_CS_FreeShipping_787.feature"/>
+    <parameter name="scenario" value="CSR can still apply Free Shipping coupon if redemptions from Teacher Bonus coupon makes the cart non-qualifying"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- CSR can still apply Free Shipping coupon if redemptions from Teacher Bonus coupon makes the cart non-qualifying -->
+  <test name="CSR can still apply Free Shipping coupon if redemptions from Teacher Paper coupon makes the cart non-qualifying">
+    <parameter name="features" value="features/InSprint_12.4/DW_CA_CS_FreeShipping_787.feature"/>
+    <parameter name="scenario" value="CSR can still apply Free Shipping coupon if redemptions from Teacher Paper coupon makes the cart non-qualifying"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- CSR can still apply Free Shipping coupon if redemptions from Teacher Paper coupon makes the cart non-qualifying -->
+  <test name="CSR can still apply Free Shipping coupon if redemptions from Teacher Bonus and paper coupon makes the cart non-qualifying">
+    <parameter name="features" value="features/InSprint_12.4/DW_CA_CS_FreeShipping_787.feature"/>
+    <parameter name="scenario" value="CSR can still apply Free Shipping coupon if redemptions from Teacher Bonus and paper coupon makes the cart non-qualifying"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- CSR can still apply Free Shipping coupon if redemptions from Teacher Bonus and paper coupon makes the cart non-qualifying -->
+  
+  <test name="CSR can apply a deleted coupon again">
+    <parameter name="features" value="features/InSprint_12.4/DW_CA_CS_FreeShipping_787.feature"/>
+    <parameter name="scenario" value="CSR can apply a deleted coupon again"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- CSR can apply a deleted coupon again -->
+  <test name="CSR click on delete and No option does not delete the coupon">
+    <parameter name="features" value="features/InSprint_12.4/DW_CA_CS_FreeShipping_787.feature"/>
+    <parameter name="scenario" value="CSR click on delete and No option does not delete the coupon"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- CSR click on delete and No option does not delete the coupon -->
+  <test name="CSR cannot apply already redeemed coupon">
+    <parameter name="features" value="features/InSprint_12.4/DW_CA_CS_FreeShipping_787.feature"/>
+    <parameter name="scenario" value="CSR cannot apply already redeemed coupon"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- CSR cannot apply already redeemed coupon -->
+  <test name="CSR cannot apply Free Shipping coupon on a Free shipping cart">
+    <parameter name="features" value="features/InSprint_12.4/DW_CA_CS_FreeShipping_787.feature"/>
+    <parameter name="scenario" value="CSR cannot apply Free Shipping coupon on a Free shipping cart"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- CSR cannot apply Free Shipping coupon on a Free shipping cart -->
+  
+  <test name="Payment tab highlights when CSR clicks on Continue Checkout in Redeem and Rewards page">
+    <parameter name="features" value="features/InSprint_12.4/DW_CA_CS_Payment_PageFramework_300.feature"/>
+    <parameter name="scenario" value="Payment tab highlights when CSR clicks on Continue Checkout in Redeem and Rewards page"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Payment tab highlights when CSR clicks on Continue Checkout in Redeem and Rewards page -->
+  <test name="Continue Checkout button disabled in Payment page when CSR clicks on Continue Checkout in Redeem and Rewards page">
+    <parameter name="features" value="features/InSprint_12.4/DW_CA_CS_Payment_PageFramework_300.feature"/>
+    <parameter name="scenario" value="Continue Checkout button disabled in Payment page when CSR clicks on Continue Checkout in Redeem and Rewards page"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Continue Checkout button disabled in Payment page when CSR clicks on Continue Checkout in Redeem and Rewards page -->
+  <test name="Payment method and alternate shipping address displays when CSR clicks on Continue Checkout in Redeem and Rewards page">
+    <parameter name="features" value="features/InSprint_12.4/DW_CA_CS_Payment_PageFramework_300.feature"/>
+    <parameter name="scenario" value="Payment method and alternate shipping address displays when CSR clicks on Continue Checkout in Redeem and Rewards page"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Payment method and alternate shipping address displays when CSR clicks on Continue Checkout in Redeem and Rewards page -->
+  
+  <test name="PAYMENT tab highlights in the step indicator when CSR enters into the Payment page">
+    <parameter name="features" value="features/InSprint_12.4/DW_CA_CS_Payment_StepHeader.feature"/>
+    <parameter name="scenario" value="PAYMENT tab highlights in the step indicator when CSR enters into the Payment page"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- PAYMENT tab highlights in the step indicator when CSR enters into the Payment page -->
+  <test name="Number of the PAYMENT page displays in a bubble containing step header">
+    <parameter name="features" value="features/InSprint_12.4/DW_CA_CS_Payment_StepHeader.feature"/>
+    <parameter name="scenario" value="Number of the PAYMENT page displays in a bubble containing step header"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Number of the PAYMENT page displays in a bubble containing step header -->
+  
+  <test name="CSR charged with correct subtotal on Student Club &amp; Teacher club  items for GST &amp; PST without redemptions in Payment page">
+    <parameter name="features" value="features/InSprint_12.4/ParallelRun_DW_CA_CS_PaymentOrderSummary.feature"/>
+    <parameter name="scenario" value="CSR charged with correct subtotal on Student Club &amp; Teacher club  items for GST &amp; PST without redemptions in Payment page"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- CSR charged with correct subtotal on Student Club & Teacher club  items for GST & PST without redemptions in Payment page -->
+  <test name="CSR charged with correct subtotal on Student Club &amp; Teacher club  items for GST &amp; PST with student redemptions in Payment page">
+    <parameter name="features" value="features/InSprint_12.4/ParallelRun_DW_CA_CS_PaymentOrderSummary.feature"/>
+    <parameter name="scenario" value="CSR charged with correct subtotal on Student Club &amp; Teacher club  items for GST &amp; PST with student redemptions in Payment page"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- CSR charged with correct subtotal on Student Club & Teacher club  items for GST & PST with student redemptions in Payment page -->
+  <test name="CSR charged with correct subtotal on Student Club &amp; Teacher club  items for GST &amp; PST with teacher redemptions in Payment page">
+    <parameter name="features" value="features/InSprint_12.4/ParallelRun_DW_CA_CS_PaymentOrderSummary.feature"/>
+    <parameter name="scenario" value="CSR charged with correct subtotal on Student Club &amp; Teacher club  items for GST &amp; PST with teacher redemptions in Payment page"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- CSR charged with correct subtotal on Student Club & Teacher club  items for GST & PST with teacher redemptions in Payment page -->
+  <test name="CSR charged with correct subtotal on Student Club &amp; Teacher club  items for GST &amp; PST with student&amp;Teacher redemptions in Payment page">
+    <parameter name="features" value="features/InSprint_12.4/ParallelRun_DW_CA_CS_PaymentOrderSummary.feature"/>
+    <parameter name="scenario" value="CSR charged with correct subtotal on Student Club &amp; Teacher club  items for GST &amp; PST with student&amp;Teacher redemptions in Payment page"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- CSR charged with correct subtotal on Student Club & Teacher club  items for GST & PST with student&Teacher redemptions in Payment page -->
+  <test name="CSR charged with correct subtotal on Student and Teacher club items for GST &amp; QST without redemptions against &#039;QC&#039; Province in Payment page">
+    <parameter name="features" value="features/InSprint_12.4/ParallelRun_DW_CA_CS_PaymentOrderSummary.feature"/>
+    <parameter name="scenario" value="CSR charged with correct subtotal on Student and Teacher club items for GST &amp; QST without redemptions against &#039;QC&#039; Province in Payment page"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- CSR charged with correct subtotal on Student and Teacher club items for GST & QST without redemptions against 'QC' Province in Payment page -->
+  <test name="CSR charged with correct subtotal on Student and Teacher club items for GST &amp; QST with Student redemptions against &#039;QC&#039; Province in Payment page">
+    <parameter name="features" value="features/InSprint_12.4/ParallelRun_DW_CA_CS_PaymentOrderSummary.feature"/>
+    <parameter name="scenario" value="CSR charged with correct subtotal on Student and Teacher club items for GST &amp; QST with Student redemptions against &#039;QC&#039; Province in Payment page"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- CSR charged with correct subtotal on Student and Teacher club items for GST & QST with Student redemptions against 'QC' Province in Payment page -->
+  <test name="CSR charged with correct subtotal on Student and Teacher club items for GST &amp; QST with Teacher redemptions against &#039;QC&#039; Province in Payment page">
+    <parameter name="features" value="features/InSprint_12.4/ParallelRun_DW_CA_CS_PaymentOrderSummary.feature"/>
+    <parameter name="scenario" value="CSR charged with correct subtotal on Student and Teacher club items for GST &amp; QST with Teacher redemptions against &#039;QC&#039; Province in Payment page"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- CSR charged with correct subtotal on Student and Teacher club items for GST & QST with Teacher redemptions against 'QC' Province in Payment page -->
+  <test name="CSR charged with correct subtotal on Student and Teacher club items for GST &amp; QST with Student and Teacher redemptions against &#039;QC&#039; Province in Payment page">
+    <parameter name="features" value="features/InSprint_12.4/ParallelRun_DW_CA_CS_PaymentOrderSummary.feature"/>
+    <parameter name="scenario" value="CSR charged with correct subtotal on Student and Teacher club items for GST &amp; QST with Student and Teacher redemptions against &#039;QC&#039; Province in Payment page"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- CSR charged with correct subtotal on Student and Teacher club items for GST & QST with Student and Teacher redemptions against 'QC' Province in Payment page -->
+  <test name="CSR charged with correct subtotal on Student Club and Teacher club items for HST without redemptions against &#039;NL&#039; Province in Payment page">
+    <parameter name="features" value="features/InSprint_12.4/ParallelRun_DW_CA_CS_PaymentOrderSummary.feature"/>
+    <parameter name="scenario" value="CSR charged with correct subtotal on Student Club and Teacher club items for HST without redemptions against &#039;NL&#039; Province in Payment page"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- CSR charged with correct subtotal on Student Club and Teacher club items for HST without redemptions against 'NL' Province in Payment page -->
+  <test name="CSR charged with correct subtotal on Student Club and Teacher club items for HST with Student redemptions against &#039;NL&#039; Province in Payment page">
+    <parameter name="features" value="features/InSprint_12.4/ParallelRun_DW_CA_CS_PaymentOrderSummary.feature"/>
+    <parameter name="scenario" value="CSR charged with correct subtotal on Student Club and Teacher club items for HST with Student redemptions against &#039;NL&#039; Province in Payment page"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- CSR charged with correct subtotal on Student Club and Teacher club items for HST with Student redemptions against 'NL' Province in Payment page -->
+  <test name="CSR charged with correct subtotal on Student Club and Teacher club items for HST with Teacher redemptions against &#039;NL&#039; Province in Payment page">
+    <parameter name="features" value="features/InSprint_12.4/ParallelRun_DW_CA_CS_PaymentOrderSummary.feature"/>
+    <parameter name="scenario" value="CSR charged with correct subtotal on Student Club and Teacher club items for HST with Teacher redemptions against &#039;NL&#039; Province in Payment page"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- CSR charged with correct subtotal on Student Club and Teacher club items for HST with Teacher redemptions against 'NL' Province in Payment page -->
+  <test name="CSR charged with correct subtotal on Student Club and Teacher club items for HST with Student and Teacher redemptions against &#039;NL&#039; Province in Payment page">
+    <parameter name="features" value="features/InSprint_12.4/ParallelRun_DW_CA_CS_PaymentOrderSummary.feature"/>
+    <parameter name="scenario" value="CSR charged with correct subtotal on Student Club and Teacher club items for HST with Student and Teacher redemptions against &#039;NL&#039; Province in Payment page"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- CSR charged with correct subtotal on Student Club and Teacher club items for HST with Student and Teacher redemptions against 'NL' Province in Payment page -->
+  <test name="CSR charged with correct subtotal for Student &amp; Teacher Club items for GST without redemptions against &#039;NU&#039; Province in Payment page">
+    <parameter name="features" value="features/InSprint_12.4/ParallelRun_DW_CA_CS_PaymentOrderSummary.feature"/>
+    <parameter name="scenario" value="CSR charged with correct subtotal for Student &amp; Teacher Club items for GST without redemptions against &#039;NU&#039; Province in Payment page"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- CSR charged with correct subtotal for Student & Teacher Club items for GST without redemptions against 'NU' Province in Payment page -->
+  <test name="CSR charged with correct subtotal for Student &amp; Teacher Club items for GST with Student redemptions against &#039;NU&#039; Province in Payment page">
+    <parameter name="features" value="features/InSprint_12.4/ParallelRun_DW_CA_CS_PaymentOrderSummary.feature"/>
+    <parameter name="scenario" value="CSR charged with correct subtotal for Student &amp; Teacher Club items for GST with Student redemptions against &#039;NU&#039; Province in Payment page"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- CSR charged with correct subtotal for Student & Teacher Club items for GST with Student redemptions against 'NU' Province in Payment page -->
+  <test name="Teacher charged with correct subtotal for Student &amp; Teacher Club items for GST with Teacher redemptions against &#039;NU&#039; Province in Payment page">
+    <parameter name="features" value="features/InSprint_12.4/ParallelRun_DW_CA_CS_PaymentOrderSummary.feature"/>
+    <parameter name="scenario" value="Teacher charged with correct subtotal for Student &amp; Teacher Club items for GST with Teacher redemptions against &#039;NU&#039; Province in Payment page"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Teacher charged with correct subtotal for Student & Teacher Club items for GST with Teacher redemptions against 'NU' Province in Payment page -->
+  <test name="CSR charged with correct subtotal for Student &amp; Teacher Club items for GST with Student and Teacher redemptions against &#039;NU&#039; Province in Payment page">
+    <parameter name="features" value="features/InSprint_12.4/ParallelRun_DW_CA_CS_PaymentOrderSummary.feature"/>
+    <parameter name="scenario" value="CSR charged with correct subtotal for Student &amp; Teacher Club items for GST with Student and Teacher redemptions against &#039;NU&#039; Province in Payment page"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- CSR charged with correct subtotal for Student & Teacher Club items for GST with Student and Teacher redemptions against 'NU' Province in Payment page -->
+  <test name="CSR charged with correct subtotal on Student club items for GST &amp; PST with redemptions in Payment Page">
+    <parameter name="features" value="features/InSprint_12.4/ParallelRun_DW_CA_CS_PaymentOrderSummary.feature"/>
+    <parameter name="scenario" value="CSR charged with correct subtotal on Student club items for GST &amp; PST with redemptions in Payment Page"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- CSR charged with correct subtotal on Student club items for GST & PST with redemptions in Payment Page -->
+  <test name="CSR charged with correct subtotal on Teacher club items for GST &amp; PST with redemptions in Payment Page">
+    <parameter name="features" value="features/InSprint_12.4/ParallelRun_DW_CA_CS_PaymentOrderSummary.feature"/>
+    <parameter name="scenario" value="CSR charged with correct subtotal on Teacher club items for GST &amp; PST with redemptions in Payment Page"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- CSR charged with correct subtotal on Teacher club items for GST & PST with redemptions in Payment Page -->
+  <test name="CSR charged with correct subtotal on Student club items for GST &amp; QST with redemptions in Payment Page">
+    <parameter name="features" value="features/InSprint_12.4/ParallelRun_DW_CA_CS_PaymentOrderSummary.feature"/>
+    <parameter name="scenario" value="CSR charged with correct subtotal on Student club items for GST &amp; QST with redemptions in Payment Page"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- CSR charged with correct subtotal on Student club items for GST & QST with redemptions in Payment Page -->
+  <test name="CSR charged with correct subtotal on Teacher club items for GST &amp; QST with redemptions in Payment Page">
+    <parameter name="features" value="features/InSprint_12.4/ParallelRun_DW_CA_CS_PaymentOrderSummary.feature"/>
+    <parameter name="scenario" value="CSR charged with correct subtotal on Teacher club items for GST &amp; QST with redemptions in Payment Page"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- CSR charged with correct subtotal on Teacher club items for GST & QST with redemptions in Payment Page -->
+  <test name="CSR charged with correct subtotal on Student Club items for HST with redemptions in Payment Page">
+    <parameter name="features" value="features/InSprint_12.4/ParallelRun_DW_CA_CS_PaymentOrderSummary.feature"/>
+    <parameter name="scenario" value="CSR charged with correct subtotal on Student Club items for HST with redemptions in Payment Page"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- CSR charged with correct subtotal on Student Club items for HST with redemptions in Payment Page -->
+  <test name="CSR charged with correct subtotal on Teacher Club items for HST with redemptions in Payment Page">
+    <parameter name="features" value="features/InSprint_12.4/ParallelRun_DW_CA_CS_PaymentOrderSummary.feature"/>
+    <parameter name="scenario" value="CSR charged with correct subtotal on Teacher Club items for HST with redemptions in Payment Page"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- CSR charged with correct subtotal on Teacher Club items for HST with redemptions in Payment Page -->
+  <test name="CSR charged with correct subtotal for Student Club items for GST with redemptions in Payment Page">
+    <parameter name="features" value="features/InSprint_12.4/ParallelRun_DW_CA_CS_PaymentOrderSummary.feature"/>
+    <parameter name="scenario" value="CSR charged with correct subtotal for Student Club items for GST with redemptions in Payment Page"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- CSR charged with correct subtotal for Student Club items for GST with redemptions in Payment Page -->
+  <test name="CSR charged with correct subtotal on Teacher Club items for GST with redemptions in Payment Page">
+    <parameter name="features" value="features/InSprint_12.4/ParallelRun_DW_CA_CS_PaymentOrderSummary.feature"/>
+    <parameter name="scenario" value="CSR charged with correct subtotal on Teacher Club items for GST with redemptions in Payment Page"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- CSR charged with correct subtotal on Teacher Club items for GST with redemptions in Payment Page -->
+  
+  <test name="CSR Predetermined percentage of Bonus Coupon Rewards dollars added to my Bonus Bank on applying coupon on Student Club order">
+    <parameter name="features" value="features/InSprint_12.4/DW_CA_CS_BonusPercentage.feature"/>
+    <parameter name="scenario" value="CSR Predetermined percentage of Bonus Coupon Rewards dollars added to my Bonus Bank on applying coupon on Student Club order"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- CSR Predetermined percentage of Bonus Coupon Rewards dollars added to my Bonus Bank on applying coupon on Student Club order -->
+  <test name="CSR cannot apply Bonus Percentage coupon on a cart with Teacher catalogue orders">
+    <parameter name="features" value="features/InSprint_12.4/DW_CA_CS_BonusPercentage.feature"/>
+    <parameter name="scenario" value="CSR cannot apply Bonus Percentage coupon on a cart with Teacher catalogue orders"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- CSR cannot apply Bonus Percentage coupon on a cart with Teacher catalogue orders -->
+  <test name="CSR cannot apply Bonus percentage coupon on a cart which does not meet minimum amount">
+    <parameter name="features" value="features/InSprint_12.4/DW_CA_CS_BonusPercentage.feature"/>
+    <parameter name="scenario" value="CSR cannot apply Bonus percentage coupon on a cart which does not meet minimum amount"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- CSR cannot apply Bonus percentage coupon on a cart which does not meet minimum amount -->
+  <test name="Bonus percentage coupon removed when CSR removes items making cart non-qualifying">
+    <parameter name="features" value="features/InSprint_12.4/DW_CA_CS_BonusPercentage.feature"/>
+    <parameter name="scenario" value="Bonus percentage coupon removed when CSR removes items making cart non-qualifying"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Bonus percentage coupon removed when CSR removes items making cart non-qualifying -->
+  <test name="CSR can view the Bonus percentage coupon information displayed on all checkout pages, email, Order Detail">
+    <parameter name="features" value="features/InSprint_12.4/DW_CA_CS_BonusPercentage.feature"/>
+    <parameter name="scenario" value="CSR can view the Bonus percentage coupon information displayed on all checkout pages, email, Order Detail"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- CSR can view the Bonus percentage coupon information displayed on all checkout pages, email, Order Detail -->
+  <test name="CSR cannot apply an expired coupon on any cart">
+    <parameter name="features" value="features/InSprint_12.4/DW_CA_CS_BonusPercentage.feature"/>
+    <parameter name="scenario" value="CSR cannot apply an expired coupon on any cart"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- CSR cannot apply an expired coupon on any cart -->
+  <test name="CSR should not be able to apply Bonus Percentage coupon that is already redeemed">
+    <parameter name="features" value="features/InSprint_12.4/DW_CA_CS_BonusPercentage.feature"/>
+    <parameter name="scenario" value="CSR should not be able to apply Bonus Percentage coupon that is already redeemed"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- CSR should not be able to apply Bonus Percentage coupon that is already redeemed -->
+  <test name="CSR can apply Bonus percentage coupon if top-off from DTS makes cart qualify for Bonus percentage coupon">
+    <parameter name="features" value="features/InSprint_12.4/DW_CA_CS_BonusPercentage.feature"/>
+    <parameter name="scenario" value="CSR can apply Bonus percentage coupon if top-off from DTS makes cart qualify for Bonus percentage coupon"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- CSR can apply Bonus percentage coupon if top-off from DTS makes cart qualify for Bonus percentage coupon -->
+  
+  <test name="CSR can apply Free item coupon on a cart with qualifying minimum amount on Student Club orders and Checkout">
+    <parameter name="features" value="features/InSprint_12.4/DW_CA_CS_FreeItem_947.feature"/>
+    <parameter name="scenario" value="CSR can apply Free item coupon on a cart with qualifying minimum amount on Student Club orders and Checkout"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- CSR can apply Free item coupon on a cart with qualifying minimum amount on Student Club orders and Checkout -->
+  <test name="CSR cannot apply the Free item coupon if the cart total qualifying for promotion includes Redemptions">
+    <parameter name="features" value="features/InSprint_12.4/DW_CA_CS_FreeItem_947.feature"/>
+    <parameter name="scenario" value="CSR cannot apply the Free item coupon if the cart total qualifying for promotion includes Redemptions"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- CSR cannot apply the Free item coupon if the cart total qualifying for promotion includes Redemptions -->
+  <test name="Free item coupon is removed when CSR deletes items from cart making cart non-qualifying">
+    <parameter name="features" value="features/InSprint_12.4/DW_CA_CS_FreeItem_947.feature"/>
+    <parameter name="scenario" value="Free item coupon is removed when CSR deletes items from cart making cart non-qualifying"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Free item coupon is removed when CSR deletes items from cart making cart non-qualifying -->
+  <test name="CSR cannot apply Free item coupon on cart with Teacher catalogs">
+    <parameter name="features" value="features/InSprint_12.4/DW_CA_CS_FreeItem_947.feature"/>
+    <parameter name="scenario" value="CSR cannot apply Free item coupon on cart with Teacher catalogs"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- CSR cannot apply Free item coupon on cart with Teacher catalogs -->
+  <test name="CSR cannot apply Free item coupon on a cart which does not meet qualifying minimum amount">
+    <parameter name="features" value="features/InSprint_12.4/DW_CA_CS_FreeItem_947.feature"/>
+    <parameter name="scenario" value="CSR cannot apply Free item coupon on a cart which does not meet qualifying minimum amount"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- CSR cannot apply Free item coupon on a cart which does not meet qualifying minimum amount -->
+  <test name="CSR cannot apply Free item coupon when promotion expires">
+    <parameter name="features" value="features/InSprint_12.4/DW_CA_CS_FreeItem_947.feature"/>
+    <parameter name="scenario" value="CSR cannot apply Free item coupon when promotion expires"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- CSR cannot apply Free item coupon when promotion expires -->
+  <test name="CSR cannot apply Free item coupon if Redemptions from student paper coupon makes the cart non-qualifying">
+    <parameter name="features" value="features/InSprint_12.4/DW_CA_CS_FreeItem_947.feature"/>
+    <parameter name="scenario" value="CSR cannot apply Free item coupon if Redemptions from student paper coupon makes the cart non-qualifying"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- CSR cannot apply Free item coupon if Redemptions from student paper coupon makes the cart non-qualifying -->
+  <test name="CSR can apply Free item coupon if Redemptions from Teacher Bonus coupon makes the cart non-qualifying">
+    <parameter name="features" value="features/InSprint_12.4/DW_CA_CS_FreeItem_947.feature"/>
+    <parameter name="scenario" value="CSR can apply Free item coupon if Redemptions from Teacher Bonus coupon makes the cart non-qualifying"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- CSR can apply Free item coupon if Redemptions from Teacher Bonus coupon makes the cart non-qualifying -->
+  <test name="CSR can apply Free item promotion if Redemptions from Teacher paper coupon makes the cart non-qualifying">
+    <parameter name="features" value="features/InSprint_12.4/DW_CA_CS_FreeItem_947.feature"/>
+    <parameter name="scenario" value="CSR can apply Free item promotion if Redemptions from Teacher paper coupon makes the cart non-qualifying"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- CSR can apply Free item promotion if Redemptions from Teacher paper coupon makes the cart non-qualifying -->
+ 
+  <test name="CSR can apply a deleted toss-in coupon">
+    <parameter name="features" value="features/InSprint_12.4/DW_CA_CS_FreeItem_947.feature"/>
+    <parameter name="scenario" value="CSR can apply a deleted toss-in coupon"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- CSR can apply a deleted toss-in coupon -->
+  <test name="CSR cannot apply a Toss-in coupon that is already redeemed">
+    <parameter name="features" value="features/InSprint_12.4/DW_CA_CS_FreeItem_947.feature"/>
+    <parameter name="scenario" value="CSR cannot apply a Toss-in coupon that is already redeemed"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- CSR cannot apply a Toss-in coupon that is already redeemed -->
+  
+  <test name="CSR selects Checks as payment">
+    <parameter name="features" value="features/InSprint_12.4/DW_CA_CS_Payment_Method_Module.feature"/>
+    <parameter name="scenario" value="CSR selects Checks as payment"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- CSR selects Checks as payment -->
+  <test name="No payment options are displayed and continue checkout is enabled when CSR redeems the entire cart total using redemptions">
+    <parameter name="features" value="features/InSprint_12.4/DW_CA_CS_Payment_Method_Module.feature"/>
+    <parameter name="scenario" value="No payment options are displayed and continue checkout is enabled when CSR redeems the entire cart total using redemptions"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- No payment options are displayed and continue checkout is enabled when CSR redeems the entire cart total using redemptions -->
+  
+  <test name="Blue step script icon displays beside Payment header in a page">
+    <parameter name="features" value="features/InSprint_12.4/DW_CA_CS_Payment_PageHeaderAndCSR_Script_302.feature"/>
+    <parameter name="scenario" value="Blue step script icon displays beside Payment header in a page"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Blue step script icon displays beside Payment header in a page -->
+  <test name="Modal window displays with the title &#039;To apply redemptions&#039; when CSR clicks on Blue step script icon in Payment page">
+    <parameter name="features" value="features/InSprint_12.4/DW_CA_CS_Payment_PageHeaderAndCSR_Script_302.feature"/>
+    <parameter name="scenario" value="Modal window displays with the title &#039;To apply redemptions&#039; when CSR clicks on Blue step script icon in Payment page"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Modal window displays with the title 'To apply redemptions' when CSR clicks on Blue step script icon in Payment page -->
+  <test name="Modal window disappered and presented with Payment page when CSR closes the To confirm your order modal window">
+    <parameter name="features" value="features/InSprint_12.4/DW_CA_CS_Payment_PageHeaderAndCSR_Script_302.feature"/>
+    <parameter name="scenario" value="Modal window disappered and presented with Payment page when CSR closes the To confirm your order modal window"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Modal window disappered and presented with Payment page when CSR closes the To confirm your order modal window -->
+  
+  <test name="CSR applies Bonus Flat coupon on qualifying cart with Student Club orders and checkout">
+    <parameter name="features" value="features/InSprint_12.4/DW_CA_CS_BonusFlat_.feature"/>
+    <parameter name="scenario" value="CSR applies Bonus Flat coupon on qualifying cart with Student Club orders and checkout"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- CSR applies Bonus Flat coupon on qualifying cart with Student Club orders and checkout -->
+  <test name="Teacher cannot apply Bonus Flat coupon on a cart which does not meet minimum amount">
+    <parameter name="features" value="features/InSprint_12.4/DW_CA_CS_BonusFlat_.feature"/>
+    <parameter name="scenario" value="Teacher cannot apply Bonus Flat coupon on a cart which does not meet minimum amount"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Teacher cannot apply Bonus Flat coupon on a cart which does not meet minimum amount -->
+  <test name="Teacher cannot apply Bonus Flat coupon on Teacher club orders">
+    <parameter name="features" value="features/InSprint_12.4/DW_CA_CS_BonusFlat_.feature"/>
+    <parameter name="scenario" value="Teacher cannot apply Bonus Flat coupon on Teacher club orders"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Teacher cannot apply Bonus Flat coupon on Teacher club orders -->
+  <test name="Bonus Flat Dollars removed from Bonus Bank when teacher removes items from cart making cart non-qualifying">
+    <parameter name="features" value="features/InSprint_12.4/DW_CA_CS_BonusFlat_.feature"/>
+    <parameter name="scenario" value="Bonus Flat Dollars removed from Bonus Bank when teacher removes items from cart making cart non-qualifying"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Bonus Flat Dollars removed from Bonus Bank when teacher removes items from cart making cart non-qualifying -->
+  <test name="CSR should not be able to apply coupon that is already redeemed">
+    <parameter name="features" value="features/InSprint_12.4/DW_CA_CS_BonusFlat_.feature"/>
+    <parameter name="scenario" value="CSR should not be able to apply coupon that is already redeemed"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- CSR should not be able to apply coupon that is already redeemed -->
+ 
+  <test name="CSR is notified with the next tier of promotions when teacher qualifies for Bonus Flat promotion">
+    <parameter name="features" value="features/InSprint_12.4/DW_CA_CS_BonusFlat_.feature"/>
+    <parameter name="scenario" value="CSR is notified with the next tier of promotions when teacher qualifies for Bonus Flat promotion"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- CSR is notified with the next tier of promotions when teacher qualifies for Bonus Flat promotion -->
+  
+  
+</suite> <!-- Demandware -->

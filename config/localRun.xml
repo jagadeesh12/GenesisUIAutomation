@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Demandware_CA" parallel="tests" thread-count="1">
+ <parameter name="glue" value="com.dw.automation.steps"/>
+<!--  <parameter name="remote.driver.url"
+            value="http://sereti_qe:b9b8a9e1-e525-46af-9c7f-4a11c372b5c5@ondemand.saucelabs.com:80/wd/hub"/>
+ <parameter name="sauce" value="false"/>
+ <parameter name="testdata" value="qa/data"/>
+ <parameter name="tdm.data" value="off"/> -->
+ <parameter name="url"
+            value="https://test.redington.market/"/>
+<!--  <test name="PartnerUserCreation" enabled="true">
+  <parameter name="driver.name" value="Firefox"/>
+  <parameter name="features" value="features/Redington/UserCreation.feature"/>
+  
+  <parameter name="driver.capabilities"
+             value="{'version': '11.0','platform':'Windows 10','name':'P1-Review cart Scenarios'}" />
+  <classes>
+   <class name="com.scholastic.torque.runner.Run" />
+  </classes>
+ </test> -->
+ 
+ <test name="OrderApproval" enabled="true">
+  <parameter name="driver.name" value="Firefox"/>
+  <parameter name="features" value="features/Redington/UserCreation.feature"/>
+  <parameter name="driver.capabilities"
+             value="{'version': '11.0','platform':'Windows 10','name':'P1-Review cart Scenarios'}" />
+  <classes>
+   <class name="com.scholastic.torque.runner.Run" />
+  </classes>
+ </test>
+
+</suite>

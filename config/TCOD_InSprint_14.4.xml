@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="5" guice-stage="DEVELOPMENT" verbose="0" name="Demandware" parallel="tests">
+  <parameter name="remote.driver.url" value="http://sereti_qe:b9b8a9e1-e525-46af-9c7f-4a11c372b5c5@ondemand.saucelabs.com:80/wd/hub"/>
+  <parameter name="tdm.data" value="off"/>
+  <parameter name="glue" value="com.dw.automation.steps"/>
+  <parameter name="sauce" value="true"/>
+  
+  <test name="Teacher sees Forgot your Account Number or Email Address hyper link in Activate Your Account window">
+    <parameter name="features" value="features/InSprint_14.4/TCOD_SCSCOD_6316.feature"/>
+    <parameter name="scenario" value="Teacher sees Forgot your Account Number or Email Address hyper link in Activate Your Account window"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;11.0&#039;,&#039;platform&#039;:&#039;Windows 8.1&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="IE"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Teacher sees Forgot your Account Number or Email Address hyper link in Activate Your Account window -->
+  <test name="Teacher leaves any one of the fields as blank in Activate Your Account window">
+    <parameter name="features" value="features/InSprint_14.4/TCOD_SCSCOD_6316.feature"/>
+    <parameter name="scenario" value="Teacher leaves any one of the fields as blank in Activate Your Account window"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;11.0&#039;,&#039;platform&#039;:&#039;Windows 8.1&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="IE"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Teacher leaves any one of the fields as blank in Activate Your Account window -->
+  <test name="Teacher leaves any one of the fields as blank in Activate Your Account window_2">
+    <parameter name="features" value="features/InSprint_14.4/TCOD_SCSCOD_6316.feature"/>
+    <parameter name="scenario" value="Teacher leaves any one of the fields as blank in Activate Your Account window_2"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;11.0&#039;,&#039;platform&#039;:&#039;Windows 8.1&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="IE"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Teacher leaves any one of the fields as blank in Activate Your Account window_2 -->
+  <test name="Teacher clicks on &#039;?&#039; icon for Account number field in Activate Your Account window">
+    <parameter name="features" value="features/InSprint_14.4/TCOD_SCSCOD_6316.feature"/>
+    <parameter name="scenario" value="Teacher clicks on &#039;?&#039; icon for Account number field in Activate Your Account window"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;11.0&#039;,&#039;platform&#039;:&#039;Windows 8.1&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="IE"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Teacher clicks on '?' icon for Account number field in Activate Your Account window -->
+  <test name="Teacher provides invalid account number through Account Activation process">
+    <parameter name="features" value="features/InSprint_14.4/TCOD_SCSCOD_6317.feature"/>
+    <parameter name="scenario" value="Teacher provides invalid account number through Account Activation process"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;11.0&#039;,&#039;platform&#039;:&#039;Windows 8.1&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="IE"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Teacher provides invalid account number through Account Activation process -->
+  <test name="Teacher provides invalid email address through Account Activation process">
+    <parameter name="features" value="features/InSprint_14.4/TCOD_SCSCOD_6317.feature"/>
+    <parameter name="scenario" value="Teacher provides invalid email address through Account Activation process"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;11.0&#039;,&#039;platform&#039;:&#039;Windows 8.1&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="IE"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Teacher provides invalid email address through Account Activation process -->
+  <test name="Teacher clicks on BACK button through &#039;Activate Your Account&#039; flow">
+    <parameter name="features" value="features/InSprint_14.4/TCOD_SCSCOD_6317.feature"/>
+    <parameter name="scenario" value="Teacher clicks on BACK button through &#039;Activate Your Account&#039; flow"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;11.0&#039;,&#039;platform&#039;:&#039;Windows 8.1&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="IE"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Teacher clicks on BACK button through 'Activate Your Account' flow -->
+  
+  <test name="Teacher enters email address with multiple &#039;@&#039; sign on the Forgot Password modal/page">
+    <parameter name="features" value="features/InSprint_14.4/TCOD_SCSCOD_6321.feature"/>
+    <parameter name="scenario" value="Teacher enters email address with multiple &#039;@&#039; sign on the Forgot Password modal/page"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;11.0&#039;,&#039;platform&#039;:&#039;Windows 8.1&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="IE"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Teacher enters email address with multiple '@' sign on the Forgot Password modal/page -->
+  <test name="Enter valid data in all fields and does not enter only First Name on the Forgot Password modal/page">
+    <parameter name="features" value="features/InSprint_14.4/TCOD_SCSCOD_6321.feature"/>
+    <parameter name="scenario" value="Enter valid data in all fields and does not enter only First Name on the Forgot Password modal/page"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;11.0&#039;,&#039;platform&#039;:&#039;Windows 8.1&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="IE"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Enter valid data in all fields and does not enter only First Name on the Forgot Password modal/page -->
+  <test name="Teacher enters email address with multiple dots on the Forgot Password modal/page">
+    <parameter name="features" value="features/InSprint_14.4/TCOD_SCSCOD_6321.feature"/>
+    <parameter name="scenario" value="Teacher enters email address with multiple dots on the Forgot Password modal/page"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;11.0&#039;,&#039;platform&#039;:&#039;Windows 8.1&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="IE"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Teacher enters email address with multiple dots on the Forgot Password modal/page -->
+  <test name="Enter more than 30 characters in Last Name field on the Forgot Password modal/page">
+    <parameter name="features" value="features/InSprint_14.4/TCOD_SCSCOD_6321.feature"/>
+    <parameter name="scenario" value="Enter more than 30 characters in Last Name field on the Forgot Password modal/page"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;11.0&#039;,&#039;platform&#039;:&#039;Windows 8.1&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="IE"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Enter more than 30 characters in Last Name field on the Forgot Password modal/page -->
+  <test name="Teacher enters email address with multiple dots and invalid top level domain on the Forgot Password modal/page">
+    <parameter name="features" value="features/InSprint_14.4/TCOD_SCSCOD_6321.feature"/>
+    <parameter name="scenario" value="Teacher enters email address with multiple dots and invalid top level domain on the Forgot Password modal/page"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;11.0&#039;,&#039;platform&#039;:&#039;Windows 8.1&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="IE"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Teacher enters email address with multiple dots and invalid top level domain on the Forgot Password modal/page -->
+  
+  <test name="Last Name field is highlighted in red if clicked inside the first name field and clicks outside without entering any data on the Forgot Password modal/page">
+    <parameter name="features" value="features/InSprint_14.4/TCOD_SCSCOD_6321.feature"/>
+    <parameter name="scenario" value="Last Name field is highlighted in red if clicked inside the first name field and clicks outside without entering any data on the Forgot Password modal/page"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;11.0&#039;,&#039;platform&#039;:&#039;Windows 8.1&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="IE"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Last Name field is highlighted in red if clicked inside the first name field and clicks outside without entering any data on the Forgot Password modal/page -->
+  <test name="Enter 2 characters in First name and Last name on the Forgot Password modal/page">
+    <parameter name="features" value="features/InSprint_14.4/TCOD_SCSCOD_6321.feature"/>
+    <parameter name="scenario" value="Enter 2 characters in First name and Last name on the Forgot Password modal/page"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;11.0&#039;,&#039;platform&#039;:&#039;Windows 8.1&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="IE"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Enter 2 characters in First name and Last name on the Forgot Password modal/page -->
+  <test name="Enters only 1 character in Last Name field on the Forgot Password modal/page">
+    <parameter name="features" value="features/InSprint_14.4/TCOD_SCSCOD_6321.feature"/>
+    <parameter name="scenario" value="Enters only 1 character in Last Name field on the Forgot Password modal/page"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;11.0&#039;,&#039;platform&#039;:&#039;Windows 8.1&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="IE"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Enters only 1 character in Last Name field on the Forgot Password modal/page -->
+  
+  <test name="Enters 2 characters in Last Name field on the Forgot Password modal/page">
+    <parameter name="features" value="features/InSprint_14.4/TCOD_SCSCOD_6321.feature"/>
+    <parameter name="scenario" value="Enters 2 characters in Last Name field on the Forgot Password modal/page"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;11.0&#039;,&#039;platform&#039;:&#039;Windows 8.1&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="IE"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Enters 2 characters in Last Name field on the Forgot Password modal/page -->
+  <test name="Enter more than 30 characters in First Name field on the Forgot Password modal/page">
+    <parameter name="features" value="features/InSprint_14.4/TCOD_SCSCOD_6321.feature"/>
+    <parameter name="scenario" value="Enter more than 30 characters in First Name field on the Forgot Password modal/page"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;11.0&#039;,&#039;platform&#039;:&#039;Windows 8.1&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="IE"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Enter more than 30 characters in First Name field on the Forgot Password modal/page -->
+  <test name="Enter valid data in all fields and does not enter only Last Name on the Forgot Password modal/page">
+    <parameter name="features" value="features/InSprint_14.4/TCOD_SCSCOD_6321.feature"/>
+    <parameter name="scenario" value="Enter valid data in all fields and does not enter only Last Name on the Forgot Password modal/page"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;11.0&#039;,&#039;platform&#039;:&#039;Windows 8.1&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="IE"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Enter valid data in all fields and does not enter only Last Name on the Forgot Password modal/page -->
+ 
+  <test name="Enter email address without domain on the Forgot Password modal/page">
+    <parameter name="features" value="features/InSprint_14.4/TCOD_SCSCOD_6321.feature"/>
+    <parameter name="scenario" value="Enter email address without domain on the Forgot Password modal/page"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;11.0&#039;,&#039;platform&#039;:&#039;Windows 8.1&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="IE"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Enter email address without domain on the Forgot Password modal/page -->
+  <test name="First Name field is highlighted in red if clicked inside the first name field and clicks outside without entering any data on the Forgot Password modal/page">
+    <parameter name="features" value="features/InSprint_14.4/TCOD_SCSCOD_6321.feature"/>
+    <parameter name="scenario" value="First Name field is highlighted in red if clicked inside the first name field and clicks outside without entering any data on the Forgot Password modal/page"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;11.0&#039;,&#039;platform&#039;:&#039;Windows 8.1&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="IE"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- First Name field is highlighted in red if clicked inside the first name field and clicks outside without entering any data on the Forgot Password modal/page -->
+  <test name="Enter email address without dot on the Forgot Password modal/page">
+    <parameter name="features" value="features/InSprint_14.4/TCOD_SCSCOD_6321.feature"/>
+    <parameter name="scenario" value="Enter email address without dot on the Forgot Password modal/page"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;11.0&#039;,&#039;platform&#039;:&#039;Windows 8.1&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="IE"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Enter email address without dot on the Forgot Password modal/page -->
+  <test name="Enters only 1 character in First Name field on the Forgot Password modal/page">
+    <parameter name="features" value="features/InSprint_14.4/TCOD_SCSCOD_6321.feature"/>
+    <parameter name="scenario" value="Enters only 1 character in First Name field on the Forgot Password modal/page"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;11.0&#039;,&#039;platform&#039;:&#039;Windows 8.1&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="IE"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Enters only 1 character in First Name field on the Forgot Password modal/page -->
+  <test name="Teacher enters email address without top level domain on the Forgot Password modal/page">
+    <parameter name="features" value="features/InSprint_14.4/TCOD_SCSCOD_6321.feature"/>
+    <parameter name="scenario" value="Teacher enters email address without top level domain on the Forgot Password modal/page"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;11.0&#039;,&#039;platform&#039;:&#039;Windows 8.1&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="IE"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Teacher enters email address without top level domain on the Forgot Password modal/page -->
+  <test name="Enters 2 characters in First Name field on the Forgot Password modal/page">
+    <parameter name="features" value="features/InSprint_14.4/TCOD_SCSCOD_6321.feature"/>
+    <parameter name="scenario" value="Enters 2 characters in First Name field on the Forgot Password modal/page"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;11.0&#039;,&#039;platform&#039;:&#039;Windows 8.1&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="IE"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Enters 2 characters in First Name field on the Forgot Password modal/page -->
+  
+  <test name="Teacher enters non existing account number and password on Login page">
+    <parameter name="features" value="features/InSprint_14.4/TCOD_SCSCOD_6297.feature"/>
+    <parameter name="scenario" value="Teacher enters non existing account number and password on Login page"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;11.0&#039;,&#039;platform&#039;:&#039;Windows 8.1&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="IE"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Teacher enters non existing account number and password on Login page -->
+  <test name="Teacher enters valid email address and incorrect password on Login page">
+    <parameter name="features" value="features/InSprint_14.4/TCOD_SCSCOD_6297.feature"/>
+    <parameter name="scenario" value="Teacher enters valid email address and incorrect password on Login page"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;11.0&#039;,&#039;platform&#039;:&#039;Windows 8.1&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="IE"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Teacher enters valid email address and incorrect password on Login page -->
+  <test name="Teacher enters email address without domain in email field on Login page">
+    <parameter name="features" value="features/InSprint_14.4/TCOD_SCSCOD_6297.feature"/>
+    <parameter name="scenario" value="Teacher enters email address without domain in email field on Login page"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;11.0&#039;,&#039;platform&#039;:&#039;Windows 8.1&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="IE"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Teacher enters email address without domain in email field on Login page -->
+  <test name="Teacher does not enter email or account number but enters password">
+    <parameter name="features" value="features/InSprint_14.4/TCOD_SCSCOD_6297.feature"/>
+    <parameter name="scenario" value="Teacher does not enter email or account number but enters password"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;11.0&#039;,&#039;platform&#039;:&#039;Windows 8.1&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="IE"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Teacher does not enter email or account number but enters password -->
+  <test name="Teacher does not enter Password but enters email or account number">
+    <parameter name="features" value="features/InSprint_14.4/TCOD_SCSCOD_6297.feature"/>
+    <parameter name="scenario" value="Teacher does not enter Password but enters email or account number"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;11.0&#039;,&#039;platform&#039;:&#039;Windows 8.1&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="IE"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Teacher does not enter Password but enters email or account number -->
+  <test name="Teacher enters valid email and password">
+    <parameter name="features" value="features/InSprint_14.4/TCOD_SCSCOD_6297.feature"/>
+    <parameter name="scenario" value="Teacher enters valid email and password"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;11.0&#039;,&#039;platform&#039;:&#039;Windows 8.1&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="IE"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Teacher enters valid email and password -->
+  <test name="Teacher enters email address with multiple at the rate sign in email field on Login page">
+    <parameter name="features" value="features/InSprint_14.4/TCOD_SCSCOD_6297.feature"/>
+    <parameter name="scenario" value="Teacher enters email address with multiple at the rate sign in email field on Login page"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;11.0&#039;,&#039;platform&#039;:&#039;Windows 8.1&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="IE"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Teacher enters email address with multiple at the rate sign in email field on Login page -->
+  <test name="Teacher enters email address with multiple dots in email field on Login page">
+    <parameter name="features" value="features/InSprint_14.4/TCOD_SCSCOD_6297.feature"/>
+    <parameter name="scenario" value="Teacher enters email address with multiple dots in email field on Login page"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;11.0&#039;,&#039;platform&#039;:&#039;Windows 8.1&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="IE"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Teacher enters email address with multiple dots in email field on Login page -->
+  <test name="Teacher enters email address with multiple dots and invalid top level domain in email field on Login page">
+    <parameter name="features" value="features/InSprint_14.4/TCOD_SCSCOD_6297.feature"/>
+    <parameter name="scenario" value="Teacher enters email address with multiple dots and invalid top level domain in email field on Login page"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;11.0&#039;,&#039;platform&#039;:&#039;Windows 8.1&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="IE"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Teacher enters email address with multiple dots and invalid top level domain in email field on Login page -->
+  <test name="Teacher enters non-existing email address and password on Login page">
+    <parameter name="features" value="features/InSprint_14.4/TCOD_SCSCOD_6297.feature"/>
+    <parameter name="scenario" value="Teacher enters non-existing email address and password on Login page"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;11.0&#039;,&#039;platform&#039;:&#039;Windows 8.1&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="IE"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Teacher enters non-existing email address and password on Login page -->
+  <test name="Teacher enters email address without dot in email field on Login page">
+    <parameter name="features" value="features/InSprint_14.4/TCOD_SCSCOD_6297.feature"/>
+    <parameter name="scenario" value="Teacher enters email address without dot in email field on Login page"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;11.0&#039;,&#039;platform&#039;:&#039;Windows 8.1&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="IE"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Teacher enters email address without dot in email field on Login page -->
+  <test name="Teacher enters email address without top level domain in email field on Login page">
+    <parameter name="features" value="features/InSprint_14.4/TCOD_SCSCOD_6297.feature"/>
+    <parameter name="scenario" value="Teacher enters email address without top level domain in email field on Login page"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;11.0&#039;,&#039;platform&#039;:&#039;Windows 8.1&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="IE"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Teacher enters email address without top level domain in email field on Login page -->
+</suite> <!-- Demandware -->

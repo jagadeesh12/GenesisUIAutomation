@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="25" guice-stage="DEVELOPMENT" verbose="0"  name="Demandware" parallel="tests">
+    <parameter name="remote.driver.url" value="http://sereti_qe:b9b8a9e1-e525-46af-9c7f-4a11c372b5c5@ondemand.saucelabs.com:80/wd/hub" />
+    <parameter name="tdm.data" value="off" />
+    <parameter name="tags" value="@CouponModify" />
+    <parameter name="glue" value="com.dw.automation.steps" />
+    <parameter name="sauce" value="true" />
+    <parameter name="driver.name" value="Chrome"/>
+    <test name="Teacher can apply a deleted toss-in coupon">
+        <parameter name="features" value="features/Modules/CA_Regression_QA/FreeItem.feature"/>
+        <parameter name="scenario" value="Teacher can apply a deleted toss-in coupon"/>
+        <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+        <parameter name="driver.name" value="Chrome"/>
+        <classes>
+            <class name="com.scholastic.torque.runner.Run"/>
+        </classes>
+    </test> <!-- Teacher can apply a deleted toss-in coupon -->
+    <test name="Correct subtotal, Qty, taxes and Total displays when multiple SFO items are added in CS and OC pages with GST &amp; PST">
+        <parameter name="features" value="features/Modules/CA_Regression_QA/ConfirmSubmit_And_OrderConfirmation.feature"/>
+        <parameter name="scenario" value="Correct subtotal, Qty, taxes and Total displays when multiple SFO items are added in CS and OC pages with GST &amp; PST"/>
+        <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+        <parameter name="driver.name" value="Chrome"/>
+        <classes>
+            <class name="com.scholastic.torque.runner.Run"/>
+        </classes>
+    </test> <!-- Correct subtotal, Qty, taxes and Total displays when multiple SFO items are added in CS and OC pages with GST & PST -->
+    <test name="Teacher does not get Bonus Flat Dollars on a cart which does not meet minimum amount">
+        <parameter name="features" value="features/Modules/CA_Regression_QA/BonusFlat.feature"/>
+        <parameter name="scenario" value="Teacher does not get Bonus Flat Dollars on a cart which does not meet minimum amount"/>
+        <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+        <parameter name="driver.name" value="Chrome"/>
+        <classes>
+            <class name="com.scholastic.torque.runner.Run"/>
+        </classes>
+    </test> <!-- Teacher does not get Bonus Flat Dollars on a cart which does not meet minimum amount -->
+        </suite> <!-- Demandware -->

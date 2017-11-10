@@ -1,0 +1,112 @@
+<testdata>
+	<testcase id="StudentIncentive_promotion_displays_Redemptions_Rewards">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>4693596</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>1</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>1</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>1</ItemQty3>
+	</testcase>
+	
+	<testcase id="StudentIncentive_textbox_displays_Redemptions_Rewards">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>4694487</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>1</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>1</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>1</ItemQty3>
+	</testcase>
+	
+	<testcase id="StudentIncentive_textbox_enter_Numeric_Redemptions_Rewards">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>4697241</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>1</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>1</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>1</ItemQty3>
+  		<NumOfStudents>5</NumOfStudents>
+	</testcase>
+	
+	<testcase id="Enter_alphabets_in_a_StudentIncentive_textbox_Redemptions_Rewards">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>4704210</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>1</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>1</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>1</ItemQty3>
+  		<NumOfStudents>abc</NumOfStudents>
+	</testcase>
+	
+	<testcase id="Enter_negative_value_in_a_StudentIncentive_textbox_Redemptions_Rewards">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>4720282</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>1</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>1</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>1</ItemQty3>
+  		<NumOfStudents>-7</NumOfStudents>
+	</testcase>
+	
+	<testcase id="Enter_special_char_in_a_StudentIncentive_textbox_Redemptions_Rewards">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>4723674</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>1</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>1</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>1</ItemQty3>
+  		<NumOfStudents>&lt;&amp;&gt;</NumOfStudents>
+	</testcase>
+	
+	<testcase id="StudentIncentive_textbox_enter_50_Redemptions_Rewards">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>4724771</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>1</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>1</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>1</ItemQty3>
+  		<NumOfStudents>50</NumOfStudents>
+	</testcase>
+	
+	<testcase id="StudentIncentive_textbox_enter_more_than_50_Redemptions_Rewards">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>4725654</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>1</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>1</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>1</ItemQty3>
+  		<NumOfStudents>51</NumOfStudents>
+	</testcase>
+	
+</testdata>

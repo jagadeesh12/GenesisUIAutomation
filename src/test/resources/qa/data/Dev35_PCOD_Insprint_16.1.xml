@@ -1,0 +1,190 @@
+<testdata>
+
+
+	<!-- #####################################################################################################################################
+	##########################################################################################################################################
+	###########################################   							             #####################################################
+	###########################################   		   DWCAPCOD-156          	     #####################################################
+	###########################################   							             #####################################################       
+	##########################################################################################################################################
+	###################################################################################################################################### -->
+
+	<testcase id="InSprint16.1:TeacherDesk:OnlineNotes_MessageTxt_moreThan150characters">
+		<userid>4564672</userid>
+		<password>passw0rd</password>
+		<onlinenotemsg>Welcome to our classroom's Reading Club. Connect your child with books kids love to read and help our classroom earn FREE Books with every purchase! This is pcod message to have</onlinenotemsg>
+	</testcase>
+	
+	<testcase id="InSprint16.1:TeacherDesk:OnlineNotes_DeleteDafaultMsg">
+		<userid>165169</userid>
+		<password>passw0rd</password>
+
+	</testcase>
+	
+	<testcase id="InSprint16.1:TeacherDesk:OnlineNotes_NameTxt_moreThan30characters">
+		<userid>165127</userid>
+		<password>passw0rd</password>
+		<exp_firstnamesize>30</exp_firstnamesize>
+	</testcase>
+	
+	<testcase id="InSprint16.1:TeacherDesk:OnlineNotes_Edit_Name_Salutation">
+		<userid>164905</userid>
+		<password>passw0rd</password>
+		<onlinenotename>Obama</onlinenotename>
+	</testcase>
+	
+	<testcase id="InSprint16.1:TeacherDesk:OnlineNotes_Section">
+		<userid>163577</userid>
+		<password>passw0rd</password>
+	</testcase>
+	
+	<testcase id="InSprint16.1:TeacherDesk:OnlineNotes_Edit_DefaultMessage_SAVE">
+		<userid>164773</userid>
+		<password>passw0rd</password>
+		<onlinenotemsg>Welcome to our classroom's Reading Club. Connect your child with books kids love to read and help our classroom earn free Books with every purchase!</onlinenotemsg>
+	</testcase>
+	
+	<testcase id="InSprint16.1:TeacherDesk:OnlineNotes_Edit_DefaultMessage_CANCEL">
+		<userid>164442</userid>
+		<password>passw0rd</password>
+		<onlinenotemsg>Welcome to our classroom's Reading Club</onlinenotemsg>
+	</testcase>
+	
+	<testcase id="InSprint16.1:TeacherDesk:OnlineNotes_Edit_DefaultMessage_CLOSE">
+		<userid>164476</userid>
+		<password>passw0rd</password>
+		<onlinenotemsg>Welcome to our classroom's Reading Club</onlinenotemsg>
+	</testcase>
+	
+	<testcase id="InSprint16.1:TeacherDesk:OnlineNotes_Edit_Salutation_Values">
+		<userid>164608</userid>
+		<password>passw0rd</password>
+	</testcase>
+	
+	<!-- #####################################################################################################################################
+	##########################################################################################################################################
+	###########################################   							             #####################################################
+	###########################################   		   DWCAPCOD-158         	     #####################################################
+	###########################################   							             #####################################################       
+	##########################################################################################################################################
+	###################################################################################################################################### -->
+	
+	<testcase id="InSprint16.1:PCOD:TeacherDesk:OrderDueDate_NotSet">
+		<userid>7041510</userid>
+		<password>passw0rd</password>
+	</testcase>
+	
+	<testcase id="InSprint16.1:PCOD:TeacherDesk:OrderDueDate_EditDueDateLink_Clicked">
+		<userid>6917283</userid>
+		<password>passw0rd</password>
+	</testcase>
+	
+	<testcase id="InSprint16.1:PCOD:TeacherDesk:OrderDueDate_SelectDueDate">
+		<userid>4564672</userid>
+		<password>passw0rd</password>
+	</testcase>
+	
+	<testcase id="InSprint16.1:PCOD:TeacherDesk:OrderDueDate_SendReminder_Clicked">
+		<userid>4564672</userid>
+		<password>passw0rd</password>
+	</testcase>
+	
+	<testcase id="InSprint16.1:PCOD:TeacherDesk:OrderDueDate_SelectedDueDate_FRENCHFormat">
+		<userid>4564672</userid>
+		<password>passw0rd</password>
+	</testcase>
+	
+		<!-- #####################################################################################################################################
+	##########################################################################################################################################
+	###########################################   							             #####################################################
+	###########################################   		   DWCAPCOD-65	        	     #####################################################
+	###########################################   							             #####################################################       
+	##########################################################################################################################################
+	###################################################################################################################################### -->
+	
+	<testcase id="InSprint16.1:PCOD:ParentAccount:RemoveLink_Clicked">
+		<pcod_url>${pcod_url}</pcod_url>
+		<acc_no>pcod5@ss.com</acc_no>
+		<password>pass1234</password>
+		<postalcode>T0E 0A0</postalcode>
+		<childfirstname>AutoNameOne</childfirstname>
+		<childlastname>LastNameAuto</childlastname>
+		<SchoolName>Grasmere School</SchoolName>
+	</testcase>
+	
+	<testcase id="InSprint16.1:PCOD:ParentAccount:RemoveLink_DeleteChild">
+		<pcod_url>${pcod_url}</pcod_url>
+		<acc_no>pcod6@ss.com</acc_no>
+		<postalcode>T0E 0A0</postalcode>
+		<childfirstname>AutoNameOne</childfirstname>
+		<childlastname>LastNameAuto</childlastname>
+		<password>pass1234</password>
+		<itemName>The Enormous Suitcase</itemName>
+		<itemQty>1</itemQty>
+		<SchoolName>Grasmere School</SchoolName>
+	</testcase>
+		
+	<testcase id="InSprint16.1:PCOD:ParentAccount:RemoveLink_NOSelected">
+		<acc_no>pcool55@ss.com</acc_no>
+		<pcod_url>${pcod_url}</pcod_url>
+		<password>pass1234</password>
+		<childfirstname>AutoNameOne</childfirstname>
+		<childlastname>LastNameAuto</childlastname>
+		<itemName>The Enormous Suitcase</itemName>
+		<postalcode>T0E 0A0</postalcode>
+		<SchoolName>Grasmere School</SchoolName>
+		<itemQty>1</itemQty>
+	</testcase>
+	
+	<testcase id="InSprint16.1:PCOD:ParentAccount:RemoveLink_ItemsReassigned">
+		<acc_no>pcod8@ss.com</acc_no>
+		<pcod_url>${pcod_url}</pcod_url>
+		<password>pass1234</password>
+		<postalcode>T0E 0A0</postalcode>
+		<childfirstname>AutoNameOne</childfirstname>
+		<childlastname>LastNameAuto</childlastname>
+		<SchoolName>Grasmere School</SchoolName>
+	</testcase>
+
+
+
+	<!-- #####################################################################################################################################
+	##########################################################################################################################################
+	###########################################   							             #####################################################
+	###########################################   		   DWCAPCOD-82         	     #####################################################
+	###########################################   							             #####################################################
+	##########################################################################################################################################
+	###################################################################################################################################### -->
+
+	<testcase id="InSprint16.1:PCOD:ParentAccount:ChildInformation_NoChildAdded">
+		<pcod_url>${pcod_url}</pcod_url>
+		<acc_no>pcod22@ss.com</acc_no>
+		<password>passw0rd</password>
+		<postalcode>T0E 0A0</postalcode>
+		<childfirstname>AutoNameOne</childfirstname>
+		<childlastname>LastNameAuto</childlastname>
+		<SchoolName>Grasmere School</SchoolName>
+	</testcase>
+
+	<testcase id="InSprint16.1:PCOD:ParentAccount:ChildInformation_ConnectedChild">
+		<pcod_url>${pcod_url}</pcod_url>
+		<postalcode>T0E 0A0</postalcode>
+		<childfirstname>AutoNameOne</childfirstname>
+		<childlastname>LastNameAuto</childlastname>
+		<SchoolName>Grasmere School</SchoolName>
+		<acc_no>pcod2@ss.com</acc_no>
+		<grade>grade 1</grade>
+		<password>pass1234</password>
+	</testcase>
+
+	<testcase id="InSprint16.1:PCOD:ParentAccount:ChildInformation_ChildConnected">
+		<pcod_url>${pcod_url}</pcod_url>
+		<childfirstname>AutoNameOne</childfirstname>
+		<childlastname>LastNameAuto</childlastname>
+		<SchoolName>Grasmere School</SchoolName>
+		<acc_no>pcool21@ss.com</acc_no>
+		<postalcode>T0E 0A0</postalcode>
+		<grade>grade 1</grade>
+		<password>passw0rd</password>
+	</testcase>
+</testdata>	

@@ -1,0 +1,613 @@
+<testdata>
+
+
+<testcase id="InSprint_11.4:Dev:Teacher_Options_GradeDropDown_DTSModelWindow">
+		<userid>525371</userid>
+		<password>passw0rd</password>
+		<itemprice>9.99</itemprice>
+		<itemprice_limit>14.99</itemprice_limit>
+		<topoff_dts>12</topoff_dts>
+		<studentname>Margit</studentname>
+		<itemQty>3</itemQty>
+		<numberofstudents>1</numberofstudents>
+		<selectgrade>yto-early-childhood</selectgrade>
+		<selectdiffgrade>yto-2nd-grade-and-3rd-grade</selectdiffgrade>
+		<couponprice>1.01</couponprice>
+		<couponprice_limit>9.99</couponprice_limit>
+		<couponitemnumber>0</couponitemnumber>
+		<module>teacher</module>
+		<coupontype>dollartospend</coupontype>
+		<couponselctionmethod>Grade Level</couponselctionmethod>
+	</testcase>
+	
+	
+<!--##################################################################################################################################################    
+##################################################################################################################################################    
+###########################################   							             #############################################################   
+###########################################    STORY - 4064 POP-UP REWARD TABLE      #############################################################
+###########################################   							             #############################################################        
+##################################################################################################################################################        
+##################################################################################################################################################-->
+		
+<testcase id="InSprint_11.4:Dev:StudentOrder_PopupRewardTable">
+		<userid>525363</userid>
+		<password>passw0rd</password>
+		<itemprice>9.99</itemprice>
+		<itemprice_limit>14.99</itemprice_limit>
+		<topoff_dts>12</topoff_dts>
+		<studentname>Margit</studentname>
+		<itemQty>3</itemQty>
+	</testcase>	
+	
+	
+	
+	
+<testcase id="InSprint_11.4:Dev:TeacherOrder_PopupRewardTable">
+		<userid>303082</userid>
+		<password>passw0rd</password>
+		<itemprice>1.99</itemprice>
+		<itemprice_limit>20.99</itemprice_limit>
+		<topoff_dts>12</topoff_dts>
+		<studentname>Margit</studentname>
+		<itemQty>15</itemQty>
+	</testcase>		
+	
+<testcase id="InSprint_11.4:Dev:StudentOrder_OrderTotal_PopupRewardTable">
+		<userid>525008</userid>
+		<password>passw0rd</password>
+		<itemprice>9.99</itemprice>
+		<itemprice_limit>14.99</itemprice_limit>
+		<topoff_dts>12</topoff_dts>
+		<studentname>Margit</studentname>
+		<itemQty>3</itemQty>
+	</testcase>		
+	
+	
+<testcase id="InSprint_11.4:Dev:StudentOrder_ProceedtoCheckoutLink_PopupRewardTable">
+		<userid>524969</userid>
+		<password>passw0rd</password>
+		<itemprice>9.99</itemprice>
+		<itemprice_limit>14.99</itemprice_limit>
+		<topoff_dts>12</topoff_dts>
+		<studentname>Margit</studentname>
+		<itemQty>3</itemQty>
+	</testcase>
+		
+<testcase id="InSprint_11.4:Dev:StudentOrder_ProceedtoCheckoutButton_PopupRewardTable">
+		<userid>524943</userid>
+		<password>passw0rd</password>
+		<itemprice>9.99</itemprice>
+		<itemprice_limit>14.99</itemprice_limit>
+		<topoff_dts>12</topoff_dts>
+		<studentname>Margit</studentname>
+		<itemQty>3</itemQty>
+	</testcase>
+	
+	
+	
+	
+<testcase id="InSprint_11.4:Dev:StudentOrder_ReturnToShop_PopupRewardTable">
+		<userid>524935</userid>
+		<password>passw0rd</password>
+		<itemprice>9.99</itemprice>
+		<itemprice_limit>20.99</itemprice_limit>
+		<topoff_dts>12</topoff_dts>
+		<studentname>Margit</studentname>
+		<itemQty>3</itemQty>
+	</testcase>
+	
+	
+	
+	<testcase id="InSprint_11.4:Dev:StudentOrder_CurrentTotalOrder_Highlight_PopupRewardTable">
+		<userid>524597</userid>
+		<password>passw0rd</password>
+		<itemprice>9.99</itemprice>
+		<itemprice_limit>14.99</itemprice_limit>
+		<topoff_dts>12</topoff_dts>
+		<studentname>Margit</studentname>
+		<itemQty>5</itemQty>
+	</testcase>
+	
+	
+
+<!--##################################################################################################################################################    
+##################################################################################################################################################    
+###########################################   							             #############################################################   
+###########################################    STORY - 4059  GRADE AND LANGUAGE      #############################################################
+###########################################   							             #############################################################        
+##################################################################################################################################################        
+##################################################################################################################################################-->
+		
+	
+	
+<testcase id="InSprint_11.4:Dev:StudentOrder_Grade1_Callout_Message_English">
+		<userid>524498</userid>
+		<password>passw0rd</password>
+		<itemName>Beastkeeper</itemName>
+		<itemQty>3</itemQty>
+	</testcase>	
+	
+	
+<testcase id="InSprint_11.4:Dev:StudentOrder_Grade3_Callout_Message_English">
+		<userid>524331</userid>
+		<password>passw0rd</password>
+		<itemName>Beastkeeper</itemName>
+		<itemQty>3</itemQty>
+	</testcase>
+	
+	
+<testcase id="InSprint_11.4:Dev:StudentOrder_Grade5_Callout_Message_English">
+		<userid>524068</userid>
+		<password>passw0rd</password>
+		<itemName>Beastkeeper</itemName>
+		<itemQty>3</itemQty>
+	</testcase>	
+	
+	
+<testcase id="InSprint_11.4:Dev:StudentOrder_Grade7_Callout_Message_English">
+		<userid>524050</userid>
+		<password>passw0rd</password>
+		<itemName>Beastkeeper</itemName>
+		<itemQty>3</itemQty>
+	</testcase>	
+	
+	
+<testcase id="InSprint_11.4:Dev:StudentOrder_Grade9_Callout_Message_English">
+		<userid>523276</userid>
+		<password>passw0rd</password>
+		<itemName>Beastkeeper</itemName>
+		<itemQty>3</itemQty>
+	</testcase>	
+	
+	
+<testcase id="InSprint_11.4:Dev:StudentOrder_Grade11_Callout_Message_English">
+		<userid>523193</userid>
+		<password>passw0rd</password>
+		<itemName>Beastkeeper</itemName>
+		<itemQty>3</itemQty>
+	</testcase>			
+	
+	
+<testcase id="InSprint_11.4:Dev:Golden:teacher_Grade1_Grade3_CallOutMsg_NoPreference_English">
+		<userid>523185</userid>
+		<password>passw0rd</password>
+		<itemName>Beastkeeper</itemName>
+		<itemQty>3</itemQty>
+	</testcase>	
+	
+	
+	
+<testcase id="InSprint_11.4:Dev:Golden:teacher_Grade1_Grade3_CallOutMsg_Grade1Preference_English">
+		<userid>522963</userid>
+		<password>passw0rd</password>
+		<itemName>Beastkeeper</itemName>
+		<itemQty>3</itemQty>
+	</testcase>	
+	
+	
+<testcase id="InSprint_11.4:Dev:Golden:teacher_Grade6_Grade7_CallOutMsg_Grade7Preference_English">
+		<userid>522509</userid>
+		<password>passw0rd</password>
+		<itemName>Beastkeeper</itemName>
+		<itemQty>3</itemQty>
+	</testcase>	
+	
+	
+<testcase id="InSprint_11.4:Dev:StudentOrder_Grade1_Callout_Message_French">
+		<userid>522492</userid>
+		<password>passw0rd</password>
+		<itemName>Beastkeeper</itemName>
+		<itemQty>3</itemQty>
+	</testcase>	
+	
+	
+<testcase id="InSprint_11.4:Dev:StudentOrder_Grade3_Callout_Message_French">
+		<userid>522400</userid>
+		<password>passw0rd</password>
+		<itemName>Beastkeeper</itemName>
+		<itemQty>3</itemQty>
+	</testcase>	
+	
+	
+	
+<testcase id="InSprint_11.4:CSR_enters_Locate_Account_to_Verify_Account_page">
+		<userid>bmekala</userid>
+		<password>July2018!</password>
+		<active_progresstab>LOCATE ACCOUNT</active_progresstab>
+	</testcase>				
+		
+			
+       <!--  ########################     11.5	############################## -->
+       
+       <testcase id="Dev:BTS:DollarsToSpend:Teacher_DTS_Selection_Grade">
+		<userid>522088</userid>
+		<password>passw0rd</password>
+		<removeCartFlag>true</removeCartFlag>
+		<couponnumber>DW5DTS</couponnumber>
+		<itemprice>9.99</itemprice>
+		<itemprice_limit>14.99</itemprice_limit>
+		<studentname>Margit</studentname>
+		<itemQty>3</itemQty>
+		<numberofstudents>1</numberofstudents>
+		<grade>Grades 2 &amp; 3</grade>
+		<itemValue>2</itemValue>
+		<couponsearch>Pete the Cat: Robo-Pete</couponsearch>
+		<couponprice>1.01</couponprice>
+		<couponprice_limit>9.99</couponprice_limit>
+		<couponitemnumber>0</couponitemnumber>
+		<module>teacher</module>
+		<coupontype>dollartospend</coupontype>
+		<couponselctionmethod>Grade Level</couponselctionmethod>
+	</testcase>
+	
+	
+	<testcase id="Dev:BTS:DollarsToSpend:Teacher_DTS_Selection_Search_ValidSearch">
+		<userid>521907</userid>
+		<password>passw0rd</password>
+		<removeCartFlag>true</removeCartFlag>
+		<couponnumber>DW5DTS</couponnumber>
+		<itemprice>9.99</itemprice>
+		<itemprice_limit>14.99</itemprice_limit>
+		<studentname>Margit</studentname>
+		<itemQty>3</itemQty>
+		<numberofstudents>1</numberofstudents>
+		<couponsearch>All Year Round</couponsearch>
+		<couponprice>1.01</couponprice>
+		<couponprice_limit>9.99</couponprice_limit>
+		<couponitemnumber>0</couponitemnumber>
+		<module>teacher</module>
+		<coupontype>dollartospend</coupontype>
+		<couponselctionmethod>Grade Level</couponselctionmethod>
+	</testcase>
+	
+	
+	<testcase id="InSprint_11.5:Dev:Teacher_DTS_with_valid_Search_Otherthanfirstpage">
+		<userid>521858</userid>
+		<password>passw0rd</password>
+		<removeCartFlag>true</removeCartFlag>
+		<couponnumber>DW5DTS</couponnumber>
+		<itemprice>9.99</itemprice>
+		<itemprice_limit>14.99</itemprice_limit>
+		<studentname>Margit</studentname>
+		<itemQty>3</itemQty>
+		<numberofstudents>1</numberofstudents>
+		<couponsearch>11</couponsearch>
+		<couponprice>1.01</couponprice>
+		<couponprice_limit>39.99</couponprice_limit>
+		<couponitemnumber>11</couponitemnumber>
+		<module>teacher</module>
+		<coupontype>dollartospend</coupontype>
+		<couponselctionmethod>Grade Level</couponselctionmethod>
+	</testcase>
+	
+	
+	
+	<testcase id="InSprint_11.5:Dev:Golden:TeacherOrder_SpecificFreePickItem_Checkout">
+		<userid>521725</userid>
+		<password>passw0rd</password>
+		<itemprice>9.99</itemprice>
+		<itemprice_limit>14.99</itemprice_limit>
+		<studentname>Margit</studentname>
+		<itemQty>3</itemQty>
+		<numberofstudents>1</numberofstudents>
+		<couponnumber>RXYUECE</couponnumber>
+		<CouponCode>RXYUECE</CouponCode>
+		<couponsearch>Lanyard Pen</couponsearch>
+	</testcase>
+	
+	
+	
+	
+	
+<testcase id="InSprint_11.5:Dev:TeacherOrder_Paymentpage_AlternativeShippingAddressChkbox_MSG">
+		<userid>521535</userid>
+		<password>passw0rd</password>
+		<studentname>eric</studentname>
+		<itemQty>3</itemQty>
+		<itemName>Beastkeeper</itemName>
+		<numberofstudents>1</numberofstudents>
+	</testcase>
+	
+	
+<testcase id="InSprint_11.5:Dev:Teacher_ItemsSaved_BrowserClose_Login">
+		<userid>521436</userid>
+		<password>passw0rd</password>
+		<studentname>eric</studentname>
+		<itemName>Beastkeeper</itemName>
+		<itemQty>3</itemQty>
+	</testcase>
+
+<testcase id="InSprint_11.5:Dev:TeacherOrder_TeacherDesk_CurrentMonthRewardsLink">
+		<userid>521270</userid>
+		<password>passw0rd</password>
+    <itemName>Amelia Bedelia Is For the Birds</itemName>
+    <itemQty>2</itemQty>
+		<itemprice>9.99</itemprice>
+		<itemprice_limit>14.99</itemprice_limit>
+		<studentname>Margit</studentname>
+		<itemQty>2</itemQty>
+		<numberofstudents>1</numberofstudents>
+	</testcase>
+
+
+<testcase id="InSprint_11.5:Dev:TeacherOrder_OrderStatus_NewTeacher">
+		<userid>521189</userid>
+		<password>passw0rd</password>
+	</testcase>	
+	
+	
+<testcase id="InSprint_11.5:Dev:TeacherOrder_OrderStatus_SubmittedToScholastic">
+		<userid>521098</userid>
+		<password>passw0rd</password>
+		<itemprice>9.99</itemprice>
+		<itemprice_limit>14.99</itemprice_limit>
+		<studentname>Margit</studentname>
+        <itemName> Beastkeeper</itemName>
+		<itemQty>2</itemQty>
+		<numberofstudents>1</numberofstudents>
+	</testcase>	
+	
+	
+<testcase id="InSprint_11.5:Dev:TeacherOrder_OrderStatus_Shipped">
+		<userid>520941</userid>
+		<password>passw0rd</password>
+	</testcase>		   
+       
+    
+   <!-- ##################################################################################################################################################    
+##################################################################################################################################################    
+###########################################   							             #############################################################   
+###########################################   		    PAYMENT       				 #############################################################
+###########################################   							             #############################################################        
+##################################################################################################################################################        
+################################################################################################################################################## -->
+<testcase id="InSprint_12.1:dev:AlternativeShipping_PostalCode_Alphabets">
+		<userid>520909</userid>
+		<password>passw0rd</password>
+		<itemprice>1.99</itemprice>
+		<itemprice_limit>14.99</itemprice_limit>
+		<itemName>Beastkeeper</itemName>
+		<studentname>Margit</studentname>
+		<itemQty>3</itemQty>
+		<numberofstudents>1</numberofstudents>
+		<postalcode>ABC XYZ</postalcode>
+</testcase>
+	
+<testcase id="InSprint_12.1:dev:AlternativeShipping_PostalCode_Numbers">
+		<userid>520850</userid>
+		<password>passw0rd</password>
+		<itemprice>1.99</itemprice>
+		<itemprice_limit>14.99</itemprice_limit>
+		<studentname>Margit</studentname>
+		<itemName>Beastkeeper </itemName>
+		<itemQty>3</itemQty>
+		<numberofstudents>1</numberofstudents>
+		<postalcode>123 456</postalcode>
+</testcase>
+
+
+<testcase id="InSprint_12.1:dev:AlternativeShipping_PostalCode_Incorrect">
+		<userid>520826</userid>
+		<password>passw0rd</password>
+		<itemprice>1.99</itemprice>
+		<itemprice_limit>14.99</itemprice_limit>
+		<studentname>Margit</studentname>
+		<itemName>Beastkeeper</itemName>
+		<itemQty>3</itemQty>
+		<numberofstudents>1</numberofstudents>
+		<postalcode>5A 0AAA</postalcode>
+</testcase>	
+
+
+<testcase id="InSprint_12.1:dev:TeacherOrder_AlternativeShipping_Nunavut">
+		<userid>520553</userid>
+		<password>passw0rd</password>
+		<itemprice>1.99</itemprice>
+		<itemprice_limit>14.99</itemprice_limit>
+		<studentname>Margit</studentname>
+		<itemName>Beastkeeper</itemName>
+		<itemQty>3</itemQty>
+		<numberofstudents>1</numberofstudents>
+		<postalcode>X0A 0N0</postalcode>
+		<province>Nunavut</province>
+</testcase>
+
+
+<!-- ##################################################################################################################################################    
+##################################################################################################################################################    
+###########################################   							             #############################################################   
+###########################################   		    YTO          				 #############################################################
+###########################################   							             #############################################################        
+##################################################################################################################################################        
+################################################################################################################################################## -->        
+
+
+
+
+<testcase id="InSprint_12.1:Dev:Teacher_ELF_DownladableLinks_Labels">
+		<userid>520404</userid>
+		<password>passw0rd</password>
+</testcase>
+
+
+<testcase id="InSprint_12.1:Dev:Teacher_Grades4_5_Arrow_DownladableLinks_Labels">
+		<userid>520199</userid>
+		<password>passw0rd</password>
+</testcase>
+
+
+<testcase id="InSprint_12.1:Dev:Teacher_TeacherCatalogue_DownladableLinks_Labels">
+		<userid>520157</userid>
+		<password>passw0rd</password>
+</testcase>
+
+
+
+
+<testcase id="InSprint_12.1:Dev:Teacher_HintLabel_AccountNumber">
+		<userid>520123</userid>
+		<password>passw0rd</password>
+</testcase>
+
+
+
+<testcase id="InSprint_12.1:dev:Teacher_MainMenu_Global">
+		<userid>519936</userid>
+		<password>passw0rd</password>
+</testcase>
+
+
+<testcase id="InSprint_12.1:dev:Teacher_MainMenu_Global_OrderHistoryPage">
+		<userid>519837</userid>
+		<password>passw0rd</password>
+</testcase>
+
+<testcase id="InSprint_12.1:dev:Teacher_HomeIcon_Homepage">
+		<userid>519598</userid>
+		<password>passw0rd</password>
+		<itemName>Beastkeeper</itemName>
+		<studentname>Hitman</studentname>
+		<itemQty>2</itemQty>
+</testcase>
+
+
+<testcase id="InSprint_12.1:dev:Teacher_ENTERORDER_YTOPage">
+		<userid>519548</userid>
+		<password>passw0rd</password>
+		<studentname>Hitman</studentname>
+		<itemName>Beastkeeper</itemName>
+		<itemQty>2</itemQty>
+</testcase>
+
+<testcase id="InSprint_12.1:dev:Teacher_ShopBooksResources_BooksResourcesPage">
+		<userid>519530</userid>
+		<password>passw0rd</password>
+		<studentname>Hitman</studentname>
+		<itemName>Beastkeeper</itemName>
+		<itemQty>2</itemQty>
+</testcase>
+
+
+<testcase id="InSprint_12.1:dev:Teacher_TeachersDesk_TeachersDeskPage">
+		<userid>519407</userid>
+		<password>passw0rd</password>
+		<studentname>Hitman</studentname>
+		<itemName>Beastkeeper</itemName>
+		<itemQty>2</itemQty>
+</testcase>
+
+
+<testcase id="InSprint_12.1:dev:Teacher_AllFlyers_ShopAllFlyersePage">
+		<userid>519168</userid>
+		<password>passw0rd</password>
+		<studentname>Hitman</studentname>
+		<itemName>Beastkeeper</itemName>
+		<itemQty>2</itemQty>
+</testcase>
+
+
+<testcase id="InSprint_12.1:Dev:Teacher_EmailFieldBlank_NextBtnDisabled">
+		<teacherAccId>519019</teacherAccId>
+</testcase>
+
+<testcase id="InSprint_12.1:Dev:Teacher_AccountNumberBlank_NextBtnDisabled">
+		<teacherAccEmail>abc@bbc.com</teacherAccEmail>
+</testcase>
+	
+
+<testcase id="InSprint_12.1:Dev:Teacher_AccountNumberNotAssociatedToAccount_ValidationMsg">
+		<teacherAccId>518714</teacherAccId>
+		<teacherAccEmail>abc@bbc.com</teacherAccEmail>
+</testcase>
+
+    <testcase id="InSprint_12.1:Dev35:Teacher_AccountNumberAssociatedToAccount_ValidationMsg">
+        <teacherAccId>96369</teacherAccId>
+        <teacherAccEmail>test@abc.com</teacherAccEmail>
+    </testcase>
+
+
+
+
+
+
+    <testcase id="InSprint_12.1:Dev:Teacher_AccountNumberAssociatedToAccount_ValidationMsg1">
+		<teacherAccId>6314009</teacherAccId>
+		<teacherAccEmail>qacool2016@gmail.com</teacherAccEmail>
+</testcase>
+	
+
+<testcase id="InSprint_12.1:Dev:Teacher_EmailSpecialCharacters_ValidationMsg">
+		<teacherAccId>270950</teacherAccId>
+		<teacherAccEmail>y##urssatnam@gmail.com</teacherAccEmail>
+</testcase>
+
+
+<testcase id="InSprint_12.1:Dev:Teacher_EmailParital_ValidationMsg">
+		<teacherAccId>518350</teacherAccId>
+		<teacherAccEmail>test@abc</teacherAccEmail>
+</testcase>
+
+<testcase id="InSprint_12.1:Dev:Teacher_EmailMissingUserName_ValidationMsg">
+		<teacherAccId>518350</teacherAccId>
+		<teacherAccEmail>@abc.com</teacherAccEmail>
+</testcase>
+
+
+<testcase id="InSprint_12.1:Dev:Teacher_EmailMissing@Sign_ValidationMsg">
+		<teacherAccId>518350</teacherAccId>
+		<teacherAccEmail>testabc.com</teacherAccEmail>
+</testcase>
+
+<testcase id="InSprint_12.1:Dev:Teacher_EmailMissingDomain_ValidationMsg">
+		<teacherAccId>518350</teacherAccId>
+		<teacherAccEmail>test@abc.</teacherAccEmail>
+</testcase>
+
+<testcase id="InSprint_12.1:Dev:Teacher_EmailMissing@Sign_Domain_ValidationMsg">
+		<teacherAccId>518350</teacherAccId>
+		<teacherAccEmail>testabc.</teacherAccEmail>
+</testcase>
+
+
+<testcase id="InSprint_12.1:Dev:Teacher_GarbageEmail_ValidationMsg">
+		<teacherAccId>518350</teacherAccId>
+		<teacherAccEmail>&amp;@#%*@abc.com</teacherAccEmail>
+</testcase>
+
+
+<testcase id="InSprint_12.1:Dev:Teacher_Email@Sign2_ValidationMsg">
+		<teacherAccId>518350</teacherAccId>
+		<teacherAccEmail>test@@abc.com</teacherAccEmail>
+</testcase>
+
+
+<testcase id="InSprint_12.1:Dev:Teacher_EmailLeadingDot_ValidationMsg">
+		<teacherAccId>518350</teacherAccId>
+		<teacherAccEmail>.test@abc.com</teacherAccEmail>
+</testcase>
+
+
+<testcase id="InSprint_12.1:Dev:Teacher_EmailTrailingDot_ValidationMsg">
+		<teacherAccId>518350</teacherAccId>
+		<teacherAccEmail>test@abc.com.</teacherAccEmail>
+</testcase>
+
+<testcase id="InSprint_12.1:Dev:Teacher_EmailMultipleDot_ValidationMsg">
+		<teacherAccId>518350</teacherAccId>
+		<teacherAccEmail>test@abc..com</teacherAccEmail>
+</testcase>
+
+
+<testcase id="InSprint_12.1:Dev:Teacher_EmailUnicode_ValidationMsg">
+		<teacherAccId>518350</teacherAccId>
+		<teacherAccEmail>tëüest@abc..com</teacherAccEmail>
+</testcase>
+       
+       
+       
+       
+       
+       
+	
+	
+</testdata>	

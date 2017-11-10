@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" guice-stage="DEVELOPMENT" verbose="0" name="Demandware" parallel="tests">
+    <parameter name="remote.driver.url" value="http://sereti_qe:b9b8a9e1-e525-46af-9c7f-4a11c372b5c5@ondemand.saucelabs.com:80/wd/hub"/>
+    <parameter name="tdm.data" value="off"/>
+    <parameter name="glue" value="com.dw.automation.steps"/>
+    <parameter name="sauce" value="true"/>
+
+    <test name="Password field on login page for Reading Clubs site">
+        <parameter name="features" value="features/InSprint_14.4/CA_InSprint_14.4_TCOD_SCSCOD-5158.feature"/>
+        <parameter name="scenario" value="Password field on login page for Reading Clubs site"/>
+        <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+        <parameter name="driver.name" value="Chrome"/>
+        <classes>
+            <class name="com.scholastic.torque.runner.Run"/>
+        </classes>
+    </test> <!-- Password field on login page for Reading Clubs site -->
+    <test name="Teacher clicks on Show to show the characters entered in password field">
+        <parameter name="features" value="features/InSprint_14.4/CA_InSprint_14.4_TCOD_SCSCOD-5158.feature"/>
+        <parameter name="scenario" value="Teacher clicks on Show to show the characters entered in password field"/>
+        <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+        <parameter name="driver.name" value="Chrome"/>
+        <classes>
+            <class name="com.scholastic.torque.runner.Run"/>
+        </classes>
+    </test> <!-- Teacher clicks on Show to show the characters entered in password field -->
+    <test name="Teacher clicks on Hide to hide the characters entered in password field">
+        <parameter name="features" value="features/InSprint_14.4/CA_InSprint_14.4_TCOD_SCSCOD-5158.feature"/>
+        <parameter name="scenario" value="Teacher clicks on Hide to hide the characters entered in password field"/>
+        <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+        <parameter name="driver.name" value="Chrome"/>
+        <classes>
+            <class name="com.scholastic.torque.runner.Run"/>
+        </classes>
+    </test> <!-- Teacher clicks on Hide to hide the characters entered in password field -->
+    <test name="Teacher toggles from SHOW to HIDE and viceversa">
+        <parameter name="features" value="features/InSprint_14.4/CA_InSprint_14.4_TCOD_SCSCOD-5158.feature"/>
+        <parameter name="scenario" value="Teacher toggles from SHOW to HIDE and viceversa"/>
+        <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+        <parameter name="driver.name" value="Chrome"/>
+        <classes>
+            <class name="com.scholastic.torque.runner.Run"/>
+        </classes>
+    </test> <!-- Teacher toggles from SHOW to HIDE and viceversa -->
+
+    <test name="Teacher is able to search with Item on the homepage">
+        <parameter name="features" value="features/InSprint_14.4/CA_InSprint_14.3_TCOD_5663.feature"/>
+        <parameter name="scenario" value="Teacher is able to search with Item on the homepage"/>
+        <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+        <parameter name="driver.name" value="Chrome"/>
+        <classes>
+            <class name="com.scholastic.torque.runner.Run"/>
+        </classes>
+    </test> <!-- Teacher is able to search with Item on the homepage -->
+    <test name="Teacher is able to search with Item on the YTO Page">
+        <parameter name="features" value="features/InSprint_14.4/CA_InSprint_14.3_TCOD_5663.feature"/>
+        <parameter name="scenario" value="Teacher is able to search with Item on the YTO Page"/>
+        <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+        <parameter name="driver.name" value="Chrome"/>
+        <classes>
+            <class name="com.scholastic.torque.runner.Run"/>
+        </classes>
+    </test> <!-- Teacher is able to search with Item on the YTO Page -->
+    <test name="Teacher is able to search with Item on the ReviewCart Page">
+        <parameter name="features" value="features/InSprint_14.4/CA_InSprint_14.3_TCOD_5663.feature"/>
+        <parameter name="scenario" value="Teacher is able to search with Item on the ReviewCart Page"/>
+        <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+        <parameter name="driver.name" value="Chrome"/>
+        <classes>
+            <class name="com.scholastic.torque.runner.Run"/>
+        </classes>
+    </test> <!-- Teacher is able to search with Item on the ReviewCart Page -->
+    <test name="Teacher sees zero result page with invalid Item search">
+        <parameter name="features" value="features/InSprint_14.4/CA_InSprint_14.3_TCOD_5663.feature"/>
+        <parameter name="scenario" value="Teacher sees zero result page with invalid Item search"/>
+        <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+        <parameter name="driver.name" value="Chrome"/>
+        <classes>
+            <class name="com.scholastic.torque.runner.Run"/>
+        </classes>
+    </test> <!-- Teacher sees zero result page with invalid Item search -->
+    <test name="Teacher sees Item on the PDP">
+        <parameter name="features" value="features/InSprint_14.4/CA_InSprint_14.3_TCOD_5663.feature"/>
+        <parameter name="scenario" value="Teacher sees Item on the PDP"/>
+        <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+        <parameter name="driver.name" value="Chrome"/>
+        <classes>
+            <class name="com.scholastic.torque.runner.Run"/>
+        </classes>
+
+    </test> <!-- Teacher clicks on Hide to hide the characters entered in password field -->
+    <test name="Teacher toggles from SHOW to HIDE and viceversa">
+        <parameter name="features" value="features/InSprint_14.4/CA_InSprint_14.4_TCOD_SCSCOD-6165.feature"/>
+        <parameter name="scenario" value="Teacher toggles from SHOW to HIDE and viceversa"/>
+        <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+        <parameter name="driver.name" value="Chrome"/>
+        <classes>
+            <class name="com.scholastic.torque.runner.Run"/>
+        </classes>
+    </test> <!-- Teacher toggles from SHOW to HIDE and viceversa -->
+
+    </test> <!-- Teacher sees Item on the PDP -->
+    <test name="Teacher selects &quot;Remember me&quot; and enters account number/email address">
+        <parameter name="features" value="features/InSprint_14.4/CA_InSprint_14.4_TCOD_SCSCOD-6308.feature"/>
+        <parameter name="scenario" value="Teacher selects &quot;Remember me&quot; and enters account number/email address"/>
+        <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+        <parameter name="driver.name" value="Chrome"/>
+        <classes>
+            <class name="com.scholastic.torque.runner.Run"/>
+        </classes>
+    </test> <!-- Teacher selects "Remember me" and enters account number/email address -->
+    <test name="Teacher enters account number and selects &quot;Remember me&quot;">
+        <parameter name="features" value="features/InSprint_14.4/CA_InSprint_14.4_TCOD_SCSCOD-6308.feature"/>
+        <parameter name="scenario" value="Teacher enters account number and selects &quot;Remember me&quot;"/>
+        <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+        <parameter name="driver.name" value="Chrome"/>
+        <classes>
+            <class name="com.scholastic.torque.runner.Run"/>
+        </classes>
+    </test> <!-- Teacher enters account number and selects "Remember me" -->
+    <test name="Teacher enters email address and selects &quot;Remember me&quot;">
+        <parameter name="features" value="features/InSprint_14.4/CA_InSprint_14.4_TCOD_SCSCOD-6308.feature"/>
+        <parameter name="scenario" value="Teacher enters email address and selects &quot;Remember me&quot;"/>
+        <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+        <parameter name="driver.name" value="Chrome"/>
+        <classes>
+            <class name="com.scholastic.torque.runner.Run"/>
+        </classes>
+    </test> <!-- Teacher enters email address and selects "Remember me" -->
+    <test name="Teacher enters invalid account number/email address and selects &quot;Remember me&quot;">
+        <parameter name="features" value="features/InSprint_14.4/CA_InSprint_14.4_TCOD_SCSCOD-6308.feature"/>
+        <parameter name="scenario" value="Teacher enters invalid account number/email address and selects &quot;Remember me&quot;"/>
+        <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+        <parameter name="driver.name" value="Chrome"/>
+        <classes>
+            <class name="com.scholastic.torque.runner.Run"/>
+        </classes>
+    </test> <!-- Teacher enters invalid account number/email address and selects "Remember me" -->
+
+</suite> <!-- Demandware -->

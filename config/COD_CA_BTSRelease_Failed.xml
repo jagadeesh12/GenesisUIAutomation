@@ -1,0 +1,9 @@
+<suite thread-count="15" guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Demandware]" parallel="tests">
+<parameter name="remote.driver.url" value="http://sereti_qe:b9b8a9e1-e525-46af-9c7f-4a11c372b5c5@ondemand.saucelabs.com:80/wd/hub"/>
+<parameter name="features" value="features/COD_CA_BTSRelease.feature"/>
+<parameter name="tdm.data" value="off"/>
+<parameter name="glue" value="com.dw.automation.steps"/>
+< value="Teacher should not receive Free item promotion on a cart which does not meet qualifying minimum amount"/>
+<parameter name="sauce" value="true"/>
+
+

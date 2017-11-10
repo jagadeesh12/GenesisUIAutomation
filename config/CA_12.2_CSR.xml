@@ -1,0 +1,761 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" verbose="0" name="Demandware" parallel="tests">
+  <parameter name="remote.driver.url" value="http://sereti_qe:b9b8a9e1-e525-46af-9c7f-4a11c372b5c5@ondemand.saucelabs.com:80/wd/hub"/>
+  <parameter name="tdm.data" value="off"/>
+  <parameter name="glue" value="com.dw.automation.steps"/>
+  <parameter name="sauce" value="true"/>
+  
+  <test name="Student Clubs section displays when CSR enters into Redemptions and Rewards page">
+    <parameter name="features" value="features/InSprint_12.2/ParallelRun_DW_CA_CS_RedemptionsAndRewards_178.feature"/>
+    <parameter name="scenario" value="Student Clubs section displays when CSR enters into Redemptions and Rewards page"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Student Clubs section displays when CSR enters into Redemptions and Rewards page -->
+  <test name="Student Clubs section not display without add the Student Clubs items to the cart when CSR enters into Redemptions and Rewards page">
+    <parameter name="features" value="features/InSprint_12.2/ParallelRun_DW_CA_CS_RedemptionsAndRewards_178.feature"/>
+    <parameter name="scenario" value="Student Clubs section not display without add the Student Clubs items to the cart when CSR enters into Redemptions and Rewards page"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Student Clubs section not display without add the Student Clubs items to the cart when CSR enters into Redemptions and Rewards page -->
+  <test name="Toggle button, Student Clubs header, items price and the summary displays correctly in Student Clubs header section">
+    <parameter name="features" value="features/InSprint_12.2/ParallelRun_DW_CA_CS_RedemptionsAndRewards_178.feature"/>
+    <parameter name="scenario" value="Toggle button, Student Clubs header, items price and the summary displays correctly in Student Clubs header section"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Toggle button, Student Clubs header, items price and the summary displays correctly in Student Clubs header section -->
+  <test name="Student Clubs section expands by default when CSR enters into Redemptions and Rewards page">
+    <parameter name="features" value="features/InSprint_12.2/ParallelRun_DW_CA_CS_RedemptionsAndRewards_178.feature"/>
+    <parameter name="scenario" value="Student Clubs section expands by default when CSR enters into Redemptions and Rewards page"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Student Clubs section expands by default when CSR enters into Redemptions and Rewards page -->
+  <test name="Minus button displays for the expanded Student Clubs toggle button in Student Clubs section">
+    <parameter name="features" value="features/InSprint_12.2/ParallelRun_DW_CA_CS_RedemptionsAndRewards_178.feature"/>
+    <parameter name="scenario" value="Minus button displays for the expanded Student Clubs toggle button in Student Clubs section"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Minus button displays for the expanded Student Clubs toggle button in Student Clubs section -->
+  <test name="Plus button displays when CSR clicks on Expanded Student Clubs toggle button in Student Clubs section">
+    <parameter name="features" value="features/InSprint_12.2/ParallelRun_DW_CA_CS_RedemptionsAndRewards_178.feature"/>
+    <parameter name="scenario" value="Plus button displays when CSR clicks on Expanded Student Clubs toggle button in Student Clubs section"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Plus button displays when CSR clicks on Expanded Student Clubs toggle button in Student Clubs section -->
+  <test name="Student Clubs label and correct tax displays in Student Clubs second layer of the section">
+    <parameter name="features" value="features/InSprint_12.2/ParallelRun_DW_CA_CS_RedemptionsAndRewards_178.feature"/>
+    <parameter name="scenario" value="Student Clubs label and correct tax displays in Student Clubs second layer of the section"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Student Clubs label and correct tax displays in Student Clubs second layer of the section -->
+  <test name="&#039;REDEEM BONUS COUPONS &amp; CREDIT NOTES&#039; label displays in Student Clubs section">
+    <parameter name="features" value="features/InSprint_12.2/ParallelRun_DW_CA_CS_RedemptionsAndRewards_178.feature"/>
+    <parameter name="scenario" value="&#039;REDEEM BONUS COUPONS &amp; CREDIT NOTES&#039; label displays in Student Clubs section"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- 'REDEEM BONUS COUPONS & CREDIT NOTES' label displays in Student Clubs section -->
+  <test name="&#039;Bonus Bank&#039; label and paragraph of text reflective of the label displays in Student Clubs section">
+    <parameter name="features" value="features/InSprint_12.2/ParallelRun_DW_CA_CS_RedemptionsAndRewards_178.feature"/>
+    <parameter name="scenario" value="&#039;Bonus Bank&#039; label and paragraph of text reflective of the label displays in Student Clubs section"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- 'Bonus Bank' label and paragraph of text reflective of the label displays in Student Clubs section -->
+  <test name="Bonus Bank field text box displays in Student Clubs section">
+    <parameter name="features" value="features/InSprint_12.2/ParallelRun_DW_CA_CS_RedemptionsAndRewards_178.feature"/>
+    <parameter name="scenario" value="Bonus Bank field text box displays in Student Clubs section"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Bonus Bank field text box displays in Student Clubs section -->
+  <test name="CSR can enter decimal number in Bonus Bank text box in Student Clubs section">
+    <parameter name="features" value="features/InSprint_12.2/ParallelRun_DW_CA_CS_RedemptionsAndRewards_178.feature"/>
+    <parameter name="scenario" value="CSR can enter decimal number in Bonus Bank text box in Student Clubs section"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- CSR can enter decimal number in Bonus Bank text box in Student Clubs section -->
+  <test name="&#039;Paper Bonus Coupons, And Credit Notes&#039; label and paragraph of text reflective of the label displays in Student Clubs section">
+    <parameter name="features" value="features/InSprint_12.2/ParallelRun_DW_CA_CS_RedemptionsAndRewards_178.feature"/>
+    <parameter name="scenario" value="&#039;Paper Bonus Coupons, And Credit Notes&#039; label and paragraph of text reflective of the label displays in Student Clubs section"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- 'Paper Bonus Coupons, And Credit Notes' label and paragraph of text reflective of the label displays in Student Clubs section -->
+  <test name="Paper Bonus Coupons And Credit Notes field text box displays in Student Clubs section">
+    <parameter name="features" value="features/InSprint_12.2/ParallelRun_DW_CA_CS_RedemptionsAndRewards_178.feature"/>
+    <parameter name="scenario" value="Paper Bonus Coupons And Credit Notes field text box displays in Student Clubs section"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Paper Bonus Coupons And Credit Notes field text box displays in Student Clubs section -->
+  <test name="CSR can enter Float value in Paper Bonus Coupons And Credit Notes text box in Student Clubs section">
+    <parameter name="features" value="features/InSprint_12.2/ParallelRun_DW_CA_CS_RedemptionsAndRewards_178.feature"/>
+    <parameter name="scenario" value="CSR can enter Float value in Paper Bonus Coupons And Credit Notes text box in Student Clubs section"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- CSR can enter Float value in Paper Bonus Coupons And Credit Notes text box in Student Clubs section -->
+  <test name="APPLY button displays in a Student Clubs section in Rdemptions and Rewards page">
+    <parameter name="features" value="features/InSprint_12.2/ParallelRun_DW_CA_CS_RedemptionsAndRewards_178.feature"/>
+    <parameter name="scenario" value="APPLY button displays in a Student Clubs section in Rdemptions and Rewards page"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- APPLY button displays in a Student Clubs section in Rdemptions and Rewards page -->
+  <test name="&#039;Student Clubs Amount Owing&#039; label, Total Student Clubs amount and total items displays in footer layer of the Student Clubs section">
+    <parameter name="features" value="features/InSprint_12.2/ParallelRun_DW_CA_CS_RedemptionsAndRewards_178.feature"/>
+    <parameter name="scenario" value="&#039;Student Clubs Amount Owing&#039; label, Total Student Clubs amount and total items displays in footer layer of the Student Clubs section"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- 'Student Clubs Amount Owing' label, Total Student Clubs amount and total items displays in footer layer of the Student Clubs section -->
+  
+  <test name="Correct subtotals, shipping charges, totals, taxes display for Teacher Catalogues when multiple items are added from same flyer for GST &amp; PST">
+    <parameter name="features" value="features/InSprint_12.2/ParallelRun_DW_CA_CS_RedemptionsAndRewards_564.feature"/>
+    <parameter name="scenario" value="Correct subtotals, shipping charges, totals, taxes display for Teacher Catalogues when multiple items are added from same flyer for GST &amp; PST"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Correct subtotals, shipping charges, totals, taxes display for Teacher Catalogues when multiple items are added from same flyer for GST & PST -->
+  <test name="Correct subtotals, shipping charges, totals, taxes display for Teacher Catalogues when multiple items are added from different flyer for GST &amp; PST">
+    <parameter name="features" value="features/InSprint_12.2/ParallelRun_DW_CA_CS_RedemptionsAndRewards_564.feature"/>
+    <parameter name="scenario" value="Correct subtotals, shipping charges, totals, taxes display for Teacher Catalogues when multiple items are added from different flyer for GST &amp; PST"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Correct subtotals, shipping charges, totals, taxes display for Teacher Catalogues when multiple items are added from different flyer for GST & PST -->
+  <test name="Correct subtotals, shipping charges, totals, taxes display for Teacher Catalogues when multiple items are added from same flyer for GST &amp; QST">
+    <parameter name="features" value="features/InSprint_12.2/ParallelRun_DW_CA_CS_RedemptionsAndRewards_564.feature"/>
+    <parameter name="scenario" value="Correct subtotals, shipping charges, totals, taxes display for Teacher Catalogues when multiple items are added from same flyer for GST &amp; QST"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Correct subtotals, shipping charges, totals, taxes display for Teacher Catalogues when multiple items are added from same flyer for GST & QST -->
+  <test name="Correct subtotals, shipping charges, totals, taxes display for Teacher Catalogues when multiple items are added from different flyer for GST &amp; QST">
+    <parameter name="features" value="features/InSprint_12.2/ParallelRun_DW_CA_CS_RedemptionsAndRewards_564.feature"/>
+    <parameter name="scenario" value="Correct subtotals, shipping charges, totals, taxes display for Teacher Catalogues when multiple items are added from different flyer for GST &amp; QST"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Correct subtotals, shipping charges, totals, taxes display for Teacher Catalogues when multiple items are added from different flyer for GST & QST -->
+  <test name="Correct subtotals, shipping charges, totals, taxes display for Teacher Catalogues when multiple items are added from different flyer for HST">
+    <parameter name="features" value="features/InSprint_12.2/ParallelRun_DW_CA_CS_RedemptionsAndRewards_564.feature"/>
+    <parameter name="scenario" value="Correct subtotals, shipping charges, totals, taxes display for Teacher Catalogues when multiple items are added from different flyer for HST"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Correct subtotals, shipping charges, totals, taxes display for Teacher Catalogues when multiple items are added from different flyer for HST -->
+  <test name="Correct subtotals, shipping charges, totals, taxes display for Teacher Catalogues when multiple items are added from different flyer for GST">
+    <parameter name="features" value="features/InSprint_12.2/ParallelRun_DW_CA_CS_RedemptionsAndRewards_564.feature"/>
+    <parameter name="scenario" value="Correct subtotals, shipping charges, totals, taxes display for Teacher Catalogues when multiple items are added from different flyer for GST"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Correct subtotals, shipping charges, totals, taxes display for Teacher Catalogues when multiple items are added from different flyer for GST -->
+  <test name="No taxes are charged for Teacher Catalogues for tax exempted schools for provinces with applicable taxes as GST &amp; PST">
+    <parameter name="features" value="features/InSprint_12.2/ParallelRun_DW_CA_CS_RedemptionsAndRewards_564.feature"/>
+    <parameter name="scenario" value="No taxes are charged for Teacher Catalogues for tax exempted schools for provinces with applicable taxes as GST &amp; PST"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- No taxes are charged for Teacher Catalogues for tax exempted schools for provinces with applicable taxes as GST & PST -->
+  <test name="No taxes are charged for Teacher Catalogues for tax exempted schools for provinces with applicable taxes as GST &amp; QST">
+    <parameter name="features" value="features/InSprint_12.2/ParallelRun_DW_CA_CS_RedemptionsAndRewards_564.feature"/>
+    <parameter name="scenario" value="No taxes are charged for Teacher Catalogues for tax exempted schools for provinces with applicable taxes as GST &amp; QST"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- No taxes are charged for Teacher Catalogues for tax exempted schools for provinces with applicable taxes as GST & QST -->
+  <test name="Correct subtotals, shipping charges, totals, taxes display for Student Clubs when multiple items are added from same flyer for GST &amp; PST">
+    <parameter name="features" value="features/InSprint_12.2/ParallelRun_DW_CA_CS_RedemptionsAndRewards_564.feature"/>
+    <parameter name="scenario" value="Correct subtotals, shipping charges, totals, taxes display for Student Clubs when multiple items are added from same flyer for GST &amp; PST"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Correct subtotals, shipping charges, totals, taxes display for Student Clubs when multiple items are added from same flyer for GST & PST -->
+  <test name="Correct subtotals, shipping charges, totals, taxes display for Student Clubs when multiple items are added from different flyer for GST &amp; PST">
+    <parameter name="features" value="features/InSprint_12.2/ParallelRun_DW_CA_CS_RedemptionsAndRewards_564.feature"/>
+    <parameter name="scenario" value="Correct subtotals, shipping charges, totals, taxes display for Student Clubs when multiple items are added from different flyer for GST &amp; PST"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Correct subtotals, shipping charges, totals, taxes display for Student Clubs when multiple items are added from different flyer for GST & PST -->
+  <test name="Correct subtotals, shipping charges, totals, taxes display for Student Clubs when multiple items are added from same flyer for GST &amp; QST">
+    <parameter name="features" value="features/InSprint_12.2/ParallelRun_DW_CA_CS_RedemptionsAndRewards_564.feature"/>
+    <parameter name="scenario" value="Correct subtotals, shipping charges, totals, taxes display for Student Clubs when multiple items are added from same flyer for GST &amp; QST"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Correct subtotals, shipping charges, totals, taxes display for Student Clubs when multiple items are added from same flyer for GST & QST -->
+  <test name="Correct subtotals, shipping charges, totals, taxes display for Student Clubs when multiple items are added from different flyer for GST &amp; QST">
+    <parameter name="features" value="features/InSprint_12.2/ParallelRun_DW_CA_CS_RedemptionsAndRewards_564.feature"/>
+    <parameter name="scenario" value="Correct subtotals, shipping charges, totals, taxes display for Student Clubs when multiple items are added from different flyer for GST &amp; QST"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Correct subtotals, shipping charges, totals, taxes display for Student Clubs when multiple items are added from different flyer for GST & QST -->
+  <test name="Correct subtotals, shipping charges, totals, taxes display for Student Clubs when multiple items are added from different flyer for HST">
+    <parameter name="features" value="features/InSprint_12.2/ParallelRun_DW_CA_CS_RedemptionsAndRewards_564.feature"/>
+    <parameter name="scenario" value="Correct subtotals, shipping charges, totals, taxes display for Student Clubs when multiple items are added from different flyer for HST"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Correct subtotals, shipping charges, totals, taxes display for Student Clubs when multiple items are added from different flyer for HST -->
+  <test name="Correct subtotals, shipping charges, totals, taxes display for Student Clubs when multiple items are added from different flyer for GST">
+    <parameter name="features" value="features/InSprint_12.2/ParallelRun_DW_CA_CS_RedemptionsAndRewards_564.feature"/>
+    <parameter name="scenario" value="Correct subtotals, shipping charges, totals, taxes display for Student Clubs when multiple items are added from different flyer for GST"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Correct subtotals, shipping charges, totals, taxes display for Student Clubs when multiple items are added from different flyer for GST -->
+  <test name="No taxes are charged for Student Clubs for tax exempted schools for provinces with applicable taxes as GST &amp; PST">
+    <parameter name="features" value="features/InSprint_12.2/ParallelRun_DW_CA_CS_RedemptionsAndRewards_564.feature"/>
+    <parameter name="scenario" value="No taxes are charged for Student Clubs for tax exempted schools for provinces with applicable taxes as GST &amp; PST"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- No taxes are charged for Student Clubs for tax exempted schools for provinces with applicable taxes as GST & PST -->
+  <test name="No taxes are charged for Student Clubs for tax exempted schools for provinces with applicable taxes as GST &amp; QST">
+    <parameter name="features" value="features/InSprint_12.2/ParallelRun_DW_CA_CS_RedemptionsAndRewards_564.feature"/>
+    <parameter name="scenario" value="No taxes are charged for Student Clubs for tax exempted schools for provinces with applicable taxes as GST &amp; QST"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- No taxes are charged for Student Clubs for tax exempted schools for provinces with applicable taxes as GST & QST -->
+  <test name="Correct subtotals, shipping charges, totals, taxes display for Student and Teacher Catalogues when multiple items are added from same flyer for GST &amp; PST">
+    <parameter name="features" value="features/InSprint_12.2/ParallelRun_DW_CA_CS_RedemptionsAndRewards_564.feature"/>
+    <parameter name="scenario" value="Correct subtotals, shipping charges, totals, taxes display for Student and Teacher Catalogues when multiple items are added from same flyer for GST &amp; PST"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Correct subtotals, shipping charges, totals, taxes display for Student and Teacher Catalogues when multiple items are added from same flyer for GST & PST -->
+  <test name="Correct subtotals, shipping charges, totals, taxes display for Student and Teacher Catalogues when multiple items are added from same flyer for GST &amp; QST">
+    <parameter name="features" value="features/InSprint_12.2/ParallelRun_DW_CA_CS_RedemptionsAndRewards_564.feature"/>
+    <parameter name="scenario" value="Correct subtotals, shipping charges, totals, taxes display for Student and Teacher Catalogues when multiple items are added from same flyer for GST &amp; QST"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Correct subtotals, shipping charges, totals, taxes display for Student and Teacher Catalogues when multiple items are added from same flyer for GST & QST -->
+  <test name="Correct subtotals, shipping charges, totals, taxes display for Student and Teacher Catalogues when multiple items are added from different flyer for HST">
+    <parameter name="features" value="features/InSprint_12.2/ParallelRun_DW_CA_CS_RedemptionsAndRewards_564.feature"/>
+    <parameter name="scenario" value="Correct subtotals, shipping charges, totals, taxes display for Student and Teacher Catalogues when multiple items are added from different flyer for HST"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Correct subtotals, shipping charges, totals, taxes display for Student and Teacher Catalogues when multiple items are added from different flyer for HST -->
+  <test name="Correct subtotals, shipping charges, totals, taxes display for Student and Teacher Catalogues when multiple items are added from different flyer for GST">
+    <parameter name="features" value="features/InSprint_12.2/ParallelRun_DW_CA_CS_RedemptionsAndRewards_564.feature"/>
+    <parameter name="scenario" value="Correct subtotals, shipping charges, totals, taxes display for Student and Teacher Catalogues when multiple items are added from different flyer for GST"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Correct subtotals, shipping charges, totals, taxes display for Student and Teacher Catalogues when multiple items are added from different flyer for GST -->
+  <test name="No taxes are charged for Student and Teacher Catalogues for tax exempted schools for provinces with applicable taxes as GST &amp; PST">
+    <parameter name="features" value="features/InSprint_12.2/ParallelRun_DW_CA_CS_RedemptionsAndRewards_564.feature"/>
+    <parameter name="scenario" value="No taxes are charged for Student and Teacher Catalogues for tax exempted schools for provinces with applicable taxes as GST &amp; PST"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- No taxes are charged for Student and Teacher Catalogues for tax exempted schools for provinces with applicable taxes as GST & PST -->
+  <test name="No taxes are charged for Student and Teacher Catalogues for tax exempted schools for provinces with applicable taxes as GST &amp; QST">
+    <parameter name="features" value="features/InSprint_12.2/ParallelRun_DW_CA_CS_RedemptionsAndRewards_564.feature"/>
+    <parameter name="scenario" value="No taxes are charged for Student and Teacher Catalogues for tax exempted schools for provinces with applicable taxes as GST &amp; QST"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- No taxes are charged for Student and Teacher Catalogues for tax exempted schools for provinces with applicable taxes as GST & QST -->
+  
+  <test name="CSR sees header of the Rewards module as REWARDS in Redemptions and Rewards page">
+    <parameter name="features" value="features/InSprint_12.2/DW_CA_CS_RedemptionsAndRewards_180.feature"/>
+    <parameter name="scenario" value="CSR sees header of the Rewards module as REWARDS in Redemptions and Rewards page"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- CSR sees header of the Rewards module as REWARDS in Redemptions and Rewards page -->
+  <test name="CSR sees Time and Date to recieve the rewards in a Rewards module in Redemptions and Rewards page">
+    <parameter name="features" value="features/InSprint_12.2/DW_CA_CS_RedemptionsAndRewards_180.feature"/>
+    <parameter name="scenario" value="CSR sees Time and Date to recieve the rewards in a Rewards module in Redemptions and Rewards page"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- CSR sees Time and Date to recieve the rewards in a Rewards module in Redemptions and Rewards page -->
+  <test name="CSR sees Time and Date to recieve the rewards in a Rewards module in Redemptions and Rewards page2">
+    <parameter name="features" value="features/InSprint_12.2/DW_CA_CS_RedemptionsAndRewards_180.feature"/>
+    <parameter name="scenario" value="CSR sees Time and Date to recieve the rewards in a Rewards module in Redemptions and Rewards page2"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- CSR sees Time and Date to recieve the rewards in a Rewards module in Redemptions and Rewards page2 -->
+  <test name="CSR sees Qualifying order value section in a Rewards module in Redemptions and Rewards page">
+    <parameter name="features" value="features/InSprint_12.2/DW_CA_CS_RedemptionsAndRewards_180.feature"/>
+    <parameter name="scenario" value="CSR sees Qualifying order value section in a Rewards module in Redemptions and Rewards page"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- CSR sees Qualifying order value section in a Rewards module in Redemptions and Rewards page -->
+  <test name="CSR sees correct qualifying order value in a Rewards module in Redemptions and Rewards page">
+    <parameter name="features" value="features/InSprint_12.2/DW_CA_CS_RedemptionsAndRewards_180.feature"/>
+    <parameter name="scenario" value="CSR sees correct qualifying order value in a Rewards module in Redemptions and Rewards page"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- CSR sees correct qualifying order value in a Rewards module in Redemptions and Rewards page -->
+  
+  
+  <test name="DTS message and MAKE SELECTION button displays in Redemptions and Rewards page when CSR adds minimum amount to the cart">
+    <parameter name="features" value="features/InSprint_12.2/ParallelRunDW_CA_CS_RedemptionsAndRewards_182.feature"/>
+    <parameter name="scenario" value="DTS message and MAKE SELECTION button displays in Redemptions and Rewards page when CSR adds minimum amount to the cart"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- DTS message and MAKE SELECTION button displays in Redemptions and Rewards page when CSR adds minimum amount to the cart -->
+  <test name="DTS modal window, header label and title of the modal window displays when CSR clicks on MAKE SELECTION button in Redemptions and Rewards page">
+    <parameter name="features" value="features/InSprint_12.2/ParallelRunDW_CA_CS_RedemptionsAndRewards_182.feature"/>
+    <parameter name="scenario" value="DTS modal window, header label and title of the modal window displays when CSR clicks on MAKE SELECTION button in Redemptions and Rewards page"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- DTS modal window, header label and title of the modal window displays when CSR clicks on MAKE SELECTION button in Redemptions and Rewards page -->
+  <test name="Value of the amount of DTS within the header displays when CSR clicks on MAKE SELECTION button in Redemptions and Rewards page">
+    <parameter name="features" value="features/InSprint_12.2/ParallelRunDW_CA_CS_RedemptionsAndRewards_182.feature"/>
+    <parameter name="scenario" value="Value of the amount of DTS within the header displays when CSR clicks on MAKE SELECTION button in Redemptions and Rewards page"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Value of the amount of DTS within the header displays when CSR clicks on MAKE SELECTION button in Redemptions and Rewards page -->
+  <test name="close button labeled &#039;X&#039; displays in the top right position of the modal window when CSR clicks on MAKE SELECTION button in Redemptions and Rewards page">
+    <parameter name="features" value="features/InSprint_12.2/ParallelRunDW_CA_CS_RedemptionsAndRewards_182.feature"/>
+    <parameter name="scenario" value="close button labeled &#039;X&#039; displays in the top right position of the modal window when CSR clicks on MAKE SELECTION button in Redemptions and Rewards page"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- close button labeled 'X' displays in the top right position of the modal window when CSR clicks on MAKE SELECTION button in Redemptions and Rewards page -->
+  <test name="Redemptions and Rewards page displays when CSR clicks on close button in DTS modal window">
+    <parameter name="features" value="features/InSprint_12.2/ParallelRunDW_CA_CS_RedemptionsAndRewards_182.feature"/>
+    <parameter name="scenario" value="Redemptions and Rewards page displays when CSR clicks on close button in DTS modal window"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Redemptions and Rewards page displays when CSR clicks on close button in DTS modal window -->
+  
+  <test name="FreeItem promotion displays when CSR enters into Redemptions and Rewards page with minimum cart total">
+    <parameter name="features" value="features/InSprint_12.2/DW_CA_CS_RedemptionsAndRewards_188.feature"/>
+    <parameter name="scenario" value="FreeItem promotion displays when CSR enters into Redemptions and Rewards page with minimum cart total"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- FreeItem promotion displays when CSR enters into Redemptions and Rewards page with minimum cart total -->
+  <test name="CSR presented with the correct FreeItem promotion label in Redemptions and Rewards page">
+    <parameter name="features" value="features/InSprint_12.2/DW_CA_CS_RedemptionsAndRewards_188.feature"/>
+    <parameter name="scenario" value="CSR presented with the correct FreeItem promotion label in Redemptions and Rewards page"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- CSR presented with the correct FreeItem promotion label in Redemptions and Rewards page -->
+  <test name="FreeItem promotion is not displayed when CSR enters into Redemptions and Rewards page without minimum cart total">
+    <parameter name="features" value="features/InSprint_12.2/DW_CA_CS_RedemptionsAndRewards_188.feature"/>
+    <parameter name="scenario" value="FreeItem promotion is not displayed when CSR enters into Redemptions and Rewards page without minimum cart total"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- FreeItem promotion is not displayed when CSR enters into Redemptions and Rewards page without minimum cart total -->
+  
+  <test name="Shipping and handling section displays when CSR enters into Redemptions and Rewards page">
+    <parameter name="features" value="features/InSprint_12.2/ParallelRun_DW_CA_CS_RedemptionsAndRewards_216.feature"/>
+    <parameter name="scenario" value="Shipping and handling section displays when CSR enters into Redemptions and Rewards page"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Shipping and handling section displays when CSR enters into Redemptions and Rewards page -->
+  <test name="Toggle button, Shipping header and shipping charge field displays in Shipping and Handling header section">
+    <parameter name="features" value="features/InSprint_12.2/ParallelRun_DW_CA_CS_RedemptionsAndRewards_216.feature"/>
+    <parameter name="scenario" value="Toggle button, Shipping header and shipping charge field displays in Shipping and Handling header section"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Toggle button, Shipping header and shipping charge field displays in Shipping and Handling header section -->
+  <test name="Shipping and Handling section expands by default when CSR enters into Redemptions and Rewards page">
+    <parameter name="features" value="features/InSprint_12.2/ParallelRun_DW_CA_CS_RedemptionsAndRewards_216.feature"/>
+    <parameter name="scenario" value="Shipping and Handling section expands by default when CSR enters into Redemptions and Rewards page"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Shipping and Handling section expands by default when CSR enters into Redemptions and Rewards page -->
+  <test name="The label FREE! displays if the cart total is qualifies minimum amount in Shipping and Handling section in Redemptions and Rewards page">
+    <parameter name="features" value="features/InSprint_12.2/ParallelRun_DW_CA_CS_RedemptionsAndRewards_216.feature"/>
+    <parameter name="scenario" value="The label FREE! displays if the cart total is qualifies minimum amount in Shipping and Handling section in Redemptions and Rewards page"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- The label FREE! displays if the cart total is qualifies minimum amount in Shipping and Handling section in Redemptions and Rewards page -->
+  <test name="Expanded Shipping and Handling toggle button displays as minus button in Shipping and Handling section">
+    <parameter name="features" value="features/InSprint_12.2/ParallelRun_DW_CA_CS_RedemptionsAndRewards_216.feature"/>
+    <parameter name="scenario" value="Expanded Shipping and Handling toggle button displays as minus button in Shipping and Handling section"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Expanded Shipping and Handling toggle button displays as minus button in Shipping and Handling section -->
+  <test name="Plus button displays when CSR clicks on Expanded Shipping and Handling toggle button in Shipping and Handling section">
+    <parameter name="features" value="features/InSprint_12.2/ParallelRun_DW_CA_CS_RedemptionsAndRewards_216.feature"/>
+    <parameter name="scenario" value="Plus button displays when CSR clicks on Expanded Shipping and Handling toggle button in Shipping and Handling section"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Plus button displays when CSR clicks on Expanded Shipping and Handling toggle button in Shipping and Handling section -->
+  <test name="Shipping and Handling label and correct tax displays in Shipping and Handling section">
+    <parameter name="features" value="features/InSprint_12.2/ParallelRun_DW_CA_CS_RedemptionsAndRewards_216.feature"/>
+    <parameter name="scenario" value="Shipping and Handling label and correct tax displays in Shipping and Handling section"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Shipping and Handling label and correct tax displays in Shipping and Handling section -->
+  <test name="CSR can enter decimal number in Bonus Bank text box in Shipping and Handling section">
+    <parameter name="features" value="features/InSprint_12.2/ParallelRun_DW_CA_CS_RedemptionsAndRewards_216.feature"/>
+    <parameter name="scenario" value="CSR can enter decimal number in Bonus Bank text box in Shipping and Handling section"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- CSR can enter decimal number in Bonus Bank text box in Shipping and Handling section -->
+  <test name="CSR can enter Float value in Paper Bonus Coupons And Credit Notes text box in Shipping and Handling section">
+    <parameter name="features" value="features/InSprint_12.2/ParallelRun_DW_CA_CS_RedemptionsAndRewards_216.feature"/>
+    <parameter name="scenario" value="CSR can enter Float value in Paper Bonus Coupons And Credit Notes text box in Shipping and Handling section"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- CSR can enter Float value in Paper Bonus Coupons And Credit Notes text box in Shipping and Handling section -->
+  
+  	
+  <test name="Student Incentive promotion displays when CSR enters into Redemptions and Rewards page">
+    <parameter name="features" value="features/InSprint_12.2/DW_CA_CS_RedemptionsAndRewards_295.feature"/>
+    <parameter name="scenario" value="Student Incentive promotion displays when CSR enters into Redemptions and Rewards page"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Student Incentive promotion displays when CSR enters into Redemptions and Rewards page -->
+  <test name="Student Incentive text box displays when CSR enters into Redemptions and Rewards page">
+    <parameter name="features" value="features/InSprint_12.2/DW_CA_CS_RedemptionsAndRewards_295.feature"/>
+    <parameter name="scenario" value="Student Incentive text box displays when CSR enters into Redemptions and Rewards page"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Student Incentive text box displays when CSR enters into Redemptions and Rewards page -->
+  <test name="CSR can enter numeric value in a Student Incentive text box in Redemptions and Rewards page">
+    <parameter name="features" value="features/InSprint_12.2/DW_CA_CS_RedemptionsAndRewards_295.feature"/>
+    <parameter name="scenario" value="CSR can enter numeric value in a Student Incentive text box in Redemptions and Rewards page"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- CSR can enter numeric value in a Student Incentive text box in Redemptions and Rewards page -->
+  <test name="CSR cannot enter other than numeric value in a Student Incentive text box in Redemptions and Rewards page">
+    <parameter name="features" value="features/InSprint_12.2/DW_CA_CS_RedemptionsAndRewards_295.feature"/>
+    <parameter name="scenario" value="CSR cannot enter other than numeric value in a Student Incentive text box in Redemptions and Rewards page"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- CSR cannot enter other than numeric value in a Student Incentive text box in Redemptions and Rewards page -->
+  <test name="CSR can enter number of students value 50 in a Student Incentive text box in Redemptions and Rewards page">
+    <parameter name="features" value="features/InSprint_12.2/DW_CA_CS_RedemptionsAndRewards_295.feature"/>
+    <parameter name="scenario" value="CSR can enter number of students value 50 in a Student Incentive text box in Redemptions and Rewards page"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- CSR can enter number of students value 50 in a Student Incentive text box in Redemptions and Rewards page -->
+  <test name="CSR cannot enter number of students value greater than 50 in a Student Incentive text box in Redemptions and Rewards page">
+    <parameter name="features" value="features/InSprint_12.2/DW_CA_CS_RedemptionsAndRewards_295.feature"/>
+    <parameter name="scenario" value="CSR cannot enter number of students value greater than 50 in a Student Incentive text box in Redemptions and Rewards page"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- CSR cannot enter number of students value greater than 50 in a Student Incentive text box in Redemptions and Rewards page -->
+
+	
+   <test name="CSR deletes items from current selection section on DTS modal">
+    <parameter name="features" value="features/InSprint_12.2/DW_CA_CS_RedemptionsAndRewards_186.feature"/>
+    <parameter name="scenario" value="CSR deletes items from current selection section on DTS modal"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- CSR deletes items from current selection section on DTS modal -->
+  <test name="CSR adds more items leading to top-off on DTS">
+    <parameter name="features" value="features/InSprint_12.2/DW_CA_CS_RedemptionsAndRewards_186.feature"/>
+    <parameter name="scenario" value="CSR adds more items leading to top-off on DTS"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- CSR adds more items leading to top-off on DTS -->
+  <test name="CSR clicks on CANCEL on DTS">
+    <parameter name="features" value="features/InSprint_12.2/DW_CA_CS_RedemptionsAndRewards_186.feature"/>
+    <parameter name="scenario" value="CSR clicks on CANCEL on DTS"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- CSR clicks on CANCEL on DTS -->
+  <test name="CSR clicks on Confirm Selection on DTS">
+    <parameter name="features" value="features/InSprint_12.2/DW_CA_CS_RedemptionsAndRewards_186.feature"/>
+    <parameter name="scenario" value="CSR clicks on Confirm Selection on DTS"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- CSR clicks on Confirm Selection on DTS -->
+  <test name="CSR views the current selections section as the items are added on DTS">
+    <parameter name="features" value="features/InSprint_12.2/DW_CA_CS_RedemptionsAndRewards_186.feature"/>
+    <parameter name="scenario" value="CSR views the current selections section as the items are added on DTS"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- CSR views the current selections section as the items are added on DTS -->
+  <test name="CSR views the top-off message on DTS modal">
+    <parameter name="features" value="features/InSprint_12.2/DW_CA_CS_RedemptionsAndRewards_186.feature"/>
+    <parameter name="scenario" value="CSR views the top-off message on DTS modal"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- CSR views the top-off message on DTS modal -->
+  <test name="CSR unselects items on DTS modal">
+    <parameter name="features" value="features/InSprint_12.2/DW_CA_CS_RedemptionsAndRewards_186.feature"/>
+    <parameter name="scenario" value="CSR unselects items on DTS modal"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- CSR unselects items on DTS modal -->
+  
+  
+  <test name="Callout message displays &#039;Delete This Item&#039; when CSR clicks on delete button for the selected item in DTS window">
+    <parameter name="features" value="features/InSprint_12.2/DW_CA_CS_RedemptionsAndRewards_340.feature"/>
+    <parameter name="scenario" value="Callout message displays &#039;Delete This Item&#039; when CSR clicks on delete button for the selected item in DTS window"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Callout message displays 'Delete This Item' when CSR clicks on delete button for the selected item in DTS window -->
+  <test name="Callout message disappers when CSR selects &#039;NO&#039; to delete the item in DTS window">
+    <parameter name="features" value="features/InSprint_12.2/DW_CA_CS_RedemptionsAndRewards_340.feature"/>
+    <parameter name="scenario" value="Callout message disappers when CSR selects &#039;NO&#039; to delete the item in DTS window"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Callout message disappers when CSR selects 'NO' to delete the item in DTS window -->
+  <test name="Item is removed form the table when CSR selects &#039;YES&#039; to delete the item in DTS window">
+    <parameter name="features" value="features/InSprint_12.2/DW_CA_CS_RedemptionsAndRewards_340.feature"/>
+    <parameter name="scenario" value="Item is removed form the table when CSR selects &#039;YES&#039; to delete the item in DTS window"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Item is removed form the table when CSR selects 'YES' to delete the item in DTS window -->
+  <test name="Updated amount displays correctly when CSR deletes the item from list in DTS window">
+    <parameter name="features" value="features/InSprint_12.2/DW_CA_CS_RedemptionsAndRewards_340.feature"/>
+    <parameter name="scenario" value="Updated amount displays correctly when CSR deletes the item from list in DTS window"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Updated amount displays correctly when CSR deletes the item from list in DTS window -->
+  
+  
+  <test name="CSR is charged GST &amp; PST for applicable provinces on top-off amount when only one item is selected from Dollars to Spend modal">
+    <parameter name="features" value="features/InSprint_12.2/DW_CA_CS_RedemptionsAndRewards_574.feature"/>
+    <parameter name="scenario" value="CSR is charged GST &amp; PST for applicable provinces on top-off amount when only one item is selected from Dollars to Spend modal"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- CSR is charged GST & PST for applicable provinces on top-off amount when only one item is selected from Dollars to Spend modal -->
+  <test name="CSR is charged GST &amp; QST for applicable provinces on top-off amount when only one item is selected from Dollars to Spend modal">
+    <parameter name="features" value="features/InSprint_12.2/DW_CA_CS_RedemptionsAndRewards_574.feature"/>
+    <parameter name="scenario" value="CSR is charged GST &amp; QST for applicable provinces on top-off amount when only one item is selected from Dollars to Spend modal"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- CSR is charged GST & QST for applicable provinces on top-off amount when only one item is selected from Dollars to Spend modal -->
+  <test name="CSR is charged HST for applicable provinces on top-off amount when only one item is selected from Dollars to Spend modal">
+    <parameter name="features" value="features/InSprint_12.2/DW_CA_CS_RedemptionsAndRewards_574.feature"/>
+    <parameter name="scenario" value="CSR is charged HST for applicable provinces on top-off amount when only one item is selected from Dollars to Spend modal"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- CSR is charged HST for applicable provinces on top-off amount when only one item is selected from Dollars to Spend modal -->
+  <test name="CSR is charged GST for applicable provinces on top-off amount when only one item is selected from Dollars to Spend modal">
+    <parameter name="features" value="features/InSprint_12.2/DW_CA_CS_RedemptionsAndRewards_574.feature"/>
+    <parameter name="scenario" value="CSR is charged GST for applicable provinces on top-off amount when only one item is selected from Dollars to Spend modal"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- CSR is charged GST for applicable provinces on top-off amount when only one item is selected from Dollars to Spend modal -->
+  <test name="CSR is not charged on top-off amount when only one item is selected from Dollars to Spend modal">
+    <parameter name="features" value="features/InSprint_12.2/DW_CA_CS_RedemptionsAndRewards_574.feature"/>
+    <parameter name="scenario" value="CSR is not charged on top-off amount when only one item is selected from Dollars to Spend modal"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- CSR is not charged on top-off amount when only one item is selected from Dollars to Spend modal -->
+</suite> <!-- Demandware -->

@@ -1,0 +1,569 @@
+<testdata>
+
+<!-- ##################################################################################################################################################    
+##################################################################################################################################################    
+###########################################   							             #############################################################   
+###########################################   		   UNIQUE ITEM ID       	     #############################################################
+###########################################   							             #############################################################        
+##################################################################################################################################################        
+################################################################################################################################################## -->
+
+
+<testcase id="InSprint12.4:PCOD:Parent_ProvinceDropdown">
+<pcod_url>${pcod_url}</pcod_url>
+</testcase>
+
+<testcase id="InSprint12.4:PCOD:Parent_ProvinceDropdown_Cities">	
+<pcod_url>https://dev35-rco-scholastic.demandware.net/s/rco-ca/home</pcod_url>
+<province>Alberta</province>
+</testcase>
+
+<testcase id="InSprint12.4:PCOD:Parent_Selects_Province_City">
+<pcod_url>${pcod_url}</pcod_url>	
+<province>Alberta</province>
+<city>Acme</city>
+</testcase>
+
+<testcase id="InSprint12.4:PCOD:Parent_ConnectYourTeacher_BackBtn">
+<pcod_url>${pcod_url}</pcod_url>
+</testcase>
+
+<testcase id="InSprint12.4:PCOD:Parent_ConnectYourTeacher_CloseIcon">
+<pcod_url>${pcod_url}</pcod_url>	
+</testcase>
+
+<testcase id="InSprint12.4:PCOD:Parent_ConnectYourTeacher_postalCode_LowerUpperCase_WithSpace">
+<pcod_url>${pcod_url}</pcod_url>
+<postalcode>t5A 0a7</postalcode>
+<correct_postalcode>T5A 0A7</correct_postalcode>	
+</testcase>
+
+<testcase id="InSprint12.4:PCOD:Parent_ConnectYourTeacher_postalCode_LowerCase_WithSpace">
+<pcod_url>${pcod_url}</pcod_url>
+<postalcode>v0b 1g5</postalcode>
+<correct_postalcode>V0B 1G5</correct_postalcode>	
+</testcase>
+
+<testcase id="InSprint12.4:PCOD:Parent_ConnectYourTeacher_postalCode_7Char_ErrorMsg">
+<pcod_url>${pcod_url}</pcod_url>
+<postalcode>V0B1G51</postalcode>	
+</testcase>
+
+<testcase id="InSprint12.4:PCOD:Parent_ConnectYourTeacher_postalCode_6Char_ErrorMsg">
+<pcod_url>${pcod_url}</pcod_url>
+<postalcode>V0B1G</postalcode>	
+</testcase>
+
+<testcase id="InSprint12.4:PCOD:Parent_ConnectYourTeacher_postalCode_UI">
+<pcod_url>${pcod_url}</pcod_url>
+<exp_postalcodeplaceholder>Enter Postal Code</exp_postalcodeplaceholder>
+</testcase>
+
+<testcase id="InSprint12.4:PCOD:Parent_ConnectYourTeacher_postalCode_NotAssociatedToSchool">
+<pcod_url>${pcod_url}</pcod_url>
+<postalcode>T5A0A7</postalcode>	
+</testcase>
+
+<testcase id="InSprint12.4:PCOD:Parent_ConnectYourTeacher_postalCode_ForInactiveSchool">
+<pcod_url>${pcod_url}</pcod_url>
+<postalcode>T5A0A7</postalcode>	
+</testcase>
+
+
+<testcase id="InSprint12.4:PCOD:Parent_ConnectYourTeacher_BackBtn_Step1">
+<pcod_url>${pcod_url}</pcod_url>
+<postalcode>V0K2G0</postalcode>	
+</testcase>
+
+<testcase id="InSprint12.4:PCOD:Parent_ConnectYourTeacher_NewSearchlink_Step1">
+<pcod_url>${pcod_url}</pcod_url>
+<postalcode>V0K2G0</postalcode>	
+</testcase>
+
+
+<testcase id="InSprint12.4:PCOD:Parent_ConnectYourTeacher_CloseIcon_Step2">
+<pcod_url>${pcod_url}</pcod_url>
+<postalcode>V0K2G0</postalcode>	
+</testcase>
+
+<testcase id="InSprint12.4:PCOD:Parent_ConnectYourTeacher_Validpostal_SchoolDetails">
+<pcod_url>${pcod_url}</pcod_url>
+<school>7377783</school>
+<schoolname>Bayshore Daycare</schoolname>
+<street>14 Bayshore Estates</street>
+<city>Bay Roberts</city>
+<province>NL</province>
+<postalcode>A0A 1G0</postalcode>	
+</testcase>
+
+<testcase id="InSprint12.4:PCOD:Parent_ConnectYourTeacher_CantFindTeacher">
+<pcod_url>${pcod_url}</pcod_url>
+<postalcode>Y1A3S5</postalcode>	
+<school>1699</school>
+</testcase>
+
+
+<testcase id="InSprint12.4:PCOD:Parent_ConnectYourTeacher_School_NoTeacherRegistered">
+<pcod_url>${pcod_url}</pcod_url>
+<postalcode>V0K2G0</postalcode>	
+<school>6648044</school>
+</testcase>
+
+<testcase id="InSprint12.4:PCOD:Parent_ConnectYourTeacher_BackBtn_Step3">
+<pcod_url>${pcod_url}</pcod_url>
+<postalcode>Y1A3S5</postalcode>	
+<school>1699</school>
+</testcase>
+
+<testcase id="InSprint12.4:PCOD:Parent_ConnectYourTeacher_CloseIcon_Step3">
+<pcod_url>${pcod_url}</pcod_url>
+<postalcode>Y1A3S5</postalcode>	
+<school>1699</school>
+</testcase>
+
+<testcase id="InSprint12.4:PCOD:Parent_ConnectYourTeacher_CorrectCAC_TeachaerDetails">
+<pcod_url>${pcod_url}</pcod_url>
+<cac_no>${cac_no}</cac_no>
+<teachername>MARINA ACKARD</teachername>
+<schoolname>BOYS&amp;GIRLS CLUB AT CLARENCE</schoolname>
+<street>UNION ST</street>
+<city>WILMINGTON</city>
+<province>DE</province>
+<postalcode>19805</postalcode>
+</testcase>
+
+
+<testcase id="InSprint12.4:PCOD:Parent_ConnectYourTeacher_CorrectCAC_TeachaerDetails_NoBtn">
+<pcod_url>${pcod_url}</pcod_url>
+<cac_no>${cac_no}</cac_no>
+</testcase>
+
+
+<testcase id="InSprint12.4:PCOD:Parent_ConnectYourTeacher_CAC_ThisIsNotMyTeacher">
+<pcod_url>${pcod_url}</pcod_url>
+<cac_no>${cac_no}</cac_no>
+</testcase>
+
+
+<testcase id="InSprint12.4:PCOD:Parent_ConnectYourTeacher_CAC_CreateAnAccount">
+<pcod_url>${pcod_url}</pcod_url>
+<cac_no>${cac_no}</cac_no>
+</testcase>
+
+<!-- ##################################################################################################################################################    
+##################################################################################################################################################    
+###########################################   							             #############################################################   
+###########################################   		   DWCAPCOD-79          	     #############################################################
+###########################################   							             #############################################################        
+##################################################################################################################################################        
+################################################################################################################################################## -->
+
+
+<testcase id="InSprint12.4:PCOD:Parent_ConnectYourTeacher_CreateAnAccount_FirstName30characters">
+<cac_no>${cac_no}</cac_no>
+<firstname>aaaaaaaaaabbbbbbbbbbccccccccccdddddddddd</firstname>
+<exp_firstnamesize>30</exp_firstnamesize>
+</testcase>
+
+
+<testcase id="InSprint12.4:PCOD:Parent_ConnectYourTeacher_CreateAnAccount_FirstName_Specialcharacters">
+<cac_no>${cac_no}</cac_no>
+<firstname>obama&amp;</firstname>
+<exp_firstname>obama</exp_firstname>
+</testcase>
+
+<testcase id="InSprint12.4:PCOD:Parent_ConnectYourTeacher_CreateAnAccount_FirstName_Empty">
+<cac_no>${cac_no}</cac_no>
+<firstname></firstname>
+</testcase>
+
+
+<testcase id="InSprint12.4:PCOD:Parent_ConnectYourTeacher_CreateAnAccount_FirstName_SingleChar">
+<cac_no>${cac_no}</cac_no>
+<firstname>s</firstname>
+</testcase>
+
+<testcase id="InSprint12.4:PCOD:Parent_ConnectYourTeacher_CreateAnAccount_FirstName_TwoChar">
+<cac_no>${cac_no}</cac_no>
+<firstname>so</firstname>
+</testcase>
+
+<testcase id="InSprint12.4:PCOD:Parent_ConnectYourTeacher_CreateAnAccount_EnterAllData_ExceptFirstName">
+<cac_no>${cac_no}</cac_no>
+<firstname></firstname>
+<lastname>test1</lastname>
+<email>test@abc.com</email>
+<password>passw0rd123</password>
+<mobnumber>3333333333</mobnumber>
+</testcase>
+
+<testcase id="InSprint12.4:PCOD:Parent_ConnectYourTeacher_CreateAnAccount_LastName30characters">
+<cac_no>${cac_no}</cac_no>
+<lastname>aaaaaaaaaabbbbbbbbbbccccccccccdddddddddd</lastname>
+<exp_lastnamesize>30</exp_lastnamesize>
+</testcase>
+
+
+<testcase id="InSprint12.4:PCOD:Parent_ConnectYourTeacher_CreateAnAccount_LastName_Specialcharacters">
+<cac_no>${cac_no}</cac_no>
+<lastname>obama&amp;</lastname>
+<exp_lastname>obama</exp_lastname>
+</testcase>
+
+
+<testcase id="InSprint12.4:PCOD:Parent_ConnectYourTeacher_CreateAnAccount_LastName_Empty">
+<cac_no>${cac_no}</cac_no>
+<lastname></lastname>
+</testcase>
+
+
+<testcase id="InSprint12.4:PCOD:Parent_ConnectYourTeacher_CreateAnAccount_LastName_SingleChar">
+<cac_no>${cac_no}</cac_no>
+<lastname>s</lastname>
+</testcase>
+
+
+<testcase id="InSprint12.4:PCOD:Parent_ConnectYourTeacher_CreateAnAccount_LastName_TwoChar">
+<cac_no>${cac_no}</cac_no>
+<lastname>so</lastname>
+</testcase>
+
+
+
+<testcase id="InSprint12.4:PCOD:Parent_ConnectYourTeacher_CreateAnAccount_EnterAllData_ExceptLastName">
+<cac_no>${cac_no}</cac_no>
+<firstname>test</firstname>
+<lastname></lastname>
+<email>test@abc.com</email>
+<password>passw0rd123</password>
+<mobnumber>3333333333</mobnumber>
+</testcase>
+
+
+<testcase id="InSprint12.4:PCOD:Parent_ConnectYourTeacher_CreateAnAccount_Email_MissingDomain">
+<cac_no>${cac_no}</cac_no>
+<email>test@.com</email>
+</testcase>
+
+
+<testcase id="InSprint12.4:PCOD:Parent_ConnectYourTeacher_CreateAnAccount_Email_MissingDot">
+<cac_no>${cac_no}</cac_no>
+<email>test@abccom</email>
+</testcase>
+
+
+<testcase id="InSprint12.4:PCOD:Parent_ConnectYourTeacher_CreateAnAccount_Email_MissingTopLevelDomain">
+<cac_no>${cac_no}</cac_no>
+<email>test@abc</email>
+</testcase>
+
+
+<testcase id="InSprint12.4:PCOD:Parent_ConnectYourTeacher_CreateAnAccount_Email_Multiple@sign">
+<cac_no>${cac_no}</cac_no>
+<email>test@@abc.com</email>
+</testcase>
+
+
+<testcase id="InSprint12.4:PCOD:Parent_ConnectYourTeacher_CreateAnAccount_Email_MultipleDots">
+<cac_no>${cac_no}</cac_no>
+<email>test@abc..com</email>
+</testcase>
+
+
+<testcase id="InSprint12.4:PCOD:Parent_ConnectYourTeacher_CreateAnAccount_EnterAllData_ExceptEmail">
+<cac_no>${cac_no}</cac_no>
+<firstname>test</firstname>
+<lastname>test1</lastname>
+<email></email>
+<password>passw0rd123</password>
+<mobnumber>3333333333</mobnumber>
+</testcase>
+
+
+<testcase id="InSprint12.4:PCOD:Parent_ConnectYourTeacher_CreateAnAccount_Password_LessThan7Char">
+<cac_no>${cac_no}</cac_no>
+<password>passwo</password>
+</testcase>
+
+
+<testcase id="InSprint12.4:PCOD:Parent_ConnectYourTeacher_CreateAnAccount_Password_WithoutCombination_LettersAndNumbers">
+<cac_no>${cac_no}</cac_no>
+<password>password</password>
+</testcase>
+
+<testcase id="InSprint12.4:PCOD:Parent_ConnectYourTeacher_CreateAnAccount_Password_Valid">
+<cac_no>${cac_no}</cac_no>
+<password>password123</password>
+</testcase>
+
+<testcase id="InSprint12.4:PCOD:Parent_ConnectYourTeacher_CreateAnAccount_Password_Valid_LettersNumbersSpecialChar">
+<cac_no>${cac_no}</cac_no>
+<password>password123&amp;</password>
+</testcase>
+
+
+<testcase id="InSprint12.4:PCOD:Parent_ConnectYourTeacher_CreateAnAccount_Password_Hide">
+<cac_no>${cac_no}</cac_no>
+<password>password123</password>
+</testcase>
+
+<testcase id="InSprint12.4:PCOD:Parent_ConnectYourTeacher_CreateAnAccount_Password_Show">
+<cac_no>${cac_no}</cac_no>
+<password>password123</password>
+</testcase>
+
+
+<testcase id="InSprint12.4:PCOD:Parent_ConnectYourTeacher_CreateAnAccount_EnterAllData_ExceptPassword">
+<cac_no>${cac_no}</cac_no>
+<firstname>test</firstname>
+<lastname>test1</lastname>
+<email>test@abc.com</email>
+<password></password>
+<mobnumber>3333333333</mobnumber>
+</testcase>
+
+<testcase id="InSprint12.4:PCOD:Parent_ConnectYourTeacher_CreateAnAccount_PhoneNumber_Invalid1">
+<cac_no>${cac_no}</cac_no>
+<mobnumber>0123456789</mobnumber>
+</testcase>
+
+<testcase id="InSprint12.4:PCOD:Parent_ConnectYourTeacher_CreateAnAccount_PhoneNumber_Invalid2">
+<cac_no>${cac_no}</cac_no>
+<mobnumber>1234567890</mobnumber>
+</testcase>
+
+<testcase id="InSprint12.4:PCOD:Parent_ConnectYourTeacher_CreateAnAccount_PhoneNumber_Invalid3">
+<cac_no>${cac_no}</cac_no>
+<mobnumber>1234590</mobnumber>
+</testcase>
+
+
+<testcase id="InSprint12.4:PCOD:Parent_ConnectYourTeacher_CreateAnAccount_EnterAllData_ExceptPhoneNumber">
+<cac_no>${cac_no}</cac_no>
+<firstname>test</firstname>
+<lastname>test1</lastname>
+<email>test@abc.com</email>
+<password>password123</password>
+<mobnumber></mobnumber>
+</testcase>
+
+
+<testcase id="InSprint12.4:PCOD:Parent_ConnectYourTeacher_CreateAnAccount_PreferredLang_Unselect_Select">
+<cac_no>${cac_no}</cac_no>
+<firstname>test</firstname>
+<lastname>test1</lastname>
+<email>test@abc.com</email>
+<password>password123</password>
+<mobnumber>2222222222</mobnumber>
+</testcase>
+
+
+<testcase id="InSprint12.4:PCOD:Parent_ConnectYourTeacher_CreateAnAccount_Terms_Policy_Unselect">
+<cac_no>${cac_no}</cac_no>
+<firstname>test</firstname>
+<lastname>test1</lastname>
+<email>test@abc.com</email>
+<password>password123</password>
+<mobnumber>2222222222</mobnumber>
+</testcase>
+
+
+<testcase id="InSprint12.4:PCOD:Parent_ConnectYourTeacher_CreateAnAccount_ProvideAllDetails">
+<cac_no>${cac_no}</cac_no>
+<firstname>test</firstname>
+<lastname>test1</lastname>
+<email>test@abc.com</email>
+<password>password123</password>
+<mobnumber>2222222222</mobnumber>
+</testcase>
+
+
+<testcase id="InSprint12.4:PCOD:Parent_ConnectYourTeacher_CreateAnAccount_UnCheckOffers_ContinueBtnEnabled">
+<cac_no>${cac_no}</cac_no>
+<firstname>test</firstname>
+<lastname>test1</lastname>
+<email>test@abc.com</email>
+<password>password123</password>
+<mobnumber>2222222222</mobnumber>
+</testcase>
+
+
+<testcase id="InSprint12.4:PCOD:Parent_ConnectYourTeacher_CreateAnAccount_ValidData_ContinueBtn">
+<cac_no>${cac_no}</cac_no>
+<firstname>test</firstname>
+<lastname>test1</lastname>
+<email>test123459@xyz.com</email>
+<password>password123</password>
+<mobnumber>2222222222</mobnumber>
+</testcase>
+
+
+<testcase id="InSprint12.4:PCOD:Parent_ConnectYourTeacher_CreateAnAccount_CloseIcon">
+<cac_no>${cac_no}</cac_no>
+<firstname>test</firstname>
+<lastname>test1</lastname>
+<email>test123456@abc.com</email>
+<password>password123</password>
+<mobnumber>2222222222</mobnumber>
+</testcase>
+
+
+
+<!-- ##################################################################################################################################################    
+##################################################################################################################################################    
+###########################################   							             #############################################################   
+###########################################   		   DWCAPCOD-139          	     #############################################################
+###########################################   							             #############################################################        
+##################################################################################################################################################        
+################################################################################################################################################## -->
+
+
+<testcase id="InSprint12.4:PCOD:Parent_ConnectYourTeacher_AddaChild_FirstName50characters">
+<cac_no>${cac_no}</cac_no>
+<firstname>test</firstname>
+<lastname>test1</lastname>
+<email>test</email>
+<password>password123</password>
+<mobnumber>2222222222</mobnumber>
+<child_firstname>aaaaaaaaaabbbbbbbbbbccccccccccddddddddddeeeeeeeeeeffffffffffggggg</child_firstname>
+<exp_firstnamesize>50</exp_firstnamesize>
+</testcase>
+
+
+<testcase id="InSprint12.4:PCOD:Parent_ConnectYourTeacher_AddaChild_LasttName50characters">
+<cac_no>${cac_no}</cac_no>
+<firstname>test</firstname>
+<lastname>test1</lastname>
+<email>test</email>
+<password>password123</password>
+<mobnumber>2222222222</mobnumber>
+<child_lastname>aaaaaaaaaabbbbbbbbbbccccccccccddddddddddeeeeeeeeeeffffffffffggggg</child_lastname>
+<exp_lastnamesize>50</exp_lastnamesize>
+</testcase>
+
+
+<testcase id="InSprint12.4:PCOD:Parent_ConnectYourTeacher_AddaChild_LasttNameSinglecharacter">
+<cac_no>${cac_no}</cac_no>
+<firstname>test</firstname>
+<lastname>test1</lastname>
+<email>test</email>
+<password>password123</password>
+<mobnumber>2222222222</mobnumber>
+<child_lastname>a</child_lastname>
+</testcase>
+
+
+
+<testcase id="InSprint12.4:PCOD:Parent_ConnectYourTeacher_AddaChild_LasttNameTwocharacter">
+<cac_no>${cac_no}</cac_no>
+<firstname>test</firstname>
+<lastname>test1</lastname>
+<email>test</email>
+<password>password123</password>
+<mobnumber>2222222222</mobnumber>
+<child_lastname>sa</child_lastname>
+</testcase>
+
+
+<testcase id="InSprint12.4:PCOD:Parent_ConnectYourTeacher_AddaChild_ValidData_ExceptFirstName">
+<cac_no>${cac_no}</cac_no>
+<firstname>test</firstname>
+<lastname>test1</lastname>
+<email>test</email>
+<password>password123</password>
+<mobnumber>2222222222</mobnumber>
+<child_firstname></child_firstname>
+<child_lastname>testchild1</child_lastname>
+</testcase>
+
+
+
+<testcase id="InSprint12.4:PCOD:Parent_ConnectYourTeacher_AddaChild_ValidData_ExceptLastName">
+<cac_no>${cac_no}</cac_no>
+<firstname>test</firstname>
+<lastname>test1</lastname>
+<email>test</email>
+<password>password123</password>
+<mobnumber>2222222222</mobnumber>
+<child_firstname>testchild</child_firstname>
+<child_lastname></child_lastname>
+</testcase>
+
+
+<testcase id="InSprint12.4:PCOD:Parent_ConnectYourTeacher_AddaChild_ValidData_ExceptGrade">
+<cac_no>${cac_no}</cac_no>
+<firstname>test</firstname>
+<lastname>test1</lastname>
+<email>test</email>
+<password>password123</password>
+<mobnumber>2222222222</mobnumber>
+<child_firstname>testchild</child_firstname>
+<child_lastname>testchild1</child_lastname>
+</testcase>
+
+
+<testcase id="InSprint12.4:PCOD:Parent_ConnectYourTeacher_AddaChild_ValidData_ExceptBirthDetails">
+<cac_no>${cac_no}</cac_no>
+<firstname>test</firstname>
+<lastname>test1</lastname>
+<email>test</email>
+<password>password123</password>
+<mobnumber>2222222222</mobnumber>
+<child_firstname>testchild</child_firstname>
+<child_lastname>testchild1</child_lastname>
+</testcase>
+
+<testcase id="InSprint12.4:PCOD:Parent_ConnectYourTeacher_AddaChild_ValidData_PartialBirthDetails">
+<cac_no>${cac_no}</cac_no>
+<firstname>test</firstname>
+<lastname>test1</lastname>
+<email>test</email>
+<password>password123</password>
+<mobnumber>2222222222</mobnumber>
+<child_firstname>testchild</child_firstname>
+<child_lastname>testchild1</child_lastname>
+</testcase>
+
+<testcase id="InSprint12.4:PCOD:Parent_ConnectYourTeacher_AddaChild_ValidData_GradeDropDown_Values">
+<cac_no>${cac_no}</cac_no>
+<firstname>test</firstname>
+<lastname>test1</lastname>
+<email>test</email>
+<password>password123</password>
+<mobnumber>2222222222</mobnumber>
+</testcase>
+
+
+
+<testcase id="InSprint12.4:PCOD:Parent_ConnectYourTeacher_AddaChild_ValidData_MonthDropDown_Values">
+<cac_no>${cac_no}</cac_no>
+<firstname>test</firstname>
+<lastname>test1</lastname>
+<email>test</email>
+<password>password123</password>
+<mobnumber>2222222222</mobnumber>
+</testcase>
+
+
+<testcase id="InSprint12.4:PCOD:Parent_ConnectYourTeacher_AddaChild_ValidData_yearDropDown_Values">
+<cac_no>${cac_no}</cac_no>
+<firstname>test</firstname>
+<lastname>test1</lastname>
+<email>test</email>
+<password>password123</password>
+<mobnumber>2222222222</mobnumber>
+</testcase>
+
+
+<testcase id="InSprint12.4:PCOD:Parent_ConnectYourTeacher_AddaChild_ValidData_Add">
+<cac_no>${cac_no}</cac_no>
+<firstname>test</firstname>
+<lastname>test1</lastname>
+<email>test</email>
+<password>password123</password>
+<mobnumber>2222222222</mobnumber>
+<child_firstname>test</child_firstname>
+<child_lastname>child</child_lastname>
+</testcase>
+
+</testdata>	

@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="25" guice-stage="DEVELOPMENT" verbose="0"  name="Demandware" parallel="tests">
+    <parameter name="remote.driver.url" value="http://sereti_qe:b9b8a9e1-e525-46af-9c7f-4a11c372b5c5@ondemand.saucelabs.com:80/wd/hub" />
+    <parameter name="tdm.data" value="off" />
+    <parameter name="glue" value="com.dw.automation.steps" />
+    <parameter name="sauce" value="true" />
+
+    <test name="Correct Teacher Exclusives subtotal, Qty, taxes and Total displays in CS and OC pages with applicable taxes GST &amp; PST" >
+        <parameter name="features" value="features/Modules/CARegressionModuleJob/Module4/ConfirmSubmit_And_OrderConfirmation.feature"/>
+        <parameter name="scenario" value="Correct Teacher Exclusives subtotal, Qty, taxes and Total displays in CS and OC pages with applicable taxes GST &amp; PST"/>
+        <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+        <parameter name="driver.name" value="Chrome"/>
+        <classes>
+            <class name="com.scholastic.torque.runner.Run"/>
+        </classes>
+    </test> <!-- Correct Teacher Exclusives subtotal, Qty, taxes and Total displays in CS and OC pages with applicable taxes GST & PST -->
+    <test name="No prices are charged for Student subtotal, taxes, Totals when teacher adds multiple FreePick items to the cart for BC province" >
+        <parameter name="features" value="features/Modules/CARegressionModuleJob/Module4/ConfirmSubmit_And_OrderConfirmation.feature"/>
+        <parameter name="scenario" value="No prices are charged for Student subtotal, taxes, Totals when teacher adds multiple FreePick items to the cart for BC province"/>
+        <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+        <parameter name="driver.name" value="Chrome"/>
+        <classes>
+            <class name="com.scholastic.torque.runner.Run"/>
+        </classes>
+    </test> <!-- No prices are charged for Student subtotal, taxes, Totals when teacher adds multiple FreePick items to the cart for BC province -->
+    <test name="No taxes charged and correct subtotal, Qty and Total displays when Teacher Exclusives items added in CS and OC pages for GST &amp; QST" >
+        <parameter name="features" value="features/Modules/CARegressionModuleJob/Module4/ConfirmSubmit_And_OrderConfirmation.feature"/>
+        <parameter name="scenario" value="No taxes charged and correct subtotal, Qty and Total displays when Teacher Exclusives items added in CS and OC pages for GST &amp; QST"/>
+        <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+        <parameter name="driver.name" value="Chrome"/>
+        <classes>
+            <class name="com.scholastic.torque.runner.Run"/>
+
+
+        </classes>
+    </test> <!-- No taxes charged and correct subtotal, Qty and Total displays when Teacher Exclusives items added in CS and OC pages for GST & QST -->
+    <test name="No taxes charged and correct subtotal, Qty and Total displays when Teacher Exclusives items added in CS and OC pages for GST &amp; PST" >
+        <parameter name="features" value="features/Modules/CARegressionModuleJob/Module4/ConfirmSubmit_And_OrderConfirmation.feature"/>
+        <parameter name="scenario" value="No taxes charged and correct subtotal, Qty and Total displays when Teacher Exclusives items added in CS and OC pages for GST &amp; PST"/>
+        <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+        <parameter name="driver.name" value="Chrome"/>
+        <classes>
+            <class name="com.scholastic.torque.runner.Run"/>
+
+
+        </classes>
+    </test> <!-- No taxes charged and correct subtotal, Qty and Total displays when Teacher Exclusives items added in CS and OC pages for GST & PST -->
+    <test name="Correct subtotal, Qty, taxes and Total displays when multiple SFO items are added in Submit and Order confirmation with GST &amp; QST" >
+        <parameter name="features" value="features/Modules/CARegressionModuleJob/Module4/ConfirmSubmit_And_OrderConfirmation.feature"/>
+        <parameter name="scenario" value="Correct subtotal, Qty, taxes and Total displays when multiple SFO items are added in Submit and Order confirmation with GST &amp; QST"/>
+        <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+        <parameter name="driver.name" value="Chrome"/>
+        <classes>
+            <class name="com.scholastic.torque.runner.Run"/>
+
+
+    </classes>
+</test> <!-- Correct subtotal, Qty, taxes and Total displays when multiple SFO items are added in Submit and Order confirmation with GST & QST -->
+<test name="Correct Teacher Exclusives subtotal, Qty, taxes and Total displays in CS and OC pages with applicable taxes GST &amp; QST" >
+<parameter name="features" value="features/Modules/CARegressionModuleJob/Module4/ConfirmSubmit_And_OrderConfirmation.feature"/>
+<parameter name="scenario" value="Correct Teacher Exclusives subtotal, Qty, taxes and Total displays in CS and OC pages with applicable taxes GST &amp; QST"/>
+<parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+<parameter name="driver.name" value="Chrome"/>
+<classes>
+    <class name="com.scholastic.torque.runner.Run"/>
+
+
+</classes>
+</test> <!-- Correct Teacher Exclusives subtotal, Qty, taxes and Total displays in CS and OC pages with applicable taxes GST & QST -->
+<test name="No prices are charged for Student subtotal, taxes, Totals when teacher adds single FreePick item to the cart for BC province" >
+<parameter name="features" value="features/Modules/CARegressionModuleJob/Module4/ConfirmSubmit_And_OrderConfirmation.feature"/>
+<parameter name="scenario" value="No prices are charged for Student subtotal, taxes, Totals when teacher adds single FreePick item to the cart for BC province"/>
+<parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+<parameter name="driver.name" value="Chrome"/>
+<classes>
+    <class name="com.scholastic.torque.runner.Run"/>
+
+
+</classes>
+</test> <!-- No prices are charged for Student subtotal, taxes, Totals when teacher adds single FreePick item to the cart for BC province -->
+<test name="No taxes are charged and correct subtotal, Qty and Total displays when multiple SFO items are added in CS and OC pages for GST &amp; QST" >
+<parameter name="features" value="features/Modules/CARegressionModuleJob/Module4/ConfirmSubmit_And_OrderConfirmation.feature"/>
+<parameter name="scenario" value="No taxes are charged and correct subtotal, Qty and Total displays when multiple SFO items are added in CS and OC pages for GST &amp; QST"/>
+<parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+<parameter name="driver.name" value="Chrome"/>
+<classes>
+    <class name="com.scholastic.torque.runner.Run"/>
+
+
+</classes>
+</test> <!-- No taxes are charged and correct subtotal, Qty and Total displays when multiple SFO items are added in CS and OC pages for GST & QST -->
+<test name="Enter coupon code which does not exist in setup on SFO coupon modal" >
+<parameter name="features" value="features/Modules/CARegressionModuleJob/Module4/SFO.feature"/>
+<parameter name="scenario" value="Enter coupon code which does not exist in setup on SFO coupon modal"/>
+<parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+<parameter name="driver.name" value="Chrome"/>
+<classes>
+    <class name="com.scholastic.torque.runner.Run"/>
+
+</classes>
+</test> <!-- Enter coupon code which does not exist in setup on SFO coupon modal -->
+<test name="Enter coupon code which has already been redeemed on SFO coupon modal" >
+<parameter name="features" value="features/Modules/CARegressionModuleJob/Module4/SFO.feature"/>
+<parameter name="scenario" value="Enter coupon code which has already been redeemed on SFO coupon modal"/>
+<parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+<parameter name="driver.name" value="Chrome"/>
+<classes>
+    <class name="com.scholastic.torque.runner.Run"/>
+
+</classes>
+</test> <!-- Enter coupon code which has already been redeemed on SFO coupon modal -->
+<test name="SFO Item# special character validation rules" >
+<parameter name="features" value="features/Modules/CARegressionModuleJob/Module4/SFO.feature"/>
+<parameter name="scenario" value="SFO Item# special character validation rules"/>
+<parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+<parameter name="driver.name" value="Chrome"/>
+<classes>
+    <class name="com.scholastic.torque.runner.Run"/>
+
+</classes>
+</test> <!-- SFO Item# special character validation rules -->
+<test name="SFO Item# validation rules" >
+<parameter name="features" value="features/Modules/CARegressionModuleJob/Module4/SFO.feature"/>
+<parameter name="scenario" value="SFO Item# validation rules"/>
+<parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+<parameter name="driver.name" value="Chrome"/>
+<classes>
+    <class name="com.scholastic.torque.runner.Run"/>
+
+</classes>
+</test> <!-- SFO Item# validation rules -->
+<test name="SFO Item#7 validation rules" >
+<parameter name="features" value="features/Modules/CARegressionModuleJob/Module4/SFO.feature"/>
+<parameter name="scenario" value="SFO Item#7 validation rules"/>
+<parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+<parameter name="driver.name" value="Chrome"/>
+<classes>
+    <class name="com.scholastic.torque.runner.Run"/>
+
+</classes>
+</test> <!-- SFO Item#7 validation rules -->
+<test name="Teacher already redeemed TGAT coupon using different TGAT coupon with qualifying order value" >
+<parameter name="features" value="features/Modules/CARegressionModuleJob/Module4/TGAT.feature"/>
+<parameter name="scenario" value="Teacher already redeemed TGAT coupon using different TGAT coupon with qualifying order value"/>
+<parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+<parameter name="driver.name" value="Chrome"/>
+<classes>
+    <class name="com.scholastic.torque.runner.Run"/>
+
+</classes>
+</test> <!-- Teacher already redeemed TGAT coupon using different TGAT coupon with qualifying order value -->
+<test name="New teacher using TGAT coupon for student club and teacher club items with qualifying order value" >
+<parameter name="features" value="features/Modules/CARegressionModuleJob/Module4/TGAT.feature"/>
+<parameter name="scenario" value="New teacher using TGAT coupon for student club and teacher club items with qualifying order value"/>
+<parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+<parameter name="driver.name" value="Chrome"/>
+<classes>
+    <class name="com.scholastic.torque.runner.Run"/>
+
+</classes>
+</test> <!-- New teacher using TGAT coupon for student club and teacher club items with qualifying order value -->
+<test name="Teacher already redeemed TGAT coupon using same TGAT coupon with qualifying order value" >
+<parameter name="features" value="features/Modules/CARegressionModuleJob/Module4/TGAT.feature"/>
+<parameter name="scenario" value="Teacher already redeemed TGAT coupon using same TGAT coupon with qualifying order value"/>
+<parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+<parameter name="driver.name" value="Chrome"/>
+<classes>
+    <class name="com.scholastic.torque.runner.Run"/>
+
+</classes>
+</test> <!-- Teacher already redeemed TGAT coupon using same TGAT coupon with qualifying order value -->
+<test name="New teacher deletes the applied TGAT coupon and enters the different TGAT coupon" >
+<parameter name="features" value="features/Modules/CARegressionModuleJob/Module4/TGAT.feature"/>
+<parameter name="scenario" value="New teacher deletes the applied TGAT coupon and enters the different TGAT coupon"/>
+<parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+<parameter name="driver.name" value="Chrome"/>
+<classes>
+    <class name="com.scholastic.torque.runner.Run"/>
+
+</classes>
+</test> <!-- New teacher deletes the applied TGAT coupon and enters the different TGAT coupon -->
+<test name="New teacher using multiple TGAT coupon in different orders with qualifying order value" >
+<parameter name="features" value="features/Modules/CARegressionModuleJob/Module4/TGAT.feature"/>
+<parameter name="scenario" value="New teacher using multiple TGAT coupon in different orders with qualifying order value"/>
+<parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+<parameter name="driver.name" value="Chrome"/>
+<classes>
+    <class name="com.scholastic.torque.runner.Run"/>
+
+</classes>
+</test> <!-- New teacher using multiple TGAT coupon in different orders with qualifying order value -->
+<test name="Multiple teachers using same TGAT coupon for the first with qualifying order value" >
+<parameter name="features" value="features/Modules/CARegressionModuleJob/Module4/TGAT.feature"/>
+<parameter name="scenario" value="Multiple teachers using same TGAT coupon for the first with qualifying order value"/>
+<parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+<parameter name="driver.name" value="Chrome"/>
+<classes>
+    <class name="com.scholastic.torque.runner.Run"/>
+
+</classes>
+</test>
+
+        </suite> <!-- Failed suite [Demandware] -->

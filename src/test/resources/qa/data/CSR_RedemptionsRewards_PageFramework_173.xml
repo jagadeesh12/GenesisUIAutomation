@@ -1,0 +1,29 @@
+<testdata>
+	<testcase id="CSR_sees_RewardsAndCoupons_popup_window">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>4580230</AcNum>
+  		<FlyerCode>Z8A16</FlyerCode>
+  		<ItemNum>700</ItemNum>
+  		<ItemQty>1</ItemQty>
+  		<ItemNum2>701</ItemNum2>
+  		<ItemQty2>3</ItemQty2>
+  		<ItemNum3>702</ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+	</testcase>
+	
+	<testcase id="Redemptions_Rewards_tab_highlights">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>2945733</AcNum>
+  		<FlyerCode>Z8A16</FlyerCode>
+  		<ItemNum>700</ItemNum>
+  		<ItemQty>1</ItemQty>
+  		<ItemNum2>701</ItemNum2>
+  		<ItemQty2>3</ItemQty2>
+  		<ItemNum3>702</ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+	</testcase>
+	
+
+</testdata>

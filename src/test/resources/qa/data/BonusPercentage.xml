@@ -1,0 +1,87 @@
+<testdata>
+	<testcase id="BonusPercentage:Teacher_AutoBonusPercentage">
+		<userid>7468087</userid>
+		<password>passw0rd</password>
+		<sname1>Manu</sname1>
+		<sname3>Johnson</sname3>
+		<qty1>1</qty1>
+		<qty3>1</qty3>
+	</testcase>
+	
+	<testcase id="BonusPercentage:Teacher_entered_redeemedcouponcode">
+		<userid>7468087</userid>
+		<password>passw0rd</password>
+		<sname1>Manu</sname1>
+		<sname2>Rocky</sname2>
+		<sname3>Johnson</sname3>
+		<qty1>5</qty1>
+		<qty2>10</qty2>
+		<qty3>5</qty3>
+		<CouponCode>BBPERC</CouponCode>
+	</testcase>
+	
+	<testcase id="BonusPercentage:Teacher_AutoBonusPercentage_tierShift">
+		<userid>7527718</userid>
+		<password>passw0rd</password>
+		<sname1>Manu</sname1>
+		<sname2>Rocky</sname2>
+		<sname3>Johnson</sname3>
+		<qty1>5</qty1>
+		<qty2>10</qty2>
+		<qty3>5</qty3>
+		<sname4>Manu2</sname4>
+		<sname5>Rocky2</sname5>
+		<sname6>Johnson2</sname6>
+		<qty4>3</qty4>
+		<qty5>5</qty5>
+		<qty6>5</qty6>
+	</testcase>
+	
+	<testcase id="BonusPercentage:Teacher_AutoBonusPercentage_tiershift_2">
+		<userid>7527718</userid>
+		<password>passw0rd</password>
+		<sname1>Manu</sname1>
+		<sname2>Rocky</sname2>
+		<sname3>Johnson</sname3>
+		<qty1>7</qty1>
+		<qty2>15</qty2>
+		<qty3>5</qty3>
+	</testcase>
+	
+	<testcase id="BonusPercentage:TeacherOrder_AutoBonusPercent">
+		<userid>7527718</userid>
+		<password>passw0rd</password>
+		<sname1>Manu</sname1>
+		<sname2>Rocky</sname2>
+		<sname3>Johnson</sname3>
+		<qty1>5</qty1>
+		<qty2>7</qty2>
+		<qty3>6</qty3>
+		<grade>Grades 2 &amp; 3 Lucky</grade>
+		<itemValue>12</itemValue>
+	</testcase>
+	
+	<testcase id="BonusPercentage:Teacher_apply_Bonuspercentagecoupon">
+		<userid>7527718</userid>
+		<password>passw0rd</password>
+		<sname1>Manu</sname1>
+		<sname2>Rocky</sname2>
+		<sname3>Johnson</sname3>
+		<qty1>5</qty1>
+		<qty2>10</qty2>
+		<qty3>5</qty3>
+		<CouponCode>BBPERC</CouponCode>
+	</testcase>
+	
+	<testcase id="BonusPercentage:Teacher_UpsellMessage">
+		<userid>7527718</userid>
+		<password>passw0rd</password>
+		<sname1>Manu</sname1>
+		<sname2>Rocky</sname2>
+		<sname3>Johnson</sname3>
+		<qty1>4</qty1>
+		<qty2>15</qty2>
+		<qty3>5</qty3>
+	</testcase>
+	
+</testdata>

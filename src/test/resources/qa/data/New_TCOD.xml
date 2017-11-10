@@ -1,0 +1,606 @@
+<testdata>
+    <!-- ##################################################################################################################################################
+##################################################################################################################################################
+###########################################   							             #############################################################
+###########################################   		   SCSCOD-6789     	     #############################################################
+###########################################   							             #############################################################
+##################################################################################################################################################
+################################################################################################################################################## -->
+
+
+    <testcase id="SFO_PageDisplay_Tab">
+        <userid>459786</userid>
+        <password>passw0rd</password>
+        <sname1>Manu</sname1>
+        <qty1>1</qty1>
+    </testcase>
+
+    <testcase id="SFO_PageDisplay_title">
+        <userid>459934</userid>
+        <password>passw0rd</password>
+        <sname1>Manu</sname1>
+        <qty1>1</qty1>
+    </testcase>
+
+    <testcase id="SFO_Page_2Labels">
+        <userid>459942</userid>
+        <password>passw0rd</password>
+        <itemprice>0.01</itemprice>
+        <itemprice_limit>20.00</itemprice_limit>
+        <studentname>Hillary</studentname>
+        <itemQty>1</itemQty>
+    </testcase>
+
+    <testcase id="SFO_Page_Item#Validation">
+        <userid>460163</userid>
+        <password>passw0rd</password>
+        <sName1>Manu</sName1>
+        <itemNo1>1L1</itemNo1>
+    </testcase>
+
+
+    <testcase id="SFO_Page_Item#Validation_equal7">
+        <userid>6917283</userid>
+        <password>passw0rd</password>
+        <sName1>Manu</sName1>
+        <itemNo1>2S1</itemNo1>
+    </testcase>
+
+    <testcase id="SFO_Page_Item#Validation_specialCharacter">
+        <userid>460329</userid>
+        <password>passw0rd</password>
+        <sName1>Manu</sName1>
+        <itemNo1>1L1</itemNo1>
+    </testcase>
+    <testcase id="SFO_Page_ADDButton1">
+        <userid>460353</userid>
+        <password>passw0rd</password>
+        <sName1>Manu</sName1>
+        <itemNo1></itemNo1>
+    </testcase>
+
+    <testcase id="SFO_Page_ADDButton2">
+        <userid>460486</userid>
+        <password>passw0rd</password>
+        <sName1></sName1>
+        <itemNo1>1L1</itemNo1>
+    </testcase>
+
+    <testcase id="SFO_Page_Item_Added">
+        <userid>460535</userid>
+        <password>passw0rd</password>
+        <sName1>Manu</sName1>
+        <itemNo1>1L1</itemNo1>
+    </testcase>
+
+    <testcase id="SFO_Page_Item_Added1">
+        <userid>460642</userid>
+        <password>passw0rd</password>
+        <sName1>Manu</sName1>
+        <itemNo1>1AS2</itemNo1>
+    </testcase>
+
+    <testcase id="SFO_Page_Item_Name3">
+        <userid>461038</userid>
+        <password>passw0rd</password>
+        <sName1>@Manu</sName1>
+        <itemNo1>1L1</itemNo1>
+    </testcase>
+
+    <testcase id="SFO_Page_Item_Added2">
+        <userid>461070</userid>
+        <password>passw0rd</password>
+        <sName1>Manu</sName1>
+        <itemNo1>1L1</itemNo1>
+    </testcase>
+
+    <testcase id="SFO_Page_Item_Name1">
+        <userid>461202</userid>
+        <password>passw0rd</password>
+        <sName1>Manu</sName1>
+        <itemNo1>1L1</itemNo1>
+    </testcase>
+
+    <testcase id="SFO_Page_Item_Name2">
+        <userid>461335</userid>
+        <password>passw0rd</password>
+        <sName1>Manu</sName1>
+        <itemNo1>1L1</itemNo1>
+    </testcase>
+
+
+    <!-- ##################################################################################################################################################
+   ##################################################################################################################################################
+   ###########################################   							             #############################################################
+   ###########################################   		   SCSCOD-6790   	             #############################################################
+   ###########################################   							             #############################################################
+   ##################################################################################################################################################
+   ################################################################################################################################################## -->
+
+    <testcase id="SFO_AddItem_1">
+        <userid>147175</userid>
+        <password>passw0rd</password>
+        <sName1>Manu</sName1>
+        <itemNo1>1L1</itemNo1>
+    </testcase>
+
+    <testcase id="SFO_AddItem_2">
+        <userid>147133</userid>
+        <password>passw0rd</password>
+        <sName1>Manu</sName1>
+        <itemNo1>1L1</itemNo1>
+        <sName2>Megooo</sName2>
+        <itemNo2>2L1</itemNo2>
+    </testcase>
+
+    <testcase id="SFO_AddItem_3">
+        <userid>147406</userid>
+        <password>passw0rd</password>
+        <sName1>Manu</sName1>
+        <itemNo1>1L1</itemNo1>
+        <sName2>Megooo</sName2>
+        <itemNo2>2L1</itemNo2>
+
+    </testcase>
+
+    <testcase id="SFO_AddItem_4">
+        <userid>147919</userid>
+        <password>passw0rd</password>
+        <sName1>Manu</sName1>
+        <itemNo1>1L1</itemNo1>
+        <sName2>Megooo</sName2>
+        <itemNo2>2L1</itemNo2>
+
+    </testcase>
+
+    <testcase id="SFO_AddItem_5">
+        <userid>147935</userid>
+        <password>passw0rd</password>
+        <sName1>Manu</sName1>
+        <itemNo1>1L1</itemNo1>
+        <sName2>Megooo</sName2>
+        <itemNo2>2L1</itemNo2>
+
+    </testcase>
+
+
+
+    <!-- ##################################################################################################################################################
+   ##################################################################################################################################################
+   ###########################################   							             #############################################################
+   ###########################################   		   SCSCOD-7160   	             #############################################################
+   ###########################################   							             #############################################################
+   ##################################################################################################################################################
+   ################################################################################################################################################## -->
+
+
+    <testcase id="SFO_FreePick_Grade">
+    <userid>5627495</userid>
+    <password>passw0rd</password>
+    <sname1>Manu</sname1>
+    <qty1>1</qty1>
+    <itemValue>10</itemValue>
+    <sfofreepick>FREEPICK21</sfofreepick>
+     <selectgrade>yto-4th-grade-and-5th-grade</selectgrade>
+        <ManualFreePickTier1CouponAmt>5.01</ManualFreePickTier1CouponAmt>
+        <ManualFreePickTier2CouponAmt>10.01</ManualFreePickTier2CouponAmt>
+
+    </testcase>
+
+    <testcase id="SFO_FreePick_Search">
+        <userid>147125</userid>
+        <password>passw0rd</password>
+        <sname1>Manu</sname1>
+        <qty1>1</qty1>
+        <itemValue>10</itemValue>
+        <sfofreepick>FREEPICK21</sfofreepick>
+        <!--<selectgrade>yto-4th-grade-and-5th-grade</selectgrade>-->
+        <couponsearch>2L1</couponsearch>
+        <ManualFreePickTier1CouponAmt>5.01</ManualFreePickTier1CouponAmt>
+        <ManualFreePickTier2CouponAmt>10.01</ManualFreePickTier2CouponAmt>
+    </testcase>
+
+    <testcase id="SFO_FreePick_ModalClose">
+        <userid>146789</userid>
+        <password>passw0rd</password>
+        <sname1>Manu</sname1>
+        <qty1>1</qty1>
+        <itemValue>6</itemValue>
+        <selectgrade>yto-4th-grade-and-5th-grade</selectgrade>
+        <sfofreepick>FREEPICK21</sfofreepick>
+        <!--<selectgrade>yto-4th-grade-and-5th-grade</selectgrade>-->
+        <couponsearch>65V5</couponsearch>
+        <ManualFreePickTier1CouponAmt>5.01</ManualFreePickTier1CouponAmt>
+        <ManualFreePickTier2CouponAmt>10.01</ManualFreePickTier2CouponAmt>
+
+    </testcase>
+
+    <testcase id="SFO_FreePick_ModalClose1">
+        <userid>146820</userid>
+        <password>passw0rd</password>
+        <sname1>Manu</sname1>
+        <qty1>1</qty1>
+        <itemValue>6</itemValue>
+        <selectgrade>yto-4th-grade-and-5th-grade</selectgrade>
+        <sfofreepick>FREEPICK21</sfofreepick>
+        <!--<selectgrade>yto-4th-grade-and-5th-grade</selectgrade>-->
+        <couponsearch>65V5</couponsearch>
+        <ManualFreePickTier1CouponAmt>5.01</ManualFreePickTier1CouponAmt>
+        <ManualFreePickTier2CouponAmt>10.01</ManualFreePickTier2CouponAmt>
+
+    </testcase>
+
+    <!-- ##################################################################################################################################################
+   ##################################################################################################################################################
+   ###########################################   							             #############################################################
+   ###########################################   		   SCSCOD-6794   	             #############################################################
+   ###########################################   							             #############################################################
+   ##################################################################################################################################################
+   ################################################################################################################################################## -->
+
+
+    <testcase id="SFO_Student Name Mssg">
+        <userid>148785</userid>
+        <password>passw0rd</password>
+        <sname1>Manu</sname1>
+        <qty1>1</qty1>
+        <itemValue>6</itemValue>
+        <selectgrade>yto-4th-grade-and-5th-grade</selectgrade>
+        <sfofreepick>FREEPICK21</sfofreepick>
+        <!--<selectgrade>yto-4th-grade-and-5th-grade</selectgrade>-->
+        <couponsearch>65V5</couponsearch>
+        <ManualFreePickTier1CouponAmt>5.01</ManualFreePickTier1CouponAmt>
+        <ManualFreePickTier2CouponAmt>10.01</ManualFreePickTier2CouponAmt>
+
+    </testcase>
+
+    <testcase id="SFO_Student Name Mssg1">
+        <userid>148090</userid>
+        <password>passw0rd</password>
+        <sname1>Manu</sname1>
+        <qty1>1</qty1>
+        <itemValue>6</itemValue>
+        <selectgrade>yto-4th-grade-and-5th-grade</selectgrade>
+        <sfofreepick>FREEPICK21</sfofreepick>
+        <!--<selectgrade>yto-4th-grade-and-5th-grade</selectgrade>-->
+        <couponsearch>65V5</couponsearch>
+        <ManualFreePickTier1CouponAmt>5.01</ManualFreePickTier1CouponAmt>
+        <ManualFreePickTier2CouponAmt>10.01</ManualFreePickTier2CouponAmt>
+
+    </testcase>
+
+
+    <!-- ##################################################################################################################################################
+   ##################################################################################################################################################
+   ###########################################   							             #############################################################
+   ###########################################   		   SCSCOD-7161  	             #############################################################
+   ###########################################   							             #############################################################
+   ##################################################################################################################################################
+   ################################################################################################################################################## -->
+
+    <testcase id="SFO_FreePick_Grade">
+        <userid>5681334</userid>
+        <password>passw0rd</password>
+        <sname1>Manu</sname1>
+        <qty1>1</qty1>
+        <itemValue>6</itemValue>
+        <selectgrade>yto-4th-grade-and-5th-grade</selectgrade>
+        <sfofreepick>FREEPICK21</sfofreepick>
+        <!--<selectgrade>yto-4th-grade-and-5th-grade</selectgrade>-->
+        <couponsearch>65V5</couponsearch>
+        <ManualFreePickTier1CouponAmt>5.01</ManualFreePickTier1CouponAmt>
+        <ManualFreePickTier2CouponAmt>10.01</ManualFreePickTier2CouponAmt>
+
+    </testcase>
+
+    <!--##################################################################################################################################################-->
+    <!--##################################################################################################################################################-->
+    <!--###########################################   							             #############################################################-->
+    <!--###########################################   		    SCSCOD-7162                  #############################################################-->
+    <!--###########################################   							             #############################################################-->
+    <!--##################################################################################################################################################-->
+    <!--##################################################################################################################################################-->
+
+
+    <testcase id="SFO_FreePick_Close_Mssg">
+        <userid>148131</userid>
+        <password>passw0rd</password>
+        <sname1>Manu</sname1>
+        <qty1>1</qty1>
+        <itemValue>6</itemValue>
+        <selectgrade>yto-4th-grade-and-5th-grade</selectgrade>
+        <sfofreepick>FREEPICK21</sfofreepick>
+        <!--<selectgrade>yto-4th-grade-and-5th-grade</selectgrade>-->
+        <couponsearch>65V5</couponsearch>
+        <ManualFreePickTier1CouponAmt>5.01</ManualFreePickTier1CouponAmt>
+        <ManualFreePickTier2CouponAmt>10.01</ManualFreePickTier2CouponAmt>
+
+    </testcase>
+
+
+    <testcase id="SFO_FreePick_couponLink">
+        <userid>148214</userid>
+        <password>passw0rd</password>
+        <sname1>Manu</sname1>
+        <qty1>1</qty1>
+        <itemValue>6</itemValue>
+        <selectgrade>yto-4th-grade-and-5th-grade</selectgrade>
+        <sfofreepick>FREEPICK21</sfofreepick>
+        <!--<selectgrade>yto-4th-grade-and-5th-grade</selectgrade>-->
+        <couponsearch>65V5</couponsearch>
+        <ManualFreePickTier1CouponAmt>5.01</ManualFreePickTier1CouponAmt>
+        <ManualFreePickTier2CouponAmt>10.01</ManualFreePickTier2CouponAmt>
+
+    </testcase>
+
+    <!-- ##################################################################################################################################################
+       ##################################################################################################################################################
+       ###########################################   							             #############################################################
+       ###########################################   		   SCSCOD-7159   	             #############################################################
+       ###########################################   							             #############################################################
+       ##################################################################################################################################################
+       ################################################################################################################################################## -->
+
+
+    <testcase id="SFO_FREEPICK_Applied">
+        <userid>146143</userid>
+        <password>passw0rd</password>
+        <sname1>Manu</sname1>
+        <qty1>1</qty1>
+        <itemValue>6</itemValue>
+        <selectgrade>yto-4th-grade-and-5th-grade</selectgrade>
+        <sfofreepick>FREEPICK21</sfofreepick>
+        <!--<selectgrade>yto-4th-grade-and-5th-grade</selectgrade>-->
+        <couponsearch>65V5</couponsearch>
+        <ManualFreePickTier1CouponAmt>5.01</ManualFreePickTier1CouponAmt>
+        <ManualFreePickTier2CouponAmt>10.01</ManualFreePickTier2CouponAmt>
+
+    </testcase>
+
+    <testcase id="SFO_CouponModal__CallOut_Message">
+        <userid>146721</userid>
+        <password>passw0rd</password>
+        <sname1>Manu</sname1>
+        <qty1>1</qty1>
+        <itemValue>6</itemValue>
+        <selectgrade>yto-4th-grade-and-5th-grade</selectgrade>
+        <sfofreepick>FREEPICK21</sfofreepick>
+        <!--<selectgrade>yto-4th-grade-and-5th-grade</selectgrade>-->
+        <couponsearch>65V5</couponsearch>
+        <ManualFreePickTier1CouponAmt>5.01</ManualFreePickTier1CouponAmt>
+        <ManualFreePickTier2CouponAmt>10.01</ManualFreePickTier2CouponAmt>
+
+    </testcase>
+
+    <testcase id="SFO_CouponModal_Couponfield_Inactive">
+        <userid>146250</userid>
+        <password>passw0rd</password>
+        <sname1>Manu</sname1>
+        <qty1>1</qty1>
+        <itemValue>6</itemValue>
+        <selectgrade>yto-4th-grade-and-5th-grade</selectgrade>
+        <sfofreepick>FREEPICK21</sfofreepick>
+        <!--<selectgrade>yto-4th-grade-and-5th-grade</selectgrade>-->
+        <couponsearch>65V5</couponsearch>
+        <ManualFreePickTier1CouponAmt>5.01</ManualFreePickTier1CouponAmt>
+        <ManualFreePickTier2CouponAmt>10.01</ManualFreePickTier2CouponAmt>
+
+    </testcase>
+
+    <testcase id="SFO_CouponModal__StudentName_Active">
+        <userid>146169</userid>
+        <password>passw0rd</password>
+        <sname1>Manu</sname1>
+        <qty1>1</qty1>
+        <itemValue>6</itemValue>
+        <selectgrade>yto-4th-grade-and-5th-grade</selectgrade>
+        <sfofreepick>FREEPICK21</sfofreepick>
+        <!--<selectgrade>yto-4th-grade-and-5th-grade</selectgrade>-->
+        <couponsearch>65V5</couponsearch>
+        <ManualFreePickTier1CouponAmt>5.01</ManualFreePickTier1CouponAmt>
+        <ManualFreePickTier2CouponAmt>10.01</ManualFreePickTier2CouponAmt>
+
+    </testcase>
+
+    <testcase id="SFO_CouponModal__FreePick_ItemIdSearch">
+        <userid>146309</userid>
+        <password>passw0rd</password>
+        <sname1>Manu</sname1>
+        <qty1>1</qty1>
+        <itemValue>6</itemValue>
+        <selectgrade>yto-4th-grade-and-5th-grade</selectgrade>
+        <sfofreepick>FREEPICK21</sfofreepick>
+        <!--<selectgrade>yto-4th-grade-and-5th-grade</selectgrade>-->
+        <couponsearch>46S1</couponsearch>
+        <ManualFreePickTier1CouponAmt>5.01</ManualFreePickTier1CouponAmt>
+        <ManualFreePickTier2CouponAmt>10.01</ManualFreePickTier2CouponAmt>
+
+    </testcase>
+
+    <testcase id="SFO_CouponModal__FreePick_ItemName">
+        <userid>5549649</userid>
+        <password>passw0rd</password>
+        <sname1>Manu</sname1>
+        <qty1>1</qty1>
+        <itemValue>6</itemValue>
+        <selectgrade>yto-4th-grade-and-5th-grade</selectgrade>
+        <sfofreepick>FREEPICK21</sfofreepick>
+        <!--<selectgrade>yto-4th-grade-and-5th-grade</selectgrade>-->
+        <couponsearch>bookname</couponsearch>
+        <ManualFreePickTier1CouponAmt>5.01</ManualFreePickTier1CouponAmt>
+        <ManualFreePickTier2CouponAmt>10.01</ManualFreePickTier2CouponAmt>
+
+    </testcase>
+
+
+    <testcase id="InSprint15.2:TCOD:Teacher_Automatic_NewTeacherKit_OrderDetailsPage_OtherPromotions">
+        <userid>3883685</userid>
+        <password>passw0rd</password>
+        <stateTaxGST>5</stateTaxGST>
+        <stateTaxQST>9.975</stateTaxQST>
+        <sname1>Manu</sname1>
+        <sname2>Rocky</sname2>
+        <sname3>Johnson</sname3>
+        <qty1>1</qty1>
+        <qty2>1</qty2>
+        <qty3>1</qty3>
+        <numberofstudents>2</numberofstudents>
+    </testcase>
+
+    <!--##################################################################################################################################################-->
+    <!--##################################################################################################################################################-->
+    <!--###########################################   							             #############################################################-->
+    <!--###########################################   		    SCSCOD-7619      			 #############################################################-->
+    <!--###########################################   							             #############################################################-->
+    <!--##################################################################################################################################################-->
+    <!--##################################################################################################################################################-->
+
+    <testcase id="SFO_FreePick_coupon_15">
+        <userid>5732343</userid>
+        <password>passw0rd</password>
+        <sname1>Nancy Drew</sname1>
+        <qty1>1</qty1>
+        <itemValue>6</itemValue>
+        <!--<selectgrade>yto-4th-grade-and-5th-grade</selectgrade>-->
+        <selectgrade>French</selectgrade>
+        <sfofreepick>DPFAMUK-1234567</sfofreepick>
+        <!--<selectgrade>yto-4th-grade-and-5th-grade</selectgrade>-->
+        <couponsearch>bookname</couponsearch>
+        <ManualFreePickTier1CouponAmt>5.01</ManualFreePickTier1CouponAmt>
+        <ManualFreePickTier2CouponAmt>10.01</ManualFreePickTier2CouponAmt>
+
+    </testcase>
+
+
+    <testcase id="SFO_FreePick_coupon_2">
+        <userid>5735248</userid>
+        <password>passw0rd</password>
+        <sname1>Nancy Drew</sname1>
+        <qty1>1</qty1>
+        <itemValue>6</itemValue>
+        <!--<selectgrade>yto-4th-grade-and-5th-grade</selectgrade>-->
+        <selectgrade>French</selectgrade>
+        <sfofreepick>DP</sfofreepick>
+        <!--<selectgrade>yto-4th-grade-and-5th-grade</selectgrade>-->
+        <couponsearch>bookname</couponsearch>
+        <ManualFreePickTier1CouponAmt>5.01</ManualFreePickTier1CouponAmt>
+        <ManualFreePickTier2CouponAmt>10.01</ManualFreePickTier2CouponAmt>
+
+    </testcase>
+
+
+    <testcase id="SFO_FreePick_coupon_redeem">
+        <userid>5742970</userid>
+        <password>passw0rd</password>
+        <sname1>Nancy Drew</sname1>
+        <qty1>1</qty1>
+        <itemValue>6</itemValue>
+        <!--<selectgrade>yto-4th-grade-and-5th-grade</selectgrade>-->
+        <selectgrade>french</selectgrade>
+        <sfofreepick>DPFAMUK-1234567</sfofreepick>
+        <couponsearch>bookname</couponsearch>
+        <ManualFreePickTier1CouponAmt>5.01</ManualFreePickTier1CouponAmt>
+        <ManualFreePickTier2CouponAmt>10.01</ManualFreePickTier2CouponAmt>
+
+    </testcase>
+
+    <!--##################################################################################################################################################-->
+    <!--##################################################################################################################################################-->
+    <!--###########################################   							             #############################################################-->
+    <!--###########################################   		    SCSCOD-7321      			 #############################################################-->
+    <!--###########################################   							             #############################################################-->
+    <!--##################################################################################################################################################-->
+    <!--##################################################################################################################################################-->
+
+    <testcase id="SFO_CouponModal_Coupon_Expired">
+        <userid>145872</userid>
+        <password>passw0rd</password>
+        <sname1>Vidya Vox</sname1>
+        <qty1>1</qty1>
+        <itemValue>6</itemValue>
+        <!--<selectgrade>yto-4th-grade-and-5th-grade</selectgrade>-->
+        <selectgrade>French</selectgrade>
+        <sfofreepick>ISNOQYO</sfofreepick>
+        <!--<selectgrade>yto-4th-grade-and-5th-grade</selectgrade>-->
+        <couponsearch>bookname</couponsearch>
+        <ManualFreePickTier1CouponAmt>5.01</ManualFreePickTier1CouponAmt>
+        <ManualFreePickTier2CouponAmt>10.01</ManualFreePickTier2CouponAmt>
+
+    </testcase>
+
+    <testcase id="SFO_CouponModal_Coupon_Reedem2">
+        <userid>5746568</userid>
+        <password>passw0rd</password>
+        <sname1>Vidya VVox</sname1>
+        <qty1>1</qty1>
+        <itemValue>6</itemValue>
+        <selectgrade>yto-4th-grade-and-5th-grade</selectgrade>
+        <sfofreepick>FREEPICK21</sfofreepick>
+        <couponsearch>bookname</couponsearch>
+        <ManualFreePickTier1CouponAmt>5.01</ManualFreePickTier1CouponAmt>
+        <ManualFreePickTier2CouponAmt>10.01</ManualFreePickTier2CouponAmt>
+
+    </testcase>
+    
+    <testcase id="SFO_CouponModal_Coupon_NoSetup">
+        <userid>5549540</userid>
+        <password>passw0rd</password>
+        <sname1>Vidya VVox</sname1>
+        <qty1>1</qty1>
+        <itemValue>6</itemValue>
+        <selectgrade>yto-4th-grade-and-5th-grade</selectgrade>
+        <sfofreepick>ASDFFGGG</sfofreepick>
+        <couponsearch>bookname</couponsearch>
+        <ManualFreePickTier1CouponAmt>5.01</ManualFreePickTier1CouponAmt>
+        <ManualFreePickTier2CouponAmt>10.01</ManualFreePickTier2CouponAmt>
+
+    </testcase>
+    
+    <testcase id="SFO_CouponModal_Coupon_Reedem">
+        <userid>5549566</userid>
+        <password>passw0rd</password>
+        <sname1>Vidox</sname1>
+        <qty1>1</qty1>
+        <itemValue>6</itemValue>
+        <selectgrade>yto-4th-grade-and-5th-grade</selectgrade>
+        <sfofreepick>FREEPICK21</sfofreepick>
+        <couponsearch>bookname</couponsearch>
+        <ManualFreePickTier1CouponAmt>5.01</ManualFreePickTier1CouponAmt>
+        <ManualFreePickTier2CouponAmt>10.01</ManualFreePickTier2CouponAmt>
+
+    </testcase>
+    
+    <testcase id="SFO_Student Name MssgContent">
+        <userid>149494</userid>
+        <password>passw0rd</password>
+        <sname1>Manu</sname1>
+        <qty1>1</qty1>
+        <itemValue>6</itemValue>
+        <selectgrade>yto-4th-grade-and-5th-grade</selectgrade>
+        <sfofreepick>FREEPICK21</sfofreepick>
+        <!--<selectgrade>yto-4th-grade-and-5th-grade</selectgrade>-->
+        <couponsearch>65V5</couponsearch>
+        <ManualFreePickTier1CouponAmt>5.01</ManualFreePickTier1CouponAmt>
+        <ManualFreePickTier2CouponAmt>10.01</ManualFreePickTier2CouponAmt>
+
+    </testcase>
+    
+    <testcase id="SFO_FreePick_Grade1">
+        <userid>5549590</userid>
+        <password>passw0rd</password>
+        <sname1>Manu</sname1>
+        <qty1>1</qty1>
+        <itemValue>6</itemValue>
+        <selectgrade>yto-4th-grade-and-5th-grade</selectgrade>
+        <sfofreepick>FREEPICK21</sfofreepick>
+        <!--<selectgrade>yto-4th-grade-and-5th-grade</selectgrade>-->
+        <couponsearch>65V5</couponsearch>
+        <ManualFreePickTier1CouponAmt>5.01</ManualFreePickTier1CouponAmt>
+        <ManualFreePickTier2CouponAmt>10.01</ManualFreePickTier2CouponAmt>
+
+    </testcase>
+
+
+
+
+</testdata>

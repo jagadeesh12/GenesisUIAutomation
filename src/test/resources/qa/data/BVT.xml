@@ -1,0 +1,1252 @@
+<testdata>
+<!-- MANUAL FREE PICK ITEM DATA -->
+	
+	
+	<testcase id="TeacherOrder_ItemsInCart_CreditCard_Visa">
+	    <userid>526022</userid>
+		<password>passw0rd</password>
+		<removeCartFlag>true</removeCartFlag>
+		<itemName>The Night Before Summer! Pack</itemName>
+		<itemQty>1</itemQty>
+		<itemprice>2.99</itemprice>
+		<itemprice_limit>14.99</itemprice_limit>
+		<studentname>Margit</studentname>
+		<itemQty>1</itemQty>
+		<numberofstudents>1</numberofstudents>
+		<noofstudents>5</noofstudents>
+	    <module>teacher</module>
+		<paymentmethod>CREDIT_CARD</paymentmethod>
+ 		<cardtype>Add a New Card</cardtype>
+ 		<itemno>${item1_10dollars_255bp}</itemno>
+ 		<cardname>Visa</cardname>
+ 		<cardnumber>4111111111111111</cardnumber>
+ 		<expmonth>09</expmonth>
+ 		<expyear>2016</expyear>
+ 		<securitycode>111</securitycode>
+ 		<firstname>sam</firstname>
+ 		<lastname>kapoor</lastname>
+ 		<address1>New York</address1>
+ 		<address2>street</address2>
+ 		<zip>T5A 0A7</zip>
+ 		<city>Airdrie</city>
+ 		<state>Alberta</state>
+ 		<country>Canada</country>
+ 		<phonenumber>333-333-3333</phonenumber>
+ 		<addAccountInfo>true</addAccountInfo>
+		<tdm>
+			<type>teacher_with_single_parent</type>
+			<isReserved>true</isReserved>
+			<isBcoeIdRequired>true</isBcoeIdRequired>
+			<converttotype>teacher_any</converttotype>
+		</tdm>
+		<torquetdm>
+			<type>teacher_with_single_parent</type>
+			<usertype>teacher</usertype>
+		</torquetdm>
+	</testcase>
+	
+	
+	
+	<testcase id="TeacherOrder_ItemsInCart_CreditCard_Master2Bin">
+	    <userid>7527750</userid>
+		<password>passw0rd</password>
+		<removeCartFlag>true</removeCartFlag>
+		<itemName>The Night Before Summer! Pack</itemName>
+		<itemQty>1</itemQty>
+		<itemprice>2.99</itemprice>
+		<itemprice_limit>14.99</itemprice_limit>
+		<studentname>Margit</studentname>
+		<itemQty>1</itemQty>
+		<numberofstudents>1</numberofstudents>
+		<noofstudents>5</noofstudents>
+	    <module>teacher</module>
+		<paymentmethod>CREDIT_CARD</paymentmethod>
+ 		<cardtype>Add a New Card</cardtype>
+ 		<itemno>${item1_10dollars_255bp}</itemno>
+ 		<cardname>Visa</cardname>
+ 		<cardnumber>5431111111111111</cardnumber>
+ 		<expmonth>09</expmonth>
+ 		<expyear>2016</expyear>
+ 		<securitycode>111</securitycode>
+ 		<firstname>sam</firstname>
+ 		<lastname>kapoor</lastname>
+ 		<address1>New York</address1>
+ 		<address2>street</address2>
+ 		<zip>10001</zip>
+ 		<city>NewYork</city>
+ 		<state>Alberta</state>
+ 		<country>Canada</country>
+ 		<phonenumber>333-333-3333</phonenumber>
+ 		<addAccountInfo>true</addAccountInfo>
+		<tdm>
+			<type>teacher_with_single_parent</type>
+			<isReserved>true</isReserved>
+			<isBcoeIdRequired>true</isBcoeIdRequired>
+			<converttotype>teacher_any</converttotype>
+		</tdm>
+		<torquetdm>
+			<type>teacher_with_single_parent</type>
+			<usertype>teacher</usertype>
+		</torquetdm>
+	</testcase>
+	
+	
+	
+	<testcase id="TeacherOrder_ItemsInCart_CreditCard_Amex">
+	    <userid>7527750</userid>
+		<password>passw0rd</password>
+		<removeCartFlag>true</removeCartFlag>
+		<itemName>The Night Before Summer! Pack</itemName>
+		<itemQty>1</itemQty>
+		<itemprice>2.99</itemprice>
+		<itemprice_limit>14.99</itemprice_limit>
+		<studentname>Margit</studentname>
+		<itemQty>1</itemQty>
+		<numberofstudents>1</numberofstudents>
+		<noofstudents>5</noofstudents>
+	    <module>teacher</module>
+		<paymentmethod>CREDIT_CARD</paymentmethod>
+ 		<cardtype>Add a New Card</cardtype>
+ 		<itemno>${item1_10dollars_255bp}</itemno>
+ 		<cardname>Visa</cardname>
+ 		<cardnumber>373731623811006</cardnumber>
+ 		<expmonth>09</expmonth>
+ 		<expyear>2016</expyear>
+ 		<securitycode>111</securitycode>
+ 		<firstname>sam</firstname>
+ 		<lastname>kapoor</lastname>
+ 		<address1>New York</address1>
+ 		<address2>street</address2>
+ 		<zip>10001</zip>
+ 		<city>NewYork</city>
+ 		<state>Alberta</state>
+ 		<country>Canada</country>
+ 		<phonenumber>333-333-3333</phonenumber>
+ 		<addAccountInfo>true</addAccountInfo>
+		<tdm>
+			<type>teacher_with_single_parent</type>
+			<isReserved>true</isReserved>
+			<isBcoeIdRequired>true</isBcoeIdRequired>
+			<converttotype>teacher_any</converttotype>
+		</tdm>
+		<torquetdm>
+			<type>teacher_with_single_parent</type>
+			<usertype>teacher</usertype>
+		</torquetdm>
+	</testcase>
+	
+	
+	<testcase id="TeacherOrder_ItemsInCart_CreditCard_Discover">
+	    <userid>7527750</userid>
+		<password>passw0rd</password>
+		<itemName>The Night Before Summer! Pack</itemName>
+		<itemQty>1</itemQty>
+		<removeCartFlag>true</removeCartFlag>
+		<itemprice>2.99</itemprice>
+		<itemprice_limit>14.99</itemprice_limit>
+		<studentname>Margit</studentname>
+		<itemQty>1</itemQty>
+		<numberofstudents>1</numberofstudents>
+		<noofstudents>5</noofstudents>
+	    <module>teacher</module>
+		<paymentmethod>CREDIT_CARD</paymentmethod>
+ 		<cardtype>Add a New Card</cardtype>
+ 		<itemno>${item1_10dollars_255bp}</itemno>
+ 		<cardname>Visa</cardname>
+ 		<cardnumber>6011000991000500</cardnumber>
+ 		<expmonth>09</expmonth>
+ 		<expyear>2016</expyear>
+ 		<securitycode>111</securitycode>
+ 		<firstname>sam</firstname>
+ 		<lastname>kapoor</lastname>
+ 		<address1>New York</address1>
+ 		<address2>street</address2>
+ 		<zip>10001</zip>
+ 		<city>NewYork</city>
+ 		<state>Alberta</state>
+ 		<country>Canada</country>
+ 		<phonenumber>333-333-3333</phonenumber>
+ 		<addAccountInfo>true</addAccountInfo>
+		<tdm>
+			<type>teacher_with_single_parent</type>
+			<isReserved>true</isReserved>
+			<isBcoeIdRequired>true</isBcoeIdRequired>
+			<converttotype>teacher_any</converttotype>
+		</tdm>
+		<torquetdm>
+			<type>teacher_with_single_parent</type>
+			<usertype>teacher</usertype>
+		</torquetdm>
+	</testcase>
+	
+	
+	
+	
+<testcase id="TeacherOrder_ItemsInCart_checks">
+	    <userid>7546883</userid>
+		<password>passw0rd</password>
+		<itemName>The Night Before Summer! Pack</itemName>
+		<itemQty>1</itemQty>
+		<removeCartFlag>true</removeCartFlag>
+		<itemprice>2.99</itemprice>
+		<itemprice_limit>14.99</itemprice_limit>
+		<studentname>Margit</studentname>
+		<itemQty>1</itemQty>
+		<numberofstudents>1</numberofstudents>
+		<noofstudents>5</noofstudents>
+	    <module>teacher</module>
+		<paymentmethod>CREDIT_CARD</paymentmethod>
+ 		<cardtype>Add a New Card</cardtype>
+ 		<itemno>${item1_10dollars_255bp}</itemno>
+ 		<cardname>Visa</cardname>
+ 		<cardnumber>4111111111111111</cardnumber>
+ 		<expmonth>09</expmonth>
+ 		<expyear>2016</expyear>
+ 		<securitycode>111</securitycode>
+ 		<firstname>sam</firstname>
+ 		<lastname>kapoor</lastname>
+ 		<address1>New York</address1>
+ 		<address2>street</address2>
+ 		<zip>10001</zip>
+ 		<city>NewYork</city>
+ 		<state>Alberta</state>
+ 		<country>Canada</country>
+ 		<phonenumber>333-333-3333</phonenumber>
+ 		<addAccountInfo>true</addAccountInfo>
+		<tdm>
+			<type>teacher_with_single_parent</type>
+			<isReserved>true</isReserved>
+			<isBcoeIdRequired>true</isBcoeIdRequired>
+			<converttotype>teacher_any</converttotype>
+		</tdm>
+		<torquetdm>
+			<type>teacher_with_single_parent</type>
+			<usertype>teacher</usertype>
+		</torquetdm>
+	</testcase>	
+	
+	
+	
+	<testcase id="TeacherOrder_ItemsInCart_SavedCreditCard_Visa_Check">
+	    <userid>525941</userid>
+		<password>passw0rd</password>
+		<removeCartFlag>true</removeCartFlag>
+		<itemprice>2.99</itemprice>
+		<itemprice_limit>14.99</itemprice_limit>
+		<studentname>Margit</studentname>
+		<itemQty>1</itemQty>
+		<numberofstudents>1</numberofstudents>
+		<itemName>The Night Before Summer! Pack</itemName>
+		<itemQty>1</itemQty>
+		<noofstudents>5</noofstudents>
+	    <module>teacher</module>
+		<paymentmethod>CREDIT_CARD</paymentmethod>
+ 		<cardtype>Add a New Card</cardtype>
+ 		<itemno>${item1_10dollars_255bp}</itemno>
+ 		<cctype>Visa ************1111</cctype>
+ 		<cardname>Visa</cardname>
+ 		<cardnumber>4111111111111111</cardnumber>
+ 		<expmonth>09</expmonth>
+ 		<expyear>2016</expyear>
+ 		<securitycode>111</securitycode>
+ 		<firstname>sam</firstname>
+ 		<lastname>kapoor</lastname>
+ 		<address1>New York</address1>
+ 		<address2>street</address2>
+ 		<zip>T5A 0A7</zip>
+ 		<city>Airdrie</city>
+ 		<state>Alberta</state>
+ 		<country>Canada</country>
+ 		<phonenumber>333-333-3333</phonenumber>
+ 		<addAccountInfo>true</addAccountInfo>
+ 		<sname1>Manu</sname1>
+		<sname2>Rocky</sname2>
+		<sname3>Johnson</sname3>
+		<qty1>2</qty1>
+		<qty2>1</qty2>
+		<qty3>3</qty3>
+		<tdm>
+			<type>teacher_with_single_parent</type>
+			<isReserved>true</isReserved>
+			<isBcoeIdRequired>true</isBcoeIdRequired>
+			<converttotype>teacher_any</converttotype>
+		</tdm>
+		<torquetdm>
+			<type>teacher_with_single_parent</type>
+			<usertype>teacher</usertype>
+		</torquetdm>
+	</testcase>	
+	
+	
+	
+<!-- #####################################################################################################################################################################
+	#####################################################################################################################################################################
+	########################################################                                                 ############################################################
+	########################################################        BVT DATA FOR PRODUCTIONS                 ############################################################
+	########################################################                                                 ############################################################
+	#####################################################################################################################################################################
+	#####################################################################################################################################################################
+	 -->
+	
+	<testcase id="BVT_Prod:TeacherOrder_ItemsInCart_CreditCard_Visa">
+	    <userid>5153656</userid>
+		<password>passw0rd</password>
+		<removeCartFlag>true</removeCartFlag>
+		<itemprice>2.99</itemprice>
+		<itemprice_limit>14.99</itemprice_limit>
+		<studentname>Margit</studentname>
+		<itemQty>1</itemQty>
+		<numberofstudents>1</numberofstudents>
+		<noofstudents>5</noofstudents>
+	    <module>teacher</module>
+		<paymentmethod>CREDIT_CARD</paymentmethod>
+ 		<cardtype>Add a New Card</cardtype>
+ 		<itemno>${item1_10dollars_255bp}</itemno>
+ 		<cardname>Visa</cardname>
+ 		<cardnumber>4111111111111111</cardnumber>
+ 		<expmonth>09</expmonth>
+ 		<expyear>2016</expyear>
+ 		<securitycode>111</securitycode>
+ 		<firstname>sam</firstname>
+ 		<lastname>kapoor</lastname>
+ 		<address1>New York</address1>
+ 		<address2>street</address2>
+ 		<zip>T5A 0A7</zip>
+ 		<city>Airdrie</city>
+ 		<state>Alberta</state>
+ 		<country>Canada</country>
+ 		<phonenumber>333-333-3333</phonenumber>
+ 		<addAccountInfo>true</addAccountInfo>
+		<tdm>
+			<type>teacher_with_single_parent</type>
+			<isReserved>true</isReserved>
+			<isBcoeIdRequired>true</isBcoeIdRequired>
+			<converttotype>teacher_any</converttotype>
+		</tdm>
+		<torquetdm>
+			<type>teacher_with_single_parent</type>
+			<usertype>teacher</usertype>
+		</torquetdm>
+	</testcase>
+	
+	
+	<testcase id="BVT_Prod:TeacherOrder_ItemsInCart_checks">
+	    <userid>7546883</userid>
+		<password>passw0rd</password>
+		<removeCartFlag>true</removeCartFlag>
+		<itemprice>2.99</itemprice>
+		<itemprice_limit>14.99</itemprice_limit>
+		<studentname>Margit</studentname>
+		<itemQty>1</itemQty>
+		<numberofstudents>1</numberofstudents>
+		<noofstudents>5</noofstudents>
+	    <module>teacher</module>
+		<paymentmethod>CREDIT_CARD</paymentmethod>
+ 		<cardtype>Add a New Card</cardtype>
+ 		<itemno>${item1_10dollars_255bp}</itemno>
+ 		<cardname>Visa</cardname>
+ 		<cardnumber>4111111111111111</cardnumber>
+ 		<expmonth>09</expmonth>
+ 		<expyear>2016</expyear>
+ 		<securitycode>111</securitycode>
+ 		<firstname>sam</firstname>
+ 		<lastname>kapoor</lastname>
+ 		<address1>New York</address1>
+ 		<address2>street</address2>
+ 		<zip>10001</zip>
+ 		<city>NewYork</city>
+ 		<state>Alberta</state>
+ 		<country>Canada</country>
+ 		<phonenumber>333-333-3333</phonenumber>
+ 		<addAccountInfo>true</addAccountInfo>
+		<tdm>
+			<type>teacher_with_single_parent</type>
+			<isReserved>true</isReserved>
+			<isBcoeIdRequired>true</isBcoeIdRequired>
+			<converttotype>teacher_any</converttotype>
+		</tdm>
+		<torquetdm>
+			<type>teacher_with_single_parent</type>
+			<usertype>teacher</usertype>
+		</torquetdm>
+	</testcase>	
+	
+	
+	
+	<testcase id="BVT_Prod:TeacherOrder_ItemsInCart_SavedCreditCard_Visa_Check">
+	    <userid>7546891</userid>
+		<password>passw0rd</password>
+		<removeCartFlag>true</removeCartFlag>
+		<itemprice>2.99</itemprice>
+		<itemprice_limit>14.99</itemprice_limit>
+		<studentname>Margit</studentname>
+		<itemQty>1</itemQty>
+		<numberofstudents>1</numberofstudents>
+		<noofstudents>5</noofstudents>
+	    <module>teacher</module>
+		<paymentmethod>CREDIT_CARD</paymentmethod>
+ 		<cardtype>Add a New Card</cardtype>
+ 		<itemno>${item1_10dollars_255bp}</itemno>
+ 		<cctype>Visa ************1111</cctype>
+ 		<cardname>Visa</cardname>
+ 		<cardnumber>4111111111111111</cardnumber>
+ 		<expmonth>09</expmonth>
+ 		<expyear>2016</expyear>
+ 		<securitycode>111</securitycode>
+ 		<firstname>sam</firstname>
+ 		<lastname>kapoor</lastname>
+ 		<address1>New York</address1>
+ 		<address2>street</address2>
+ 		<zip>T5A 0A7</zip>
+ 		<city>Airdrie</city>
+ 		<state>Alberta</state>
+ 		<country>Canada</country>
+ 		<phonenumber>333-333-3333</phonenumber>
+ 		<addAccountInfo>true</addAccountInfo>
+ 		<sname1>Manu</sname1>
+		<sname2>Rocky</sname2>
+		<sname3>Johnson</sname3>
+		<qty1>2</qty1>
+		<qty2>1</qty2>
+		<qty3>3</qty3>
+		<tdm>
+			<type>teacher_with_single_parent</type>
+			<isReserved>true</isReserved>
+			<isBcoeIdRequired>true</isBcoeIdRequired>
+			<converttotype>teacher_any</converttotype>
+		</tdm>
+		<torquetdm>
+			<type>teacher_with_single_parent</type>
+			<usertype>teacher</usertype>
+		</torquetdm>
+	</testcase>	
+	<!-- updated for testing -->
+	
+	
+	
+	
+	<!-- #####################################################################################################################################################################
+	#####################################################################################################################################################################
+	########################################################                                                 ############################################################
+	########################################################        BVT DATA FOR STAGE                       ############################################################
+	########################################################                                                 ############################################################
+	#####################################################################################################################################################################
+	#####################################################################################################################################################################
+	 -->
+	
+	<testcase id="BVT_Stage:TeacherOrder_ItemsInCart_CreditCard_Visa">
+	    <userid>231407</userid>
+		<password>passw0rd</password>
+		<removeCartFlag>true</removeCartFlag>
+		<itemprice>2.99</itemprice>
+		<itemprice_limit>14.99</itemprice_limit>
+		<studentname>Margit</studentname>
+		<itemQty>1</itemQty>
+		<numberofstudents>1</numberofstudents>
+		<noofstudents>5</noofstudents>
+	    <module>teacher</module>
+		<paymentmethod>CREDIT_CARD</paymentmethod>
+ 		<cardtype>Add a New Card</cardtype>
+ 		<itemno>${item1_10dollars_255bp}</itemno>
+ 		<cardname>Visa</cardname>
+ 		<cardnumber>4111111111111111</cardnumber>
+ 		<expmonth>09</expmonth>
+ 		<expyear>2016</expyear>
+ 		<securitycode>111</securitycode>
+ 		<firstname>sam</firstname>
+ 		<lastname>kapoor</lastname>
+ 		<address1>New York</address1>
+ 		<address2>street</address2>
+ 		<zip>T5A 0A7</zip>
+ 		<city>Airdrie</city>
+ 		<state>Alberta</state>
+ 		<country>Canada</country>
+ 		<phonenumber>333-333-3333</phonenumber>
+ 		<addAccountInfo>true</addAccountInfo>
+		<tdm>
+			<type>teacher_with_single_parent</type>
+			<isReserved>true</isReserved>
+			<isBcoeIdRequired>true</isBcoeIdRequired>
+			<converttotype>teacher_any</converttotype>
+		</tdm>
+		<torquetdm>
+			<type>teacher_with_single_parent</type>
+			<usertype>teacher</usertype>
+		</torquetdm>
+	</testcase>
+	
+	
+	<testcase id="BVT_Stage:TeacherOrder_ItemsInCart_checks">
+	    <userid>231415</userid>
+		<password>passw0rd</password>
+		<removeCartFlag>true</removeCartFlag>
+		<itemprice>2.99</itemprice>
+		<itemprice_limit>14.99</itemprice_limit>
+		<studentname>Margit</studentname>
+		<itemQty>1</itemQty>
+		<numberofstudents>1</numberofstudents>
+		<noofstudents>5</noofstudents>
+	    <module>teacher</module>
+		<paymentmethod>CREDIT_CARD</paymentmethod>
+ 		<cardtype>Add a New Card</cardtype>
+ 		<itemno>${item1_10dollars_255bp}</itemno>
+ 		<cardname>Visa</cardname>
+ 		<cardnumber>4111111111111111</cardnumber>
+ 		<expmonth>09</expmonth>
+ 		<expyear>2016</expyear>
+ 		<securitycode>111</securitycode>
+ 		<firstname>sam</firstname>
+ 		<lastname>kapoor</lastname>
+ 		<address1>New York</address1>
+ 		<address2>street</address2>
+ 		<zip>10001</zip>
+ 		<city>NewYork</city>
+ 		<state>Alberta</state>
+ 		<country>Canada</country>
+ 		<phonenumber>333-333-3333</phonenumber>
+ 		<addAccountInfo>true</addAccountInfo>
+		<tdm>
+			<type>teacher_with_single_parent</type>
+			<isReserved>true</isReserved>
+			<isBcoeIdRequired>true</isBcoeIdRequired>
+			<converttotype>teacher_any</converttotype>
+		</tdm>
+		<torquetdm>
+			<type>teacher_with_single_parent</type>
+			<usertype>teacher</usertype>
+		</torquetdm>
+	</testcase>	
+	
+	
+	
+	<testcase id="BVT_Stage:TeacherOrder_ItemsInCart_SavedCreditCard_Visa_Check">
+	    <userid>231423</userid>
+		<password>passw0rd</password>
+		<removeCartFlag>true</removeCartFlag>
+		<itemprice>2.99</itemprice>
+		<itemprice_limit>14.99</itemprice_limit>
+		<studentname>Margit</studentname>
+		<itemQty>1</itemQty>
+		<numberofstudents>1</numberofstudents>
+		<noofstudents>5</noofstudents>
+	    <module>teacher</module>
+		<paymentmethod>CREDIT_CARD</paymentmethod>
+ 		<cardtype>Add a New Card</cardtype>
+ 		<itemno>${item1_10dollars_255bp}</itemno>
+ 		<cctype>Visa ************1111</cctype>
+ 		<cardname>Visa</cardname>
+ 		<cardnumber>4111111111111111</cardnumber>
+ 		<expmonth>09</expmonth>
+ 		<expyear>2016</expyear>
+ 		<securitycode>111</securitycode>
+ 		<firstname>sam</firstname>
+ 		<lastname>kapoor</lastname>
+ 		<address1>New York</address1>
+ 		<address2>street</address2>
+ 		<zip>T5A 0A7</zip>
+ 		<city>Airdrie</city>
+ 		<state>Alberta</state>
+ 		<country>Canada</country>
+ 		<phonenumber>333-333-3333</phonenumber>
+ 		<addAccountInfo>true</addAccountInfo>
+ 		<sname1>Manu</sname1>
+		<sname2>Rocky</sname2>
+		<sname3>Johnson</sname3>
+		<qty1>2</qty1>
+		<qty2>1</qty2>
+		<qty3>3</qty3>
+		<tdm>
+			<type>teacher_with_single_parent</type>
+			<isReserved>true</isReserved>
+			<isBcoeIdRequired>true</isBcoeIdRequired>
+			<converttotype>teacher_any</converttotype>
+		</tdm>
+		<torquetdm>
+			<type>teacher_with_single_parent</type>
+			<usertype>teacher</usertype>
+		</torquetdm>
+	</testcase>	
+	<!-- updated for testing -->
+	
+	
+	
+	
+	<!-- #####################################################################################################################################################################
+	#####################################################################################################################################################################
+	########################################################                                                 ############################################################
+	########################################################        BVT DATA FOR DEVELOPMENT                       ############################################################
+	########################################################                                                 ############################################################
+	#####################################################################################################################################################################
+	#####################################################################################################################################################################
+	 -->
+	
+	<testcase id="BVT_Dev:TeacherOrder_ItemsInCart_CreditCard_Visa">
+	    <userid>526022</userid>
+		<password>passw0rd</password>
+		<itemName>100 Snowmen</itemName>
+		<itemQty>7</itemQty>
+		<removeCartFlag>true</removeCartFlag>
+		<itemprice>2.99</itemprice>
+		<itemprice_limit>14.99</itemprice_limit>
+		<studentname>Margit</studentname>
+		<itemQty>1</itemQty>
+		<numberofstudents>1</numberofstudents>
+		<noofstudents>5</noofstudents>
+	    <module>teacher</module>
+		<paymentmethod>CREDIT_CARD</paymentmethod>
+ 		<cardtype>Add a New Card</cardtype>
+ 		<itemno>${item1_10dollars_255bp}</itemno>
+ 		<cardname>Visa</cardname>
+ 		<cardnumber>4111111111111111</cardnumber>
+ 		<expmonth>09</expmonth>
+ 		<expyear>2016</expyear>
+ 		<securitycode>111</securitycode>
+ 		<firstname>sam</firstname>
+ 		<lastname>kapoor</lastname>
+ 		<address1>New York</address1>
+ 		<address2>street</address2>
+ 		<zip>T5A 0A7</zip>
+ 		<city>Airdrie</city>
+ 		<state>Alberta</state>
+ 		<country>Canada</country>
+ 		<phonenumber>333-333-3333</phonenumber>
+ 		<addAccountInfo>true</addAccountInfo>
+ 		<numberofstudents>20</numberofstudents>
+ 		
+		<tdm>
+			<type>teacher_with_single_parent</type>
+			<isReserved>true</isReserved>
+			<isBcoeIdRequired>true</isBcoeIdRequired>
+			<converttotype>teacher_any</converttotype>
+		</tdm>
+		<torquetdm>
+			<type>teacher_with_single_parent</type>
+			<usertype>teacher</usertype>
+		</torquetdm>
+	</testcase>
+	
+	
+	<testcase id="BVT_Dev:TeacherOrder_ItemsInCart_checks">
+	    <userid>525941</userid>
+		<password>passw0rd</password>
+		<removeCartFlag>true</removeCartFlag>
+		<itemName>100 Snowmen</itemName>
+		<itemQty>7</itemQty>
+		<itemprice>2.99</itemprice>
+		<itemprice_limit>14.99</itemprice_limit>
+		<studentname>Margit</studentname>
+		<itemQty>1</itemQty>
+		<numberofstudents>1</numberofstudents>
+		<noofstudents>5</noofstudents>
+	    <module>teacher</module>
+		<paymentmethod>CREDIT_CARD</paymentmethod>
+ 		<cardtype>Add a New Card</cardtype>
+ 		<itemno>${item1_10dollars_255bp}</itemno>
+ 		<cardname>Visa</cardname>
+ 		<cardnumber>4111111111111111</cardnumber>
+ 		<expmonth>09</expmonth>
+ 		<expyear>2016</expyear>
+ 		<securitycode>111</securitycode>
+ 		<firstname>sam</firstname>
+ 		<lastname>kapoor</lastname>
+ 		<address1>New York</address1>
+ 		<address2>street</address2>
+ 		<zip>10001</zip>
+ 		<city>NewYork</city>
+ 		<state>Alberta</state>
+ 		<country>Canada</country>
+ 		<phonenumber>333-333-3333</phonenumber>
+ 		<addAccountInfo>true</addAccountInfo>
+ 		<numberofstudents>20</numberofstudents>
+		<tdm>
+			<type>teacher_with_single_parent</type>
+			<isReserved>true</isReserved>
+			<isBcoeIdRequired>true</isBcoeIdRequired>
+			<converttotype>teacher_any</converttotype>
+		</tdm>
+		<torquetdm>
+			<type>teacher_with_single_parent</type>
+			<usertype>teacher</usertype>
+		</torquetdm>
+	</testcase>	
+	
+	
+	
+	<testcase id="BVT_Dev:TeacherOrder_ItemsInCart_SavedCreditCard_Visa_Check">
+	    <userid>231390</userid>
+		<password>passw0rd</password>
+		<itemName>100 Snowmen</itemName>
+		<itemQty>7</itemQty>
+		<removeCartFlag>true</removeCartFlag>
+		<itemprice>2.99</itemprice>
+		<itemprice_limit>14.99</itemprice_limit>
+		<studentname>Margit</studentname>
+		<itemQty>1</itemQty>
+		<numberofstudents>1</numberofstudents>
+		<noofstudents>5</noofstudents>
+	    <module>teacher</module>
+		<paymentmethod>CREDIT_CARD</paymentmethod>
+ 		<cardtype>Add a New Card</cardtype>
+ 		<itemno>${item1_10dollars_255bp}</itemno>
+ 		<cctype>Visa ************1111</cctype>
+ 		<cardname>Visa</cardname>
+ 		<cardnumber>4111111111111111</cardnumber>
+ 		<expmonth>09</expmonth>
+ 		<expyear>2016</expyear>
+ 		<securitycode>111</securitycode>
+ 		<firstname>sam</firstname>
+ 		<lastname>kapoor</lastname>
+ 		<address1>New York</address1>
+ 		<address2>street</address2>
+ 		<zip>T5A 0A7</zip>
+ 		<city>Airdrie</city>
+ 		<state>Alberta</state>
+ 		<country>Canada</country>
+ 		<phonenumber>333-333-3333</phonenumber>
+ 		<addAccountInfo>true</addAccountInfo>
+ 		<sname1>Manu</sname1>
+		<sname2>Rocky</sname2>
+		<sname3>Johnson</sname3>
+		<qty1>2</qty1>
+		<qty2>1</qty2>
+		<qty3>3</qty3>
+		<numberofstudents>20</numberofstudents>
+		<tdm>
+			<type>teacher_with_single_parent</type>
+			<isReserved>true</isReserved>
+			<isBcoeIdRequired>true</isBcoeIdRequired>
+			<converttotype>teacher_any</converttotype>
+		</tdm>
+		<torquetdm>
+			<type>teacher_with_single_parent</type>
+			<usertype>teacher</usertype>
+		</torquetdm>
+	</testcase>	
+	<!-- updated for testing -->
+	
+	
+		
+	<!-- #####################################################################################################################################################################
+	#####################################################################################################################################################################
+	########################################################                                                 ############################################################
+	########################################################        BVT DATA FOR DEV36                 ############################################################
+	########################################################                                                 ############################################################
+	#####################################################################################################################################################################
+	#####################################################################################################################################################################
+	 -->
+	
+	<testcase id="BVT_Stage:TeacherOrder_ItemsInCart_CreditCard_Visa">
+	    <userid>231407</userid>
+		<password>passw0rd</password>
+		<removeCartFlag>true</removeCartFlag>
+		<itemprice>2.99</itemprice>
+		<itemprice_limit>14.99</itemprice_limit>
+		<studentname>Margit</studentname>
+		<itemQty>1</itemQty>
+		<numberofstudents>1</numberofstudents>
+		<noofstudents>5</noofstudents>
+	    <module>teacher</module>
+		<paymentmethod>CREDIT_CARD</paymentmethod>
+ 		<cardtype>Add a New Card</cardtype>
+ 		<itemno>${item1_10dollars_255bp}</itemno>
+ 		<cardname>Visa</cardname>
+ 		<cardnumber>4111111111111111</cardnumber>
+ 		<expmonth>09</expmonth>
+ 		<expyear>2016</expyear>
+ 		<securitycode>111</securitycode>
+ 		<firstname>sam</firstname>
+ 		<lastname>kapoor</lastname>
+ 		<address1>New York</address1>
+ 		<address2>street</address2>
+ 		<zip>T5A 0A7</zip>
+ 		<city>Airdrie</city>
+ 		<state>Alberta</state>
+ 		<country>Canada</country>
+ 		<phonenumber>333-333-3333</phonenumber>
+ 		<addAccountInfo>true</addAccountInfo>
+		<tdm>
+			<type>teacher_with_single_parent</type>
+			<isReserved>true</isReserved>
+			<isBcoeIdRequired>true</isBcoeIdRequired>
+			<converttotype>teacher_any</converttotype>
+		</tdm>
+		<torquetdm>
+			<type>teacher_with_single_parent</type>
+			<usertype>teacher</usertype>
+		</torquetdm>
+	</testcase>
+	
+	
+	<testcase id="BVT_Stage:TeacherOrder_ItemsInCart_checks">
+	    <userid>231415</userid>
+		<password>passw0rd</password>
+		<removeCartFlag>true</removeCartFlag>
+		<itemprice>2.99</itemprice>
+		<itemprice_limit>14.99</itemprice_limit>
+		<studentname>Margit</studentname>
+		<itemQty>1</itemQty>
+		<numberofstudents>1</numberofstudents>
+		<noofstudents>5</noofstudents>
+	    <module>teacher</module>
+		<paymentmethod>CREDIT_CARD</paymentmethod>
+ 		<cardtype>Add a New Card</cardtype>
+ 		<itemno>${item1_10dollars_255bp}</itemno>
+ 		<cardname>Visa</cardname>
+ 		<cardnumber>4111111111111111</cardnumber>
+ 		<expmonth>09</expmonth>
+ 		<expyear>2016</expyear>
+ 		<securitycode>111</securitycode>
+ 		<firstname>sam</firstname>
+ 		<lastname>kapoor</lastname>
+ 		<address1>New York</address1>
+ 		<address2>street</address2>
+ 		<zip>10001</zip>
+ 		<city>NewYork</city>
+ 		<state>Alberta</state>
+ 		<country>Canada</country>
+ 		<phonenumber>333-333-3333</phonenumber>
+ 		<addAccountInfo>true</addAccountInfo>
+		<tdm>
+			<type>teacher_with_single_parent</type>
+			<isReserved>true</isReserved>
+			<isBcoeIdRequired>true</isBcoeIdRequired>
+			<converttotype>teacher_any</converttotype>
+		</tdm>
+		<torquetdm>
+			<type>teacher_with_single_parent</type>
+			<usertype>teacher</usertype>
+		</torquetdm>
+	</testcase>	
+	
+	
+	
+	<testcase id="BVT_Stage:TeacherOrder_ItemsInCart_SavedCreditCard_Visa_Check">
+	    <userid>231423</userid>
+		<password>passw0rd</password>
+		<removeCartFlag>true</removeCartFlag>
+		<itemprice>2.99</itemprice>
+		<itemprice_limit>14.99</itemprice_limit>
+		<studentname>Margit</studentname>
+		<itemQty>1</itemQty>
+		<numberofstudents>1</numberofstudents>
+		<noofstudents>5</noofstudents>
+	    <module>teacher</module>
+		<paymentmethod>CREDIT_CARD</paymentmethod>
+ 		<cardtype>Add a New Card</cardtype>
+ 		<itemno>${item1_10dollars_255bp}</itemno>
+ 		<cctype>Visa ************1111</cctype>
+ 		<cardname>Visa</cardname>
+ 		<cardnumber>4111111111111111</cardnumber>
+ 		<expmonth>09</expmonth>
+ 		<expyear>2016</expyear>
+ 		<securitycode>111</securitycode>
+ 		<firstname>sam</firstname>
+ 		<lastname>kapoor</lastname>
+ 		<address1>New York</address1>
+ 		<address2>street</address2>
+ 		<zip>T5A 0A7</zip>
+ 		<city>Airdrie</city>
+ 		<state>Alberta</state>
+ 		<country>Canada</country>
+ 		<phonenumber>333-333-3333</phonenumber>
+ 		<addAccountInfo>true</addAccountInfo>
+ 		<sname1>Manu</sname1>
+		<sname2>Rocky</sname2>
+		<sname3>Johnson</sname3>
+		<qty1>2</qty1>
+		<qty2>1</qty2>
+		<qty3>3</qty3>
+		<tdm>
+			<type>teacher_with_single_parent</type>
+			<isReserved>true</isReserved>
+			<isBcoeIdRequired>true</isBcoeIdRequired>
+			<converttotype>teacher_any</converttotype>
+		</tdm>
+		<torquetdm>
+			<type>teacher_with_single_parent</type>
+			<usertype>teacher</usertype>
+		</torquetdm>
+	</testcase>	
+	<!-- updated for testing -->
+	
+	
+	<testcase id="BVTProd:Adds_SFO_Items_MultipleStudents">
+	    <userid>7582720</userid>
+		<password>passw0rd</password>
+		<studentname1>${studentname1}</studentname1>
+		<sfo_Item1>${PROD_BVT_SFO_ITEM1}</sfo_Item1>
+		<studentname2>${studentname2}</studentname2>
+		<sfo_Item2>${PROD_BVT_SFO_ITEM2}</sfo_Item2>
+		<studentname3>${studentname3}</studentname3>
+		<sfo_Item3>${PROD_BVT_SFO_ITEM3}</sfo_Item3>
+		
+	</testcase>
+	
+	
+	<testcase id="BVTProd:Adds_YTO_Items_MultipleItemsFlyers">
+	    <userid>7582689</userid>
+		<password>passw0rd</password>
+		<itemName>${PROD_BVT_YTO_ITEM1}</itemName>
+		<itemName2>${PROD_BVT_YTO_ITEM2}</itemName2>
+	</testcase>
+	
+	
+	<testcase id="BVTProd:Adds_SFO_YTO_Items_MultipleItemsFlyers">
+	    <userid>7582580</userid>
+		<password>passw0rd</password>
+		<studentname1>${studentname1}</studentname1>
+		<sfo_Item1>${PROD_BVT_SFO_ITEM1}</sfo_Item1>
+		<studentname2>${studentname2}</studentname2>
+		<sfo_Item2>${PROD_BVT_SFO_ITEM2}</sfo_Item2>
+		<studentname3>${studentname3}</studentname3>
+		<sfo_Item3>${PROD_BVT_SFO_ITEM3}</sfo_Item3>
+		<itemName>${PROD_BVT_YTO_ITEM1}</itemName>
+		<itemName2>${PROD_BVT_YTO_ITEM2}</itemName2>
+	</testcase>
+	
+	<testcase id="BVTProd:Adds_SFO_TE_Items_MultipleItemsFlyers">
+	    <userid>7582598</userid>
+		<password>passw0rd</password>
+		<studentname1>${studentname1}</studentname1>
+		<sfo_Item1>${PROD_BVT_SFO_ITEM1}</sfo_Item1>
+		<studentname2>${studentname2}</studentname2>
+		<sfo_Item2>${PROD_BVT_SFO_ITEM2}</sfo_Item2>
+		<studentname3>${studentname3}</studentname3>
+		<sfo_Item3>${PROD_BVT_SFO_ITEM3}</sfo_Item3>
+		<te_itemName1>${PROD_BVT_TE_ITEM1}</te_itemName1>
+		<te_itemName2>${PROD_BVT_TE_ITEM2}</te_itemName2>
+	</testcase>
+	
+	<testcase id="BVTProd:Adds_YTO_TE_Items_MultipleItemsFlyers">
+	    <userid>7582605</userid>
+		<password>passw0rd</password>
+		<itemName>${PROD_BVT_YTO_ITEM1}</itemName>
+		<itemName2>${PROD_BVT_YTO_ITEM2}</itemName2>
+		<te_itemName1>${PROD_BVT_TE_ITEM1}</te_itemName1>
+		<te_itemName2>${PROD_BVT_TE_ITEM2}</te_itemName2>
+	</testcase>
+	
+	<testcase id="BVTProd:Adds_SFO_YTO_TE_Items_MultipleItemsFlyers">
+	    <userid>7582530</userid>
+		<password>passw0rd</password>
+		<studentname1>${studentname1}</studentname1>
+		<sfo_Item1>${PROD_BVT_SFO_ITEM1}</sfo_Item1>
+		<studentname2>${studentname2}</studentname2>
+		<sfo_Item2>${PROD_BVT_SFO_ITEM2}</sfo_Item2>
+		<studentname3>${studentname3}</studentname3>
+		<sfo_Item3>${PROD_BVT_SFO_ITEM3}</sfo_Item3>
+		<itemName>${PROD_BVT_YTO_ITEM1}</itemName>
+		<itemName2>${PROD_BVT_YTO_ITEM2}</itemName2>
+		<te_itemName1>${PROD_BVT_TE_ITEM1}</te_itemName1>
+		<te_itemName2>${PROD_BVT_TE_ITEM2}</te_itemName2>
+	</testcase>
+	
+	
+	
+   <testcase id="BVTProd:Adds_SFO_YTO_TE_Items_Redemptions">
+	    <userid>7582548</userid>
+		<password>passw0rd</password>
+		<studentname1>${studentname1}</studentname1>
+		<sfo_Item1>${PROD_BVT_SFO_ITEM1}</sfo_Item1>
+		<studentname2>${studentname2}</studentname2>
+		<sfo_Item2>${PROD_BVT_SFO_ITEM2}</sfo_Item2>
+		<studentname3>${studentname3}</studentname3>
+		<sfo_Item3>${PROD_BVT_SFO_ITEM3}</sfo_Item3>
+		<itemName>${PROD_BVT_YTO_ITEM1}</itemName>
+		<itemName2>${PROD_BVT_YTO_ITEM2}</itemName2>
+		<te_itemName1>${PROD_BVT_TE_ITEM1}</te_itemName1>
+		<te_itemName2>${PROD_BVT_TE_ITEM2}</te_itemName2>
+		<redemptions>1</redemptions>
+	</testcase>
+
+
+
+	<!--=======================================BVT STAGE===============================-->
+
+
+	<testcase id="BVTSTAGE:Adds_SFO_Items_MultipleStudents">
+		<userid>7582720</userid>
+		<password>passw0rd</password>
+	</testcase>
+
+
+	<testcase id="BVTSTAGE:Adds_YTO_Items_MultipleItemsFlyers">
+		<userid>7582689</userid>
+		<password>passw0rd</password>
+		<itemName>5P0</itemName>
+		<itemName2>1P0</itemName2>
+	</testcase>
+
+
+	<testcase id="BVTSTAGE:Adds_SFO_YTO_Items_MultipleItemsFlyers">
+		<userid>7582580</userid>
+		<password>passw0rd</password>
+		<itemName>5P0</itemName>
+		<itemName2>1P0</itemName2>
+	</testcase>
+
+	<testcase id="BVTSTAGE:Adds_SFO_TE_Items_MultipleItemsFlyers">
+		<userid>7582598</userid>
+		<password>passw0rd</password>
+		<itemName>5P0</itemName>
+		<itemName2>1P0</itemName2>
+		<te_itemName1>20 Thank You Cards to Colour</te_itemName1>
+		<te_itemName2>Floor Puzzle: Ocean Friends</te_itemName2>
+	</testcase>
+
+	<testcase id="BVTSTAGE:Adds_YTO_TE_Items_MultipleItemsFlyers">
+		<userid>7582605</userid>
+		<password>passw0rd</password>
+		<itemName>5P0</itemName>
+		<itemName2>1P0</itemName2>
+		<te_itemName1>20 Thank You Cards to Colour</te_itemName1>
+		<te_itemName2>Floor Puzzle: Ocean Friends</te_itemName2>
+	</testcase>
+
+	<testcase id="BVTSTAGE:Adds_SFO_YTO_TE_Items_MultipleItemsFlyers">
+		<userid>7582530</userid>
+		<password>passw0rd</password>
+		<itemName>5P0</itemName>
+		<itemName2>1P0</itemName2>
+		<te_itemName1>20 Thank You Cards to Colour</te_itemName1>
+		<te_itemName2>Floor Puzzle: Ocean Friends</te_itemName2>
+	</testcase>
+
+
+
+	<testcase id="BVTSTAGE:Adds_SFO_YTO_TE_Items_Redemptions">
+		<userid>7582548</userid>
+		<password>passw0rd</password>
+		<itemName>5P0</itemName>
+		<itemName2>1P0</itemName2>
+		<te_itemName1>20 Thank You Cards to Colour</te_itemName1>
+		<te_itemName2>Floor Puzzle: Ocean Friends</te_itemName2>
+		<redemptions>1</redemptions>
+	</testcase>
+
+
+	<!--=================================BVT QA==================================-->
+	<testcase id="BVTQA:Adds_SFO_Items_MultipleStudents">
+		<userid>6552253</userid>
+		<password>passw0rd</password>
+	</testcase>
+
+
+	<testcase id="BVTQA:Adds_YTO_Items_MultipleItemsFlyers">
+		<userid>6583464</userid>
+		<password>passw0rd</password>
+		<itemName>5P0</itemName>
+		<itemName2>1P0</itemName2>
+	</testcase>
+
+
+	<testcase id="BVTQA:Adds_SFO_YTO_Items_MultipleItemsFlyers">
+		<userid>6649266</userid>
+		<password>passw0rd</password>
+		<itemName>5P0</itemName>
+		<itemName2>1P0</itemName2>
+	</testcase>
+
+	<testcase id="BVTQA:Adds_SFO_TE_Items_MultipleItemsFlyers">
+		<userid>6653069</userid>
+		<password>passw0rd</password>
+		<itemName>5P0</itemName>
+		<itemName2>1P0</itemName2>
+		<te_itemName1>20 Thank You Cards to Colour</te_itemName1>
+		<te_itemName2>Floor Puzzle: Ocean Friends</te_itemName2>
+	</testcase>
+
+	<testcase id="BVTQA:Adds_YTO_TE_Items_MultipleItemsFlyers">
+		<userid>6660759</userid>
+		<password>passw0rd</password>
+		<itemName>5P0</itemName>
+		<itemName2>1P0</itemName2>
+		<te_itemName1>20 Thank You Cards to Colour</te_itemName1>
+		<te_itemName2>Floor Puzzle: Ocean Friends</te_itemName2>
+	</testcase>
+
+	<testcase id="BVTQA:Adds_SFO_YTO_TE_Items_MultipleItemsFlyers">
+		<userid>6706694</userid>
+		<password>passw0rd</password>
+		<itemName>5P0</itemName>
+		<itemName2>1P0</itemName2>
+		<te_itemName1>20 Thank You Cards to Colour</te_itemName1>
+		<te_itemName2>Floor Puzzle: Ocean Friends</te_itemName2>
+	</testcase>
+
+
+
+	<testcase id="BVTQA:Adds_SFO_YTO_TE_Items_Redemptions">
+		<userid>6732425</userid>
+		<password>passw0rd</password>
+		<itemName>5P0</itemName>
+		<itemName2>1P0</itemName2>
+		<te_itemName1>20 Thank You Cards to Colour</te_itemName1>
+		<te_itemName2>Floor Puzzle: Ocean Friends</te_itemName2>
+		<redemptions>1</redemptions>
+	</testcase>
+
+	<!--=================================BVT DEV35==================================-->
+
+	<testcase id="BVTDev35:Adds_SFO_Items_MultipleStudents">
+		<userid>6552253</userid>
+		<password>passw0rd</password>
+	</testcase>
+
+
+	<testcase id="BVTDev35:Adds_YTO_Items_MultipleItemsFlyers">
+		<userid>6583464</userid>
+		<password>passw0rd</password>
+		<itemName>5P0</itemName>
+		<itemName2>1P0</itemName2>
+	</testcase>
+
+
+	<testcase id="BVTDev35:Adds_SFO_YTO_Items_MultipleItemsFlyers">
+		<userid>6649266</userid>
+		<password>passw0rd</password>
+		<itemName>5P0</itemName>
+		<itemName2>1P0</itemName2>
+	</testcase>
+
+	<testcase id="BVTDev35:Adds_SFO_TE_Items_MultipleItemsFlyers">
+		<userid>6653069</userid>
+		<password>passw0rd</password>
+		<itemName>5P0</itemName>
+		<itemName2>1P0</itemName2>
+		<te_itemName1>20 Thank You Cards to Colour</te_itemName1>
+		<te_itemName2>Floor Puzzle: Ocean Friends</te_itemName2>
+	</testcase>
+
+	<testcase id="BVTDev35:Adds_YTO_TE_Items_MultipleItemsFlyers">
+		<userid>6660759</userid>
+		<password>passw0rd</password>
+		<itemName>5P0</itemName>
+		<itemName2>1P0</itemName2>
+		<te_itemName1>20 Thank You Cards to Colour</te_itemName1>
+		<te_itemName2>Floor Puzzle: Ocean Friends</te_itemName2>
+	</testcase>
+
+	<testcase id="BVTDev35:Adds_SFO_YTO_TE_Items_MultipleItemsFlyers">
+		<userid>6706694</userid>
+		<password>passw0rd</password>
+		<itemName>5P0</itemName>
+		<itemName2>1P0</itemName2>
+		<te_itemName1>20 Thank You Cards to Colour</te_itemName1>
+		<te_itemName2>Floor Puzzle: Ocean Friends</te_itemName2>
+	</testcase>
+
+
+	<testcase id="BVTDev35:Adds_SFO_YTO_TE_Items_Redemptions">
+		<userid>6732425</userid>
+		<password>passw0rd</password>
+		<itemName>5P0</itemName>
+		<itemName2>1P0</itemName2>
+		<te_itemName1>20 Thank You Cards to Colour</te_itemName1>
+		<te_itemName2>Floor Puzzle: Ocean Friends</te_itemName2>
+		<redemptions>1</redemptions>
+	</testcase>
+
+
+	<!--==============================BVT CSR PROD============================== 	-->
+
+	<testcase id="prod_mailOrder">
+		<userid>cgayle</userid>
+		<password>July2018!</password>
+		<AcNum>7582720</AcNum>
+		<FlyerCode></FlyerCode>
+		<ItemNum>16P0</ItemNum>
+		<ItemQty>2</ItemQty>
+		<ItemNum2>3P0</ItemNum2>
+		<ItemQty2>2</ItemQty2>
+		<ItemNum3>12P0</ItemNum3>
+		<ItemQty3>2</ItemQty3>
+	</testcase>
+
+	<testcase id="prod_faxorder">
+		<userid>cgayle</userid>
+		<password>July2018!</password>
+		<AcNum>7582689</AcNum>
+		<FlyerCode></FlyerCode>
+		<ItemNum>16P0</ItemNum>
+		<ItemQty>2</ItemQty>
+		<ItemNum2>3P0</ItemNum2>
+		<ItemQty2>2</ItemQty2>
+		<ItemNum3>12P0</ItemNum3>
+		<ItemQty3>2</ItemQty3>
+	</testcase>
+
+	<testcase id="prod_csr_redemption">
+		<userid>cgayle</userid>
+		<password>July2018!</password>
+		<AcNum>7582580</AcNum>
+		<FlyerCode></FlyerCode>
+		<FlyerCode2></FlyerCode2>
+		<ItemNum>16P0</ItemNum>
+		<ItemQty>2</ItemQty>
+		<ItemNum2>3P0</ItemNum2>
+		<ItemQty2>2</ItemQty2>
+		<ItemNum3>11N0</ItemNum3>
+		<ItemQty3>2</ItemQty3>
+		<sBonusBank>1</sBonusBank>
+		<sPaperBank>1</sPaperBank>
+		<tBonusBank>1</tBonusBank>
+		<tPaperBank>1</tPaperBank>
+	</testcase>
+
+
+	<testcase id="prod_YTOOrder">
+		<userid>cgayle</userid>
+		<password>July2018!</password>
+		<AcNum>7582598</AcNum>
+		<FlyerCode></FlyerCode>
+		<FlyerCode2></FlyerCode2>
+		<ItemNum>16P0</ItemNum>
+		<ItemQty>2</ItemQty>
+		<ItemNum2>3P0</ItemNum2>
+		<ItemQty2>2</ItemQty2>
+		<ItemNum3>12P0</ItemNum3>
+		<ItemQty3>2</ItemQty3>
+		<sBonusBank>1</sBonusBank>
+		<sPaperBank>1</sPaperBank>
+		<tBonusBank>1</tBonusBank>
+		<tPaperBank>1</tPaperBank>
+	</testcase>
+
+	<testcase id="prod_YTO_teacherOrder">
+	<userid>cgayle</userid>
+	<password>July2018!</password>
+	<AcNum>7582530</AcNum>
+	<FlyerCode></FlyerCode>
+	<FlyerCode2></FlyerCode2>
+	<ItemNum>16P0</ItemNum>
+	<ItemQty>2</ItemQty>
+	<ItemNum2>3P0</ItemNum2>
+	<ItemQty2>2</ItemQty2>
+	<ItemNum3>12P0</ItemNum3>
+	<ItemQty3>2</ItemQty3>
+	<sBonusBank>1</sBonusBank>
+	<sPaperBank>1</sPaperBank>
+	<tBonusBank>1</tBonusBank>
+	<tPaperBank>1</tPaperBank>
+	</testcase>
+
+
+	<testcase id="prod_teacherExorder">
+		<userid>cgayle</userid>
+		<password>July2018!</password>
+		<AcNum>7582605</AcNum>
+		<FlyerCode></FlyerCode>
+		<FlyerCode2></FlyerCode2>
+		<ItemNum>8N0</ItemNum>
+		<ItemQty>2</ItemQty>
+		<ItemNum2>11N0</ItemNum2>
+		<ItemQty2>2</ItemQty2>
+		<ItemNum3>1N0</ItemNum3>
+		<ItemQty3>2</ItemQty3>
+		<sBonusBank>1</sBonusBank>
+		<sPaperBank>1</sPaperBank>
+		<tBonusBank>1</tBonusBank>
+		<tPaperBank>1</tPaperBank>
+	</testcase>
+</testdata>

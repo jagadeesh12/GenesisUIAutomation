@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" verbose="0" name="Demandware" parallel="tests">
+  <parameter name="remote.driver.url" value="http://sereti_qe:b9b8a9e1-e525-46af-9c7f-4a11c372b5c5@ondemand.saucelabs.com:80/wd/hub"/>
+  <parameter name="tdm.data" value="off"/>
+  <parameter name="tags" value="@Priority2" />
+  <parameter name="glue" value="com.dw.automation.steps"/>
+  <parameter name="sauce" value="true"/>  
+
+  <test name="Shipping upsell message displays when there is a shipping fee on the order">
+    <parameter name="features" value="features/InSprint_13.2/CA_RCO_RedemptionsAndRewards_4726.feature"/>
+    <parameter name="scenario" value="Shipping upsell message displays when there is a shipping fee on the order"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Shipping upsell message displays when there is a shipping fee on the order -->
+  <test name="Shipping upsell message does not display when cart is eligible for free shipping">
+    <parameter name="features" value="features/InSprint_13.2/CA_RCO_RedemptionsAndRewards_4726.feature"/>
+    <parameter name="scenario" value="Shipping upsell message does not display when cart is eligible for free shipping"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Shipping upsell message does not display when cart is eligible for free shipping -->
+  <test name="Shipping upsell message does not display when teacher adds more items and cart becomes eligible for free shipping">
+    <parameter name="features" value="features/InSprint_13.2/CA_RCO_RedemptionsAndRewards_4726.feature"/>
+    <parameter name="scenario" value="Shipping upsell message does not display when teacher adds more items and cart becomes eligible for free shipping"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Shipping upsell message does not display when teacher adds more items and cart becomes eligible for free shipping -->
+  <test name="Shipping upsell message displays when teacher deletes items from cart making cart eligible for paid shipping">
+    <parameter name="features" value="features/InSprint_13.2/CA_RCO_RedemptionsAndRewards_4726.feature"/>
+    <parameter name="scenario" value="Shipping upsell message displays when teacher deletes items from cart making cart eligible for paid shipping"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Shipping upsell message displays when teacher deletes items from cart making cart eligible for paid shipping -->
+</suite> <!-- Demandware -->

@@ -1,0 +1,8 @@
+<requests>
+	<request id="teacher_registration_by_state">
+		<type>teacher</type>
+		<student>3</student>
+		<grade>any</grade>
+		<role></role>
+	</request>
+</requests>

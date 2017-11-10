@@ -1,0 +1,8 @@
+<testdata>
+	<testcase id="MyAccount:Teacher_Login">
+		<userid>7527700</userid>
+		<password>passw0rd</password>
+	</testcase>
+	
+
+</testdata>

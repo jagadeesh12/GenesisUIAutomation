@@ -1,0 +1,262 @@
+<testdata>
+	<testcase id="new+parent_single_child_CAC_flow_master_card_data"
+		description="this test data is used for parent registration with one child and placing an order with Master Credit Card, also teacher login user cart needs to be empty">
+		<module>parent</module>
+		<cac>T6Z7N</cac>
+		<userid>parent_ete@example.com</userid>
+		<password>passw0rd</password>
+		<teachername>Automation Automation</teachername>
+		<password>passw0rd</password>
+		<firstname>Parent</firstname>
+		<lastname>Parent</lastname>
+		<childCount>1</childCount>
+		<child0>
+			<firstname>ETEChild</firstname>
+			<lastname>ETEChild</lastname>
+			<childgrade>2nd grade</childgrade>
+			<childbirthmonth>january</childbirthmonth>
+			<childbirthyear>1998</childbirthyear>
+			<cac>T6Z7N</cac>
+		</child0>
+		<itemid>3B6</itemid>
+		<childname>ETEChild ETEChild</childname>
+		<paymentmethod>Credit Card</paymentmethod>
+		<cardtype>Add a New Card</cardtype>
+		<cardname>Master Card</cardname>
+		<cardnumber>5555555555554444</cardnumber>
+		<expmonth>02</expmonth>
+		<expyear>2017</expyear>
+		<securitycode>111</securitycode>
+		<firstname>sam</firstname>
+		<lastname>kapoor</lastname>
+		<address1>New York</address1>
+		<address2>street</address2>
+		<zip>10001</zip>
+		<city>NewYork</city>
+		<state>Alaska</state>
+		<country>United States</country>
+		<phonenumber>256-256-25625</phonenumber>
+		<addAccountInfo>true</addAccountInfo>
+		<teacheruserid>parent_end_to_end_common@example.com</teacheruserid>
+		<teacherpassword>passw0rd</teacherpassword>
+		<couponcode>C000390</couponcode>
+		<selectgrade>2nd Grade</selectgrade>
+		<couponitemnumber>3</couponitemnumber>
+	</testcase>
+
+	<testcase id="new_parent_two_children_FPF_diff_child"
+		description="this test data is used for parent registration with two children and placing an order with Discover Credit Card, also teacher login user cart needs to be empty">
+		<module>parent</module>
+		<cac>T6Z7N</cac>
+		<userid>parent_ete@example.com</userid>
+		<password>passw0rd</password>
+		<teachername>Automation Automation</teachername>
+		<password>passw0rd</password>
+		<firstname>Parent</firstname>
+		<lastname>Parent</lastname>
+		<childCount>2</childCount>
+		<child0>
+			<firstname>ETEChild</firstname>
+			<lastname>ETEChild</lastname>
+			<childgrade>2nd grade</childgrade>
+			<childbirthmonth>january</childbirthmonth>
+			<childbirthyear>1998</childbirthyear>
+			<cac>T6Z7N</cac>
+		</child0>
+		<child1>
+			<firstname>SecondChild</firstname>
+			<lastname>SecondChild</lastname>
+			<childgrade>3rd grade</childgrade>
+			<childbirthmonth>january</childbirthmonth>
+			<childbirthyear>1998</childbirthyear>
+			<cac>RGLXJ</cac>
+		</child1>
+		<itemid>3B6</itemid>
+		<childname>ETEChild ETEChild</childname>
+		<paymentmethod>Credit Card</paymentmethod>
+		<cardtype>Add a New Card</cardtype>
+		<cardname>Master Card</cardname>
+		<cardnumber>5555555555554444</cardnumber>
+		<expmonth>02</expmonth>
+		<expyear>2017</expyear>
+		<securitycode>111</securitycode>
+		<firstname>sam</firstname>
+		<lastname>kapoor</lastname>
+		<address1>New York</address1>
+		<address2>street</address2>
+		<zip>10001</zip>
+		<city>NewYork</city>
+		<state>Alaska</state>
+		<country>United States</country>
+		<phonenumber>256-256-25625</phonenumber>
+		<addAccountInfo>true</addAccountInfo>
+		<teacheruserid>parent_end_to_end_common@example.com</teacheruserid>
+		<teacherpassword>passw0rd</teacherpassword>
+		<couponcode>C000390</couponcode>
+		<selectgrade>2nd Grade</selectgrade>
+		<couponitemnumber>3</couponitemnumber>
+	</testcase>
+
+
+
+	<testcase id="Multiple_Children_Multiple_Teacher_End_To_End_Flow"
+		description="this test data is used for parent registration with two children and placing an order with Paypal, also teacher login user cart needs to be empty">
+		<module>parent</module>
+		<cac>T83RQ</cac>
+		<userid>parent_ete@example.com</userid>
+		<password>passw0rd</password>
+		<teachername>Automation Automation</teachername>
+		<password>passw0rd</password>
+		<firstname>Parent</firstname>
+		<lastname>Parent</lastname>
+		<childCount>2</childCount>
+		<addAccountInfo>true</addAccountInfo>
+		<child0>
+			<firstname>FIRSTCHILD</firstname>
+			<lastname>FIRSTCHILD</lastname>
+			<childgrade>2nd grade</childgrade>
+			<childbirthmonth>january</childbirthmonth>
+			<childbirthyear>1998</childbirthyear>
+			<cac>T83RQ</cac>
+		</child0>
+		<child1>
+			<firstname>SECONDCHILD</firstname>
+			<lastname>SECONDCHILD</lastname>
+			<childgrade>3rd grade</childgrade>
+			<childbirthmonth>january</childbirthmonth>
+			<childbirthyear>1998</childbirthyear>
+			<cac>T83V8</cac>
+		</child1>
+		<itemid>3B6</itemid>
+		<paymentmethod>PayPal</paymentmethod>
+		<paypalUserName>parent_automation@s.com</paypalUserName>
+		<paypalPassword>passw0rd</paypalPassword>
+		<childname>FIRSTCHILD FIRSTCHILD,SECONDCHILD SECONDCHILD</childname>
+		<selectgrade>2nd Grade</selectgrade>
+		<couponitemnumber>3</couponitemnumber>
+	</testcase>
+	<testcase id="Multiple_Children_Multiple_FPF_Teacher_End_To_End_Flow"
+		description="this test data is used for parent registration with two children and apply FPF Coupons and placing an order with Paypal, also teacher login user cart needs to be empty">
+		<module>parent</module>
+		<cac>T9RW7</cac>
+		<teachername>Automation Automation</teachername>
+		<password>passw0rd</password>
+		<firstname>Parent</firstname>
+		<lastname>Parent</lastname>
+		<childCount>2</childCount>
+		<addAccountInfo>true</addAccountInfo>
+		<child0>
+			<firstname>FIRSTCHILD</firstname>
+			<lastname>FIRSTCHILD</lastname>
+			<childgrade>2nd grade</childgrade>
+			<childbirthmonth>january</childbirthmonth>
+			<childbirthyear>1998</childbirthyear>
+			<cac>T9RW7</cac>
+		</child0>
+		<child1>
+			<firstname>SECONDCHILD</firstname>
+			<lastname>SECONDCHILD</lastname>
+			<childgrade>3rd grade</childgrade>
+			<childbirthmonth>january</childbirthmonth>
+			<childbirthyear>1998</childbirthyear>
+			<cac>T9RW9</cac>
+		</child1>
+		<itemid>3B6</itemid>
+		<paymentmethod>PayPal</paymentmethod>
+		<paypalUserName>parent_automation@s.com</paypalUserName>
+		<paypalPassword>passw0rd</paypalPassword>
+		<childname>FIRSTCHILD FIRSTCHILD,SECONDCHILD SECONDCHILD</childname>
+		<selectgrade>2nd Grade</selectgrade>
+		<couponnumber>C000002,C000009</couponnumber>
+		<coupontype>freepick,freepick</coupontype>
+		<selectgrade>1st Grade,2st Grade</selectgrade>
+		<couponselctionmethod>ByGrade,ByGrade</couponselctionmethod>
+	</testcase>
+	<testcase id="Multiple_Children_With_Same_Teacher_End_To_End_Flow">
+		<module>parent</module>
+		<cac>T9T38</cac>
+		<teachername>Automation Automation</teachername>
+		<password>passw0rd</password>
+		<firstname>Parent</firstname>
+		<lastname>Parent</lastname>
+		<childCount>2</childCount>
+		<addAccountInfo>true</addAccountInfo>
+		<child0>
+			<firstname>FIRSTCHILD</firstname>
+			<lastname>FIRSTCHILD</lastname>
+			<childgrade>2nd grade</childgrade>
+			<childbirthmonth>january</childbirthmonth>
+			<childbirthyear>1998</childbirthyear>
+			<cac>T9T38</cac>
+		</child0>
+		<child1>
+			<firstname>SECONDCHILD</firstname>
+			<lastname>SECONDCHILD</lastname>
+			<childgrade>3rd grade</childgrade>
+			<childbirthmonth>january</childbirthmonth>
+			<childbirthyear>1998</childbirthyear>
+			<cac>T9T38</cac>
+		</child1>
+		<itemid>3B6</itemid>
+		<paymentmethod>PayPal</paymentmethod>
+		<paypalUserName>parent_automation@s.com</paypalUserName>
+		<paypalPassword>passw0rd</paypalPassword>
+		<childname>FIRSTCHILD FIRSTCHILD</childname>
+		<selectgrade>2nd Grade</selectgrade>
+		<couponnumber>C000002</couponnumber>
+		<coupontype>freepick</coupontype>
+		<selectgrade>1st Grade</selectgrade>
+		<couponselctionmethod>ByGrade</couponselctionmethod>
+	</testcase>
+	<testcase id="Two_Parent_Same_Teacher_FPF"
+		description="this test data is used for parent registration with two children and placing an order with Paypal, also teacher login user cart needs to be empty">
+		<module>parent</module>
+		<cac>T9JGY</cac>
+		<password>passw0rd</password>
+		<teachername>Automation Automation</teachername>
+		<password>passw0rd</password>
+		<firstname>Parent</firstname>
+		<lastname>Parent</lastname>
+		<childCount>2</childCount>
+		<child0>
+			<firstname>FIRSTCHILD</firstname>
+			<lastname>FIRSTCHILD</lastname>
+			<childgrade>2nd grade</childgrade>
+			<childbirthmonth>january</childbirthmonth>
+			<childbirthyear>1998</childbirthyear>
+			<cac>T9JGY</cac>
+		</child0>
+		<child1>
+			<firstname>SECONDCHILD</firstname>
+			<lastname>SECONDCHILD</lastname>
+			<childgrade>3rd grade</childgrade>
+			<childbirthmonth>january</childbirthmonth>
+			<childbirthyear>1998</childbirthyear>
+			<cac>T9JJG</cac>
+		</child1>
+		<itemid>3B6</itemid>
+		<childname>none</childname>
+		<paymentmethod>Credit Card</paymentmethod>
+		<cardtype>Add a New Card</cardtype>
+		<cardname>Visa</cardname>
+		<cardnumber>4111111111111111</cardnumber>
+		<expmonth>02</expmonth>
+		<expyear>2017</expyear>
+		<securitycode>111</securitycode>
+		<firstname>sam</firstname>
+		<lastname>kapoor</lastname>
+		<address1>New York</address1>
+		<address2>street</address2>
+		<zip>10001</zip>
+		<city>NewYork</city>
+		<state>Alaska</state>
+		<country>United States</country>
+		<phonenumber>256-256-25625</phonenumber>
+		<addAccountInfo>true</addAccountInfo>
+		<teacheruserid>auto_ozPMl2vgJx@gmail.com</teacheruserid>
+		<teacherpassword>passw0rd</teacherpassword>
+		<couponcode>C000390</couponcode>
+		<selectgrade>2nd Grade</selectgrade>
+		<couponitemnumber>3</couponitemnumber>
+	</testcase>
+</testdata>

@@ -1,0 +1,279 @@
+<testdata>
+	<testcase id="Q_QA_CSR_sees_correct_item_numbers">
+		<userid>bctest10</userid>
+  		<password>Scholastic@1234</password>
+  		<AcNum>230384</AcNum>
+  		<FlyerCode>Z4A16</FlyerCode>
+  		<ItemNum>204</ItemNum>
+  		<ItemQty>1</ItemQty>
+  		<ItemNum2>511</ItemNum2>
+  		<ItemQty2>3</ItemQty2>
+  		<ItemNum3>801</ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+	</testcase>
+	
+	<testcase id="Q_QA_CSR_sees_correct_items">
+		<userid>bctest11</userid>
+  		<password>Scholastic@1234</password>
+  		<AcNum>230722</AcNum>
+  		<FlyerCode>Z4A16</FlyerCode>
+  		<ItemNum>204</ItemNum>
+  		<ItemQty>1</ItemQty>
+  		<ItemNum2>511</ItemNum2>
+  		<ItemQty2>3</ItemQty2>
+  		<ItemNum3>801</ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+	</testcase>
+	
+	<testcase id="Q_QA_Enter_New_Order_text_OrderEntryPage">
+		<userid>bctest12</userid>
+  		<password>Scholastic@1234</password>
+  		<AcNum>5481768</AcNum>
+	</testcase>
+	
+	<testcase id="Q_QA_CSR_sees_blue_step_script_icon">
+		<userid>bctest13</userid>
+  		<password>Scholastic@1234</password>
+  		<AcNum>5485950</AcNum>
+	</testcase>
+	
+	<testcase id="Q_QA_CSR_sees_Order_Entry_Script">
+		<userid>bctest14</userid>
+  		<password>Scholastic@1234</password>
+  		<AcNum>5488110</AcNum>
+	</testcase>
+	
+	<testcase id="Q_QA_CSR_sees_close_btn_in_OrderEntryScript_modal_window">
+		<userid>bctest15</userid>
+  		<password>Scholastic@1234</password>
+  		<AcNum>5490933</AcNum>
+	</testcase>
+	
+	<testcase id="Q_QA_Verify_Account_page_displays_when_CSR_closes_the_window">
+		<userid>bctest10</userid>
+  		<password>Scholastic@1234</password>
+  		<AcNum>5494901</AcNum>
+	</testcase>
+	
+	<testcase id="Q_QA_CSR_sees_RewardsAndCoupons_popup_window">
+		<userid>bctest11</userid>
+  		<password>Scholastic@1234</password>
+  		<AcNum>361965</AcNum>
+  		<FlyerCode>Z4A16</FlyerCode>
+  		<ItemNum>204</ItemNum>
+  		<ItemQty>1</ItemQty>
+  		<ItemNum2>511</ItemNum2>
+  		<ItemQty2>3</ItemQty2>
+  		<ItemNum3>801</ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+	</testcase>
+	
+	<testcase id="Q_QA_Redemptions_Rewards_tab_highlights">
+		<userid>bctest12</userid>
+  		<password>Scholastic@1234</password>
+  		<AcNum>362012</AcNum>
+  		<FlyerCode>Z4A16</FlyerCode>
+  		<ItemNum>204</ItemNum>
+  		<ItemQty>1</ItemQty>
+  		<ItemNum2>511</ItemNum2>
+  		<ItemQty2>3</ItemQty2>
+  		<ItemNum3>801</ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+	</testcase>
+	
+	<testcase id="Q_QA_Blue_step_script_icon_displays_Redemptions_Rewards">
+		<userid>bctest13</userid>
+  		<password>Scholastic@1234</password>
+  		<AcNum>362046</AcNum>
+  		<FlyerCode>Z4A16</FlyerCode>
+  		<ItemNum>204</ItemNum>
+  		<ItemQty>1</ItemQty>
+  		<ItemNum2>511</ItemNum2>
+  		<ItemQty2>3</ItemQty2>
+  		<ItemNum3>801</ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+	</testcase>
+	
+	<testcase id="Q_QA_Blue_step_script_icon_modalWindow_Redemptions_Rewards">
+		<userid>bctest14</userid>
+  		<password>Scholastic@1234</password>
+  		<AcNum>362070</AcNum>
+  		<FlyerCode>Z4A16</FlyerCode>
+  		<ItemNum>204</ItemNum>
+  		<ItemQty>1</ItemQty>
+  		<ItemNum2>511</ItemNum2>
+  		<ItemQty2>3</ItemQty2>
+  		<ItemNum3>801</ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+	</testcase>
+	
+	<testcase id="Q_QA_Blue_step_script_icon_modalWindow_disappeared_Redemptions_Rewards">
+		<userid>bctest15</userid>
+  		<password>Scholastic@1234</password>
+  		<AcNum>362195</AcNum>
+  		<FlyerCode>Z4A16</FlyerCode>
+  		<ItemNum>204</ItemNum>
+  		<ItemQty>1</ItemQty>
+  		<ItemNum2>511</ItemNum2>
+  		<ItemQty2>3</ItemQty2>
+  		<ItemNum3>801</ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+	</testcase>
+	
+	<testcase id="Q_QA_Redemptions_Rewards_tab_highlights">
+		<userid>bctest10</userid>
+  		<password>Scholastic@1234</password>
+  		<AcNum>362210</AcNum>
+  		<FlyerCode>Z4A16</FlyerCode>
+  		<ItemNum>204</ItemNum>
+  		<ItemQty>1</ItemQty>
+  		<ItemNum2>511</ItemNum2>
+  		<ItemQty2>3</ItemQty2>
+  		<ItemNum3>801</ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+	</testcase>
+	
+	<testcase id="Q_QA_Number_for_the_Redemptions_Rewards_tab">
+		<userid>bctest11</userid>
+  		<password>Scholastic@1234</password>
+  		<AcNum>362442</AcNum>
+  		<FlyerCode>Z4A16</FlyerCode>
+  		<ItemNum>204</ItemNum>
+  		<ItemQty>1</ItemQty>
+  		<ItemNum2>511</ItemNum2>
+  		<ItemQty2>3</ItemQty2>
+  		<ItemNum3>801</ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+	</testcase>
+	
+	<testcase id="Q_QA_CSR_sees_TotalAmountOwing_label">
+		<userid>bctest12</userid>
+  		<password>Scholastic@1234</password>
+  		<AcNum>362517</AcNum>
+  		<FlyerCode>Z4A16</FlyerCode>
+  		<ItemNum>204</ItemNum>
+  		<ItemQty>1</ItemQty>
+  		<ItemNum2>511</ItemNum2>
+  		<ItemQty2>3</ItemQty2>
+  		<ItemNum3>801</ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+	</testcase>
+	
+	<testcase id="Q_QA_CSR_sees_total_cost_of_all_items">
+		<userid>bctest13</userid>
+  		<password>Scholastic@1234</password>
+  		<AcNum>362525</AcNum>
+  		<FlyerCode>Z4A16</FlyerCode>
+  		<ItemNum>204</ItemNum>
+  		<ItemQty>1</ItemQty>
+  		<ItemNum2>511</ItemNum2>
+  		<ItemQty2>3</ItemQty2>
+  		<ItemNum3>801</ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+	</testcase>
+	
+	<testcase id="Q_QA_CSR_sees_total_quantity_and_items">
+		<userid>bctest14</userid>
+  		<password>Scholastic@1234</password>
+  		<AcNum>362567</AcNum>
+  		<FlyerCode>Z4A16</FlyerCode>
+  		<ItemNum>204</ItemNum>
+  		<ItemQty>1</ItemQty>
+  		<ItemNum2>511</ItemNum2>
+  		<ItemQty2>3</ItemQty2>
+  		<ItemNum3>801</ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+	</testcase>
+	
+	<testcase id="Q_QA_CSR_sees_Edit_Cart_label">
+		<userid>bctest15</userid>
+  		<password>Scholastic@1234</password>
+  		<AcNum>362583</AcNum>
+  		<FlyerCode>Z4A16</FlyerCode>
+  		<ItemNum>204</ItemNum>
+  		<ItemQty>1</ItemQty>
+  		<ItemNum2>511</ItemNum2>
+  		<ItemQty2>3</ItemQty2>
+  		<ItemNum3>801</ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+	</testcase>
+	
+	<testcase id="Q_QA_CSR_clicks_hyperlink_Edit_Cart">
+		<userid>bctest10</userid>
+  		<password>Scholastic@1234</password>
+  		<AcNum>362608</AcNum>
+  		<FlyerCode>Z4A16</FlyerCode>
+  		<ItemNum>204</ItemNum>
+  		<ItemQty>1</ItemQty>
+  		<ItemNum2>511</ItemNum2>
+  		<ItemQty2>3</ItemQty2>
+  		<ItemNum3>801</ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+	</testcase>
+	
+	<testcase id="Q_QA_Blue_step_script_icon_displays_ReviewCart">
+		<userid>bctest11</userid>
+  		<password>Scholastic@1234</password>
+  		<AcNum>362674</AcNum>
+  		<FlyerCode>Z4A16</FlyerCode>
+  		<ItemNum>204</ItemNum>
+  		<ItemQty>1</ItemQty>
+  		<ItemNum2>511</ItemNum2>
+  		<ItemQty2>3</ItemQty2>
+  		<ItemNum3>801</ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+	</testcase>
+	
+	<testcase id="Q_QA_Blue_step_script_icon_modalWindow_ReviewCart">
+		<userid>bctest12</userid>
+  		<password>Scholastic@1234</password>
+  		<AcNum>362997</AcNum>
+  		<FlyerCode>Z4A16</FlyerCode>
+  		<ItemNum>204</ItemNum>
+  		<ItemQty>1</ItemQty>
+  		<ItemNum2>511</ItemNum2>
+  		<ItemQty2>3</ItemQty2>
+  		<ItemNum3>801</ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+	</testcase>
+	
+	<testcase id="Q_QA_Blue_step_script_icon_modalWindow_disappeared_ReviewCart">
+		<userid>bctest13</userid>
+  		<password>Scholastic@1234</password>
+  		<AcNum>363119</AcNum>
+  		<FlyerCode>Z4A16</FlyerCode>
+  		<ItemNum>204</ItemNum>
+  		<ItemQty>1</ItemQty>
+  		<ItemNum2>511</ItemNum2>
+  		<ItemQty2>3</ItemQty2>
+  		<ItemNum3>801</ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+	</testcase>
+	
+	<testcase id="Q_QA_CSR_sees_ProceedToCheckout_label">
+		<userid>bctest14</userid>
+  		<password>Scholastic@1234</password>
+  		<AcNum>363458</AcNum>
+  		<FlyerCode>Z4A16</FlyerCode>
+  		<ItemNum>204</ItemNum>
+  		<ItemQty>1</ItemQty>
+  		<ItemNum2>511</ItemNum2>
+  		<ItemQty2>3</ItemQty2>
+  		<ItemNum3>801</ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+	</testcase>
+	
+	<testcase id="Q_QA_CSR_sees_RewardsCoupons_page">
+		<userid>bctest15</userid>
+  		<password>Scholastic@1234</password>
+  		<AcNum>363466</AcNum>
+  		<FlyerCode>Z4A16</FlyerCode>
+  		<ItemNum>204</ItemNum>
+  		<ItemQty>1</ItemQty>
+  		<ItemNum2>511</ItemNum2>
+  		<ItemQty2>3</ItemQty2>
+  		<ItemNum3>801</ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+	</testcase>
+	
+</testdata>

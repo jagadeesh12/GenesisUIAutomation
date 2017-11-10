@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="25" guice-stage="DEVELOPMENT" verbose="0" name="CA_PCOD_Insprint_16.3" parallel="tests">
+  <parameter name="remote.driver.url" value="http://sereti_qe:b9b8a9e1-e525-46af-9c7f-4a11c372b5c5@ondemand.saucelabs.com:80/wd/hub"/>
+  <parameter name="tdm.data" value="off"/>
+  <parameter name="glue" value="com.dw.automation.steps"/>
+  <parameter name="sauce" value="true"/>
+  <!--<parameter name="tags" value="@1453" />-->
+  
+  <test name="Teacher clicks on (X)delete button for a student online order">
+    <parameter name="features" value="features/InSprintFeatures/InSprint_16.3_PCOD/DWCAPCOD-102.feature"/>
+    <parameter name="scenario" value="Teacher clicks on (X)delete button for a student online order"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;57.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;,&#039;maxDuration&#039;:&#039;10800&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Teacher clicks on (X)delete button for a student online order -->
+  <test name="Teacher clicks on Do not delete button for a student online order">
+    <parameter name="features" value="features/InSprintFeatures/InSprint_16.3_PCOD/DWCAPCOD-102.feature"/>
+    <parameter name="scenario" value="Teacher clicks on Do not delete button for a student online order"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;57.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;,&#039;maxDuration&#039;:&#039;10800&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Teacher clicks on Do not delete button for a student online order -->
+  <test name="Teacher clicks on Delete button for a student online order">
+    <parameter name="features" value="features/InSprintFeatures/InSprint_16.3_PCOD/DWCAPCOD-102.feature"/>
+    <parameter name="scenario" value="Teacher clicks on Delete button for a student online order"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;57.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;,&#039;maxDuration&#039;:&#039;10800&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Teacher clicks on Delete button for a student online order -->
+  <test name="Redemptions &amp; Rewards page with SFO + SOO + YTO [Redemptions &amp; Rewards Cart - GST only]">
+    <parameter name="features" value="features/InSprintFeatures/InSprint_16.3_PCOD/DWCAPCOD-149.feature"/>
+    <parameter name="scenario" value="Redemptions &amp; Rewards page with SFO + SOO + YTO [Redemptions &amp; Rewards Cart - GST only]"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;57.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;,&#039;maxDuration&#039;:&#039;10800&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Redemptions & Rewards page with SFO + SOO + YTO [Redemptions & Rewards Cart - GST only] -->
+  <test name="Parent with 2 children and 2 orders going to 2 teachers [Redemptions &amp; Rewards - GST_QST]">
+    <parameter name="features" value="features/InSprintFeatures/InSprint_16.3_PCOD/DWCAPCOD-149.feature"/>
+    <parameter name="scenario" value="Parent with 2 children and 2 orders going to 2 teachers [Redemptions &amp; Rewards - GST_QST]"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;57.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;,&#039;maxDuration&#039;:&#039;10800&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Parent with 2 children and 2 orders going to 2 teachers [Redemptions & Rewards - GST_QST] -->
+  <test name="Redemptions &amp; Rewards page with SFO + SOO + Teacher Exclusives [Redemptions &amp; Rewards Cart - GST only]">
+    <parameter name="features" value="features/InSprintFeatures/InSprint_16.3_PCOD/DWCAPCOD-149.feature"/>
+    <parameter name="scenario" value="Redemptions &amp; Rewards page with SFO + SOO + Teacher Exclusives [Redemptions &amp; Rewards Cart - GST only]"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;57.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;,&#039;maxDuration&#039;:&#039;10800&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Redemptions & Rewards page with SFO + SOO + Teacher Exclusives [Redemptions & Rewards Cart - GST only] -->
+  <test name="Parent with 1 child connected to teacher with pending orders [Redemptions &amp; Rewards - HST]">
+    <parameter name="features" value="features/InSprintFeatures/InSprint_16.3_PCOD/DWCAPCOD-149.feature"/>
+    <parameter name="scenario" value="Parent with 1 child connected to teacher with pending orders [Redemptions &amp; Rewards - HST]"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;57.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;,&#039;maxDuration&#039;:&#039;10800&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Parent with 1 child connected to teacher with pending orders [Redemptions & Rewards - HST] -->
+  <test name="Redemptions &amp; Rewards page with SOO + YTO + Teacher Exclusives [Redemptions &amp; Rewards Cart - GST only]">
+    <parameter name="features" value="features/InSprintFeatures/InSprint_16.3_PCOD/DWCAPCOD-149.feature"/>
+    <parameter name="scenario" value="Redemptions &amp; Rewards page with SOO + YTO + Teacher Exclusives [Redemptions &amp; Rewards Cart - GST only]"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;57.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;,&#039;maxDuration&#039;:&#039;10800&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Redemptions & Rewards page with SOO + YTO + Teacher Exclusives [Redemptions & Rewards Cart - GST only] -->
+  <test name="Parent with 3 children and order going to 2 teachers with pending orders [Redemptions &amp; Rewards - Tax Exempted School]">
+    <parameter name="features" value="features/InSprintFeatures/InSprint_16.3_PCOD/DWCAPCOD-149.feature"/>
+    <parameter name="scenario" value="Parent with 3 children and order going to 2 teachers with pending orders [Redemptions &amp; Rewards - Tax Exempted School]"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;57.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;,&#039;maxDuration&#039;:&#039;10800&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Parent with 3 children and order going to 2 teachers with pending orders [Redemptions & Rewards - Tax Exempted School] -->
+  <test name="Redemptions &amp; Rewards page with SFO + SOO + YTO + Teacher Exclusives and redemptions from SFO, YTO &amp; Teacher Exclusives [Redemptions &amp; Rewards Cart - GST only]">
+    <parameter name="features" value="features/InSprintFeatures/InSprint_16.3_PCOD/DWCAPCOD-149.feature"/>
+    <parameter name="scenario" value="Redemptions &amp; Rewards page with SFO + SOO + YTO + Teacher Exclusives and redemptions from SFO, YTO &amp; Teacher Exclusives [Redemptions &amp; Rewards Cart - GST only]"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;57.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;,&#039;maxDuration&#039;:&#039;10800&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Redemptions & Rewards page with SFO + SOO + YTO + Teacher Exclusives and redemptions from SFO, YTO & Teacher Exclusives [Redemptions & Rewards Cart - GST only] -->
+  <test name="Parent with 1 child connected to one teacher submits order with only free pick coupon [Rewards Page]">
+    <parameter name="features" value="features/InSprintFeatures/InSprint_16.3_PCOD/DWCAPCOD-149.feature"/>
+    <parameter name="scenario" value="Parent with 1 child connected to one teacher submits order with only free pick coupon [Rewards Page]"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;57.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;,&#039;maxDuration&#039;:&#039;10800&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Parent with 1 child connected to one teacher submits order with only free pick coupon [Rewards Page] -->
+  <test name="2 parents with one child place orders connected to the same teacher [Rewards Cart]">
+    <parameter name="features" value="features/InSprintFeatures/InSprint_16.3_PCOD/DWCAPCOD-149.feature"/>
+    <parameter name="scenario" value="2 parents with one child place orders connected to the same teacher [Rewards Cart]"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;57.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;,&#039;maxDuration&#039;:&#039;10800&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- 2 parents with one child place orders connected to the same teacher [Rewards Cart] -->
+  <test name="Redemptions &amp; Rewards page with SFO + SOO + YTO + Teacher Exclusives [Redemptions &amp; Rewards Cart - GST only]">
+    <parameter name="features" value="features/InSprintFeatures/InSprint_16.3_PCOD/DWCAPCOD-149.feature"/>
+    <parameter name="scenario" value="Redemptions &amp; Rewards page with SFO + SOO + YTO + Teacher Exclusives [Redemptions &amp; Rewards Cart - GST only]"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;57.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;,&#039;maxDuration&#039;:&#039;10800&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Redemptions & Rewards page with SFO + SOO + YTO + Teacher Exclusives [Redemptions & Rewards Cart - GST only] -->
+  <test name="Redemptions &amp; Rewards page with SFO + SOO [Redemptions &amp; Rewards Cart - GST only]">
+    <parameter name="features" value="features/InSprintFeatures/InSprint_16.3_PCOD/DWCAPCOD-149.feature"/>
+    <parameter name="scenario" value="Redemptions &amp; Rewards page with SFO + SOO [Redemptions &amp; Rewards Cart - GST only]"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;57.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;,&#039;maxDuration&#039;:&#039;10800&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Redemptions & Rewards page with SFO + SOO [Redemptions & Rewards Cart - GST only] -->
+  <test name="Redemptions &amp; Rewards page with SOO + YTO [Redemptions &amp; Rewards Cart - GST &amp; QST]">
+    <parameter name="features" value="features/InSprintFeatures/InSprint_16.3_PCOD/DWCAPCOD-149.feature"/>
+    <parameter name="scenario" value="Redemptions &amp; Rewards page with SOO + YTO [Redemptions &amp; Rewards Cart - GST &amp; QST]"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;57.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;,&#039;maxDuration&#039;:&#039;10800&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Redemptions & Rewards page with SOO + YTO [Redemptions & Rewards Cart - GST & QST] -->
+  <test name="Parent with 2 children and order going to 2 teachers with pending order for each child [GST only]">
+    <parameter name="features" value="features/InSprintFeatures/InSprint_16.3_PCOD/DWCAPCOD-149.feature"/>
+    <parameter name="scenario" value="Parent with 2 children and order going to 2 teachers with pending order for each child [GST only]"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;57.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;,&#039;maxDuration&#039;:&#039;10800&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Parent with 2 children and order going to 2 teachers with pending order for each child [GST only] -->
+  <test name="Redemptions &amp; Rewards page with SOO + Teacher Exclusives [Redemptions &amp; Rewards Cart - GST only]">
+    <parameter name="features" value="features/InSprintFeatures/InSprint_16.3_PCOD/DWCAPCOD-149.feature"/>
+    <parameter name="scenario" value="Redemptions &amp; Rewards page with SOO + Teacher Exclusives [Redemptions &amp; Rewards Cart - GST only]"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;57.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;,&#039;maxDuration&#039;:&#039;10800&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Redemptions & Rewards page with SOO + Teacher Exclusives [Redemptions & Rewards Cart - GST only] -->
+  <test name="Parent with 2 children and order going to 1 teacher and only one child has pending order[GST_PST]">
+    <parameter name="features" value="features/InSprintFeatures/InSprint_16.3_PCOD/DWCAPCOD-149.feature"/>
+    <parameter name="scenario" value="Parent with 2 children and order going to 1 teacher and only one child has pending order[GST_PST]"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;57.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;,&#039;maxDuration&#039;:&#039;10800&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Parent with 2 children and order going to 1 teacher and only one child has pending order[GST_PST] -->
+  <test name="Teacher edits the letter">
+    <parameter name="features" value="features/InSprintFeatures/InSprint_16.3_PCOD/DWCAPCOD-157.feature"/>
+    <parameter name="scenario" value="Teacher edits the letter"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;57.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;,&#039;maxDuration&#039;:&#039;10800&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Teacher edits the letter -->
+  <test name="Teacher clicks Restore default message after editing the letter">
+    <parameter name="features" value="features/InSprintFeatures/InSprint_16.3_PCOD/DWCAPCOD-157.feature"/>
+    <parameter name="scenario" value="Teacher clicks Restore default message after editing the letter"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;57.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;,&#039;maxDuration&#039;:&#039;10800&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Teacher clicks Restore default message after editing the letter -->
+  <test name="Teacher edits the letter and clicks on close">
+    <parameter name="features" value="features/InSprintFeatures/InSprint_16.3_PCOD/DWCAPCOD-157.feature"/>
+    <parameter name="scenario" value="Teacher edits the letter and clicks on close"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;57.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;,&#039;maxDuration&#039;:&#039;10800&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Teacher edits the letter and clicks on close -->
+  <!-- <test name="Teacher clicks on Download letter">
+    <parameter name="features" value="features/InSprintFeatures/InSprint_16.3_PCOD/DWCAPCOD-157.feature"/>
+    <parameter name="scenario" value="Teacher clicks on Download letter"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;57.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;,&#039;maxDuration&#039;:&#039;10800&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> Teacher clicks on Download letter
+  <test name="Teacher clicks on Print letter">
+    <parameter name="features" value="features/InSprintFeatures/InSprint_16.3_PCOD/DWCAPCOD-157.feature"/>
+    <parameter name="scenario" value="Teacher clicks on Print letter"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;57.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;,&#039;maxDuration&#039;:&#039;10800&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> Teacher clicks on Print letter
+  <test name="Teacher clicks on Email letter">
+    <parameter name="features" value="features/InSprintFeatures/InSprint_16.3_PCOD/DWCAPCOD-157.feature"/>
+    <parameter name="scenario" value="Teacher clicks on Email letter"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;57.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;,&#039;maxDuration&#039;:&#039;10800&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> Teacher clicks on Email letter
+  <test name="Teacher clicks on facebook icon from view Letter modal">
+    <parameter name="features" value="features/InSprintFeatures/InSprint_16.3_PCOD/DWCAPCOD-157.feature"/>
+    <parameter name="scenario" value="Teacher clicks on facebook icon from view Letter modal"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;57.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;,&#039;maxDuration&#039;:&#039;10800&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> Teacher clicks on facebook icon from view Letter modal
+  <test name="Teacher downloads the edited letter">
+    <parameter name="features" value="features/InSprintFeatures/InSprint_16.3_PCOD/DWCAPCOD-157.feature"/>
+    <parameter name="scenario" value="Teacher downloads the edited letter"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;57.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;,&#039;maxDuration&#039;:&#039;10800&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> Teacher downloads the edited letter
+  <test name="Teacher prints the edited letter">
+    <parameter name="features" value="features/InSprintFeatures/InSprint_16.3_PCOD/DWCAPCOD-157.feature"/>
+    <parameter name="scenario" value="Teacher prints the edited letter"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;57.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;,&#039;maxDuration&#039;:&#039;10800&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> Teacher prints the edited letter -->
+  <test name="Teacher clicks on &#039;View and Submit&#039; when no SOO orders in cart">
+    <parameter name="features" value="features/InSprintFeatures/InSprint_16.3_PCOD/DWCAPCOD-159.feature"/>
+    <parameter name="scenario" value="Teacher clicks on &#039;View and Submit&#039; when no SOO orders in cart"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;57.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;,&#039;maxDuration&#039;:&#039;10800&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Teacher clicks on 'View and Submit' when no SOO orders in cart -->
+  <test name="Teacher clicks on &#039;View and Submit&#039; from Teacher Desk with pending SOO orders in cart">
+    <parameter name="features" value="features/InSprintFeatures/InSprint_16.3_PCOD/DWCAPCOD-159.feature"/>
+    <parameter name="scenario" value="Teacher clicks on &#039;View and Submit&#039; from Teacher Desk with pending SOO orders in cart"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;57.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;,&#039;maxDuration&#039;:&#039;10800&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Teacher clicks on 'View and Submit' from Teacher Desk with pending SOO orders in cart -->
+  <test name="SOO order count for orders from 3 parents">
+    <parameter name="features" value="features/InSprintFeatures/InSprint_16.3_PCOD/DWCAPCOD-159.feature"/>
+    <parameter name="scenario" value="SOO order count for orders from 3 parents"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;57.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;,&#039;maxDuration&#039;:&#039;10800&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- SOO order count for orders from 3 parents -->
+  <test name="Teacher clicks on Student Online Order page link from YTO by Flyer">
+    <parameter name="features" value="features/InSprintFeatures/InSprint_16.3_PCOD/DWCAPCOD-1908.feature"/>
+    <parameter name="scenario" value="Teacher clicks on Student Online Order page link from YTO by Flyer"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;57.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;,&#039;maxDuration&#039;:&#039;10800&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Teacher clicks on Student Online Order page link from YTO by Flyer -->
+  <test name="Teacher clicks on Student Online Order page link from YTO by Item number">
+    <parameter name="features" value="features/InSprintFeatures/InSprint_16.3_PCOD/DWCAPCOD-1908.feature"/>
+    <parameter name="scenario" value="Teacher clicks on Student Online Order page link from YTO by Item number"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;57.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;,&#039;maxDuration&#039;:&#039;10800&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Teacher clicks on Student Online Order page link from YTO by Item number -->
+  <test name="Teacher clicks on Student Online Orders from SFO page">
+    <parameter name="features" value="features/InSprintFeatures/InSprint_16.3_PCOD/DWCAPCOD-1908.feature"/>
+    <parameter name="scenario" value="Teacher clicks on Student Online Orders from SFO page"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;57.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;,&#039;maxDuration&#039;:&#039;10800&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Teacher clicks on Student Online Orders from SFO page -->
+  <test name="Teacher can add teacher resource and classroom title items on YTO by Item number page">
+    <parameter name="features" value="features/InSprintFeatures/InSprint_16.3_PCOD/DWCAPCOD-1991.feature"/>
+    <parameter name="scenario" value="Teacher can add teacher resource and classroom title items on YTO by Item number page"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;57.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;,&#039;maxDuration&#039;:&#039;10800&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Teacher can add teacher resource and classroom title items on YTO by Item number page -->
+  <test name="teacher resource items cannot be found on search results on SFO freepick modal">
+    <parameter name="features" value="features/InSprintFeatures/InSprint_16.3_PCOD/DWCAPCOD-1991.feature"/>
+    <parameter name="scenario" value="teacher resource items cannot be found on search results on SFO freepick modal"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;57.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;,&#039;maxDuration&#039;:&#039;10800&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- teacher resource items cannot be found on search results on SFO freepick modal -->
+  <test name="Teacher can search for a keyword from classroom titles">
+    <parameter name="features" value="features/InSprintFeatures/InSprint_16.3_PCOD/DWCAPCOD-1991.feature"/>
+    <parameter name="scenario" value="Teacher can search for a keyword from classroom titles"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;57.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;,&#039;maxDuration&#039;:&#039;10800&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Teacher can search for a keyword from classroom titles -->
+  <test name="Teacher can search with unique item number for classroom titles">
+    <parameter name="features" value="features/InSprintFeatures/InSprint_16.3_PCOD/DWCAPCOD-1991.feature"/>
+    <parameter name="scenario" value="Teacher can search with unique item number for classroom titles"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;57.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;,&#039;maxDuration&#039;:&#039;10800&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Teacher can search with unique item number for classroom titles -->
+  <test name="Teacher can search for keyword from teacher resources items">
+    <parameter name="features" value="features/InSprintFeatures/InSprint_16.3_PCOD/DWCAPCOD-1991.feature"/>
+    <parameter name="scenario" value="Teacher can search for keyword from teacher resources items"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;57.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;,&#039;maxDuration&#039;:&#039;10800&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Teacher can search for keyword from teacher resources items -->
+  <test name="Teacher can search with unique item number for teacher resources">
+    <parameter name="features" value="features/InSprintFeatures/InSprint_16.3_PCOD/DWCAPCOD-1991.feature"/>
+    <parameter name="scenario" value="Teacher can search with unique item number for teacher resources"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;57.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;,&#039;maxDuration&#039;:&#039;10800&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Teacher can search with unique item number for teacher resources -->
+  <test name="Teacher cannot add teacher resources items from SFO">
+    <parameter name="features" value="features/InSprintFeatures/InSprint_16.3_PCOD/DWCAPCOD-1991.feature"/>
+    <parameter name="scenario" value="Teacher cannot add teacher resources items from SFO"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;57.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;,&#039;maxDuration&#039;:&#039;10800&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Teacher cannot add teacher resources items from SFO -->
+  <test name="Cart count with pending SOO only orders in teacher&#039;s cart">
+    <parameter name="features" value="features/InSprintFeatures/InSprint_16.3_PCOD/DWCAPCOD-1998.feature"/>
+    <parameter name="scenario" value="Cart count with pending SOO only orders in teacher&#039;s cart"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;57.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;,&#039;maxDuration&#039;:&#039;10800&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Cart count with pending SOO only orders in teacher's cart -->
+  <test name="Cart count with SFO + SOO + YTO + Teacher Exclusives">
+    <parameter name="features" value="features/InSprintFeatures/InSprint_16.3_PCOD/DWCAPCOD-1998.feature"/>
+    <parameter name="scenario" value="Cart count with SFO + SOO + YTO + Teacher Exclusives"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;57.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;,&#039;maxDuration&#039;:&#039;10800&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Cart count with SFO + SOO + YTO + Teacher Exclusives -->
+  <test name="Cart count with SFO + SOO items in cart">
+    <parameter name="features" value="features/InSprintFeatures/InSprint_16.3_PCOD/DWCAPCOD-1998.feature"/>
+    <parameter name="scenario" value="Cart count with SFO + SOO items in cart"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;57.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;,&#039;maxDuration&#039;:&#039;10800&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Cart count with SFO + SOO items in cart -->
+  <test name="Cart count with SOO + YTO items in cart">
+    <parameter name="features" value="features/InSprintFeatures/InSprint_16.3_PCOD/DWCAPCOD-1998.feature"/>
+    <parameter name="scenario" value="Cart count with SOO + YTO items in cart"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;57.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;,&#039;maxDuration&#039;:&#039;10800&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Cart count with SOO + YTO items in cart -->
+  <test name="Cart count with SOO + Teacher exclusives items in cart">
+    <parameter name="features" value="features/InSprintFeatures/InSprint_16.3_PCOD/DWCAPCOD-1998.feature"/>
+    <parameter name="scenario" value="Cart count with SOO + Teacher exclusives items in cart"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;57.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;,&#039;maxDuration&#039;:&#039;10800&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Cart count with SOO + Teacher exclusives items in cart -->
+  <test name="Cart count with SFO + SOO + YTO items in cart">
+    <parameter name="features" value="features/InSprintFeatures/InSprint_16.3_PCOD/DWCAPCOD-1998.feature"/>
+    <parameter name="scenario" value="Cart count with SFO + SOO + YTO items in cart"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;57.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;,&#039;maxDuration&#039;:&#039;10800&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Cart count with SFO + SOO + YTO items in cart -->
+  <test name="Cart cout with SFO + SOO + Teacher Exclusives items in cart">
+    <parameter name="features" value="features/InSprintFeatures/InSprint_16.3_PCOD/DWCAPCOD-1998.feature"/>
+    <parameter name="scenario" value="Cart cout with SFO + SOO + Teacher Exclusives items in cart"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;57.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;,&#039;maxDuration&#039;:&#039;10800&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Cart cout with SFO + SOO + Teacher Exclusives items in cart -->
+  <test name="Cart count with zero dollar SFO + Zero dollar SOO freepick items in cart">
+    <parameter name="features" value="features/InSprintFeatures/InSprint_16.3_PCOD/DWCAPCOD-1998.feature"/>
+    <parameter name="scenario" value="Cart count with zero dollar SFO + Zero dollar SOO freepick items in cart"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;57.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;,&#039;maxDuration&#039;:&#039;10800&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Cart count with zero dollar SFO + Zero dollar SOO freepick items in cart -->
+  <test name="Deleting SOO order updates cart count">
+    <parameter name="features" value="features/InSprintFeatures/InSprint_16.3_PCOD/DWCAPCOD-1998.feature"/>
+    <parameter name="scenario" value="Deleting SOO order updates cart count"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;57.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;,&#039;maxDuration&#039;:&#039;10800&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Deleting SOO order updates cart count -->
+</suite> <!-- Demandware -->

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" verbose="0" name="Demandware" parallel="tests">
+  <parameter name="remote.driver.url" value="http://sereti_qe:b9b8a9e1-e525-46af-9c7f-4a11c372b5c5@ondemand.saucelabs.com:80/wd/hub"/>
+  <parameter name="tdm.data" value="off"/>
+  <parameter name="glue" value="com.dw.automation.steps"/>
+  <parameter name="sauce" value="true"/>
+  
+  <test name="Verify Account page displays when CSR selects Continue To Verify Account in Locate Account page">
+    <parameter name="features" value="features/InSprint_11.4/DW_CA_CS_OrderEntry_StartOrderProcess.feature"/>
+    <parameter name="scenario" value="Verify Account page displays when CSR selects Continue To Verify Account in Locate Account page"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Verify Account page displays when CSR selects Continue To Verify Account in Locate Account page -->
+  <test name="Verify Account screen displays when CSR selects Continue To Order Entry in Verify Account page">
+    <parameter name="features" value="features/InSprint_11.4/DW_CA_CS_OrderEntry_StartOrderProcess.feature"/>
+    <parameter name="scenario" value="Verify Account screen displays when CSR selects Continue To Order Entry in Verify Account page"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Verify Account screen displays when CSR selects Continue To Order Entry in Verify Account page -->
+  <test name="Order Entry tab highlights when CSR selects Continue To Order Entry in Verify Account page">
+    <parameter name="features" value="features/InSprint_11.4/DW_CA_CS_OrderEntry_StartOrderProcess.feature"/>
+    <parameter name="scenario" value="Order Entry tab highlights when CSR selects Continue To Order Entry in Verify Account page"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Order Entry tab highlights when CSR selects Continue To Order Entry in Verify Account page -->
+  <test name="Order Entry Form displays to enter the details for the Teacher’s order request">
+    <parameter name="features" value="features/InSprint_11.4/DW_CA_CS_OrderEntry_StartOrderProcess.feature"/>
+    <parameter name="scenario" value="Order Entry Form displays to enter the details for the Teacher’s order request"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Order Entry Form displays to enter the details for the Teacher’s order request -->
+  <test name="CSR is presented with a button ‘Proceed to Checkout’ positioned in the footer region of the ‘Order Entry’ page">
+    <parameter name="features" value="features/InSprint_11.4/DW_CA_CS_OrderEntry_StartOrderProcess.feature"/>
+    <parameter name="scenario" value="CSR is presented with a button ‘Proceed to Checkout’ positioned in the footer region of the ‘Order Entry’ page"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- CSR is presented with a button ‘Proceed to Checkout’ positioned in the footer region of the ‘Order Entry’ page -->
+</suite> <!-- Demandware -->

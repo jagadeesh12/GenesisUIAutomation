@@ -1,0 +1,154 @@
+<testdata>
+	<testcase id="teacher_cart_YTO_orders" description="testdata for YTO orders on cart page">
+		<username>Ms. Automation</username>
+		<userid>sfotest123@scholastic.com</userid>
+		<password>passw0rd</password>
+		<itemid>2B6,3B6</itemid>
+		<YTOitemname>All About Seasons Pack</YTOitemname>
+		<itemtoberemovedid>2B6</itemtoberemovedid>
+		<removeCartFlag>true</removeCartFlag>
+		<quantity>2</quantity>
+		<edititemid>2B6</edititemid>
+		<tdm>
+			<type>teacher_with_no_details</type>
+			<numberOfProfiles>1</numberOfProfiles>
+			<isReserved>Y</isReserved>
+			<converttotype>teacher_with_no_details</converttotype>
+		</tdm>
+	</testcase>
+
+	<testcase id="teacher_cart_empty_cart_user" description="testdata for empty cart user">
+		<!-- <userid>emptycart@scholastic.com</userid> -->
+		<userid>test_auto01@scholastic.com</userid>
+		<password>passw0rd</password>
+		<removeCartFlag>true</removeCartFlag>
+		<tdm>
+			<type>teacher_with_no_details</type>
+			<numberOfProfiles>1</numberOfProfiles>
+			<isReserved>Y</isReserved>
+			<converttotype>teacher_with_no_details</converttotype>
+		</tdm>
+	</testcase>
+
+	<testcase id="teacher_cart_SFO_orders" description="testdata for SFO orders on cart page">
+		<!-- <userid>sfotest@scholastic.com</userid> -->
+		<userid>sfotest123@scholastic.com</userid>
+		<password>passw0rd</password>
+		<studentname>Harry,John</studentname>
+		<itemid>2B6,4B6</itemid>
+		<quantity>2</quantity>
+		<editstudentname>Abc</editstudentname>
+		<edititemid>2B6</edititemid>
+		<removeCartFlag>true</removeCartFlag>
+		<tdm>
+			<type>teacher_with_no_details</type>
+			<numberOfProfiles>1</numberOfProfiles>
+			<isReserved>Y</isReserved>
+			<converttotype>teacher_with_no_details</converttotype>
+		</tdm>
+	</testcase>
+
+	<testcase id="teacher_cart_SFO_orders_delete_item"
+		description="testdata for SFO orders on cart page to delete SFO item by quantity">
+		<!-- <userid>sfotest@scholastic.com</userid> -->
+		<userid>sfotest123@scholastic.com</userid>
+		<password>passw0rd</password>
+		<studentname>Harry,John</studentname>
+		<itemid>2B6,4B6</itemid>
+		<quantity>0</quantity>
+		<editstudentname>Abc</editstudentname>
+		<edititemid>2B6</edititemid>
+		<removeCartFlag>true</removeCartFlag>
+		<tdm>
+			<type>teacher_with_no_details</type>
+			<numberOfProfiles>1</numberOfProfiles>
+			<isReserved>Y</isReserved>
+			<converttotype>teacher_with_no_details</converttotype>
+		</tdm>
+	</testcase>
+
+	<testcase id="teacher_cart_SFO_orders_sfo_page" description="testdata for SFO orders on cart page">
+		<!-- <userid>sfotest@scholastic.com</userid> -->
+		<userid>sfotest123@scholastic.com</userid>
+		<password>passw0rd</password>
+		<studentname>Harry,Abc,John</studentname>
+		<itemid>2B6,1B6,4B6</itemid>
+		<quantity>0</quantity>
+		<editstudentname>John</editstudentname>
+		<edititemid>3B6</edititemid>
+		<tdm>
+			<type>teacher_with_no_details</type>
+			<numberOfProfiles>1</numberOfProfiles>
+			<isReserved>Y</isReserved>
+			<converttotype>teacher_with_no_details</converttotype>
+		</tdm>
+	</testcase>
+	<testcase id="teacher_cart_user_for_general_functionality"
+		description="testdata for of user which can be used for checking some general functionality">
+		<userid>sfotest123@scholastic.com</userid>
+		<password>passw0rd</password>
+		<studentname>Harry,John</studentname>
+		<itemid>2B6,4B6</itemid>
+		<removeCartFlag>true</removeCartFlag>
+		<tdm>
+			<type>teacher_with_no_details</type>
+			<numberOfProfiles>1</numberOfProfiles>
+			<isReserved>Y</isReserved>
+			<converttotype>teacher_with_no_details</converttotype>
+		</tdm>
+	</testcase>
+
+	<testcase id="teacher_cart_SOO_orders" description="testdata for SOO orders on cart page">
+		<userid>sootest@scholastic.com</userid>
+		<password>passw0rd</password>
+		<studentname>Harry</studentname>
+		<itemid>1B6</itemid>
+		<keytoremoveSOO>0</keytoremoveSOO>
+		<tdm>
+			<type>teacher_with_soo_order</type>
+			<numberOfProfiles>1</numberOfProfiles>
+			<isReserved>Y</isReserved>
+			<converttotype>same</converttotype>
+		</tdm>
+		<!-- need to have two soo orders for one scenario -->
+	</testcase>
+
+	<testcase id="teacher_cart_SFO_orders_coupon_functionality"
+		description="testdata for SFO orders on cart page to check coupon related functionality">
+		<!-- <userid>sfotest@scholastic.com</userid> -->
+		<userid>sfotest123@scholastic.com</userid>
+		<password>passw0rd</password>
+		<studentname>Harry</studentname>
+		<itemid>2B6</itemid>
+		<removeCartFlag>true</removeCartFlag>
+		<couponnumber>C000004</couponnumber>
+		<selectgrade>1st Grade</selectgrade>
+		<couponitemnumber>0</couponitemnumber>
+		<couponstudent>John</couponstudent>
+		<quantity>2</quantity>
+
+		<tdm>
+			<type>teacher_with_no_details</type>
+			<numberOfProfiles>1</numberOfProfiles>
+			<isReserved>Y</isReserved>
+			<converttotype>same</converttotype>
+		</tdm>
+	</testcase>
+
+	<testcase id="teacher_cart_SOO_orders_delete_order"
+		description="testdata for SOO orders on cart page to delete order">
+		<userid>t123@scholastic.com</userid>
+		<password>passw0rd</password>
+		<studentname>Harry</studentname>
+		<itemid>1B6</itemid>
+		<keytoremoveSOO>0</keytoremoveSOO>
+
+		<tdm>
+			<type>teacher_with_soo_order</type>
+			<numberOfProfiles>1</numberOfProfiles>
+			<isReserved>Y</isReserved>
+			<converttotype>same</converttotype>
+		</tdm>
+		<!-- need to have two soo orders for one scenario -->
+	</testcase>
+</testdata>

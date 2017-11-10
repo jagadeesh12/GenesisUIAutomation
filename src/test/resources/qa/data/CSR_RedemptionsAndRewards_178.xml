@@ -1,0 +1,214 @@
+<testdata>
+	<testcase id="Student_Clubs_section_displays_Redemptions_Rewards">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>4155900</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>1</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>1</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>1</ItemQty3>
+	</testcase>
+	
+	<testcase id="Student_Clubs_section_not_display_Redemptions_Rewards">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>4155942</AcNum>
+  		<FlyerCode>Z8A16</FlyerCode>
+  		<ItemNum>700</ItemNum>
+  		<ItemQty>1</ItemQty>
+  		<ItemNum2>701</ItemNum2>
+  		<ItemQty2>1</ItemQty2>
+  		<ItemNum3>702</ItemNum3>
+  		<ItemQty3>1</ItemQty3>
+	</testcase>
+	
+	<testcase id="Student_Clubs_header_section_displays_Redemptions_Rewards">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>4156221</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>1</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>1</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>1</ItemQty3>
+	</testcase>
+	
+	<testcase id="Student_Clubs_section_expands_Redemptions_Rewards">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>4159449</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>1</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>1</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>1</ItemQty3>
+	</testcase>
+	
+	<testcase id="Student_Clubs_label_Minus_Redemptions_Rewards">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>4162327</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>1</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>1</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>1</ItemQty3>
+	</testcase>
+	
+	<testcase id="Student_Clubs_label_Plus_Redemptions_Rewards">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>4173473</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>1</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>1</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>1</ItemQty3>
+	</testcase>
+	
+	<testcase id="Students_Clubs_tax_Redemptions_Rewards">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>4175411</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>1</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>1</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>1</ItemQty3>
+	</testcase>
+	
+	<testcase id="REDEEM_BONUS_COUPONS_label_Student_Clubs_Redemptions_Rewards">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>4177178</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>1</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>1</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>1</ItemQty3>
+	</testcase>
+	
+	<testcase id="Bonus_Bank_label_Student_Clubs_Redemptions_Rewards">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>4198934</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>1</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>1</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>1</ItemQty3>
+	</testcase>
+	
+	<testcase id="Bonus_Bank_textBox_label_StudentClubs_Redemptions_Rewards">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>4199718</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>1</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>1</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>1</ItemQty3>
+	</testcase>
+	
+	<testcase id="Bonus_Bank_textBox_decimal_StudentClubs_Redemptions_Rewards">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>4200945</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>1</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>1</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>1</ItemQty3>
+  		<sBonusBank>2.15</sBonusBank>
+	</testcase>
+	
+	<testcase id="Paper_Bonus_Coupons_label_StudentClubs_Redemptions_Rewards">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>4202636</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>1</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>1</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>1</ItemQty3>
+	</testcase>
+	
+	<testcase id="Paper_Bonus_Coupons_textBox_label_StudentClubs_Redemptions_Rewards">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>4209731</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>1</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>1</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>1</ItemQty3>
+	</testcase>
+	
+	<testcase id="Paper_Bonus_Coupons_textBox_float_StudentClubs_Redemptions_Rewards">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>4209765</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>1</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>1</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>1</ItemQty3>
+  		<sPaperBank>2.15</sPaperBank>
+	</testcase>
+	
+	<testcase id="APPLY_label_StudentClubs_Redemptions_Rewards">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>4232568</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>1</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>1</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>1</ItemQty3>
+	</testcase>
+	
+	<testcase id="Total_AmountOwing_StudentClubs_Redemptions_Rewards">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>4236966</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>1</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>1</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>1</ItemQty3>
+	</testcase>
+	
+	
+
+</testdata>

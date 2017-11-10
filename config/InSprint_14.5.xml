@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" guice-stage="DEVELOPMENT" verbose="0" name="Demandware" parallel="tests">
+    <parameter name="remote.driver.url" value="http://sereti_qe:b9b8a9e1-e525-46af-9c7f-4a11c372b5c5@ondemand.saucelabs.com:80/wd/hub"/>
+    <parameter name="tdm.data" value="off"/>
+    <parameter name="glue" value="com.dw.automation.steps"/>
+    <parameter name="sauce" value="true"/>
+
+    <test name="CSR enters duplicate itemNo but QTY is different using the same flyer code">
+        <parameter name="features" value="features/InSprint_14.5/DW_CA_CS_OrderEntry_OrderFormDuplicateItem_145.feature"/>
+        <parameter name="scenario" value="CSR enters duplicate itemNo but QTY is different using the same flyer code"/>
+        <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+        <parameter name="driver.name" value="Chrome"/>
+        <classes>
+            <class name="com.scholastic.torque.runner.Run"/>
+        </classes>
+    </test> <!-- CSR enters duplicate itemNo but QTY is different using the same flyer code -->
+    <test name="CSR enter duplicate itemNo and same QTY using the same flyer code">
+        <parameter name="features" value="features/InSprint_14.5/DW_CA_CS_OrderEntry_OrderFormDuplicateItem_145.feature"/>
+        <parameter name="scenario" value="CSR enter duplicate itemNo and same QTY using the same flyer code"/>
+        <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+        <parameter name="driver.name" value="Chrome"/>
+        <classes>
+            <class name="com.scholastic.torque.runner.Run"/>
+        </classes>
+    </test> <!-- CSR enter duplicate itemNo and same QTY using the same flyer code -->
+    <test name="CSR enter duplicate itemNo and same QTY using different flyer code">
+        <parameter name="features" value="features/InSprint_14.5/DW_CA_CS_OrderEntry_OrderFormDuplicateItem_145.feature"/>
+        <parameter name="scenario" value="CSR enter duplicate itemNo and same QTY using different flyer code"/>
+        <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+        <parameter name="driver.name" value="Chrome"/>
+        <classes>
+            <class name="com.scholastic.torque.runner.Run"/>
+        </classes>
+    </test> <!-- CSR enter duplicate itemNo and same QTY using different flyer code -->
+    <test name="CSR enter duplicate itemNo and QTY not same using different flyer code">
+        <parameter name="features" value="features\InSprint_14.5/DW_CA_CS_OrderEntry_OrderFormDuplicateItem_145.feature"/>
+        <parameter name="scenario" value="CSR enter duplicate itemNo and QTY not same using different flyer code"/>
+        <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+        <parameter name="driver.name" value="Chrome"/>
+        <classes>
+            <class name="com.scholastic.torque.runner.Run"/>
+        </classes>
+    </test> <!-- CSR enter duplicate itemNo and QTY not same using different flyer code -->
+    <test name="CSR enter duplicate itemNo and same QTY navigate back to Order Entry page">
+        <parameter name="features" value="features/InSprint_14.5/DW_CA_CS_OrderEntry_OrderFormDuplicateItem_145.feature"/>
+        <parameter name="scenario" value="CSR enter duplicate itemNo and same QTY navigate back to Order Entry page"/>
+        <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+        <parameter name="driver.name" value="Chrome"/>
+        <classes>
+            <class name="com.scholastic.torque.runner.Run"/>
+        </classes>
+    </test> <!-- CSR enter duplicate itemNo and same QTY navigate back to Order Entry page -->
+    <test name="CSR enter duplicate itemNo using different flyer code and same QTY navigate back to Order Entry page">
+        <parameter name="features" value="features/InSprint_14.5/DW_CA_CS_OrderEntry_OrderFormDuplicateItem_145.feature"/>
+        <parameter name="scenario" value="CSR enter duplicate itemNo using different flyer code and same QTY navigate back to Order Entry page"/>
+        <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+        <parameter name="driver.name" value="Chrome"/>
+        <classes>
+            <class name="com.scholastic.torque.runner.Run"/>
+        </classes>
+    </test> <!-- CSR enter duplicate itemNo using different flyer code and same QTY navigate back to Order Entry page -->
+</suite> <!-- Demandware -->

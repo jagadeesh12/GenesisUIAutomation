@@ -1,0 +1,426 @@
+<testdata>
+	<testcase id="TeacherOrder_DifferentStudentClub_Samemonth">
+		<userid>7527718</userid>
+		<password>passw0rd</password>
+		<sname1>Manu</sname1>
+		<sname2>Rocky</sname2>
+		<sname3>Johnson</sname3>
+		<qty1>2</qty1>
+		<qty2>1</qty2>
+		<qty3>3</qty3>
+		<cardname>v12 v23</cardname>
+		<cardnumber>4111111111111111</cardnumber>
+		<expmonth>02</expmonth>
+		<expyear>2019</expyear>
+		<securitycode>891</securitycode>
+		<firstname>v12</firstname>
+		<lastname>v23</lastname>
+		<address1>Patrick Henry Drive</address1>
+		<address2>St. Mark Place</address2>
+		<country>Canada</country>
+		<zip>10012</zip>
+		<city>New York</city>
+		<state>Alberta</state>
+		<phone>333-333-3333</phone>
+		<default>yes</default>
+		<tdm>
+			<type>teacher_with_1_visa_cc_info</type>
+    	</tdm>
+	</testcase>
+	
+	<testcase id="Bonus_point_validation">
+		<userid>t1@schl.com</userid>
+		<password>pass1234</password>
+	</testcase>
+	
+	<testcase id="TeacherOrder_DifferentStudentClub_differentmonth">
+		<userid>7527718</userid>
+		<password>passw0rd</password>
+		<sname1>Manu</sname1>
+		<sname2>Rocky</sname2>
+		<sname3>Johnson</sname3>
+		<qty1>2</qty1>
+		<qty2>1</qty2>
+		<qty3>3</qty3>
+		<cardname>v12 v23</cardname>
+		<cardnumber>4111111111111111</cardnumber>
+		<expmonth>02</expmonth>
+		<expyear>2019</expyear>
+		<securitycode>891</securitycode>
+		<firstname>v12</firstname>
+		<lastname>v23</lastname>
+		<address1>Patrick Henry Drive</address1>
+		<address2>St. Mark Place</address2>
+		<country>Canada</country>
+		<zip>10012</zip>
+		<city>New York</city>
+		<state>Alberta</state>
+		<phone>333-333-3333</phone>
+		<default>yes</default>
+		<tdm>
+			<type>teacher_with_1_visa_cc_info</type>
+    	</tdm>
+	</testcase>
+	
+	<testcase id="Bonus_point_validation">
+		<userid>t1@schl.com</userid>
+		<password>pass1234</password>
+	</testcase>
+	
+	<testcase id="TeacherOrder_DifferentTeacherClub">
+		<userid>7527718</userid>
+		<password>passw0rd</password>
+		<sname1>Manu</sname1>
+		<sname2>Rocky</sname2>
+		<sname3>Johnson</sname3>
+		<qty1>2</qty1>
+		<qty2>1</qty2>
+		<qty3>3</qty3>
+		<cardname>v12 v23</cardname>
+		<cardnumber>4111111111111111</cardnumber>
+		<expmonth>02</expmonth>
+		<expyear>2019</expyear>
+		<securitycode>891</securitycode>
+		<firstname>v12</firstname>
+		<lastname>v23</lastname>
+		<address1>Patrick Henry Drive</address1>
+		<address2>St. Mark Place</address2>
+		<country>Canada</country>
+		<zip>10012</zip>
+		<city>New York</city>
+		<state>Alberta</state>
+		<phone>333-333-3333</phone>
+		<default>yes</default>
+		<tdm>
+			<type>teacher_with_1_visa_cc_info</type>
+    	</tdm>
+	</testcase>
+	
+	<testcase id="Bonus_point_validation">
+		<userid>t1@schl.com</userid>
+		<password>pass1234</password>
+	</testcase>
+	
+	<testcase id="TeacherOrder_GST_PST_Province_BC">
+		<userid>7546966</userid>
+		<password>passw0rd</password>
+		<stateTaxGST>5</stateTaxGST>
+		<stateTaxPST>7</stateTaxPST>
+		<sname1>Manu</sname1>
+		<sname2>Rocky</sname2>
+		<sname3>Johnson</sname3>
+		<sname4>Samson</sname4>
+		<qty1>2</qty1>
+		<qty2>1</qty2>
+		<qty3>3</qty3>
+		<qty4>2</qty4>
+	</testcase>
+	
+	<testcase id="TeacherOrder_GST_PST_Province_BC_2">
+		<userid>7546966</userid>
+		<password>passw0rd</password>
+		<stateTaxGST>5</stateTaxGST>
+		<stateTaxPST>7</stateTaxPST>
+		<sname1>Manu</sname1>
+		<sname2>Rocky</sname2>
+		<sname3>Johnson</sname3>
+		<qty1>1</qty1>
+		<qty2>4</qty2>
+		<qty3>3</qty3>
+		<default>yes</default>
+	</testcase>
+	
+	<testcase id="TeacherOrder_GST_PST_Province_BC_3">
+		<userid>7546966</userid>
+		<password>passw0rd</password>
+		<stateTaxGST>5</stateTaxGST>
+		<stateTaxPST>7</stateTaxPST>
+		<sname1>Manu</sname1>
+		<sname2>Rocky</sname2>
+		<sname3>Johnson</sname3>
+		<qty1>3</qty1>
+		<qty2>4</qty2>
+		<qty3>1</qty3>
+		<default>yes</default>
+	</testcase>
+	
+	<testcase id="TeacherOrder_GST_QST_Province_QC">
+		<userid>7546924</userid>
+		<password>passw0rd</password>
+		<stateTaxGST>5</stateTaxGST>
+		<stateTaxQST>9.975</stateTaxQST>
+		<sname1>Manu</sname1>
+		<sname2>Rocky</sname2>
+		<sname3>Johnson</sname3>
+		<qty1>3</qty1>
+		<qty2>4</qty2>
+		<qty3>1</qty3>
+		<default>yes</default>
+	</testcase>
+	
+	<testcase id="TeacherOrder_GST_QST_Province_QC_2">
+		<userid>7546924</userid>
+		<password>passw0rd</password>
+		<stateTaxGST>5</stateTaxGST>
+		<stateTaxQST>9.98</stateTaxQST>
+		<sname1>Manu</sname1>
+		<sname2>Rocky</sname2>
+		<sname3>Johnson</sname3>
+		<qty1>6</qty1>
+		<qty2>2</qty2>
+		<qty3>8</qty3>
+		<default>yes</default>
+	</testcase>
+	
+	<testcase id="TeacherOrder_GST_QST_Province_QC_3">
+		<userid>7546924</userid>
+		<password>passw0rd</password>
+		<stateTaxGST>5</stateTaxGST>
+		<stateTaxQST>9.98</stateTaxQST>
+		<sname1>Manu</sname1>
+		<sname2>Rocky</sname2>
+		<sname3>Johnson</sname3>
+		<qty1>11</qty1>
+		<qty2>7</qty2>
+		<qty3>4</qty3>
+		<default>yes</default>
+	</testcase>
+	
+	<testcase id="TeacherOrder_HST_Province_NL">
+		<userid>7546916</userid>
+		<password>passw0rd</password>
+		<stateTaxHST>13</stateTaxHST>
+		<sname1>Manu</sname1>
+		<sname2>Rocky</sname2>
+		<sname3>Johnson</sname3>
+		<qty1>11</qty1>
+		<qty2>7</qty2>
+		<qty3>4</qty3>
+		<default>yes</default>
+	</testcase>
+	
+	<testcase id="TeacherOrder_HST_Province_NB">
+		<userid>7546883</userid>
+		<password>passw0rd</password>
+		<stateTaxHST>13</stateTaxHST>
+		<sname1>Manu</sname1>
+		<sname2>Rocky</sname2>
+		<sname3>Johnson</sname3>
+		<qty1>5</qty1>
+		<qty2>2</qty2>
+		<qty3>9</qty3>
+		<default>yes</default>
+	</testcase>
+	
+	<testcase id="TeacherOrder_HST_Province_NS">
+		<userid>7546908</userid>
+		<password>passw0rd</password>
+		<stateTaxHST>15</stateTaxHST>
+		<sname1>Manu</sname1>
+		<sname2>Rocky</sname2>
+		<sname3>Johnson</sname3>
+		<qty1>1</qty1>
+		<qty2>9</qty2>
+		<qty3>7</qty3>
+		<default>yes</default>
+	</testcase>
+	
+	<testcase id="TeacherOrder_HST_Province_ON">
+		<userid>7546875</userid>
+		<password>passw0rd</password>
+		<stateTaxHST>13</stateTaxHST>
+		<sname1>Manu</sname1>
+		<sname2>Rocky</sname2>
+		<sname3>Johnson</sname3>
+		<qty1>3</qty1>
+		<qty2>3</qty2>
+		<qty3>4</qty3>
+		<default>yes</default>
+	</testcase>
+	
+	<testcase id="TeacherOrder_HST_Province_PE">
+		<userid>7546891</userid>
+		<password>passw0rd</password>
+		<stateTaxHST>14</stateTaxHST>
+		<sname1>Manu</sname1>
+		<sname2>Rocky</sname2>
+		<sname3>Johnson</sname3>
+		<qty1>8</qty1>
+		<qty2>6</qty2>
+		<qty3>2</qty3>
+		<default>yes</default>
+	</testcase>
+	
+	<testcase id="TeacherOrder_GST_Province_AB">
+		<userid>7546958</userid>
+		<password>passw0rd</password>
+		<stateTaxGST>5</stateTaxGST>
+		<sname1>Manu</sname1>
+		<sname2>Rocky</sname2>
+		<sname3>Johnson</sname3>
+		<qty1>6</qty1>
+		<qty2>7</qty2>
+		<qty3>4</qty3>
+		<default>yes</default>
+	</testcase>
+	
+	<testcase id="TeacherOrder_GST_Province_NT">
+		<userid>7546982</userid>
+		<password>passw0rd</password>
+		<stateTaxGST>5</stateTaxGST>
+		<sname1>Manu</sname1>
+		<sname2>Rocky</sname2>
+		<sname3>Johnson</sname3>
+		<qty1>8</qty1>
+		<qty2>7</qty2>
+		<qty3>3</qty3>
+		<default>yes</default>
+	</testcase>
+	
+	<testcase id="TeacherOrder_GST_Province_NU">
+		<userid>7546990</userid>
+		<password>passw0rd</password>
+		<stateTaxGST>5</stateTaxGST>
+		<sname1>Manu</sname1>
+		<sname2>Rocky</sname2>
+		<sname3>Johnson</sname3>
+		<qty1>9</qty1>
+		<qty2>2</qty2>
+		<qty3>1</qty3>
+		<default>yes</default>
+	</testcase>
+	
+	<testcase id="TeacherOrder_GST_Province_YT">
+		<userid>7546974</userid>
+		<password>passw0rd</password>
+		<stateTaxGST>5</stateTaxGST>
+		<sname1>Manu</sname1>
+		<sname2>Rocky</sname2>
+		<sname3>Johnson</sname3>
+		<qty1>5</qty1>
+		<qty2>5</qty2>
+		<qty3>4</qty3>
+		<default>yes</default>
+	</testcase>
+	
+	<testcase id="TeacherOrder_Province_">
+		<userid>7527718</userid>
+		<password>passw0rd</password>
+		<sname1>Manu</sname1>
+		<sname2>Rocky</sname2>
+		<sname3>Johnson</sname3>
+		<qty1>5</qty1>
+		<qty2>5</qty2>
+		<qty3>4</qty3>
+		<default>yes</default>
+	</testcase>
+	
+	<testcase id="TeacherOrder_GST_Province_">
+		<userid>7527718</userid>
+		<password>passw0rd</password>
+		<sname1>Manu</sname1>
+		<sname2>Rocky</sname2>
+		<sname3>Johnson</sname3>
+		<qty1>5</qty1>
+		<qty2>5</qty2>
+		<qty3>4</qty3>
+		<default>yes</default>
+	</testcase>
+	
+	<testcase id="TeacherOrder_EditQty_ReviewCart">
+		<userid>7527718</userid>
+		<password>passw0rd</password>
+		<stateTaxGST>5</stateTaxGST>
+		<sname1>Manu</sname1>
+		<sname2>Rocky</sname2>
+		<sname3>Johnson</sname3>
+		<qty1>2</qty1>
+		<qty2>1</qty2>
+		<qty3>4</qty3>
+		<EditQty1>4</EditQty1>
+		<EditQty2>2</EditQty2>
+		<EditQty3>1</EditQty3>
+		<default>yes</default>
+	</testcase>
+	
+	<testcase id="TeacherOrder_EditStudentName_ReviewCart">
+		<userid>7527718</userid>
+		<password>passw0rd</password>
+		<stateTaxGST>5</stateTaxGST>
+		<sname1>Manu</sname1>
+		<sname2>Rocky</sname2>
+		<sname3>Johnson</sname3>
+		<qty1>2</qty1>
+		<qty2>1</qty2>
+		<qty3>4</qty3>
+		<EditName1>Thomson</EditName1>
+		<EditName2>Gibbs</EditName2>
+		<EditName3>Sam</EditName3>
+		<default>yes</default>
+	</testcase>
+	
+	<testcase id="Teacher_Login">
+		<userid>7527718</userid>
+		<password>passw0rd</password>
+		<stateTaxGST>5</stateTaxGST>
+		<sname1>Manu</sname1>
+		<sname2>Rocky</sname2>
+		<sname3>Johnson</sname3>
+		<qty1>2</qty1>
+		<qty2>1</qty2>
+		<qty3>4</qty3>
+		<default>yes</default>
+	</testcase>
+	
+	<testcase id="Teacher_Login_3">
+		<userid>7527718</userid>
+		<password>passw0rd</password>
+		<stateTaxGST>5</stateTaxGST>
+		<sname1>Manu</sname1>
+		<qty1>3</qty1>
+	</testcase>
+	
+	<testcase id="TeacherOrder_GST_QST_Province_QC_123">
+		<userid>2892637</userid>
+		<password>passw0rd</password>
+		<stateTaxGST>5</stateTaxGST>
+		<stateTaxQST>9.975</stateTaxQST>
+		<sname1>Manu</sname1>
+		<qty1>75</qty1>
+	</testcase>
+	
+	<testcase id="ReviewCart:TeacherOrder_EditQty_0_ReviewCart">
+		<userid>7527718</userid>
+		<password>passw0rd</password>
+		<sname1>Manu</sname1>
+		<sname2>Rocky</sname2>
+		<sname3>Johnson</sname3>
+		<qty1>2</qty1>
+		<qty2>1</qty2>
+		<qty3>4</qty3>
+		<EditQty1>0</EditQty1>
+	</testcase>
+	
+	<testcase id="ReviewCart:Teacher_Login">
+		<userid>7527718</userid>
+		<password>passw0rd</password>
+	</testcase>
+	
+	<testcase id="ReviewCart:Teacher_Login_2">
+		<userid>7527718</userid>
+		<password>passw0rd</password>
+	</testcase>
+	
+	<testcase id="ReviewCart:Teacher_Login_3">
+		<userid>7527718</userid>
+		<password>passw0rd</password>
+	</testcase>
+	
+	<testcase id="ReviewCart:Teacher_Login_4">
+		<userid>7527700</userid>
+		<password>passw0rd</password>
+		<sname1>Manu</sname1>
+	</testcase>
+	
+	
+</testdata>

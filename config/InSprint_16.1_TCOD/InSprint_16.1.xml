@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="6" guice-stage="DEVELOPMENT" verbose="0" name="TCOD_InSprint16.1" parallel="tests">
+    <parameter name="remote.driver.url" value="http://sereti_qe:b9b8a9e1-e525-46af-9c7f-4a11c372b5c5@ondemand.saucelabs.com:80/wd/hub"/>
+    <parameter name="tdm.data" value="off"/>
+    <parameter name="glue" value="com.dw.automation.steps"/>
+    <parameter name="sauce" value="true"/>
+
+    <test name="Teacher with educator as true, can apply Unique Free Pick coupon on Redemptions &amp; Rewards page">
+        <parameter name="features" value="features/InSprint_16.1_TCOD/CA_InSprint_16.1_TCOD_7666.feature"/>
+        <parameter name="scenario" value="Teacher with educator as true, can apply Unique Free Pick coupon on Redemptions &amp; Rewards page"/>
+        <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+        <parameter name="driver.name" value="Chrome"/>
+        <classes>
+            <class name="com.scholastic.torque.runner.Run"/>
+        </classes>
+    </test> <!-- Teacher with educator as true, can apply Unique Free Pick coupon on Redemptions & Rewards page -->
+    <test name="Teacher with educator as true, can apply Free Shipping coupon on Redemptions &amp; Rewards page">
+        <parameter name="features" value="features/InSprint_16.1_TCOD/CA_InSprint_16.1_TCOD_7666.feature"/>
+        <parameter name="scenario" value="Teacher with educator as true, can apply Free Shipping coupon on Redemptions &amp; Rewards page"/>
+        <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+        <parameter name="driver.name" value="Chrome"/>
+        <classes>
+            <class name="com.scholastic.torque.runner.Run"/>
+        </classes>
+    </test> <!-- Teacher with educator as true, can apply Free Shipping coupon on Redemptions & Rewards page -->
+    <test name="Teacher with educator as true, can apply Free Item coupon on Redemptions &amp; Rewards page">
+        <parameter name="features" value="features/InSprint_16.1_TCOD/CA_InSprint_16.1_TCOD_7666.feature"/>
+        <parameter name="scenario" value="Teacher with educator as true, can apply Free Item coupon on Redemptions &amp; Rewards page"/>
+        <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+        <parameter name="driver.name" value="Chrome"/>
+        <classes>
+            <class name="com.scholastic.torque.runner.Run"/>
+        </classes>
+    </test> <!-- Teacher with educator as true, can apply Free Item coupon on Redemptions & Rewards page -->
+    <test name="Teacher without educator, can apply Unique Free Pick coupon on Redemptions &amp; Rewards page">
+        <parameter name="features" value="features/InSprint_16.1_TCOD/CA_InSprint_16.1_TCOD_7666.feature"/>
+        <parameter name="scenario" value="Teacher without educator, can apply Unique Free Pick coupon on Redemptions &amp; Rewards page"/>
+        <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+        <parameter name="driver.name" value="Chrome"/>
+        <classes>
+            <class name="com.scholastic.torque.runner.Run"/>
+        </classes>
+    </test> <!-- Teacher without educator, can apply Unique Free Pick coupon on Redemptions & Rewards page -->
+    <test name="Teacher without educator, can apply Free Shipping coupon on Redemptions &amp; Rewards page">
+        <parameter name="features" value="features/InSprint_16.1_TCOD/CA_InSprint_16.1_TCOD_7666.feature"/>
+        <parameter name="scenario" value="Teacher without educator, can apply Free Shipping coupon on Redemptions &amp; Rewards page"/>
+        <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+        <parameter name="driver.name" value="Chrome"/>
+        <classes>
+            <class name="com.scholastic.torque.runner.Run"/>
+        </classes>
+    </test> <!-- Teacher without educator, can apply Free Shipping coupon on Redemptions & Rewards page -->
+    <test name="Teacher without educator, can apply Free Item coupon on Redemptions &amp; Rewards page">
+        <parameter name="features" value="features/InSprint_16.1_TCOD/CA_InSprint_16.1_TCOD_7666.feature"/>
+        <parameter name="scenario" value="Teacher without educator, can apply Free Item coupon on Redemptions &amp; Rewards page"/>
+        <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+        <parameter name="driver.name" value="Chrome"/>
+        <classes>
+            <class name="com.scholastic.torque.runner.Run"/>
+        </classes>
+    </test> <!-- Teacher without educator, can apply Free Item coupon on Redemptions & Rewards page -->
+    <test name="Teacher see Create An Account option on homepage">
+        <parameter name="features" value="features/InSprint_16.1_TCOD/CA_InSprint_16.1_TCOD_8250.feature"/>
+        <parameter name="scenario" value="Teacher see Create An Account option on homepage"/>
+        <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+        <parameter name="driver.name" value="Chrome"/>
+        <classes>
+            <class name="com.scholastic.torque.runner.Run"/>
+        </classes>
+    </test> <!-- Teacher see Create An Account option on homepage -->
+    <test name="Teacher view FR version of Self Registration modal">
+        <parameter name="features" value="features/InSprint_16.1_TCOD/CA_InSprint_16.1_TCOD_8250.feature"/>
+        <parameter name="scenario" value="Teacher view FR version of Self Registration modal"/>
+        <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+        <parameter name="driver.name" value="Chrome"/>
+        <classes>
+            <class name="com.scholastic.torque.runner.Run"/>
+        </classes>
+    </test> <!-- Teacher view FR version of Self Registration modal -->
+    <test name="Teacher Self Registration Modal is Displayed">
+        <parameter name="features" value="features/InSprint_16.1_TCOD/CA_InSprint_16.1_TCOD_8250.feature"/>
+        <parameter name="scenario" value="Teacher Self Registration Modal is Displayed"/>
+        <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+        <parameter name="driver.name" value="Chrome"/>
+        <classes>
+            <class name="com.scholastic.torque.runner.Run"/>
+        </classes>
+    </test> <!-- Teacher Self Registration Modal is Displayed -->
+    <test name="Teacher Self Registration Modal toggle to FR">
+        <parameter name="features" value="features/InSprint_16.1_TCOD/CA_InSprint_16.1_TCOD_8250.feature"/>
+        <parameter name="scenario" value="Teacher Self Registration Modal toggle to FR"/>
+        <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+        <parameter name="driver.name" value="Chrome"/>
+        <classes>
+            <class name="com.scholastic.torque.runner.Run"/>
+        </classes>
+    </test> <!-- Teacher Self Registration Modal toggle to FR -->
+    <test name="Teacher Self Registration Modal is Displayed in FR">
+        <parameter name="features" value="features/InSprint_16.1_TCOD/CA_InSprint_16.1_TCOD_8250.feature"/>
+        <parameter name="scenario" value="Teacher Self Registration Modal is Displayed in FR"/>
+        <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+        <parameter name="driver.name" value="Chrome"/>
+        <classes>
+            <class name="com.scholastic.torque.runner.Run"/>
+        </classes>
+    </test> <!-- Teacher Self Registration Modal is Displayed in FR -->
+    <test name="Teacher can Activate Account">
+        <parameter name="features" value="features/InSprint_16.1_TCOD/CA_InSprint_16.1_TCOD_8250.feature"/>
+        <parameter name="scenario" value="Teacher can Activate Account"/>
+        <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+        <parameter name="driver.name" value="Chrome"/>
+        <classes>
+            <class name="com.scholastic.torque.runner.Run"/>
+        </classes>
+    </test> <!-- Teacher can Activate Account -->
+</suite> <!-- Demandware -->

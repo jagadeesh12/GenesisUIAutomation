@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="0" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Demandware" duration-ms="0" started-at="2017-08-23T22:22:15Z" finished-at="2017-08-23T22:22:15Z">
+    <groups>
+      <group name="DW">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.scholastic.torque.runner.Run@6ebc05a6]" name="feature" class="com.scholastic.torque.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- DW -->
+    </groups>
+  </suite> <!-- Demandware -->
+</testng-results>

@@ -1,0 +1,363 @@
+<testdata>
+	<testcase id="DollarsToSpend:Teacher_gets_DTS_with_minimum_amount">
+		<userid>7527700</userid>
+		<password>passw0rd</password>
+		<sname1>Manu</sname1>
+		<sname2>Rocky</sname2>
+		<sname3>Johnson</sname3>
+		<qty1>2</qty1>
+		<qty2>1</qty2>
+		<qty3>4</qty3>
+		<grade>Grades 2 &amp; 3 Lucky</grade>
+	</testcase>
+	
+	<testcase id="DollarsToSpend:Teacher_DTS_with_minimum_amount">
+		<userid>7527700</userid>
+		<password>passw0rd</password>
+		<sname1>Manu</sname1>
+		<sname2>Rocky</sname2>
+		<sname3>Johnson</sname3>
+		<qty1>2</qty1>
+		<qty2>1</qty2>
+		<qty3>4</qty3>
+		<grade>Grades 2 &amp; 3 Lucky</grade>
+		<itemValue>15</itemValue>
+	</testcase>
+	
+	<testcase id="DollarsToSpend:Teacher_DTS_with_minimum_amount_MultiItems_Checkout">
+		<userid>7527700</userid>
+		<password>passw0rd</password>
+		<couponnumber>DW5DTS</couponnumber>
+		<itemprice>9.99</itemprice>
+		<itemprice_limit>14.99</itemprice_limit>
+		<sname1>Manu</sname1>
+		<sname2>Rocky</sname2>
+		<sname3>Johnson</sname3>
+		<qty1>2</qty1>
+		<qty2>1</qty2>
+		<qty3>4</qty3>
+		<grade>Grades 2 &amp; 3 Lucky</grade>
+		<itemValue>15</itemValue>
+		<numberofstudents>1</numberofstudents>
+		<selectgrade>yto-early-childhood</selectgrade>
+		<couponprice>1.01</couponprice>
+		<couponprice_limit>9.99</couponprice_limit>
+		<couponitemnumber>0</couponitemnumber>
+		<module>teacher</module>
+		<coupontype>dollartospend</coupontype>
+		<couponselctionmethod>Grade Level</couponselctionmethod>
+		
+	</testcase>
+	
+	<testcase id="DollarsToSpend:TeacherOrder_TopOff_GST_PST_Province_BC">
+		<userid>2906727</userid>
+		<password>passw0rd</password>
+		<sname1>Manu</sname1>
+		<sname2>Rocky</sname2>
+		<sname3>Johnson</sname3>
+		<qty1>2</qty1>
+		<qty2>1</qty2>
+		<qty3>4</qty3>
+		<grade>JK-SK &amp; Grade 1 SeeSaw</grade>
+		<itemValue>15</itemValue>
+		<stateTaxGST>5</stateTaxGST>
+		<stateTaxPST>7</stateTaxPST>
+	</testcase>
+	
+	<testcase id="DollarsToSpend:TeacherOrder_TopOff_GST_QST_Province_QC">
+		<userid>2906727</userid>
+		<password>passw0rd</password>
+		<sname1>Manu</sname1>
+		<sname2>Rocky</sname2>
+		<sname3>Johnson</sname3>
+		<qty1>2</qty1>
+		<qty2>1</qty2>
+		<qty3>4</qty3>
+		<grade>JK-SK &amp; Grade 1 SeeSaw</grade>
+		<itemValue>15</itemValue>
+		<stateTaxGST>5</stateTaxGST>
+		<stateTaxQST>9.975</stateTaxQST>
+	</testcase>
+		
+		<testcase id="DollarsToSpend:TeacherOrder_TopOff_HST_Province_NL">
+		<userid>2906727</userid>
+		<password>passw0rd</password>
+		<sname1>Manu</sname1>
+		<sname2>Rocky</sname2>
+		<sname3>Johnson</sname3>
+		<qty1>2</qty1>
+		<qty2>1</qty2>
+		<qty3>4</qty3>
+		<grade>JK-SK &amp; Grade 1 SeeSaw</grade>
+		<itemValue>15</itemValue>
+		<stateTaxGST>5</stateTaxGST>
+	</testcase>
+	
+	<testcase id="DollarsToSpend:TeacherOrder_TopOff_HST_Province_NB">
+		<userid>2906727</userid>
+		<password>passw0rd</password>
+		<sname1>Manu</sname1>
+		<sname2>Rocky</sname2>
+		<sname3>Johnson</sname3>
+		<qty1>2</qty1>
+		<qty2>1</qty2>
+		<qty3>4</qty3>
+		<grade>JK-SK &amp; Grade 1 SeeSaw</grade>
+		<itemValue>15</itemValue>
+		<stateTaxGST>5</stateTaxGST>
+	</testcase>
+	
+	<testcase id="DollarsToSpend:TeacherOrder_TopOff_HST_Province_NS">
+		<userid>2906727</userid>
+		<password>passw0rd</password>
+		<sname1>Manu</sname1>
+		<sname2>Rocky</sname2>
+		<sname3>Johnson</sname3>
+		<qty1>2</qty1>
+		<qty2>1</qty2>
+		<qty3>4</qty3>
+		<grade>JK-SK &amp; Grade 1 SeeSaw</grade>
+		<itemValue>15</itemValue>
+		<stateTaxGST>5</stateTaxGST>
+	</testcase>
+	
+	<testcase id="DollarsToSpend:TeacherOrder_TopOff_HST_Province_ON">
+		<userid>2906727</userid>
+		<password>passw0rd</password>
+		<sname1>Manu</sname1>
+		<sname2>Rocky</sname2>
+		<sname3>Johnson</sname3>
+		<qty1>2</qty1>
+		<qty2>1</qty2>
+		<qty3>4</qty3>
+		<grade>JK-SK &amp; Grade 1 SeeSaw</grade>
+		<itemValue>15</itemValue>
+		<stateTaxGST>5</stateTaxGST>
+	</testcase>
+	
+	<testcase id="DollarsToSpend:TeacherOrder_TopOff_HST_Province_PE">
+		<userid>2906727</userid>
+		<password>passw0rd</password>
+		<sname1>Manu</sname1>
+		<sname2>Rocky</sname2>
+		<sname3>Johnson</sname3>
+		<qty1>2</qty1>
+		<qty2>1</qty2>
+		<qty3>4</qty3>
+		<grade>JK-SK &amp; Grade 1 SeeSaw</grade>
+		<itemValue>15</itemValue>
+		<stateTaxGST>5</stateTaxGST>
+	</testcase>
+	
+	<testcase id="DollarsToSpend:TeacherOrder_TopOff_GST_Province_AB">
+		<userid>2906727</userid>
+		<password>passw0rd</password>
+		<sname1>Manu</sname1>
+		<sname2>Rocky</sname2>
+		<sname3>Johnson</sname3>
+		<qty1>2</qty1>
+		<qty2>1</qty2>
+		<qty3>4</qty3>
+		<grade>JK-SK &amp; Grade 1 SeeSaw</grade>
+		<itemValue>15</itemValue>
+		<stateTaxGST>5</stateTaxGST>
+	</testcase>
+	
+	<testcase id="DollarsToSpend:TeacherOrder_TopOff_GST_Province_NT">
+		<userid>2906727</userid>
+		<password>passw0rd</password>
+		<sname1>Manu</sname1>
+		<sname2>Rocky</sname2>
+		<sname3>Johnson</sname3>
+		<qty1>2</qty1>
+		<qty2>1</qty2>
+		<qty3>4</qty3>
+		<grade>JK-SK &amp; Grade 1 SeeSaw</grade>
+		<itemValue>15</itemValue>
+		<stateTaxGST>5</stateTaxGST>
+	</testcase>
+	
+	<testcase id="DollarsToSpend:TeacherOrder_TopOff_GST_Province_NU">
+		<userid>2906727</userid>
+		<password>passw0rd</password>
+		<sname1>Manu</sname1>
+		<sname2>Rocky</sname2>
+		<sname3>Johnson</sname3>
+		<qty1>2</qty1>
+		<qty2>1</qty2>
+		<qty3>4</qty3>
+		<grade>JK-SK &amp; Grade 1 SeeSaw</grade>
+		<itemValue>15</itemValue>
+		<stateTaxGST>5</stateTaxGST>
+	</testcase>
+	
+	<testcase id="DollarsToSpend:TeacherOrder_TopOff_GST_Province_YT">
+		<userid>2906727</userid>
+		<password>passw0rd</password>
+		<sname1>Manu</sname1>
+		<sname2>Rocky</sname2>
+		<sname3>Johnson</sname3>
+		<qty1>2</qty1>
+		<qty2>1</qty2>
+		<qty3>4</qty3>
+		<grade>JK-SK &amp; Grade 1 SeeSaw</grade>
+		<itemValue>15</itemValue>
+		<stateTaxGST>5</stateTaxGST>
+	</testcase>
+	
+	<testcase id="DollarsToSpend:TeacherOrder_TopOff_GST_Province_BC">
+		<userid>2906727</userid>
+		<password>passw0rd</password>
+		<sname1>Manu</sname1>
+		<sname2>Rocky</sname2>
+		<sname3>Johnson</sname3>
+		<qty1>2</qty1>
+		<qty2>1</qty2>
+		<qty3>4</qty3>
+		<grade>JK-SK &amp; Grade 1 SeeSaw</grade>
+		<itemValue>10</itemValue>
+		<stateTaxGST>5</stateTaxGST>
+	</testcase>
+	
+	<testcase id="DollarsToSpend:TeacherOrder_TopOff_GST_Province_QC">
+		<userid>2906727</userid>
+		<password>passw0rd</password>
+		<sname1>Manu</sname1>
+		<sname2>Rocky</sname2>
+		<sname3>Johnson</sname3>
+		<qty1>2</qty1>
+		<qty2>1</qty2>
+		<qty3>4</qty3>
+		<grade>JK-SK &amp; Grade 1 SeeSaw</grade>
+		<itemValue>10</itemValue>
+		<stateTaxGST>5</stateTaxGST>
+	</testcase>
+	
+	<testcase id="DollarsToSpend:TeacherOrder_TopOff_GST_Province_NL">
+		<userid>2906727</userid>
+		<password>passw0rd</password>
+		<sname1>Manu</sname1>
+		<sname2>Rocky</sname2>
+		<sname3>Johnson</sname3>
+		<qty1>2</qty1>
+		<qty2>1</qty2>
+		<qty3>4</qty3>
+		<grade>JK-SK &amp; Grade 1 SeeSaw</grade>
+		<itemValue>10</itemValue>
+		<stateTaxGST>5</stateTaxGST>
+	</testcase>
+	
+	<testcase id="DollarsToSpend:TeacherOrder_TopOff_GST_Province_AB_2">
+		<userid>2906727</userid>
+		<password>passw0rd</password>
+		<sname1>Manu</sname1>
+		<sname2>Rocky</sname2>
+		<sname3>Johnson</sname3>
+		<qty1>2</qty1>
+		<qty2>1</qty2>
+		<qty3>4</qty3>
+		<grade>JK-SK &amp; Grade 1 SeeSaw</grade>
+		<itemValue>10</itemValue>
+		<stateTaxGST>5</stateTaxGST>
+	</testcase>
+	
+	<testcase id="DollarsToSpend:TeacherOrder_TopOff_Garden Hill High School Garden Hill MB">
+		<userid>2906727</userid>
+		<password>passw0rd</password>
+		<sname1>Manu</sname1>
+		<sname2>Rocky</sname2>
+		<sname3>Johnson</sname3>
+		<qty1>2</qty1>
+		<qty2>1</qty2>
+		<qty3>4</qty3>
+		<grade>JK-SK &amp; Grade 1 SeeSaw</grade>
+		<itemValue>10</itemValue>
+	</testcase>
+	
+	<testcase id="DollarsToSpend:TeacherOrder_TopOff_Garden Hill High School Garden Hill MB_2">
+		<userid>2906727</userid>
+		<password>passw0rd</password>
+		<sname1>Manu</sname1>
+		<sname2>Rocky</sname2>
+		<sname3>Johnson</sname3>
+		<qty1>2</qty1>
+		<qty2>1</qty2>
+		<qty3>4</qty3>
+		<grade>JK-SK &amp; Grade 1 SeeSaw</grade>
+		<itemValue>15</itemValue>
+	</testcase>
+	
+	<testcase id="DollarsToSpend:TeacherOrder_TopOff_Item_TaxExempted">
+		<userid>2906727</userid>
+		<password>passw0rd</password>
+		<sname1>Manu</sname1>
+		<sname2>Rocky</sname2>
+		<sname3>Johnson</sname3>
+		<qty1>2</qty1>
+		<qty2>1</qty2>
+		<qty3>4</qty3>
+		<grade>JK-SK &amp; Grade 1 SeeSaw</grade>
+		<itemValue>15</itemValue>
+	</testcase>
+	
+	<testcase id="DollarsToSpend:TeacherOrder_TopOff_Item_TaxExempted_2">
+		<userid>2906727</userid>
+		<password>passw0rd</password>
+		<sname1>Manu</sname1>
+		<sname2>Rocky</sname2>
+		<sname3>Johnson</sname3>
+		<qty1>2</qty1>
+		<qty2>1</qty2>
+		<qty3>4</qty3>
+		<grade>JK-SK &amp; Grade 1 SeeSaw</grade>
+		<itemValue>10</itemValue>
+		<stateTaxGST>5</stateTaxGST>
+	</testcase>
+	
+	<testcase id="DollarsToSpend:Teacher_DTS_with_minimum_amount_2">
+		<userid>2906727</userid>
+		<password>passw0rd</password>
+		<sname1>Manu</sname1>
+		<sname2>Rocky</sname2>
+		<sname3>Johnson</sname3>
+		<qty1>2</qty1>
+		<qty2>1</qty2>
+		<qty3>4</qty3>
+		<grade>JK-SK &amp; Grade 1 SeeSaw</grade>
+		<itemValue>15</itemValue>
+		<numberofstudents>1</numberofstudents>
+	</testcase>
+	
+	<testcase id="DollarsToSpend:Teacher_DTS_with_minimum_amount_3">
+		<userid>2906727</userid>
+		<password>passw0rd</password>
+		<sname1>Manu</sname1>
+		<sname2>Rocky</sname2>
+		<sname3>Johnson</sname3>
+		<qty1>2</qty1>
+		<qty2>1</qty2>
+		<qty3>4</qty3>
+		<qty4>10</qty4>
+		<qty5>1</qty5>
+		<qty6>4</qty6>
+		<grade>JK-SK &amp; Grade 1 SeeSaw</grade>
+		<itemValue>15</itemValue>
+		<numberofstudents>1</numberofstudents>
+	</testcase>
+	
+	<testcase id="DollarsToSpend:Teacher_DTS_with_minimum_amount_4">
+		<userid>2906727</userid>
+		<password>passw0rd</password>
+		<sname1>Manu</sname1>
+		<sname2>Rocky</sname2>
+		<sname3>Johnson</sname3>
+		<qty1>2</qty1>
+		<qty2>1</qty2>
+		<qty3>4</qty3>
+		<grade>JK-SK &amp; Grade 1 SeeSaw</grade>
+		<itemValue>10</itemValue>
+		<numberofstudents>1</numberofstudents>
+	</testcase>
+	
+	
+</testdata>

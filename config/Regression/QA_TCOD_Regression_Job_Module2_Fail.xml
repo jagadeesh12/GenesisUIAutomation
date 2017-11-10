@@ -1,0 +1,487 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="25" guice-stage="DEVELOPMENT" verbose="0"  name="Demandware" parallel="tests">
+    <parameter name="remote.driver.url" value="http://sereti_qe:b9b8a9e1-e525-46af-9c7f-4a11c372b5c5@ondemand.saucelabs.com:80/wd/hub" />
+    <parameter name="tdm.data" value="off" />
+    <parameter name="glue" value="com.dw.automation.steps" />
+    <parameter name="sauce" value="true" />
+
+    <test name="Bonus Flat dollars with qualifying amount on Student Club orders and checkout for tier3" >
+    <parameter name="features" value="features/Modules/CARegressionModuleJob/Module2/BonusFlat.feature"/>
+       <parameter name="scenario" value="Bonus Flat dollars with qualifying amount on Student Club orders and checkout for tier3"/>
+        <parameter name="driver.capabilities" value="{'version': '48.0','platform':'Windows 10','name':'DWCA'}"/>
+        <parameter name="driver.name" value="Chrome"/>
+        <classes>
+            <class name="com.scholastic.torque.runner.Run"/>
+        </classes>
+    </test> <!--
+     Bonus Flat dollars with qualifying amount on Student Club orders and checkout for tier3
+    -->
+    <test name="Bonus Flat dollars with qualifying amount on Student Club orders and checkout for tier1" >
+        <parameter name="features" value="features/Modules/CARegressionModuleJob/Module2/BonusFlat.feature"/>
+        <parameter name="scenario" value="Bonus Flat dollars with qualifying amount on Student Club orders and checkout for tier1"/>
+        <parameter name="driver.capabilities" value="{'version': '48.0','platform':'Windows 10','name':'DWCA'}"/>
+        <parameter name="driver.name" value="Chrome"/>
+        <classes>
+            <class name="com.scholastic.torque.runner.Run"/>
+
+
+
+
+        </classes>
+    </test>
+    <!--
+     Bonus Flat dollars with qualifying amount on Student Club orders and checkout for tier1
+    -->
+    <test name="Bonus Flat Dollars removed from Bonus Bank as teacher removes items making cart non-qualifying" >
+        <parameter name="features" value="features/Modules/CARegressionModuleJob/Module2/BonusFlat.feature"/>
+        <parameter name="scenario" value="Bonus Flat Dollars removed from Bonus Bank as teacher removes items making cart non-qualifying"/>
+        <parameter name="driver.capabilities" value="{'version': '48.0','platform':'Windows 10','name':'DWCA'}"/>
+        <parameter name="driver.name" value="Chrome"/>
+        <classes>
+            <class name="com.scholastic.torque.runner.Run"/>
+
+
+
+        </classes>
+    </test>
+    <!--
+     Bonus Flat Dollars removed from Bonus Bank as teacher removes items making cart non-qualifying
+    -->
+
+    <test name="Bonus Flat dollars with qualifying amount on Student Club orders and checkout for tier2" >
+        <parameter name="features" value="features/Modules/CARegressionModuleJob/Module2/BonusFlat.feature"/>
+        <parameter name="scenario" value="Bonus Flat dollars with qualifying amount on Student Club orders and checkout for tier2"/>
+        <parameter name="driver.capabilities" value="{'version': '48.0','platform':'Windows 10','name':'DWCA'}"/>
+        <parameter name="driver.name" value="Chrome"/>
+        <classes>
+            <class name="com.scholastic.torque.runner.Run"/>
+
+
+        </classes>
+    </test>
+    <!--
+     Bonus Flat dollars with qualifying amount on Student Club orders and checkout for tier2
+    -->
+    <test name="Free shipping coupon in cart,add items for free promo" >
+        <parameter name="features" value="features/Modules/CARegressionModuleJob/Module2/Auto_FreeShipping.feature"/>
+        <parameter name="scenario" value="Free shipping coupon in cart,add items for free promo"/>
+        <parameter name="driver.capabilities" value="{'version': '48.0','platform':'Windows 10','name':'DWCA'}"/>
+        <parameter name="driver.name" value="Chrome"/>
+        <classes>
+            <class name="com.scholastic.torque.runner.Run"/>
+
+
+        </classes>
+    </test>
+    <!--
+     Free shipping coupon in cart,add items for free promo
+    -->
+    <test name="Teacher still receives Free Shipping if redemptions from Teacher Paper coupon makes the cart non-qualifying" >
+        <parameter name="features" value="features/Modules/CARegressionModuleJob/Module2/Auto_FreeShipping.feature"/>
+        <parameter name="scenario" value="Teacher still receives Free Shipping if redemptions from Teacher Paper coupon makes the cart non-qualifying"/>
+        <parameter name="driver.capabilities" value="{'version': '48.0','platform':'Windows 10','name':'DWCA'}"/>
+        <parameter name="driver.name" value="Chrome"/>
+        <classes>
+            <class name="com.scholastic.torque.runner.Run"/>
+
+
+        </classes>
+    </test>
+    <!--
+     Teacher still receives Free Shipping if redemptions from Teacher Paper coupon makes the cart non-qualifying
+    -->
+    <test name="Teacher still receives Free Shipping if redemptions from Teacher Bonus coupon makes the cart non-qualifying" >
+        <parameter name="features" value="features/Modules/CARegressionModuleJob/Module2/Auto_FreeShipping.feature"/>
+        <parameter name="scenario" value="Teacher still receives Free Shipping if redemptions from Teacher Bonus coupon makes the cart non-qualifying"/>
+        <parameter name="driver.capabilities" value="{'version': '48.0','platform':'Windows 10','name':'DWCA'}"/>
+        <parameter name="driver.name" value="Chrome"/>
+        <classes>
+            <class name="com.scholastic.torque.runner.Run"/>
+
+
+        </classes>
+    </test>
+    <!--
+     Teacher still receives Free Shipping if redemptions from Teacher Bonus coupon makes the cart non-qualifying
+    -->
+    <test name="Bonus Flat Dollars not added to Bonus Bank when teachers cart has Teachers club order only" >
+        <parameter name="features" value="features/Modules/CARegressionModuleJob/Module2/BonusFlat.feature"/>
+        <parameter name="scenario" value="Bonus Flat Dollars not added to Bonus Bank when teachers cart has Teachers club order only"/>
+        <parameter name="driver.capabilities" value="{'version': '48.0','platform':'Windows 10','name':'DWCA'}"/>
+        <parameter name="driver.name" value="Chrome"/>
+        <classes>
+            <class name="com.scholastic.torque.runner.Run"/>
+
+
+        </classes>
+    </test>
+    <!--
+     Bonus Flat Dollars not added to Bonus Bank when teachers cart has Teachers club order only
+    -->
+    <test name="Teacher is notified with the next tier of promotions when teacher qualifies for Bonus Flat promotion" >
+        <parameter name="features" value="features/Modules/CARegressionModuleJob/Module2/BonusFlat.feature"/>
+        <parameter name="scenario" value="Teacher is notified with the next tier of promotions when teacher qualifies for Bonus Flat promotion"/>
+        <parameter name="driver.capabilities" value="{'version': '48.0','platform':'Windows 10','name':'DWCA'}"/>
+        <parameter name="driver.name" value="Chrome"/>
+        <classes>
+            <class name="com.scholastic.torque.runner.Run"/>
+
+
+        </classes>
+    </test>
+    <!--
+     Teacher is notified with the next tier of promotions when teacher qualifies for Bonus Flat promotion
+    -->
+    <test name="Teacher deletes items from cart resulting in paid shipping" >
+        <parameter name="features" value="features/Modules/CARegressionModuleJob/Module2/Auto_FreeShipping.feature"/>
+        <parameter name="scenario" value="Teacher deletes items from cart resulting in paid shipping"/>
+        <parameter name="driver.capabilities" value="{'version': '48.0','platform':'Windows 10','name':'DWCA'}"/>
+        <parameter name="driver.name" value="Chrome"/>
+        <classes>
+            <class name="com.scholastic.torque.runner.Run"/>
+
+
+        </classes>
+    </test>
+    <!--
+     Teacher deletes items from cart resulting in paid shipping
+    -->
+    <test name="Teacher adding more items to cart making cart qualify for next tiered Bonus Percentage" >
+        <parameter name="features" value="features/Modules/CARegressionModuleJob/Module2/BonusPercentage.feature"/>
+        <parameter name="scenario" value="Teacher adding more items to cart making cart qualify for next tiered Bonus Percentage"/>
+        <parameter name="driver.capabilities" value="{'version': '48.0','platform':'Windows 10','name':'DWCA'}"/>
+        <parameter name="driver.name" value="Chrome"/>
+        <classes>
+            <class name="com.scholastic.torque.runner.Run"/>
+
+
+        </classes>
+    </test>
+    <!--
+     Teacher adding more items to cart making cart qualify for next tiered Bonus Percentage
+    -->
+    <test name="Teacher can still apply Free Shipping coupon if redemptions from Teacher Bonus coupon makes the cart non-qualifying" >
+        <parameter name="features" value="features/Modules/CARegressionModuleJob/Module2/Manual_Shipping.feature"/>
+        <parameter name="scenario" value="Teacher can still apply Free Shipping coupon if redemptions from Teacher Bonus coupon makes the cart non-qualifying"/>
+        <parameter name="driver.capabilities" value="{'version': '48.0','platform':'Windows 10','name':'DWCA'}"/>
+        <parameter name="driver.name" value="Chrome"/>
+        <classes>
+            <class name="com.scholastic.torque.runner.Run"/>
+
+
+        </classes>
+    </test>
+    <!--
+     Teacher can still apply Free Shipping coupon if redemptions from Teacher Bonus coupon makes the cart non-qualifying
+    -->
+    <test name="next tier of promotions when teacher qualifies for Bonus percentage" >
+        <parameter name="features" value="features/Modules/CARegressionModuleJob/Module2/BonusPercentage.feature"/>
+        <parameter name="scenario" value="next tier of promotions when teacher qualifies for Bonus percentage"/>
+        <parameter name="driver.capabilities" value="{'version': '48.0','platform':'Windows 10','name':'DWCA'}"/>
+        <parameter name="driver.name" value="Chrome"/>
+        <classes>
+            <class name="com.scholastic.torque.runner.Run"/>
+
+
+        </classes>
+    </test>
+    <!--
+     next tier of promotions when teacher qualifies for Bonus percentage
+    -->
+    <test name="Teacher can apply coupon on a cart with qualifying minimum amount on Teacher Club orders to receive free shipping" >
+        <parameter name="features" value="features/Modules/CARegressionModuleJob/Module2/Manual_Shipping.feature"/>
+        <parameter name="scenario" value="Teacher can apply coupon on a cart with qualifying minimum amount on Teacher Club orders to receive free shipping"/>
+        <parameter name="driver.capabilities" value="{'version': '48.0','platform':'Windows 10','name':'DWCA'}"/>
+        <parameter name="driver.name" value="Chrome"/>
+        <classes>
+            <class name="com.scholastic.torque.runner.Run"/>
+
+
+        </classes>
+    </test>
+    <!--
+     Teacher can apply coupon on a cart with qualifying minimum amount on Teacher Club orders to receive free shipping
+    -->
+    <test name="Teacher cannot apply Free Shipping coupon on a Free shipping cart" >
+        <parameter name="features" value="features/Modules/CARegressionModuleJob/Module2/Manual_Shipping.feature"/>
+        <parameter name="scenario" value="Teacher cannot apply Free Shipping coupon on a Free shipping cart"/>
+        <parameter name="driver.capabilities" value="{'version': '48.0','platform':'Windows 10','name':'DWCA'}"/>
+        <parameter name="driver.name" value="Chrome"/>
+        <classes>
+            <class name="com.scholastic.torque.runner.Run"/>
+
+
+        </classes>
+    </test>
+    <!--
+     Teacher cannot apply Free Shipping coupon on a Free shipping cart
+    -->
+    <test name="Teacher still receive Free Shipping if redemptions from Teacher Paper coupon makes the cart non-qualifying" >
+        <parameter name="features" value="features/Modules/CARegressionModuleJob/Module2/Manual_Shipping.feature"/>
+        <parameter name="scenario" value="Teacher still receive Free Shipping if redemptions from Teacher Paper coupon makes the cart non-qualifying"/>
+        <parameter name="driver.capabilities" value="{'version': '48.0','platform':'Windows 10','name':'DWCA'}"/>
+        <parameter name="driver.name" value="Chrome"/>
+        <classes>
+            <class name="com.scholastic.torque.runner.Run"/>
+
+
+        </classes>
+    </test>
+    <!--
+     Teacher still receive Free Shipping if redemptions from Teacher Paper coupon makes the cart non-qualifying
+    -->
+    <test name="Teacher still receive Free Shipping if redemptions from Teacher Bonus coupon makes the cart non-qualifying" >
+        <parameter name="features" value="features/Modules/CARegressionModuleJob/Module2/Manual_Shipping.feature"/>
+        <parameter name="scenario" value="Teacher still receive Free Shipping if redemptions from Teacher Bonus coupon makes the cart non-qualifying"/>
+        <parameter name="driver.capabilities" value="{'version': '48.0','platform':'Windows 10','name':'DWCA'}"/>
+        <parameter name="driver.name" value="Chrome"/>
+        <classes>
+            <class name="com.scholastic.torque.runner.Run"/>
+
+
+        </classes>
+    </test>
+    <!--
+     Teacher still receive Free Shipping if redemptions from Teacher Bonus coupon makes the cart non-qualifying
+    -->
+    <test name="Teacher can still apply Free Shipping coupon if redemptions from Teacher Paper coupon makes the cart non-qualifying" >
+        <parameter name="features" value="features/Modules/CARegressionModuleJob/Module2/Manual_Shipping.feature"/>
+        <parameter name="scenario" value="Teacher can still apply Free Shipping coupon if redemptions from Teacher Paper coupon makes the cart non-qualifying"/>
+        <parameter name="driver.capabilities" value="{'version': '48.0','platform':'Windows 10','name':'DWCA'}"/>
+        <parameter name="driver.name" value="Chrome"/>
+        <classes>
+            <class name="com.scholastic.torque.runner.Run"/>
+
+
+        </classes>
+    </test>
+    <!--
+     Teacher can still apply Free Shipping coupon if redemptions from Teacher Paper coupon makes the cart non-qualifying
+    -->
+    <test name="Teacher can apply Free Shipping coupon if redemptions from Teacher Bonus and paper coupon makes the cart non-qualifying" >
+        <parameter name="features" value="features/Modules/CARegressionModuleJob/Module2/Manual_Shipping.feature"/>
+        <parameter name="scenario" value="Teacher can apply Free Shipping coupon if redemptions from Teacher Bonus and paper coupon makes the cart non-qualifying"/>
+        <parameter name="driver.capabilities" value="{'version': '48.0','platform':'Windows 10','name':'DWCA'}"/>
+        <parameter name="driver.name" value="Chrome"/>
+        <classes>
+            <class name="com.scholastic.torque.runner.Run"/>
+
+
+        </classes>
+    </test>
+    <!--
+     Teacher can apply Free Shipping coupon if redemptions from Teacher Bonus and paper coupon makes the cart non-qualifying
+    -->
+    <test name="Teacher removing items from cart leads to previous tiered percentage" >
+        <parameter name="features" value="features/Modules/CARegressionModuleJob/Module2/BonusPercentage.feature"/>
+        <parameter name="scenario" value="Teacher removing items from cart leads to previous tiered percentage"/>
+        <parameter name="driver.capabilities" value="{'version': '48.0','platform':'Windows 10','name':'DWCA'}"/>
+        <parameter name="driver.name" value="Chrome"/>
+        <classes>
+            <class name="com.scholastic.torque.runner.Run"/>
+
+
+        </classes>
+    </test>
+    <!--
+     Teacher removing items from cart leads to previous tiered percentage
+    -->
+    <test name="Correct TE subtotal,Qty,taxes,Total and Order Total displays in Payment page with applicable taxes GST&amp;  QST" >
+        <parameter name="features" value="features/Modules/CARegressionModuleJob/Module2/Payments.feature"/>
+        <parameter name="scenario" value="Correct TE subtotal,Qty,taxes,Total and Order Total displays in Payment page with applicable taxes GST&amp;  QST"/>
+        <parameter name="driver.capabilities" value="{'version': '48.0','platform':'Windows 10','name':'DWCA'}"/>
+        <parameter name="driver.name" value="Chrome"/>
+        <classes>
+            <class name="com.scholastic.torque.runner.Run"/>
+
+
+        </classes>
+    </test>
+    <!--
+     Correct TE subtotal,Qty,taxes,Total and Order Total displays in Payment page with applicable taxes GST&amp;  QST
+    -->
+    <test name="Correct TE subtotal,Qty,taxes,Total and Order Total displays in Payment page with applicable taxes GST&amp;  PST" >
+        <parameter name="features" value="features/Modules/CARegressionModuleJob/Module2/Payments.feature"/>
+        <parameter name="scenario" value="Correct TE subtotal,Qty,taxes,Total and Order Total displays in Payment page with applicable taxes GST&amp;  PST"/>
+        <parameter name="driver.capabilities" value="{'version': '48.0','platform':'Windows 10','name':'DWCA'}"/>
+        <parameter name="driver.name" value="Chrome"/>
+        <classes>
+            <class name="com.scholastic.torque.runner.Run"/>
+
+
+        </classes>
+    </test>
+    <!--
+     Correct TE subtotal,Qty,taxes,Total and Order Total displays in Payment page with applicable taxes GST&amp;  PST
+    -->
+    <test name="No taxes are charged and correct TE subtotal,Qty,Total and Order Total displays in Payment page with applicable taxes GST&amp;  PST" >
+        <parameter name="features" value="features/Modules/CARegressionModuleJob/Module2/Payments.feature"/>
+        <parameter name="scenario" value="No taxes are charged and correct TE subtotal,Qty,Total and Order Total displays in Payment page with applicable taxes GST&amp;  PST"/>
+        <parameter name="driver.capabilities" value="{'version': '48.0','platform':'Windows 10','name':'DWCA'}"/>
+        <parameter name="driver.name" value="Chrome"/>
+        <classes>
+            <class name="com.scholastic.torque.runner.Run"/>
+
+
+        </classes>
+    </test>
+    <!--
+     No taxes are charged and correct TE subtotal,Qty,Total and Order Total displays in Payment page with applicable taxes GST&amp;  PST
+    -->
+    <test name="No taxes are charged and correct TE subtotal,Qty,Total and Order Total displays in Payment page with applicable taxes GST&amp;  QST" >
+        <parameter name="features" value="features/Modules/CARegressionModuleJob/Module2/Payments.feature"/>
+        <parameter name="scenario" value="No taxes are charged and correct TE subtotal,Qty,Total and Order Total displays in Payment page with applicable taxes GST&amp;  QST"/>
+        <parameter name="driver.capabilities" value="{'version': '48.0','platform':'Windows 10','name':'DWCA'}"/>
+        <parameter name="driver.name" value="Chrome"/>
+        <classes>
+            <class name="com.scholastic.torque.runner.Run"/>
+
+
+        </classes>
+    </test>
+    <!--
+     No taxes are charged and correct TE subtotal,Qty,Total and Order Total displays in Payment page with applicable taxes GST&amp;  QST
+    -->
+    <test name="Expiration year on credit card form should show 15 years on Billing and Payments on MyAccount" >
+        <parameter name="features" value="features/Modules/CARegressionModuleJob/Module2/Payments.feature"/>
+        <parameter name="scenario" value="Expiration year on credit card form should show 15 years on Billing and Payments on MyAccount"/>
+        <parameter name="driver.capabilities" value="{'version': '48.0','platform':'Windows 10','name':'DWCA'}"/>
+        <parameter name="driver.name" value="Chrome"/>
+        <classes>
+            <class name="com.scholastic.torque.runner.Run"/>
+
+
+        </classes>
+    </test>
+    <!--
+     Expiration year on credit card form should show 15 years on Billing and Payments on MyAccount
+    -->
+    <test name="Correct TE subtotal,Qty,taxes,Total and Order Total displays in Payment page with applicable taxes HST" >
+        <parameter name="features" value="features/Modules/CARegressionModuleJob/Module2/Payments.feature"/>
+        <parameter name="scenario" value="Correct TE subtotal,Qty,taxes,Total and Order Total displays in Payment page with applicable taxes HST"/>
+        <parameter name="driver.capabilities" value="{'version': '48.0','platform':'Windows 10','name':'DWCA'}"/>
+        <parameter name="driver.name" value="Chrome"/>
+        <classes>
+            <class name="com.scholastic.torque.runner.Run"/>
+
+
+        </classes>
+    </test>
+    <!--
+     Correct TE subtotal,Qty,taxes,Total and Order Total displays in Payment page with applicable taxes HST
+    -->
+    <test name="No taxes are charged and correct TE subtotal,Qty,Total and Order Total displays in Payment page with applicable taxes HST" >
+        <parameter name="features" value="features/Modules/CARegressionModuleJob/Module2/Payments.feature"/>
+        <parameter name="scenario" value="No taxes are charged and correct TE subtotal,Qty,Total and Order Total displays in Payment page with applicable taxes HST"/>
+        <parameter name="driver.capabilities" value="{'version': '48.0','platform':'Windows 10','name':'DWCA'}"/>
+        <parameter name="driver.name" value="Chrome"/>
+        <classes>
+            <class name="com.scholastic.torque.runner.Run"/>
+
+
+        </classes>
+    </test>
+    <!--
+     No taxes are charged and correct TE subtotal,Qty,Total and Order Total displays in Payment page with applicable taxes HST
+    -->
+    <test name="No taxes are charged and correct subtotal, Qty and Total displays when multiple SFO items are added for tax exempted schools HST" >
+        <parameter name="features" value="features/Modules/CARegressionModuleJob/Module2/ReviewCart.feature"/>
+        <parameter name="scenario" value="No taxes are charged and correct subtotal, Qty and Total displays when multiple SFO items are added for tax exempted schools HST"/>
+        <parameter name="driver.capabilities" value="{'version': '48.0','platform':'Windows 10','name':'DWCA'}"/>
+        <parameter name="driver.name" value="Chrome"/>
+        <classes>
+            <class name="com.scholastic.torque.runner.Run"/>
+
+
+        </classes>
+    </test>
+    <!--
+     No taxes are charged and correct subtotal, Qty and Total displays when multiple SFO items are added for tax exempted schools HST
+    -->
+    <test name="No taxes are charged and correct YTO subtotal,Qty,Total and Order Total displays in Payment page with applicable taxes HST" >
+        <parameter name="features" value="features/Modules/CARegressionModuleJob/Module2/Payments.feature"/>
+        <parameter name="scenario" value="No taxes are charged and correct YTO subtotal,Qty,Total and Order Total displays in Payment page with applicable taxes HST"/>
+        <parameter name="driver.capabilities" value="{'version': '48.0','platform':'Windows 10','name':'DWCA'}"/>
+        <parameter name="driver.name" value="Chrome"/>
+        <classes>
+            <class name="com.scholastic.torque.runner.Run"/>
+
+
+        </classes>
+    </test>
+    <!--
+     No taxes are charged and correct YTO subtotal,Qty,Total and Order Total displays in Payment page with applicable taxes HST
+    -->
+    <test name="Correct TE subtotal,Qty,taxes,Total and Order Total displays in Payment page with applicable taxes GST" >
+        <parameter name="features" value="features/Modules/CARegressionModuleJob/Module2/Payments.feature"/>
+        <parameter name="scenario" value="Correct TE subtotal,Qty,taxes,Total and Order Total displays in Payment page with applicable taxes GST"/>
+        <parameter name="driver.capabilities" value="{'version': '48.0','platform':'Windows 10','name':'DWCA'}"/>
+        <parameter name="driver.name" value="Chrome"/>
+        <classes>
+            <class name="com.scholastic.torque.runner.Run"/>
+
+
+        </classes>
+    </test>
+    <!--
+     Correct TE subtotal,Qty,taxes,Total and Order Total displays in Payment page with applicable taxes GST
+    -->
+    <test name="Correct YTO subtotal,Qty,taxes,Total and Order Total displays in Payment page with applicable taxes GST" >
+        <parameter name="features" value="features/Modules/CARegressionModuleJob/Module2/Payments.feature"/>
+        <parameter name="scenario" value="Correct YTO subtotal,Qty,taxes,Total and Order Total displays in Payment page with applicable taxes GST"/>
+        <parameter name="driver.capabilities" value="{'version': '48.0','platform':'Windows 10','name':'DWCA'}"/>
+        <parameter name="driver.name" value="Chrome"/>
+        <classes>
+            <class name="com.scholastic.torque.runner.Run"/>
+
+
+        </classes>
+    </test>
+    <!--
+     Correct YTO subtotal,Qty,taxes,Total and Order Total displays in Payment page with applicable taxes GST
+    -->
+    <test name="No taxes are charged and correct TE subtotal,Qty,Total and Order Total displays in Payment page with applicable taxes GST" >
+        <parameter name="features" value="features/Modules/CARegressionModuleJob/Module2/Payments.feature"/>
+        <parameter name="scenario" value="No taxes are charged and correct TE subtotal,Qty,Total and Order Total displays in Payment page with applicable taxes GST"/>
+        <parameter name="driver.capabilities" value="{'version': '48.0','platform':'Windows 10','name':'DWCA'}"/>
+        <parameter name="driver.name" value="Chrome"/>
+        <classes>
+            <class name="com.scholastic.torque.runner.Run"/>
+
+
+        </classes>
+    </test>
+    <!--
+     No taxes are charged and correct TE subtotal,Qty,Total and Order Total displays in Payment page with applicable taxes GST
+    -->
+    
+    <test name="Correct subtotal, Qty, taxes and Total displays when multiple SFO items are added with applicable taxes GST" >
+        <parameter name="features" value="features/Modules/CARegressionModuleJob/Module2/ReviewCart.feature"/>
+        <parameter name="scenario" value="Correct subtotal, Qty, taxes and Total displays when multiple SFO items are added with applicable taxes GST"/>
+        <parameter name="driver.capabilities" value="{'version': '48.0','platform':'Windows 10','name':'DWCA'}"/>
+        <parameter name="driver.name" value="Chrome"/>
+        <classes>
+            <class name="com.scholastic.torque.runner.Run"/>
+
+
+        </classes>
+    </test>
+    <!--
+     Correct subtotal, Qty, taxes and Total displays when multiple SFO items are added with applicable taxes GST
+    -->
+    <test name="No taxes are charged and correct subtotal, Qty and Total displays when multiple SFO items are added for tax exempted schools GST" >
+        <parameter name="features" value="features/Modules/CARegressionModuleJob/Module2/ReviewCart.feature"/>
+        <parameter name="scenario" value="No taxes are charged and correct subtotal, Qty and Total displays when multiple SFO items are added for tax exempted schools GST"/>
+        <parameter name="driver.capabilities" value="{'version': '48.0','platform':'Windows 10','name':'DWCA'}"/>
+        <parameter name="driver.name" value="Chrome"/>
+        <classes>
+            <class name="com.scholastic.torque.runner.Run"/>
+
+
+        </classes>
+    </test>
+    <!--
+     No taxes are charged and correct subtotal, Qty and Total displays when multiple SFO items are added for tax exempted schools GST
+    -->
+</suite> <!-- Demandware -->

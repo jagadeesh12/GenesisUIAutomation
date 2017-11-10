@@ -1,0 +1,138 @@
+<testdata>
+
+	<testcase id="InSprint_15.1:RESET_button_displays_OrderEntry_page">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>7695135</AcNum>
+    </testcase>
+    
+    <testcase id="InSprint_15.1:RESET_button_enabled_OrderEntry_page">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>7695135</AcNum>
+  		<FlyerCode>E4A16</FlyerCode>
+    </testcase>
+    
+    <testcase id="InSprint_15.1:RESET_button_confirmation_msg_displays">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>7695135</AcNum>
+  		<FlyerCode>E4A16</FlyerCode>
+    </testcase>
+    
+    <testcase id="InSprint_15.1:CSR_enters_FlyerCode_to_reset_data">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>7695135</AcNum>
+  		<FlyerCode>E4A16</FlyerCode>
+    </testcase>
+    
+    <testcase id="InSprint_15.1:CSR_enters_ItemNum_to_reset_data">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>7695135</AcNum>
+  		<ItemNum>1</ItemNum>
+    </testcase>
+    
+    <testcase id="InSprint_15.1:CSR_enters_ItemQty_to_reset_data">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>7695135</AcNum>
+  		<ItemQty>2</ItemQty>
+    </testcase>
+    
+    <testcase id="InSprint_15.1:CSR_enters_FlyerCode_ItemNum_QTY_to_reset_data">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>7695135</AcNum>
+  		<FlyerCode>E4A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>2</ItemQty>
+    </testcase>
+    
+    <testcase id="InSprint_15.1:data_reset_when_clicks_on_RESET_in_OrderEntry_page">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>7695135</AcNum>
+  		<FlyerCode>E4A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>2</ItemQty>
+    </testcase>
+    
+    <testcase id="InSprint_15.1:CSR_selects_RESET_and_NO">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>7695135</AcNum>
+  		<FlyerCode>E4A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>2</ItemQty>
+    </testcase>
+    
+    <testcase id="InSprint_15.1:ReviewCart_page_displays_after_enter_the data">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>7695135</AcNum>
+  		<FlyerCode>E4A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>2</ItemQty>
+    </testcase>
+    
+    <!-- ######################################### SCSCOD-7063 ################################################################## -->
+    <testcase id="InSprint15.1:TCOD:ReviewCart_RedeemCouponsHyperlink_RewardsPage">
+		<userid>258360</userid>
+  		<password>passw0rd</password>
+    </testcase>
+    
+    <testcase id="InSprint15.1:TCOD:YTO_SaveButton">
+		<userid>258427</userid>
+  		<password>passw0rd</password>
+    </testcase>
+    
+    <testcase id="InSprint15.1:TCOD:YTO_RedeemCouponsHyperlink_RewardsPage">
+		<userid>258435</userid>
+  		<password>passw0rd</password>
+    </testcase>
+    
+    <testcase id="InSprint15.1:TCOD:YTO_ByFlyerOption_Default">
+		<userid>258477</userid>
+  		<password>passw0rd</password>
+    </testcase>
+    
+    <testcase id="InSprint15.1:CSR:OrderEntry_RedeemCouponsHyperlink_RewardsPage">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>258592</AcNum>
+    </testcase>
+    <!-- ######################################### SCSCOD-7063 ################################################################## -->
+
+    <testcase id="InSprint15.1:CSR_enters_alphanumeric_characters">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>7695135</AcNum>
+  		<ItemNum>3S6</ItemNum>
+    </testcase>
+    
+    <testcase id="InSprint15.1:CSR_enters_6_characters">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>7695135</AcNum>
+  		<ItemNum>3S63S6</ItemNum>
+    </testcase>
+    
+    <testcase id="InSprint15.1:CSR_enters_7_characters">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>7695135</AcNum>
+  		<ItemNum>3S63S63</ItemNum>
+    </testcase>
+    
+    <testcase id="InSprint15.1:CSR_enters_Flyer_code_Unique_item">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>7695135</AcNum>
+  		<FlyerCode>S6A17</FlyerCode>
+  		<ItemNum>3S6</ItemNum>
+  		<ItemQty>1</ItemQty>
+    </testcase>
+
+</testdata>

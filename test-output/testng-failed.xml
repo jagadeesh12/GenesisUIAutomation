@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" name="Failed suite [Demandware_CA]" parallel="tests">
+  <parameter name="testdata" value="qa/data"/>
+  <parameter name="features" value="features/InSprintFeatures/InSprint_16.2_PCOD/DWCAPCOD-201.feature"/>
+  <parameter name="glue" value="com.dw.automation.steps"/>
+  <parameter name="tdm.data" value="off"/>
+  <parameter name="sauce" value="false"/>
+  <parameter name="url" value="https://dev35-rco-scholastic.demandware.net/s/rco-ca/en/home"/>
+  <parameter name="driver.name" value="Chrome"/>
+  <test name="FF_ReviewCart(failed)" parallel="tests">
+    <parameter name="features" value="features/InSprintFeatures/InSprint_16.2_PCOD/DWCAPCOD-201.feature"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run">
+        <methods>
+          <include name="tearDownClass"/>
+          <include name="feature" invocation-numbers="0"/>
+          <include name="setUpClass"/>
+        </methods>
+      </class> <!-- com.scholastic.torque.runner.Run -->
+    </classes>
+  </test> <!-- FF_ReviewCart(failed) -->
+</suite> <!-- Failed suite [Demandware_CA] -->

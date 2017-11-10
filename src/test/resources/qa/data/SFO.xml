@@ -1,0 +1,590 @@
+<testdata>
+	<testcase id="student_flyer_orders_QuantityUpdate">
+		<userid>test_auto01@scholastic.com</userid>
+		<password>passw0rd</password>
+		<studentname>John,Kate</studentname>
+		<itemid>7B6,2B6</itemid>
+		<quantity>10</quantity>
+		<removeCartFlag>true</removeCartFlag>
+		<tdm>
+			<type>teacher_with_no_details</type>
+			<numberOfProfiles>1</numberOfProfiles>
+			<isReserved>Y</isReserved>
+			<converttotype>same</converttotype>
+		</tdm>
+	</testcase>
+
+	<testcase id="student_flyer_orders_MaxQuantityUpdate">
+		<userid>test_auto01@scholastic.com</userid>
+		<password>passw0rd</password>
+		<studentname>John,Kate</studentname>
+		<itemid>7B6,2B6</itemid>
+		<quantity>999</quantity>
+		<removeCartFlag>true</removeCartFlag>
+		<tdm>
+			<type>teacher_with_no_details</type>
+			<numberOfProfiles>1</numberOfProfiles>
+			<isReserved>Y</isReserved>
+			<converttotype>same</converttotype>
+		</tdm>
+	</testcase>
+
+	<testcase id="student_flyer_orders_RemoveItem">
+		<username>Ms. Automation</username>
+		<userid>sfocommon@example.com</userid>
+		<password>passw0rd</password>
+		<studentname>Harry,Rose</studentname>
+		<itemid>4B6,7B6</itemid>
+		<removeitembyquantity>false</removeitembyquantity>
+		<removeCartFlag>true</removeCartFlag>
+		<tdm>
+			<type>teacher_with_no_details</type>
+			<numberOfProfiles>1</numberOfProfiles>
+			<isReserved>Y</isReserved>
+			<converttotype>same</converttotype>
+		</tdm>
+	</testcase>
+
+
+
+
+	<testcase id="student_flyer_orders_UpdateQuantity_To_Zero">
+		<username>Ms. Automation</username>
+		<userid>teacher_auto01@scholastic.com</userid>
+		<password>passw0rd</password>
+		<studentname>Harry,Rose</studentname>
+		<itemid>4B6,7B6</itemid>
+		<removeitembyquantity>true</removeitembyquantity>
+		<removeCartFlag>true</removeCartFlag>
+		<tdm>
+			<type>teacher_with_no_details</type>
+			<numberOfProfiles>1</numberOfProfiles>
+			<isReserved>Y</isReserved>
+			<converttotype>same</converttotype>
+		</tdm>
+	</testcase>
+
+	<testcase id="student_flyer_orders_QuantityUpdate_checkout">
+		<username>Ms. Common</username>
+		<userid>test_auto01@scholastic.com</userid>
+		<password>passw0rd</password>
+		<studentname>John,Kate</studentname>
+		<itemid>7B6,2B6</itemid>
+		<quantity>10</quantity>
+		<removeCartFlag>true</removeCartFlag>
+		<tdm>
+			<type>teacher_with_no_details</type>
+			<numberOfProfiles>1</numberOfProfiles>
+			<isReserved>Y</isReserved>
+			<converttotype>same</converttotype>
+		</tdm>
+	</testcase>
+
+	<testcase id="student_flyer_orders_by_item_no">
+		<username>Ms. Automation</username>
+		<userid>test_auto01@scholastic.com</userid>
+		<password>passw0rd</password>
+		<studentname>Harry</studentname>
+		<itemid>4B6</itemid>
+		<flagid>true</flagid>
+		<itemtitle>Big Fairy Tale Fun Pack</itemtitle>
+		<removeCartFlag>true</removeCartFlag>
+		<tdm>
+			<type>teacher_with_no_details</type>
+			<numberOfProfiles>1</numberOfProfiles>
+			<isReserved>Y</isReserved>
+			<converttotype>same</converttotype>
+		</tdm>
+	</testcase>
+
+	<testcase id="student_flyer_orders_by_item_title">
+		<username>Ms. Automation</username>
+		<userid>test_auto01@scholastic.com</userid>
+		<password>passw0rd</password>
+		<studentname>Harry</studentname>
+		<itemid>4B6</itemid>
+		<flagid>false</flagid>
+		<itemtitle>Big Fairy Tale Fun Pack</itemtitle>
+		<removeCartFlag>true</removeCartFlag>
+		<tdm>
+			<type>teacher_with_no_details</type>
+			<numberOfProfiles>1</numberOfProfiles>
+			<isReserved>Y</isReserved>
+			<converttotype>same</converttotype>
+		</tdm>
+	</testcase>
+
+	<testcase id="student_flyer_orders_reviewtheseorder">
+		<userid>sfocommon@example.com</userid>
+		<password>passw0rd</password>
+		<studentname>Harry,Rose</studentname>
+		<itemid>4B6,7B6</itemid>
+		<removeCartFlag>true</removeCartFlag>
+		<removeCartFlag>true</removeCartFlag>
+		<tdm>
+			<type>teacher_with_no_details</type>
+			<numberOfProfiles>1</numberOfProfiles>
+			<isReserved>Y</isReserved>
+			<converttotype>same</converttotype>
+		</tdm>
+	</testcase>
+
+	<testcase id="student_flyer_orders_itemgrid">
+		<userid>test_auto01@scholastic.com</userid>
+		<password>passw0rd</password>
+		<studentname>Harry,Harry,Harry,Rose,Rose</studentname>
+		<itemid>4B6,7B6,4B6,4B6,7B6</itemid>
+		<removeCartFlag>true</removeCartFlag>
+		<tdm>
+			<type>teacher_with_no_details</type>
+			<numberOfProfiles>1</numberOfProfiles>
+			<isReserved>Y</isReserved>
+			<converttotype>same</converttotype>
+		</tdm>
+	</testcase>
+
+	<testcase id="student_flyer_orders_removeitemno1">
+		<username>Ms. Automation</username>
+		<userid>teacher_auto01@scholastic.com</userid>
+		<password>passw0rd</password>
+		<studentname>Harry,Rose</studentname>
+		<itemid>4B6,7B6</itemid>
+		<confirmstatus>NO</confirmstatus>
+		<removeitembyquantity>false</removeitembyquantity>
+		<removeCartFlag>true</removeCartFlag>
+		<tdm>
+			<type>teacher_with_no_details</type>
+			<numberOfProfiles>1</numberOfProfiles>
+			<isReserved>Y</isReserved>
+			<converttotype>same</converttotype>
+		</tdm>
+	</testcase>
+
+	<testcase id="student_flyer_orders_removeitemyes1">
+		<username>Ms. Automation</username>
+		<userid>teacher_auto01@scholastic.com</userid>
+		<password>passw0rd</password>
+		<studentname>Harry,Rose</studentname>
+		<itemid>4B6,7B6</itemid>
+		<confirmstatus>YES</confirmstatus>
+		<removeitembyquantity>false</removeitembyquantity>
+		<removeCartFlag>true</removeCartFlag>
+		<tdm>
+			<type>teacher_with_no_details</type>
+			<numberOfProfiles>1</numberOfProfiles>
+			<isReserved>Y</isReserved>
+			<converttotype>same</converttotype>
+		</tdm>
+	</testcase>
+
+	<testcase id="student_flyer_orders_ordersummarymodule">
+		<username>Mr. Automation</username>
+		<userid>sfo_ordersummary@example.com</userid>
+		<password>passw0rd</password>
+		<studentname>Harry,Rose</studentname>
+		<itemid>4B6,7B6</itemid>
+		<BPused>0</BPused>
+		<BPearned>8</BPearned>
+		<SOOpaid>0</SOOpaid>
+		<SFO>8</SFO>
+		<YTO>0</YTO>
+		<removeCartFlag>true</removeCartFlag>
+		<tdm>
+			<type>teacher_with_no_details</type>
+			<numberOfProfiles>1</numberOfProfiles>
+			<isReserved>Y</isReserved>
+			<converttotype>same</converttotype>
+		</tdm>
+	</testcase>
+
+	<testcase id="student_flyer_orders_approvedbyteacher"
+		description="teacher id who has SOO item in cart">
+		<userid>sfoapprovedbyteacher@example.com</userid>
+		<password>passw0rd</password>
+		<studentname>Harry</studentname>
+		<itemid>4B6</itemid>
+		<buttonstate>SOO</buttonstate>
+		<tdm>
+			<type>teacher_with_soo_order</type>
+			<numberOfProfiles>1</numberOfProfiles>
+			<isReserved>Y</isReserved>
+			<converttotype>same</converttotype>
+		</tdm>
+	</testcase>
+
+	<testcase id="student_flyer_orders_continuetoyourteacherorder">
+		<userid>test_auto01@scholastic.com</userid>
+		<password>passw0rd</password>
+		<studentname>John,Kate</studentname>
+		<itemid>7B6,2B6</itemid>
+		<buttonstate>YTO</buttonstate>
+		<removeCartFlag>true</removeCartFlag>
+		<tdm>
+			<type>teacher_with_no_details</type>
+			<numberOfProfiles>1</numberOfProfiles>
+			<isReserved>Y</isReserved>
+			<converttotype>same</converttotype>
+		</tdm>
+	</testcase>
+
+	<testcase id="student_flyer_orders_addorder">
+		<username>Ms. Automation</username>
+		<userid>teacher_auto01@scholastic.com</userid>
+		<password>passw0rd</password>
+		<studentname>John,Leya</studentname>
+		<itemid>7B6,2B6</itemid>
+		<removeCartFlag>true</removeCartFlag>
+		<tdm>
+			<type>teacher_with_no_details</type>
+			<numberOfProfiles>1</numberOfProfiles>
+			<isReserved>Y</isReserved>
+			<converttotype>same</converttotype>
+		</tdm>
+	</testcase>
+
+	<testcase id="student_flyer_orders_gotocheckout">
+		<username>Mr. Common</username>
+		<userid>test_auto01@scholastic.com</userid>
+		<password>passw0rd</password>
+		<studentname>John,Kate</studentname>
+		<itemid>7B6,2B6</itemid>
+		<removeCartFlag>true</removeCartFlag>
+		<tdm>
+			<type>teacher_with_no_details</type>
+			<numberOfProfiles>1</numberOfProfiles>
+			<isReserved>Y</isReserved>
+			<converttotype>same</converttotype>
+		</tdm>
+	</testcase>
+
+	<testcase id="student_flyer_orders_instructionalmessaging">
+		<userid>test_auto01@scholastic.com</userid>
+		<password>passw0rd</password>
+		<studentname>John,Kate</studentname>
+		<itemid>7B6,2B6</itemid>
+		<removeCartFlag>true</removeCartFlag>
+		<tdm>
+			<type>teacher_with_no_details</type>
+			<numberOfProfiles>1</numberOfProfiles>
+			<isReserved>Y</isReserved>
+			<converttotype>same</converttotype>
+		</tdm>
+	</testcase>
+
+	<testcase id="student_flyer_orders_searchstudentrosterastype">
+		<userid>test_auto01@scholastic.com</userid>
+		<password>passw0rd</password>
+		<studentname>Harry</studentname>
+		<itemid>7B6</itemid>
+		<alphanumericstudentname>abc675hj</alphanumericstudentname>
+		<studentnamemorethantwenty>aasssssssssssssssssss
+		</studentnamemorethantwenty>
+		<removeCartFlag>true</removeCartFlag>
+	</testcase>
+
+	<testcase id="student_flyer_orders_addsavedbutton">
+		<userid>test_auto01@scholastic.com</userid>
+		<password>passw0rd</password>
+		<validstudent>Rose</validstudent>
+		<validitem>4B6</validitem>
+		<invaliditem>##HFJKJ2</invaliditem>
+		<teacheronlyitem></teacheronlyitem>
+		<BPonlyitems>68408</BPonlyitems>
+		<studentname>Lily</studentname>
+		<itemid>7B6</itemid>
+		<removeCartFlag>true</removeCartFlag>
+		<tdm>
+			<type>teacher_with_no_details</type>
+			<numberOfProfiles>1</numberOfProfiles>
+			<isReserved>Y</isReserved>
+			<converttotype>same</converttotype>
+		</tdm>
+	</testcase>
+
+	<testcase id="student_flyer_orders_enternameorchoosefromdropdown">
+		<userid>test_auto01@scholastic.com</userid>
+		<password>passw0rd</password>
+		<studentname>Gilly</studentname>
+		<itemid>4B6</itemid>
+		<removeCartFlag>true</removeCartFlag>
+	</testcase>
+
+	<testcase id="student_flyer_orders_enteritemnumber">
+		<userid>test_auto01@scholastic.com</userid>
+		<password>passw0rd</password>
+		<itemidwithsevendigit>3333333</itemidwithsevendigit>
+		<removeCartFlag>true</removeCartFlag>
+		<tdm>
+			<type>teacher_with_no_details</type>
+			<numberOfProfiles>1</numberOfProfiles>
+			<isReserved>Y</isReserved>
+			<converttotype>same</converttotype>
+		</tdm>
+	</testcase>
+
+	<testcase id="student_flyer_orders_addeditembasicinformation">
+		<userid>test_auto01@scholastic.com</userid>
+		<password>passw0rd</password>
+		<studentname>Harry,Jane</studentname>
+		<itemid>7B6,6B6</itemid>
+		<couponstudent>Mark</couponstudent>
+		<couponnumber>C000001</couponnumber>
+		<selectgrade>1st Grade</selectgrade>
+		<couponitemnumber>2</couponitemnumber>
+		<flagid>true</flagid>
+		<removeCartFlag>true</removeCartFlag>
+		<tdm>
+			<type>teacher_with_no_details</type>
+			<numberOfProfiles>1</numberOfProfiles>
+			<isReserved>Y</isReserved>
+			<converttotype>same</converttotype>
+		</tdm>
+	</testcase>
+
+	<testcase id="student_flyer_orders_addeditemquantity">
+		<username>test_auto01@scholastic.com</username>
+		<password>passw0rd</password>
+		<studentname></studentname>
+		<itemno></itemno>
+		<removeCartFlag>true</removeCartFlag>
+		<tdm>
+			<type>teacher_with_no_details</type>
+			<numberOfProfiles>1</numberOfProfiles>
+			<isReserved>Y</isReserved>
+			<converttotype>same</converttotype>
+		</tdm>
+	</testcase>
+
+	<testcase id="student_flyer_orders_selecteditemdisplayonSFO">
+		<userid>test_auto01@scholastic.com</userid>
+		<password>passw0rd</password>
+		<studentname>Harry,Jane</studentname>
+		<itemid>7B6,6B6</itemid>
+		<couponstudent>Mark</couponstudent>
+		<couponnumber>C000001</couponnumber>
+		<selectgrade>1st Grade</selectgrade>
+		<couponitemnumber>2</couponitemnumber>
+		<flagid>true</flagid>
+		<removeCartFlag>true</removeCartFlag>
+		<tdm>
+			<type>teacher_with_no_details</type>
+			<numberOfProfiles>1</numberOfProfiles>
+			<isReserved>Y</isReserved>
+			<converttotype>same</converttotype>
+		</tdm>
+	</testcase>
+
+	<testcase id="student_flyer_orders_removebyquantity">
+		<username>test_auto01@scholastic.com</username>
+		<password>passw0rd</password>
+		<studentname>Harry,Harry,Mark</studentname>
+		<itemid>4K6,9H6,9B6</itemid>
+		<couponstudent>Harry</couponstudent>
+		<couponnumber>FPK46</couponnumber>
+		<selectgrade>1st Grade</selectgrade>
+		<couponitemnumber>2</couponitemnumber>
+		<flagid>false</flagid>
+		<removeitembyquantity>false</removeitembyquantity>
+		<removeCartFlag>true</removeCartFlag>
+		<tdm>
+			<type>teacher_with_no_details</type>
+			<numberOfProfiles>1</numberOfProfiles>
+			<isReserved>Y</isReserved>
+			<converttotype>same</converttotype>
+		</tdm>
+	</testcase>
+
+	<testcase id="student_flyer_orders_removebycross">
+		<username>test_auto01@scholastic.com</username>
+		<password>passw0rd</password>
+		<studentname>Harry,Harry,Mark</studentname>
+		<itemid>4K6,9H6,9B6</itemid>
+		<couponstudent>Harry</couponstudent>
+		<couponnumber>FPK46</couponnumber>
+		<selectgrade>1st Grade</selectgrade>
+		<couponitemnumber>2</couponitemnumber>
+		<flagid>true</flagid>
+		<removeitembyquantity>false</removeitembyquantity>
+		<removeCartFlag>true</removeCartFlag>
+		<tdm>
+			<type>teacher_with_no_details</type>
+			<numberOfProfiles>1</numberOfProfiles>
+			<isReserved>Y</isReserved>
+			<converttotype>same</converttotype>
+		</tdm>
+	</testcase>
+
+	<testcase id="student_flyer_orders_invaliditem">
+		<username>Ms. Automation</username>
+		<userid>test_auto01@scholastic.com</userid>
+		<password>passw0rd</password>
+		<studentname>Harry</studentname>
+		<itemid>*4B6563</itemid>
+		<errormessage>Please enter a valid item number.
+		</errormessage>
+		<removeCartFlag>true</removeCartFlag>
+	</testcase>
+
+
+	<testcase id="student_flyer_orders_Teacheronlyitem">
+		<username>Ms. Automation</username>
+		<userid>test_auto01@scholastic.com</userid>
+		<password>passw0rd</password>
+		<studentname>Harry</studentname>
+		<itemid>66063</itemid>
+		<errormessage>Sorry, this item is only available for teachers and can be entered in the Your Teacher Order tab.
+		</errormessage>
+		<removeCartFlag>true</removeCartFlag>
+	</testcase>
+
+	<testcase id="student_flyer_orders_BPonlyitem">
+		<username>Ms. Automation</username>
+		<userid>test_auto01@scholastic.com</userid>
+		<password>passw0rd</password>
+		<studentname>Harry</studentname>
+		<itemid>75940</itemid>
+		<errormessage>Sorry, this item is only available for teachers and can be entered in the Your Teacher Order tab.
+		</errormessage>
+		<removeCartFlag>true</removeCartFlag>
+	</testcase>
+
+	<testcase id="student_flyer_orders_NLAitem">
+		<username>Ms. Automation</username>
+		<userid>test_auto01@scholastic.com</userid>
+		<password>passw0rd</password>
+		<studentname>Harry</studentname>
+		<itemid>3I5</itemid>
+		<errormessage>Sorry, the flyer this item was offered in has expired.
+		</errormessage>
+		<removeCartFlag>true</removeCartFlag>
+	</testcase>
+
+	<testcase id="student_flyer_orders_ItemExpires">
+		<username>Ms. Automation</username>
+		<userid>test_auto01@scholastic.com</userid>
+		<password>passw0rd</password>
+		<studentname>Harry</studentname>
+		<itemid>5L7</itemid>
+		<errormessage>Sorry, the flyer this item was offered in has expired.
+		</errormessage>
+		<removeCartFlag>true</removeCartFlag>
+	</testcase>
+
+	<testcase id="student_flyer_orders_OOSitem">
+		<username>Ms. Automation</username>
+		<userid>test_auto01@scholastic.com</userid>
+		<password>passw0rd</password>
+		<studentname>Harry</studentname>
+		<itemid>676</itemid>
+		<errormessage>This Product is OOS and cannot be Added
+		</errormessage>
+		<removeCartFlag>true</removeCartFlag>
+	</testcase>
+
+
+	<testcase id="student_flyer_orders_coupon_BPonlyitem">
+		<username>Ms. Automation</username>
+		<userid>test_auto01@scholastic.com</userid>
+		<password>passw0rd</password>
+		<studentname>Harry</studentname>
+		<itemid>75940</itemid>
+		<couponstudent>Harry</couponstudent>
+		<couponnumber>FPK46</couponnumber>
+		<selectgrade>1st Grade</selectgrade>
+		<couponitemnumber>2</couponitemnumber>
+		<removeCartFlag>true</removeCartFlag>
+	</testcase>
+
+	<testcase id="student_flyer_orders_coupon_Teacheronlyitem">
+		<username>Ms. Automation</username>
+		<userid>test_auto01@scholastic.com</userid>
+		<password>passw0rd</password>
+		<studentname>Harry</studentname>
+		<itemid>66063</itemid>
+		<couponstudent>Harry</couponstudent>
+		<couponnumber>FPK46</couponnumber>
+		<selectgrade>1st Grade</selectgrade>
+		<couponitemnumber>2</couponitemnumber>
+		<removeCartFlag>true</removeCartFlag>
+		<tdm>
+			<type>teacher_with_no_details</type>
+			<numberOfProfiles>1</numberOfProfiles>
+			<isReserved>Y</isReserved>
+			<converttotype>same</converttotype>
+		</tdm>
+	</testcase>
+
+	<testcase id="student_flyer_orders_coupon_BookTrustitem">
+		<username>Ms. Automation</username>
+		<userid>test_auto01@scholastic.com</userid>
+		<password>passw0rd</password>
+		<studentname>Harry</studentname>
+		<itemid></itemid>
+		<couponstudent>Harry</couponstudent>
+		<couponnumber>FPK46</couponnumber>
+		<selectgrade>1st Grade</selectgrade>
+		<couponitemnumber>2</couponitemnumber>
+		<removeCartFlag>true</removeCartFlag>
+		<tdm>
+			<type>teacher_with_no_details</type>
+			<numberOfProfiles>1</numberOfProfiles>
+			<isReserved>Y</isReserved>
+			<converttotype>same</converttotype>
+		</tdm>
+	</testcase>
+
+	<testcase id="student_flyer_orders_zerostate">
+		<userid>test_auto01@scholastic.com</userid>
+		<password>passw0rd</password>
+		<removeCartFlag>true</removeCartFlag>
+	</testcase>
+
+	<testcase id="student_flyer_orders_add_edit_sfo_cart">
+		<userid>test_auto01@scholastic.com</userid>
+		<password>passw0rd</password>
+		<studentname>John,Kate</studentname>
+		<itemid>7B6,2B6</itemid>
+		<quantity>10</quantity>
+		<removeCartFlag>true</removeCartFlag>
+		<tdm>
+			<type>teacher_with_no_details</type>
+			<numberOfProfiles>1</numberOfProfiles>
+			<isReserved>Y</isReserved>
+			<converttotype>same</converttotype>
+		</tdm>
+	</testcase>
+
+	<testcase id="student_flyer_adddifferentitems">
+		<userid>test_auto01@scholastic.com</userid>
+		<password>passw0rd</password>
+		<studentname>John,John,John,Kate,Harry,Leya</studentname>
+		<itemid>7B6,7B6,2B6,2B6,4B6,7B6</itemid>
+		<itemidwithsevendigit>6666666</itemidwithsevendigit>
+		<validstudent>Rose</validstudent>
+		<validitem>4B6</validitem>
+		<invaliditem>##HFJKJ2</invaliditem>
+		<teacheronlyitem></teacheronlyitem>
+		<BPonlyitems>68408</BPonlyitems>
+		<removeCartFlag>true</removeCartFlag>
+		<tdm>
+			<type>teacher_with_no_details</type>
+			<numberOfProfiles>1</numberOfProfiles>
+			<isReserved>Y</isReserved>
+			<converttotype>same</converttotype>
+		</tdm>
+	</testcase>
+
+	<testcase id="student_flyer_orders_costandquantity">
+		<userid>test_auto01@scholastic.com</userid>
+		<password>passw0rd</password>
+		<studentname>John,Kate,Harry,Leya</studentname>
+		<itemid>7B6,2B6,4B6,7B6</itemid>
+		<removeCartFlag>true</removeCartFlag>
+		<tdm>
+			<type>teacher_with_no_details</type>
+			<numberOfProfiles>1</numberOfProfiles>
+			<isReserved>Y</isReserved>
+			<converttotype>same</converttotype>
+		</tdm>
+	</testcase>
+</testdata>

@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" verbose="0" name="Demandware" parallel="tests">
+  <parameter name="remote.driver.url" value="http://sereti_qe:b9b8a9e1-e525-46af-9c7f-4a11c372b5c5@ondemand.saucelabs.com:80/wd/hub"/>
+  <parameter name="tdm.data" value="off"/>
+  <parameter name="glue" value="com.dw.automation.steps"/>
+  <parameter name="sauce" value="true"/>
+  
+<test name="Teacher charged with correct subtotal on Student Club &amp; Teacher club  items for GST &amp; PST with Shipping Fee against &#039;BC&#039; Province in Submitted page">
+    <parameter name="features" value="features/Modules/CA_Regression_QA/SubmittedPage.feature"/>
+    <parameter name="scenario" value="Teacher charged with correct subtotal on Student Club &amp; Teacher club  items for GST &amp; PST with Shipping Fee against &#039;BC&#039; Province in Submitted page"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Teacher charged with correct subtotal on Student Club & Teacher club  items for GST & PST with Shipping Fee against 'BC' Province in Submitted page -->
+  <test name="Teacher charged with correct subtotal on Student and Teacher club items for GST &amp; QST against &#039;QC&#039; Province in Submitted page">
+    <parameter name="features" value="features/Modules/CA_Regression_QA/SubmittedPage.feature"/>
+    <parameter name="scenario" value="Teacher charged with correct subtotal on Student and Teacher club items for GST &amp; QST against &#039;QC&#039; Province in Submitted page"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Teacher charged with correct subtotal on Student and Teacher club items for GST & QST against 'QC' Province in Submitted page -->
+  <test name="Teacher charged with correct subtotal on Student Club and Teacher club items for HST against &#039;NL&#039; Province in Submitted page">
+    <parameter name="features" value="features/Modules/CA_Regression_QA/SubmittedPage.feature"/>
+    <parameter name="scenario" value="Teacher charged with correct subtotal on Student Club and Teacher club items for HST against &#039;NL&#039; Province in Submitted page"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Teacher charged with correct subtotal on Student Club and Teacher club items for HST against 'NL' Province in Submitted page -->
+  <test name="Teacher charged with correct subtotal on Student Club and Teacher club items for HST against &#039;NB&#039; Province in Submitted page">
+    <parameter name="features" value="features/Modules/CA_Regression_QA/SubmittedPage.feature"/>
+    <parameter name="scenario" value="Teacher charged with correct subtotal on Student Club and Teacher club items for HST against &#039;NB&#039; Province in Submitted page"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Teacher charged with correct subtotal on Student Club and Teacher club items for HST against 'NB' Province in Submitted page -->
+  <test name="Teacher charged with correct subtotal on Student Club and Teacher club items for HST against &#039;NS&#039; Province in Submitted page">
+    <parameter name="features" value="features/Modules/CA_Regression_QA/SubmittedPage.feature"/>
+    <parameter name="scenario" value="Teacher charged with correct subtotal on Student Club and Teacher club items for HST against &#039;NS&#039; Province in Submitted page"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Teacher charged with correct subtotal on Student Club and Teacher club items for HST against 'NS' Province in Submitted page -->
+  <test name="Teacher charged with correct subtotal on Student Club and Teacher club items for HST against &#039;ON&#039; Province in Submitted page">
+    <parameter name="features" value="features/Modules/CA_Regression_QA/SubmittedPage.feature"/>
+    <parameter name="scenario" value="Teacher charged with correct subtotal on Student Club and Teacher club items for HST against &#039;ON&#039; Province in Submitted page"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Teacher charged with correct subtotal on Student Club and Teacher club items for HST against 'ON' Province in Submitted page -->
+  <test name="Teacher charged with correct subtotal on Student Club and Teacher club items for HST against &#039;PE&#039; Province in Submitted page">
+    <parameter name="features" value="features/Modules/CA_Regression_QA/SubmittedPage.feature"/>
+    <parameter name="scenario" value="Teacher charged with correct subtotal on Student Club and Teacher club items for HST against &#039;PE&#039; Province in Submitted page"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Teacher charged with correct subtotal on Student Club and Teacher club items for HST against 'PE' Province in Submitted page -->
+  <test name="Teacher charged with correct subtotal for Student &amp; Teacher Club items for GST against &#039;AB&#039; Province in Submitted page">
+    <parameter name="features" value="features/Modules/CA_Regression_QA/SubmittedPage.feature"/>
+    <parameter name="scenario" value="Teacher charged with correct subtotal for Student &amp; Teacher Club items for GST against &#039;AB&#039; Province in Submitted page"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Teacher charged with correct subtotal for Student & Teacher Club items for GST against 'AB' Province in Submitted page -->
+  <test name="Teacher charged with correct subtotal for Student &amp; Teacher Club items for GST against &#039;NT&#039; Province in Submitted page">
+    <parameter name="features" value="features/Modules/CA_Regression_QA/SubmittedPage.feature"/>
+    <parameter name="scenario" value="Teacher charged with correct subtotal for Student &amp; Teacher Club items for GST against &#039;NT&#039; Province in Submitted page"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Teacher charged with correct subtotal for Student & Teacher Club items for GST against 'NT' Province in Submitted page -->
+  <test name="Teacher charged with correct subtotal for Student &amp; Teacher Club items for GST against &#039;NU&#039; Province in Submitted page">
+    <parameter name="features" value="features/Modules/CA_Regression_QA/SubmittedPage.feature"/>
+    <parameter name="scenario" value="Teacher charged with correct subtotal for Student &amp; Teacher Club items for GST against &#039;NU&#039; Province in Submitted page"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Teacher charged with correct subtotal for Student & Teacher Club items for GST against 'NU' Province in Submitted page -->
+  <test name="Teacher charged with correct subtotal for Student &amp; Teacher Club items for GST against &#039;YT&#039; Province in Submitted page">
+    <parameter name="features" value="features/Modules/CA_Regression_QA/SubmittedPage.feature"/>
+    <parameter name="scenario" value="Teacher charged with correct subtotal for Student &amp; Teacher Club items for GST against &#039;YT&#039; Province in Submitted page"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Teacher charged with correct subtotal for Student & Teacher Club items for GST against 'YT' Province in Submitted page -->
+  <test name="Teacher is not charged with taxes for Student &amp; Teacher Club items for Tax exempted schools against &#039;AB&#039; Province in Submitted page">
+    <parameter name="features" value="features/Modules/CA_Regression_QA/SubmittedPage.feature"/>
+    <parameter name="scenario" value="Teacher is not charged with taxes for Student &amp; Teacher Club items for Tax exempted schools against &#039;AB&#039; Province in Submitted page"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Teacher is not charged with taxes for Student & Teacher Club items for Tax exempted schools against 'AB' Province in Submitted page -->
+  <test name="Teacher is not charged with taxes for Student &amp; Teacher Club items for Tax exempted schools against &#039;BC&#039; Province in Submitted page">
+    <parameter name="features" value="features/Modules/CA_Regression_QA/SubmittedPage.feature"/>
+    <parameter name="scenario" value="Teacher is not charged with taxes for Student &amp; Teacher Club items for Tax exempted schools against &#039;BC&#039; Province in Submitted page"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Teacher is not charged with taxes for Student & Teacher Club items for Tax exempted schools against 'BC' Province in Submitted page -->
+  <test name="Teacher is not charged with taxes for Student &amp; Teacher Club items for Tax exempted schools against &#039;NL&#039; Province in Submitted page">
+    <parameter name="features" value="features/Modules/CA_Regression_QA/SubmittedPage.feature"/>
+    <parameter name="scenario" value="Teacher is not charged with taxes for Student &amp; Teacher Club items for Tax exempted schools against &#039;NL&#039; Province in Submitted page"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Teacher is not charged with taxes for Student & Teacher Club items for Tax exempted schools against 'NL' Province in Submitted page -->
+  <test name="Teacher charged with correct subtotal on Student Club items for GST &amp; PST-BC">
+    <parameter name="features" value="features/Modules/CA_Regression_QA/SubmittedPage.feature"/>
+    <parameter name="scenario" value="Teacher charged with correct subtotal on Student Club items for GST &amp; PST-BC"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Teacher charged with correct subtotal on Student Club items for GST & PST-BC -->
+  <test name="Teacher charged with correct subtotal on Student Club items for GST &amp; PST-QC">
+    <parameter name="features" value="features/Modules/CA_Regression_QA/SubmittedPage.feature"/>
+    <parameter name="scenario" value="Teacher charged with correct subtotal on Student Club items for GST &amp; PST-QC"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Teacher charged with correct subtotal on Student Club items for GST & PST-QC -->
+  <test name="Teacher charged with correct subtotal on Teacher club  items for GST &amp; PST-BC">
+    <parameter name="features" value="features/Modules/CA_Regression_QA/SubmittedPage.feature"/>
+    <parameter name="scenario" value="Teacher charged with correct subtotal on Teacher club  items for GST &amp; PST-BC"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Teacher charged with correct subtotal on Teacher club  items for GST & PST-BC -->
+  <test name="Teacher charged with correct subtotal on Teacher club  items for GST &amp; PST-QC">
+    <parameter name="features" value="features/Modules/CA_Regression_QA/SubmittedPage.feature"/>
+    <parameter name="scenario" value="Teacher charged with correct subtotal on Teacher club  items for GST &amp; PST-QC"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Teacher charged with correct subtotal on Teacher club  items for GST & PST-QC -->
+  <test name="Teacher charged with correct subtotal on Teacher club items for GST &amp; QST in Submitted Page">
+    <parameter name="features" value="features/Modules/CA_Regression_QA/SubmittedPage.feature"/>
+    <parameter name="scenario" value="Teacher charged with correct subtotal on Teacher club items for GST &amp; QST in Submitted Page"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Teacher charged with correct subtotal on Teacher club items for GST & QST in Submitted Page -->
+  <test name="Teacher charged with correct subtotal on Student club items for GST &amp; QST in Submitted Page">
+    <parameter name="features" value="features/Modules/CA_Regression_QA/SubmittedPage.feature"/>
+    <parameter name="scenario" value="Teacher charged with correct subtotal on Student club items for GST &amp; QST in Submitted Page"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Teacher charged with correct subtotal on Student club items for GST & QST in Submitted Page -->
+  <test name="Teacher charged with correct subtotal on Student Club items for HST-NL">
+    <parameter name="features" value="features/Modules/CA_Regression_QA/SubmittedPage.feature"/>
+    <parameter name="scenario" value="Teacher charged with correct subtotal on Student Club items for HST-NL"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Teacher charged with correct subtotal on Student Club items for HST-NL -->
+  <test name="Teacher charged with correct subtotal on Student Club items for HST-NB">
+    <parameter name="features" value="features/Modules/CA_Regression_QA/SubmittedPage.feature"/>
+    <parameter name="scenario" value="Teacher charged with correct subtotal on Student Club items for HST-NB"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Teacher charged with correct subtotal on Student Club items for HST-NB -->
+  <test name="Teacher charged with correct subtotal on Student Club items for HST-NS">
+    <parameter name="features" value="features/Modules/CA_Regression_QA/SubmittedPage.feature"/>
+    <parameter name="scenario" value="Teacher charged with correct subtotal on Student Club items for HST-NS"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Teacher charged with correct subtotal on Student Club items for HST-NS -->
+  <test name="Teacher charged with correct subtotal on Student Club items for HST-ON">
+    <parameter name="features" value="features/Modules/CA_Regression_QA/SubmittedPage.feature"/>
+    <parameter name="scenario" value="Teacher charged with correct subtotal on Student Club items for HST-ON"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Teacher charged with correct subtotal on Student Club items for HST-ON -->
+  <test name="Teacher charged with correct subtotal on Student Club items for HST-PE">
+    <parameter name="features" value="features/Modules/CA_Regression_QA/SubmittedPage.feature"/>
+    <parameter name="scenario" value="Teacher charged with correct subtotal on Student Club items for HST-PE"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Teacher charged with correct subtotal on Student Club items for HST-PE -->
+  <test name="Teacher charged with correct subtotal on Teacher Club items for HST-NL">
+    <parameter name="features" value="features/Modules/CA_Regression_QA/SubmittedPage.feature"/>
+    <parameter name="scenario" value="Teacher charged with correct subtotal on Teacher Club items for HST-NL"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Teacher charged with correct subtotal on Teacher Club items for HST-NL -->
+  <test name="Teacher charged with correct subtotal on Teacher Club items for HST-NB">
+    <parameter name="features" value="features/Modules/CA_Regression_QA/SubmittedPage.feature"/>
+    <parameter name="scenario" value="Teacher charged with correct subtotal on Teacher Club items for HST-NB"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Teacher charged with correct subtotal on Teacher Club items for HST-NB -->
+  <test name="Teacher charged with correct subtotal on Teacher Club items for HST-NS">
+    <parameter name="features" value="features/Modules/CA_Regression_QA/SubmittedPage.feature"/>
+    <parameter name="scenario" value="Teacher charged with correct subtotal on Teacher Club items for HST-NS"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Teacher charged with correct subtotal on Teacher Club items for HST-NS -->
+  <test name="Teacher charged with correct subtotal on Teacher Club items for HST-ON">
+    <parameter name="features" value="features/Modules/CA_Regression_QA/SubmittedPage.feature"/>
+    <parameter name="scenario" value="Teacher charged with correct subtotal on Teacher Club items for HST-ON"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Teacher charged with correct subtotal on Teacher Club items for HST-ON -->
+  <test name="Teacher charged with correct subtotal on Teacher Club items for HST-PE">
+    <parameter name="features" value="features/Modules/CA_Regression_QA/SubmittedPage.feature"/>
+    <parameter name="scenario" value="Teacher charged with correct subtotal on Teacher Club items for HST-PE"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Teacher charged with correct subtotal on Teacher Club items for HST-PE -->
+  <test name="Teacher charged with correct subtotal for Student Club items for GST-AB">
+    <parameter name="features" value="features/Modules/CA_Regression_QA/SubmittedPage.feature"/>
+    <parameter name="scenario" value="Teacher charged with correct subtotal for Student Club items for GST-AB"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Teacher charged with correct subtotal for Student Club items for GST-AB -->
+  <test name="Teacher charged with correct subtotal for Student Club items for GST-NT">
+    <parameter name="features" value="features/Modules/CA_Regression_QA/SubmittedPage.feature"/>
+    <parameter name="scenario" value="Teacher charged with correct subtotal for Student Club items for GST-NT"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Teacher charged with correct subtotal for Student Club items for GST-NT -->
+  <test name="Teacher charged with correct subtotal for Student Club items for GST-NU">
+    <parameter name="features" value="features/Modules/CA_Regression_QA/SubmittedPage.feature"/>
+    <parameter name="scenario" value="Teacher charged with correct subtotal for Student Club items for GST-NU"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Teacher charged with correct subtotal for Student Club items for GST-NU -->
+  <test name="Teacher charged with correct subtotal for Student Club items for GST-YT">
+    <parameter name="features" value="features/Modules/CA_Regression_QA/SubmittedPage.feature"/>
+    <parameter name="scenario" value="Teacher charged with correct subtotal for Student Club items for GST-YT"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Teacher charged with correct subtotal for Student Club items for GST-YT -->
+  <test name="Teacher charged with correct subtotal on Teacher Club items for GST-AB">
+    <parameter name="features" value="features/Modules/CA_Regression_QA/SubmittedPage.feature"/>
+    <parameter name="scenario" value="Teacher charged with correct subtotal on Teacher Club items for GST-AB"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Teacher charged with correct subtotal on Teacher Club items for GST-AB -->
+  <test name="Teacher charged with correct subtotal on Teacher Club items for GST-NT">
+    <parameter name="features" value="features/Modules/CA_Regression_QA/SubmittedPage.feature"/>
+    <parameter name="scenario" value="Teacher charged with correct subtotal on Teacher Club items for GST-NT"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Teacher charged with correct subtotal on Teacher Club items for GST-NT -->
+  <test name="Teacher charged with correct subtotal on Teacher Club items for GST-NU">
+    <parameter name="features" value="features/Modules/CA_Regression_QA/SubmittedPage.feature"/>
+    <parameter name="scenario" value="Teacher charged with correct subtotal on Teacher Club items for GST-NU"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Teacher charged with correct subtotal on Teacher Club items for GST-NU -->
+  <test name="Teacher charged with correct subtotal on Teacher Club items for GST-YT">
+    <parameter name="features" value="features/Modules/CA_Regression_QA/SubmittedPage.feature"/>
+    <parameter name="scenario" value="Teacher charged with correct subtotal on Teacher Club items for GST-YT"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Teacher charged with correct subtotal on Teacher Club items for GST-YT -->
+  <test name="As a teacher, when I submit the order, the order confirmation page should be clear with respect to UI">
+    <parameter name="features" value="features/Modules/CA_Regression_QA/SubmittedPage.feature"/>
+    <parameter name="scenario" value="As a teacher, when I submit the order, the order confirmation page should be clear with respect to UI"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- As a teacher, when I submit the order, the order confirmation page should be clear with respect to UI -->
+  <test name="As a teacher, when I click on home icon in order confirmation page, it should navigate to home page">
+    <parameter name="features" value="features/Modules/CA_Regression_QA/SubmittedPage.feature"/>
+    <parameter name="scenario" value="As a teacher, when I click on home icon in order confirmation page, it should navigate to home page"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- As a teacher, when I click on home icon in order confirmation page, it should navigate to home page -->
+  <test name="As a Teacher, I would like to have the ability to see My Account dropdown and it should be clickable">
+    <parameter name="features" value="features/Modules/CA_Regression_QA/SubmittedPage.feature"/>
+    <parameter name="scenario" value="As a Teacher, I would like to have the ability to see My Account dropdown and it should be clickable"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- As a Teacher, I would like to have the ability to see My Account dropdown and it should be clickable -->
+  <test name="As a Teacher, I would like to have the ability to view my profile information from Order confirmation page">
+    <parameter name="features" value="features/Modules/CA_Regression_QA/SubmittedPage.feature"/>
+    <parameter name="scenario" value="As a Teacher, I would like to have the ability to view my profile information from Order confirmation page"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- As a Teacher, I would like to have the ability to view my profile information from Order confirmation page -->
+  <test name="As a Teacher, I would like to have the ability to logout from Order confirmation page">
+    <parameter name="features" value="features/Modules/CA_Regression_QA/SubmittedPage.feature"/>
+    <parameter name="scenario" value="As a Teacher, I would like to have the ability to logout from Order confirmation page"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- As a Teacher, I would like to have the ability to logout from Order confirmation page -->
+  <test name="As a Teacher, I would like to have the ability to navigate to Billing &amp; Payments from Order Confirmation page to view my credit card info">
+    <parameter name="features" value="features/Modules/CA_Regression_QA/SubmittedPage.feature"/>
+    <parameter name="scenario" value="As a Teacher, I would like to have the ability to navigate to Billing &amp; Payments from Order Confirmation page to view my credit card info"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- As a Teacher, I would like to have the ability to navigate to Billing & Payments from Order Confirmation page to view my credit card info -->
+  <test name="As a Teacher, I would like to have the ability to view order history from Order Confirmation page">
+    <parameter name="features" value="features/Modules/CA_Regression_QA/SubmittedPage.feature"/>
+    <parameter name="scenario" value="As a Teacher, I would like to have the ability to view order history from Order Confirmation page"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;48.0&#039;,&#039;platform&#039;:&#039;Windows 10&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="Chrome"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- As a Teacher, I would like to have the ability to view order history from Order Confirmation page -->
+</suite> <!-- Demandware -->

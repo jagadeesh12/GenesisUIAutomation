@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" verbose="0" name="Demandware" parallel="tests">
+  <parameter name="remote.driver.url" value="http://sereti_qe:b9b8a9e1-e525-46af-9c7f-4a11c372b5c5@ondemand.saucelabs.com:80/wd/hub"/>
+  <parameter name="tdm.data" value="off"/>
+  <parameter name="glue" value="com.dw.automation.steps"/>
+  <parameter name="sauce" value="true"/>
+  
+  <test name="Order Source page and Order Cancellation modal window displays when CSR clicks on Cancel Order in Order Entry">
+    <parameter name="features" value="features/InSprint_14.5/CSR_SCSCOD_5707.feature"/>
+    <parameter name="scenario" value="Order Source page and Order Cancellation modal window displays when CSR clicks on Cancel Order in Order Entry"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;11.0&#039;,&#039;platform&#039;:&#039;Windows 8.1&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="IE"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Order Source page and Order Cancellation modal window displays when CSR clicks on Cancel Order in Order Entry -->
+  <test name="Order Cancellation modal window closes automatically when CSR clicks on close button">
+    <parameter name="features" value="features/InSprint_14.5/CSR_SCSCOD_5707.feature"/>
+    <parameter name="scenario" value="Order Cancellation modal window closes automatically when CSR clicks on close button"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;11.0&#039;,&#039;platform&#039;:&#039;Windows 8.1&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="IE"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Order Cancellation modal window closes automatically when CSR clicks on close button -->
+  <test name="Order Cancellation modal window first paragraph of the text displays &#039;Your order was successfully cancelled.&#039;">
+    <parameter name="features" value="features/InSprint_14.5/CSR_SCSCOD_5707.feature"/>
+    <parameter name="scenario" value="Order Cancellation modal window first paragraph of the text displays &#039;Your order was successfully cancelled.&#039;"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;11.0&#039;,&#039;platform&#039;:&#039;Windows 8.1&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="IE"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Order Cancellation modal window first paragraph of the text displays 'Your order was successfully cancelled.' -->
+  <test name="Order Source page and Order Cancellation modal window displays when CSR clicks on Cancel Order in Review Cart">
+    <parameter name="features" value="features/InSprint_14.5/CSR_SCSCOD_5707.feature"/>
+    <parameter name="scenario" value="Order Source page and Order Cancellation modal window displays when CSR clicks on Cancel Order in Review Cart"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;11.0&#039;,&#039;platform&#039;:&#039;Windows 8.1&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="IE"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Order Source page and Order Cancellation modal window displays when CSR clicks on Cancel Order in Review Cart -->
+  <test name="Order Cancellation modal window closes automatically when CSR clicks on close button_2">
+    <parameter name="features" value="features/InSprint_14.5/CSR_SCSCOD_5707.feature"/>
+    <parameter name="scenario" value="Order Cancellation modal window closes automatically when CSR clicks on close button_2"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;11.0&#039;,&#039;platform&#039;:&#039;Windows 8.1&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="IE"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Order Cancellation modal window closes automatically when CSR clicks on close button_2 -->
+  <test name="Order Source page and Order Cancellation modal window displays when CSR clicks on Cancel Order in Rewards">
+    <parameter name="features" value="features/InSprint_14.5/CSR_SCSCOD_5707.feature"/>
+    <parameter name="scenario" value="Order Source page and Order Cancellation modal window displays when CSR clicks on Cancel Order in Rewards"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;11.0&#039;,&#039;platform&#039;:&#039;Windows 8.1&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="IE"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Order Source page and Order Cancellation modal window displays when CSR clicks on Cancel Order in Rewards -->
+  <test name="Order Cancellation modal window closes automatically when CSR clicks on close button_3">
+    <parameter name="features" value="features/InSprint_14.5/CSR_SCSCOD_5707.feature"/>
+    <parameter name="scenario" value="Order Cancellation modal window closes automatically when CSR clicks on close button_3"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;11.0&#039;,&#039;platform&#039;:&#039;Windows 8.1&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="IE"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Order Cancellation modal window closes automatically when CSR clicks on close button_3 -->
+  <test name="Order Source page and Order Cancellation modal window displays when CSR clicks on Cancel Order in Payment">
+    <parameter name="features" value="features/InSprint_14.5/CSR_SCSCOD_5707.feature"/>
+    <parameter name="scenario" value="Order Source page and Order Cancellation modal window displays when CSR clicks on Cancel Order in Payment"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;11.0&#039;,&#039;platform&#039;:&#039;Windows 8.1&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="IE"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Order Source page and Order Cancellation modal window displays when CSR clicks on Cancel Order in Payment -->
+  <test name="Order Cancellation modal window closes automatically when CSR clicks on close button_4">
+    <parameter name="features" value="features/InSprint_14.5/CSR_SCSCOD_5707.feature"/>
+    <parameter name="scenario" value="Order Cancellation modal window closes automatically when CSR clicks on close button_4"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;11.0&#039;,&#039;platform&#039;:&#039;Windows 8.1&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="IE"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Order Cancellation modal window closes automatically when CSR clicks on close button_4 -->
+  <test name="Order Source page and Order Cancellation modal window displays when CSR clicks on Cancel Order in Confirm Submit">
+    <parameter name="features" value="features/InSprint_14.5/CSR_SCSCOD_5707.feature"/>
+    <parameter name="scenario" value="Order Source page and Order Cancellation modal window displays when CSR clicks on Cancel Order in Confirm Submit"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;11.0&#039;,&#039;platform&#039;:&#039;Windows 8.1&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="IE"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Order Source page and Order Cancellation modal window displays when CSR clicks on Cancel Order in Confirm Submit -->
+  <test name="Order Cancellation modal window closes automatically when CSR clicks on close button_5">
+    <parameter name="features" value="features/InSprint_14.5/CSR_SCSCOD_5707.feature"/>
+    <parameter name="scenario" value="Order Cancellation modal window closes automatically when CSR clicks on close button_5"/>
+    <parameter name="driver.capabilities" value="{&#039;version&#039;: &#039;11.0&#039;,&#039;platform&#039;:&#039;Windows 8.1&#039;,&#039;name&#039;:&#039;DWCA&#039;}"/>
+    <parameter name="driver.name" value="IE"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run"/>
+    </classes>
+  </test> <!-- Order Cancellation modal window closes automatically when CSR clicks on close button_5 -->
+</suite> <!-- Demandware -->

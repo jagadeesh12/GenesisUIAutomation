@@ -1,0 +1,518 @@
+<testdata>
+	<testcase id="TeacherOrder_ItemsInCart_checks_2">
+		<userid>7527718</userid>
+		<password>passw0rd</password>
+		<sname1>Manu</sname1>
+		<sname2>Rocky</sname2>
+		<sname3>Johnson</sname3>
+		<qty1>2</qty1>
+		<qty2>1</qty2>
+		<qty3>3</qty3>
+		<default>yes</default>
+	</testcase>
+	
+	<testcase id="TeacherOrder_ItemsInCart_CreditCard_2">
+		<userid>7527700</userid>
+		<password>passw0rd</password>
+		<sname1>Manu</sname1>
+		<sname2>Rocky</sname2>
+		<sname3>Johnson</sname3>
+		<qty1>2</qty1>
+		<qty2>1</qty2>
+		<qty3>3</qty3>
+		<paymentAmt>5</paymentAmt>
+		<cardname>v12 v23</cardname>
+		<cardnumber>4111111111111111</cardnumber>
+		<expmonth>02</expmonth>
+		<expyear>2016</expyear>
+		<securitycode>467</securitycode>
+		<firstname>v12</firstname>
+		<lastname>v23</lastname>
+		<address1>Patrick Henry Drive</address1>
+		<address2>St. Mark Place</address2>
+		<country>Canada</country>
+		<zip>10012</zip>
+		<city>New York</city>
+		<state>Alberta</state>
+		<phone>333-333-3333</phone>
+	</testcase>
+	
+	<testcase id="TeacherOrder_ItemsInCart_CreditCard_3">
+		<userid>1627043</userid>
+		<password>passw0rd</password>
+		<sname1>Manu</sname1>
+		<sname2>Rocky</sname2>
+		<sname3>Johnson</sname3>
+		<qty1>2</qty1>
+		<qty2>1</qty2>
+		<qty3>3</qty3>
+		<default>yes</default>
+	</testcase>
+	
+	<testcase id="TeacherOrder_ItemsInCartAlternateFlag_True">
+		<userid>7527700</userid>
+		<password>passw0rd</password>
+		<sname1>Manu</sname1>
+		<sname2>Rocky</sname2>
+		<sname3>Johnson</sname3>
+		<qty1>2</qty1>
+		<qty2>1</qty2>
+		<qty3>3</qty3>
+		<default>yes</default>
+	</testcase>
+	
+	<testcase id="Payment:TeacherOrder_ItemsInCart">
+		<userid>7527700</userid>
+		<password>passw0rd</password>
+		<sname1>Manu</sname1>
+		<sname2>Rocky</sname2>
+		<sname3>Johnson</sname3>
+		<qty1>2</qty1>
+		<qty2>1</qty2>
+		<qty3>3</qty3>
+	</testcase>
+	
+	<testcase id="Payment:TeacherOrder_ItemsInCart_alternateShipping">
+		<userid>7527718</userid>
+		<password>passw0rd</password>
+		<sname1>Manu</sname1>
+		<sname2>Rocky</sname2>
+		<sname3>Johnson</sname3>
+		<qty1>2</qty1>
+		<qty2>1</qty2>
+		<qty3>3</qty3>
+		<address1>Patrick Henry Drive</address1>
+		<address2>St. Mark Place</address2>
+		<country>Canada</country>
+		<zip>10012</zip>
+		<city>New York</city>
+		<state>Alberta</state>
+		
+	</testcase>
+	
+	<testcase id="Payment:TeacherOrder_ItemsInCart_CreditCard_Visa">
+		<userid>7527677</userid>
+		<password>passw0rd</password>
+		<cardname>v12 v23</cardname>
+		<cardnumber>4111111111111111</cardnumber>
+		<expmonth>02</expmonth>
+		<expyear>2019</expyear>
+		<securitycode>891</securitycode>
+		<firstname>v12</firstname>
+		<lastname>v23</lastname>
+		<address1>Patrick Henry Drive</address1>
+		<address2>St. Mark Place</address2>
+		<country>Canada</country>
+		<zip>10012</zip>
+		<city>New York</city>
+		<state>Alberta</state>
+		<phone>333-333-3333</phone>
+		
+	</testcase>
+	
+	<testcase id="Payment:TeacherOrder_ItemsInCart_CreditCard_Master">
+		<userid>7527677</userid>
+		<password>passw0rd</password>
+		<cardname>v12 v23</cardname>
+		<cardnumber>5431111111111111</cardnumber>
+		<expmonth>02</expmonth>
+		<expyear>2019</expyear>
+		<securitycode>891</securitycode>
+		<firstname>v12</firstname>
+		<lastname>v23</lastname>
+		<address1>Patrick Henry Drive</address1>
+		<address2>St. Mark Place</address2>
+		<country>Canada</country>
+		<zip>10012</zip>
+		<city>New York</city>
+		<state>Alberta</state>
+		<phone>333-333-3333</phone>
+		
+	</testcase>
+	
+	<testcase id="Payment:TeacherOrder_ItemsInCart_CreditCard_Amex">
+		<userid>7527677</userid>
+		<password>passw0rd</password>
+		<cardname>v12 v23</cardname>
+		<cardnumber>373731623811006</cardnumber>
+		<expmonth>03</expmonth>
+		<expyear>2019</expyear>
+		<securitycode>891</securitycode>
+		<firstname>v12</firstname>
+		<lastname>v23</lastname>
+		<address1>Patrick Henry Drive</address1>
+		<address2>St. Mark Place</address2>
+		<country>Canada</country>
+		<zip>10012</zip>
+		<city>New York</city>
+		<state>Alberta</state>
+		<phone>333-333-3333</phone>
+		
+	</testcase>
+	
+	<testcase id="Payment:TeacherOrder_ItemsInCart_CreditCard_Discover">
+		<userid>7527677</userid>
+		<password>passw0rd</password>
+		<cardname>v12 v23</cardname>
+		<cardnumber>6011000991000500</cardnumber>
+		<expmonth>04</expmonth>
+		<expyear>2019</expyear>
+		<securitycode>891</securitycode>
+		<firstname>v12</firstname>
+		<lastname>v23</lastname>
+		<address1>Patrick Henry Drive</address1>
+		<address2>St. Mark Place</address2>
+		<country>Canada</country>
+		<zip>10012</zip>
+		<city>New York</city>
+		<state>Alberta</state>
+		<phone>333-333-3333</phone>
+		
+	</testcase>
+	
+	<testcase id="Payment:TeacherOrder_ItemsInCart_CreditCard_Visa_2">
+		<userid>2207836</userid>
+		<password>passw0rd</password>
+		<sname1>Manu</sname1>
+		<sname2>Rocky</sname2>
+		<sname3>Johnson</sname3>
+		<qty1>2</qty1>
+		<qty2>1</qty2>
+		<qty3>1</qty3>
+		<paymentAmt>5</paymentAmt>
+		<cardname>v12 v23</cardname>
+		<cardnumber>4111111111111111</cardnumber>
+		<expmonth>02</expmonth>
+		<expyear>2019</expyear>
+		<securitycode>891</securitycode>
+		<firstname>v12</firstname>
+		<lastname>v23</lastname>
+		<address1>Patrick Henry Drive</address1>
+		<address2>St. Mark Place</address2>
+		<country>Canada</country>
+		<zip>10012</zip>
+		<city>New York</city>
+		<state>Alberta</state>
+		<phone>333-333-3333</phone>
+	</testcase>
+	
+	<testcase id="Payment:TeacherOrder_ItemsInCart_CreditCard_Amex_2">
+		<userid>2207836</userid>
+		<password>passw0rd</password>
+		<sname1>Manu</sname1>
+		<sname2>Rocky</sname2>
+		<sname3>Johnson</sname3>
+		<qty1>2</qty1>
+		<qty2>1</qty2>
+		<qty3>1</qty3>
+		<paymentAmt>5</paymentAmt>
+		<cardname>v12 v23</cardname>
+		<cardnumber>373731623811006</cardnumber>
+		<expmonth>03</expmonth>
+		<expyear>2018</expyear>
+		<securitycode>891</securitycode>
+		<firstname>v12</firstname>
+		<lastname>v23</lastname>
+		<address1>Patrick Henry Drive</address1>
+		<address2>St. Mark Place</address2>
+		<country>Canada</country>
+		<zip>10012</zip>
+		<city>New York</city>
+		<state>Alberta</state>
+		<phone>333-333-3333</phone>
+	</testcase>
+	
+	<testcase id="Payment:TeacherOrder_ItemsInCart_CreditCard_Master_2">
+		<userid>2207836</userid>
+		<password>passw0rd</password>
+		<sname1>Manu</sname1>
+		<sname2>Rocky</sname2>
+		<sname3>Johnson</sname3>
+		<qty1>2</qty1>
+		<qty2>1</qty2>
+		<qty3>1</qty3>
+		<paymentAmt>5</paymentAmt>
+		<cardname>v12 v23</cardname>
+		<cardnumber>5431111111111111</cardnumber>
+		<expmonth>02</expmonth>
+		<expyear>2019</expyear>
+		<securitycode>891</securitycode>
+		<firstname>v12</firstname>
+		<lastname>v23</lastname>
+		<address1>Patrick Henry Drive</address1>
+		<address2>St. Mark Place</address2>
+		<country>Canada</country>
+		<zip>10012</zip>
+		<city>New York</city>
+		<state>Alberta</state>
+		<phone>333-333-3333</phone>
+	</testcase>
+	
+	<testcase id="Payment:TeacherOrder_ItemsInCart_CreditCard_Discover_2">
+		<userid>2207836</userid>
+		<password>passw0rd</password>
+		<sname1>Manu</sname1>
+		<sname2>Rocky</sname2>
+		<sname3>Johnson</sname3>
+		<qty1>2</qty1>
+		<qty2>1</qty2>
+		<qty3>1</qty3>
+		<paymentAmt>5</paymentAmt>
+		<cardname>v12 v23</cardname>
+		<cardnumber>6011000991000500</cardnumber>
+		<expmonth>02</expmonth>
+		<expyear>2018</expyear>
+		<securitycode>891</securitycode>
+		<firstname>v12</firstname>
+		<lastname>v23</lastname>
+		<address1>Patrick Henry Drive</address1>
+		<address2>St. Mark Place</address2>
+		<country>Canada</country>
+		<zip>10012</zip>
+		<city>New York</city>
+		<state>Alberta</state>
+		<phone>333-333-3333</phone>
+	</testcase>
+	
+	<testcase id="Payment:TeacherOrder_ItemsInCart_SavedCreditCard_Visa">
+		<userid>2250439</userid>
+		<password>passw0rd</password>
+		<sname1>Manu</sname1>
+		<sname2>Rocky</sname2>
+		<sname3>Johnson</sname3>
+		<qty1>2</qty1>
+		<qty2>1</qty2>
+		<qty3>1</qty3>
+		<cardname>Visa ending in 1111</cardname>
+		<paymentAmt>5</paymentAmt>
+		<cardname>v12 v23</cardname>
+		<cardnumber>4111111111111111</cardnumber>
+		<expmonth>02</expmonth>
+		<expyear>2019</expyear>
+		<securitycode>891</securitycode>
+		<firstname>v12</firstname>
+		<lastname>v23</lastname>
+		<address1>Patrick Henry Drive</address1>
+		<address2>St. Mark Place</address2>
+		<country>Canada</country>
+		<zip>10012</zip>
+		<city>New York</city>
+		<state>Alberta</state>
+		<phone>333-333-3333</phone>
+		<SavedCard>Visa ************1111</SavedCard>
+	</testcase>
+	
+	<testcase id="Payment:TeacherOrder_ItemsInCart_SavedCreditCard_Amex">
+		<userid>2250439</userid>
+		<password>passw0rd</password>
+		<sname1>Manu</sname1>
+		<sname2>Rocky</sname2>
+		<sname3>Johnson</sname3>
+		<qty1>2</qty1>
+		<qty2>1</qty2>
+		<qty3>1</qty3>
+		<cardname>Amex ending in 1006</cardname>
+		<paymentAmt>5</paymentAmt>
+		<cardname>v12 v23</cardname>
+		<cardnumber>373731623811006</cardnumber>
+		<expmonth>02</expmonth>
+		<expyear>2019</expyear>
+		<securitycode>891</securitycode>
+		<firstname>v12</firstname>
+		<lastname>v23</lastname>
+		<address1>Patrick Henry Drive</address1>
+		<address2>St. Mark Place</address2>
+		<country>Canada</country>
+		<zip>10012</zip>
+		<city>New York</city>
+		<state>Alberta</state>
+		<phone>333-333-3333</phone>
+		<SavedCard>Amex ************1006</SavedCard>
+	</testcase>
+	
+	<testcase id="Payment:TeacherOrder_ItemsInCart_SavedCreditCard_Master">
+		<userid>2250439</userid>
+		<password>passw0rd</password>
+		<sname1>Manu</sname1>
+		<sname2>Rocky</sname2>
+		<sname3>Johnson</sname3>
+		<qty1>2</qty1>
+		<qty2>1</qty2>
+		<qty3>1</qty3>
+		<cardname>MasterCard ending in 1111</cardname>
+		<paymentAmt>5</paymentAmt>
+		<cardname>v12 v23</cardname>
+		<cardnumber>5431111111111111</cardnumber>
+		<expmonth>02</expmonth>
+		<expyear>2019</expyear>
+		<securitycode>891</securitycode>
+		<firstname>v12</firstname>
+		<lastname>v23</lastname>
+		<address1>Patrick Henry Drive</address1>
+		<address2>St. Mark Place</address2>
+		<country>Canada</country>
+		<zip>10012</zip>
+		<city>New York</city>
+		<state>Alberta</state>
+		<phone>333-333-3333</phone>
+		<SavedCard>MasterCard ************1111</SavedCard>
+	</testcase>
+	
+	<testcase id="Payment:TeacherOrder_ItemsInCart_SavedCreditCard_Discover">
+		<userid>2250439</userid>
+		<password>passw0rd</password>
+		<sname1>Manu</sname1>
+		<sname2>Rocky</sname2>
+		<sname3>Johnson</sname3>
+		<qty1>2</qty1>
+		<qty2>1</qty2>
+		<qty3>1</qty3>
+		<cardname>Discover ending in 0500</cardname>
+		<paymentAmt>5</paymentAmt>
+		<cardname>v12 v23</cardname>
+		<cardnumber>6011000991000500</cardnumber>
+		<expmonth>02</expmonth>
+		<expyear>2019</expyear>
+		<securitycode>891</securitycode>
+		<firstname>v12</firstname>
+		<lastname>v23</lastname>
+		<address1>Patrick Henry Drive</address1>
+		<address2>St. Mark Place</address2>
+		<country>Canada</country>
+		<zip>10012</zip>
+		<city>New York</city>
+		<state>Alberta</state>
+		<phone>333-333-3333</phone>
+		<SavedCard>Discover ************0500</SavedCard>
+	</testcase>
+	
+	<testcase id="Payment:TeacherOrder_ItemsInCart_CreditCard">
+		<userid>3272987</userid>
+		<password>passw0rd</password>
+		<sname1>Manu</sname1>
+		<sname2>Rocky</sname2>
+		<sname3>Johnson</sname3>
+		<qty1>2</qty1>
+		<qty2>1</qty2>
+		<qty3>3</qty3>
+		<paymentAmt>5</paymentAmt>
+		<cardname>v12 v23</cardname>
+		<cardnumber>4111111111111111</cardnumber>
+		<expmonth>02</expmonth>
+		<expyear>2016</expyear>
+		<securitycode>467</securitycode>
+		<firstname>v12</firstname>
+		<lastname>v23</lastname>
+		<address1>Patrick Henry Drive</address1>
+		<address2>St. Mark Place</address2>
+		<country>Canada</country>
+		<zip>10012</zip>
+		<city>New York</city>
+		<state>Alberta</state>
+		<phone>333-333-3333</phone>
+	</testcase>
+	
+	<testcase id="Payment:TeacherOrder_ItemsInCart_CreditCard_2">
+		<userid>3272987</userid>
+		<password>passw0rd</password>
+		<sname1>Manu</sname1>
+		<sname2>Rocky</sname2>
+		<sname3>Johnson</sname3>
+		<qty1>2</qty1>
+		<qty2>1</qty2>
+		<qty3>3</qty3>
+		<paymentAmt>5</paymentAmt>
+		<cardname>v12 v23</cardname>
+		<cardnumber>4111111111111111</cardnumber>
+		<expmonth>02</expmonth>
+		<expyear>2016</expyear>
+		<securitycode>467</securitycode>
+		<firstname>v12</firstname>
+		<lastname>v23</lastname>
+		<address1>Patrick Henry Drive</address1>
+		<address2>St. Mark Place</address2>
+		<country>Canada</country>
+		<zip>10012</zip>
+		<city>New York</city>
+		<state>Alberta</state>
+		<phone>333-333-3333</phone>
+	</testcase>
+	
+	# #######################################QA DATA################################
+	#######################################################################################
+	#######################################################################################
+	<testcase id="Dev_PaymentPage_Expiry year_paymentCC">
+		<userid>509458</userid>
+		<password>passw0rd</password>
+		<itemName>100 Snowmen</itemName>
+		<itemQty>1</itemQty>
+        <numberofstudents>2</numberofstudents>
+		<cardusersName>Test</cardusersName>
+		<cardNum>5431111111111111</cardNum>
+		<yearEnd>2036</yearEnd>
+		
+	</testcase>
+	
+	<testcase id="Dev_PaymentPage_Expiry year_payment_combCCandChq">
+		<userid>509474</userid>
+		<password>passw0rd</password>
+        <itemName>100 Snowmen</itemName>
+        <numberofstudents>2</numberofstudents>
+		<itemQty>1</itemQty>
+		<cardusersName>Test</cardusersName>
+		<cardNum>5431111111111111</cardNum>
+		<yearEnd>2036</yearEnd>
+		
+	</testcase>
+	
+	<testcase id="Dev_PaymentPage_Expiry year_myacc">
+		<userid>509581</userid>
+		<password>passw0rd</password>
+		<itemName>100 Snowmen</itemName>
+		<itemQty>1</itemQty>
+		<cardusersName>Test</cardusersName>
+		<cardNum>5431111111111111</cardNum>
+		<yearEnd>2036</yearEnd>
+		
+	</testcase>
+	
+
+	<testcase id="Dev_PaymentPage_Expiry year_payment_combCCandChq">
+		<userid>509747</userid>
+		<password>passw0rd</password>
+        <itemName>100 Snowmen</itemName>
+		<itemQty>1</itemQty>
+		<cardusersName>Test</cardusersName>
+		<cardNum>5431111111111111</cardNum>
+		<yearEnd>2036</yearEnd>
+		
+	</testcase>
+	
+	<testcase id="Dev_PaymentPage_Expiry year_myacc">
+		<userid>510116</userid>
+		<password>passw0rd</password>
+        <itemName>100 Snowmen</itemName>
+		<itemQty>1</itemQty>
+		<cardusersName>Test</cardusersName>
+		<cardNum>5431111111111111</cardNum>
+		<yearEnd>2036</yearEnd>
+		
+	</testcase>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+</testdata>

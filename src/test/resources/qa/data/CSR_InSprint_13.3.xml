@@ -1,0 +1,767 @@
+<testdata>
+	
+	<testcase id="CSR_enters_20_integers">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>312364</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>2</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>2</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+  		<POnumber>12345678901234567890</POnumber>
+	</testcase>
+	
+	<testcase id="CSR_enters_20_alphanumeric">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>312570</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>2</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>2</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+  		<POnumber>12345abcde12345abcde</POnumber>
+	</testcase>
+	
+	<testcase id="CSR_enters_21_integers">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>312794</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>2</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>2</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+  		<POnumber>123456789012345678901</POnumber>
+	</testcase>
+	
+	<testcase id="CSR_enters_21_alphanumeric">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>312869</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>2</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>2</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+  		<POnumber>12345abcde12345abcde1</POnumber>
+	</testcase>
+	
+	<testcase id="Payment_Billing_info_SaveThisCard_checkbox_821">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>313411</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>2</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>2</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+	</testcase>
+	
+	<testcase id="Payment_SavedCard_displays_when_selects_SaveThisCard_821">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>313461</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>2</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>2</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+  		<paymentAmt>5</paymentAmt>
+		<cardname>v12 v23</cardname>
+		<cardnumber>4111111111111111</cardnumber>
+		<expmonth>05</expmonth>
+		<expyear>2019</expyear>
+		<securitycode>467</securitycode>
+		<firstname>v12</firstname>
+		<lastname>v23</lastname>
+		<address1>Patrick Henry Drive</address1>
+		<address2>St. Mark Place</address2>
+		<country>Canada</country>
+		<zip>T5A 0A7</zip>
+		<city>New York</city>
+		<state>Alberta</state>
+		<phone>333-333-3333</phone>
+		<SavedCard>Visa ************1111</SavedCard>
+	</testcase>
+	
+	<testcase id="Payment_Billing_info_disappears_on_Cancel_821">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>313479</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>2</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>2</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+	</testcase>
+	
+	<testcase id="Payment_SavedCard_not_displayed_when_de_select_SaveThisCard_821">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>313693</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>2</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>2</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+  		<paymentAmt>5</paymentAmt>
+		<cardname>v12 v23</cardname>
+		<cardnumber>4111111111111111</cardnumber>
+		<expmonth>05</expmonth>
+		<expyear>2019</expyear>
+		<securitycode>467</securitycode>
+		<firstname>v12</firstname>
+		<lastname>v23</lastname>
+		<address1>Patrick Henry Drive</address1>
+		<address2>St. Mark Place</address2>
+		<country>Canada</country>
+		<zip>T5A 0A7</zip>
+		<city>New York</city>
+		<state>Alberta</state>
+		<phone>333-333-3333</phone>
+	</testcase>
+	
+	<testcase id="CSR_enters_20_integers_816">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>314112</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>2</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>2</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+  		<POnumber>12345678901234567890</POnumber>
+  		<SavedCard>Visa ************1111</SavedCard>
+	</testcase>
+	
+	<testcase id="CSR_enters_20_alphanumeric_816">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>314120</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>2</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>2</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+  		<POnumber>12345abcde12345abcde</POnumber>
+  		<SavedCard>Visa ************1111</SavedCard>
+	</testcase>
+	
+	<testcase id="CSR_enters_21_integers_816">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>314162</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>2</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>2</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+  		<POnumber>123456789012345678901</POnumber>
+  		<SavedCard>Visa ************1111</SavedCard>
+	</testcase>
+	
+	<testcase id="CSR_enters_21_alphanumeric_816">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>314253</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>2</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>2</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+  		<POnumber>12345abcde12345abcde1</POnumber>
+  		<SavedCard>Visa ************1111</SavedCard>
+	</testcase>
+	
+	<testcase id="CSR_enters_20_integers_1195">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>314336</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>2</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>2</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+  		<POnumber>12345678901234567890</POnumber>
+  		<SavedCard>Visa ************1111</SavedCard>
+	</testcase>
+	
+	<testcase id="CSR_enters_20_alphanumeric_1195">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>314568</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>2</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>2</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+  		<POnumber>12345abcde12345abcde</POnumber>
+  		<SavedCard>Visa ************1111</SavedCard>
+	</testcase>
+	
+	<testcase id="CSR_enters_21_integers_1195">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>314708</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>2</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>2</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+  		<POnumber>123456789012345678901</POnumber>
+  		<SavedCard>Visa ************1111</SavedCard>
+	</testcase>
+	
+	<testcase id="CSR_enters_21_alphanumeric_1195">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>314716</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>2</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>2</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+  		<POnumber>12345abcde12345abcde1</POnumber>
+  		<SavedCard>Visa ************1111</SavedCard>
+	</testcase>
+	
+	<testcase id="Payment_SavedCreditCard_SecurityCodeNeeded">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>315128</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>2</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>2</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+  		<SavedCard>Visa ************1111</SavedCard>
+	</testcase>
+	
+	<testcase id="Payment_SavedCreditCard_Years">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>315293</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>2</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>2</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+  		<SavedCard>Visa ************1111</SavedCard>
+	</testcase>
+	
+	<testcase id="Payment_SavedCreditCard_Months">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>315342</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>2</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>2</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+  		<SavedCard>Visa ************1111</SavedCard>
+	</testcase>
+	
+	<testcase id="CSR_amount_to_be_paid_by_credit_card">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>315912</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>2</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>2</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+  		<SavedCard>Visa ************1111</SavedCard>
+  		<PaymentAmt>5</PaymentAmt>
+	</testcase>
+	
+	<testcase id="CSR_amount_to_be_paid_by_cheque">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>316019</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>2</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>2</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+  		<SavedCard>Visa ************1111</SavedCard>
+  		<PaymentAmt>5</PaymentAmt>
+	</testcase>
+	
+	<testcase id="CSR_over_amount_to_be_paid_by_credit_card">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>316390</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>2</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>2</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+  		<SavedCard>Visa ************1111</SavedCard>
+	</testcase>
+	
+	<testcase id="CSR_over_amount_to_be_paid_by_Cheque">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>316407</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>2</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>2</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+  		<SavedCard>Visa ************1111</SavedCard>
+	</testcase>
+	
+	<testcase id="CSR_enters_same_tot_amount_to_be_paid_by_credit_card">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>316530</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>2</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>2</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+  		<SavedCard>Visa ************1111</SavedCard>
+	</testcase>
+	
+	<testcase id="CSR_enters_same_tot_amount_to_be_paid_by_Cheque">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>316613</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>2</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>2</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+  		<SavedCard>Visa ************1111</SavedCard>
+	</testcase>
+	
+	<testcase id="CSR_amount_to_be_paid_by_credit_card_822">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>316647</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>2</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>2</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+  		<SavedCard>Visa ************1111</SavedCard>
+  		<PaymentAmt>5</PaymentAmt>
+	</testcase>
+	
+	<testcase id="CSR_amount_to_be_paid_by_cheque_822">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>316720</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>2</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>2</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+  		<SavedCard>Visa ************1111</SavedCard>
+  		<PaymentAmt>5</PaymentAmt>
+	</testcase>
+	
+	<testcase id="CSR_over_amount_to_be_paid_by_credit_card_822">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>317132</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>2</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>2</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+  		<SavedCard>Visa ************1111</SavedCard>
+	</testcase>
+	
+	<testcase id="CSR_over_amount_to_be_paid_by_Cheque_822">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>317463</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>2</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>2</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+  		<SavedCard>Visa ************1111</SavedCard>
+	</testcase>
+	
+	<testcase id="CSR_enters_same_tot_amount_to_be_paid_by_credit_card_822">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>317554</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>2</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>2</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+  		<SavedCard>Visa ************1111</SavedCard>
+	</testcase>
+	
+	<testcase id="CSR_enters_same_tot_amount_to_be_paid_by_Cheque_822">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>317778</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>2</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>2</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+  		<SavedCard>Visa ************1111</SavedCard>
+	</testcase>
+	
+	<testcase id="Payment_SavedCreditCard_All_Provinces_815">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>317869</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>2</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>2</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+  		<SavedCard>Visa ************1111</SavedCard>
+  		<country>Canada</country>
+	</testcase>
+	
+	<testcase id="Payment_SavedCreditCard_Billing_Info_ValidPhoneNum_815">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>317893</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>2</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>2</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+  		<SavedCard>Visa ************1111</SavedCard>
+  		<phone>3333333333</phone>
+	</testcase>
+	
+	<testcase id="SearchForm_TeacherNameCombo">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<Fname>s</Fname>
+  		<Lname>d</Lname>
+	</testcase>
+	
+	<testcase id="Search_By_SchoolAddress_morethan_70">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<SchoolName>12345abcde12345abcde12345abcde12345abcde12345abcde12345abcde12345abcde1</SchoolName>
+	</testcase>
+	
+	<testcase id="Search_With_AccountNumber_22">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>318263</AcNum>
+	</testcase>
+	
+	<testcase id="Search_With_NonExisting_AccountNumber">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>12345</AcNum>
+	</testcase>
+	
+	<testcase id="Search_Enable_DisableState">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>1</AcNum>
+	</testcase>
+	
+	<testcase id="Search_By_TeacherName_24_1">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<Fname>s</Fname>
+  		<Lname>d</Lname>
+	</testcase>
+	
+	<testcase id="Search_By_TeacherName_24_2">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<Fname>12345abcde12345abcde12345abcde12345abcde12345abcde1</Fname>
+	</testcase>
+	
+	<testcase id="Search_By_TeacherName_24_3">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<Lname>12345abcde12345abcde12345abcde12345abcde12345abcde1</Lname>
+	</testcase>
+	
+	<testcase id="Search_By_TeacherName_24_4">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<Fname>s</Fname>
+  		<Lname>d</Lname>
+	</testcase>
+	
+	<testcase id="Payment_CombinationOfCreditCardCheques_Months_313">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>318354</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>2</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>2</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>2</ItemQty3> 		
+	</testcase>
+	
+	<testcase id="Payment_CombinationOfCreditCardCheques_Year1">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>318370</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>2</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>2</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>2</ItemQty3> 
+  		<expyear>2019</expyear> 		
+	</testcase>
+	
+	<testcase id="Payment_CombinationOfCreditCardCheques_5_Char_SecurityCode">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>318388</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>2</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>2</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>2</ItemQty3> 
+  		<securitycode>12345</securitycode> 		
+	</testcase>
+	
+	<testcase id="Payment_CombinationOfCreditCardCheques_Years">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>318396</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>2</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>2</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>2</ItemQty3> 		
+	</testcase>
+	
+	<testcase id="Payment_CombinationOfCreditCardCheques_VISACard">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>318495</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>2</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>2</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>2</ItemQty3> 
+  		<cardnumber>4111111111111111</cardnumber> 
+  		<CardType>visa</CardType> 		
+	</testcase>
+	
+	<testcase id="Payment_CombinationOfCreditCardCheques_MasterCard">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>318643</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>2</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>2</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>2</ItemQty3> 
+  		<cardnumber>2111111111111111</cardnumber> 
+  		<CardType>mastercard</CardType> 		
+	</testcase>
+	
+	<testcase id="Payment_CombinationOfCreditCardCheques_AMEXCard">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>318833</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>2</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>2</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>2</ItemQty3> 
+  		<cardnumber>373731623811006</cardnumber> 
+  		<CardType>americanexpress</CardType> 		
+	</testcase>
+	
+	<testcase id="Search_By_SchoolAddress_NoResults_School_Name_Postal_Code_Province_City">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<SchoolName>abcdfrreesss</SchoolName>
+  		<SchoolCity>Anola</SchoolCity>
+  		<Province>Manitoba</Province>
+  		<PostalCode>Y1A 4H3</PostalCode>
+  		<Country>Canada</Country> 		
+	</testcase>
+	
+	<testcase id="Search_By_TeacherName_NoResults_First_Name_Last_Name">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<Fname>zz</Fname>
+  		<Lname>zz</Lname>	
+	</testcase>
+	
+	<testcase id="Search_By_SchoolAddress_NoResults_Postal_Code_Province_City">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<SchoolCity>Altona</SchoolCity>
+  		<Province>Manitoba</Province>
+  		<PostalCode>Y1A 4H3</PostalCode>
+  		<Country>Canada</Country> 		
+	</testcase>
+	
+	<testcase id="Search_By_SchoolAddress_NoResults_Province_City">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<SchoolCity>Anola</SchoolCity>
+  		<Province>Manitoba</Province>
+  		<Country>Canada</Country> 		
+	</testcase>
+	
+	<testcase id="Search_By_SchoolAddress_Result_Paragraph_School_Name_Province_City">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<SchoolName>Aurora College</SchoolName>
+  		<SchoolCity>Deline</SchoolCity>
+  		<Province>Northwest Territories</Province>
+  		<PostalCode>X1A 1J5</PostalCode>
+  		<Country>Canada</Country> 		
+	</testcase>
+	
+	<testcase id="Search_By_SchoolAddress_Result_Paragraph_School_Name_Postal_Code_Province_City">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<SchoolName>Aurora College</SchoolName>
+  		<SchoolCity>Deline</SchoolCity>
+  		<Province>Northwest Territories</Province>
+  		<PostalCode>X1A 1J5</PostalCode>
+  		<Country>Canada</Country> 		
+	</testcase>
+	
+	<testcase id="Search_By_SchoolAddress_BacktoSchool_HyperLink_SchoolListing_TeacherListing">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<SchoolName>Avalon</SchoolName>	
+	</testcase>
+	
+	<testcase id="Search_By_SchoolAddress_BacktoSchool_NoHyperLink_TeacherNameSearch">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<Fname>q</Fname>
+  		<Lname>z</Lname>	
+	</testcase>
+	
+	<testcase id="Search_By_SchoolAddress_BacktoSchool_HyperlinkClicked">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<SchoolName>Avalon</SchoolName>	
+	</testcase>
+	
+	<testcase id="Payment_CombinationOfCreditCardCheques_SelectCardDropDown_Layout">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>318875</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>2</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>2</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+  		<SavedCard>Visa ************1111</SavedCard>
+	</testcase>
+	
+	<testcase id="Search_By_SchoolAddress_TeacherListing_School_Name">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<SchoolName>Avalon</SchoolName>	
+	</testcase>
+	
+	<testcase id="Search_By_SchoolAddress_TeacherListing_School_Address">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<SchoolName>Avalon</SchoolName>	
+	</testcase>
+	
+	<testcase id="Search_By_SchoolAddress_TeacherListing_Occurrences">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<SchoolName>Avalon</SchoolName>	
+	</testcase>
+
+</testdata>

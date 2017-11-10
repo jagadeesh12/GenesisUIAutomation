@@ -1,0 +1,211 @@
+<testdata>
+	<testcase id="CSR_enters_FlyerCode_SpecialCharacter">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>5118634</AcNum>
+		<FlyerCode>&lt;&amp;&gt;&quot;&apos;&lt;&amp;</FlyerCode>
+	</testcase>
+
+	<testcase id="CSR_enters_NoFlyerCode_NoItemno_enterQty">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>5140629</AcNum>
+		<ItemNum></ItemNum>
+		<ItemQty>2</ItemQty>
+	</testcase>
+	
+	<testcase id="CSR_enters_FlyerCode_EntersItemNo_BlankItemNo_enterQty">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>5144423</AcNum>
+  		<FlyerCode>Z8A16</FlyerCode>
+		<ItemNum>700</ItemNum>
+		<ItemQty>1</ItemQty>
+		<ItemNum2></ItemNum2>
+		<ItemQty2>2</ItemQty2>
+	</testcase>
+	
+	<testcase id="CSR_enters_FlyerCodeIsNotValidFlyer">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>5171517</AcNum>
+  		<FlyerCode>123B56</FlyerCode>
+	</testcase>
+	
+	<testcase id="CSR_enters_FlyerCodeLessThan6Characters">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>5172292</AcNum>
+  		<FlyerCode>12345</FlyerCode>
+	</testcase>
+	
+	<testcase id="CSR_enters_FlyerCodeNotValidforCurrentMonth">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>5174529</AcNum>
+  		<FlyerCode>12341</FlyerCode>
+	</testcase>
+	
+	<testcase id="CSR_enters_NoFlyerCode_ItemSerialNo_QTY">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>5179066</AcNum>
+  		<ItemNum>700W8</ItemNum>
+		<ItemQty>1</ItemQty>
+	</testcase>
+	
+	<testcase id="CSR_enters_FlyerCode_ItemNoSpecialCharacte_enterQty">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>5180964</AcNum>
+  		<FlyerCode>Z8A16</FlyerCode>
+  		<ItemNum>&lt;&amp;&gt;&quot;&apos;&lt;&amp;</ItemNum>
+		<ItemQty>1</ItemQty>
+	</testcase>
+	
+	<testcase id="CSR_enters_ValidItemNo_Qty3Digit">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>5182803</AcNum>
+  		<ItemNum>700</ItemNum>
+		<ItemQty>111</ItemQty>
+	</testcase>
+	
+	<testcase id="CSR_enters_FlyerCode_ValidItemNo2_InvalidItemNo2_QtyBlank2">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>5183950</AcNum>
+  		<FlyerCode>Z8A16</FlyerCode>
+  		<ItemNum>700</ItemNum>
+		<ItemQty>1</ItemQty>
+		<ItemNum2>701</ItemNum2>
+		<ItemQty2></ItemQty2>
+		<ItemNum3>asd</ItemNum3>
+		<ItemQty3>2</ItemQty3>
+		<ItemNum4>dsa</ItemNum4>
+		<ItemQty4></ItemQty4>
+	</testcase>
+	
+	<testcase id="CSR_clicksYes_QtyCallOut">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>5189528</AcNum>
+  		<FlyerCode>Z8A16</FlyerCode>
+  		<ItemNum>700</ItemNum>
+		<ItemQty>123</ItemQty>
+	</testcase>
+	
+	<testcase id="CSR_enters_FlyerCode_ItemSerialNo_ItemSerialNoSpecialCharacter_ItemSerialNoString">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>5193850</AcNum>
+  		<FlyerCode>Z8A16</FlyerCode>
+  		<ItemNum>700</ItemNum>
+		<ItemQty>1</ItemQty>
+		<ItemNum2>&lt;&amp;&gt;&quot;&apos;&lt;&amp;</ItemNum2>
+		<ItemQty2>2</ItemQty2>
+	</testcase>
+	
+	<testcase id="CSR_clicksNo_QtyCallOut">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>5196226</AcNum>
+  		<ItemNum>700</ItemNum>
+		<ItemQty>123</ItemQty>
+	</testcase>
+	
+	<testcase id="CSR_enters_FlyerCode_ValidItemNo2_InvalidItemNo2_Qty">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>5201702</AcNum>
+  		<FlyerCode>Z8A16</FlyerCode>
+  		<ItemNum>700</ItemNum>
+		<ItemQty>1</ItemQty>
+		<ItemNum2>701</ItemNum2>
+		<ItemQty2>2</ItemQty2>
+		<ItemNum3>123asd</ItemNum3>
+		<ItemQty3>2</ItemQty3>
+		<ItemNum4>703</ItemNum4>
+		<ItemQty4>2</ItemQty4>
+	</testcase>
+	
+	<testcase id="CSR_sees_errorMsg_2">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>5202487</AcNum>
+  		<ItemNum>700</ItemNum>
+		<ItemQty>123</ItemQty>
+	</testcase>
+	
+	<testcase id="CSR_enters_ValidItemNo2_InvalidItemNo2_Qty">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>5203857</AcNum>
+  		<FlyerCode>Z8A16</FlyerCode>
+  		<ItemNum>700</ItemNum>
+  		<ItemQty>1</ItemQty>
+		<ItemNum2>701</ItemNum2>
+		<ItemQty2>2</ItemQty2>
+		<ItemNum3>123asd</ItemNum3>
+		<ItemQty3>2</ItemQty3>
+		<ItemNum4>sdf124</ItemNum4>
+		<ItemQty4>2</ItemQty4>
+	</testcase>
+	
+	<testcase id="CSR_sees_err_msg_for_Flyer_is_Invalid">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>5205639</AcNum>
+  		<FlyerCode>asd123</FlyerCode>
+	</testcase>
+	
+	<testcase id="CSR_enters_ValidItemNo_InvalidItemNo_ItemNoBlak_Qty">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>5245023</AcNum>
+  		<FlyerCode>Z8A16</FlyerCode>
+  		<ItemNum>700</ItemNum>
+  		<ItemQty>1</ItemQty>
+		<ItemNum2>701ds</ItemNum2>
+		<ItemQty2>2</ItemQty2>
+		<ItemNum3></ItemNum3>
+		<ItemQty3>2</ItemQty3>
+	</testcase>
+	
+	<testcase id="CSR_sees_err_msg_You_must_enter_an_item_Number">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>5245271</AcNum>
+  		<ItemNum></ItemNum>
+  		<ItemQty>1</ItemQty>
+	</testcase>
+	
+	<testcase id="CSR_sees_err_msg_You_must_enter_a_qty">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>5254511</AcNum>
+  		<ItemNum>700</ItemNum>
+  		<ItemQty></ItemQty>
+	</testcase>
+	
+	<testcase id="CSR_enters_NoFlyerCode_InvalidItemNo_ValidItemNo_QTY_ClickContinue">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>5283908</AcNum>
+  		<ItemNum>1ELF9</ItemNum>
+  		<ItemQty>1</ItemQty>
+  		<ItemNum2>1EL123</ItemNum2>
+  		<ItemQty2>2</ItemQty2>
+	</testcase>
+	
+	<testcase id="CSR_enters_NoFlyerCode_InvalidItemNo_ValidItemNo_QTY_ClickCancel">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>5288370</AcNum>
+  		<ItemNum>123abc</ItemNum>
+  		<ItemQty>1</ItemQty>
+  		<ItemNum2>1ELF9</ItemNum2>
+  		<ItemQty2>2</ItemQty2>
+	</testcase>
+
+</testdata>
