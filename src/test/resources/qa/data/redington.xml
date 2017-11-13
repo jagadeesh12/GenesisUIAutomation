@@ -19,6 +19,24 @@
 		<password>Pass@123</password>
 		<userFm>fm6.qa@mailinator.com</userFm>
 		<passFm>Pass@123</passFm>
+		<userBam>bam@axsup.net</userBam>
+		<passBam>Pass@123</passBam>
+		<orgname>Burhani Computers Trading LLC</orgname>
+		<mpnId>991450</mpnId>
+		<orgAdd1>Address1</orgAdd1>
+		<orgAdd2>Address2</orgAdd2>
+		<orgAdd3>Address3</orgAdd3>
+		<postalCode>75001</postalCode>
+		<region>Middle East</region>
+		<country>ARE</country>
+		<city>Dubai</city>
+		<signAuth>John</signAuth>
+		<signAuthEmail>pm6.qa@mailinator.com</signAuthEmail>
+		<partnerSegment>Managed Service Provider</partnerSegment>
+		<tradeLi>32453212</tradeLi>
+		<tradeLicCal>01.11.2017 - 01.11.2018</tradeLicCal>
+		<filePath>/home/rle0502/Downloads/litpro-test/src/test/resources/upload_files/test.jpg</filePath>
+		
 	
 	</testcase>
 </testdata>

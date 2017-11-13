@@ -19,6 +19,7 @@ import com.dw.automation.support.SCHUtils;
 import com.scholastic.cucumber.uploadResults.WrapperFunctions;
 import com.scholastic.torque.common.AssertUtils;
 import com.scholastic.torque.common.BaseTestPage;
+import com.scholastic.torque.common.TestBase;
 import com.scholastic.torque.common.TestBaseProvider;
 import com.scholastic.torque.common.TestPage;
 
@@ -288,6 +289,7 @@ public class PartnerUserPageImpl extends BaseTestPage<TestPage> implements Partn
 	
 	WrapperFunctions wf = new WrapperFunctions();
 	WebDriver driver=TestBaseProvider.getTestBase().getDriver();
+	TestBase testBase = TestBaseProvider.getTestBase();
 
 
 	
@@ -375,7 +377,7 @@ public class PartnerUserPageImpl extends BaseTestPage<TestPage> implements Partn
 	}
 
 	public void launchMailApplication() {
-		driver.get(TestBaseProvider.getTestBase().getTestData().getString("mailUrl"));
+		testBase.getDriver().get(testBase.getString("MailinatorURL"));
 		
 	}
 
@@ -421,7 +423,7 @@ public class PartnerUserPageImpl extends BaseTestPage<TestPage> implements Partn
 
 	@Override
 	public void launchApplication() {
-		driver.get(TestBaseProvider.getTestBase().getTestData().getString("appUrl"));		
+		testBase.getDriver().get(testBase.getString("url"));		
 	}
 	
 

@@ -16,6 +16,7 @@ import com.dw.automation.pages.IStudentFlyerOrdersPage;
 import com.dw.automation.pages.PartnerUserPage;
 import com.dw.automation.pages.RLoginPage;
 import com.dw.automation.support.PauseUtil;
+import com.scholastic.torque.common.TestBaseProvider;
 
 import cucumber.api.java.en.Given;
 
@@ -23,16 +24,17 @@ public class PartnerUserSteps {
 	
 
 
-    public String email;
-    public String verificationCode;
-    public String resetPassword;
+     String email;
+     String verificationCode;
+     String resetPassword;
     
     PartnerUserPage pup = getFactory().getPartnerUserPage();
+    
 
 	
     @Given("^I launch the application as a site admin\\[UserInformation\\]$")
     public void i_launch_the_application_as_a_site_adminuserinformation() throws Throwable {
-		System.out.println("Login started steps");
+		System.out.println("Login started steps"+TestBaseProvider.getTestBase().getString("MailinatorURL"));
 
         //PartnerUserPage pup = getFactory().getPartnerUserPage();
         pup.loginApplication();
@@ -44,6 +46,7 @@ public class PartnerUserSteps {
     public void i_fill_partner_user_form() throws Throwable {
        // PartnerUserPage pup = getFactory().getPartnerUserPage();
         email = pup.fillPartnerUserForm();
+        
         System.out.println("Registering with following EmailID :"+email);
 
     }
@@ -63,6 +66,7 @@ public class PartnerUserSteps {
     @Then("^I get the verification code$")
     public void i_get_the_verification_code() throws Throwable {
         verificationCode = pup.gettingVerificationCode(email);
+        
         System.out.println("Verification code:"+verificationCode);
     }
     
@@ -83,12 +87,14 @@ public class PartnerUserSteps {
     	System.out.println("I reset the password method===============");
 
     	resetPassword = pup.resetPassword(verificationCode);
+    	
+    	
     }
 
     @Then("^I login with new username and reset password$")
     public void i_login_with_new_username_and_reset_password() throws Throwable {
-    	email = "pmfn_11112341@mailinator.com";
-    	resetPassword = "Pass@123";
+//    	email = "pmfn_11112341@mailinator.com";
+//    	resetPassword = "Pass@123";
     	pup.loginUserCredentials(email,resetPassword);
     }
 
@@ -96,5 +102,7 @@ public class PartnerUserSteps {
     public void i_view_the_partner_user_detail() throws Throwable {
     	pup.viewUserDetails(email);
     }
+    
+
 
 }

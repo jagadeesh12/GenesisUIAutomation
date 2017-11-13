@@ -21,6 +21,7 @@ import com.dw.automation.pages.IYourTeacherOrderPage;
 import com.dw.automation.pages.PCOD_ILoginPage;
 import com.dw.automation.pages.PCOD_IShippingAndPaymentPage;
 import com.dw.automation.pages.impl.MarketPlacePageImpl;
+import com.dw.automation.pages.impl.OrgCreateAndApproveImpl;
 import com.dw.automation.pages.impl.PCOD_ShippingAndPaymentPage;
 import com.dw.automation.pages.impl.PartnerUserPageImpl;
 import com.dw.automation.pages.impl.ReLoginPage;
@@ -51,6 +52,8 @@ public abstract class PageFactory {
 		}
 		return null; 
 	}
+	
+	public abstract OrgCreateAndApproveImpl getOrgCreateAndApprovePage();
 
 	public abstract MarketPlacePageImpl getMarketPlacePage();
 	
@@ -108,6 +111,11 @@ public abstract class PageFactory {
 	
 
 	public static class BrowserPageFactory extends PageFactory {
+		
+		@Override
+		public OrgCreateAndApproveImpl getOrgCreateAndApprovePage() {
+			return new OrgCreateAndApproveImpl();
+		}
 		
 		@Override
 		public MarketPlacePageImpl getMarketPlacePage() {

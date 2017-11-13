@@ -56,6 +56,19 @@ public class MarketplacePageSteps {
 	public void i_should_see_the_Product_that_has_been_ordered_is_approved() throws Throwable {
 		Assert.assertTrue("Order not approved ",mpp.orderStatus(orderNumber).contains("APPROVED"));
 	}
+	
+	@Then("^I reject the product that has been ordered$")
+	public void i_reject_the_product_that_has_been_ordered() throws Throwable {
+		status = "Rejected";
+		Assert.assertTrue("Order not approved ",mpp.order(orderNumber,status).contains("REJECTED"));
+	}
+
+	@Then("^I should see the Product that has been ordered is rejected$")
+	public void i_should_see_the_Product_that_has_been_ordered_is_rejected() throws Throwable {
+		Assert.assertTrue("Order not approved ",mpp.orderStatus(orderNumber).contains("REJECTED"));
+
+	}
+	
 
 
 }

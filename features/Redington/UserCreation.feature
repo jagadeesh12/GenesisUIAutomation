@@ -12,14 +12,12 @@ Feature: Partner user creation.
     Given I launch the application
     Then I login with new username and reset password
     Then I view the partner user detail
+
+
     Examples:
 	|UsingData     |
 	|RedingtonLogin|
-	
 
-
-       
-       
 
 
   
