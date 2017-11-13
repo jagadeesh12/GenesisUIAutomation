@@ -9,6 +9,7 @@
  <parameter name="tdm.data" value="off"/> -->
  <parameter name="url"
             value="https://test.redington.market/"/>
+            
 <!--  <test name="PartnerUserCreation" enabled="true">
   <parameter name="driver.name" value="Firefox"/>
   <parameter name="features" value="features/Redington/UserCreation.feature"/>
@@ -18,16 +19,15 @@
   <classes>
    <class name="com.scholastic.torque.runner.Run" />
   </classes>
- </test> -->
+ </test>  -->
  
- <test name="OrderApproval" enabled="true">
+<test name="OrderApproval" enabled="true">
   <parameter name="driver.name" value="Firefox"/>
-  <parameter name="features" value="features/Redington/UserCreation.feature"/>
+  <parameter name="features" value="features/Redington/OrderApproval.feature"/>
   <parameter name="driver.capabilities"
              value="{'version': '11.0','platform':'Windows 10','name':'P1-Review cart Scenarios'}" />
   <classes>
    <class name="com.scholastic.torque.runner.Run" />
   </classes>
- </test>
-
-</suite>
+</test>
+ </suite>

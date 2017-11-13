@@ -10,6 +10,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.Select;
+import org.testng.Assert;
 
 import com.dw.automation.pages.PartnerUserPage;
 import com.dw.automation.support.ConstantUtils;
@@ -133,13 +134,19 @@ public class PartnerUserPageImpl extends BaseTestPage<TestPage> implements Partn
 	@FindBy(locator = "rd.sa.userpage.icon.userinfo")
 	private WebElement userinfoIcon;
 	
-/*	@FindBy(locator = "	rd.sa.homepage.popUp.btn.close")
+	@FindBy(locator = "rd.user.homepage.popup.addorgnization")
 	private WebElement popUpCloseBtn;
 	
-
+	@FindBy(locator = "rd.user.userdetailspage.text.name")
+	private WebElement getUserNameTxt;
+	
+	public WebElement getgetUserNameTxt() {
+		return getUserNameTxt;
+	}
+	
 	public WebElement getpopUpCloseBtn() {
 		return popUpCloseBtn;
-	}*/	
+	}
 	
 	public WebElement getsiteAdminDrpDwn() {
 		return siteAdminDrpDwn;
@@ -390,21 +397,22 @@ public class PartnerUserPageImpl extends BaseTestPage<TestPage> implements Partn
 		return newPassword;
 	}
 
-	@Override
 	public void viewUserDetails(String email) {
+		System.out.println("User details function is started");
 		//PauseUtil.waitTillDisappear(loadingImg,80);
 		PauseUtil.pause(4000);
-		driver.findElement(By.xpath("//*[@id='myModalnewUser']/div/div/div[1]/button")).click();
-		//wf.click_element(getpopUpCloseBtn());
+		wf.click_element(getpopUpCloseBtn());
 		wf.click_element(getsiteAdminDrpDwn());
 		wf.click_element(getAccountmgtOption());
 		wf.click_element(getuserOption());
 		getsearchTxtBox().sendKeys(email);
-		getsearchBtn().click();
+		wf.click_element(getsearchBtn());
 		PauseUtil.pause(4000);
-
-//		PauseUtil.waitTillDisappear(loadingImg,80);
 		wf.click_element(getuserinfoIcon());
+		PauseUtil.pause(3000);
+
+		System.out.println(getgetUserNameTxt().getText() + " : " + email );
+		Assert.assertEquals(email, getgetUserNameTxt().getText());
 
 		
 		

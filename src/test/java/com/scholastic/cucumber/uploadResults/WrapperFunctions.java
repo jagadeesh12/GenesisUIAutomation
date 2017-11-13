@@ -85,12 +85,14 @@ public class WrapperFunctions extends Schemas {
 	}
 	
 	public void click_element(WebElement element) {
-		SCHUtils.waitForLoaderToDismiss();
-		PauseUtil.waitForAjaxToComplete(2500);
-		PauseUtil.pause(1500);
+
 		SCHUtils.waitForElementToBeClickable(element, 30);
+		try {
+			element.click();
+		}catch(Exception e) {
 		SCHUtils.clickUsingJavaScript(element);
-		PauseUtil.pause(1500);
+		e.printStackTrace();
+		}
 	}
 	
 
