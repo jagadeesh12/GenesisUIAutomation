@@ -50,4 +50,41 @@ public class OrgCreateAndApproveSteps {
 		status = "Approve";
 		oca.verifyOrg(domainName,status);
 	}
+	
+	@Given("^I reject the organization$")
+	public void i_reject_the_organization() throws Throwable {
+		status = "Reject";
+		oca.approveOrg(domainName,status);
+	}
+
+	@Given("^I verify that the organization is rejected$")
+	public void i_verify_that_the_organization_is_rejected() throws Throwable {
+		status = "Reject";
+		oca.verifyOrg(domainName,status);
+	}
+	
+	@Given("^I onhold the organization$")
+	public void i_onhold_the_organization() throws Throwable {
+		status= "Onhold";
+		oca.approveOrg(domainName,status);
+	}
+
+	@Given("^I verify that the organization is onhold$")
+	public void i_verify_that_the_organization_is_onhold() throws Throwable {
+		status= "Onhold";
+		oca.verifyOrg(domainName,status);
+
+	}
+	
+	@Given("^I reject the organization as CA$")
+	public void i_reject_the_organization_as_CA() throws Throwable {
+		status = "Reject";
+		oca.approveOrgAsCA(domainName,status);
+	}
+	
+    @Given("^I onhold the organization as CA$")
+    public void i_onhold_the_organization_as_CA() throws Throwable {
+		status = "Onhold";
+		oca.approveOrgAsCA(domainName,status);
+    }
 }

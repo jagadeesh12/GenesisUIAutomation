@@ -346,6 +346,12 @@ public class OrgCreateAndApproveImpl extends BaseTestPage<TestPage> implements O
 		return statusTxtPM;
 	}
 	
+	@FindBy(locator = "rd.orgonboard.bam.btn.rejectUpdate")
+	private WebElement rejectUpdateBAM;
+	
+	public WebElement getrejectUpdateBAM() {
+		return rejectUpdateBAM;
+	}
 	
 	WrapperFunctions wf = new WrapperFunctions();
 	WebDriver driver=TestBaseProvider.getTestBase().getDriver();
@@ -369,15 +375,11 @@ public class OrgCreateAndApproveImpl extends BaseTestPage<TestPage> implements O
 		wf.click_element(getOrgAddBtn());
 		String orgName = testBase.getTestData().getString("orgname");
 		String mpnId = testBase.getTestData().getString("mpnId");
-		
+		PauseUtil.pause(2000);
 		
 		getOrgNameTxtBox().sendKeys(orgName);
 		getMPNIDtxtBox().sendKeys(mpnId);
 		PauseUtil.pause(2000);
-		wf.click_element(getmpnVerifyBtn());	
-		RUtils.waitforloadingtodissappear();
-		getOrgNameTxtBox().sendKeys(orgName);
-		getMPNIDtxtBox().sendKeys(mpnId);
 		wf.click_element(getmpnVerifyBtn());	
 		RUtils.waitforloadingtodissappear();
 		PauseUtil.pause(10000);
@@ -483,10 +485,29 @@ public class OrgCreateAndApproveImpl extends BaseTestPage<TestPage> implements O
 			
 			getcommentTxtBox().sendKeys("APPROVED");
 			wf.click_element(getupdateBtn());
+			PauseUtil.pause(2000);
 			boolean statusApp = getstatusTxt().getText().contains("APPROVED");
 			Assert.assertTrue("BAM Approval scenario failed",statusApp);
 			break;
-
+		case "Reject":
+			PauseUtil.pause(3000);
+			SCHUtils.selectOptionByvalue(getstatusSelectBox(), "2: REJECTED");
+			getcommentTxtBox().sendKeys("REJECTED");
+			wf.click_element(getrejectUpdateBAM());
+			PauseUtil.pause(3000);
+			boolean statusReject = getstatusTxt().getText().contains("REJECTED");
+			Assert.assertTrue("BAM Approval scenario failed",statusReject);
+			break;
+		
+		case "Onhold":
+			PauseUtil.pause(3000);
+			SCHUtils.selectOptionByvalue(getstatusSelectBox(), "3: ONHOLD");
+			getcommentTxtBox().sendKeys("ONHOLD");
+			wf.click_element(getrejectUpdateBAM());
+			PauseUtil.pause(3000);
+			boolean statusOnhold = getstatusTxt().getText().contains("ONHOLD");
+			Assert.assertTrue("BAM Approval scenario failed",statusOnhold);
+			break;
 		
 		}
 		
@@ -513,10 +534,32 @@ public class OrgCreateAndApproveImpl extends BaseTestPage<TestPage> implements O
 			SCHUtils.selectOptionByvalue(getcurrencySelect(), "2: USD");
 			getcommentTxtBox().sendKeys("APPROVED");
 			wf.click_element(getupdateBtn());
+			PauseUtil.pause(2000);
 			boolean statusApp = getstatusTxt().getText().contains("APPROVED");
 			Assert.assertTrue("CA Approval scenario failed",statusApp);
 			break;
-			}
+			
+		case "Reject":
+			PauseUtil.pause(3000);
+			SCHUtils.selectOptionByvalue(getstatusSelectBox(), "2: REJECTED");
+			getcommentTxtBox().sendKeys("REJECTED");
+			wf.click_element(getrejectUpdateBAM());
+			PauseUtil.pause(3000);
+			boolean statusReject = getstatusTxt().getText().contains("REJECTED");
+			Assert.assertTrue("BAM Approval scenario failed",statusReject);
+			break;
+			
+		case "Onhold":
+			PauseUtil.pause(3000);
+			SCHUtils.selectOptionByvalue(getstatusSelectBox(), "3: ONHOLD");
+			getcommentTxtBox().sendKeys("ONHOLD");
+			wf.click_element(getrejectUpdateBAM());
+			PauseUtil.pause(3000);
+			boolean statusOnhold = getstatusTxt().getText().contains("ONHOLD");
+			Assert.assertTrue("BAM Approval scenario failed",statusOnhold);
+			break;
+			}	
+			
 
 		
 		
@@ -531,6 +574,17 @@ public class OrgCreateAndApproveImpl extends BaseTestPage<TestPage> implements O
 			case "Approve":
 				boolean statusApp = getstatusTxtPM().getText().contains("APPROVED");
 				Assert.assertTrue("PM Verification scenario failed",statusApp);
+				break;
+				
+			case "Reject":
+				boolean statusReject = getstatusTxtPM().getText().contains("REJECTED");
+				Assert.assertTrue("PM Verification scenario failed",statusReject);
+				break;
+				
+			case "Onhold":
+				boolean statusOnhold = getstatusTxtPM().getText().contains("ONHOLD");
+				Assert.assertTrue("PM Verification scenario failed",statusOnhold);
+				break;
 			}
 	}
 
@@ -543,4 +597,5 @@ public class OrgCreateAndApproveImpl extends BaseTestPage<TestPage> implements O
 		
 	}
 
+	
 }
