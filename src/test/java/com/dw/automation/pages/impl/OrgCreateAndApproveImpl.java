@@ -332,6 +332,21 @@ public class OrgCreateAndApproveImpl extends BaseTestPage<TestPage> implements O
 		return currencySelect;
 	}
 	
+	@FindBy(locator = "rd.orgonboard.pm.btn.search")
+	private WebElement searchBtnPm;
+	
+	public WebElement getsearchBtnPm() {
+		return searchBtnPm;
+	}
+	
+	@FindBy(locator = "rd.orgonboard.pm.txt.status")
+	private WebElement statusTxtPM;
+	
+	public WebElement getstatusTxtPM() {
+		return statusTxtPM;
+	}
+	
+	
 	WrapperFunctions wf = new WrapperFunctions();
 	WebDriver driver=TestBaseProvider.getTestBase().getDriver();
 	TestBase testBase = TestBaseProvider.getTestBase();
@@ -431,7 +446,7 @@ public class OrgCreateAndApproveImpl extends BaseTestPage<TestPage> implements O
 		JavascriptExecutor je = (JavascriptExecutor) driver;
         je.executeScript("arguments[0].scrollIntoView(true);",getorgsaveBtn());
 		wf.click_element(getiagreechkbox());
-		//wf.click_element(getorgsaveBtn());
+		wf.click_element(getorgsaveBtn());
 		RUtils.waitforloadingtodissappear();
 		boolean partnerEnity = getffileUploadPopup().getText().contains(RConstantUtils.ORG_CREATE_SUCCESS);
         Assert.assertTrue("Partner Entity not created succesfully",partnerEnity);
@@ -460,6 +475,7 @@ public class OrgCreateAndApproveImpl extends BaseTestPage<TestPage> implements O
 		wf.click_element(getapproveIcon());
 		switch(status){    
 		case "Approve":
+			PauseUtil.pause(3000);
 			SCHUtils.selectOptionByvalue(getstatusSelectBox(), "1: APPROVED");
 			getbamCredittxtBox().clear();
 			getbamCredittxtBox().sendKeys(testBase.getTestData().getString("credit"));
@@ -467,7 +483,7 @@ public class OrgCreateAndApproveImpl extends BaseTestPage<TestPage> implements O
 			
 			getcommentTxtBox().sendKeys("APPROVED");
 			wf.click_element(getupdateBtn());
-			boolean statusApp = getffileUploadPopup().getText().contains("APPROVED");
+			boolean statusApp = getstatusTxt().getText().contains("APPROVED");
 			Assert.assertTrue("BAM Approval scenario failed",statusApp);
 			break;
 
@@ -490,13 +506,14 @@ public class OrgCreateAndApproveImpl extends BaseTestPage<TestPage> implements O
 		wf.click_element(getapproveIcon());		
 		switch(status){    
 		case "Approve":
+			PauseUtil.pause(3000);
 			SCHUtils.selectOptionByvalue(getstatusSelectBox(), "1: APPROVED");
 			SCHUtils.selectOptionByvalue(getcompCodeSelect(), "2: 1120/Redington Middleeast");
 			SCHUtils.selectOptionByvalue(getpaymentSelect(), "1: 30 Days from Invoice date");
 			SCHUtils.selectOptionByvalue(getcurrencySelect(), "2: USD");
 			getcommentTxtBox().sendKeys("APPROVED");
 			wf.click_element(getupdateBtn());
-			boolean statusApp = getffileUploadPopup().getText().contains("APPROVED");
+			boolean statusApp = getstatusTxt().getText().contains("APPROVED");
 			Assert.assertTrue("CA Approval scenario failed",statusApp);
 			break;
 			}
@@ -505,10 +522,16 @@ public class OrgCreateAndApproveImpl extends BaseTestPage<TestPage> implements O
 		
 	}
 
-	@Override
-	public void verifyOrg(String domainName, String status) {
 	
-		
+	public void verifyOrg(String domainName, String status) {
+		goToOrgPage();
+		getbamSearchTxtBox().sendKeys(domainName);
+		wf.click_element(getsearchBtnPm());
+		switch (status) {
+			case "Approve":
+				boolean statusApp = getstatusTxtPM().getText().contains("APPROVED");
+				Assert.assertTrue("PM Verification scenario failed",statusApp);
+			}
 	}
 
 	@Override

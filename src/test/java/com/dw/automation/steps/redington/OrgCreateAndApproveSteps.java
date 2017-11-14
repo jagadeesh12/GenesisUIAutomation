@@ -30,7 +30,7 @@ public class OrgCreateAndApproveSteps {
 
 	@Then("^I approve the organization$")
 	public void i_approve_the_organization() throws Throwable {
-
+		status = "Approve";
 		oca.approveOrg(domainName,status);
 	}
 
@@ -41,14 +41,13 @@ public class OrgCreateAndApproveSteps {
 
 	@Then("^I approve the organization as CA$")
 	public void i_approve_the_organization_as_CA() throws Throwable {
-		domainName = "www.pmfn14111215.com";
 		status = "Approve";
 		oca.approveOrgAsCA(domainName,status);
 	}
 
 	@Given("^I verify that the organization is approved$")
 	public void i_verify_that_the_organization_is_approved() throws Throwable {
-
+		status = "Approve";
 		oca.verifyOrg(domainName,status);
 	}
 }
