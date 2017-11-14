@@ -8,6 +8,12 @@ public interface OrgCreateAndApprovePage {
 
 	void loginApplicationAsBAM();
 
-	void approveOrg(String domainName);
+	void approveOrg(String domainName, String status);
+
+	void approveOrgAsCA(String domainName, String status);
+
+	void verifyOrg(String domainName, String status);
+
+	void loginApplicationAsCA();
 
 }

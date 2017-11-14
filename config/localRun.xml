@@ -8,9 +8,19 @@
  <parameter name="testdata" value="qa/data"/>
  <parameter name="tdm.data" value="off"/> -->
  <parameter name="url"
-            value="https://test.redington.market/"/>
+            value="https://dev.redington.market/"/>
             
-  <parameter name="MailinatorURL" value="https://www.mailinator.com/"/>            
+  <parameter name="MailinatorURL" value="https://www.mailinator.com/"/>  
+  <parameter name="userBAM" value="bam@ecocap.ml"/>   
+  <parameter name="passBAM" value="Pass@123"/> 
+  <parameter name="userCA" value="ca@hantem.bid"/>   
+  <parameter name="passCA" value="Pass@123"/> 
+  <parameter name="userSA" value="sa11@cmc88.tk"/>   
+  <parameter name="passSA" value="Pass@123"/> 
+  <parameter name="userFM" value="fm14@mailinator.com"/>   
+  <parameter name="passFM" value="Pass@123"/> 
+  <parameter name="userPM" value="pm14@mailinator.com"/>   
+  <parameter name="passPM" value="Pass@123"/>       
             
 <!--  <test name="PartnerUserCreation" enabled="true">
   <parameter name="driver.name" value="Firefox"/>

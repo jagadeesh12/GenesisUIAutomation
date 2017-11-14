@@ -241,7 +241,7 @@ public class OrgCreateAndApproveImpl extends BaseTestPage<TestPage> implements O
 		return bamUserMenu;
 	}
 	
-	@FindBy(locator = "rrd.orgonboard.bam.txtbox.search")
+	@FindBy(locator = "rd.orgonboard.bam.txtbox.search")
 	private WebElement bamSearchTxtBox;
 	
 	public WebElement getbamSearchTxtBox() {
@@ -255,10 +255,86 @@ public class OrgCreateAndApproveImpl extends BaseTestPage<TestPage> implements O
 		return bamSearchBtn;
 	}
 	
+	@FindBy(locator = "rd.orgonboard.fileUpload")
+	private WebElement logoUpload;
+	
+	public WebElement getlogoUpload() {
+		return logoUpload;
+	}
+	
+	@FindBy(locator = "rd.orgonboard.bam.icon.approve")
+	private WebElement approveIcon;
+	
+	public WebElement getapproveIcon() {
+		return approveIcon;
+	}
+	
+	@FindBy(locator = "rd.orgonboard.bam.drpdwn.status")
+	private WebElement statusSelectBox;
+	
+	public WebElement getstatusSelectBox() {
+		return statusSelectBox;
+	}
+	
+	@FindBy(locator = "rd.orgonboard.bam.txtbox.credit")
+	private WebElement bamCredittxtBox;
+	
+	public WebElement getbamCredittxtBox() {
+		return bamCredittxtBox;
+	}
+	
+	@FindBy(locator = "rd.orgonboard.bam.rdBtn.finApp")
+	private WebElement rdBtnFinApp;
+	
+	public WebElement getrdBtnFinApp() {
+		return rdBtnFinApp;
+	}
+	
+	@FindBy(locator = "rd.orgonboard.bam.txtbox.comment")
+	private WebElement commentTxtBox;
+	
+	public WebElement getcommentTxtBox() {
+		return commentTxtBox;
+	}
+	
+	@FindBy(locator = "rd.orgonboard.bam.btn.update")
+	private WebElement updateBtn;
+	
+	public WebElement getupdateBtn() {
+		return updateBtn;
+	}
+	
+	@FindBy(locator = "rd.orgonboard.bam.status.txt")
+	private WebElement statusTxt;
+	
+	public WebElement getstatusTxt() {
+		return statusTxt;
+	}
+	
+	@FindBy(locator = "rd.orgonboard.ca.drpdwm.compCode")
+	private WebElement compCodeSelect;
+	
+	public WebElement getcompCodeSelect() {
+		return compCodeSelect;
+	}
+	
+	@FindBy(locator = "rd.orgonboard.ca.drpdwm.paymentTerm")
+	private WebElement paymentSelect;
+	
+	public WebElement getpaymentSelect() {
+		return paymentSelect;
+	}
+	
+	@FindBy(locator = "rd.orgonboard.ca.drpdwm.currency")
+	private WebElement currencySelect;
+	
+	public WebElement getcurrencySelect() {
+		return currencySelect;
+	}
 	
 	WrapperFunctions wf = new WrapperFunctions();
 	WebDriver driver=TestBaseProvider.getTestBase().getDriver();
-	TestBase testbase = TestBaseProvider.getTestBase();
+	TestBase testBase = TestBaseProvider.getTestBase();
 	@Override
 	protected void openPage() {
 		// TODO Auto-generated method stub
@@ -276,37 +352,42 @@ public class OrgCreateAndApproveImpl extends BaseTestPage<TestPage> implements O
 
 	public String fillOrgForm() {
 		wf.click_element(getOrgAddBtn());
-		String orgName = testbase.getTestData().getString("orgname");
-		String mpnId = testbase.getTestData().getString("mpnId");
+		String orgName = testBase.getTestData().getString("orgname");
+		String mpnId = testBase.getTestData().getString("mpnId");
 		
 		
 		getOrgNameTxtBox().sendKeys(orgName);
 		getMPNIDtxtBox().sendKeys(mpnId);
-		wf.click_element(getmpnVerifyBtn());
-		PauseUtil.pause(3000);
+		PauseUtil.pause(2000);
+		wf.click_element(getmpnVerifyBtn());	
 		RUtils.waitforloadingtodissappear();
 		getOrgNameTxtBox().sendKeys(orgName);
-		getorgaddr1TxtBox().sendKeys(testbase.getTestData().getString("orgAdd1"));
-		getorgaddr2TxtBox().sendKeys(testbase.getTestData().getString("orgAdd2"));
-		getorgaddr3TxtBox().sendKeys(testbase.getTestData().getString("orgAdd3"));
-		getpostalcodeTxtBox().sendKeys(testbase.getTestData().getString("postalCode"));
-		SCHUtils.selectOptionByvalue(getregionDrpDwn(), testbase.getTestData().getString("region"));
-		SCHUtils.selectOptionByvalue(getcountryDrpDwn(), testbase.getTestData().getString("country"));
-		SCHUtils.selectOptionByvalue(getorgcity(), testbase.getTestData().getString("city"));
+		getMPNIDtxtBox().sendKeys(mpnId);
+		wf.click_element(getmpnVerifyBtn());	
+		RUtils.waitforloadingtodissappear();
+		PauseUtil.pause(10000);
+		getorgaddr1TxtBox().sendKeys(testBase.getTestData().getString("orgAdd1"));
+		getorgaddr2TxtBox().sendKeys(testBase.getTestData().getString("orgAdd2"));
+		getorgaddr3TxtBox().sendKeys(testBase.getTestData().getString("orgAdd3"));
+		getpostalcodeTxtBox().sendKeys(testBase.getTestData().getString("postalCode"));
+		SCHUtils.selectOptionByvalue(getregionDrpDwn(), testBase.getTestData().getString("region"));
+		SCHUtils.selectOptionByvalue(getcountryDrpDwn(), testBase.getTestData().getString("country"));
+		//SCHUtils.selectOptionByvalue(getorgcity(), testBase.getTestData().getString("city"));
+		getorgcity().sendKeys(testBase.getTestData().getString("city"));
 
 		String number = null;
 		getorgmobile().sendKeys(RandomDataUtil.getPhoneNumber(number));
 		getorgphone().sendKeys(RandomDataUtil.getPhoneNumber(number));
-		getorgsignauthname().sendKeys(testbase.getTestData().getString("signAuth"));
-		getorgsignauthemail().sendKeys(testbase.getTestData().getString("signAuthEmail"));
+		getorgsignauthname().sendKeys(testBase.getTestData().getString("signAuth"));
+		getorgsignauthemail().sendKeys(testBase.getTestData().getString("signAuthEmail"));
 		wf.click_element(getorgfinapproval());
-		SCHUtils.selectOptionByvalue(getorgpartnersegmnt(), testbase.getTestData().getString("partnerSegment"));
+		SCHUtils.selectOptionByvalue(getorgpartnersegmnt(), testBase.getTestData().getString("partnerSegment"));
 		String name = RUtils.generateName();
 		String domainName = "www."+name+".com";
 		getorgcompdomain().sendKeys(domainName);
-		getorgtradelic().sendKeys(testbase.getTestData().getString("tradeLi"));
-		getorgtradecalendar().sendKeys(testbase.getTestData().getString("tradeLicCal"));
-		getorgvatid().sendKeys(testbase.getTestData().getString("tradeLi"));
+		getorgtradelic().sendKeys(testBase.getTestData().getString("tradeLi"));
+		getorgtradecalendar().sendKeys(testBase.getTestData().getString("tradeLicCal"));
+		getorgvatid().sendKeys(testBase.getTestData().getString("tradeLi"));
 		PauseUtil.pause(30000);
 		
 //		String filePath = testbase.getContext().getString("filePath");
@@ -350,7 +431,7 @@ public class OrgCreateAndApproveImpl extends BaseTestPage<TestPage> implements O
 		JavascriptExecutor je = (JavascriptExecutor) driver;
         je.executeScript("arguments[0].scrollIntoView(true);",getorgsaveBtn());
 		wf.click_element(getiagreechkbox());
-		wf.click_element(getorgsaveBtn());
+		//wf.click_element(getorgsaveBtn());
 		RUtils.waitforloadingtodissappear();
 		boolean partnerEnity = getffileUploadPopup().getText().contains(RConstantUtils.ORG_CREATE_SUCCESS);
         Assert.assertTrue("Partner Entity not created succesfully",partnerEnity);
@@ -361,22 +442,81 @@ public class OrgCreateAndApproveImpl extends BaseTestPage<TestPage> implements O
 	
 	public void loginApplicationAsBAM() {
 
-		String username = TestBaseProvider.getTestBase().getTestData().getString("userBam");
-		String password = TestBaseProvider.getTestBase().getTestData().getString("passBam");
+		String username = testBase.getString("userBAM");
+		String password = testBase.getString("passBAM");
 		RUtils.login(username,password);
         PauseUtil.waitForAjaxToComplete(4000);
 		
 	}
 
 	
-	public void approveOrg(String domainName) {
+	public void approveOrg(String domainName, String status) {
 		wf.click_element(getbamUserMenu());
 		wf.click_element(getAccountMgtMenu());
 		wf.click_element(getOrganizationMenu());
 		PauseUtil.pause(3000);
 		getbamSearchTxtBox().sendKeys(domainName);
 		wf.click_element(getbamSearchBtn());
+		wf.click_element(getapproveIcon());
+		switch(status){    
+		case "Approve":
+			SCHUtils.selectOptionByvalue(getstatusSelectBox(), "1: APPROVED");
+			getbamCredittxtBox().clear();
+			getbamCredittxtBox().sendKeys(testBase.getTestData().getString("credit"));
+			wf.click_element(getrdBtnFinApp());
+			
+			getcommentTxtBox().sendKeys("APPROVED");
+			wf.click_element(getupdateBtn());
+			boolean statusApp = getffileUploadPopup().getText().contains("APPROVED");
+			Assert.assertTrue("BAM Approval scenario failed",statusApp);
+			break;
+
 		
+		}
+		
+		
+	}
+
+	public void approveOrgAsCA(String domainName, String status) {
+		wf.click_element(getbamUserMenu());
+		wf.click_element(getAccountMgtMenu());
+		wf.click_element(getOrganizationMenu());
+		PauseUtil.pause(3000);
+		System.out.println("DOMAIN NAME :"+domainName);
+		getbamSearchTxtBox().sendKeys(domainName);
+		PauseUtil.pause(3000);
+		wf.click_element(getbamSearchBtn());
+		PauseUtil.pause(3000);
+		wf.click_element(getapproveIcon());		
+		switch(status){    
+		case "Approve":
+			SCHUtils.selectOptionByvalue(getstatusSelectBox(), "1: APPROVED");
+			SCHUtils.selectOptionByvalue(getcompCodeSelect(), "2: 1120/Redington Middleeast");
+			SCHUtils.selectOptionByvalue(getpaymentSelect(), "1: 30 Days from Invoice date");
+			SCHUtils.selectOptionByvalue(getcurrencySelect(), "2: USD");
+			getcommentTxtBox().sendKeys("APPROVED");
+			wf.click_element(getupdateBtn());
+			boolean statusApp = getffileUploadPopup().getText().contains("APPROVED");
+			Assert.assertTrue("CA Approval scenario failed",statusApp);
+			break;
+			}
+
+		
+		
+	}
+
+	@Override
+	public void verifyOrg(String domainName, String status) {
+	
+		
+	}
+
+	@Override
+	public void loginApplicationAsCA() {
+		String username = testBase.getString("userCA");
+		String password = testBase.getString("passCA");
+		RUtils.login(username,password);
+        PauseUtil.waitForAjaxToComplete(4000);
 		
 	}
 

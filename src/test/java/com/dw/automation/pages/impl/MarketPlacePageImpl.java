@@ -219,8 +219,8 @@ public class MarketPlacePageImpl extends BaseTestPage<TestPage> implements Marke
 	@Override
 	public void loginApplicationAsPM() {
 		System.out.println("Order Placement started.");
-		String username = TestBaseProvider.getTestBase().getTestData().getString("userid");
-		String password = TestBaseProvider.getTestBase().getTestData().getString("password");
+		String username = TestBaseProvider.getTestBase().getString("userPM");
+		String password = TestBaseProvider.getTestBase().getString("passPM");
 		pupi.login(username,password);
         PauseUtil.waitForAjaxToComplete(4000);
 
@@ -293,8 +293,8 @@ public class MarketPlacePageImpl extends BaseTestPage<TestPage> implements Marke
 	
 	public void loginApplicationAsFM() {
 		System.out.println("Order Approval started.");
-		String username = TestBaseProvider.getTestBase().getTestData().getString("userFm");
-		String password = TestBaseProvider.getTestBase().getTestData().getString("passFm");
+		String username = TestBaseProvider.getTestBase().getString("userFm");
+		String password = TestBaseProvider.getTestBase().getString("passFm");
 		pupi.login(username,password);
         PauseUtil.waitForAjaxToComplete(4000);		
 	}
