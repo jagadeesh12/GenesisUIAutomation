@@ -20,8 +20,10 @@ import com.dw.automation.pages.ITeachersHomePage;
 import com.dw.automation.pages.IYourTeacherOrderPage;
 import com.dw.automation.pages.PCOD_ILoginPage;
 import com.dw.automation.pages.PCOD_IShippingAndPaymentPage;
+import com.dw.automation.pages.impl.CustomerCreateAndApproveImpl;
 import com.dw.automation.pages.impl.MarketPlacePageImpl;
 import com.dw.automation.pages.impl.OrgCreateAndApproveImpl;
+import com.dw.automation.pages.impl.OrgCreditReqImpl;
 import com.dw.automation.pages.impl.PCOD_ShippingAndPaymentPage;
 import com.dw.automation.pages.impl.PartnerUserPageImpl;
 import com.dw.automation.pages.impl.ReLoginPage;
@@ -52,6 +54,10 @@ public abstract class PageFactory {
 		}
 		return null; 
 	}
+	
+	public abstract OrgCreditReqImpl getOrgCreditreqImpl();
+	
+	public abstract CustomerCreateAndApproveImpl getCustCreateAndApprovePage();
 	
 	public abstract OrgCreateAndApproveImpl getOrgCreateAndApprovePage();
 
@@ -243,6 +249,18 @@ public abstract class PageFactory {
 		@Override
 		public ICheckoutPage_2 getICheckoutPage_2() {
 			return new CheckoutPage_2ImplDesktop();
+		}
+
+		@Override
+		public CustomerCreateAndApproveImpl getCustCreateAndApprovePage() {
+			// TODO Auto-generated method stub
+			return new CustomerCreateAndApproveImpl();
+		}
+
+		@Override
+		public OrgCreditReqImpl getOrgCreditreqImpl() {
+			// TODO Auto-generated method stub
+			return new OrgCreditReqImpl();
 		}
 
 

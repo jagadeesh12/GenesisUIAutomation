@@ -10,7 +10,7 @@ import cucumber.api.java.en.When;
 
 public class OrgCreateAndApproveSteps {
 	OrgCreateAndApprovePage oca = getFactory().getOrgCreateAndApprovePage();
-	public String domainName;
+	public static String domainName;
 	public String status;
 	@When("^I go to Organization Page$")
 	public void i_go_to_Organization_Page() throws Throwable {
@@ -86,5 +86,9 @@ public class OrgCreateAndApproveSteps {
     public void i_onhold_the_organization_as_CA() throws Throwable {
 		status = "Onhold";
 		oca.approveOrgAsCA(domainName,status);
+    }
+    
+    public static String getEntityName() {
+        return domainName;
     }
 }

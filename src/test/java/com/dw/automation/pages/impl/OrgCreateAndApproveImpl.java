@@ -12,6 +12,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
+import com.dw.automation.pages.CustomerCreateAndApprovePage;
 import com.dw.automation.pages.OrgCreateAndApprovePage;
 import com.dw.automation.support.PauseUtil;
 import com.dw.automation.support.RConstantUtils;

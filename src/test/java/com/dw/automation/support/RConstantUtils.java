@@ -10,4 +10,6 @@ public class RConstantUtils {
 	public static final String ORDER_REJECT_COMMENT="Reject";
 	public static final String ORG_CREATE_SUCCESSFUL="Partner Organization created successfully. You will receive Email notification once approval process is completed. ";
 	public static final String ORG_CREATE_SUCCESS="Partner Organization created successfully";
+	public static final String CUSTOMER_LIMIT_REACHED="The test reseller has reached its max allowed customers.";
+	public static final String CUSTOMER_CREATED_SUCCESSFULLY="Customer created successfully.";
 }
