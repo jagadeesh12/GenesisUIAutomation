@@ -213,7 +213,7 @@ public class OrgCreateAndApproveImpl extends BaseTestPage<TestPage> implements O
 	}
 
 
-	@FindBy(locator = "rd.orgonboard.uploaf.file")
+	@FindBy(locator = "rd.orgonboard.fileUpload")
 	private WebElement fileUpload;
 	
 	public WebElement getfileUpload() {
@@ -237,6 +237,7 @@ public class OrgCreateAndApproveImpl extends BaseTestPage<TestPage> implements O
 
 	@FindBy(locator = "rd.orgonboard.bam.usermenu")
 	private WebElement bamUserMenu;
+	
 	
 	public WebElement getbamUserMenu() {
 		return bamUserMenu;
@@ -354,6 +355,34 @@ public class OrgCreateAndApproveImpl extends BaseTestPage<TestPage> implements O
 		return rejectUpdateBAM;
 	}
 	
+	@FindBy(locator = "rd.orgonboard.upload.licCopy")
+	private WebElement uploadFileBtn1;
+	
+	public WebElement getuploadFileBtn1() {
+		return uploadFileBtn1;
+	}
+	
+	@FindBy(locator = "rd.orgonboard.upload.shareHolding")
+	private WebElement uploadFileBtn2;
+	
+	public WebElement getuploadFileBtn2() {
+		return uploadFileBtn2;
+	}
+	
+	@FindBy(locator = "rd.orgonboard.upload.tradeLic")
+	private WebElement uploadFileBtn3;
+	
+	public WebElement getuploadFileBtn3() {
+		return uploadFileBtn3;
+	}
+	
+	@FindBy(locator = "rd.orgonboard.upload.ownerPassportCopy")
+	private WebElement uploadFileBtn4;
+	
+	public WebElement getuploadFileBtn4() {
+		return uploadFileBtn4;
+	}
+	
 	WrapperFunctions wf = new WrapperFunctions();
 	WebDriver driver=TestBaseProvider.getTestBase().getDriver();
 	TestBase testBase = TestBaseProvider.getTestBase();
@@ -383,13 +412,22 @@ public class OrgCreateAndApproveImpl extends BaseTestPage<TestPage> implements O
 		PauseUtil.pause(2000);
 		wf.click_element(getmpnVerifyBtn());	
 		RUtils.waitforloadingtodissappear();
-		PauseUtil.pause(10000);
+		wf.click_element(getlogoUpload());
+		String fileDoc = testBase.getTestData().getString("filePath");
+		try {
+			RUtils.upload_Documents(fileDoc);
+		} catch (AWTException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		PauseUtil.pause(5000);
 		getorgaddr1TxtBox().sendKeys(testBase.getTestData().getString("orgAdd1"));
 		getorgaddr2TxtBox().sendKeys(testBase.getTestData().getString("orgAdd2"));
 		getorgaddr3TxtBox().sendKeys(testBase.getTestData().getString("orgAdd3"));
 		getpostalcodeTxtBox().sendKeys(testBase.getTestData().getString("postalCode"));
-		SCHUtils.selectOptionByvalue(getregionDrpDwn(), testBase.getTestData().getString("region"));
+
 		SCHUtils.selectOptionByvalue(getcountryDrpDwn(), testBase.getTestData().getString("country"));
+		SCHUtils.selectOptionByvalue(getregionDrpDwn(), testBase.getTestData().getString("region"));
 		//SCHUtils.selectOptionByvalue(getorgcity(), testBase.getTestData().getString("city"));
 		getorgcity().sendKeys(testBase.getTestData().getString("city"));
 
@@ -406,46 +444,24 @@ public class OrgCreateAndApproveImpl extends BaseTestPage<TestPage> implements O
 		getorgtradelic().sendKeys(testBase.getTestData().getString("tradeLi"));
 		getorgtradecalendar().sendKeys(testBase.getTestData().getString("tradeLicCal"));
 		getorgvatid().sendKeys(testBase.getTestData().getString("tradeLi"));
-		PauseUtil.pause(30000);
+		try {
+			wf.click_element(getuploadFileBtn1());
+			RUtils.upload_Documents(fileDoc);
+			wf.click_element(getuploadFileBtn2());
+			RUtils.upload_Documents(fileDoc);
+			wf.click_element(getuploadFileBtn3());
+			RUtils.upload_Documents(fileDoc);
+			wf.click_element(getuploadFileBtn4());
+			RUtils.upload_Documents(fileDoc);
+
+		} catch (AWTException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 		
-//		String filePath = testbase.getContext().getString("filePath");
-//	        //Uploading file
-//	        StringSelection sel = new StringSelection(filePath);
-//	        System.out.println("File location ===>" +sel);
-//	        // Copy to clipboard
-//	        Toolkit.getDefaultToolkit().getSystemClipboard().setContents(sel,null);
-//	        System.out.println("selection" +sel);
-//	        
-//	        JavascriptExecutor j = (JavascriptExecutor) driver;
-//	        j.executeScript("arguments[0].scrollIntoView(true);",getorgsaveBtn());
-//	        //Code to add files in windows
-//	        for (int i = 1;i<=4;i++){
-//	        	WebElement wb = getfileUpload();
-//	        	System.out.println(wb);
-//	        	wf.click_element(wb);
-////	            this.getElement(By.xpath("(//input[@class='form-control file-upload'])["+i+"]")).click();
-//	            JavascriptExecutor je = (JavascriptExecutor) driver;
-//	            Robot robot;
-//				try {
-//					robot = new Robot();
-//					robot.keyPress(KeyEvent.VK_ENTER);
-//		            robot.keyRelease(KeyEvent.VK_ENTER);
-//		            robot.delay(2000);
-//		            robot.keyPress(KeyEvent.VK_CONTROL);
-//		            robot.keyPress(KeyEvent.VK_V);
-//		            robot.keyRelease(KeyEvent.VK_V);
-//		            robot.keyRelease(KeyEvent.VK_CONTROL);
-//		            robot.keyPress(KeyEvent.VK_ENTER);
-//		            robot.keyRelease(KeyEvent.VK_ENTER);
-//				} catch (AWTException e) {
-//					// TODO Auto-generated catch block
-//					e.printStackTrace();
-//				}
-//	            
-//	        /*        WebElement element = driver.findElement(By.xpath("//input[@class='form-control file-upload'])[4]"));
-//	je.executeScript("arguments[0].scrollIntoView(true);",element);*/
-//	            
-//	        }
+		
+		//Fileupload function
+		
 		JavascriptExecutor je = (JavascriptExecutor) driver;
         je.executeScript("arguments[0].scrollIntoView(true);",getorgsaveBtn());
 		wf.click_element(getiagreechkbox());

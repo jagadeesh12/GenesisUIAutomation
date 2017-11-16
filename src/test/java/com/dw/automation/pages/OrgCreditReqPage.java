@@ -4,6 +4,8 @@ public interface OrgCreditReqPage {
 
 	void applyForCredit(String domainName);
 
-	void creditRequestBAM(String domainName);
+	void creditRequest(String domainName, String status);
+
+	void verifyCreditReqStatus(String domainName, String status);
 
 }

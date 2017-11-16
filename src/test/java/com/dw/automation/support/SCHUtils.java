@@ -153,7 +153,7 @@ public class SCHUtils extends BaseTestPage<TestPage> {
 	}
 
 	public static void clickUsingJavaScript(WebElement ele) {
-		PauseUtil.pause(3000);
+		
 		if (TestBaseProvider.getTestBase().getContext().getString("driver.name")
 				.equals("Remote")
 				|| TestBaseProvider.getTestBase().getContext().getString("driver.name")

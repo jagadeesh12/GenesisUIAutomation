@@ -237,6 +237,21 @@ public class CustomerCreateAndApproveImpl extends BaseTestPage<TestPage> impleme
 	public WebElement getpmsearchBtn() {
 		return pmsearchBtn;
 	}
+	
+	@FindBy(locator = "rd.custonboard.option.customerCredit")
+	private WebElement custCreditOption;
+	
+	public WebElement getcustCreditOption() {
+		return custCreditOption;
+	}
+	
+	@FindBy(locator = "rd.pm.custcredit.btn.search")
+	private WebElement pmCustCreditSearchBtn;
+	
+	public WebElement getpmCustCreditSearchBtn() {
+		return pmCustCreditSearchBtn;
+	}
+	
 	OrgCreateAndApproveImpl oca = new OrgCreateAndApproveImpl();
 	WrapperFunctions wf = new WrapperFunctions();
 	WebDriver driver=TestBaseProvider.getTestBase().getDriver();
@@ -281,7 +296,7 @@ public class CustomerCreateAndApproveImpl extends BaseTestPage<TestPage> impleme
 		getmobileTxtBox().sendKeys(RandomDataUtil.getPhoneNumber(number));
 		getemailTxtBox().sendKeys(testBase.getString("userPM"));
 		wf.click_element(getmanagmentTypeTxtBox());
-		getspendLimitTxtBox().sendKeys(testBase.getTestData().getString("credit"));
+		getspendLimitTxtBox().sendKeys(testBase.getTestData().getString("custCredit"));
 		getdepartmentTxtBox().sendKeys(testBase.getTestData().getString("department"));
 		getfunctionTxtBox().sendKeys(testBase.getTestData().getString("function"));
 		wf.click_element(getpaymentRadioBtn());
@@ -358,6 +373,16 @@ public class CustomerCreateAndApproveImpl extends BaseTestPage<TestPage> impleme
 			Assert.assertTrue("PM Verification scenario failed for Customer Rejection",statusApp);
 			break;
 		}
+	}
+
+
+	
+	public void updateCustSpendLimit(String domainName) {
+		wf.click_element(oca.getUserMenu());
+		wf.click_element(oca.getAccountMgtMenu());
+		wf.click_element(getcustCreditOption());
+		PauseUtil.pause(3000);
+		getsearchTxtBox().sendKeys(domainName);
 	}
 
 }

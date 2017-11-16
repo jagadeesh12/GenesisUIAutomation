@@ -1,6 +1,6 @@
 Feature: Customer creation by PM and Approval by BAM 
 
-  Scenario Outline: Partner Organization creation by PM and Approval by BAM and CA:[<UsingData>]
+  Scenario Outline: Customer creation by PM and Approval by BAM :[<UsingData>]
     Given I launch the application as a Partner Manager[UserInformation]
     When I go to Organization Page 
     Then I onboard an Organization

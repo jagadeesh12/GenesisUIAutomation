@@ -6,11 +6,14 @@ import org.openqa.selenium.support.FindBy;
 
 import com.dw.automation.pages.OrgCreditReqPage;
 import com.dw.automation.support.PauseUtil;
+import com.dw.automation.support.SCHUtils;
 import com.scholastic.cucumber.uploadResults.WrapperFunctions;
 import com.scholastic.torque.common.BaseTestPage;
 import com.scholastic.torque.common.TestBase;
 import com.scholastic.torque.common.TestBaseProvider;
 import com.scholastic.torque.common.TestPage;
+
+import junit.framework.Assert;
 
 public class OrgCreditReqImpl extends BaseTestPage<TestPage> implements OrgCreditReqPage {
 
@@ -49,6 +52,48 @@ public class OrgCreditReqImpl extends BaseTestPage<TestPage> implements OrgCredi
 		return updateBtn;
 	}
 	
+	@FindBy(locator = "rd.ca.orgCreditPage.txtBox.comment")
+	private WebElement commentCATxtBox;
+	
+	public WebElement getcommentCATxtBox() {
+		return commentCATxtBox;
+	}
+	
+	@FindBy(locator = "rd.ca.orgCreditPage.txt.status")
+	private WebElement CAcreditstatus;
+	
+	public WebElement getCAcreditstatusTxt() {
+		return CAcreditstatus;
+	}
+	
+	@FindBy(locator = "rd.ca.orgCreditPage.drpdwn.status")
+	private WebElement selectStatusDrpDwn;
+	
+	public WebElement getCAselectStatusDrpDwn() {
+		return selectStatusDrpDwn;
+	}
+	
+	@FindBy(locator = "rd.ca.orgCreditPage.btn.update")
+	private WebElement creditUpdatebtn;
+	
+	public WebElement getCAcreditUpdatebtn() {
+		return creditUpdatebtn;
+	}
+	
+	@FindBy(locator = "rd.ca.orgCreditPage.icon.credit")
+	private WebElement cacreditIcon;
+	
+	public WebElement getcacreditIcon() {
+		return cacreditIcon;
+	}
+	
+	@FindBy(locator = "rd.pm.orgCreditPage.txt.status")
+	private WebElement CreditRequestStatus;
+	
+	public WebElement getCreditRequestStatusTxt() {
+		return CreditRequestStatus;
+	}
+	
 	OrgCreateAndApproveImpl oca = new OrgCreateAndApproveImpl();
 	WrapperFunctions wf = new WrapperFunctions();
 	WebDriver driver=TestBaseProvider.getTestBase().getDriver();
@@ -70,6 +115,8 @@ public class OrgCreditReqImpl extends BaseTestPage<TestPage> implements OrgCredi
 		wf.click_element(oca.getsearchBtnPm());
 		PauseUtil.pause(3000);
 		wf.click_element(getcreditIcon());
+		PauseUtil.pause(3000);
+		getcreditTxtBox().clear();
 		getcreditTxtBox().sendKeys(testBase.getTestData().getString("creditPMreq"));
 		getcommentTxtBox().sendKeys(testBase.getTestData().getString("commentCredit"));
 		wf.click_element(getupdateBtn());
@@ -78,10 +125,61 @@ public class OrgCreditReqImpl extends BaseTestPage<TestPage> implements OrgCredi
 
 
 	
-	public void creditRequestBAM(String domainName) {
+	public void creditRequest(String domainName,String status) {
 		wf.click_element(oca.getbamUserMenu());
 		wf.click_element(oca.getAccountMgtMenu());
 		wf.click_element(getorgCreditReqOption());
+		PauseUtil.pause(3000);
+		oca.getbamSearchTxtBox().sendKeys(domainName);
+		wf.click_element(oca.getbamSearchBtn());
+		PauseUtil.pause(3000);
+		wf.click_element(getcacreditIcon());
+		
+		switch (status) {
+			case "Approve":
+				PauseUtil.pause(3000);
+				SCHUtils.selectOptionByVisibleText(getCAselectStatusDrpDwn(), testBase.getTestData().getString("approveStatus"));
+				getcommentCATxtBox().sendKeys(testBase.getTestData().getString("approveStatus"));
+				wf.click_element(getCAcreditUpdatebtn());
+				PauseUtil.pause(2000);
+				boolean statusApp = getCAcreditstatusTxt().getText().contains("APPROVED");
+				Assert.assertTrue("Organization credit approval scenario failed by CA.",statusApp);
+				break;
+			
+			case "Reject":
+				PauseUtil.pause(3000);
+				SCHUtils.selectOptionByVisibleText(getCAselectStatusDrpDwn(), testBase.getTestData().getString("rejecteStatus"));
+				getcommentCATxtBox().sendKeys(testBase.getTestData().getString("rejecteStatus"));
+				wf.click_element(getCAcreditUpdatebtn());
+				PauseUtil.pause(2000);
+				statusApp = getCAcreditstatusTxt().getText().contains("REJECTED");
+				Assert.assertTrue("Organization credit reject scenario failed by CA.",statusApp);
+				break;	
+		}
+		
+	}
+
+
+	
+	public void verifyCreditReqStatus(String domainName, String status) {
+		PauseUtil.pause(3000);
+		wf.click_element(oca.getUserMenu());
+		wf.click_element(oca.getAccountMgtMenu());
+		wf.click_element(getorgCreditReqOption());
+		oca.getbamSearchTxtBox().sendKeys(domainName);
+		wf.click_element(oca.getsearchBtnPm());
+		PauseUtil.pause(3000);
+		
+		switch (status) {
+		case "Approve":
+			boolean statusApp = getCreditRequestStatusTxt().getText().contains("APPROVED");
+			Assert.assertTrue("PM Verification scenario failed for Customer Approval",statusApp);
+			break;
+		case "Reject":
+			statusApp = getCreditRequestStatusTxt().getText().contains("REJECTED");
+			Assert.assertTrue("PM Verification scenario failed for Customer Approval",statusApp);
+			break;	
+		}
 		
 	}
 
