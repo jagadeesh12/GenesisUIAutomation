@@ -287,6 +287,13 @@ public class PartnerUserPageImpl extends BaseTestPage<TestPage> implements Partn
 		return loadingImg;
 	}
 	
+	@FindBy(locator = "rd.sa.addpartner.form.drpdwn.country")
+	private WebElement CountryDrpDwn;
+	
+	public WebElement getCountryDrpDwn() {
+		return CountryDrpDwn;
+	}
+	
 	WrapperFunctions wf = new WrapperFunctions();
 	WebDriver driver=TestBaseProvider.getTestBase().getDriver();
 	TestBase testBase = TestBaseProvider.getTestBase();
@@ -295,8 +302,8 @@ public class PartnerUserPageImpl extends BaseTestPage<TestPage> implements Partn
 	
 	public void loginApplication() {
 		try {
-		String username = TestBaseProvider.getTestBase().getTestData().getString("userid");
-		String password = TestBaseProvider.getTestBase().getTestData().getString("password");
+		String username = testBase.getString("userSA");
+		String password = testBase.getString("passSA");
 		login(username,password);
 		}catch(Exception ex) {
 			System.out.println("Failed login :"+ex);
@@ -336,12 +343,12 @@ public class PartnerUserPageImpl extends BaseTestPage<TestPage> implements Partn
 		lastname.sendKeys("Test");
 		department.sendKeys(TestBaseProvider.getTestBase().getTestData().getString("department"));
 		function.sendKeys(TestBaseProvider.getTestBase().getTestData().getString("function"));
+        SCHUtils.selectOptionByVisibleText(selectcountry,TestBaseProvider.getTestBase().getTestData().getString("country"));
 		mobile.sendKeys(TestBaseProvider.getTestBase().getTestData().getString("mobile"));
 		telephone.sendKeys(TestBaseProvider.getTestBase().getTestData().getString("tele"));
 		fax.sendKeys(TestBaseProvider.getTestBase().getTestData().getString("fax"));
 		email.sendKeys(emailID);
 		SCHUtils.selectOptionByvalue(selectrole, TestBaseProvider.getTestBase().getTestData().getString("role"));
-        SCHUtils.selectOptionByvalue(selectcountry,TestBaseProvider.getTestBase().getTestData().getString("country"));
         SCHUtils.selectOptionByvalue(selectstatus, TestBaseProvider.getTestBase().getTestData().getString("status"));
         wf.click_element(formSubmitbtn);
         //AssertUtils.assertTextMatches(getLblErrorMessage(), Matchers.containsString(ConstantUtils.ERRMSGSTACKABLENONSTACKABLE
@@ -413,8 +420,8 @@ public class PartnerUserPageImpl extends BaseTestPage<TestPage> implements Partn
 		wf.click_element(getuserinfoIcon());
 		PauseUtil.pause(3000);
 
-		System.out.println(getgetUserNameTxt().getText() + " : " + email );
-		Assert.assertEquals(email, getgetUserNameTxt().getText());
+		System.out.println(getgetUserNameTxt().getText().toLowerCase() + " : " + email );
+		Assert.assertEquals(email.toLowerCase(), getgetUserNameTxt().getText().toLowerCase());
 
 		
 		

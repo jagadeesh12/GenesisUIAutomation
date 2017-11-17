@@ -252,6 +252,28 @@ public class CustomerCreateAndApproveImpl extends BaseTestPage<TestPage> impleme
 		return pmCustCreditSearchBtn;
 	}
 	
+	@FindBy(locator = "rd.pm.custcredit.txtBox.custSpendLimit")
+	private WebElement custSpendLimitTxtBox;
+	
+	public WebElement getcustSpendLimitTxtBox() {
+		return custSpendLimitTxtBox;
+	}
+	
+	@FindBy(locator = "rd.pm.custcredit.btn.update")
+	private WebElement custCreditUpdateBtn ;
+	
+	public WebElement getcustCreditUpdateBtn() {
+		return custCreditUpdateBtn;
+	}
+	
+	@FindBy(locator = "rd.pm.custcredit.pop.creditSuccessApproval")
+	private WebElement creditSuccessApprovalMsg ;
+	
+	public WebElement getcreditSuccessApprovalMsg() {
+		return creditSuccessApprovalMsg;
+	}
+	
+	OrgCreditReqImpl ocr = new OrgCreditReqImpl();
 	OrgCreateAndApproveImpl oca = new OrgCreateAndApproveImpl();
 	WrapperFunctions wf = new WrapperFunctions();
 	WebDriver driver=TestBaseProvider.getTestBase().getDriver();
@@ -383,6 +405,16 @@ public class CustomerCreateAndApproveImpl extends BaseTestPage<TestPage> impleme
 		wf.click_element(getcustCreditOption());
 		PauseUtil.pause(3000);
 		getsearchTxtBox().sendKeys(domainName);
+		wf.click_element(getpmCustCreditSearchBtn());
+		PauseUtil.pause(3000);
+		wf.click_element(ocr.getcacreditIcon());
+		getcustSpendLimitTxtBox().clear();
+		getcustSpendLimitTxtBox().sendKeys(testBase.getTestData().getString("custCreditReq"));
+		ocr.getcommentCATxtBox().sendKeys(testBase.getTestData().getString("approveStatus"));
+		wf.click_element(getcustCreditUpdateBtn());
+		PauseUtil.pause(2000);
+		Assert.assertEquals(getcreditSuccessApprovalMsg().getText(), RConstantUtils.CUSTOMER_CREDIT_APPROVE_SUCCESS);
+		
 	}
 
 }
