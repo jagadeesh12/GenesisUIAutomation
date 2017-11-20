@@ -21,8 +21,21 @@
   <parameter name="passFM" value="Pass@123"/> 
   <parameter name="userPM" value="pm14@mailinator.com"/>   
   <parameter name="passPM" value="Pass@123"/>       
-            
-<!--  <test name="PartnerUserCreation" enabled="true">
+    
+    
+<test name="PartnerUserCreation" enabled="true">
+  <parameter name="driver.name" value="Firefox"/>
+  <parameter name="features" value="features/Redington/"/>
+
+  <parameter name="driver.capabilities"
+             value="{'version': '11.0','platform':'Windows 10','name':'P1-Review cart Scenarios'}" />
+  <classes>
+   <class name="com.scholastic.torque.runner.Run" />
+  </classes>
+ </test> 
+ 
+ <!--             
+<test name="PartnerUserCreation" enabled="true">
   <parameter name="driver.name" value="Firefox"/>
   <parameter name="features" value="features/Redington/UserCreation.feature"/>
 
@@ -51,7 +64,7 @@
   <classes>
    <class name="com.scholastic.torque.runner.Run" />
   </classes>
-</test> -->
+</test>
 
  <test name="OrgCreateAndApproval" enabled="true">
   <parameter name="driver.name" value="Firefox"/>
@@ -63,7 +76,7 @@
   </classes>
 </test>
 
-<!-- <test name="OrgCreateAndBAMReject" enabled="true">
+<test name="OrgCreateAndBAMReject" enabled="true">
   <parameter name="driver.name" value="Firefox"/>
   <parameter name="features" value="features/Redington/OrgCreateAndBAMRejection.feature"/>
   <parameter name="driver.capabilities"
@@ -152,5 +165,5 @@
   <classes>
    <class name="com.scholastic.torque.runner.Run" />
   </classes>
-</test> -->
+</test>  -->
  </suite>
