@@ -591,8 +591,7 @@ public class OrgCreateAndApproveImpl extends BaseTestPage<TestPage> implements O
 	}
 	
    public String fillExistingOrgForm(){
-	   PauseUtil.pause(5000);
-	   System.out.println("============================MEthod started===========================");
+	PauseUtil.pause(5000);
 	wf.click_element(getOrgAddBtn());
 	wf.click_element(getorgselection());
 	getcustomercode().sendKeys(testBase.getTestData().getString("customercode"));
@@ -601,17 +600,25 @@ public class OrgCreateAndApproveImpl extends BaseTestPage<TestPage> implements O
 	PauseUtil.pause(10000);
 	getorgmpnid().sendKeys(testBase.getTestData().getString("orgmpnid"));
 	wf.click_element(getorgmpnverify());
-	PauseUtil.pause(10000);
+	RUtils.waitforloadingtodissappear();
+	wf.click_element(getlogoUpload());
+	String fileDoc = testBase.getTestData().getString("filePath");
+	try {
+		RUtils.upload_Documents(fileDoc);
+	} catch (AWTException e) {
+		// TODO Auto-generated catch block
+		e.printStackTrace();
+	}
 	getorgsigningAuthorityName().sendKeys(testBase.getTestData().getString("orgsigningAuthorityName"));
-	PauseUtil.pause(3000);
+	
 	getexorgsignauthemail().sendKeys(testBase.getTestData().getString("exorgsignauthemail"));
-	PauseUtil.pause(3000);
-	//wf.click_element(getexorgfinapproval());
-	//PauseUtil.pause(3000);
+
+	wf.click_element(getexorgfinapproval());
+
 	SCHUtils.selectOptionByvalue(getorgpartnersegmnt(), testBase.getTestData().getString("exorgpartnersegmnt"));
-	PauseUtil.pause(3000);
+
 	String name = RUtils.generateName();
-	PauseUtil.pause(3000);
+
 	String domainName = "www."+name+".com";
 	getexorgcompdomain().sendKeys(domainName);
 	PauseUtil.pause(3000);

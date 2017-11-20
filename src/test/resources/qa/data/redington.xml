@@ -1,4 +1,4 @@
-<testdata>
+<?xml version="1.0" encoding="UTF-8"?><testdata>
 	<testcase id="RedingtonLogin">
 		<userid>sa6.qa2@3.emailfreedom.ml</userid>
 		<password>Pass@123</password>
@@ -16,7 +16,7 @@
 		<appUrl>https://test.redington.market/</appUrl>
 	</testcase>
 	<testcase id="OrderApproval">
-		<userid>pm6.qa@mailinator.com</userid>
+		<userPM>pm14@qa.mailinator.com</userPM>
 		<password>Pass@123</password>
 		<userFm>fm6.qa@mailinator.com</userFm>
 		<passFm>Pass@123</passFm>
@@ -60,5 +60,6 @@
 	   <exorgsignauthemail>jagadeesh.manjunath@relevancelab.com</exorgsignauthemail>
 	   <exorgpartnersegmnt>1: Reseller</exorgpartnersegmnt>
 	</testcase>
-</testdata>
+	
 
+</testdata>

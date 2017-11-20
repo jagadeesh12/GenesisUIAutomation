@@ -5,9 +5,20 @@ import java.awt.Robot;
 import java.awt.Toolkit;
 import java.awt.datatransfer.StringSelection;
 import java.awt.event.KeyEvent;
+import java.io.File;
+import java.io.IOException;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Date;
+
+import javax.xml.parsers.DocumentBuilder;
+import javax.xml.parsers.DocumentBuilderFactory;
+import javax.xml.parsers.ParserConfigurationException;
+import javax.xml.transform.Transformer;
+import javax.xml.transform.TransformerException;
+import javax.xml.transform.TransformerFactory;
+import javax.xml.transform.dom.DOMSource;
+import javax.xml.transform.stream.StreamResult;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -15,6 +26,12 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.w3c.dom.Document;
+import org.w3c.dom.Element;
+import org.w3c.dom.NamedNodeMap;
+import org.w3c.dom.Node;
+import org.w3c.dom.NodeList;
+import org.xml.sax.SAXException;
 
 import com.dw.automation.pages.impl.PartnerUserPageImpl;
 import com.scholastic.torque.common.TestBaseProvider;
@@ -125,5 +142,67 @@ public class RUtils {
 	robot.keyRelease(KeyEvent.VK_ENTER); 
 
 	}
+	
+	public static void update_xml(int id,String userTagName,String passTagName, String username, String password) {
+		   try {
 
-}
+			    
+			    String filepath = "/home/rle0502/Documents/code/genesis-auto/schl-rco-test-ca/src/test/resources/qa/data/redington.xml";
+				System.out.println(filepath);
+				DocumentBuilderFactory docFactory = DocumentBuilderFactory.newInstance();
+				DocumentBuilder docBuilder = docFactory.newDocumentBuilder();
+				Document doc = docBuilder.parse(filepath);
+
+				// Get the root element
+				Node company = doc.getFirstChild();
+
+				// Get the testcase element , it may not working if tag has spaces, or
+				// whatever weird characters in front...it's better to use
+				// getElementsByTagName() to get it directly.
+				// Node staff = company.getFirstChild();
+
+				// Get the staff element by tag name directly
+				Node staff = doc.getElementsByTagName("testcase").item(id);
+
+
+				// loop the staff child node
+				NodeList list = staff.getChildNodes();
+
+				for (int i = 0; i < list.getLength(); i++) {
+
+		                   Node node = list.item(i);
+
+				   // get the salary element, and update the value
+				   if (userTagName.equals(node.getNodeName())) {
+					node.setTextContent(username);
+				   }
+
+		                   
+				   if (passTagName.equals(node.getNodeName())) {
+					staff.setTextContent(password);
+				   }
+
+				}
+
+				// write the content into xml file
+				TransformerFactory transformerFactory = TransformerFactory.newInstance();
+				Transformer transformer = transformerFactory.newTransformer();
+				DOMSource source = new DOMSource(doc);
+				StreamResult result = new StreamResult(new File(filepath));
+				transformer.transform(source, result);
+
+				System.out.println("Done");
+
+			   } catch (ParserConfigurationException pce) {
+				pce.printStackTrace();
+			   } catch (TransformerException tfe) {
+				tfe.printStackTrace();
+			   } catch (IOException ioe) {
+				ioe.printStackTrace();
+			   } catch (SAXException sae) {
+				sae.printStackTrace();
+			   }
+			}
+	}
+
+

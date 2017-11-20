@@ -270,10 +270,7 @@ public class PartnerUserPageImpl extends BaseTestPage<TestPage> implements Partn
 		return mailinatorVerificationCode;
 	}
 	
-//	public WebElement getMailinatorMsgFrame(){
-//		return mailinatorMsgFrame;
-//	}
-	
+
 	public WebElement getMailinatorMsg(){
 		return mailinatorMsg;
 	}
@@ -300,7 +297,7 @@ public class PartnerUserPageImpl extends BaseTestPage<TestPage> implements Partn
 	WrapperFunctions wf = new WrapperFunctions();
 	WebDriver driver=TestBaseProvider.getTestBase().getDriver();
 	TestBase testBase = TestBaseProvider.getTestBase();
-
+	public String resetPassword;
 
 	
 	public void loginApplication() {
@@ -323,7 +320,7 @@ public class PartnerUserPageImpl extends BaseTestPage<TestPage> implements Partn
 	}
 	
 	public  void login(String username,String password) {
-		System.out.println("Login started===========================================");
+		System.out.println("Login started");
 		getUsername().sendKeys(username);
 		getPassword().sendKeys(password);
 		captureCaptcha();
@@ -380,7 +377,7 @@ public class PartnerUserPageImpl extends BaseTestPage<TestPage> implements Partn
 		lastname.sendKeys("FMLN");
 		department.sendKeys(TestBaseProvider.getTestBase().getTestData().getString("department"));
 		function.sendKeys(TestBaseProvider.getTestBase().getTestData().getString("function"));
-		SCHUtils.selectOptionByvalue(selectcountry,TestBaseProvider.getTestBase().getTestData().getString("country"));
+        SCHUtils.selectOptionByVisibleText(selectcountry,TestBaseProvider.getTestBase().getTestData().getString("country"));
 		mobile.sendKeys(TestBaseProvider.getTestBase().getTestData().getString("mobile"));
 		telephone.sendKeys(TestBaseProvider.getTestBase().getTestData().getString("tele"));
 		fax.sendKeys(TestBaseProvider.getTestBase().getTestData().getString("fax"));
@@ -433,7 +430,7 @@ public class PartnerUserPageImpl extends BaseTestPage<TestPage> implements Partn
 		getuserNewPasswordTxtBox().sendKeys(newPassword);
 		getuserConfirmPasswordTxtBox().sendKeys(newPassword);
 		wf.click_element(getuserPassResetSubmitBtn());
-		
+		resetPassword = newPassword;
 		return newPassword;
 	}
 
@@ -454,7 +451,7 @@ public class PartnerUserPageImpl extends BaseTestPage<TestPage> implements Partn
 		System.out.println(getgetUserNameTxt().getText().toLowerCase() + " : " + email );
 		Assert.assertEquals(email.toLowerCase(), getgetUserNameTxt().getText().toLowerCase());
 
-		
+		RUtils.update_xml(1, "userPM", "password", email, resetPassword);
 		
 
 	}
