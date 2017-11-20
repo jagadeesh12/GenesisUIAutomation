@@ -12,4 +12,5 @@ public class RConstantUtils {
 	public static final String ORG_CREATE_SUCCESS="Partner Organization created successfully";
 	public static final String CUSTOMER_LIMIT_REACHED="The test reseller has reached its max allowed customers.";
 	public static final String CUSTOMER_CREATED_SUCCESSFULLY="Customer created successfully.";
+	public static final String CUSTOMER_CREDIT_APPROVE_SUCCESS="Credit limit has been updated";
 }

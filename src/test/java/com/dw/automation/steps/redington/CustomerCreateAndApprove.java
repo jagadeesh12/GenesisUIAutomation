@@ -4,6 +4,7 @@ import static com.dw.automation.pages.base.PageFactory.getFactory;
 
 import com.dw.automation.pages.OrgCreateAndApprovePage;
 
+import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
@@ -48,5 +49,21 @@ public class CustomerCreateAndApprove {
 		status = "Reject";
 		cca.customerStatus(domainName,status);
 	}
+	
+    @Then("^I update the customer spend limit$")
+    public void i_update_the_customer_spend_limit() throws Throwable {
+    	
+    	cca.updateCustSpendLimit(domainName);
+    }
+
+    @Then("^I verify that the customer spend limit is updated$")
+    public void i_verify_that_the_customer_spend_limit_is_updated() throws Throwable {
+
+    }
+
+    @And("^I go to Customer spend limit page$")
+    public void i_go_to_customer_spend_limit_page() throws Throwable {
+     
+    }
 
 }

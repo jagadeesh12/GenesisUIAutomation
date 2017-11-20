@@ -1,7 +1,7 @@
-Feature: Customer creation by PM and Rejection by BAM 
+Feature: Partner Organization credit request by PM and Rejection and CA
 		
 
-  Scenario Outline: Partner Organization creation by PM and Rejection by BAM:[<UsingData>]
+  Scenario Outline: Partner Organization creation by PM and Approval by BAM and CA:[<UsingData>]
     Given I launch the application as a Partner Manager[UserInformation]
     When I go to Organization Page 
     Then I onboard an Organization
@@ -16,16 +16,16 @@ Feature: Customer creation by PM and Rejection by BAM
     And I verify that the organization is approved
     Then I logout from the application
     Given I launch the application as a Partner Manager
-    When I go to Customer Page
-    Then I create an Customer
+    And I go to Partner Organization Credit Request Page
+    Then I apply for partner organization credit request
     Then I logout from the application
-    Then I launch the application as a BAM
-    And I reject the customer
+    Then I launch the application as a CA
+    Then I reject the credit request
     Then I logout from the application
     Given I launch the application as a Partner Manager
-	When I go to Customer Page
-    And I verify that the customer is rejected
+    And I verify that the organization credit request is rejected
     Then I logout from the application
+    
     Examples:
 	|UsingData     |
 	|OrderApproval |

@@ -100,8 +100,7 @@ public class PartnerUserSteps {
 
     @Then("^I login with new username and reset password$")
     public void i_login_with_new_username_and_reset_password() throws Throwable {
-//    	email = "pmfn_11112341@mailinator.com";
-//    	resetPassword = "Pass@123";
+
     	pup.loginUserCredentials(email,resetPassword);
     }
 

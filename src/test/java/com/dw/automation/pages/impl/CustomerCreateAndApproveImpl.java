@@ -237,6 +237,43 @@ public class CustomerCreateAndApproveImpl extends BaseTestPage<TestPage> impleme
 	public WebElement getpmsearchBtn() {
 		return pmsearchBtn;
 	}
+	
+	@FindBy(locator = "rd.custonboard.option.customerCredit")
+	private WebElement custCreditOption;
+	
+	public WebElement getcustCreditOption() {
+		return custCreditOption;
+	}
+	
+	@FindBy(locator = "rd.pm.custcredit.btn.search")
+	private WebElement pmCustCreditSearchBtn;
+	
+	public WebElement getpmCustCreditSearchBtn() {
+		return pmCustCreditSearchBtn;
+	}
+	
+	@FindBy(locator = "rd.pm.custcredit.txtBox.custSpendLimit")
+	private WebElement custSpendLimitTxtBox;
+	
+	public WebElement getcustSpendLimitTxtBox() {
+		return custSpendLimitTxtBox;
+	}
+	
+	@FindBy(locator = "rd.pm.custcredit.btn.update")
+	private WebElement custCreditUpdateBtn ;
+	
+	public WebElement getcustCreditUpdateBtn() {
+		return custCreditUpdateBtn;
+	}
+	
+	@FindBy(locator = "rd.pm.custcredit.pop.creditSuccessApproval")
+	private WebElement creditSuccessApprovalMsg ;
+	
+	public WebElement getcreditSuccessApprovalMsg() {
+		return creditSuccessApprovalMsg;
+	}
+	
+	OrgCreditReqImpl ocr = new OrgCreditReqImpl();
 	OrgCreateAndApproveImpl oca = new OrgCreateAndApproveImpl();
 	WrapperFunctions wf = new WrapperFunctions();
 	WebDriver driver=TestBaseProvider.getTestBase().getDriver();
@@ -281,7 +318,7 @@ public class CustomerCreateAndApproveImpl extends BaseTestPage<TestPage> impleme
 		getmobileTxtBox().sendKeys(RandomDataUtil.getPhoneNumber(number));
 		getemailTxtBox().sendKeys(testBase.getString("userPM"));
 		wf.click_element(getmanagmentTypeTxtBox());
-		getspendLimitTxtBox().sendKeys(testBase.getTestData().getString("credit"));
+		getspendLimitTxtBox().sendKeys(testBase.getTestData().getString("custCredit"));
 		getdepartmentTxtBox().sendKeys(testBase.getTestData().getString("department"));
 		getfunctionTxtBox().sendKeys(testBase.getTestData().getString("function"));
 		wf.click_element(getpaymentRadioBtn());
@@ -289,8 +326,8 @@ public class CustomerCreateAndApproveImpl extends BaseTestPage<TestPage> impleme
 		wf.click_element( getsubmitBtn());
 		RUtils.waitforloadingtodissappear();
 		try {
-			boolean customerstatus = custlimitreachedPopUp().getText().contains(RConstantUtils.CUSTOMER_CREATED_SUCCESSFULLY);
-	        Assert.assertTrue("Customer not created successfully.",customerstatus);
+/*			boolean customerstatus = custlimitreachedPopUp().getText().contains(RConstantUtils.CUSTOMER_CREATED_SUCCESSFULLY);
+	        Assert.assertTrue("Customer not created successfully.",customerstatus);*/
         
 		}catch(Exception e) {
 			e.printStackTrace();
@@ -358,6 +395,26 @@ public class CustomerCreateAndApproveImpl extends BaseTestPage<TestPage> impleme
 			Assert.assertTrue("PM Verification scenario failed for Customer Rejection",statusApp);
 			break;
 		}
+	}
+
+
+	
+	public void updateCustSpendLimit(String domainName) {
+		wf.click_element(oca.getUserMenu());
+		wf.click_element(oca.getAccountMgtMenu());
+		wf.click_element(getcustCreditOption());
+		PauseUtil.pause(3000);
+		getsearchTxtBox().sendKeys(domainName);
+		wf.click_element(getpmCustCreditSearchBtn());
+		PauseUtil.pause(3000);
+		wf.click_element(ocr.getcacreditIcon());
+		getcustSpendLimitTxtBox().clear();
+		getcustSpendLimitTxtBox().sendKeys(testBase.getTestData().getString("custCreditReq"));
+		ocr.getcommentCATxtBox().sendKeys(testBase.getTestData().getString("approveStatus"));
+		wf.click_element(getcustCreditUpdateBtn());
+		PauseUtil.pause(2000);
+		Assert.assertEquals(getcreditSuccessApprovalMsg().getText(), RConstantUtils.CUSTOMER_CREDIT_APPROVE_SUCCESS);
+		
 	}
 
 }

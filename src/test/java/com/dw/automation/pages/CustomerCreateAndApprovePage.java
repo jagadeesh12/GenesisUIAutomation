@@ -10,4 +10,6 @@ public interface CustomerCreateAndApprovePage {
 
 	void customerStatus(String domainName, String status);
 
+	void updateCustSpendLimit(String domainName);
+
 }

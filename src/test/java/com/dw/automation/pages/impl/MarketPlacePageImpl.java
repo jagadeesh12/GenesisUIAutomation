@@ -293,8 +293,8 @@ public class MarketPlacePageImpl extends BaseTestPage<TestPage> implements Marke
 	
 	public void loginApplicationAsFM() {
 		System.out.println("Order Approval started.");
-		String username = TestBaseProvider.getTestBase().getString("userFm");
-		String password = TestBaseProvider.getTestBase().getString("passFm");
+		String username = TestBaseProvider.getTestBase().getString("userFM");
+		String password = TestBaseProvider.getTestBase().getString("passFM");
 		pupi.login(username,password);
         PauseUtil.waitForAjaxToComplete(4000);		
 	}

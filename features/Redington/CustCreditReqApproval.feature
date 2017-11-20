@@ -1,7 +1,6 @@
-Feature: Customer creation by PM and Rejection by BAM 
-		
+Feature: Customer creation by PM and Approval by BAM 
 
-  Scenario Outline: Partner Organization creation by PM and Rejection by BAM:[<UsingData>]
+  Scenario Outline: Customer creation by PM and Approval by BAM :[<UsingData>]
     Given I launch the application as a Partner Manager[UserInformation]
     When I go to Organization Page 
     Then I onboard an Organization
@@ -20,11 +19,15 @@ Feature: Customer creation by PM and Rejection by BAM
     Then I create an Customer
     Then I logout from the application
     Then I launch the application as a BAM
-    And I reject the customer
+    And I approve the customer
     Then I logout from the application
     Given I launch the application as a Partner Manager
 	When I go to Customer Page
-    And I verify that the customer is rejected
+    And I verify that the customer is approved
+    Then I logout from the application
+    Given I launch the application as a Partner Manager
+    Then I update the customer spend limit
+    Then I verify that the customer spend limit is updated
     Then I logout from the application
     Examples:
 	|UsingData     |

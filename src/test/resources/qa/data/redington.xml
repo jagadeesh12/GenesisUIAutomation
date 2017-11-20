@@ -9,7 +9,7 @@
 		<fax>0221263342</fax>
 		<role>PM</role>
 		<fmrole>FM</fmrole>
-		<country>59: ARE</country>
+		<country>United Arab Emirates</country>
 		<status>Active</status>
 		<newPassword>Pass@123</newPassword>
 		<mailUrl>https://www.mailinator.com/</mailUrl>
@@ -28,7 +28,7 @@
 		<orgAdd2>Address2</orgAdd2>
 		<orgAdd3>Address3</orgAdd3>
 		<postalCode>75001</postalCode>
-		<region>Middle East</region>
+		<region>Dubai</region>
 		<country>ARE</country>
 		<city>Dubai</city>
 		<signAuth>John</signAuth>
@@ -39,6 +39,8 @@
 		<filePath>/home/rle0502/Downloads/litpro-test/src/test/resources/upload_files/test.jpg</filePath>
 		<credit>1000</credit>
 		<creditPMreq>10000</creditPMreq>
+		<custCredit>100</custCredit>
+		<custCreditreq>120</custCreditreq>
 		<commentCredit>Credit Approval</commentCredit>
 		<lname>Test</lname>
 		<department>Sales</department>

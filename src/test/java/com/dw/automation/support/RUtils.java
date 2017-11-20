@@ -1,5 +1,10 @@
 package com.dw.automation.support;
 
+import java.awt.AWTException;
+import java.awt.Robot;
+import java.awt.Toolkit;
+import java.awt.datatransfer.StringSelection;
+import java.awt.event.KeyEvent;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -93,6 +98,7 @@ public class RUtils {
 	}
 
 
+
 	public static String generateSpecificName(String username) {
         DateFormat dateFormat = new SimpleDateFormat("ddMMHHmm");
         Date date = new Date();
@@ -101,6 +107,22 @@ public class RUtils {
         String firstName = username+"_"+name;
         System.out.println("FirstName :"+firstName);
         return firstName;
+
+	}
+	//RuLib Method No:019 
+	//UPLOADING DOCUMENTS USING JAVA ROBOT API/ 
+	public static void upload_Documents(String filedoc) throws AWTException { 
+	 StringSelection fileloc = new StringSelection(filedoc);  
+	Toolkit.getDefaultToolkit().getSystemClipboard().setContents(fileloc, null);
+	Robot robot = new Robot();  
+	robot.keyPress(KeyEvent.VK_ENTER); 
+	robot.keyRelease(KeyEvent.VK_ENTER);  
+	robot.keyPress(KeyEvent.VK_CONTROL);  
+	robot.keyPress(KeyEvent.VK_V); 
+	robot.keyRelease(KeyEvent.VK_V);
+	robot.keyRelease(KeyEvent.VK_CONTROL); 
+	robot.keyPress(KeyEvent.VK_ENTER); 
+	robot.keyRelease(KeyEvent.VK_ENTER); 
 
 	}
 
