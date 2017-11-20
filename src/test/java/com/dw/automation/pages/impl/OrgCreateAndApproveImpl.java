@@ -354,6 +354,118 @@ public class OrgCreateAndApproveImpl extends BaseTestPage<TestPage> implements O
 		return rejectUpdateBAM;
 	}
 	
+	@FindBy(locator = "rd.orgonboard.drpdwn.finEmail")
+	private WebElement finEmail;
+	
+	public WebElement getfinEmail() {
+		return finEmail;
+	}
+	
+	// ------------------------Existing onboard 
+	
+	@FindBy(locator = "rd.exorgonboard.pm.rdBtn.orgselection")
+	private WebElement orgselection;
+	
+	public WebElement getorgselection() {
+		return orgselection;
+	}
+
+	@FindBy(locator = "rd.exorgonboard.pm.txtbox.customercode")
+	private WebElement customercode;
+	
+	public WebElement getcustomercode() {
+		return customercode;
+	}
+
+	@FindBy(locator = "rd.exorgonboard.pm.txtbox.companycode")
+	private WebElement companycode;
+	
+	public WebElement getcompanycode() {
+		return companycode;
+	}
+
+	@FindBy(locator = "rd.exorgonboard.pm.btn.orgsearch")
+	private WebElement orgsearch;
+	
+	public WebElement getorgsearch() {
+		return orgsearch;
+	}
+
+	@FindBy(locator = "rd.exorgonboard.pm.txtbox.orgmpnid")
+	private WebElement orgmpnid;
+	
+	public WebElement getorgmpnid() {
+		return orgmpnid;
+	}
+
+	@FindBy(locator = "rd.exorgonboard.pm.btn.orgmpnverify")
+	private WebElement orgmpnverify;
+	
+	public WebElement getorgmpnverify() {
+		return orgmpnverify;
+	}
+
+	@FindBy(locator = "rd.exorgonboard.pm.txtbox.orgsigningAuthorityName")
+	private WebElement orgsigningAuthorityName;
+	
+	public WebElement getorgsigningAuthorityName() {
+		return orgsigningAuthorityName;
+	}
+
+	@FindBy(locator = "rd.exorgonboard.pm.txtbox.orgsignauthemail")
+	private WebElement exorgsignauthemail;
+	
+	public WebElement getexorgsignauthemail() {
+		return exorgsignauthemail;
+	}
+
+
+	@FindBy(locator = "rd.exorgonboard.rdBtn.orgfinapproval")
+	private WebElement exorgfinapproval;
+	
+	public WebElement getexorgfinapproval() {
+		return exorgfinapproval;
+	}
+
+	@FindBy(locator = "rd.exorgonboard.drpdwn.orgpartnersegmnt")
+	private WebElement exorgpartnersegmnt;
+	
+	public WebElement getexorgpartnersegmnt() {
+		return exorgpartnersegmnt;
+	}
+
+	@FindBy(locator = "rd.exorgonboard.txtbox.orgcompdomain")
+	private WebElement exorgcompdomain;
+	
+	public WebElement getexorgcompdomain() {
+		return exorgcompdomain;
+	}
+
+	@FindBy(locator = "rd.exorgonboard.txtbox.orgvatid")
+	private WebElement exorgvatid;
+	
+	public WebElement getexorgvatid() {
+		return exorgvatid;
+	}
+
+	@FindBy(locator = "rd.exorgonboard.chkbox.orgiagreechkbox")
+	private WebElement exorgiagreechkbox;
+	
+	public WebElement getexorgiagreechkbox() {
+		return exorgiagreechkbox;
+	}
+
+	@FindBy(locator = "rd.exorgonboard.btn.orgsave")
+	private WebElement exorgsave;
+	
+	public WebElement getexorgsave() {
+		return exorgsave;
+	}
+
+
+
+	//------------------------End---------
+	
 	WrapperFunctions wf = new WrapperFunctions();
 	WebDriver driver=TestBaseProvider.getTestBase().getDriver();
 	TestBase testBase = TestBaseProvider.getTestBase();
@@ -400,6 +512,7 @@ public class OrgCreateAndApproveImpl extends BaseTestPage<TestPage> implements O
 		getorgsignauthemail().sendKeys(testBase.getTestData().getString("signAuthEmail"));
 		wf.click_element(getorgfinapproval());
 		SCHUtils.selectOptionByvalue(getorgpartnersegmnt(), testBase.getTestData().getString("partnerSegment"));
+		SCHUtils.selectOptionByvalue(getfinEmail(), );
 		String name = RUtils.generateName();
 		String domainName = "www."+name+".com";
 		getorgcompdomain().sendKeys(domainName);
@@ -454,9 +567,48 @@ public class OrgCreateAndApproveImpl extends BaseTestPage<TestPage> implements O
 		boolean partnerEnity = getffileUploadPopup().getText().contains(RConstantUtils.ORG_CREATE_SUCCESS);
         Assert.assertTrue("Partner Entity not created succesfully",partnerEnity);
         wf.click_element(getclosePopup());
-		return domainName;
+        return domainName;
 	}
-
+	
+   public String fillExistingOrgForm(){
+	   PauseUtil.pause(5000);
+	   System.out.println("============================MEthod started===========================");
+	wf.click_element(getOrgAddBtn());
+	wf.click_element(getorgselection());
+	getcustomercode().sendKeys(testBase.getTestData().getString("customercode"));
+	getcompanycode().sendKeys(testBase.getTestData().getString("companycode"));
+	wf.click_element(getorgsearch());
+	PauseUtil.pause(10000);
+	getorgmpnid().sendKeys(testBase.getTestData().getString("orgmpnid"));
+	wf.click_element(getorgmpnverify());
+	PauseUtil.pause(10000);
+	getorgsigningAuthorityName().sendKeys(testBase.getTestData().getString("orgsigningAuthorityName"));
+	PauseUtil.pause(3000);
+	getexorgsignauthemail().sendKeys(testBase.getTestData().getString("exorgsignauthemail"));
+	PauseUtil.pause(3000);
+	//wf.click_element(getexorgfinapproval());
+	//PauseUtil.pause(3000);
+	SCHUtils.selectOptionByvalue(getorgpartnersegmnt(), testBase.getTestData().getString("exorgpartnersegmnt"));
+	PauseUtil.pause(3000);
+	String name = RUtils.generateName();
+	PauseUtil.pause(3000);
+	String domainName = "www."+name+".com";
+	getexorgcompdomain().sendKeys(domainName);
+	PauseUtil.pause(3000);
+	getexorgvatid().sendKeys("orgmpnid");
+	
+	JavascriptExecutor je = (JavascriptExecutor) driver;
+    je.executeScript("arguments[0].scrollIntoView(true);",getexorgsave());
+	wf.click_element(getexorgiagreechkbox());
+	PauseUtil.pause(3000);
+	wf.click_element(getexorgsave());
+	RUtils.waitforloadingtodissappear();
+	wf.click_element(getclosePopup());
+	System.out.println("+++++++++++++++++=========+++++++++" +domainName);
+	return domainName;
+	   
+   }
+	
 	
 	public void loginApplicationAsBAM() {
 

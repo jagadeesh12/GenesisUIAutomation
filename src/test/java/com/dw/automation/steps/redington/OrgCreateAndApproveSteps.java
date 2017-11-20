@@ -11,6 +11,7 @@ import cucumber.api.java.en.When;
 public class OrgCreateAndApproveSteps {
 	OrgCreateAndApprovePage oca = getFactory().getOrgCreateAndApprovePage();
 	public static String domainName;
+	public static String ExistingDomainName;
 	public String status;
 	@When("^I go to Organization Page$")
 	public void i_go_to_Organization_Page() throws Throwable {
@@ -22,6 +23,13 @@ public class OrgCreateAndApproveSteps {
 		domainName = oca.fillOrgForm();
 		System.out.println("DOMAIN NAME"+domainName);
 	}
+	
+    @Then("^I onboard Existing Organization$")
+    public void i_onboard_existing_organization() throws Throwable {
+    	System.out.println("========================Varmaji===================");
+    	domainName=oca.fillExistingOrgForm();
+    	
+    }
 	
 	@Then("^I launch the application as a BAM$")
 	public void i_launch_the_application_as_a_BAM() throws Throwable {

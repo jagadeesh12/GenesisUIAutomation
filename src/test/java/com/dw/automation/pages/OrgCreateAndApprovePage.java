@@ -16,4 +16,6 @@ public interface OrgCreateAndApprovePage {
 
 	void loginApplicationAsCA();
 
+	String fillExistingOrgForm();
+
 }

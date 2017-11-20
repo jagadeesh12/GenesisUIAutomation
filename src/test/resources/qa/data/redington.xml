@@ -8,7 +8,8 @@
 		<tele>0221234572</tele>
 		<fax>0221263342</fax>
 		<role>PM</role>
-		<country>61: ARE</country>
+		<fmrole>FM</fmrole>
+		<country>59: ARE</country>
 		<status>Active</status>
 		<newPassword>Pass@123</newPassword>
 		<mailUrl>https://www.mailinator.com/</mailUrl>
@@ -47,6 +48,15 @@
 		<custCredit>100</custCredit>
 		<custCreditReq>150</custCreditReq>
 	
+	</testcase>
+	
+	<testcase id="ExistingOrgOnboard">
+	   <customercode>1010006975</customercode>
+	   <companycode>1120</companycode>
+	   <orgmpnid>3379748</orgmpnid>
+	   <orgsigningAuthorityName>jagadeesh</orgsigningAuthorityName>
+	   <exorgsignauthemail>jagadeesh.manjunath@relevancelab.com</exorgsignauthemail>
+	   <exorgpartnersegmnt>1: Reseller</exorgpartnersegmnt>
 	</testcase>
 </testdata>
 

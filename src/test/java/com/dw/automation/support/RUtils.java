@@ -93,5 +93,15 @@ public class RUtils {
 	}
 
 
+	public static String generateSpecificName(String username) {
+        DateFormat dateFormat = new SimpleDateFormat("ddMMHHmm");
+        Date date = new Date();
+        String name = dateFormat.format(date);
+        
+        String firstName = username+"_"+name;
+        System.out.println("FirstName :"+firstName);
+        return firstName;
+
+	}
 
 }

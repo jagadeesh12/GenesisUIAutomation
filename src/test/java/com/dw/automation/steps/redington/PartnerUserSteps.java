@@ -51,6 +51,13 @@ public class PartnerUserSteps {
 
     }
     
+    @When("^I fill form to create Finance Manager$")
+    public void i_fill_form_to_create_finance_manager() throws Throwable {
+    	email=pup.fillFMUserForm();
+    	System.out.println("Registering FM user with following EmailID :"+email);
+
+    }
+    
 
     @Then("^Temporary password is generated$")
     public void temporary_password_is_generated() throws Throwable {

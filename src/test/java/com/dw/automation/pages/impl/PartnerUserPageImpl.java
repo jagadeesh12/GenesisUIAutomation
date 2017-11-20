@@ -15,6 +15,7 @@ import org.testng.Assert;
 import com.dw.automation.pages.PartnerUserPage;
 import com.dw.automation.support.ConstantUtils;
 import com.dw.automation.support.PauseUtil;
+import com.dw.automation.support.RUtils;
 import com.dw.automation.support.SCHUtils;
 import com.scholastic.cucumber.uploadResults.WrapperFunctions;
 import com.scholastic.torque.common.AssertUtils;
@@ -25,6 +26,8 @@ import com.scholastic.torque.common.TestPage;
 
 public class PartnerUserPageImpl extends BaseTestPage<TestPage> implements PartnerUserPage{
 	
+	private static final String WrapperFunction = null;
+
 	@FindBy(locator = "rd.sa.homepage.addbtn")
 	private WebElement addbtn;
 	
@@ -295,8 +298,10 @@ public class PartnerUserPageImpl extends BaseTestPage<TestPage> implements Partn
 	
 	public void loginApplication() {
 		try {
-		String username = TestBaseProvider.getTestBase().getTestData().getString("userid");
-		String password = TestBaseProvider.getTestBase().getTestData().getString("password");
+	//	String username = TestBaseProvider.getTestBase().getTestData().getString("userid");
+	//	String password = TestBaseProvider.getTestBase().getTestData().getString("password");
+		String username = testBase.getString("userSA");
+		String password = testBase.getString("passSA");
 		login(username,password);
 		}catch(Exception ex) {
 			System.out.println("Failed login :"+ex);
@@ -359,11 +364,40 @@ public class PartnerUserPageImpl extends BaseTestPage<TestPage> implements Partn
         return firstName;
 
 	}
+	
+
+	public String fillFMUserForm() {
+		wf.click_element(addbtn);
+		String name = RUtils.generateSpecificName("FM");
+		String emailID = name + "@mailinator.com";
+		firstname.sendKeys(name);
+		lastname.sendKeys("FMLN");
+		department.sendKeys(TestBaseProvider.getTestBase().getTestData().getString("department"));
+		function.sendKeys(TestBaseProvider.getTestBase().getTestData().getString("function"));
+		SCHUtils.selectOptionByvalue(selectcountry,TestBaseProvider.getTestBase().getTestData().getString("country"));
+		mobile.sendKeys(TestBaseProvider.getTestBase().getTestData().getString("mobile"));
+		telephone.sendKeys(TestBaseProvider.getTestBase().getTestData().getString("tele"));
+		fax.sendKeys(TestBaseProvider.getTestBase().getTestData().getString("fax"));
+		email.sendKeys(emailID);
+		SCHUtils.selectOptionByvalue(selectrole, TestBaseProvider.getTestBase().getTestData().getString("fmrole"));
+        SCHUtils.selectOptionByvalue(selectstatus, TestBaseProvider.getTestBase().getTestData().getString("status"));
+        PauseUtil.pause(2000);
+        wf.click_element(formSubmitbtn);
+      
+        System.out.println("======Email id created for FM ======" +emailID);
+        
+        
+		return emailID;
+				
+	}
+	
+
 
 	
 	public String gettingVerificationCode(String email) {
 
 		SCHUtils.waitForElementToBeDisplayed(mailinatorEmaiTxtBox, 10000);
+		System.out.println("==========Entering below email id in mailinator" +email);
 		mailinatorEmaiTxtBox.sendKeys(email);
 		wf.click_element(mailinatorSubmitBtn);
 		wf.click_element(mailinatorMail);
@@ -371,8 +405,6 @@ public class PartnerUserPageImpl extends BaseTestPage<TestPage> implements Partn
 		driver.switchTo().frame("msg_body");
 		String ver = getMailinatorVerificatonCode().getText();
 		System.out.println("Verification Code :"+ ver);
-		
-		
 		return ver;
 	}
 
@@ -425,6 +457,8 @@ public class PartnerUserPageImpl extends BaseTestPage<TestPage> implements Partn
 	public void launchApplication() {
 		testBase.getDriver().get(testBase.getString("url"));		
 	}
+
+
 	
 
 
