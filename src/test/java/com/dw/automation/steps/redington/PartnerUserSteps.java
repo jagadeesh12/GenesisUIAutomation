@@ -91,7 +91,7 @@ public class PartnerUserSteps {
 
     @Then("^I reset the password$")
     public void i_reset_the_password() throws Throwable {
-    	System.out.println("I reset the password method===============");
+    	System.out.println("I reset the password method");
 
     	resetPassword = pup.resetPassword(verificationCode);
     	
@@ -110,6 +110,10 @@ public class PartnerUserSteps {
     }
     
 
+    @Then("^I verify login page is displayed$")
+    public void i_verify_login_page_is_displayed() throws Throwable {
+        pup.saveFMCredentials(email);
+    }
 
 
 }

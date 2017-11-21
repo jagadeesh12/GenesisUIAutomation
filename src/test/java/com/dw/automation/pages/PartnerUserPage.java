@@ -11,4 +11,5 @@ public interface PartnerUserPage {
 	String resetPassword(String verificationCode);
 	void viewUserDetails(String email);
 	void launchApplication();
+	void saveFMCredentials(String email);
 }

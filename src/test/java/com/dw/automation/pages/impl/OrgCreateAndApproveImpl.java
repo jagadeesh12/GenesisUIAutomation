@@ -306,6 +306,12 @@ public class OrgCreateAndApproveImpl extends BaseTestPage<TestPage> implements O
 		return updateBtn;
 	}
 	
+	@FindBy(locator = "rd.orgonboard.ca.btn.update")
+	private WebElement updateCABtn;
+	
+	public WebElement getupdateCABtn() {
+		return updateCABtn;
+	}
 	@FindBy(locator = "rd.orgonboard.bam.status.txt")
 	private WebElement statusTxt;
 	
@@ -463,8 +469,13 @@ public class OrgCreateAndApproveImpl extends BaseTestPage<TestPage> implements O
 	public WebElement getexorgsave() {
 		return exorgsave;
 	}
-
-
+	
+	@FindBy(locator = "rd.orgonboard.popUp.createOrg")
+	private WebElement createOrgPopup;
+	
+	public WebElement getcreateOrgPopupClose() {
+		return createOrgPopup;
+	}
 
 	//------------------------End---------
 
@@ -495,7 +506,14 @@ public class OrgCreateAndApproveImpl extends BaseTestPage<TestPage> implements O
 	public WebElement getuploadFileBtn4() {
 		return uploadFileBtn4;
 	}
-
+	
+	@FindBy(locator = "rd.orgonboard.drpdwn.userfm")
+	private WebElement userfmDrpdwn;
+	
+	public WebElement getuserfmDrpdwn() {
+		return userfmDrpdwn;
+	}
+	
 	
 	WrapperFunctions wf = new WrapperFunctions();
 	WebDriver driver=TestBaseProvider.getTestBase().getDriver();
@@ -507,6 +525,12 @@ public class OrgCreateAndApproveImpl extends BaseTestPage<TestPage> implements O
 	}
 
 	public void goToOrgPage() {
+		try {
+			
+		wf.click_element(getcreateOrgPopupClose());
+		}catch(Exception e) {
+			System.out.println("New Organization create popup not present");
+		}
 		wf.click_element(getUserMenu());
 		wf.click_element(getAccountMgtMenu());
 		wf.click_element(getOrganizationMenu());
@@ -552,6 +576,7 @@ public class OrgCreateAndApproveImpl extends BaseTestPage<TestPage> implements O
 		getorgsignauthname().sendKeys(testBase.getTestData().getString("signAuth"));
 		getorgsignauthemail().sendKeys(testBase.getTestData().getString("signAuthEmail"));
 		wf.click_element(getorgfinapproval());
+		SCHUtils.selectOptionsByVisibleText(getuserfmDrpdwn(), testBase.getTestData().getString("userFm").toLowerCase());
 		SCHUtils.selectOptionByvalue(getorgpartnersegmnt(), testBase.getTestData().getString("partnerSegment"));
 		//SCHUtils.selectOptionByvalue(getfinEmail(), );
 		String name = RUtils.generateName();
@@ -665,8 +690,9 @@ public class OrgCreateAndApproveImpl extends BaseTestPage<TestPage> implements O
 			PauseUtil.pause(3000);
 			SCHUtils.selectOptionByvalue(getstatusSelectBox(), "1: APPROVED");
 			getbamCredittxtBox().clear();
+			PauseUtil.pause(3000);
 			getbamCredittxtBox().sendKeys(testBase.getTestData().getString("credit"));
-			wf.click_element(getrdBtnFinApp());
+			//wf.click_element(getrdBtnFinApp());
 			
 			getcommentTxtBox().sendKeys("APPROVED");
 			wf.click_element(getupdateBtn());
@@ -718,7 +744,7 @@ public class OrgCreateAndApproveImpl extends BaseTestPage<TestPage> implements O
 			SCHUtils.selectOptionByvalue(getpaymentSelect(), "1: 30 Days from Invoice date");
 			SCHUtils.selectOptionByvalue(getcurrencySelect(), "2: USD");
 			getcommentTxtBox().sendKeys("APPROVED");
-			wf.click_element(getupdateBtn());
+			wf.click_element(getupdateCABtn());
 			PauseUtil.pause(2000);
 			boolean statusApp = getstatusTxt().getText().contains("APPROVED");
 			Assert.assertTrue("CA Approval scenario failed",statusApp);

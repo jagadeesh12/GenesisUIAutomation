@@ -298,11 +298,11 @@ public class CustomerCreateAndApproveImpl extends BaseTestPage<TestPage> impleme
 		wf.click_element(oca.getOrgAddBtn());
 		PauseUtil.pause(3000);
 		
-		String name = RUtils.generateName();
+		String name = RUtils.generateSpecificName("CUST");
 		getdomainTxtBox().sendKeys(name);
 		wf.click_element(getverifyBtn());
 		RUtils.waitforloadingtodissappear();
-		String domainName = "www."+name+".com";
+		String domainName = name;
 		getCompanynameTxtBox().sendKeys(domainName);
 		getfirstNameTxtBox().sendKeys(name);
 		getlastNameTxtBox().sendKeys(testBase.getTestData().getString("lname"));
@@ -389,12 +389,16 @@ public class CustomerCreateAndApproveImpl extends BaseTestPage<TestPage> impleme
 		case "Approve":
 			boolean statusApp = getCustStatusTxt().getText().contains("APPROVED");
 			Assert.assertTrue("PM Verification scenario failed for Customer Approval",statusApp);
+			
+			PartnerUserPageImpl.writeXML("custdomain","cust",domainName, "0000");
 			break;
 		case "Reject":
 			statusApp = getCustStatusTxt().getText().contains("REJECTED");
 			Assert.assertTrue("PM Verification scenario failed for Customer Rejection",statusApp);
 			break;
 		}
+		
+		
 	}
 
 

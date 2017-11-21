@@ -13,6 +13,7 @@ import com.dw.automation.support.RUtils;
 import com.dw.automation.support.SCHUtils;
 import com.scholastic.cucumber.uploadResults.WrapperFunctions;
 import com.scholastic.torque.common.BaseTestPage;
+import com.scholastic.torque.common.TestBase;
 import com.scholastic.torque.common.TestBaseProvider;
 import com.scholastic.torque.common.TestPage;
 
@@ -215,12 +216,13 @@ public class MarketPlacePageImpl extends BaseTestPage<TestPage> implements Marke
 	}	
 	
 	WrapperFunctions wf = new WrapperFunctions();
+	TestBase testBase = TestBaseProvider.getTestBase();
 	
-	@Override
+	
 	public void loginApplicationAsPM() {
 		System.out.println("Order Placement started.");
-		String username = TestBaseProvider.getTestBase().getString("userPM");
-		String password = TestBaseProvider.getTestBase().getString("passPM");
+		String username = TestBaseProvider.getTestBase().getTestData().getString("userPM");
+		String password = TestBaseProvider.getTestBase().getTestData().getString("password");
 		pupi.login(username,password);
         PauseUtil.waitForAjaxToComplete(4000);
 
@@ -239,11 +241,13 @@ public class MarketPlacePageImpl extends BaseTestPage<TestPage> implements Marke
 		PauseUtil.pause(4000);
 		getsearchTxtBox().sendKeys("Office 365 Enterprise E3");
 		wf.click_element(getsearchBtn());
-		//PauseUtil.waitTillDisappear(pupi.getloadinImg(), 80);
+		RUtils.waitforloadingtodissappear();
 		PauseUtil.pause(4000);
 		wf.click_element(getbuyBtn());
+		RUtils.waitforloadingtodissappear();
 		PauseUtil.pause(4000);
 		wf.click_element(getaddToBasketBtn());
+		RUtils.waitforloadingtodissappear();
 //		boolean prdctadded =getproductAddSuccessMsg().getText().contains(RConstantUtils.PRODUCT_ADDED_TO_BASKET_MSG);
 //		Assert.assertTrue(prdctadded, "Product not added ");
 		//Assert.assertEquals(PauseUtil.getWhenVisible(getproductAddSuccessMsg(), RUtils.TimeOut).getText(), RConstantUtils.PRODUCT_ADDED_TO_BASKET_MSG);
@@ -252,7 +256,6 @@ public class MarketPlacePageImpl extends BaseTestPage<TestPage> implements Marke
 		wf.click_element(getviewAllOption());
 		boolean prdctname = getproductNameTxt().getText().contains(RConstantUtils.PRODUCT_NAME);
 		Assert.assertTrue(prdctname,"Product Name is not correct.");
-//		Assert.assertEquals(PauseUtil.getWhenVisible(getproductNameTxt(), RUtils.TimeOut).getText(), RConstantUtils.PRODUCT_NAME);
 		SCHUtils.selectOptionByIndex(getcustomerSelectDrpDwn(), 1);
 		wf.click_element(getplaceOrderBtn());
 		wf.click_element(getpopUpCloseBtn());
@@ -293,8 +296,8 @@ public class MarketPlacePageImpl extends BaseTestPage<TestPage> implements Marke
 	
 	public void loginApplicationAsFM() {
 		System.out.println("Order Approval started.");
-		String username = TestBaseProvider.getTestBase().getString("userFM");
-		String password = TestBaseProvider.getTestBase().getString("passFM");
+		String username = TestBaseProvider.getTestBase().getTestData().getString("userFm");
+		String password = TestBaseProvider.getTestBase().getTestData().getString("passFm");
 		pupi.login(username,password);
         PauseUtil.waitForAjaxToComplete(4000);		
 	}
@@ -310,7 +313,7 @@ public class MarketPlacePageImpl extends BaseTestPage<TestPage> implements Marke
 		wf.click_element(getsubmitBtn());
 		wf.click_element(getSearchBtnFm());
 		String orderStatus = getOrderStatusTxt().getText();
-		
+		System.out.println("Order status FM:"+orderStatus);
 		return orderStatus;
 		
 		
@@ -325,6 +328,7 @@ public class MarketPlacePageImpl extends BaseTestPage<TestPage> implements Marke
 		getSearchTxTBox().sendKeys(orderNumber);
 		wf.click_element(getSearchBtnFm());
 		String orderStatus = getOrderStatusTxt().getText();
+		System.out.println("Order status :"+orderStatus);
 		return orderStatus;
 	}
 

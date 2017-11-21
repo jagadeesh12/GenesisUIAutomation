@@ -35,7 +35,7 @@
   </classes>
  </test> -->
  
-<test name="PartnerUserCreation" enabled="true">
+ <test name="PartnerUserCreation" enabled="true">
   <parameter name="driver.name" value="Firefox"/>
   <parameter name="features" value="features/Redington/UserCreation.feature"/>
 
@@ -45,102 +45,19 @@
    <class name="com.scholastic.torque.runner.Run" />
   </classes>
 
- </test>
- 
- 
-<!--  <test name="OrderApproval" enabled="true">
-  <parameter name="driver.name" value="Firefox"/>
-  <parameter name="features" value="features/Redington/OrderApproval.feature"/>
-  <parameter name="driver.capabilities"
-             value="{'version': '11.0','platform':'Windows 10','name':'P1-Review cart Scenarios'}" />
-  <classes>
-   <class name="com.scholastic.torque.runner.Run" />
-  </classes>
-</test> 
- -->
-<!-- <test name="OrderRejection" enabled="true">
-  <parameter name="driver.name" value="Firefox"/>
-  <parameter name="features" value="features/Redington/OrderRejection.feature"/>
-  <parameter name="driver.capabilities"
-             value="{'version': '11.0','platform':'Windows 10','name':'P1-Review cart Scenarios'}" />
-  <classes>
-   <class name="com.scholastic.torque.runner.Run" />
-  </classes>
-</test> -->
-
-<!-- <test name="OrgCreateAndApproval" enabled="true">
+ </test> 
+  
+<test name="OrgCreateAndApproval" enabled="true">
   <parameter name="driver.name" value="Firefox"/>
   <parameter name="features" value="features/Redington/OrgCreateAndApproval.feature"/>
   <parameter name="driver.capabilities"
              value="{'version': '11.0','platform':'Windows 10','name':'P1-Review cart Scenarios'}" />
-<parameter name="tags" value="@runme" />
  <classes>
    <class name="com.scholastic.torque.runner.Run" />
   </classes>
-</test>  -->
-
-<!-- <test name="OrgCreateAndBAMReject" enabled="true">
-  <parameter name="driver.name" value="Firefox"/>
-  <parameter name="features" value="features/Redington/OrgCreateAndBAMRejection.feature"/>
-  <parameter name="driver.capabilities"
-             value="{'version': '11.0','platform':'Windows 10','name':'P1-Review cart Scenarios'}" />
-  <classes>
-   <class name="com.scholastic.torque.runner.Run" />
-  </classes>
-</test> --> 
-
-<!-- <test name="OrgCreateAndBAMOnhold" enabled="true">
-  <parameter name="driver.name" value="Firefox"/>
-  <parameter name="features" value="features/Redington/OrgCreateAndBAMOnhold.feature"/>
-  <parameter name="driver.capabilities"
-             value="{'version': '11.0','platform':'Windows 10','name':'P1-Review cart Scenarios'}" />
-  <classes>
-   <class name="com.scholastic.torque.runner.Run" />
-  </classes>
-</test> -->
-
-<!-- <test name="OrgCreateAndCARejection" enabled="true">
-  <parameter name="driver.name" value="Firefox"/>
-  <parameter name="features" value="features/Redington/OrgCreateAndCARejection.feature"/>
-  <parameter name="driver.capabilities"
-             value="{'version': '11.0','platform':'Windows 10','name':'P1-Review cart Scenarios'}" />
-  <classes>
-   <class name="com.scholastic.torque.runner.Run" />
-  </classes>
-</test>  -->
-
-<!--  <test name="OrgCreateAndCAOnhold" enabled="true">
-  <parameter name="driver.name" value="Firefox"/>
-  <parameter name="features" value="features/Redington/OrgCreateAndCAOnhold.feature"/>
-  <parameter name="driver.capabilities"
-             value="{'version': '11.0','platform':'Windows 10','name':'P1-Review cart Scenarios'}" />
-  <classes>
-   <class name="com.scholastic.torque.runner.Run" />
-  </classes>
-</test>  -->
-
-
-<!-- <test name="OrganizationCreditReqApproval.feature" enabled="true">
-  <parameter name="driver.name" value="Firefox"/>
-  <parameter name="features" value="features/Redington/OrgCreditRequestApproval.feature"/>
-  <parameter name="driver.capabilities"
-             value="{'version': '11.0','platform':'Windows 10','name':'P1-Review cart Scenarios'}" />
-  <classes>
-   <class name="com.scholastic.torque.runner.Run" />
-  </classes>
-</test> -->
-
-<!-- <test name="OrganizationCreditReqRejection.feature" enabled="true">
-  <parameter name="driver.name" value="Firefox"/>
-  <parameter name="features" value="features/Redington/OrgCreditRequestReject.feature"/>
-  <parameter name="driver.capabilities"
-             value="{'version': '11.0','platform':'Windows 10','name':'P1-Review cart Scenarios'}" />
-  <classes>
-   <class name="com.scholastic.torque.runner.Run" />
-  </classes>
-</test> -->
-
-<!--  <test name="CustomerCreateAndApproval" enabled="true">
+</test>
+ 
+<test name="CustomerCreateAndApproval" enabled="true">
   <parameter name="driver.name" value="Firefox"/>
   <parameter name="features" value="features/Redington/CustomerCreateAndApproval.feature"/>
   <parameter name="driver.capabilities"
@@ -148,9 +65,93 @@
   <classes>
    <class name="com.scholastic.torque.runner.Run" />
   </classes>
-</test> -->
+</test>
 
-<!-- <test name="CustomerCreateAndRejection" enabled="true">
+<test name="OrderApproval" enabled="true">
+  <parameter name="driver.name" value="Firefox"/>
+  <parameter name="features" value="features/Redington/OrderApproval.feature"/>
+  <parameter name="driver.capabilities"
+             value="{'version': '11.0','platform':'Windows 10','name':'P1-Review cart Scenarios'}" />
+  <classes>
+   <class name="com.scholastic.torque.runner.Run" />
+  </classes>
+</test>
+
+ <test name="OrderRejection" enabled="true">
+  <parameter name="driver.name" value="Firefox"/>
+  <parameter name="features" value="features/Redington/OrderRejection.feature"/>
+  <parameter name="driver.capabilities"
+             value="{'version': '11.0','platform':'Windows 10','name':'P1-Review cart Scenarios'}" />
+  <classes>
+   <class name="com.scholastic.torque.runner.Run" />
+  </classes>
+</test>
+
+
+
+<test name="OrgCreateAndBAMReject" enabled="true">
+  <parameter name="driver.name" value="Firefox"/>
+  <parameter name="features" value="features/Redington/OrgCreateAndBAMRejection.feature"/>
+  <parameter name="driver.capabilities"
+             value="{'version': '11.0','platform':'Windows 10','name':'P1-Review cart Scenarios'}" />
+  <classes>
+   <class name="com.scholastic.torque.runner.Run" />
+  </classes>
+</test>
+
+ <test name="OrgCreateAndBAMOnhold" enabled="true">
+  <parameter name="driver.name" value="Firefox"/>
+  <parameter name="features" value="features/Redington/OrgCreateAndBAMOnhold.feature"/>
+  <parameter name="driver.capabilities"
+             value="{'version': '11.0','platform':'Windows 10','name':'P1-Review cart Scenarios'}" />
+  <classes>
+   <class name="com.scholastic.torque.runner.Run" />
+  </classes>
+</test> 
+ <test name="OrgCreateAndCARejection" enabled="true">
+  <parameter name="driver.name" value="Firefox"/>
+  <parameter name="features" value="features/Redington/OrgCreateAndCARejection.feature"/>
+  <parameter name="driver.capabilities"
+             value="{'version': '11.0','platform':'Windows 10','name':'P1-Review cart Scenarios'}" />
+  <classes>
+   <class name="com.scholastic.torque.runner.Run" />
+  </classes>
+</test>
+
+ <test name="OrgCreateAndCAOnhold" enabled="true">
+  <parameter name="driver.name" value="Firefox"/>
+  <parameter name="features" value="features/Redington/OrgCreateAndCAOnhold.feature"/>
+  <parameter name="driver.capabilities"
+             value="{'version': '11.0','platform':'Windows 10','name':'P1-Review cart Scenarios'}" />
+  <classes>
+   <class name="com.scholastic.torque.runner.Run" />
+  </classes>
+</test> 
+
+
+ <test name="OrganizationCreditReqApproval.feature" enabled="true">
+  <parameter name="driver.name" value="Firefox"/>
+  <parameter name="features" value="features/Redington/OrgCreditRequestApproval.feature"/>
+  <parameter name="driver.capabilities"
+             value="{'version': '11.0','platform':'Windows 10','name':'P1-Review cart Scenarios'}" />
+  <classes>
+   <class name="com.scholastic.torque.runner.Run" />
+  </classes>
+</test> 
+
+<test name="OrganizationCreditReqRejection.feature" enabled="true">
+  <parameter name="driver.name" value="Firefox"/>
+  <parameter name="features" value="features/Redington/OrgCreditRequestReject.feature"/>
+  <parameter name="driver.capabilities"
+             value="{'version': '11.0','platform':'Windows 10','name':'P1-Review cart Scenarios'}" />
+  <classes>
+   <class name="com.scholastic.torque.runner.Run" />
+  </classes>
+</test>
+
+
+
+<test name="CustomerCreateAndRejection" enabled="true">
   <parameter name="driver.name" value="Firefox"/>
   <parameter name="features" value="features/Redington/CustomerCreateAndReject.feature"/>
   <parameter name="driver.capabilities"
@@ -158,10 +159,9 @@
   <classes>
    <class name="com.scholastic.torque.runner.Run" />
   </classes>
-</test>  -->
+</test> 
 
-
-<!-- <test name="CustomerCreditReq" enabled="true">
+<test name="CustomerCreditReq" enabled="true">
 
   <parameter name="driver.name" value="Firefox"/>
   <parameter name="features" value="features/Redington/CustCreditReqApproval.feature"/>
@@ -171,7 +171,5 @@
    <class name="com.scholastic.torque.runner.Run" />
   </classes>
 
-</test>  -->
-
-
+</test>
  </suite>

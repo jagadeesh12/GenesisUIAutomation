@@ -121,7 +121,7 @@ public class RUtils {
         Date date = new Date();
         String name = dateFormat.format(date);
         
-        String firstName = username+"_"+name;
+        String firstName = username+name;
         System.out.println("FirstName :"+firstName);
         return firstName;
 
@@ -143,7 +143,7 @@ public class RUtils {
 
 	}
 	
-	public static void update_xml(int id,String userTagName,String passTagName, String username, String password) {
+	public static void update_xml(String userTagName,String passTagName, String username, String password) {
 		   try {
 
 			    
@@ -162,7 +162,7 @@ public class RUtils {
 				// Node staff = company.getFirstChild();
 
 				// Get the staff element by tag name directly
-				Node staff = doc.getElementsByTagName("testcase").item(id);
+				Node staff = doc.getElementsByTagName("testcase").item(1);
 
 
 				// loop the staff child node

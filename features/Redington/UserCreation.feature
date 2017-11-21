@@ -31,6 +31,7 @@ Feature: Partner user creation.
     Then I reset the password
     Given I launch the application
     Then I login with new username and reset password
+    Then I verify login page is displayed
     Then I logout from the application
     
     Examples:

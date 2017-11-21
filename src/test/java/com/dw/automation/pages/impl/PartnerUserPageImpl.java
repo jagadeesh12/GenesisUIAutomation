@@ -1,8 +1,19 @@
 package com.dw.automation.pages.impl;
 
+import java.io.File;
+import java.io.IOException;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Date;
+
+import javax.xml.parsers.DocumentBuilder;
+import javax.xml.parsers.DocumentBuilderFactory;
+import javax.xml.parsers.ParserConfigurationException;
+import javax.xml.transform.Transformer;
+import javax.xml.transform.TransformerException;
+import javax.xml.transform.TransformerFactory;
+import javax.xml.transform.dom.DOMSource;
+import javax.xml.transform.stream.StreamResult;
 
 import org.hamcrest.Matchers;
 import org.openqa.selenium.By;
@@ -11,6 +22,10 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
+import org.w3c.dom.Document;
+import org.w3c.dom.Node;
+import org.w3c.dom.NodeList;
+import org.xml.sax.SAXException;
 
 import com.dw.automation.pages.PartnerUserPage;
 import com.dw.automation.support.ConstantUtils;
@@ -450,15 +465,94 @@ public class PartnerUserPageImpl extends BaseTestPage<TestPage> implements Partn
 
 		System.out.println(getgetUserNameTxt().getText().toLowerCase() + " : " + email );
 		Assert.assertEquals(email.toLowerCase(), getgetUserNameTxt().getText().toLowerCase());
-
-		RUtils.update_xml(1, "userPM", "password", email, resetPassword);
+		String user = "userPM";
+		String pass = "password";
 		
+		//RUtils.update_xml(1,user ,pass, email, resetPassword);
+
+		   writeXML(user,pass,email, resetPassword);
 
 	}
 
+	
+	public static void writeXML(String user, String pass, String email, String resetPassword) {
+		try {
+        
+		    
+			String filepath = "/home/rle0502/Documents/code/genesis-auto/schl-rco-test-ca/src/test/resources/qa/data/redington.xml";
+			System.out.println(filepath);
+			DocumentBuilderFactory docFactory = DocumentBuilderFactory.newInstance();
+			DocumentBuilder docBuilder = docFactory.newDocumentBuilder();
+			Document doc = docBuilder.parse(filepath);
+
+			// Get the root element
+			Node company = doc.getFirstChild();
+
+			// Get the staff element , it may not working if tag has spaces, or
+			// whatever weird characters in front...it's better to use
+			// getElementsByTagName() to get it directly.
+			// Node staff = company.getFirstChild();
+
+			// Get the staff element by tag name directly
+			Node staff = doc.getElementsByTagName("testcase").item(1);
+
+
+
+			// loop the staff child node
+			NodeList list = staff.getChildNodes();
+
+			for (int i = 0; i < list.getLength(); i++) {
+
+	                   Node node = list.item(i);
+
+			   // get the salary element, and update the value
+			   if (user.equals(node.getNodeName())) {
+				node.setTextContent(email);
+			   }
+
+			   
+			   if (pass.equals(node.getNodeName())) {
+				node.setTextContent(resetPassword);
+			   }
+
+	           
+
+			}
+
+			// write the content into xml file
+			TransformerFactory transformerFactory = TransformerFactory.newInstance();
+			Transformer transformer = transformerFactory.newTransformer();
+			DOMSource source = new DOMSource(doc);
+			StreamResult result = new StreamResult(new File(filepath));
+			transformer.transform(source, result);
+
+			System.out.println("Done");
+
+		   } catch (ParserConfigurationException pce) {
+			pce.printStackTrace();
+		   } catch (TransformerException tfe) {
+			tfe.printStackTrace();
+		   } catch (IOException ioe) {
+			ioe.printStackTrace();
+		   } catch (SAXException sae) {
+			sae.printStackTrace();
+		   }
+	}
 	@Override
 	public void launchApplication() {
 		testBase.getDriver().get(testBase.getString("url"));		
+	}
+
+	@Override
+	public void saveFMCredentials(String email) {
+		String user = "userFm";
+		String pass = "passFm";
+		
+		//RUtils.update_xml(1,user ,pass, email, resetPassword);
+
+		   writeXML(user, pass, email, resetPassword);
+
+		
 	}
 
 
