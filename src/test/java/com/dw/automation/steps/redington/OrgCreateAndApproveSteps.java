@@ -26,7 +26,7 @@ public class OrgCreateAndApproveSteps {
 	
     @Then("^I onboard Existing Organization$")
     public void i_onboard_existing_organization() throws Throwable {
-    	System.out.println("========================Varmaji===================");
+    	System.out.println("");
     	domainName=oca.fillExistingOrgForm();
     	
     }

@@ -1,6 +1,6 @@
-Feature: Customer creation by PM and Approval by BAM 
+Feature: Customer spend limit request and approval by BAM
 
-  Scenario Outline: Customer creation by PM and Approval by BAM :[<UsingData>]
+  Scenario Outline: Customer spend limit request and approval by BAM:[<UsingData>]
     Given I launch the application as a Partner Manager[UserInformation]
     When I go to Organization Page 
     Then I onboard an Organization

@@ -56,7 +56,7 @@
    <class name="com.scholastic.torque.runner.Run" />
   </classes>
 </test>
- 
+
 <test name="CustomerCreateAndApproval" enabled="true">
   <parameter name="driver.name" value="Firefox"/>
   <parameter name="features" value="features/Redington/CustomerCreateAndApproval.feature"/>
@@ -76,7 +76,7 @@
    <class name="com.scholastic.torque.runner.Run" />
   </classes>
 </test>
- 
+  <!-- 
 <test name="OrderRejection" enabled="true">
   <parameter name="driver.name" value="Firefox"/>
   <parameter name="features" value="features/Redington/OrderRejection.feature"/>
@@ -173,5 +173,5 @@
    <class name="com.scholastic.torque.runner.Run" />
   </classes>
 
-</test> 
+</test>  -->
  </suite>

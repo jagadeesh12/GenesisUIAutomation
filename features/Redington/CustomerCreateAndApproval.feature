@@ -1,4 +1,4 @@
-Feature: Customer creation by PM and Approval by BAM 
+Feature: Customer creation flow by PM and approval by BAM 
 
   Scenario Outline: Customer creation by PM and Approval by BAM :[<UsingData>]
     Given I launch the application as a Partner Manager[UserInformation]

@@ -280,7 +280,11 @@ public class MarketPlacePageImpl extends BaseTestPage<TestPage> implements Marke
 	
 	public void logout() {
 		try {
-			RUtils.moveToElement(getUserOption(), RUtils.TimeOut);
+			PauseUtil.pause(5000);
+			//RUtils.moveToElement(getUserOption(), RUtils.TimeOut);
+			//getUserOption().click();
+			wf.click_element(getUserOption());
+			wf.click_element(getUserOption());
 			wf.click_element(getUserSignOutBtn());
 			PauseUtil.pause(4000);
 			System.out.println("Logging out");

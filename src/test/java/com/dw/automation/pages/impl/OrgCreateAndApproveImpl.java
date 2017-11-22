@@ -527,6 +527,8 @@ public class OrgCreateAndApproveImpl extends BaseTestPage<TestPage> implements O
 		// TODO Auto-generated method stub
 		
 	}
+	
+	PartnerUserPageImpl pupi = new PartnerUserPageImpl();
 
 	public void goToOrgPage() {
 		try {
@@ -569,8 +571,8 @@ public class OrgCreateAndApproveImpl extends BaseTestPage<TestPage> implements O
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 					}
-		
-		PauseUtil.pause(5000);
+//		
+		//PauseUtil.pause(10000);
 		getorgaddr1TxtBox().sendKeys(testBase.getTestData().getString("orgAdd1"));
 		getorgaddr2TxtBox().sendKeys(testBase.getTestData().getString("orgAdd2"));
 		getorgaddr3TxtBox().sendKeys(testBase.getTestData().getString("orgAdd3"));
@@ -596,6 +598,7 @@ public class OrgCreateAndApproveImpl extends BaseTestPage<TestPage> implements O
 		getorgtradelic().sendKeys(testBase.getTestData().getString("tradeLi"));
 		getorgtradecalendar().sendKeys(testBase.getTestData().getString("tradeLicCal"));
 		getorgvatid().sendKeys(testBase.getTestData().getString("tradeLi"));
+		//PauseUtil.pause(20000);
 		try {
 			wf.click_element(getuploadFileBtn1());
 			RUtils.upload_Documents(basepath);
@@ -638,22 +641,23 @@ public class OrgCreateAndApproveImpl extends BaseTestPage<TestPage> implements O
 	wf.click_element(getorgmpnverify());
 	RUtils.waitforloadingtodissappear();
 	wf.click_element(getlogoUpload());
-	File currentDir = new File ("src/test/resources/UploadFiles/test.jpg");
-	try {
-		String basePath = currentDir.getCanonicalPath();
-		System.out.println("Baseapth :"+basePath);
-	
-	} catch (IOException e1) {
-		// TODO Auto-generated catch block
-		e1.printStackTrace();
-	}
-	String fileDoc = testBase.getTestData().getString("filePath");
-	try {
-		RUtils.upload_Documents(fileDoc);
-	} catch (AWTException e) {
-		// TODO Auto-generated catch block
-		e.printStackTrace();
-	}
+//	File currentDir = new File ("src/test/resources/UploadFiles/test.jpg");
+//	try {
+//		String basePath = currentDir.getCanonicalPath();
+//		System.out.println("Baseapth :"+basePath);
+//	
+//	} catch (IOException e1) {
+//		// TODO Auto-generated catch block
+//		e1.printStackTrace();
+//	}
+//	String fileDoc = testBase.getTestData().getString("filePath");
+//	try {
+//		RUtils.upload_Documents(fileDoc);
+//	} catch (AWTException e) {
+//		// TODO Auto-generated catch block
+//		e.printStackTrace();
+//	}
+	PauseUtil.pause(10000);
 	getorgsigningAuthorityName().sendKeys(testBase.getTestData().getString("orgsigningAuthorityName"));
 	
 	getexorgsignauthemail().sendKeys(testBase.getTestData().getString("exorgsignauthemail"));
@@ -691,7 +695,9 @@ public class OrgCreateAndApproveImpl extends BaseTestPage<TestPage> implements O
 
 		String username = testBase.getString("userBAM");
 		String password = testBase.getString("passBAM");
-		RUtils.login(username,password);
+		System.out.println(username);
+		System.out.println(password);
+		pupi.login(username,password);
         PauseUtil.waitForAjaxToComplete(4000);
 		
 	}
@@ -823,7 +829,7 @@ public class OrgCreateAndApproveImpl extends BaseTestPage<TestPage> implements O
 	public void loginApplicationAsCA() {
 		String username = testBase.getString("userCA");
 		String password = testBase.getString("passCA");
-		RUtils.login(username,password);
+		pupi.login(username,password);
         PauseUtil.waitForAjaxToComplete(4000);
 		
 	}
