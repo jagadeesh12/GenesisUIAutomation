@@ -5,6 +5,8 @@ import java.awt.Robot;
 import java.awt.Toolkit;
 import java.awt.datatransfer.StringSelection;
 import java.awt.event.KeyEvent;
+import java.io.File;
+import java.io.IOException;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
@@ -518,6 +520,8 @@ public class OrgCreateAndApproveImpl extends BaseTestPage<TestPage> implements O
 	WrapperFunctions wf = new WrapperFunctions();
 	WebDriver driver=TestBaseProvider.getTestBase().getDriver();
 	TestBase testBase = TestBaseProvider.getTestBase();
+	
+	public String basepath;
 	@Override
 	protected void openPage() {
 		// TODO Auto-generated method stub
@@ -552,13 +556,20 @@ public class OrgCreateAndApproveImpl extends BaseTestPage<TestPage> implements O
 		wf.click_element(getmpnVerifyBtn());	
 		RUtils.waitforloadingtodissappear();
 		wf.click_element(getlogoUpload());
-		String fileDoc = testBase.getTestData().getString("filePath");
+		File currentDir = new File ("src/test/resources/UploadFiles/test.jpg");
 		try {
-			RUtils.upload_Documents(fileDoc);
-		} catch (AWTException e) {
+			basepath = currentDir.getCanonicalPath();
+			System.out.println("Baseapth :"+basepath);
+		
+	    	String fileDoc = testBase.getTestData().getString("filePath");
+			
+			RUtils.upload_Documents(basepath);
+					
+			}catch (AWTException | IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
-		}
+					}
+		
 		PauseUtil.pause(5000);
 		getorgaddr1TxtBox().sendKeys(testBase.getTestData().getString("orgAdd1"));
 		getorgaddr2TxtBox().sendKeys(testBase.getTestData().getString("orgAdd2"));
@@ -587,13 +598,13 @@ public class OrgCreateAndApproveImpl extends BaseTestPage<TestPage> implements O
 		getorgvatid().sendKeys(testBase.getTestData().getString("tradeLi"));
 		try {
 			wf.click_element(getuploadFileBtn1());
-			RUtils.upload_Documents(fileDoc);
+			RUtils.upload_Documents(basepath);
 			wf.click_element(getuploadFileBtn2());
-			RUtils.upload_Documents(fileDoc);
+			RUtils.upload_Documents(basepath);
 			wf.click_element(getuploadFileBtn3());
-			RUtils.upload_Documents(fileDoc);
+			RUtils.upload_Documents(basepath);
 			wf.click_element(getuploadFileBtn4());
-			RUtils.upload_Documents(fileDoc);
+			RUtils.upload_Documents(basepath);
 
 		} catch (AWTException e) {
 			// TODO Auto-generated catch block
@@ -627,6 +638,15 @@ public class OrgCreateAndApproveImpl extends BaseTestPage<TestPage> implements O
 	wf.click_element(getorgmpnverify());
 	RUtils.waitforloadingtodissappear();
 	wf.click_element(getlogoUpload());
+	File currentDir = new File ("src/test/resources/UploadFiles/test.jpg");
+	try {
+		String basePath = currentDir.getCanonicalPath();
+		System.out.println("Baseapth :"+basePath);
+	
+	} catch (IOException e1) {
+		// TODO Auto-generated catch block
+		e1.printStackTrace();
+	}
 	String fileDoc = testBase.getTestData().getString("filePath");
 	try {
 		RUtils.upload_Documents(fileDoc);

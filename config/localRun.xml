@@ -35,7 +35,7 @@
   </classes>
  </test> -->
  
- <test name="PartnerUserCreation" enabled="true">
+<test name="PartnerUserCreation" enabled="true">
   <parameter name="driver.name" value="Firefox"/>
   <parameter name="features" value="features/Redington/UserCreation.feature"/>
 
@@ -46,7 +46,7 @@
   </classes>
 
  </test> 
-  
+ 
 <test name="OrgCreateAndApproval" enabled="true">
   <parameter name="driver.name" value="Firefox"/>
   <parameter name="features" value="features/Redington/OrgCreateAndApproval.feature"/>
@@ -65,9 +65,9 @@
   <classes>
    <class name="com.scholastic.torque.runner.Run" />
   </classes>
-</test>
+</test>   
 
-<test name="OrderApproval" enabled="true">
+ <test name="OrderApproval" enabled="true">
   <parameter name="driver.name" value="Firefox"/>
   <parameter name="features" value="features/Redington/OrderApproval.feature"/>
   <parameter name="driver.capabilities"
@@ -76,8 +76,8 @@
    <class name="com.scholastic.torque.runner.Run" />
   </classes>
 </test>
-
- <test name="OrderRejection" enabled="true">
+ 
+<test name="OrderRejection" enabled="true">
   <parameter name="driver.name" value="Firefox"/>
   <parameter name="features" value="features/Redington/OrderRejection.feature"/>
   <parameter name="driver.capabilities"
@@ -85,7 +85,7 @@
   <classes>
    <class name="com.scholastic.torque.runner.Run" />
   </classes>
-</test>
+</test> 
 
 
 
@@ -107,7 +107,9 @@
   <classes>
    <class name="com.scholastic.torque.runner.Run" />
   </classes>
-</test> 
+</test>
+
+
  <test name="OrgCreateAndCARejection" enabled="true">
   <parameter name="driver.name" value="Firefox"/>
   <parameter name="features" value="features/Redington/OrgCreateAndCARejection.feature"/>
@@ -116,8 +118,8 @@
   <classes>
    <class name="com.scholastic.torque.runner.Run" />
   </classes>
-</test>
-
+</test> 
+ 
  <test name="OrgCreateAndCAOnhold" enabled="true">
   <parameter name="driver.name" value="Firefox"/>
   <parameter name="features" value="features/Redington/OrgCreateAndCAOnhold.feature"/>
@@ -171,5 +173,5 @@
    <class name="com.scholastic.torque.runner.Run" />
   </classes>
 
-</test>
+</test> 
  </suite>

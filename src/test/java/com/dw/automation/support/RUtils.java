@@ -21,6 +21,7 @@ import javax.xml.transform.dom.DOMSource;
 import javax.xml.transform.stream.StreamResult;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
@@ -101,9 +102,13 @@ public class RUtils {
 	}
 	
 	public static Boolean waitforloadingtodissappear(){
-		 WebDriverWait wait = new WebDriverWait(driver, 180);
-		 Boolean element2 = wait.until(ExpectedConditions.invisibilityOfElementLocated((By.xpath(".//*[@class='fa fa-refresh fa-spin fa-3x fa-fw']"))));
-		return element2;																			
+		 boolean disAppeared = false;
+		 WebDriverWait wait = new WebDriverWait(TestBaseProvider.getTestBase().getDriver(), 180);
+		 WebElement element = TestBaseProvider.getTestBase().getDriver().findElement(By.xpath(".//*[@class='fa fa-refresh fa-spin fa-3x fa-fw']"));
+		 wait.until(ExpectedConditions.invisibilityOf(element));
+	     wait.ignoring(NoSuchElementException.class);
+		 //disAppeared = wait.until(ExpectedConditions.invisibilityOfElementLocated((By.xpath(".//*[@class='fa fa-refresh fa-spin fa-3x fa-fw']"))));
+		 return disAppeared;																			
 	}
 	
 	public static void login(String username,String password) {

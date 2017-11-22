@@ -306,12 +306,16 @@ public class MarketPlacePageImpl extends BaseTestPage<TestPage> implements Marke
 		System.out.println("Order Numbaer is :"+orderNumber);
 		getSearchTxTBox().sendKeys(orderNumber);
 		wf.click_element(getSearchBtnFm());
+		PauseUtil.pause(10000);
 		wf.click_element(getPendingIcon());
 		PauseUtil.pause(3000);
 		SCHUtils.selectOptionByVisibleText(getStatusSelectBox(), status);
 		getcommentTxtBox().sendKeys(RConstantUtils.ORDER_APPROVAL_COMMENT);
 		wf.click_element(getsubmitBtn());
+		PauseUtil.pause(3000);
 		wf.click_element(getSearchBtnFm());
+		PauseUtil.pause(3000);
+		//wf.click_element(getSearchBtnFm());
 		String orderStatus = getOrderStatusTxt().getText();
 		System.out.println("Order status FM:"+orderStatus);
 		return orderStatus;
