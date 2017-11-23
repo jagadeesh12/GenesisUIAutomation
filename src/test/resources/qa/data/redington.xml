@@ -16,9 +16,9 @@
 		<appUrl>https://test.redington.market/</appUrl>
 	</testcase>
 	<testcase id="OrderApproval">
-		<userPM>PMFN_22111824@mailinator.com</userPM>
+		<userPM>PMFN_23112008@mailinator.com</userPM>
 		<password>Pass@123</password>
-		<userFm>FM22111814@mailinator.com</userFm>
+		<userFm>FM23111430@mailinator.com</userFm>
 		<passFm>Pass@123</passFm>
 		<userBam>bam@axsup.net</userBam>
 		<passBam>Pass@123</passBam>
@@ -39,6 +39,7 @@
 		<filePath>/home/rle0502/Downloads/litpro-test/src/test/resources/upload_files/test.jpg</filePath>
 		<credit>1000</credit>
 		<creditPMreq>10000</creditPMreq>
+		<creditPMreqRej>100000</creditPMreqRej>
 		<custCredit>100</custCredit>
 		<custCreditreq>120</custCreditreq>
 		<commentCredit>Credit Approval</commentCredit>
@@ -49,7 +50,7 @@
 		<rejecteStatus>REJECTED</rejecteStatus>
 		<custCredit>100</custCredit>
 		<custCreditReq>150</custCreditReq>
-		<custdomain>CUST22111833</custdomain>
+		<custdomain>CUST23111437</custdomain>
 		<cust>0000</cust>
 	
 	</testcase>

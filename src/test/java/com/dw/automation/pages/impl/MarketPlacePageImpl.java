@@ -106,6 +106,15 @@ public class MarketPlacePageImpl extends BaseTestPage<TestPage> implements Marke
 	@FindBy(locator = "rd.pm.homepage.option.orders")
 	private WebElement ordersOption;
 	
+	
+	
+	@FindBy(locator = "rd.pm.basketpage.btn.closepopup")
+	private WebElement closePopUpBtn;
+	
+	public WebElement getclosePopupBtn() {
+		return closePopUpBtn;
+	}
+	
 	public WebElement getSelectUserMenu() {
 		return selectUserMenu;
 	}	
@@ -241,18 +250,22 @@ public class MarketPlacePageImpl extends BaseTestPage<TestPage> implements Marke
 		PauseUtil.pause(4000);
 		getsearchTxtBox().sendKeys("Office 365 Enterprise E3");
 		wf.click_element(getsearchBtn());
-		RUtils.waitforloadingtodissappear();
+		//RUtils.waitforloadingtodissappear();
 		PauseUtil.pause(4000);
 		wf.click_element(getbuyBtn());
 		RUtils.waitforloadingtodissappear();
-		PauseUtil.pause(4000);
 		wf.click_element(getaddToBasketBtn());
 		RUtils.waitforloadingtodissappear();
+		PauseUtil.pause(3000);
+		wf.click_element(getclosePopupBtn());
+		PauseUtil.pause(2000);		
 //		boolean prdctadded =getproductAddSuccessMsg().getText().contains(RConstantUtils.PRODUCT_ADDED_TO_BASKET_MSG);
 //		Assert.assertTrue(prdctadded, "Product not added ");
 		//Assert.assertEquals(PauseUtil.getWhenVisible(getproductAddSuccessMsg(), RUtils.TimeOut).getText(), RConstantUtils.PRODUCT_ADDED_TO_BASKET_MSG);
-		wf.click_element(geterrorMsgPopUp());
-		RUtils.moveToElement(getbasketOptionIcon(), RUtils.TimeOut);
+		//wf.click_element(geterrorMsgPopUp());
+		//RUtils.moveToElement(getbasketOptionIcon(), RUtils.TimeOut);
+		wf.click_element(getbasketOptionIcon());
+		wf.click_element(getbasketOptionIcon());
 		wf.click_element(getviewAllOption());
 		boolean prdctname = getproductNameTxt().getText().contains(RConstantUtils.PRODUCT_NAME);
 		Assert.assertTrue(prdctname,"Product Name is not correct.");

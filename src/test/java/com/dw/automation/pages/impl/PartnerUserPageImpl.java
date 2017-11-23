@@ -368,7 +368,7 @@ public class PartnerUserPageImpl extends BaseTestPage<TestPage> implements Partn
         SCHUtils.selectOptionByvalue(selectstatus, TestBaseProvider.getTestBase().getTestData().getString("status"));
         wf.click_element(formSubmitbtn);
         //AssertUtils.assertTextMatches(getLblErrorMessage(), Matchers.containsString(ConstantUtils.ERRMSGSTACKABLENONSTACKABLE
-		
+        PauseUtil.pause(5000);
 		return emailID;
 	}
 	
@@ -403,7 +403,7 @@ public class PartnerUserPageImpl extends BaseTestPage<TestPage> implements Partn
         wf.click_element(formSubmitbtn);
       
         System.out.println("======Email id created for FM ======" +emailID);
-        
+        PauseUtil.pause(5000);
         
 		return emailID;
 				
@@ -446,6 +446,7 @@ public class PartnerUserPageImpl extends BaseTestPage<TestPage> implements Partn
 		getuserConfirmPasswordTxtBox().sendKeys(newPassword);
 		wf.click_element(getuserPassResetSubmitBtn());
 		resetPassword = newPassword;
+		PauseUtil.pause(5000);
 		return newPassword;
 	}
 
