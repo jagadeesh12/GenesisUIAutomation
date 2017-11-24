@@ -421,10 +421,10 @@ public class CustomerCreateAndApproveImpl extends BaseTestPage<TestPage> impleme
 		wf.click_element(ocr.getcacreditIcon());
 		String credit = getcustSpendLimitTxtBox().getAttribute("value");
 		System.out.println("Customer credit avialable :"+credit);
-		credit = credit.split("\\.",2)[0];
-		credit = "150";
+
 		getcustSpendLimitTxtBox().clear();
 		getcustSpendLimitTxtBox().sendKeys(testBase.getTestData().getString("custCreditReq"));
+		System.out.println("Customer credit updated to "+testBase.getTestData().getString("custCreditReq"));
 		ocr.getcommentCATxtBox().sendKeys(testBase.getTestData().getString("approveStatus"));
 		wf.click_element(getcustCreditUpdateBtn());
 		PauseUtil.pause(2000);
