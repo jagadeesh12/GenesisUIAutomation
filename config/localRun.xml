@@ -22,9 +22,11 @@
   <parameter name="userPM" value="pm14@mailinator.com"/>   
   <parameter name="passPM" value="Pass@123"/>       
 
-    
+
  
 <!-- <test name="Genesis Test Suite" enabled="true">
+
+
   <parameter name="driver.name" value="Firefox"/>
   <parameter name="features" value="features/Redington/"/>
 
@@ -33,7 +35,9 @@
   <classes>
    <class name="com.scholastic.torque.runner.Run" />
   </classes>
+
  </test> -->
+
  
  <test name="PartnerUserCreation" enabled="true">
   <parameter name="driver.name" value="Firefox"/>
