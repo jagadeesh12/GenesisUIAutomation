@@ -347,7 +347,7 @@ public class PartnerUserPageImpl extends BaseTestPage<TestPage> implements Partn
 
 	public void captureCaptcha() {
 		String captchaValue = getCaptchaImage().getText();  //this will read the captcha
-        System.out.println("CAPTCHA :"captchaValue);
+        System.out.println("CAPTCHA :"+captchaValue);
         getCaptchaTxtBox().sendKeys(captchaValue);
 		
 	}
