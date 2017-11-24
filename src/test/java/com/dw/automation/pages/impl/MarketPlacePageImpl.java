@@ -250,9 +250,11 @@ public class MarketPlacePageImpl extends BaseTestPage<TestPage> implements Marke
 		PauseUtil.pause(4000);
 		getsearchTxtBox().sendKeys("Office 365 Enterprise E3");
 		wf.click_element(getsearchBtn());
+		
 		//RUtils.waitforloadingtodissappear();
 		PauseUtil.pause(4000);
 		wf.click_element(getbuyBtn());
+		System.out.println("Product added to basket");
 		RUtils.waitforloadingtodissappear();
 		wf.click_element(getaddToBasketBtn());
 		RUtils.waitforloadingtodissappear();
@@ -269,9 +271,11 @@ public class MarketPlacePageImpl extends BaseTestPage<TestPage> implements Marke
 		wf.click_element(getviewAllOption());
 		boolean prdctname = getproductNameTxt().getText().contains(RConstantUtils.PRODUCT_NAME);
 		Assert.assertTrue(prdctname,"Product Name is not correct.");
+		System.out.println("Verifing product is added");
 		SCHUtils.selectOptionByIndex(getcustomerSelectDrpDwn(), 1);
 		wf.click_element(getplaceOrderBtn());
 		wf.click_element(getpopUpCloseBtn());
+		System.out.println("Placing order......");
 		boolean orderCOnfirmation = getorderConfirmTxt().getText().contains(RConstantUtils.ORDER_CONFIRM_TEXT);
 		Assert.assertTrue(orderCOnfirmation,"Order not placed successfully");
 		System.out.println(getorderConfirmTxt().getText());
@@ -285,8 +289,17 @@ public class MarketPlacePageImpl extends BaseTestPage<TestPage> implements Marke
 
 	
 	public String getOrderNumber(){
+		System.out.println("Getting order number");
 		String ord = getorderNumberTxt().getText().replace("Order #: ", "");
-		System.out.println(ord); 
+		System.out.println("Order nummber is :"+ord); 
+		System.out.println("Saving order id to xml");
+		String user = "orderId";
+		String pass = "ord";
+		String p="";
+		//RUtils.update_xml(1,user ,pass, email, resetPassword);
+		System.out.println("Writing data to xml");
+		PartnerUserPageImpl.writeXML(user,pass,ord,p);
+
 		return ord;
 		
 	}
@@ -316,10 +329,12 @@ public class MarketPlacePageImpl extends BaseTestPage<TestPage> implements Marke
 		String username = TestBaseProvider.getTestBase().getTestData().getString("userFm");
 		String password = TestBaseProvider.getTestBase().getTestData().getString("passFm");
 		pupi.login(username,password);
-        PauseUtil.waitForAjaxToComplete(4000);		
+        PauseUtil.waitForAjaxToComplete(4000);	
+        System.out.println("Logged in as FM");
 	}
 
 	public String order(String orderNumber, String status) {
+		System.out.println("Starting order approval by FM");
 		System.out.println("Order Numbaer is :"+orderNumber);
 		getSearchTxTBox().sendKeys(orderNumber);
 		wf.click_element(getSearchBtnFm());
@@ -334,7 +349,7 @@ public class MarketPlacePageImpl extends BaseTestPage<TestPage> implements Marke
 		PauseUtil.pause(3000);
 		//wf.click_element(getSearchBtnFm());
 		String orderStatus = getOrderStatusTxt().getText();
-		System.out.println("Order status FM:"+orderStatus);
+		System.out.println("Order status FM approved :"+orderStatus);
 		return orderStatus;
 		
 		
@@ -343,6 +358,8 @@ public class MarketPlacePageImpl extends BaseTestPage<TestPage> implements Marke
 	
 	public String orderStatus(String orderNumber) {
 		//PauseUtil.clickWhenReady(, RUtils.TimeOut);
+		System.out.println("Verifing order is placed successfully.");
+		wf.click_element(getSelectUserMenu());
 		wf.click_element(getSelectUserMenu());
 		wf.click_element(getAccntMgnOption());
 		wf.click_element(getOrdersOption());

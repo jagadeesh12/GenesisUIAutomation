@@ -52,6 +52,8 @@
 		<custCreditReq>150</custCreditReq>
 		<custdomain>CUST24111056</custdomain>
 		<cust>0000</cust>
+		<orderId></orderId>
+		<ord>00000</ord>
 	
 	</testcase>
 	
