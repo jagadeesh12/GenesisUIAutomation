@@ -15,6 +15,7 @@ public class OrgCreditReqSteps {
 	@Then("^I apply for partner organization credit request$")
 	public void i_apply_for_partner_organization_credit_request() throws Throwable {
 		domainName = OrgCreateAndApproveSteps.getEntityName();
+		
 		ocp.applyForCredit(domainName);
 	}
 

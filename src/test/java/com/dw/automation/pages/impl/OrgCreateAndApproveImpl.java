@@ -5,6 +5,8 @@ import java.awt.Robot;
 import java.awt.Toolkit;
 import java.awt.datatransfer.StringSelection;
 import java.awt.event.KeyEvent;
+import java.io.File;
+import java.io.IOException;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
@@ -306,6 +308,12 @@ public class OrgCreateAndApproveImpl extends BaseTestPage<TestPage> implements O
 		return updateBtn;
 	}
 	
+	@FindBy(locator = "rd.orgonboard.ca.btn.update")
+	private WebElement updateCABtn;
+	
+	public WebElement getupdateCABtn() {
+		return updateCABtn;
+	}
 	@FindBy(locator = "rd.orgonboard.bam.status.txt")
 	private WebElement statusTxt;
 	
@@ -355,6 +363,124 @@ public class OrgCreateAndApproveImpl extends BaseTestPage<TestPage> implements O
 		return rejectUpdateBAM;
 	}
 	
+
+	@FindBy(locator = "rd.orgonboard.drpdwn.finEmail")
+	private WebElement finEmail;
+	
+	public WebElement getfinEmail() {
+		return finEmail;
+	}
+	
+	// ------------------------Existing onboard 
+	
+	@FindBy(locator = "rd.exorgonboard.pm.rdBtn.orgselection")
+	private WebElement orgselection;
+	
+	public WebElement getorgselection() {
+		return orgselection;
+	}
+
+	@FindBy(locator = "rd.exorgonboard.pm.txtbox.customercode")
+	private WebElement customercode;
+	
+	public WebElement getcustomercode() {
+		return customercode;
+	}
+
+	@FindBy(locator = "rd.exorgonboard.pm.txtbox.companycode")
+	private WebElement companycode;
+	
+	public WebElement getcompanycode() {
+		return companycode;
+	}
+
+	@FindBy(locator = "rd.exorgonboard.pm.btn.orgsearch")
+	private WebElement orgsearch;
+	
+	public WebElement getorgsearch() {
+		return orgsearch;
+	}
+
+	@FindBy(locator = "rd.exorgonboard.pm.txtbox.orgmpnid")
+	private WebElement orgmpnid;
+	
+	public WebElement getorgmpnid() {
+		return orgmpnid;
+	}
+
+	@FindBy(locator = "rd.exorgonboard.pm.btn.orgmpnverify")
+	private WebElement orgmpnverify;
+	
+	public WebElement getorgmpnverify() {
+		return orgmpnverify;
+	}
+
+	@FindBy(locator = "rd.exorgonboard.pm.txtbox.orgsigningAuthorityName")
+	private WebElement orgsigningAuthorityName;
+	
+	public WebElement getorgsigningAuthorityName() {
+		return orgsigningAuthorityName;
+	}
+
+	@FindBy(locator = "rd.exorgonboard.pm.txtbox.orgsignauthemail")
+	private WebElement exorgsignauthemail;
+	
+	public WebElement getexorgsignauthemail() {
+		return exorgsignauthemail;
+	}
+
+
+	@FindBy(locator = "rd.exorgonboard.rdBtn.orgfinapproval")
+	private WebElement exorgfinapproval;
+	
+	public WebElement getexorgfinapproval() {
+		return exorgfinapproval;
+	}
+
+	@FindBy(locator = "rd.exorgonboard.drpdwn.orgpartnersegmnt")
+	private WebElement exorgpartnersegmnt;
+	
+	public WebElement getexorgpartnersegmnt() {
+		return exorgpartnersegmnt;
+	}
+
+	@FindBy(locator = "rd.exorgonboard.txtbox.orgcompdomain")
+	private WebElement exorgcompdomain;
+	
+	public WebElement getexorgcompdomain() {
+		return exorgcompdomain;
+	}
+
+	@FindBy(locator = "rd.exorgonboard.txtbox.orgvatid")
+	private WebElement exorgvatid;
+	
+	public WebElement getexorgvatid() {
+		return exorgvatid;
+	}
+
+	@FindBy(locator = "rd.exorgonboard.chkbox.orgiagreechkbox")
+	private WebElement exorgiagreechkbox;
+	
+	public WebElement getexorgiagreechkbox() {
+		return exorgiagreechkbox;
+	}
+
+	@FindBy(locator = "rd.exorgonboard.btn.orgsave")
+	private WebElement exorgsave;
+	
+	public WebElement getexorgsave() {
+		return exorgsave;
+	}
+	
+	@FindBy(locator = "rd.orgonboard.popUp.createOrg")
+	private WebElement createOrgPopup;
+	
+	public WebElement getcreateOrgPopupClose() {
+		return createOrgPopup;
+	}
+
+	//------------------------End---------
+
 	@FindBy(locator = "rd.orgonboard.upload.licCopy")
 	private WebElement uploadFileBtn1;
 	
@@ -383,16 +509,34 @@ public class OrgCreateAndApproveImpl extends BaseTestPage<TestPage> implements O
 		return uploadFileBtn4;
 	}
 	
+	@FindBy(locator = "rd.orgonboard.drpdwn.userfm")
+	private WebElement userfmDrpdwn;
+	
+	public WebElement getuserfmDrpdwn() {
+		return userfmDrpdwn;
+	}
+	
+	
 	WrapperFunctions wf = new WrapperFunctions();
 	WebDriver driver=TestBaseProvider.getTestBase().getDriver();
 	TestBase testBase = TestBaseProvider.getTestBase();
+	
+	public String basepath;
 	@Override
 	protected void openPage() {
 		// TODO Auto-generated method stub
 		
 	}
+	
+	PartnerUserPageImpl pupi = new PartnerUserPageImpl();
 
 	public void goToOrgPage() {
+		try {
+			
+		wf.click_element(getcreateOrgPopupClose());
+		}catch(Exception e) {
+			System.out.println("New Organization create popup not present");
+		}
 		wf.click_element(getUserMenu());
 		wf.click_element(getAccountMgtMenu());
 		wf.click_element(getOrganizationMenu());
@@ -414,14 +558,21 @@ public class OrgCreateAndApproveImpl extends BaseTestPage<TestPage> implements O
 		wf.click_element(getmpnVerifyBtn());	
 		RUtils.waitforloadingtodissappear();
 		wf.click_element(getlogoUpload());
-		String fileDoc = testBase.getTestData().getString("filePath");
+		File currentDir = new File ("src/test/resources/UploadFiles/test.jpg");
 		try {
-			RUtils.upload_Documents(fileDoc);
-		} catch (AWTException e) {
+			basepath = currentDir.getCanonicalPath();
+			System.out.println("Baseapth :"+basepath);
+		
+	    	String fileDoc = testBase.getTestData().getString("filePath");
+			
+			RUtils.upload_Documents(basepath);
+					
+			}catch (AWTException | IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
-		}
-		PauseUtil.pause(5000);
+					}
+//		
+		//PauseUtil.pause(10000);
 		getorgaddr1TxtBox().sendKeys(testBase.getTestData().getString("orgAdd1"));
 		getorgaddr2TxtBox().sendKeys(testBase.getTestData().getString("orgAdd2"));
 		getorgaddr3TxtBox().sendKeys(testBase.getTestData().getString("orgAdd3"));
@@ -438,22 +589,25 @@ public class OrgCreateAndApproveImpl extends BaseTestPage<TestPage> implements O
 		getorgsignauthname().sendKeys(testBase.getTestData().getString("signAuth"));
 		getorgsignauthemail().sendKeys(testBase.getTestData().getString("signAuthEmail"));
 		wf.click_element(getorgfinapproval());
+		SCHUtils.selectOptionsByVisibleText(getuserfmDrpdwn(), testBase.getTestData().getString("userFm").toLowerCase());
 		SCHUtils.selectOptionByvalue(getorgpartnersegmnt(), testBase.getTestData().getString("partnerSegment"));
+		//SCHUtils.selectOptionByvalue(getfinEmail(), );
 		String name = RUtils.generateName();
 		String domainName = "www."+name+".com";
 		getorgcompdomain().sendKeys(domainName);
 		getorgtradelic().sendKeys(testBase.getTestData().getString("tradeLi"));
 		getorgtradecalendar().sendKeys(testBase.getTestData().getString("tradeLicCal"));
 		getorgvatid().sendKeys(testBase.getTestData().getString("tradeLi"));
+		//PauseUtil.pause(20000);
 		try {
 			wf.click_element(getuploadFileBtn1());
-			RUtils.upload_Documents(fileDoc);
+			RUtils.upload_Documents(basepath);
 			wf.click_element(getuploadFileBtn2());
-			RUtils.upload_Documents(fileDoc);
+			RUtils.upload_Documents(basepath);
 			wf.click_element(getuploadFileBtn3());
-			RUtils.upload_Documents(fileDoc);
+			RUtils.upload_Documents(basepath);
 			wf.click_element(getuploadFileBtn4());
-			RUtils.upload_Documents(fileDoc);
+			RUtils.upload_Documents(basepath);
 
 		} catch (AWTException e) {
 			// TODO Auto-generated catch block
@@ -472,17 +626,78 @@ public class OrgCreateAndApproveImpl extends BaseTestPage<TestPage> implements O
         Assert.assertTrue("Partner Entity not created succesfully",partnerEnity);
         wf.click_element(getclosePopup());
         return domainName;
-		
-		
-		
+
 	}
+	
+   public String fillExistingOrgForm(){
+	PauseUtil.pause(5000);
+	wf.click_element(getOrgAddBtn());
+	wf.click_element(getorgselection());
+	getcustomercode().sendKeys(testBase.getTestData().getString("customercode"));
+	getcompanycode().sendKeys(testBase.getTestData().getString("companycode"));
+	wf.click_element(getorgsearch());
+	PauseUtil.pause(10000);
+	getorgmpnid().sendKeys(testBase.getTestData().getString("orgmpnid"));
+	wf.click_element(getorgmpnverify());
+	RUtils.waitforloadingtodissappear();
+	wf.click_element(getlogoUpload());
+//	File currentDir = new File ("src/test/resources/UploadFiles/test.jpg");
+//	try {
+//		String basePath = currentDir.getCanonicalPath();
+//		System.out.println("Baseapth :"+basePath);
+//	
+//	} catch (IOException e1) {
+//		// TODO Auto-generated catch block
+//		e1.printStackTrace();
+//	}
+//	String fileDoc = testBase.getTestData().getString("filePath");
+//	try {
+//		RUtils.upload_Documents(fileDoc);
+//	} catch (AWTException e) {
+//		// TODO Auto-generated catch block
+//		e.printStackTrace();
+//	}
+	PauseUtil.pause(10000);
+	getorgsigningAuthorityName().sendKeys(testBase.getTestData().getString("orgsigningAuthorityName"));
+	
+	getexorgsignauthemail().sendKeys(testBase.getTestData().getString("exorgsignauthemail"));
+
+	wf.click_element(getexorgfinapproval());
+
+	SCHUtils.selectOptionByvalue(getorgpartnersegmnt(), testBase.getTestData().getString("exorgpartnersegmnt"));
+
+	String name = RUtils.generateName();
+
+	String domainName = "www."+name+".com";
+	getexorgcompdomain().sendKeys(domainName);
+	PauseUtil.pause(3000);
+	getexorgvatid().sendKeys("orgmpnid");
+	
+	JavascriptExecutor je = (JavascriptExecutor) driver;
+    je.executeScript("arguments[0].scrollIntoView(true);",getexorgsave());
+	wf.click_element(getexorgiagreechkbox());
+	PauseUtil.pause(3000);
+	wf.click_element(getexorgsave());
+	RUtils.waitforloadingtodissappear();
+	wf.click_element(getclosePopup());
+	System.out.println("+++++++++++++++++=========+++++++++" +domainName);
+	return domainName;
+	   
+   }
+
+		
+		
+		
+	
 
 	
 	public void loginApplicationAsBAM() {
 
 		String username = testBase.getString("userBAM");
 		String password = testBase.getString("passBAM");
-		RUtils.login(username,password);
+		System.out.println(username);
+		System.out.println(password);
+		pupi.login(username,password);
         PauseUtil.waitForAjaxToComplete(4000);
 		
 	}
@@ -501,8 +716,9 @@ public class OrgCreateAndApproveImpl extends BaseTestPage<TestPage> implements O
 			PauseUtil.pause(3000);
 			SCHUtils.selectOptionByvalue(getstatusSelectBox(), "1: APPROVED");
 			getbamCredittxtBox().clear();
+			PauseUtil.pause(3000);
 			getbamCredittxtBox().sendKeys(testBase.getTestData().getString("credit"));
-			wf.click_element(getrdBtnFinApp());
+			//wf.click_element(getrdBtnFinApp());
 			
 			getcommentTxtBox().sendKeys("APPROVED");
 			wf.click_element(getupdateBtn());
@@ -554,7 +770,7 @@ public class OrgCreateAndApproveImpl extends BaseTestPage<TestPage> implements O
 			SCHUtils.selectOptionByvalue(getpaymentSelect(), "1: 30 Days from Invoice date");
 			SCHUtils.selectOptionByvalue(getcurrencySelect(), "2: USD");
 			getcommentTxtBox().sendKeys("APPROVED");
-			wf.click_element(getupdateBtn());
+			wf.click_element(getupdateCABtn());
 			PauseUtil.pause(2000);
 			boolean statusApp = getstatusTxt().getText().contains("APPROVED");
 			Assert.assertTrue("CA Approval scenario failed",statusApp);
@@ -613,7 +829,7 @@ public class OrgCreateAndApproveImpl extends BaseTestPage<TestPage> implements O
 	public void loginApplicationAsCA() {
 		String username = testBase.getString("userCA");
 		String password = testBase.getString("passCA");
-		RUtils.login(username,password);
+		pupi.login(username,password);
         PauseUtil.waitForAjaxToComplete(4000);
 		
 	}

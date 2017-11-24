@@ -1,4 +1,4 @@
-<testdata>
+<?xml version="1.0" encoding="UTF-8"?><testdata>
 	<testcase id="RedingtonLogin">
 		<userid>sa6.qa2@3.emailfreedom.ml</userid>
 		<password>Pass@123</password>
@@ -8,6 +8,7 @@
 		<tele>0221234572</tele>
 		<fax>0221263342</fax>
 		<role>PM</role>
+		<fmrole>FM</fmrole>
 		<country>United Arab Emirates</country>
 		<status>Active</status>
 		<newPassword>Pass@123</newPassword>
@@ -15,9 +16,9 @@
 		<appUrl>https://test.redington.market/</appUrl>
 	</testcase>
 	<testcase id="OrderApproval">
-		<userid>pm6.qa@mailinator.com</userid>
+		<userPM>PMFN_24111159@mailinator.com</userPM>
 		<password>Pass@123</password>
-		<userFm>fm6.qa@mailinator.com</userFm>
+		<userFm>FM24111201@mailinator.com</userFm>
 		<passFm>Pass@123</passFm>
 		<userBam>bam@axsup.net</userBam>
 		<passBam>Pass@123</passBam>
@@ -38,6 +39,7 @@
 		<filePath>/home/rle0502/Downloads/litpro-test/src/test/resources/upload_files/test.jpg</filePath>
 		<credit>1000</credit>
 		<creditPMreq>10000</creditPMreq>
+		<creditPMreqRej>100000</creditPMreqRej>
 		<custCredit>100</custCredit>
 		<custCreditreq>120</custCreditreq>
 		<commentCredit>Credit Approval</commentCredit>
@@ -48,7 +50,19 @@
 		<rejecteStatus>REJECTED</rejecteStatus>
 		<custCredit>100</custCredit>
 		<custCreditReq>150</custCreditReq>
+		<custdomain>CUST24111056</custdomain>
+		<cust>0000</cust>
 	
 	</testcase>
-</testdata>
+	
+	<testcase id="ExistingOrgOnboard">
+	   <customercode>1010006975</customercode>
+	   <companycode>1120</companycode>
+	   <orgmpnid>3379748</orgmpnid>
+	   <orgsigningAuthorityName>jagadeesh</orgsigningAuthorityName>
+	   <exorgsignauthemail>jagadeesh.manjunath@relevancelab.com</exorgsignauthemail>
+	   <exorgpartnersegmnt>1: Reseller</exorgpartnersegmnt>
+	</testcase>
+	
 
+</testdata>

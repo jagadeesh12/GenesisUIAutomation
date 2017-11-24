@@ -109,6 +109,7 @@ public class OrgCreditReqImpl extends BaseTestPage<TestPage> implements OrgCredi
 	public void applyForCredit(String domainName) {
 		PauseUtil.pause(3000);
 		wf.click_element(oca.getUserMenu());
+		wf.click_element(oca.getUserMenu());
 		wf.click_element(oca.getAccountMgtMenu());
 		wf.click_element(getorgCreditReqOption());
 		oca.getbamSearchTxtBox().sendKeys(domainName);
@@ -116,8 +117,13 @@ public class OrgCreditReqImpl extends BaseTestPage<TestPage> implements OrgCredi
 		PauseUtil.pause(3000);
 		wf.click_element(getcreditIcon());
 		PauseUtil.pause(3000);
+		String credit = getcreditTxtBox().getAttribute("value");
+		System.out.println("Credit :"+credit);
+		credit = credit.split("\\.",2)[0];
+		credit = credit + "0";
 		getcreditTxtBox().clear();
-		getcreditTxtBox().sendKeys(testBase.getTestData().getString("creditPMreq"));
+		getcreditTxtBox().sendKeys(credit);
+		//getcreditTxtBox().sendKeys(testBase.getTestData().getString("creditPMreq"));
 		getcommentTxtBox().sendKeys(testBase.getTestData().getString("commentCredit"));
 		wf.click_element(getupdateBtn());
 		PauseUtil.pause(3000);

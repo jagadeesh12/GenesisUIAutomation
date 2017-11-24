@@ -51,6 +51,13 @@ public class PartnerUserSteps {
 
     }
     
+    @When("^I fill form to create Finance Manager$")
+    public void i_fill_form_to_create_finance_manager() throws Throwable {
+    	email=pup.fillFMUserForm();
+    	System.out.println("Registering FM user with following EmailID :"+email);
+
+    }
+    
 
     @Then("^Temporary password is generated$")
     public void temporary_password_is_generated() throws Throwable {
@@ -84,7 +91,7 @@ public class PartnerUserSteps {
 
     @Then("^I reset the password$")
     public void i_reset_the_password() throws Throwable {
-    	System.out.println("I reset the password method===============");
+    	System.out.println("I reset the password method");
 
     	resetPassword = pup.resetPassword(verificationCode);
     	
@@ -103,6 +110,10 @@ public class PartnerUserSteps {
     }
     
 
+    @Then("^I verify login page is displayed$")
+    public void i_verify_login_page_is_displayed() throws Throwable {
+        pup.saveFMCredentials(email);
+    }
 
 
 }
