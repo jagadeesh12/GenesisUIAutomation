@@ -540,7 +540,7 @@ public class OrgCreateAndApproveImpl extends BaseTestPage<TestPage> implements O
 		wf.click_element(getUserMenu());
 		wf.click_element(getAccountMgtMenu());
 		wf.click_element(getOrganizationMenu());
-	
+		System.out.println("Going to organization page.");
 	}
 
 	
@@ -555,8 +555,10 @@ public class OrgCreateAndApproveImpl extends BaseTestPage<TestPage> implements O
 		getOrgNameTxtBox().sendKeys(orgName);
 		getMPNIDtxtBox().sendKeys(mpnId);
 		PauseUtil.pause(2000);
-		wf.click_element(getmpnVerifyBtn());	
+		wf.click_element(getmpnVerifyBtn());
+		System.out.println("Waiting for mpn verify");
 		RUtils.waitforloadingtodissappear();
+		System.out.println("Starting file upload function");
 		wf.click_element(getlogoUpload());
 		File currentDir = new File ("src/test/resources/UploadFiles/test.jpg");
 		try {
@@ -571,7 +573,7 @@ public class OrgCreateAndApproveImpl extends BaseTestPage<TestPage> implements O
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 					}
-//		
+		System.out.println("End of file upload function");
 		//PauseUtil.pause(10000);
 		getorgaddr1TxtBox().sendKeys(testBase.getTestData().getString("orgAdd1"));
 		getorgaddr2TxtBox().sendKeys(testBase.getTestData().getString("orgAdd2"));
@@ -600,12 +602,16 @@ public class OrgCreateAndApproveImpl extends BaseTestPage<TestPage> implements O
 		getorgvatid().sendKeys(testBase.getTestData().getString("tradeLi"));
 		//PauseUtil.pause(20000);
 		try {
+			System.out.println("Starting 2 file upload function");
 			wf.click_element(getuploadFileBtn1());
 			RUtils.upload_Documents(basepath);
+			System.out.println("Starting 3 file upload function");
 			wf.click_element(getuploadFileBtn2());
 			RUtils.upload_Documents(basepath);
+			System.out.println("Starting 4 file upload function");
 			wf.click_element(getuploadFileBtn3());
 			RUtils.upload_Documents(basepath);
+			System.out.println("Starting 5 file upload function");
 			wf.click_element(getuploadFileBtn4());
 			RUtils.upload_Documents(basepath);
 
@@ -621,10 +627,12 @@ public class OrgCreateAndApproveImpl extends BaseTestPage<TestPage> implements O
         je.executeScript("arguments[0].scrollIntoView(true);",getorgsaveBtn());
 		wf.click_element(getiagreechkbox());
 		wf.click_element(getorgsaveBtn());
+		System.out.println("Saving organization after filling the form");
 		RUtils.waitforloadingtodissappear();
 		boolean partnerEnity = getffileUploadPopup().getText().contains(RConstantUtils.ORG_CREATE_SUCCESS);
         Assert.assertTrue("Partner Entity not created succesfully",partnerEnity);
         wf.click_element(getclosePopup());
+        System.out.println("Filled creating new organizaton with domain name "+domainName);
         return domainName;
 
 	}
@@ -699,6 +707,7 @@ public class OrgCreateAndApproveImpl extends BaseTestPage<TestPage> implements O
 		System.out.println(password);
 		pupi.login(username,password);
         PauseUtil.waitForAjaxToComplete(4000);
+        System.out.println("Logged in as BAM");
 		
 	}
 
@@ -707,10 +716,12 @@ public class OrgCreateAndApproveImpl extends BaseTestPage<TestPage> implements O
 		wf.click_element(getbamUserMenu());
 		wf.click_element(getAccountMgtMenu());
 		wf.click_element(getOrganizationMenu());
+		System.out.println("Going to organization page.");
 		PauseUtil.pause(3000);
 		getbamSearchTxtBox().sendKeys(domainName);
 		wf.click_element(getbamSearchBtn());
 		wf.click_element(getapproveIcon());
+		System.out.println("Clicked "+status+" icon.");
 		switch(status){    
 		case "Approve":
 			PauseUtil.pause(3000);
@@ -725,6 +736,7 @@ public class OrgCreateAndApproveImpl extends BaseTestPage<TestPage> implements O
 			PauseUtil.pause(2000);
 			boolean statusApp = getstatusTxt().getText().contains("APPROVED");
 			Assert.assertTrue("BAM Approval scenario failed",statusApp);
+			System.out.println("BAM approved organization successfully");
 			break;
 		case "Reject":
 			PauseUtil.pause(3000);
@@ -734,6 +746,7 @@ public class OrgCreateAndApproveImpl extends BaseTestPage<TestPage> implements O
 			PauseUtil.pause(3000);
 			boolean statusReject = getstatusTxt().getText().contains("REJECTED");
 			Assert.assertTrue("BAM Approval scenario failed",statusReject);
+			System.out.println("BAM rejeced organization successfully");
 			break;
 		
 		case "Onhold":
@@ -744,6 +757,7 @@ public class OrgCreateAndApproveImpl extends BaseTestPage<TestPage> implements O
 			PauseUtil.pause(3000);
 			boolean statusOnhold = getstatusTxt().getText().contains("ONHOLD");
 			Assert.assertTrue("BAM Approval scenario failed",statusOnhold);
+			System.out.println("BAM onhold organization successfully");
 			break;
 		
 		}
@@ -774,6 +788,7 @@ public class OrgCreateAndApproveImpl extends BaseTestPage<TestPage> implements O
 			PauseUtil.pause(2000);
 			boolean statusApp = getstatusTxt().getText().contains("APPROVED");
 			Assert.assertTrue("CA Approval scenario failed",statusApp);
+			System.out.println("CA Approve organization successfully");
 			break;
 			
 		case "Reject":
@@ -783,7 +798,8 @@ public class OrgCreateAndApproveImpl extends BaseTestPage<TestPage> implements O
 			wf.click_element(getrejectUpdateBAM());
 			PauseUtil.pause(3000);
 			boolean statusReject = getstatusTxt().getText().contains("REJECTED");
-			Assert.assertTrue("BAM Approval scenario failed",statusReject);
+			Assert.assertTrue("CA Approval scenario failed",statusReject);
+			System.out.println("CA Reject organization successfully");
 			break;
 			
 		case "Onhold":
@@ -793,7 +809,8 @@ public class OrgCreateAndApproveImpl extends BaseTestPage<TestPage> implements O
 			wf.click_element(getrejectUpdateBAM());
 			PauseUtil.pause(3000);
 			boolean statusOnhold = getstatusTxt().getText().contains("ONHOLD");
-			Assert.assertTrue("BAM Approval scenario failed",statusOnhold);
+			Assert.assertTrue("CA Approval scenario failed",statusOnhold);
+			System.out.println("CA ONHOLD organization successfully");
 			break;
 			}	
 			
@@ -811,16 +828,18 @@ public class OrgCreateAndApproveImpl extends BaseTestPage<TestPage> implements O
 			case "Approve":
 				boolean statusApp = getstatusTxtPM().getText().contains("APPROVED");
 				Assert.assertTrue("PM Verification scenario failed",statusApp);
+				System.out.println("PM org approve Verification scenario ");
 				break;
 				
 			case "Reject":
 				boolean statusReject = getstatusTxtPM().getText().contains("REJECTED");
 				Assert.assertTrue("PM Verification scenario failed",statusReject);
+				System.out.println("PM org reject Verification scenario ");
 				break;
 				
 			case "Onhold":
 				boolean statusOnhold = getstatusTxtPM().getText().contains("ONHOLD");
-				Assert.assertTrue("PM Verification scenario failed",statusOnhold);
+				Assert.assertTrue("PM onhold Verification scenario failed",statusOnhold);
 				break;
 			}
 	}
@@ -831,6 +850,7 @@ public class OrgCreateAndApproveImpl extends BaseTestPage<TestPage> implements O
 		String password = testBase.getString("passCA");
 		pupi.login(username,password);
         PauseUtil.waitForAjaxToComplete(4000);
+        System.out.println("Logged in as CA");
 		
 	}
 
