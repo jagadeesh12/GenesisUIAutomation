@@ -1,5 +1,6 @@
 package com.dw.automation.pages.impl;
 
+import java.awt.AWTException;
 import java.io.File;
 import java.io.IOException;
 import java.text.DateFormat;
@@ -313,7 +314,7 @@ public class PartnerUserPageImpl extends BaseTestPage<TestPage> implements Partn
 	WebDriver driver=TestBaseProvider.getTestBase().getDriver();
 	TestBase testBase = TestBaseProvider.getTestBase();
 	public String resetPassword;
-
+	public static  String filepath;
 	
 	public void loginApplication() {
 		try {
@@ -479,8 +480,18 @@ public class PartnerUserPageImpl extends BaseTestPage<TestPage> implements Partn
 	public static void writeXML(String user, String pass, String email, String resetPassword) {
 		try {
         
-		    
-			String filepath = "/home/rle0502/Documents/code/genesis-auto/schl-rco-test-ca/src/test/resources/qa/data/redington.xml";
+			File currentDir = new File ("src/test/resources/qa/data/redington.xml");
+			try {
+				filepath = currentDir.getCanonicalPath();
+				System.out.println("Baseapth :"+filepath);
+			
+
+						
+				}catch (IOException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+						}
+			//String filepath = "/home/rle0502/Documents/code/genesis-auto/schl-rco-test-ca/src/test/resources/qa/data/redington.xml";
 			System.out.println(filepath);
 			DocumentBuilderFactory docFactory = DocumentBuilderFactory.newInstance();
 			DocumentBuilder docBuilder = docFactory.newDocumentBuilder();

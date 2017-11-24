@@ -61,15 +61,16 @@ public class Hooks extends ScenarioHook {
 			testBase.getContext().subset("testexecution").clear();
 			String session = testBase.getSessionID();
 
-			if (!session.equalsIgnoreCase("") && !testBase.getContext().getString("sauce")
+/*			if (!session.equalsIgnoreCase("") && !testBase.getContext().getString("sauce")
 					.equalsIgnoreCase("false")) {
 				SauceREST sClient =
 						new SauceREST(testBase.getContext().getString("sauce.username"),
 								testBase.getContext().getString("sauce.access.key"));
+				System.out.println("Before hooks 1st if statment:"+ sClient);
 				Map<String, Object> params = new HashMap<String, Object>();
 				params.put("name", scenario.getName());
 				sClient.updateJobInfo(session, params);
-			}
+			}*/
 
 			testBase.getDriver().manage().deleteAllCookies();
 			testBase.getDriver().get(testBase.getString("url"));
