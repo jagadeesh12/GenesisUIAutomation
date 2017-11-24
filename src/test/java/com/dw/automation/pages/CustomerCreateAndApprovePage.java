@@ -12,4 +12,8 @@ public interface CustomerCreateAndApprovePage {
 
 	void updateCustSpendLimit(String domainName);
 
+	void approveCaSpendLimit(String status);
+
+	void verifyCustCreditStatus(String status);
+
 }
