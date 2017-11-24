@@ -322,6 +322,7 @@ public class PartnerUserPageImpl extends BaseTestPage<TestPage> implements Partn
 		String username = testBase.getString("userSA");
 		String password = testBase.getString("passSA");
 		login(username,password);
+		System.out.println("Logged in as SA");
 		}catch(Exception ex) {
 			System.out.println("Failed login :"+ex);
 		}
@@ -341,11 +342,12 @@ public class PartnerUserPageImpl extends BaseTestPage<TestPage> implements Partn
 		getPassword().sendKeys(password);
 		captureCaptcha();
 		getSignInBtn().click();
+		
 	}
 
 	public void captureCaptcha() {
 		String captchaValue = getCaptchaImage().getText();  //this will read the captcha
-        System.out.println(captchaValue);
+        System.out.println("CAPTCHA :"captchaValue);
         getCaptchaTxtBox().sendKeys(captchaValue);
 		
 	}
@@ -370,6 +372,8 @@ public class PartnerUserPageImpl extends BaseTestPage<TestPage> implements Partn
         wf.click_element(formSubmitbtn);
         //AssertUtils.assertTextMatches(getLblErrorMessage(), Matchers.containsString(ConstantUtils.ERRMSGSTACKABLENONSTACKABLE
         PauseUtil.pause(5000);
+        System.out.println("Creating new Partner Manager with name :"+name);
+        
 		return emailID;
 	}
 	
@@ -405,7 +409,7 @@ public class PartnerUserPageImpl extends BaseTestPage<TestPage> implements Partn
       
         System.out.println("======Email id created for FM ======" +emailID);
         PauseUtil.pause(5000);
-        
+        System.out.println("Creating new Finance Manager :"+name);
 		return emailID;
 				
 	}
@@ -471,7 +475,7 @@ public class PartnerUserPageImpl extends BaseTestPage<TestPage> implements Partn
 		String pass = "password";
 		
 		//RUtils.update_xml(1,user ,pass, email, resetPassword);
-
+		System.out.println("Writing data to xml");
 		   writeXML(user,pass,email, resetPassword);
 
 	}
@@ -561,8 +565,8 @@ public class PartnerUserPageImpl extends BaseTestPage<TestPage> implements Partn
 		String pass = "passFm";
 		
 		//RUtils.update_xml(1,user ,pass, email, resetPassword);
-
-		   writeXML(user, pass, email, resetPassword);
+		System.out.println("Writing data to xml");
+		writeXML(user, pass, email, resetPassword);
 
 		
 	}
