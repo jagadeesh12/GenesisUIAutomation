@@ -117,21 +117,25 @@ public class OrgCreditReqImpl extends BaseTestPage<TestPage> implements OrgCredi
 		PauseUtil.pause(3000);
 		wf.click_element(getcreditIcon());
 		PauseUtil.pause(3000);
+		System.out.println("Starting credit request method.");
 		String credit = getcreditTxtBox().getAttribute("value");
 		System.out.println("Credit :"+credit);
 		credit = credit.split("\\.",2)[0];
 		credit = credit + "0";
+		System.out.println("Credit is increased to :"+credit);
 		getcreditTxtBox().clear();
 		getcreditTxtBox().sendKeys(credit);
 		//getcreditTxtBox().sendKeys(testBase.getTestData().getString("creditPMreq"));
 		getcommentTxtBox().sendKeys(testBase.getTestData().getString("commentCredit"));
 		wf.click_element(getupdateBtn());
+		System.out.println("Credit request is raised");
 		PauseUtil.pause(3000);
 	}
 
 
 	
 	public void creditRequest(String domainName,String status) {
+		wf.click_element(oca.getbamUserMenu());
 		wf.click_element(oca.getbamUserMenu());
 		wf.click_element(oca.getAccountMgtMenu());
 		wf.click_element(getorgCreditReqOption());
@@ -140,6 +144,7 @@ public class OrgCreditReqImpl extends BaseTestPage<TestPage> implements OrgCredi
 		wf.click_element(oca.getbamSearchBtn());
 		PauseUtil.pause(3000);
 		wf.click_element(getcacreditIcon());
+		System.out.println("Credit request approval by CA is started");
 		
 		switch (status) {
 			case "Approve":
@@ -150,6 +155,7 @@ public class OrgCreditReqImpl extends BaseTestPage<TestPage> implements OrgCredi
 				PauseUtil.pause(2000);
 				boolean statusApp = getCAcreditstatusTxt().getText().contains("APPROVED");
 				Assert.assertTrue("Organization credit approval scenario failed by CA.",statusApp);
+				System.out.println("Organization credit approved by CA");
 				break;
 			
 			case "Reject":
@@ -160,6 +166,7 @@ public class OrgCreditReqImpl extends BaseTestPage<TestPage> implements OrgCredi
 				PauseUtil.pause(2000);
 				statusApp = getCAcreditstatusTxt().getText().contains("REJECTED");
 				Assert.assertTrue("Organization credit reject scenario failed by CA.",statusApp);
+				System.out.println("Organization credit rejected by CA");
 				break;	
 		}
 		
@@ -170,20 +177,23 @@ public class OrgCreditReqImpl extends BaseTestPage<TestPage> implements OrgCredi
 	public void verifyCreditReqStatus(String domainName, String status) {
 		PauseUtil.pause(3000);
 		wf.click_element(oca.getUserMenu());
+		wf.click_element(oca.getUserMenu());
 		wf.click_element(oca.getAccountMgtMenu());
 		wf.click_element(getorgCreditReqOption());
 		oca.getbamSearchTxtBox().sendKeys(domainName);
 		wf.click_element(oca.getsearchBtnPm());
 		PauseUtil.pause(3000);
-		
+		System.out.println("Starting credit requset verification by PM method.");
 		switch (status) {
 		case "Approve":
 			boolean statusApp = getCreditRequestStatusTxt().getText().contains("APPROVED");
 			Assert.assertTrue("PM Verification scenario failed for Customer Approval",statusApp);
+			System.out.println("Credit request verification PM is "+getCreditRequestStatusTxt().getText());
 			break;
 		case "Reject":
 			statusApp = getCreditRequestStatusTxt().getText().contains("REJECTED");
 			Assert.assertTrue("PM Verification scenario failed for Customer Approval",statusApp);
+			System.out.println("Credit request verification PM is "+getCreditRequestStatusTxt().getText());
 			break;	
 		}
 		

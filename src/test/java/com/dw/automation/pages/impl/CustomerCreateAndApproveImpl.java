@@ -287,8 +287,10 @@ public class CustomerCreateAndApproveImpl extends BaseTestPage<TestPage> impleme
 	
 	public void goToCustomerPage() {
 		wf.click_element(oca.getUserMenu());
+		wf.click_element(oca.getUserMenu());
 		wf.click_element(oca.getAccountMgtMenu());
 		wf.click_element(getcustomerOption());
+		System.out.println("Going to customer Page");
 	}
 
 
@@ -297,10 +299,11 @@ public class CustomerCreateAndApproveImpl extends BaseTestPage<TestPage> impleme
 		PauseUtil.pause(3000);
 		wf.click_element(oca.getOrgAddBtn());
 		PauseUtil.pause(3000);
-		
+		System.out.println("Starting customer add method");
 		String name = RUtils.generateSpecificName("CUST");
 		getdomainTxtBox().sendKeys(name);
 		wf.click_element(getverifyBtn());
+		System.out.println("Customer with name "+name+" is available.");
 		RUtils.waitforloadingtodissappear();
 		String domainName = name;
 		getCompanynameTxtBox().sendKeys(domainName);
@@ -325,6 +328,7 @@ public class CustomerCreateAndApproveImpl extends BaseTestPage<TestPage> impleme
 		wf.click_element(getiagreeCheckBox());
 		wf.click_element( getsubmitBtn());
 		RUtils.waitforloadingtodissappear();
+		System.out.println("Customer is added");
 		try {
 /*			boolean customerstatus = custlimitreachedPopUp().getText().contains(RConstantUtils.CUSTOMER_CREATED_SUCCESSFULLY);
 	        Assert.assertTrue("Customer not created successfully.",customerstatus);*/
@@ -383,7 +387,7 @@ public class CustomerCreateAndApproveImpl extends BaseTestPage<TestPage> impleme
 		RUtils.waitforloadingtodissappear();
 		getsearchTxtBox().sendKeys(domainName);
 		wf.click_element(getpmsearchBtn());
-		RUtils.waitforloadingtodissappear();
+		PauseUtil.pause(4000);
 
 		switch (status) {
 		case "Approve":
@@ -405,13 +409,20 @@ public class CustomerCreateAndApproveImpl extends BaseTestPage<TestPage> impleme
 	
 	public void updateCustSpendLimit(String domainName) {
 		wf.click_element(oca.getUserMenu());
+		wf.click_element(oca.getUserMenu());
 		wf.click_element(oca.getAccountMgtMenu());
 		wf.click_element(getcustCreditOption());
+		System.out.println("Going to Customer credit page");
 		PauseUtil.pause(3000);
-		getsearchTxtBox().sendKeys(domainName);
+		getsearchTxtBox().sendKeys(testBase.getTestData().getString("custdomain"));
+		System.out.println("Searching customer for domain name: "+testBase.getTestData().getString("custdomain"));
 		wf.click_element(getpmCustCreditSearchBtn());
 		PauseUtil.pause(3000);
 		wf.click_element(ocr.getcacreditIcon());
+		String credit = getcustSpendLimitTxtBox().getAttribute("value");
+		System.out.println("Customer credit avialable :"+credit);
+		credit = credit.split("\\.",2)[0];
+		credit = "150";
 		getcustSpendLimitTxtBox().clear();
 		getcustSpendLimitTxtBox().sendKeys(testBase.getTestData().getString("custCreditReq"));
 		ocr.getcommentCATxtBox().sendKeys(testBase.getTestData().getString("approveStatus"));
