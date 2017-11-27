@@ -273,6 +273,72 @@ public class CustomerCreateAndApproveImpl extends BaseTestPage<TestPage> impleme
 		return creditSuccessApprovalMsg;
 	}
 	
+	
+	@FindBy(locator = "rd.pm.custcredit.pop.creditRequestApproval")
+	private WebElement creditRequestApprovalMsg ;
+	
+	public WebElement getcreditRequestApprovalMsg() {
+		return creditRequestApprovalMsg;
+	}
+	
+	@FindBy(locator = "rd.pm.custcredit.pop.btn.close")
+	private WebElement closeBtnPopUp ;
+	
+	public WebElement getClosePopUP() {
+		return closeBtnPopUp;
+	}
+	
+	@FindBy(locator = "rd.fm.custcredit.icon.creditApproval")
+	private WebElement creditApprovalIcon ;
+	
+	public WebElement getcreditApprovalIcon() {
+		return creditApprovalIcon;
+	}
+	
+	@FindBy(locator = "rd.fm.custcredit.icon.drpdwn.status")
+	private WebElement fmCustCreditApprove ;
+	
+	public WebElement getfmCustCreditApproveDrpDwn() {
+		return fmCustCreditApprove;
+	}
+	
+	@FindBy(locator = "rd.fm.custcredit.txtB0x.comment")
+	private WebElement fmCustCreditCommentTxtBox ;
+	
+	public WebElement getfmCustCreditCommentTxtBox() {
+		return fmCustCreditCommentTxtBox;
+	}
+	
+	@FindBy(locator = "rd.fm.custcredit.btn.update")
+	private WebElement fmCustCreditupdateBtn ;
+	
+	public WebElement getfmCustCreditupdateBtn() {
+		return fmCustCreditupdateBtn;
+	}
+	
+	@FindBy(locator = "rd.fm.custcredit.txt.popUp")
+	private WebElement fmPopUpCustCreditApproval ;
+	
+	public WebElement getfmPopUpCustCreditApproval() {
+		return fmPopUpCustCreditApproval;
+	}
+	
+	
+	
+	@FindBy(locator = "rd.fm.custcredit.txt.status")
+	private WebElement fmCustCreditStatus ;
+	
+	public WebElement getfmCustCreditStatus() {
+		return fmCustCreditStatus;
+	}
+	
+	@FindBy(locator = "rd.pm.custcredit.icon.credit")
+	private WebElement pmCreditReqIcon;
+	
+	public WebElement getpmCreditReqIcon() {
+		return pmCreditReqIcon;
+	}
+	
 	OrgCreditReqImpl ocr = new OrgCreditReqImpl();
 	OrgCreateAndApproveImpl oca = new OrgCreateAndApproveImpl();
 	WrapperFunctions wf = new WrapperFunctions();
@@ -408,7 +474,7 @@ public class CustomerCreateAndApproveImpl extends BaseTestPage<TestPage> impleme
 
 	
 	public void updateCustSpendLimit(String domainName) {
-		wf.click_element(oca.getUserMenu());
+		
 		wf.click_element(oca.getUserMenu());
 		wf.click_element(oca.getAccountMgtMenu());
 		wf.click_element(getcustCreditOption());
@@ -418,7 +484,7 @@ public class CustomerCreateAndApproveImpl extends BaseTestPage<TestPage> impleme
 		System.out.println("Searching customer for domain name: "+testBase.getTestData().getString("custdomain"));
 		wf.click_element(getpmCustCreditSearchBtn());
 		PauseUtil.pause(3000);
-		wf.click_element(ocr.getcacreditIcon());
+		wf.click_element(getpmCreditReqIcon());
 		String credit = getcustSpendLimitTxtBox().getAttribute("value");
 		System.out.println("Customer credit avialable :"+credit);
 
@@ -428,7 +494,61 @@ public class CustomerCreateAndApproveImpl extends BaseTestPage<TestPage> impleme
 		ocr.getcommentCATxtBox().sendKeys(testBase.getTestData().getString("approveStatus"));
 		wf.click_element(getcustCreditUpdateBtn());
 		PauseUtil.pause(2000);
-		Assert.assertEquals(getcreditSuccessApprovalMsg().getText(), RConstantUtils.CUSTOMER_CREDIT_APPROVE_SUCCESS);
+		System.out.println(getcreditRequestApprovalMsg().getText());
+		boolean customerCreditStatus = getcreditRequestApprovalMsg().getText().contains(RConstantUtils.CUSTOMER_CREDIT_APPROVE_REQUEST);
+        Assert.assertTrue("Customer credit approval by FM scenario failed.",customerCreditStatus);
+		wf.click_element(getClosePopUP());
+	}
+
+
+	
+	public void approveCaSpendLimit(String status) {
+		wf.click_element(oca.getUserMenu());
+		wf.click_element(oca.getAccountMgtMenu());
+		wf.click_element(getcustCreditOption());
+		System.out.println("Going to Customer credit page");
+		PauseUtil.pause(3000);
+		getsearchTxtBox().sendKeys(testBase.getTestData().getString("custdomain"));
+		System.out.println("Searching customer for domain name: "+testBase.getTestData().getString("custdomain"));
+		wf.click_element(getpmCustCreditSearchBtn());
+		PauseUtil.pause(3000);
+		System.out.println("Clicking customer credit icon");
+		wf.click_element(getcreditApprovalIcon());
+		PauseUtil.pause(3000);
+		
+		switch(status) {
+		case "Approve":
+			SCHUtils.selectOptionByVisibleText(getfmCustCreditApproveDrpDwn(), testBase.getTestData().getString("approveStatus"));
+			getfmCustCreditCommentTxtBox().sendKeys(testBase.getTestData().getString("approveStatus"));
+			wf.click_element(getfmCustCreditupdateBtn());
+			RUtils.waitforloadingtodissappear();
+			System.out.println(getfmPopUpCustCreditApproval().getText());
+			boolean customerCreditStatus = getfmPopUpCustCreditApproval().getText().contains(RConstantUtils.CUSTOMER_CREDIT_APPROVE_FM_STATUS);
+	        Assert.assertTrue("Customer credit approval by FM scenario failed.",customerCreditStatus);
+	        break;
+		}
+		wf.click_element(getClosePopUP());
+		
+	}
+
+
+	
+	public void verifyCustCreditStatus(String status) {
+		wf.click_element(oca.getUserMenu());
+		wf.click_element(oca.getAccountMgtMenu());
+		wf.click_element(getcustCreditOption());
+		System.out.println("Going to Customer credit page");
+		PauseUtil.pause(3000);
+		getsearchTxtBox().sendKeys(testBase.getTestData().getString("custdomain"));
+		System.out.println("Searching customer for domain name: "+testBase.getTestData().getString("custdomain"));
+		wf.click_element(getpmCustCreditSearchBtn());
+		PauseUtil.pause(3000);
+		
+		switch(status) {
+		case "Approve":
+			boolean statusApp = getfmCustCreditStatus().getText().contains("APPROVED");
+			Assert.assertTrue("PM Verification scenario failed for Customer Credit Approval",statusApp);
+		}
 		
 	}
 

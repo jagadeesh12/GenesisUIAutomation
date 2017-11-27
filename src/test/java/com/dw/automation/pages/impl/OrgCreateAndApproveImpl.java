@@ -560,7 +560,7 @@ public class OrgCreateAndApproveImpl extends BaseTestPage<TestPage> implements O
 		RUtils.waitforloadingtodissappear();
 		System.out.println("Starting file upload function");
 		wf.click_element(getlogoUpload());
-		File currentDir = new File ("src/test/resources/UploadFiles/test.jpg");
+		File currentDir = new File (testBase.getTestData().getString("filePath"));
 		try {
 			basepath = currentDir.getCanonicalPath();
 			System.out.println("Baseapth :"+basepath);
@@ -649,23 +649,21 @@ public class OrgCreateAndApproveImpl extends BaseTestPage<TestPage> implements O
 	wf.click_element(getorgmpnverify());
 	RUtils.waitforloadingtodissappear();
 	wf.click_element(getlogoUpload());
-//	File currentDir = new File ("src/test/resources/UploadFiles/test.jpg");
-//	try {
-//		String basePath = currentDir.getCanonicalPath();
-//		System.out.println("Baseapth :"+basePath);
-//	
-//	} catch (IOException e1) {
-//		// TODO Auto-generated catch block
-//		e1.printStackTrace();
-//	}
-//	String fileDoc = testBase.getTestData().getString("filePath");
-//	try {
-//		RUtils.upload_Documents(fileDoc);
-//	} catch (AWTException e) {
-//		// TODO Auto-generated catch block
-//		e.printStackTrace();
-//	}
-	PauseUtil.pause(10000);
+	File currentDir = new File (testBase.getTestData().getString("filePath"));
+	try {
+		basepath = currentDir.getCanonicalPath();
+		System.out.println("Baseapth :"+basepath);
+	
+    	String fileDoc = testBase.getTestData().getString("filePath");
+		
+		RUtils.upload_Documents(basepath);
+				
+		}catch (AWTException | IOException e) {
+		// TODO Auto-generated catch block
+		e.printStackTrace();
+				}
+	System.out.println("End of file upload function for existing customer");
+	PauseUtil.pause(5000);
 	getorgsigningAuthorityName().sendKeys(testBase.getTestData().getString("orgsigningAuthorityName"));
 	
 	getexorgsignauthemail().sendKeys(testBase.getTestData().getString("exorgsignauthemail"));
@@ -680,6 +678,24 @@ public class OrgCreateAndApproveImpl extends BaseTestPage<TestPage> implements O
 	getexorgcompdomain().sendKeys(domainName);
 	PauseUtil.pause(3000);
 	getexorgvatid().sendKeys("orgmpnid");
+	try {
+		System.out.println("Starting 2 file upload function");
+		wf.click_element(getuploadFileBtn1());
+		RUtils.upload_Documents(basepath);
+		System.out.println("Starting 3 file upload function");
+		wf.click_element(getuploadFileBtn2());
+		RUtils.upload_Documents(basepath);
+		System.out.println("Starting 4 file upload function");
+		wf.click_element(getuploadFileBtn3());
+		RUtils.upload_Documents(basepath);
+		System.out.println("Starting 5 file upload function");
+		wf.click_element(getuploadFileBtn4());
+		RUtils.upload_Documents(basepath);
+
+	} catch (AWTException e) {
+		// TODO Auto-generated catch block
+		e.printStackTrace();
+	}
 	
 	JavascriptExecutor je = (JavascriptExecutor) driver;
     je.executeScript("arguments[0].scrollIntoView(true);",getexorgsave());
@@ -688,7 +704,7 @@ public class OrgCreateAndApproveImpl extends BaseTestPage<TestPage> implements O
 	wf.click_element(getexorgsave());
 	RUtils.waitforloadingtodissappear();
 	wf.click_element(getclosePopup());
-	System.out.println("+++++++++++++++++=========+++++++++" +domainName);
+	System.out.println("Domain Name after registering for existing customer:" +domainName);
 	return domainName;
 	   
    }

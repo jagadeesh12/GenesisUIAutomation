@@ -11,11 +11,11 @@
             value="https://dev.redington.market/"/>
             
   <parameter name="MailinatorURL" value="https://www.mailinator.com/"/>  
-  <parameter name="userBAM" value="bam@ecocap.ml"/>   
+  <parameter name="userBAM" value="bam27nov@sutiami.ml"/>   
   <parameter name="passBAM" value="Pass@123"/> 
-  <parameter name="userCA" value="ca@hantem.bid"/>   
+  <parameter name="userCA" value="ca27nov@tempm.ml"/>   
   <parameter name="passCA" value="Pass@123"/> 
-  <parameter name="userSA" value="sa11@cmc88.tk"/>   
+  <parameter name="userSA" value="sa27nov@hantem.bid"/>   
   <parameter name="passSA" value="Pass@123"/> 
   <parameter name="userFM" value="fm14@mailinator.com"/>   
   <parameter name="passFM" value="Pass@123"/> 
@@ -38,7 +38,18 @@
 
  </test> -->
 
- 
+<!--  <test name="PartnerUserCreation" enabled="true">
+  <parameter name="driver.name" value="Firefox"/>
+  <parameter name="features" value="features/Redington/OrgCreateAndApproval.feature"/>
+  <parameter name="tags" value="@existOrg" />	
+  <parameter name="driver.capabilities"
+             value="{'version': '11.0','platform':'Windows 10','name':'P1-Review cart Scenarios'}" />
+  <classes>
+   <class name="com.scholastic.torque.runner.Run" />
+  </classes>
+
+ </test>  -->
+
  <test name="PartnerUserCreation" enabled="true">
   <parameter name="driver.name" value="Firefox"/>
   <parameter name="features" value="features/Redington/UserCreation.feature"/>
@@ -49,9 +60,9 @@
    <class name="com.scholastic.torque.runner.Run" />
   </classes>
 
- </test> 
+ </test>
 
-<test name="OrgCreateAndApproval" enabled="true">
+ <test name="OrgCreateAndApproval" enabled="true">
   <parameter name="driver.name" value="Firefox"/>
   <parameter name="features" value="features/Redington/OrgCreateAndApproval.feature"/>
   <parameter name="driver.capabilities"
@@ -59,7 +70,7 @@
  <classes>
    <class name="com.scholastic.torque.runner.Run" />
   </classes>
-</test>
+</test> 
 
 <test name="CustomerCreateAndApproval" enabled="true">
   <parameter name="driver.name" value="Firefox"/>
@@ -69,7 +80,7 @@
   <classes>
    <class name="com.scholastic.torque.runner.Run" />
   </classes>
-</test>   
+</test>  
 
  <test name="OrderApproval" enabled="true">
   <parameter name="driver.name" value="Firefox"/>
@@ -91,7 +102,7 @@
   </classes>
 </test> 
 
-
+ 
  <test name="OrganizationCreditReqApproval.feature" enabled="true">
   <parameter name="driver.name" value="Firefox"/>
   <parameter name="features" value="features/Redington/OrgCreditRequestApproval.feature"/>
@@ -101,7 +112,7 @@
    <class name="com.scholastic.torque.runner.Run" />
   </classes>
 </test> 
- 
+
  <test name="OrganizationCreditReqRejection.feature" enabled="true">
   <parameter name="driver.name" value="Firefox"/>
   <parameter name="features" value="features/Redington/OrgCreditRequestReject.feature"/>
@@ -175,5 +186,5 @@
    <class name="com.scholastic.torque.runner.Run" />
   </classes>
 
-</test>  
+</test> 
  </suite>

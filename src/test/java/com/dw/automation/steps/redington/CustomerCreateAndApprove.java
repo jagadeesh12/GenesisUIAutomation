@@ -58,12 +58,20 @@ public class CustomerCreateAndApprove {
 
     @Then("^I verify that the customer spend limit is updated$")
     public void i_verify_that_the_customer_spend_limit_is_updated() throws Throwable {
-
+    	status = "Approve";
+    	cca.verifyCustCreditStatus(status);
     }
 
     @And("^I go to Customer spend limit page$")
     public void i_go_to_customer_spend_limit_page() throws Throwable {
      
     }
+    
+    @Then("^I approve the customer spend limit$")
+    public void i_approve_the_customer_spend_limit() throws Throwable {
+    	status = "Approve";
+        cca.approveCaSpendLimit(status);
+    }
+
 
 }
