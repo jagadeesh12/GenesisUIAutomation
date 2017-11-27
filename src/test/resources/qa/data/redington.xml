@@ -16,9 +16,9 @@
 		<appUrl>https://test.redington.market/</appUrl>
 	</testcase>
 	<testcase id="OrderApproval">
-		<userPM>PMFN_24111219@mailinator.com</userPM>
+		<userPM>PMFN_27111432@mailinator.com</userPM>
 		<password>Pass@123</password>
-		<userFm>FM24111201@mailinator.com</userFm>
+		<userFm>FM27111433@mailinator.com</userFm>
 		<passFm>Pass@123</passFm>
 		<userBam>bam@axsup.net</userBam>
 		<passBam>Pass@123</passBam>
@@ -36,7 +36,7 @@
 		<partnerSegment>Managed Service Provider</partnerSegment>
 		<tradeLi>32453212</tradeLi>
 		<tradeLicCal>01.11.2017 - 01.11.2018</tradeLicCal>
-		<filePath>/home/rle0502/Downloads/litpro-test/src/test/resources/upload_files/test.jpg</filePath>
+		<filePath>src/test/resources/UploadFiles/test.jpg</filePath>
 		<credit>1000</credit>
 		<creditPMreq>10000</creditPMreq>
 		<creditPMreqRej>100000</creditPMreqRej>
@@ -52,8 +52,14 @@
 		<custCreditReq>210</custCreditReq>
 		<custdomain>CUST24110801</custdomain>
 		<cust>0000</cust>
-		<orderId></orderId>
+		<orderId/>
 		<ord>00000</ord>
+		<customercode>1010006975</customercode>
+	    <companycode>1120</companycode>
+	    <orgmpnid>3379748</orgmpnid>
+	    <orgsigningAuthorityName>jagadeesh</orgsigningAuthorityName>
+	    <exorgsignauthemail>jagadeesh.manjunath@relevancelab.com</exorgsignauthemail>
+	    <exorgpartnersegmnt>1: Reseller</exorgpartnersegmnt>
 	
 	</testcase>
 	
