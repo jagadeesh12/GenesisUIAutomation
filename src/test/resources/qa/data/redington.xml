@@ -16,9 +16,9 @@
 		<appUrl>https://test.redington.market/</appUrl>
 	</testcase>
 	<testcase id="OrderApproval">
-		<userPM>PMFN_27111432@mailinator.com</userPM>
+		<userPM>PMFN_27111459@mailinator.com</userPM>
 		<password>Pass@123</password>
-		<userFm>FM27111433@mailinator.com</userFm>
+		<userFm>FM27111500@mailinator.com</userFm>
 		<passFm>Pass@123</passFm>
 		<userBam>bam@axsup.net</userBam>
 		<passBam>Pass@123</passBam>
@@ -50,10 +50,10 @@
 		<rejecteStatus>REJECTED</rejecteStatus>
 		<custCredit>100</custCredit>
 		<custCreditReq>210</custCreditReq>
-		<custdomain>CUST24110801</custdomain>
+		<custdomain>CUST27111513</custdomain>
 		<cust>0000</cust>
-		<orderId/>
-		<ord>00000</ord>
+		<orderId>78405100000097</orderId>
+		<ord/>
 		<customercode>1010006975</customercode>
 	    <companycode>1120</companycode>
 	    <orgmpnid>3379748</orgmpnid>

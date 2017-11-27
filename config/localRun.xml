@@ -60,9 +60,9 @@
    <class name="com.scholastic.torque.runner.Run" />
   </classes>
 
- </test> 
+ </test>
 
-<test name="OrgCreateAndApproval" enabled="true">
+ <test name="OrgCreateAndApproval" enabled="true">
   <parameter name="driver.name" value="Firefox"/>
   <parameter name="features" value="features/Redington/OrgCreateAndApproval.feature"/>
   <parameter name="driver.capabilities"
@@ -70,7 +70,7 @@
  <classes>
    <class name="com.scholastic.torque.runner.Run" />
   </classes>
-</test>
+</test> 
 
 <test name="CustomerCreateAndApproval" enabled="true">
   <parameter name="driver.name" value="Firefox"/>
@@ -80,7 +80,7 @@
   <classes>
    <class name="com.scholastic.torque.runner.Run" />
   </classes>
-</test>   
+</test>  
 
  <test name="OrderApproval" enabled="true">
   <parameter name="driver.name" value="Firefox"/>
@@ -102,7 +102,7 @@
   </classes>
 </test> 
 
-
+ 
  <test name="OrganizationCreditReqApproval.feature" enabled="true">
   <parameter name="driver.name" value="Firefox"/>
   <parameter name="features" value="features/Redington/OrgCreditRequestApproval.feature"/>
@@ -112,7 +112,7 @@
    <class name="com.scholastic.torque.runner.Run" />
   </classes>
 </test> 
- 
+
  <test name="OrganizationCreditReqRejection.feature" enabled="true">
   <parameter name="driver.name" value="Firefox"/>
   <parameter name="features" value="features/Redington/OrgCreditRequestReject.feature"/>
@@ -186,5 +186,5 @@
    <class name="com.scholastic.torque.runner.Run" />
   </classes>
 
-</test>
+</test> 
  </suite>
