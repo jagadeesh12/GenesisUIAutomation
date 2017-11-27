@@ -1,0 +1,96 @@
+<testdata>
+	
+	<testcase id="FreePick:TeacherOrder_FreePickCoupon">
+		<userid>7527700</userid>
+		<password>passw0rd</password>
+		<sname1>Manu</sname1>
+		<sname2>Rocky</sname2>
+		<sname3>Johnson</sname3>
+		<qty1>3</qty1>
+		<qty2>1</qty2>
+		<qty3>1</qty3>
+		<CouponCode>ISNOQYO</CouponCode>
+		<grade>Grades 2 &amp; 3 Lucky</grade>
+		<itemValue>2</itemValue>
+	</testcase>
+	
+	<testcase id="FreePick:TeacherOrder_FreePickCoupon_ItemGreaterThanCouponAmount">
+		<userid>7527700</userid>
+		<password>passw0rd</password>
+		<sname1>Manu</sname1>
+		<sname2>Rocky</sname2>
+		<sname3>Johnson</sname3>
+		<qty1>3</qty1>
+		<qty2>1</qty2>
+		<qty3>4</qty3>
+		<CouponCode>ISNOQYO</CouponCode>
+		<SearchData>All-Time Favourite Readers Pack</SearchData>
+	</testcase>
+	
+	<testcase id="FreePick:TeacherOrder_FreePickCoupon_TeacherClubItem">
+		<userid>7527700</userid>
+		<password>passw0rd</password>
+		<sname1>Manu</sname1>
+		<sname2>Rocky</sname2>
+		<sname3>Johnson</sname3>
+		<qty1>3</qty1>
+		<qty2>1</qty2>
+		<qty3>4</qty3>
+		<CouponCode>ISNOQYO</CouponCode>
+		<SearchData>Chicka Chicka ABC</SearchData>
+	</testcase>
+	
+	<testcase id="FreePick:TeacherOrder_FreePickCoupon_ExpiredItem">
+		<userid>7527700</userid>
+		<password>passw0rd</password>
+		<sname1>Manu</sname1>
+		<sname2>Rocky</sname2>
+		<sname3>Johnson</sname3>
+		<qty1>3</qty1>
+		<qty2>1</qty2>
+		<qty3>4</qty3>
+		<CouponCode>ISNOQYO</CouponCode>
+		<SearchData>Phonics Sing-Along Flip Chart &amp; CD</SearchData>
+	</testcase>
+	
+	<testcase id="FreePick:TeacherOrder_FreepickCoupon_2">
+		<userid>7527700</userid>
+		<password>passw0rd</password>
+		<sname1>Manu</sname1>
+		<sname2>Rocky</sname2>
+		<sname3>Johnson</sname3>
+		<qty1>3</qty1>
+		<qty2>1</qty2>
+		<qty3>4</qty3>
+		<CouponCode>ISNOQYO</CouponCode>
+		<grade>Grades 2 &amp; 3 Lucky</grade>
+		<itemValue>2</itemValue>
+	</testcase>
+	
+	<testcase id="FreePick:TeacherOrder_FreepickCoupon_3">
+		<userid>7527700</userid>
+		<password>passw0rd</password>
+		<sname1>Manu</sname1>
+		<sname2>Rocky</sname2>
+		<sname3>Johnson</sname3>
+		<qty1>3</qty1>
+		<qty2>1</qty2>
+		<qty3>4</qty3>
+		<CouponCode>ISNOQYO</CouponCode>
+		<grade>Grades 2 &amp; 3 Lucky</grade>
+		<itemValue>2</itemValue>
+	</testcase>
+	
+	<testcase id="FreePick:TeacherOrder_FreepickCoupon_4">
+		<userid>7527700</userid>
+		<password>passw0rd</password>
+		<sname1>Manu</sname1>
+		<sname2>Rocky</sname2>
+		<sname3>Johnson</sname3>
+		<qty1>3</qty1>
+		<qty2>1</qty2>
+		<qty3>4</qty3>
+		<CouponCode>ISNOQYO</CouponCode>
+	</testcase>
+	
+</testdata>

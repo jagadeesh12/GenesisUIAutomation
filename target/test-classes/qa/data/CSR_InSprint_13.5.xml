@@ -1,0 +1,1022 @@
+<testdata>
+	
+	<testcase id="Payment_Combination_Of_Credit_Card_PO_Billing_Info_Canada_selected_by_default">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>325490</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>2</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>2</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+	</testcase>
+	
+	<testcase id="Payment_Combination_Of_Credit_Card_PO_All_Provinces">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>325531</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>2</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>2</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+	</testcase>
+	
+	<testcase id="Payment_Combination_Of_Credit_Card_PO_Billing_Info_US_selected">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>325606</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>2</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>2</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+  		<country>United Stated</country>
+	</testcase>
+	
+	<testcase id="Payment_Combination_Of_Credit_Card_PO_Billing_Info_InvalidPhoneNum">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>325846</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>2</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>2</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+  		<phone>2345</phone>
+	</testcase>
+	
+	<testcase id="Payment_Combination_Of_Credit_Card_PO_Billing_Info_InvalidPhoneNum_Starts_with_zero">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>325870</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>2</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>2</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+  		<phone>012345</phone>
+	</testcase>
+	
+	<testcase id="Payment_Combination_Of_Credit_Card_PO_Billing_Info_InvalidPhoneNum_Starts_with_one">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>325953</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>2</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>2</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+  		<phone>192345</phone>
+	</testcase>
+	
+	<testcase id="Payment_Combination_Of_Credit_Card_PO_Billing_Info_ValidPhoneNum">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>326133</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>2</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>2</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+  		<phone>3333333333</phone>
+	</testcase>
+	
+	<testcase id="Payment_PurchaseOrder_BoardSchoolNumber_1_Integer">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>326159</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>2</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>2</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+  		<BoardSchoolNum>1</BoardSchoolNum>
+	</testcase>
+	
+	<testcase id="Payment_PurchaseOrder_BoardSchoolNumber_9_Integers">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>326240</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>2</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>2</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+  		<BoardSchoolNum>123456789</BoardSchoolNum>
+	</testcase>
+	
+	<testcase id="Payment_PurchaseOrder_BoardSchoolNumber_AlphanumericCharacters">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>326365</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>2</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>2</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+  		<BoardSchoolNum>12345ABc</BoardSchoolNum>
+	</testcase>
+	
+	<testcase id="Payment_PurchaseOrder_BoardSchoolNumber_SpecialCharacters">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>326422</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>2</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>2</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+  		<BoardSchoolNum>&amp;&quot;&apos;&amp;</BoardSchoolNum>
+	</testcase>
+	
+	<testcase id="Payment_Combination_Of_Credit_Card_PO_PONumber_1_AlphanumericCharacter">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>326646</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>2</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>2</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+  		<POnumber>1</POnumber>
+	</testcase>
+	
+	<testcase id="Payment_Combination_Of_Credit_Card_PO_PONumber_20_AlphanumericCharacters">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>327074</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>2</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>2</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+  		<POnumber>12345abcde12345abcde</POnumber>
+	</testcase>
+	
+	<testcase id="Payment_Combination_Of_Credit_Card_PO_BoardSchoolNumber_ButtonDisabled">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>327222</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>2</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>2</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+  		<POnumber>123456789</POnumber>
+  		<AccountNum>12345678</AccountNum>
+	</testcase>
+	
+	<testcase id="Payment_Combination_Of_Credit_Card_PO_PONumber_SpecialCharacters">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>327660</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>2</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>2</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+  		<POnumber>&amp;&amp;&amp;&amp;</POnumber>
+	</testcase>
+	
+	<testcase id="Payment_Combination_Of_Credit_Card_PO_PONumber_21_AlphanumericCharacters">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>327701</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>2</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>2</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+  		<POnumber>1234567890abcdefghijk</POnumber>
+	</testcase>
+	
+	<testcase id="Payment_Combination_Of_Credit_Card_PO_AccountNumber_2_Integers">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>327727</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>2</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>2</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+  		<AccountNum>12</AccountNum>
+	</testcase>
+	
+	<testcase id="Payment_Combination_Of_Credit_Card_PO_AccountNumber_8_Integers">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>327884</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>2</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>2</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+  		<AccountNum>12345678</AccountNum>
+	</testcase>
+	
+	<testcase id="Payment_Combination_Of_Credit_Card_PO_AccountNumber_1_Integer">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>327925</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>2</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>2</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+  		<AccountNum>1</AccountNum>
+	</testcase>
+	
+	<testcase id="Payment_Combination_Of_Credit_Card_PO_AccountNumber_9_Integers">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>327941</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>2</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>2</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+  		<AccountNum>123456789</AccountNum>
+	</testcase>
+	
+	<testcase id="Payment_Combination_Of_Credit_Card_PO_AccountNumber_AlphabeticalCharacters">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>327975</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>2</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>2</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+  		<AccountNum>abcdefgh</AccountNum>
+	</testcase>
+	
+	<testcase id="Payment_Combination_Of_Credit_Card_PO_AccountNumber_SpecialCharacters">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>327991</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>2</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>2</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+  		<AccountNum>&amp;&amp;&amp;&amp;</AccountNum>
+	</testcase>
+	
+	<testcase id="Payment_Combination_Of_Credit_Card_PO_RadioButton_OnlyOne">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>328048</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>2</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>2</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+	</testcase>
+	
+	<testcase id="Payment_Combination_Of_Credit_Card_PO_RadioButton_Default">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>328139</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>2</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>2</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+	</testcase>
+	
+	<testcase id="Payment_Combination_Of_Credit_Card_PO_ErrorMessage_NoInput">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>328171</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>2</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>2</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+	</testcase>
+	
+	<testcase id="Payment_Combination_Of_Credit_Card_PO_ErrorMessage_NoInput_2">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>328204</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>2</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>2</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+	</testcase>
+	
+	<testcase id="Payment_Combination_Of_Credit_Card_PO_ErrorMessage_NoInput_3">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>328361</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>2</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>2</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+	</testcase>
+	
+	<testcase id="Payment_PurchaseOrder_BoardSchoolNumber_2_Integers">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>328387</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>2</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>2</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+  		<BoardSchoolNum>12</BoardSchoolNum>
+	</testcase>
+	
+	<testcase id="Payment_PurchaseOrder_BoardSchoolNumber_8_Integers">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>328486</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>2</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>2</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+  		<BoardSchoolNum>12345678</BoardSchoolNum>
+	</testcase>
+	
+	<testcase id="CSR_three_decimals_amount_to_be_paid_by_credit_card">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>328535</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>2</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>2</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+  		<paymentAmt>1.256</paymentAmt>
+	</testcase>
+	
+	<testcase id="CSR_three_decimals_amount_to_be_paid_by_PO">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>328551</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>2</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>2</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+  		<POAmt>1.256</POAmt>
+	</testcase>
+	
+	<testcase id="CSR_amount_to_be_paid_by_credit_card">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>328569</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>2</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>2</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+  		<PaymentAmt>5</PaymentAmt>
+	</testcase>
+	
+	<testcase id="CSR_amount_to_be_paid_by_PO">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>328725</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>2</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>2</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+  		<PaymentAmt>5</PaymentAmt>
+	</testcase>
+	
+	<testcase id="CSR_over_amount_to_be_paid_by_credit_card">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>328783</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>2</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>2</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+	</testcase>
+	
+	<testcase id="CSR_over_amount_to_be_paid_by_PO">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>328949</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>2</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>2</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+	</testcase>
+	
+	<testcase id="CSR_over_amount_to_be_paid_by_credit_card_2">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>329004</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>2</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>2</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+	</testcase>
+	
+	<testcase id="CSR_over_amount_to_be_paid_by_PO_2">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>329129</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>2</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>2</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+	</testcase>
+	
+	<testcase id="Payment_CombinationOfCreditCardPO_BoardSchoolNumber_Error">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>329137</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>2</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>2</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+  		<cardname>v12 v23</cardname>
+		<cardnumber>4111111111111111</cardnumber>
+		<expmonth>05</expmonth>
+		<expyear>2019</expyear>
+		<securitycode>467</securitycode>
+		<firstname>v12</firstname>
+		<lastname>v23</lastname>
+		<address1>Patrick Henry Drive</address1>
+		<address2>St. Mark Place</address2>
+		<country>Canada</country>
+		<zip>T5A 0A7</zip>
+		<city>New York</city>
+		<state>Alberta</state>
+		<phone>333-333-3333</phone>
+		<POnumber>12345678</POnumber>
+	</testcase>
+	
+	<testcase id="Payment_CombinationOfCreditCardPO_AccountNumber_Error">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>329301</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>2</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>2</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+  		<cardname>v12 v23</cardname>
+		<cardnumber>4111111111111111</cardnumber>
+		<expmonth>05</expmonth>
+		<expyear>2019</expyear>
+		<securitycode>467</securitycode>
+		<firstname>v12</firstname>
+		<lastname>v23</lastname>
+		<address1>Patrick Henry Drive</address1>
+		<address2>St. Mark Place</address2>
+		<country>Canada</country>
+		<zip>T5A 0A7</zip>
+		<city>New York</city>
+		<state>Alberta</state>
+		<phone>333-333-3333</phone>
+		<POnumber>12345678</POnumber>
+		<SchoolNumber>12345678</SchoolNumber>
+	</testcase>
+	
+	<testcase id="Payment_CombinationOfCreditCardPO_BoardSchoolNumber_Not_In_AS400_Error">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>329377</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>2</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>2</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+  		<cardname>v12 v23</cardname>
+		<cardnumber>4111111111111111</cardnumber>
+		<expmonth>05</expmonth>
+		<expyear>2019</expyear>
+		<securitycode>467</securitycode>
+		<firstname>v12</firstname>
+		<lastname>v23</lastname>
+		<address1>Patrick Henry Drive</address1>
+		<address2>St. Mark Place</address2>
+		<country>Canada</country>
+		<zip>T5A 0A7</zip>
+		<city>New York</city>
+		<state>Alberta</state>
+		<phone>333-333-3333</phone>
+		<POnumber>12345678</POnumber>
+		<SchoolNumber>12345678</SchoolNumber>
+		<AccountNum>12345678</AccountNum>
+	</testcase>
+	
+	<testcase id="Payment_Combination_Of_Credit_Card_PO_BoardSchoolNumber_ButtonDisabled">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>329575</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>2</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>2</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+		<POnumber>12345678</POnumber>
+		<AccountNum>12345678</AccountNum>
+	</testcase>
+	
+	<testcase id="Payment_Combination_Of_Credit_Card_PO_AccountNumber_ButtonDisabled">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>329640</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>2</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>2</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+		<POnumber>12345678</POnumber>
+		<SchoolNumber>12345678</SchoolNumber>
+	</testcase>
+	
+	<testcase id="Payment_CombinationOfCreditCardPO_PONumber_Error">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>329997</AcNum>
+  		<FlyerCode>E8A16</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>2</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>2</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+		<cardnumber>4111111111111111</cardnumber>
+		<expmonth>05</expmonth>
+		<expyear>2019</expyear>
+		<securitycode>467</securitycode>
+		<firstname>v12</firstname>
+		<lastname>v23</lastname>
+		<address1>Patrick Henry Drive</address1>
+		<address2>St. Mark Place</address2>
+		<country>Canada</country>
+		<zip>T5A 0A7</zip>
+		<city>New York</city>
+		<state>Alberta</state>
+		<phone>333-333-3333</phone>
+	</testcase>
+	
+	<testcase id="SearchResults_Verify_Account_tab_highlights">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>324939</AcNum>
+	</testcase>
+	
+	<testcase id="SearchResults_Number_for_the_Verify_Account_tab">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>325242</AcNum>
+	</testcase>
+	
+	<testcase id="Blue_step_script_icon_displays_Verify_Account_page">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>323444</AcNum>
+	</testcase>
+	
+	<testcase id="Blue_step_script_icon_modalWindow_Verify_Account_page">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>323741</AcNum>
+	</testcase>
+	
+	<testcase id="Blue_step_script_icon_modalWindow_disappeared_Verify_Account_page">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>324765</AcNum>
+	</testcase>
+	
+	<testcase id="VerifyAccount_ExistingTeacher_NoModalWindow">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>322090</AcNum>
+	</testcase>
+	
+	<testcase id="VerifyAccount_NewTeaching_ModalWindow_CloseIcon">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>322173</AcNum>
+	</testcase>
+	
+	<testcase id="VerifyAccount_NewTeaching_ModalWindow">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>322793</AcNum>
+	</testcase>
+	
+	<testcase id="VerifyAccount_OrderHistory">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>322967</AcNum>
+	</testcase>
+	
+	<testcase id="VerifyAccount_OrderHistory_Phone">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>323147</AcNum>
+	</testcase>
+	
+	<testcase id="VerifyAccount_OrderHistory_Mail">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>323197</AcNum>
+	</testcase>
+	
+	<testcase id="VerifyAccount_OrderHistory_Fax">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>323220</AcNum>
+	</testcase>
+	
+	<testcase id="VerifyAccount_OrderHistory_Online">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>323254</AcNum>
+	</testcase>
+	
+	<testcase id="VerifyAccount_OrderHistory_Held_by_Accounting">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>323270</AcNum>
+	</testcase>
+	
+	<testcase id="VerifyAccount_OrderHistory_Sort">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>323379</AcNum>
+	</testcase>
+	
+	<testcase id="VerifyAccount_AdditionalInformation_YES">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>321266</AcNum>
+	</testcase>
+	
+	<testcase id="VerifyAccount_AdditionalInformation_NO">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>321406</AcNum>
+	</testcase>
+	
+	<testcase id="VerifyAccount_RoleDetails">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>321224</AcNum>
+	</testcase>
+	
+	<testcase id="VerifyAccount_GradeDetails">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>321539</AcNum>
+	</testcase>
+	
+	<testcase id="VerifyAccount_SchoolDetails_CanadaSchool">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>321977</AcNum>
+	</testcase>
+	
+	<testcase id="VerifyAccount_SchoolDetails_USSchool">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>322058</AcNum>
+	</testcase>
+	
+	<testcase id="InternationalOrders_US_Teacher_US_BillingAddress">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum></AcNum>
+  		<FlyerCode></FlyerCode>
+  		<ItemNum></ItemNum>
+  		<ItemQty>2</ItemQty>
+  		<ItemNum2></ItemNum2>
+  		<ItemQty2>2</ItemQty2>
+  		<ItemNum3></ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+  		<PaymentAmt>5</PaymentAmt>
+		<cardname>Harry Potter</cardname>
+		<cardnumber>4111111111111111</cardnumber>
+		<expmonth>05</expmonth>
+		<expyear>2019</expyear>
+		<securitycode>467</securitycode>
+		<firstname>Harry</firstname>
+		<lastname>Potter</lastname>
+		<address1>557 Broadway</address1>
+		<address2></address2>
+		<country>United States</country>
+		<zip>10012</zip>
+		<city>NY</city>
+		<state>New York</state>
+		<phone>333-333-3333</phone>
+	</testcase>
+	
+	<testcase id="InternationalOrders_US_Teacher_CA_BillingAddress">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum></AcNum>
+  		<FlyerCode></FlyerCode>
+  		<ItemNum></ItemNum>
+  		<ItemQty>2</ItemQty>
+  		<ItemNum2></ItemNum2>
+  		<ItemQty2>2</ItemQty2>
+  		<ItemNum3></ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+  		<PaymentAmt>5</PaymentAmt>
+		<cardname>v12 v23</cardname>
+		<cardnumber>4111111111111111</cardnumber>
+		<expmonth>05</expmonth>
+		<expyear>2019</expyear>
+		<securitycode>467</securitycode>
+		<firstname>v12</firstname>
+		<lastname>v23</lastname>
+		<address1>Patrick Henry Drive</address1>
+		<address2>St. Mark Place</address2>
+		<country>Canada</country>
+		<zip>T5A 0A7</zip>
+		<city>AL</city>
+		<state>Alberta</state>
+		<phone>333-333-3333</phone>
+	</testcase>
+	
+	<testcase id="OrderEntry_InternationalOrders_Error_US">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum></AcNum>
+  		<FlyerCode></FlyerCode>
+  		<ItemNum></ItemNum>
+  		<ItemQty>2</ItemQty>
+  		<ItemNum2></ItemNum2>
+  		<ItemQty2>2</ItemQty2>
+  		<ItemNum3></ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+  	</testcase>
+  	
+  	<testcase id="InternationalOrders_US_Teacher_Completes_Order">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum></AcNum>
+  		<FlyerCode></FlyerCode>
+  		<ItemNum></ItemNum>
+  		<ItemQty>2</ItemQty>
+  		<ItemNum2></ItemNum2>
+  		<ItemQty2>2</ItemQty2>
+  		<ItemNum3></ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+  	</testcase>
+  	
+	<testcase id="SignOut_Successfully_OrderEntry">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>255077</AcNum>
+  	</testcase>
+  	
+  	<testcase id="SignOut_Successfully_VerifyAccount">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>255085</AcNum>
+  	</testcase>
+  	
+  	<testcase id="SignOut_Successfully_PendingItems_SameAcccount">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>369729</AcNum>
+  		<FlyerCode>S0A17</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>2</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>2</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+  	</testcase>
+  	
+  	<testcase id="SignOut_Successfully_ReviewCart">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>256281</AcNum>
+  		<FlyerCode>S0A17</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>2</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>2</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+  	</testcase>
+  	
+  	<testcase id="SignOut_Successfully_RedemptionsRewards">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>255118</AcNum>
+  		<FlyerCode>S0A17</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>2</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>2</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+  	</testcase>
+  	
+  	<testcase id="SignOut_Successfully_ConfirmSubmit">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>255134</AcNum>
+  		<FlyerCode>S0A17</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>2</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>2</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+  	</testcase>
+  	
+  	<testcase id="SignOut_Successfully_LocateAccount">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  	</testcase>
+  	
+  	<testcase id="SignOut_Successfully_Payment">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>255184</AcNum>
+  		<FlyerCode>S0A17</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>2</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>2</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+  	</testcase>
+  	
+  	<testcase id="SignOut_Successfully_OrderSource">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  	</testcase>
+  
+  	<testcase id="CSR_sees_correct_labels_Payment_PO_ConfirmSubmit_page">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>255514</AcNum>
+  		<FlyerCode>S0A17</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>2</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>2</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+		<POnumber>12AR56</POnumber>
+		<BoardSchoolNum>21124</BoardSchoolNum>
+		<AccountNum>99</AccountNum>
+	</testcase>
+	
+	<testcase id="CSR_sees_correct_labels_Payment_Credit_PO_ConfirmSubmit_page">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>256017</AcNum>
+  		<FlyerCode>S0A17</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>2</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>2</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+  		<PaymentAmt>5</PaymentAmt>
+		<cardname>Eric Williams</cardname>
+		<cardnumber>4111111111111111</cardnumber>
+		<expmonth>04</expmonth>
+		<expyear>2020</expyear>
+		<securitycode>455</securitycode>
+		<firstname>Eric</firstname>
+		<lastname>Williams</lastname>
+		<address1>Patrick Henry Drive</address1>
+		<address2>St. Mark Place</address2>
+		<country>Canada</country>
+		<zip>T5A 0A7</zip>
+		<city>AL</city>
+		<state>Alberta</state>
+		<phone>213-556-7781</phone>
+		<POnumber>557YTO</POnumber>
+		<BoardSchoolNum>69902</BoardSchoolNum>
+		<AccountNum>99</AccountNum>
+	</testcase>
+
+	<testcase id="ReviewCart_SeeFullDetails_NewTab">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>256017</AcNum>
+  		<FlyerCode>S0A17</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>2</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>2</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+  	</testcase>
+  
+  	<testcase id="ReviewCart_FlyerTitle_Hyperlink_Disabled">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>256215</AcNum>
+  		<FlyerCode>S0A17</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>2</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>2</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+  	</testcase>
+  	
+</testdata>

@@ -1,0 +1,29 @@
+<testdata>
+	<testcase id="CSR_sees_Edit_Cart_label">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>2131332</AcNum>
+  		<FlyerCode>Z8A16</FlyerCode>
+  		<ItemNum>700</ItemNum>
+  		<ItemQty>1</ItemQty>
+  		<ItemNum2>701</ItemNum2>
+  		<ItemQty2>3</ItemQty2>
+  		<ItemNum3>702</ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+	</testcase>
+	
+	<testcase id="CSR_clicks_hyperlink_Edit_Cart">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>2131358</AcNum>
+  		<FlyerCode>Z8A16</FlyerCode>
+  		<ItemNum>700</ItemNum>
+  		<ItemQty>1</ItemQty>
+  		<ItemNum2>701</ItemNum2>
+  		<ItemQty2>3</ItemQty2>
+  		<ItemNum3>702</ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+	</testcase>
+	
+
+</testdata>

@@ -1,0 +1,76 @@
+<testdata>
+
+<!-- ##################################################################################################################################################    
+##################################################################################################################################################    
+###########################################   							             #############################################################   
+###########################################   		   UNIQUE ITEM ID       	     #############################################################
+###########################################   							             #############################################################        
+##################################################################################################################################################        
+################################################################################################################################################## -->
+
+
+<testcase id="InSprint_12.3:PCOD:Dev35:Parent_ErrorMsg_CACSpacescharacters">
+		<pcod_url>${pcod_url}</pcod_url>
+		<userid>schl1@abc.com</userid>
+		<password>passw0rd</password>
+		<cac_space>AB CD</cac_space>
+		<correct_cacno>ABCD</correct_cacno>
+</testcase>
+
+
+<testcase id="InSprint_12.3:PCOD:Dev35:Parent_Whatsthislinkmessage">
+		<pcod_url>${pcod_url}</pcod_url>
+		<userid>schl2@abc.com</userid>
+		<password>passw0rd</password>
+</testcase>
+
+
+<testcase id="InSprint_12.3:PCOD:Dev35:Parent_ConnectBtnDisabled_CACBlank">
+		<pcod_url>${pcod_url}</pcod_url>
+		<userid>schl3@abc.com</userid>
+		<password>passw0rd</password>
+		<cac_blank></cac_blank>
+</testcase>	
+
+<testcase id="InSprint_12.3:PCOD:Dev35:Parent_ConnectBtnEnabled_CACEntered">
+		<pcod_url>${pcod_url}</pcod_url>
+		<userid>schl4@abc.com</userid>
+		<password>passw0rd</password>
+		<cac_no>ABCDE</cac_no>
+</testcase>	
+
+
+<testcase id="InSprint_12.3:PCOD:Dev35:Parent_CACMorethan5characters">
+		<pcod_url>${pcod_url}</pcod_url>
+		<userid>schl5@abc.com</userid>
+		<password>passw0rd</password>
+		<cac_no>ABCDEF</cac_no>
+		<correct_cacno>ABCDE</correct_cacno>
+</testcase>
+
+
+<testcase id="InSprint_12.3:PCOD:Dev35:Parent_CACLessthan5characters">
+		<pcod_url>${pcod_url}</pcod_url>
+		<userid>schl6@abc.com</userid>
+		<password>passw0rd</password>
+		<cac_no>ABCD</cac_no>
+</testcase>	
+
+
+<testcase id="InSprint_12.3:PCOD:Dev35:Parent_CACSpecialcharacters">
+		<pcod_url>${pcod_url}</pcod_url>
+		<userid>schl7@abc.com</userid>
+		<password>passw0rd</password>
+		<cac_no>ABC&amp;</cac_no>
+		<correct_cacno>ABC</correct_cacno>
+</testcase>	
+
+
+<testcase id="InSprint_12.3:PCOD:Dev35:Parent_ErrorMsg_IncorrectCAC">
+		<pcod_url>${pcod_url}</pcod_url>
+		<userid>schl8@abc.com</userid>
+		<password>passw0rd</password>
+		<cac_no>ABCDE</cac_no>
+</testcase>	
+	
+</testdata>	

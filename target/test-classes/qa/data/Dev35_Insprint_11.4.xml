@@ -1,0 +1,238 @@
+<testdata>
+
+
+<testcase id="InSprint_11.4:Dev35:Teacher_Options_GradeDropDown_DTSModelWindow">
+		<userid>5117321</userid>
+		<password>passw0rd</password>
+		<itemprice>9.99</itemprice>
+		<itemprice_limit>14.99</itemprice_limit>
+		<topoff_dts>12</topoff_dts>
+		<studentname>Margit</studentname>
+		<itemQty>3</itemQty>
+		<numberofstudents>1</numberofstudents>
+		<selectgrade>yto-early-childhood</selectgrade>
+		<selectdiffgrade>yto-2nd-grade-and-3rd-grade</selectdiffgrade>
+		<couponprice>1.01</couponprice>
+		<couponprice_limit>9.99</couponprice_limit>
+		<couponitemnumber>0</couponitemnumber>
+		<module>teacher</module>
+		<coupontype>dollartospend</coupontype>
+		<couponselctionmethod>Grade Level</couponselctionmethod>
+	</testcase>
+	
+	
+<!--##################################################################################################################################################    
+##################################################################################################################################################    
+###########################################   							             #############################################################   
+###########################################    STORY - 4064 POP-UP REWARD TABLE      #############################################################
+###########################################   							             #############################################################        
+##################################################################################################################################################        
+##################################################################################################################################################-->
+		
+<testcase id="InSprint_11.4:dev35:StudentOrder_PopupRewardTable">
+		<userid>5117686</userid>
+		<password>passw0rd</password>
+		<itemprice>9.99</itemprice>
+		<itemprice_limit>14.99</itemprice_limit>
+		<topoff_dts>12</topoff_dts>
+		<studentname>Margit</studentname>
+		<itemQty>3</itemQty>
+	</testcase>	
+	
+	
+	
+	
+<testcase id="InSprint_11.4:dev35:TeacherOrder_PopupRewardTable">
+		<userid>5120811</userid>
+		<password>passw0rd</password>
+		<itemprice>1.99</itemprice>
+		<itemprice_limit>14.99</itemprice_limit>
+		<topoff_dts>12</topoff_dts>
+		<studentname>Margit</studentname>
+		<itemQty>15</itemQty>
+	</testcase>		
+	
+<testcase id="InSprint_11.4:dev35:StudentOrder_OrderTotal_PopupRewardTable">
+		<userid>5135290</userid>
+		<password>passw0rd</password>
+		<itemprice>9.99</itemprice>
+		<itemprice_limit>14.99</itemprice_limit>
+		<topoff_dts>12</topoff_dts>
+		<studentname>Margit</studentname>
+		<itemQty>3</itemQty>
+	</testcase>		
+	
+	
+<testcase id="InSprint_11.4:dev35:StudentOrder_ProceedtoCheckoutLink_PopupRewardTable">
+		<userid>5135307</userid>
+		<password>passw0rd</password>
+		<itemprice>9.99</itemprice>
+		<itemprice_limit>14.99</itemprice_limit>
+		<topoff_dts>12</topoff_dts>
+		<studentname>Margit</studentname>
+		<itemQty>3</itemQty>
+	</testcase>
+		
+<testcase id="InSprint_11.4:dev35:StudentOrder_ProceedtoCheckoutButton_PopupRewardTable">
+		<userid>5178753</userid>
+		<password>passw0rd</password>
+		<itemprice>9.99</itemprice>
+		<itemprice_limit>14.99</itemprice_limit>
+		<topoff_dts>12</topoff_dts>
+		<studentname>Margit</studentname>
+		<itemQty>3</itemQty>
+	</testcase>
+	
+	
+	
+	
+<testcase id="InSprint_11.4:dev35:StudentOrder_ReturnToShop_PopupRewardTable">
+		<userid>5181144</userid>
+		<password>passw0rd</password>
+		<itemprice>9.99</itemprice>
+		<itemprice_limit>14.99</itemprice_limit>
+		<topoff_dts>12</topoff_dts>
+		<studentname>Margit</studentname>
+		<itemQty>3</itemQty>
+	</testcase>
+	
+	
+	
+	<testcase id="InSprint_11.4:dev35:StudentOrder_CurrentTotalOrder_Highlight_PopupRewardTable">
+		<userid>5181152</userid>
+		<password>passw0rd</password>
+		<itemprice>9.99</itemprice>
+		<itemprice_limit>14.99</itemprice_limit>
+		<topoff_dts>12</topoff_dts>
+		<studentname>Margit</studentname>
+		<itemQty>5</itemQty>
+	</testcase>
+	
+	
+
+<!--##################################################################################################################################################    
+##################################################################################################################################################    
+###########################################   							             #############################################################   
+###########################################    STORY - 4059  GRADE AND LANGUAGE      #############################################################
+###########################################   							             #############################################################        
+##################################################################################################################################################        
+##################################################################################################################################################-->
+		
+	
+	
+<testcase id="InSprint_11.4:dev35:StudentOrder_Grade1_Callout_Message_English">
+		<userid>5183356</userid>
+		<password>passw0rd</password>
+		<itemName>The Night Before Summer! Pack</itemName>
+		<itemQty>3</itemQty>
+	</testcase>	
+	
+	
+<testcase id="InSprint_11.4:dev35:StudentOrder_Grade3_Callout_Message_English">
+		<userid>5201330</userid>
+		<password>passw0rd</password>
+		<itemName>The Night Before Summer! Pack</itemName>
+		<itemQty>3</itemQty>
+	</testcase>
+	
+	
+<testcase id="InSprint_11.4:dev35:StudentOrder_Grade5_Callout_Message_English">
+		<userid>5277745</userid>
+		<password>passw0rd</password>
+		<itemName>The Night Before Summer! Pack</itemName>
+		<itemQty>3</itemQty>
+	</testcase>	
+	
+	
+<testcase id="InSprint_11.4:dev35:StudentOrder_Grade7_Callout_Message_English">
+		<userid>5295119</userid>
+		<password>passw0rd</password>
+		<itemName>The Night Before Summer! Pack</itemName>
+		<itemQty>3</itemQty>
+	</testcase>	
+	
+	
+<testcase id="InSprint_11.4:dev35:StudentOrder_Grade9_Callout_Message_English">
+		<userid>5301536</userid>
+		<password>passw0rd</password>
+		<itemName>The Night Before Summer! Pack</itemName>
+		<itemQty>3</itemQty>
+	</testcase>	
+	
+	
+<testcase id="InSprint_11.4:dev35:StudentOrder_Grade11_Callout_Message_English">
+		<userid>5311535</userid>
+		<password>passw0rd</password>
+		<itemName>The Night Before Summer! Pack</itemName>
+		<itemQty>3</itemQty>
+	</testcase>			
+	
+	
+<testcase id="InSprint_11.4:dev35:Golden:teacher_Grade1_Grade3_CallOutMsg_NoPreference_English">
+		<userid>5318656</userid>
+		<password>passw0rd</password>
+		<itemName>The Night Before Summer! Pack</itemName>
+		<itemQty>3</itemQty>
+	</testcase>	
+	
+	
+	
+<testcase id="InSprint_11.4:dev35:Golden:teacher_Grade1_Grade3_CallOutMsg_Grade1Preference_English">
+		<userid>5322904</userid>
+		<password>passw0rd</password>
+		<itemName>The Night Before Summer! Pack</itemName>
+		<itemQty>3</itemQty>
+	</testcase>	
+	
+	
+<testcase id="InSprint_11.4:dev35:Golden:teacher_Grade6_Grade7_CallOutMsg_Grade7Preference_English">
+		<userid>5322912</userid>
+		<password>passw0rd</password>
+		<itemName>The Night Before Summer! Pack</itemName>
+		<itemQty>3</itemQty>
+	</testcase>	
+	
+	
+<testcase id="InSprint_11.4:dev35:StudentOrder_Grade1_Callout_Message_French">
+		<userid>5324984</userid>
+		<password>passw0rd</password>
+		<itemName>The Night Before Summer! Pack</itemName>
+		<itemQty>3</itemQty>
+	</testcase>	
+	
+	
+<testcase id="InSprint_11.4:dev35:StudentOrder_Grade3_Callout_Message_French">
+		<userid>5344106</userid>
+		<password>passw0rd</password>
+		<itemName>The Night Before Summer! Pack</itemName>
+		<itemQty>3</itemQty>
+	</testcase>	
+	
+	
+	
+<testcase id="InSprint_11.4:CSR_enters_Locate_Account_to_Verify_Account_page">
+		<userid>bmekala</userid>
+		<password>July2018!</password>
+		<active_progresstab>LOCATE ACCOUNT</active_progresstab>
+	</testcase>	
+	
+				
+<testcase id="InSprint_11.4:dev35:StudentOrder_NoGrade_Callout_Message_English">
+		<userid>102225</userid>
+		<password>passw0rd</password>
+		<itemName>The Night Before Summer! Pack</itemName>
+		<itemQty>2</itemQty>
+	</testcase>
+	
+		
+<testcase id="InSprint_11.4:dev35:StudentOrder_NoGrade_NoLanguage_Callout_Message">
+		<userid>102406</userid>
+		<password>passw0rd</password>
+		<itemName>The Night Before Summer! Pack</itemName>
+		<itemQty>2</itemQty>
+	</testcase>			
+			
+	
+	
+	
+</testdata>	

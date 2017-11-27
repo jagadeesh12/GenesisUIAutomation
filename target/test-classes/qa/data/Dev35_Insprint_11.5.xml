@@ -1,0 +1,139 @@
+<testdata>
+
+
+<testcase id="BTS:DollarsToSpend:Teacher_DTS_Selection_Grade">
+		<userid>91633</userid>
+		<password>passw0rd</password>
+		<removeCartFlag>true</removeCartFlag>
+		<couponnumber>DW5DTS</couponnumber>
+		<itemprice>9.99</itemprice>
+		<itemprice_limit>14.99</itemprice_limit>
+		<studentname>Margit</studentname>
+		<itemQty>3</itemQty>
+		<numberofstudents>1</numberofstudents>
+		<grade>Grades 2 &amp; 3</grade>
+		<itemValue>2</itemValue>
+		<couponsearch>Pete the Cat: Robo-Pete</couponsearch>
+		<couponprice>1.01</couponprice>
+		<couponprice_limit>9.99</couponprice_limit>
+		<couponitemnumber>0</couponitemnumber>
+		<module>teacher</module>
+		<coupontype>dollartospend</coupontype>
+		<couponselctionmethod>Grade Level</couponselctionmethod>
+	</testcase>
+	
+	
+	<testcase id="BTS:DollarsToSpend:Teacher_DTS_Selection_Search_ValidSearch">
+		<userid>91781</userid>
+		<password>passw0rd</password>
+		<removeCartFlag>true</removeCartFlag>
+		<couponnumber>DW5DTS</couponnumber>
+		<itemprice>9.99</itemprice>
+		<itemprice_limit>14.99</itemprice_limit>
+		<studentname>Margit</studentname>
+		<itemQty>3</itemQty>
+		<numberofstudents>1</numberofstudents>
+		<couponsearch>Pete the Cat: Robo-Pete</couponsearch>
+		<couponprice>1.01</couponprice>
+		<couponprice_limit>9.99</couponprice_limit>
+		<couponitemnumber>0</couponitemnumber>
+		<module>teacher</module>
+		<coupontype>dollartospend</coupontype>
+		<couponselctionmethod>Grade Level</couponselctionmethod>
+	</testcase>
+	
+	
+	<testcase id="InSprint_11.5:Dev35:Teacher_DTS_with_valid_Search_Otherthanfirstpage">
+		<userid>92001</userid>
+		<password>passw0rd</password>
+		<removeCartFlag>true</removeCartFlag>
+		<couponnumber>DW5DTS</couponnumber>
+		<itemprice>9.99</itemprice>
+		<itemprice_limit>14.99</itemprice_limit>
+		<studentname>Margit</studentname>
+		<itemQty>3</itemQty>
+		<numberofstudents>1</numberofstudents>
+		<couponsearch>book</couponsearch>
+		<couponprice>1.01</couponprice>
+		<couponprice_limit>20.99</couponprice_limit>
+		<couponitemnumber>0</couponitemnumber>
+		<module>teacher</module>
+		<coupontype>dollartospend</coupontype>
+		<couponselctionmethod>Grade Level</couponselctionmethod>
+	</testcase>
+	
+	
+	
+	<testcase id="InSprint_11.5:Dev35:Golden:TeacherOrder_SpecificFreePickItem_Checkout">
+		<userid>3306322</userid>
+		<password>passw0rd</password>
+		<itemprice>9.99</itemprice>
+		<itemprice_limit>14.99</itemprice_limit>
+		<studentname>Margit</studentname>
+		<itemQty>3</itemQty>
+		<numberofstudents>1</numberofstudents>
+		<couponnumber>ISNOQYO</couponnumber>
+		<couponsearch>Dr. Seuss: What Was I Scared Of?</couponsearch>
+	</testcase>
+	
+	
+	
+	
+	
+<testcase id="InSprint_11.5:Dev35:TeacherOrder_Paymentpage_AlternativeShippingAddressChkbox_MSG">
+		<userid>90973</userid>
+		<password>passw0rd</password>
+		<studentname>eric</studentname>
+        <itemName>The Night Before Summer! Pack</itemName>
+		<itemQty>3</itemQty>
+		<numberofstudents>1</numberofstudents>
+	</testcase>
+	
+	
+<testcase id="InSprint_11.5:Dev35:Teacher_ItemsSaved_BrowserClose_Login">
+		<userid>91340</userid>
+		<password>passw0rd</password>
+		<studentname>eric</studentname>
+		<itemQty>3</itemQty>
+	</testcase>	
+	
+<testcase id="InSprint_11.5:Dev35:TeacherOrder_TeacherDesk_CurrentMonthRewardsLink">
+		<userid>91340</userid>
+		<password>passw0rd</password>
+		<itemprice>9.99</itemprice>
+		<itemprice_limit>14.99</itemprice_limit>
+		<studentname>Margit</studentname>
+		<itemQty>2</itemQty>
+		<numberofstudents>1</numberofstudents>
+	</testcase>	
+	
+
+<testcase id="InSprint_11.5:Dev35:TeacherOrder_OrderStatus_NewTeacher">
+		<userid>92001</userid>
+		<password>passw0rd</password>
+	</testcase>	
+	
+	
+<testcase id="InSprint_11.5:Dev35:TeacherOrder_OrderStatus_SubmittedToScholastic">
+		<userid>92218</userid>
+		<password>passw0rd</password>
+		<itemprice>9.99</itemprice>
+		<itemprice_limit>14.99</itemprice_limit>
+		<studentname>Margit</studentname>
+		<itemQty>2</itemQty>
+		<numberofstudents>1</numberofstudents>
+	</testcase>	
+	
+	
+<testcase id="InSprint_11.5:Dev35:TeacherOrder_OrderStatus_Shipped">
+		<userid>92345</userid>
+		<password>passw0rd</password>
+	</testcase>		
+	
+	
+		
+			
+	
+	
+	
+</testdata>	

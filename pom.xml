@@ -2,8 +2,8 @@
 
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>com.dw.rco.automation</groupId>
-	<artifactId>dw-rco-test</artifactId>
+	<groupId>com.old.automation</groupId>
+	<artifactId>old</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>Demandware RCO</name>
 	<properties>
@@ -462,6 +462,30 @@
 			<artifactId>fillo</artifactId>
 			<version>1.15</version>
 		</dependency>
+		
+		<!-- https://mvnrepository.com/artifact/com.sun.jersey.contribs/jersey-multipart -->
+		<!-- For Rest Api Automation ::Last Edit Shivaraj 27/nov/2017 -->
+ <dependency>
+      <groupId>com.sun.jersey.contribs</groupId>
+      <artifactId>jersey-multipart</artifactId>
+      <version>1.19</version>
+      <scope>compile</scope>
+    </dependency>
+
+<dependency>
+      <groupId>com.sun.jersey.contribs</groupId>
+      <artifactId>jersey-apache-client</artifactId>
+      <version>1.13</version>
+      <scope>compile</scope>
+ 
+    </dependency>
+    
+     <dependency>
+      <groupId>com.relevantcodes</groupId>
+      <artifactId>extentreports</artifactId>
+      <version>2.41.2</version>
+      <scope>compile</scope>
+    </dependency>
 
 	</dependencies>
 	<repositories>

@@ -1,0 +1,123 @@
+<testdata>
+	<testcase id="Shipping_and_handling_section_displays_Redemptions_Rewards">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>4586535</AcNum>
+  		<FlyerCode>Z8A16</FlyerCode>
+  		<ItemNum>700</ItemNum>
+  		<ItemQty>2</ItemQty>
+  		<ItemNum2>701</ItemNum2>
+  		<ItemQty2>2</ItemQty2>
+  		<ItemNum3>702</ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+	</testcase>
+	
+	<testcase id="Shipping_and_handling_header_section_displays_Redemptions_Rewards">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>4594687</AcNum>
+  		<FlyerCode>Z8A16</FlyerCode>
+  		<ItemNum>700</ItemNum>
+  		<ItemQty>2</ItemQty>
+  		<ItemNum2>701</ItemNum2>
+  		<ItemQty2>2</ItemQty2>
+  		<ItemNum3>702</ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+	</testcase>
+	
+	<testcase id="Shipping_and_handling_section_expands_Redemptions_Rewards">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>4610433</AcNum>
+  		<FlyerCode>Z8A16</FlyerCode>
+  		<ItemNum>700</ItemNum>
+  		<ItemQty>2</ItemQty>
+  		<ItemNum2>701</ItemNum2>
+  		<ItemQty2>2</ItemQty2>
+  		<ItemNum3>702</ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+	</testcase>
+	
+	<testcase id="Shipping_and_handling_label_FREE_Redemptions_Rewards">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>4613792</AcNum>
+  		<FlyerCode>Z8A16</FlyerCode>
+  		<ItemNum>700</ItemNum>
+  		<ItemQty>3</ItemQty>
+  		<ItemNum2>701</ItemNum2>
+  		<ItemQty2>3</ItemQty2>
+  		<ItemNum3>702</ItemNum3>
+  		<ItemQty3>4</ItemQty3>
+	</testcase>
+	
+	<testcase id="Shipping_and_handling_label_Minus_Redemptions_Rewards">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>4613809</AcNum>
+  		<FlyerCode>Z8A16</FlyerCode>
+  		<ItemNum>700</ItemNum>
+  		<ItemQty>2</ItemQty>
+  		<ItemNum2>701</ItemNum2>
+  		<ItemQty2>2</ItemQty2>
+  		<ItemNum3>702</ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+	</testcase>
+	
+	<testcase id="Shipping_and_handling_label_Plus_Redemptions_Rewards">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>4619427</AcNum>
+  		<FlyerCode>Z8A16</FlyerCode>
+  		<ItemNum>700</ItemNum>
+  		<ItemQty>2</ItemQty>
+  		<ItemNum2>701</ItemNum2>
+  		<ItemQty2>2</ItemQty2>
+  		<ItemNum3>702</ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+	</testcase>
+	
+	<testcase id="Shipping_and_handling_tax_Redemptions_Rewards">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>4628759</AcNum>
+  		<FlyerCode>Z8A16</FlyerCode>
+  		<ItemNum>700</ItemNum>
+  		<ItemQty>2</ItemQty>
+  		<ItemNum2>701</ItemNum2>
+  		<ItemQty2>2</ItemQty2>
+  		<ItemNum3>702</ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+	</testcase>
+	
+	<testcase id="Bonus_Bank_textBox_decimal_Redemptions_Rewards">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>4676550</AcNum>
+  		<FlyerCode>Z8A16</FlyerCode>
+  		<ItemNum>700</ItemNum>
+  		<ItemQty>2</ItemQty>
+  		<ItemNum2>701</ItemNum2>
+  		<ItemQty2>2</ItemQty2>
+  		<ItemNum3>702</ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+  		<shipBonusBank>2.15</shipBonusBank>
+	</testcase>
+	
+	<testcase id="Paper_Bonus_Coupons_textBox_float_Redemptions_Rewards">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>4678738</AcNum>
+  		<FlyerCode>Z8A16</FlyerCode>
+  		<ItemNum>700</ItemNum>
+  		<ItemQty>2</ItemQty>
+  		<ItemNum2>701</ItemNum2>
+  		<ItemQty2>2</ItemQty2>
+  		<ItemNum3>702</ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+  		<shipPaperBonus>2.15</shipPaperBonus>
+	</testcase>
+	
+	
+
+</testdata>

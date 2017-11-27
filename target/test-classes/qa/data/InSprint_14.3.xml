@@ -1,0 +1,51 @@
+<testdata>
+    <!-- ##################################################################################################################################################
+##################################################################################################################################################
+###########################################   							             #############################################################
+###########################################   		   SCSCOD-5663          	     #############################################################
+###########################################   							             #############################################################
+##################################################################################################################################################
+################################################################################################################################################## -->
+
+
+    <testcase id="QA:Search_HomePage_Valid_ItenNo">
+        <userid>6135950</userid>
+        <!--<userid>7468087</userid>-->
+        <password>passw0rd</password>
+        <itemNo>My Life as a Gamer</itemNo>
+        <itemName>My Life as a Gamer</itemName>
+        <uniqueid>1</uniqueid>
+        <itemQty>My Life as a Gamer</itemQty>
+
+    </testcase>
+
+    <testcase id="QA:Search_YTO_Valid_ItenNo">
+        <userid>7352131</userid>
+        <password>passw0rd</password>
+        <itemNo>3L7</itemNo>
+        <itemName>Wayside School is Falling Down</itemName>
+        <itemQty>1</itemQty>
+
+    </testcase>
+
+    <testcase id="QA:Search_ReviewCart_Valid_ItenNo">
+        <userid>5895125</userid>
+        <password>passw0rd</password>
+        <itemNo>3L7</itemNo>
+        <itemName>Wayside School is Falling Down</itemName>
+        <itemQty>1</itemQty>
+
+    </testcase>
+
+    <testcase id="QA:Search_Invalid Item No  ">
+        <userid>6222054</userid>
+        <password>passw0rd</password>
+        <itemNo>3YY7</itemNo>
+        <itemQty>1</itemQty>
+
+    </testcase>
+
+
+
+
+</testdata>

@@ -1,0 +1,102 @@
+<testdata>
+
+    <testcase id="CSR_Enter_duplicateItem">
+        <userid>satnasin</userid>
+        <password>Scholastic1</password>
+        <AcNum>255093</AcNum>
+        <FlyerCode>E8A16</FlyerCode>
+        <ItemNum>1</ItemNum>
+        <ItemQty>1</ItemQty>
+        <ItemNum2>1</ItemNum2>
+        <ItemQty2>2</ItemQty2>
+        <ItemNum3>1</ItemNum3>
+        <ItemQty3>3</ItemQty3>
+    </testcase>
+
+
+    <testcase id="CSR_Enter_duplicateItem_QtyDuplicate">
+        <userid>satnasin</userid>
+        <password>Scholastic1</password>
+        <AcNum>255093</AcNum>
+        <FlyerCode>E8A16</FlyerCode>
+        <ItemNum>1</ItemNum>
+        <ItemQty>1</ItemQty>
+        <ItemNum2>1</ItemNum2>
+        <ItemQty2>1</ItemQty2>
+        <ItemNum3>1</ItemNum3>
+        <ItemQty3>1</ItemQty3>
+    </testcase>
+
+    <testcase id="CSR_Enter_duplicateItem_Qtysame_flyers">
+        <userid>satnasin</userid>
+        <password>Scholastic1</password>
+        <AcNum>255093</AcNum>
+        <FlyerCode>E8A16</FlyerCode>
+        <ItemNum>1</ItemNum>
+        <ItemQty>1</ItemQty>
+        <ItemNum2>1</ItemNum2>
+        <ItemQty2>1</ItemQty2>
+        <ItemNum3>1</ItemNum3>
+        <ItemQty3>1</ItemQty3>
+        <FlyerCode1>E4A16</FlyerCode1>
+        <ItemNum4>1</ItemNum4>
+        <ItemQty4>1</ItemQty4>
+        <ItemNum5>1</ItemNum5>
+        <ItemQty5>1</ItemQty5>
+    </testcase>
+
+
+        <testcase id="CSR_Enter_duplicateItem_QtyDiff_flyers">
+        <userid>satnasin</userid>
+        <password>Scholastic1</password>
+        <AcNum>255093</AcNum>
+        <FlyerCode>E8A16</FlyerCode>
+        <ItemNum>1</ItemNum>
+        <ItemQty>1</ItemQty>
+        <ItemNum2>1</ItemNum2>
+        <ItemQty2>11</ItemQty2>
+        <ItemNum3>1</ItemNum3>
+        <ItemQty3>12</ItemQty3>
+        <FlyerCode1>E4A16</FlyerCode1>
+        <ItemNum4>1</ItemNum4>
+        <ItemQty4>1</ItemQty4>
+        <ItemNum5>1</ItemNum5>
+        <ItemQty5>6</ItemQty5>
+    </testcase>
+
+
+    <testcase id="CSR_ReviewCartback_sameFlyer">
+        <userid>satnasin</userid>
+        <password>Scholastic1</password>
+        <AcNum>255093</AcNum>
+        <FlyerCode>E8A16</FlyerCode>
+        <ItemNum>1</ItemNum>
+        <ItemQty>1</ItemQty>
+        <ItemNum2>1</ItemNum2>
+        <ItemQty2>11</ItemQty2>
+        <ItemNum3>1</ItemNum3>
+        <ItemQty3>12</ItemQty3>
+
+    </testcase>
+
+
+    <testcase id="CSR_ReviewCartback_DifFlyer">
+        <userid>satnasin</userid>
+        <password>Scholastic1</password>
+        <AcNum>255093</AcNum>
+        <FlyerCode>E8A16</FlyerCode>
+        <ItemNum>1</ItemNum>
+        <ItemQty>1</ItemQty>
+        <ItemNum2>1</ItemNum2>
+        <ItemQty2>11</ItemQty2>
+        <ItemNum3>1</ItemNum3>
+        <ItemQty3>12</ItemQty3>
+        <FlyerCode1>E4A16</FlyerCode1>
+        <ItemNum4>1</ItemNum4>
+        <ItemQty4>1</ItemQty4>
+        <ItemNum5>1</ItemNum5>
+        <ItemQty5>6</ItemQty5>
+
+    </testcase>
+
+</testdata>

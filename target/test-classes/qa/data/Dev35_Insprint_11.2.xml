@@ -1,0 +1,411 @@
+<testdata>
+
+
+
+<!--##################################################################################################################################################    
+##################################################################################################################################################    
+###########################################   							             #############################################################   
+###########################################   		    MARKETING LINKS              #############################################################
+###########################################   							             #############################################################        
+##################################################################################################################################################        
+##################################################################################################################################################-->
+
+<testcase id="dev35:TeacherOrder_Marketing_URL_PDPPage">
+	<url>https://dev35-rco-scholastic.demandware.net/s/rco-ca/the-night-before-summer%21-pack/3078856-rco-ca.html?id=shopnow</url>
+	<userid>4267656</userid>
+	<password>passw0rd</password>
+	<link_marketing>The Night Before Summer! Pack</link_marketing>
+    <uniqueid>The Night Before Summer! Pack</uniqueid>
+</testcase>	
+
+
+<testcase id="dev35:TeacherOrder_Marketing_URL_BTS">
+	<url>https://dev35-rco-scholastic.demandware.net/s/rco-ca/the-night-before-summer%21-pack/3078856-rco-ca.html?id=shopnow</url>
+	<userid>4268232</userid>
+	<password>passw0rd</password>
+	<uniqueid>The Night Before Summer! Pack</uniqueid>
+</testcase>	
+
+
+
+<testcase id="dev35:TeacherOrder_Marketing_URL_Relogin">
+	<url>https://dev35-rco-scholastic.demandware.net/s/rco-ca/the-night-before-summer%21-pack/3078856-rco-ca.html?id=shopnow</url>
+	<incorrect_userid>43848444</incorrect_userid>
+	<incorrect_password>passertd</incorrect_password>
+	<userid>4268258</userid>
+	<password>passw0rd</password>
+	<uniqueid>The Night Before Summer! Pack</uniqueid>
+</testcase>	
+
+
+
+<testcase id="dev35:TeacherOrder_CategoryMarketing_Link">
+	<url>https://dev35-rco-scholastic.demandware.net/s/rco-ca/shop-by-collection-pete-the-cat?id=shopnow</url>
+	<userid>4274255</userid>
+	<password>passw0rd</password>
+	<link_marketing>pete the ca</link_marketing>
+</testcase>	
+
+
+
+<testcase id="dev35:TeacherOrder_ContentMarketing_Link">
+	<url>https://dev35-rco-scholastic.demandware.net/s/rco-ca/marketing?id=shopnow</url>
+	<userid>4275534</userid>
+	<password>passw0rd</password>
+</testcase>	
+
+
+<!--##################################################################################################################################################    
+##################################################################################################################################################    
+###########################################   							             #############################################################   
+###########################################    My Account Order ConfirmationPage     #############################################################
+###########################################   							             #############################################################        
+##################################################################################################################################################        
+##################################################################################################################################################-->
+
+
+<testcase id="dev35:TeacherOrder_OrderConfirmation_MyAccount">
+	<userid>4073160</userid>
+	<password>passw0rd</password>
+	<itemprice>2.99</itemprice>
+	<itemprice_limit>14.99</itemprice_limit>
+	<studentname>Margit</studentname>
+	<itemName>The Night Before Summer! Pack</itemName>
+	<itemQty>1</itemQty>
+	<numberofstudents>1</numberofstudents>
+	<noofstudents>5</noofstudents>
+</testcase>	
+
+<testcase id="dev35:TeacherOrder_OrderConfirmation_MyAccount_Profile">
+	<userid>4125614</userid>
+	<password>passw0rd</password>
+	<itemprice>2.99</itemprice>
+	<itemprice_limit>14.99</itemprice_limit>
+	<studentname>Margit</studentname>
+    <itemName>The Night Before Summer! Pack</itemName>
+	<itemQty>1</itemQty>
+	<numberofstudents>1</numberofstudents>
+	<noofstudents>5</noofstudents>
+</testcase>
+
+<testcase id="dev35:TeacherOrder_MyAccount_Confirmation_Logout">
+	<userid>4164365</userid>
+	<password>passw0rd</password>
+	<itemName>The Night Before Summer! Pack</itemName>
+	<itemprice>2.99</itemprice>
+	<itemprice_limit>14.99</itemprice_limit>
+	<studentname>Margit</studentname>
+	<itemQty>1</itemQty>
+	<numberofstudents>1</numberofstudents>
+	<noofstudents>5</noofstudents>
+</testcase>	
+
+
+<testcase id="dev35:TeacherOrder_MyAccount_MyProfile_Confirmationpage">
+	<userid>4179801</userid>
+	<password>passw0rd</password>
+	<itemprice>2.99</itemprice>
+	<itemName>The Night Before Summer! Pack</itemName>
+	<itemprice_limit>14.99</itemprice_limit>
+	<studentname>Margit</studentname>
+	<itemQty>1</itemQty>
+	<numberofstudents>1</numberofstudents>
+	<noofstudents>5</noofstudents>
+	<cardname>v12 v23</cardname>
+	<cardnumber>4111111111111111</cardnumber>
+	<expmonth>02</expmonth>
+	<expyear>2019</expyear>
+	<securitycode>891</securitycode>
+	<firstname>v12</firstname>
+	<lastname>v23</lastname>
+	<address1>Patrick Henry Drive</address1>
+	<address2>St. Mark Place</address2>
+	<country>Canada</country>
+	<zip>T5A 0A7</zip>
+	<city>Airdrie</city>
+	<state>Alberta</state>
+	<phone>333-333-3333</phone>
+	
+</testcase>
+
+<testcase id="dev35:TeacherOrder_MyAccount_OrderHistory_Confirmationpage">
+	<userid>4185527</userid>
+	<password>passw0rd</password>
+	<itemName>The Night Before Summer! Pack</itemName>
+	<itemprice>2.99</itemprice>
+	<itemprice_limit>14.99</itemprice_limit>
+	<studentname>Margit</studentname>
+	<itemQty>1</itemQty>
+	<numberofstudents>1</numberofstudents>
+	<noofstudents>5</noofstudents>
+</testcase>
+
+
+<!--##################################################################################################################################################    
+##################################################################################################################################################    
+###########################################   							             #############################################################   
+###########################################    STORY - 3699 LINE ITEM LABELS         #############################################################
+###########################################   							             #############################################################        
+##################################################################################################################################################        
+##################################################################################################################################################-->
+
+
+
+
+<testcase id="dev35:TeacherOrder_StudentTeacherClubs_Label_Checkout">
+		<userid>4283149</userid>
+		<password>passw0rd</password>
+		<sname1>Manu</sname1>
+		<sname2>Rocky</sname2>
+		<sname3>Johnson</sname3>
+		<qty1>4</qty1>
+		<qty2>1</qty2>
+		<qty3>7</qty3>
+		<default>yes</default>
+		<numberofstudents>1</numberofstudents>
+	<noofstudents>5</noofstudents>
+	</testcase>
+	
+	
+	
+	
+<testcase id="dev35:TeacherOrder_StudentTeacherClubs_Label_OrderHistory">
+		<userid>4351425</userid>
+		<password>passw0rd</password>
+		<sname1>Manu</sname1>
+		<sname2>Rocky</sname2>
+		<sname3>Johnson</sname3>
+		<qty1>4</qty1>
+		<qty2>1</qty2>
+		<qty3>7</qty3>
+		<default>yes</default>
+		<numberofstudents>1</numberofstudents>
+	<noofstudents>5</noofstudents>
+	</testcase>
+	
+	
+	
+<!--##################################################################################################################################################    
+##################################################################################################################################################    
+###########################################   							             #############################################################   
+###########################################    STORY - 3342 CONFIRMATION PAGE UI     #############################################################
+###########################################   							             #############################################################        
+##################################################################################################################################################        
+##################################################################################################################################################-->
+	
+	
+	
+	
+	<testcase id="dev35:Sprint11.2:OrderConfirmationPage_UI">
+		<userid>4473261</userid>
+		<password>passw0rd</password>
+		<sname1>Manu</sname1>
+		<sname2>Rocky</sname2>
+		<sname3>Johnson</sname3>
+		<qty1>4</qty1>
+		<qty2>1</qty2>
+		<qty3>7</qty3>
+		<default>yes</default>
+		<numberofstudents>1</numberofstudents>
+	<noofstudents>5</noofstudents>
+	</testcase>
+	
+	
+	<testcase id="dev35:Sprint11.2:OrderConfirmationPage_HomeIcon">
+		<userid>4500296</userid>
+		<password>passw0rd</password>
+		<sname1>Manu</sname1>
+		<sname2>Rocky</sname2>
+		<sname3>Johnson</sname3>
+		<qty1>4</qty1>
+		<qty2>1</qty2>
+		<qty3>7</qty3>
+		<default>yes</default>
+		<numberofstudents>1</numberofstudents>
+	<noofstudents>5</noofstudents>
+	</testcase>
+	
+	
+
+
+<!--##################################################################################################################################################    
+##################################################################################################################################################    
+###########################################   							             #############################################################   
+###########################################    STORY - 3701 REWARDS SECTION MESSAGE  #############################################################
+###########################################   							             #############################################################        
+##################################################################################################################################################        
+##################################################################################################################################################-->
+
+
+	
+<testcase id="dev35:Sprint11.2:RewardsSection_Message_Checkout">
+		<userid>4551679</userid>
+		<password>passw0rd</password>
+		<sname1>Manu</sname1>
+		<sname2>Rocky</sname2>
+		<sname3>Johnson</sname3>
+		<qty1>4</qty1>
+		<qty2>1</qty2>
+		<qty3>7</qty3>
+		<default>yes</default>
+		<numberofstudents>1</numberofstudents>
+	<noofstudents>5</noofstudents>
+	</testcase>
+	
+	
+		
+<testcase id="dev35:Sprint11.2:RewardsSection_Message_OrderHistory">
+		<userid>4567775</userid>
+		<password>passw0rd</password>
+		<sname1>Manu</sname1>
+		<sname2>Rocky</sname2>
+		<sname3>Johnson</sname3>
+		<qty1>4</qty1>
+		<qty2>1</qty2>
+		<qty3>7</qty3>
+		<default>yes</default>
+		<numberofstudents>1</numberofstudents>
+	<noofstudents>5</noofstudents>
+	</testcase>
+##################################################################################################################################################    
+##################################################################################################################################################    
+###########################################   							             #############################################################   
+###########################################    STORY - 3919 SEARCH RESULTS           #############################################################
+###########################################   							             #############################################################        
+##################################################################################################################################################        
+##################################################################################################################################################
+
+<testcase id="dev35:Search_NoResult" description="No Search Result">
+		<userid>338302</userid>
+		<password>passw0rd</password>
+		<removeCartFlag>true</removeCartFlag>
+		<nitemName>satts</nitemName>
+
+
+	</testcase>
+
+
+
+	<testcase id="dev35:Search_NoResult_fromSearchResultPage"		description="No Search Result">
+		<userid>305658</userid>
+		<password>passw0rd</password>
+		<itemName>books</itemName>
+		<removeCartFlag>true</removeCartFlag>
+		<prodcount>15</prodcount>
+		<nitemName>NSatts</nitemName>
+
+
+	</testcase>
+	
+	
+	<testcase id="dev35:Search_NoResult_AgainSearchPage"		description="No Search Result">
+		<userid>367294</userid>
+		<password>passw0rd</password>
+		<itemName>books</itemName>
+		<removeCartFlag>true</removeCartFlag>
+		<prodcount>15</prodcount>
+		<nitemName>NSatts</nitemName>
+
+	</testcase>
+	
+	
+	
+	
+	
+<!-- ##################################################################################################################################################    
+##################################################################################################################################################    
+###########################################   							             #############################################################   
+###########################################    STORY - 2858 TOOL TIP LOGIN PAGE      #############################################################
+###########################################   							             #############################################################        
+##################################################################################################################################################        
+##################################################################################################################################################	
+	 -->
+	
+	
+	<testcase id="dev35:TeacherLogin_Passwordblank_Error">
+	<url>https://dev35-rco-scholastic.demandware.net/s/rco-ca</url>
+	<userid>4267656</userid>
+</testcase>
+
+
+ 
+
+	<testcase id="dev35:TeacherLogin_UserNameblank_Error">
+	<url>https://dev35-rco-scholastic.demandware.net/s/rco-ca/en/home</url>
+	<password>passw0rd</password>
+</testcase>	
+
+
+
+
+<testcase id="dev35:TeacherLogin_InvalidCredentials_UserNameBlank">
+	<url>https://dev35-rco-scholastic.demandware.net/s/rco-ca/en/home</url>
+	<incorrect_userid>44243443</incorrect_userid>
+	<incorrect_password>passw0rd</incorrect_password>
+</testcase>	
+
+
+	 <!--  ##################################################################################################################################################    
+	##################################################################################################################################################    
+	###########################################   							             #############################################################   
+	###########################################   		    STORY 1880 Activation flow   #############################################################
+	###########################################   							             #############################################################        
+	##################################################################################################################################################        
+	################################################################################################################################################## -->
+	
+	<testcase id="dev35:validaccountNumber" description="Acct Activation Valid A/c ">
+		<!-- <teacherAccId>270059</teacherAccId> -->
+		<teacherAccId>448987</teacherAccId>
+		<teacherAccEmail>qacool2016@gmail.com</teacherAccEmail>
+	</testcase>
+	
+	<testcase id="dev35:invalidaccountNumber" description="Acct Activation In-Valid A/c ">
+		<teacherAccId>2700</teacherAccId>
+		<teacherAccEmail>qacool2016@gmail.com</teacherAccEmail>
+	</testcase>
+	
+	<testcase id="dev35:invalidNonNumericAccNumber" description="NonNumeric Activation In-Valid A/c ">
+		<teacherAccId>Apple</teacherAccId>
+	</testcase>
+
+<!--  ##################################################################################################################################################    
+	##################################################################################################################################################    
+	###########################################   							             #############################################################   
+	###########################################   		    STORY 2856 -My Saved Cart    #############################################################
+	###########################################   							             #############################################################        
+	##################################################################################################################################################        
+	################################################################################################################################################## -->	
+	
+	
+	
+	<testcase id="dev35:MySavedCart" description="this test data is use for validate free ship">
+	<userid>492413</userid>
+		<password>passw0rd</password>
+		<itemprice>4.00</itemprice>
+		<itemprice_limit>12.00</itemprice_limit>
+		<studentname>Margit</studentname>
+		<itemQty>2</itemQty>
+		<updated_itemQty>5</updated_itemQty>
+		<less_itemQty>1</less_itemQty>
+		<addAccountInfo>true</addAccountInfo>
+		<numberofstudents>2</numberofstudents>
+		<bonusbank>10</bonusbank>
+		<paperbonuscoupon>10</paperbonuscoupon>
+		<module>teacher</module>
+		<removeCartFlag>true</removeCartFlag>
+		<shippingCharge>FREE</shippingCharge>
+		<cartName>SaveCart</cartName>
+		<tdm>
+			<type>teacher_with_single_parent</type>
+			<isReserved>true</isReserved>
+			<isBcoeIdRequired>true</isBcoeIdRequired>
+			<converttotype>teacher_any</converttotype>
+		</tdm>
+		<torquetdm>
+			<type>teacher_with_single_parent</type>
+			<usertype>teacher</usertype>
+		</torquetdm>
+	</testcase>
+
+
+</testdata>	
