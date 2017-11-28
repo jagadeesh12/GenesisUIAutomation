@@ -1,129 +1,108 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" total="1" passed="0">
+<testng-results skipped="0" failed="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Demandware_CA" duration-ms="85062" started-at="2017-11-27T14:50:17Z" finished-at="2017-11-27T14:51:42Z">
+  <suite name="Automation" duration-ms="14717" started-at="2017-11-28T10:16:06Z" finished-at="2017-11-28T10:16:21Z">
     <groups>
-      <group name="DW">
-        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.scholastic.torque.runner.Run@8bd1b6a]" name="feature" class="com.scholastic.torque.testng.AbstractTestNGCucumberTests"/>
-      </group> <!-- DW -->
     </groups>
-    <test name="Validate mpn Api" duration-ms="85062" started-at="2017-11-27T14:50:17Z" finished-at="2017-11-27T14:51:42Z">
-      <class name="com.scholastic.torque.runner.Run">
-        <test-method status="PASS" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.scholastic.torque.runner.Run@8bd1b6a]" name="setUpClass" is-config="true" duration-ms="4011" started-at="2017-11-27T20:20:17Z" finished-at="2017-11-27T20:20:21Z">
+    <test name="Use Case 1a:Validate mpn" duration-ms="10720" started-at="2017-11-28T10:16:06Z" finished-at="2017-11-28T10:16:17Z">
+      <class name="com.dw.api.automation.steps.ValidateMpnTest">
+        <test-method status="PASS" signature="initateExtentManager()[pri:0, instance:com.dw.api.automation.steps.ValidateMpnTest@c038203]" name="initateExtentManager" is-config="true" duration-ms="344" started-at="2017-11-28T15:46:06Z" finished-at="2017-11-28T15:46:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initateExtentManager -->
+        <test-method status="PASS" signature="login_to_application()[pri:1, instance:com.dw.api.automation.steps.ValidateMpnTest@c038203]" name="login_to_application" duration-ms="4736" started-at="2017-11-28T15:46:07Z" finished-at="2017-11-28T15:46:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_to_application -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.dw.api.automation.steps.ValidateMpnTest@c038203]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-11-28T15:46:11Z" finished-at="2017-11-28T15:46:11Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@685cb137]]>
+                <![CDATA[[TestResult name=login_to_application status=SUCCESS method=ValidateMpnTest.login_to_application()[pri:1, instance:com.dw.api.automation.steps.ValidateMpnTest@c038203] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUpClass -->
-        <test-method status="FAIL" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.scholastic.torque.runner.Run@8bd1b6a]" name="feature" duration-ms="80786" started-at="2017-11-27T20:20:21Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2017-11-27T20:21:42Z">
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="enter_mpn_id()[pri:2, instance:com.dw.api.automation.steps.ValidateMpnTest@c038203]" name="enter_mpn_id" duration-ms="5211" started-at="2017-11-28T15:46:11Z" finished-at="2017-11-28T15:46:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enter_mpn_id -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.dw.api.automation.steps.ValidateMpnTest@c038203]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-11-28T15:46:17Z" finished-at="2017-11-28T15:46:17Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Validate MPN id]]>
+                <![CDATA[[TestResult name=enter_mpn_id status=SUCCESS method=ValidateMpnTest.enter_mpn_id()[pri:2, instance:com.dw.api.automation.steps.ValidateMpnTest@c038203] output={null}]]]>
               </value>
             </param>
           </params>
-          <exception class="cucumber.runtime.CucumberException">
-            <message>
-              <![CDATA[java.lang.RuntimeException: Unable to create local driver]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[cucumber.runtime.CucumberException: java.lang.RuntimeException: Unable to create local driver
-	at com.scholastic.torque.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:128)
-	at com.scholastic.torque.testng.AbstractTestNGCucumberTests.feature(AbstractTestNGCucumberTests.java:30)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
-	at org.testng.TestRunner.privateRun(TestRunner.java:774)
-	at org.testng.TestRunner.run(TestRunner.java:624)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
-	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:393)
-	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
-	at java.util.concurrent.FutureTask.run(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
-	at java.lang.Thread.run(Unknown Source)
-Caused by: java.lang.RuntimeException: Unable to create local driver
-	at com.scholastic.torque.common.TestBase.initDriver(TestBase.java:163)
-	at com.scholastic.torque.common.TestBase.getDriver(TestBase.java:83)
-	at com.dw.automation.steps.Hooks.afterHook(Hooks.java:129)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at cucumber.runtime.Utils$1.call(Utils.java:37)
-	at cucumber.runtime.Timeout.timeout(Timeout.java:13)
-	at cucumber.runtime.Utils.invoke(Utils.java:31)
-	at cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)
-	at cucumber.runtime.Runtime.runHookIfTagsMatch(Runtime.java:223)
-	at cucumber.runtime.Runtime.runHooks(Runtime.java:211)
-	at cucumber.runtime.Runtime.runAfterHooks(Runtime.java:205)
-	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:46)
-	at cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:165)
-	at com.scholastic.torque.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:124)
-	... 21 more
-Caused by: org.openqa.selenium.WebDriverException: Unalbe to create webdriver
-	at com.scholastic.torque.common.TestBase$WEBDRIVER.getDriver(TestBase.java:483)
-	at com.scholastic.torque.common.TestBase.initDriver(TestBase.java:158)
-	... 37 more
-Caused by: org.openqa.selenium.WebDriverException: Timed out waiting for driver server to start.
-Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
-System info: host: 'RLE0517', ip: '192.168.152.171', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_144'
-Driver info: driver.version: ChromeDriver
-	at org.openqa.selenium.remote.service.DriverService.waitUntilAvailable(DriverService.java:193)
-	at org.openqa.selenium.remote.service.DriverService.start(DriverService.java:181)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:78)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:250)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:236)
-	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:137)
-	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:184)
-	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:171)
-	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:124)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at java.lang.Class.newInstance(Unknown Source)
-	at com.scholastic.torque.common.TestBase$WEBDRIVER.getDriver(TestBase.java:481)
-	... 38 more
-Caused by: org.openqa.selenium.net.UrlChecker$TimeoutException: Timed out waiting for [http://localhost:43437/status] to be available after 20010 ms
-	at org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:107)
-	at org.openqa.selenium.remote.service.DriverService.waitUntilAvailable(DriverService.java:190)
-	... 53 more
-Caused by: com.google.common.util.concurrent.UncheckedTimeoutException: java.util.concurrent.TimeoutException
-	at com.google.common.util.concurrent.SimpleTimeLimiter.callWithTimeout(SimpleTimeLimiter.java:140)
-	at org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:80)
-	... 54 more
-Caused by: java.util.concurrent.TimeoutException
-	at java.util.concurrent.FutureTask.get(Unknown Source)
-	at com.google.common.util.concurrent.SimpleTimeLimiter.callWithTimeout(SimpleTimeLimiter.java:128)
-	... 55 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- cucumber.runtime.CucumberException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- feature -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.scholastic.torque.runner.Run@8bd1b6a]" name="tearDownClass" is-config="true" duration-ms="172" started-at="2017-11-27T20:21:42Z" finished-at="2017-11-27T20:21:42Z">
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.dw.api.automation.steps.ValidateMpnTest@c038203]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-11-28T15:46:17Z" finished-at="2017-11-28T15:46:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=mpn_id_is_validated status=SUCCESS method=ValidateMpnTest.mpn_id_is_validated()[pri:3, instance:com.dw.api.automation.steps.ValidateMpnTest@c038203] output={null}]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDownClass -->
-      </class> <!-- com.scholastic.torque.runner.Run -->
-    </test> <!-- Validate mpn Api -->
-  </suite> <!-- Demandware_CA -->
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="mpn_id_is_validated()[pri:3, instance:com.dw.api.automation.steps.ValidateMpnTest@c038203]" name="mpn_id_is_validated" duration-ms="0" started-at="2017-11-28T15:46:17Z" finished-at="2017-11-28T15:46:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mpn_id_is_validated -->
+        <test-method status="PASS" signature="tear()[pri:0, instance:com.dw.api.automation.steps.ValidateMpnTest@c038203]" name="tear" is-config="true" duration-ms="429" started-at="2017-11-28T15:46:17Z" finished-at="2017-11-28T15:46:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tear -->
+      </class> <!-- com.dw.api.automation.steps.ValidateMpnTest -->
+    </test> <!-- Use Case 1a:Validate mpn -->
+    <test name="second scenario" duration-ms="3981" started-at="2017-11-28T10:16:17Z" finished-at="2017-11-28T10:16:21Z">
+      <class name="com.dw.api.automation.steps.ExistingOrgApiTest">
+        <test-method status="PASS" signature="initateExtentManager()[pri:0, instance:com.dw.api.automation.steps.ExistingOrgApiTest@3532ec19]" name="initateExtentManager" is-config="true" duration-ms="0" started-at="2017-11-28T15:46:17Z" finished-at="2017-11-28T15:46:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initateExtentManager -->
+        <test-method status="PASS" signature="login_to_application()[pri:1, instance:com.dw.api.automation.steps.ExistingOrgApiTest@3532ec19]" name="login_to_application" duration-ms="3136" started-at="2017-11-28T15:46:17Z" finished-at="2017-11-28T15:46:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_to_application -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.dw.api.automation.steps.ExistingOrgApiTest@3532ec19]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-11-28T15:46:20Z" finished-at="2017-11-28T15:46:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=login_to_application status=SUCCESS method=ExistingOrgApiTest.login_to_application()[pri:1, instance:com.dw.api.automation.steps.ExistingOrgApiTest@3532ec19] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="validateExistingCustomer()[pri:3, instance:com.dw.api.automation.steps.ExistingOrgApiTest@3532ec19]" name="validateExistingCustomer" duration-ms="751" started-at="2017-11-28T15:46:20Z" finished-at="2017-11-28T15:46:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateExistingCustomer -->
+        <test-method status="PASS" signature="tear()[pri:0, instance:com.dw.api.automation.steps.ExistingOrgApiTest@3532ec19]" name="tear" is-config="true" duration-ms="94" started-at="2017-11-28T15:46:21Z" finished-at="2017-11-28T15:46:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tear -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.dw.api.automation.steps.ExistingOrgApiTest@3532ec19]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-11-28T15:46:21Z" finished-at="2017-11-28T15:46:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateExistingCustomer status=SUCCESS method=ExistingOrgApiTest.validateExistingCustomer()[pri:3, instance:com.dw.api.automation.steps.ExistingOrgApiTest@3532ec19] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.dw.api.automation.steps.ExistingOrgApiTest -->
+    </test> <!-- second scenario -->
+  </suite> <!-- Automation -->
 </testng-results>

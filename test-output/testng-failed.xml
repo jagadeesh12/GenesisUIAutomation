@@ -3,6 +3,13 @@
 <suite name="Failed suite [Automation]">
   <test name="Use Case 1a:Validate mpn(failed)">
     <classes>
+      <class name="com.dw.api.automation.steps.ExistingOrginsationApiTest">
+        <methods>
+          <include name="tear"/>
+          <include name="afterMethod"/>
+          <include name="initateExtentManager"/>
+        </methods>
+      </class> <!-- com.dw.api.automation.steps.ExistingOrginsationApiTest -->
       <class name="com.dw.api.automation.steps.ValidateMpnTest">
         <methods>
           <include name="tear"/>

@@ -13,15 +13,15 @@ import com.sun.jersey.api.client.WebResource;
 import com.sun.jersey.multipart.FormDataMultiPart;
 
 public class Post {
-	 public  void getPostByJersey(String posturl,String postparm,NewCookie newCookie){
-	    	
+	 public  ClientResponse getPostByJersey(String posturl,String postparm,NewCookie newCookie){
+		 ClientResponse response = null;
 	    	  	   	
 	    	
 	            try {
 	                Client client = Client.create();
 	                WebResource webResource = client
 	                   .resource(posturl);
-	                ClientResponse response = webResource.type("application/json")
+	                 response = webResource.type("application/json")
 	                           .post(ClientResponse.class,postparm);
 	              //  hMap = response.getHeaders();
 	               
@@ -76,6 +76,7 @@ public class Post {
 	                System.out.println(e.getMessage());
 	                
 	              }
+				return response;
 	            
 	              
 	    

@@ -1,19 +1,24 @@
 <suite name="Automation" verbose="1">
 
- <test	name="Use Case 1a:Validate mpn">
-      	<classes>
-			
-	  	  	
-	  	  	<class name="com.dw.api.automation.steps.ValidateMpnTest" />
-	  	  	
+	<test name="Use Case 1a:Validate mpn">
+		<classes>
+			<class name="com.dw.api.automation.steps.ValidateMpnTest" />
 			<methods>
-				<include name="login_to_application" />     
-				<include name="enter_mpn_id" />  
-				<include name="mpn_id_is_validated" /> 
-				 
-				          
+				<include name="login_to_application"/>
+				<include name="enter_mpn_id" />
+				<include name="mpn_id_is_validated"/>
 			</methods>
 		</classes>
-	</test> 
+</test>
+
+<test name="second scenario">
+<classes>
+			<class name="com.dw.api.automation.steps.ExistingOrgApiTest" />
+			<methods>
+				<include name="login_to_application"/>
+				<include name="validateExistingCustomer"/>
+			</methods>
+		</classes>
+	</test>
 
 </suite> 

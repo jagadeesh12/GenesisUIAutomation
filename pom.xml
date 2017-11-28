@@ -2,13 +2,13 @@
 
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>com.old.automation</groupId>
-	<artifactId>old</artifactId>
+	<groupId>com.api.redginton</groupId>
+	<artifactId>redginton</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>Demandware RCO</name>
+	<name>Redginton API Testing</name>
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<testNG.suiteXmlFile>config/localRun.xml</testNG.suiteXmlFile>
+		<testNG.suiteXmlFile>testng.xml</testNG.suiteXmlFile>
         <!-- <testNG.suiteXmlFile>config/${suite}</testNG.suiteXmlFile> -->
         <!--  <testNG.suiteXmlFile>config/localRun3.xml</testNG.suiteXmlFile> -->
         <org.apache.maven.plugins.maven-compiler-plugin.version>3.1
@@ -109,7 +109,7 @@
 				<groupId>org.codehaus.mojo</groupId>
 				<artifactId>exec-maven-plugin</artifactId>
 				<version>${org.codehaus.mojo.exec-maven-plugin.version}</version>
-				<executions>
+			<!--	<executions>
 
 					<execution>
 						<id>merge-cucumber-json-reports</id>
@@ -125,7 +125,7 @@
 							</arguments>
 						</configuration>
 					</execution>
-					<!-- <execution>
+					 <execution>
 						<id>update-dashboard-with-execution-results</id>
 						<phase>post-integration-test</phase>
 						<goals>
@@ -135,14 +135,15 @@
 							<classpathScope>test</classpathScope>
 							<mainClass>com.scholastic.cucumber.uploadResults.DashBoardReport</mainClass>
 						</configuration>
-					</execution> -->
-				</executions>
+					</execution> 
+				</executions>-->
+				
 			</plugin>
 			<plugin>
 				<groupId>net.masterthought</groupId>
 				<artifactId>maven-cucumber-reporting</artifactId>
 				<version>0.0.5</version>
-				<executions>
+				<!--<executions>
 					<execution>
 						<id>execution</id>
 						<phase>verify</phase>
@@ -158,7 +159,7 @@
 							<testFailureIgnore>true</testFailureIgnore>
 						</configuration>
 					</execution>
-				</executions>
+				</executions>-->
 			</plugin>
 		</plugins>
 	</build>
