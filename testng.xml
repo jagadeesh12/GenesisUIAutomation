@@ -1,6 +1,6 @@
 <suite name="Automation" verbose="1">
 
- <test	name="Use Case 1a: Login to  Mercury Tours page">
+ <test	name="Use Case 1a:Validate mpn">
       	<classes>
 			
 	  	  	

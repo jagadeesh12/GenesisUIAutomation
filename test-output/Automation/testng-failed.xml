@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Automation]">
+  <test name="Use Case 1a:Validate mpn(failed)">
+    <classes>
+      <class name="com.dw.api.automation.steps.ValidateMpnTest">
+        <methods>
+          <include name="tear"/>
+          <include name="enter_mpn_id"/>
+          <include name="initateExtentManager"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.dw.api.automation.steps.ValidateMpnTest -->
+    </classes>
+  </test> <!-- Use Case 1a:Validate mpn(failed) -->
+</suite> <!-- Failed suite [Automation] -->

@@ -15,14 +15,15 @@ public class Get {
 
 	//Get Api Request with json response
 	
-	 public void getRestServiceMethod(String geturl, NewCookie newCookie){
-         try {
+	 public ClientResponse getRestServiceMethod(String geturl, NewCookie newCookie){
+		 ClientResponse response = null;
+		 try {
          	
          	
              Client client = Client.create();
              WebResource webResource = client
                 .resource(geturl);
-                          ClientResponse response = webResource.accept("application/json")
+                          response = webResource.accept("application/json")
                      .type("application/json")
                      .header("Content-Type", "application/json;charset=UTF-8")
                      .cookie(newCookie)
@@ -43,7 +44,7 @@ public class Get {
            } catch (Exception e) {
              System.out.println("Exception at get jersey " +e.getMessage());;
            }
-                  
+                  return response;
          
          
          }

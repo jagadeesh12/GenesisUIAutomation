@@ -16,6 +16,9 @@ import com.dw.api.automation.libs.LoginPost;
 import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
 import com.relevantcodes.extentreports.LogStatus;
+import com.sun.jersey.api.client.ClientResponse;
+
+import junit.framework.Assert;
 
 
 
@@ -24,13 +27,14 @@ import com.relevantcodes.extentreports.LogStatus;
 
 
 public class ValidateMpnTest {
-	NewCookie cook=null;
+	//NewCookie cook=null;
+	 static NewCookie cook;
 	LoginPost lgoin=new LoginPost();
 	Get get=new Get();
 	ExtentReports extent;
 	static ExtentTest test;
 	WebDriver driver=null;
-	
+	ClientResponse response = null;
 	@BeforeClass
 	public void initateExtentManager()
 	{
@@ -52,17 +56,23 @@ public class ValidateMpnTest {
 	
 	String posturl="https://test.redington.market/api/v1/auth/signIn";
 	String postparm="{\"username\":\"pm6.qa@mailinator.com\",\"password\":\"Pass@123\"}";
-	NewCookie cook=lgoin.loginGetPostByJersey(posturl, postparm);
-	//System.out.println("Cookie as Token paramter="+cook);
+	 cook=lgoin.loginGetPostByJersey(posturl, postparm);
+	System.out.println("Cookie as Token paramter="+cook);
 	test.log(LogStatus.INFO, "Login to Application");
 	test.log(LogStatus.INFO, "Cookie"+cook);
+	logPassStatus("login to Application");
     }
 
 	@Test(priority = 2)
     public void enter_mpn_id() {
     
-    	String posturl3="https://test.redington.market/api/v1/partnerEntity/verifyMPN/99145";
-    	get.getRestServiceMethod(posturl3, cook);
+    	String posturl3="https://test.redington.market/api/v1/partnerEntity/verifyMPN/991450";
+       System.out.println("cookie"+cook);
+       //cook=cook1;
+    	response=get.getRestServiceMethod(posturl3, cook);
+    	response.getStatus();
+    	Assert.assertEquals(200, 201);
+    	logPassStatus("Validate MPN id");
     	test.log(LogStatus.INFO, "Validate MPN id");
     }
 
