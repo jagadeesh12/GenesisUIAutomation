@@ -70,9 +70,9 @@ public class ValidateMpnTest {
        System.out.println("cookie"+cook);
        //cook=cook1;
     	response=get.getRestServiceMethod(posturl3, cook);
-    	response.getStatus();
+    	;
     	Assert.assertEquals(200, 200);
-    	logPassStatus("Validate MPN id");
+    	logPassStatus("Validate MPN id"+"<br/>rep"+response.getStatus());
     	test.log(LogStatus.INFO, "Validate MPN id");
     }
 
