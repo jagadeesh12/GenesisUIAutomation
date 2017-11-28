@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Automation" duration-ms="24010" started-at="2017-11-28T11:21:25Z" finished-at="2017-11-28T11:21:49Z">
+  <suite name="Automation" duration-ms="17250" started-at="2017-11-28T12:20:39Z" finished-at="2017-11-28T12:20:57Z">
     <groups>
     </groups>
-    <test name="Use Case 1a:Validate mpn" duration-ms="19425" started-at="2017-11-28T11:21:25Z" finished-at="2017-11-28T11:21:44Z">
+    <test name="Use Case 1a:Validate mpn" duration-ms="12756" started-at="2017-11-28T12:20:39Z" finished-at="2017-11-28T12:20:52Z">
       <class name="com.dw.api.automation.steps.ValidateMpnTest">
-        <test-method status="PASS" signature="initateExtentManager()[pri:0, instance:com.dw.api.automation.steps.ValidateMpnTest@c038203]" name="initateExtentManager" is-config="true" duration-ms="311" started-at="2017-11-28T16:51:25Z" finished-at="2017-11-28T16:51:25Z">
+        <test-method status="PASS" signature="initateExtentManager()[pri:0, instance:com.dw.api.automation.steps.ValidateMpnTest@c038203]" name="initateExtentManager" is-config="true" duration-ms="504" started-at="2017-11-28T17:50:39Z" finished-at="2017-11-28T17:50:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initateExtentManager -->
-        <test-method status="PASS" signature="login_to_application()[pri:1, instance:com.dw.api.automation.steps.ValidateMpnTest@c038203]" name="login_to_application" duration-ms="5301" started-at="2017-11-28T16:51:25Z" finished-at="2017-11-28T16:51:30Z">
+        <test-method status="PASS" signature="login_to_application()[pri:1, instance:com.dw.api.automation.steps.ValidateMpnTest@c038203]" name="login_to_application" duration-ms="4929" started-at="2017-11-28T17:50:40Z" finished-at="2017-11-28T17:50:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login_to_application -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.dw.api.automation.steps.ValidateMpnTest@c038203]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-11-28T16:51:30Z" finished-at="2017-11-28T16:51:30Z">
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.dw.api.automation.steps.ValidateMpnTest@c038203]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-11-28T17:50:45Z" finished-at="2017-11-28T17:50:45Z">
           <params>
             <param index="0">
               <value>
@@ -26,22 +26,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="enter_mpn_id()[pri:2, instance:com.dw.api.automation.steps.ValidateMpnTest@c038203]" name="enter_mpn_id" duration-ms="13493" started-at="2017-11-28T16:51:30Z" finished-at="2017-11-28T16:51:44Z">
+        <test-method status="PASS" signature="enter_mpn_id()[pri:2, instance:com.dw.api.automation.steps.ValidateMpnTest@c038203]" name="enter_mpn_id" duration-ms="6880" started-at="2017-11-28T17:50:45Z" finished-at="2017-11-28T17:50:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- enter_mpn_id -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.dw.api.automation.steps.ValidateMpnTest@c038203]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-11-28T16:51:44Z" finished-at="2017-11-28T16:51:44Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=enter_mpn_id status=SUCCESS method=ValidateMpnTest.enter_mpn_id()[pri:2, instance:com.dw.api.automation.steps.ValidateMpnTest@c038203] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.dw.api.automation.steps.ValidateMpnTest@c038203]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-11-28T16:51:44Z" finished-at="2017-11-28T16:51:44Z">
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.dw.api.automation.steps.ValidateMpnTest@c038203]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-11-28T17:50:52Z" finished-at="2017-11-28T17:50:52Z">
           <params>
             <param index="0">
               <value>
@@ -52,27 +41,42 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="mpn_id_is_validated()[pri:3, instance:com.dw.api.automation.steps.ValidateMpnTest@c038203]" name="mpn_id_is_validated" duration-ms="0" started-at="2017-11-28T16:51:44Z" finished-at="2017-11-28T16:51:44Z">
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.dw.api.automation.steps.ValidateMpnTest@c038203]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-11-28T17:50:52Z" finished-at="2017-11-28T17:50:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=enter_mpn_id status=SUCCESS method=ValidateMpnTest.enter_mpn_id()[pri:2, instance:com.dw.api.automation.steps.ValidateMpnTest@c038203] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="mpn_id_is_validated()[pri:3, instance:com.dw.api.automation.steps.ValidateMpnTest@c038203]" name="mpn_id_is_validated" duration-ms="0" started-at="2017-11-28T17:50:52Z" finished-at="2017-11-28T17:50:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- mpn_id_is_validated -->
-        <test-method status="PASS" signature="tear()[pri:0, instance:com.dw.api.automation.steps.ValidateMpnTest@c038203]" name="tear" is-config="true" duration-ms="305" started-at="2017-11-28T16:51:44Z" finished-at="2017-11-28T16:51:44Z">
+        <test-method status="PASS" signature="tear()[pri:0, instance:com.dw.api.automation.steps.ValidateMpnTest@c038203]" name="tear" is-config="true" duration-ms="426" started-at="2017-11-28T17:50:52Z" finished-at="2017-11-28T17:50:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tear -->
       </class> <!-- com.dw.api.automation.steps.ValidateMpnTest -->
     </test> <!-- Use Case 1a:Validate mpn -->
-    <test name="second scenario" duration-ms="4570" started-at="2017-11-28T11:21:44Z" finished-at="2017-11-28T11:21:49Z">
+    <test name="second scenario" duration-ms="4478" started-at="2017-11-28T12:20:52Z" finished-at="2017-11-28T12:20:57Z">
       <class name="com.dw.api.automation.steps.ExistingOrgApiTest">
-        <test-method status="PASS" signature="initateExtentManager()[pri:0, instance:com.dw.api.automation.steps.ExistingOrgApiTest@3532ec19]" name="initateExtentManager" is-config="true" duration-ms="0" started-at="2017-11-28T16:51:44Z" finished-at="2017-11-28T16:51:44Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initateExtentManager -->
-        <test-method status="PASS" signature="login_to_application()[pri:1, instance:com.dw.api.automation.steps.ExistingOrgApiTest@3532ec19]" name="login_to_application" duration-ms="3199" started-at="2017-11-28T16:51:44Z" finished-at="2017-11-28T16:51:47Z">
+        <test-method status="PASS" signature="login_to_application()[pri:1, instance:com.dw.api.automation.steps.ExistingOrgApiTest@3532ec19]" name="login_to_application" duration-ms="3243" started-at="2017-11-28T17:50:52Z" finished-at="2017-11-28T17:50:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login_to_application -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.dw.api.automation.steps.ExistingOrgApiTest@3532ec19]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-11-28T16:51:47Z" finished-at="2017-11-28T16:51:47Z">
+        <test-method status="PASS" signature="initateExtentManager()[pri:0, instance:com.dw.api.automation.steps.ExistingOrgApiTest@3532ec19]" name="initateExtentManager" is-config="true" duration-ms="0" started-at="2017-11-28T17:50:52Z" finished-at="2017-11-28T17:50:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initateExtentManager -->
+        <test-method status="PASS" signature="validateExistingCustomer()[pri:3, instance:com.dw.api.automation.steps.ExistingOrgApiTest@3532ec19]" name="validateExistingCustomer" duration-ms="1118" started-at="2017-11-28T17:50:55Z" finished-at="2017-11-28T17:50:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateExistingCustomer -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.dw.api.automation.steps.ExistingOrgApiTest@3532ec19]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-11-28T17:50:55Z" finished-at="2017-11-28T17:50:55Z">
           <params>
             <param index="0">
               <value>
@@ -83,11 +87,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="validateExistingCustomer()[pri:3, instance:com.dw.api.automation.steps.ExistingOrgApiTest@3532ec19]" name="validateExistingCustomer" duration-ms="1307" started-at="2017-11-28T16:51:47Z" finished-at="2017-11-28T16:51:49Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateExistingCustomer -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.dw.api.automation.steps.ExistingOrgApiTest@3532ec19]" name="afterMethod" is-config="true" duration-ms="1" started-at="2017-11-28T16:51:49Z" finished-at="2017-11-28T16:51:49Z">
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.dw.api.automation.steps.ExistingOrgApiTest@3532ec19]" name="afterMethod" is-config="true" duration-ms="1" started-at="2017-11-28T17:50:57Z" finished-at="2017-11-28T17:50:57Z">
           <params>
             <param index="0">
               <value>
@@ -98,7 +98,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="tear()[pri:0, instance:com.dw.api.automation.steps.ExistingOrgApiTest@3532ec19]" name="tear" is-config="true" duration-ms="62" started-at="2017-11-28T16:51:49Z" finished-at="2017-11-28T16:51:49Z">
+        <test-method status="PASS" signature="tear()[pri:0, instance:com.dw.api.automation.steps.ExistingOrgApiTest@3532ec19]" name="tear" is-config="true" duration-ms="110" started-at="2017-11-28T17:50:57Z" finished-at="2017-11-28T17:50:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tear -->

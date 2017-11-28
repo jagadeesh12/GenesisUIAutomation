@@ -51,7 +51,8 @@ public class ExtentManager {
 			"dd-MMM-yyyy hh-mm-ss");
 	static String reportPat = System.getProperty("user.dir")
 			+ "/test-output/Reports";
-	static String snapShotPath = reportPat + "/Automation-Report";
+	//static String snapShotPath = reportPat + "/Automation-Report";
+	static String snapShotPath = reportPat ;
 	static String testdatafilepath = "src\\test\\resources\\ConfigSheet.xlsx";
 	static String configSheet = "Configuration";
 
