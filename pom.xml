@@ -5,7 +5,7 @@
 	<groupId>com.api.redginton</groupId>
 	<artifactId>redginton</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>Redginton API Testing</name>
+	<name>RedgintonAPITesting</name>
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<testNG.suiteXmlFile>testng.xml</testNG.suiteXmlFile>
