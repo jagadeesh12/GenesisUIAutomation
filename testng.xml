@@ -1,22 +1,38 @@
 <suite name="Automation" verbose="1">
 
+<test name="Add New Partner Organisation">
+		<classes>
+			<class name="com.dw.api.automation.steps.AddNewPartnerOrganisationTest" />
+			<methods>
+				<include name="login_to_application"/>
+				<include name="enter_mpn_id" />
+				<include name="addNewPartnerOrganisation"/>
+			</methods>
+		</classes>
+</test>
+
+
+
+
+
 	<test name="Use Case 1a:Validate mpn">
 		<classes>
 			<class name="com.dw.api.automation.steps.ValidateMpnTest" />
 			<methods>
 				<include name="login_to_application"/>
 				<include name="enter_mpn_id" />
-				<include name="mpn_id_is_validated"/>
-			</methods>
+				</methods>
 		</classes>
 </test>
 
-<test name="second scenario">
+<test name="validate Existing Custome">
 <classes>
 			<class name="com.dw.api.automation.steps.ExistingOrgApiTest" />
 			<methods>
 				<include name="login_to_application"/>
 				<include name="validateExistingCustomer"/>
+				<include name="validateExistingCustomerWithWrongOrganisationName"/>
+				
 			</methods>
 		</classes>
 	</test>

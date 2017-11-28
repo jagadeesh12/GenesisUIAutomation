@@ -62,7 +62,7 @@ public class ExtentManager {
 			String extentReportPath = snapShotPath + "/Automation-Report "
 					 + ".html";
 			System.out.println(extentReportPath);
-			extent = new ExtentReports(extentReportPath, false,
+			extent = new ExtentReports(extentReportPath, true,
 					DisplayOrder.OLDEST_FIRST);
 			ExtentReportUtilites ext = new ExtentReportUtilites();
 

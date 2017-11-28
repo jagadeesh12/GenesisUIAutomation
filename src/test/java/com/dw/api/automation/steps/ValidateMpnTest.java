@@ -20,20 +20,12 @@ import com.sun.jersey.api.client.ClientResponse;
 
 import junit.framework.Assert;
 
-
-
-
-//ExtentReports extent;
-
-
 public class ValidateMpnTest {
-	//NewCookie cook=null;
 	 static NewCookie cook;
 	LoginPost lgoin=new LoginPost();
 	Get get=new Get();
 	ExtentReports extent;
 	static ExtentTest test;
-	WebDriver driver=null;
 	ClientResponse response = null;
 	@BeforeClass
 	public void initateExtentManager()
@@ -58,9 +50,9 @@ public class ValidateMpnTest {
 	String postparm="{\"username\":\"pm6.qa@mailinator.com\",\"password\":\"Pass@123\"}";
 	 cook=lgoin.loginGetPostByJersey(posturl, postparm);
 	System.out.println("Cookie as Token paramter="+cook);
-	test.log(LogStatus.INFO, "Login to Application");
-	test.log(LogStatus.INFO, "Cookie"+cook);
-	logPassStatus("login to Application");
+	
+	logPassStatus("login to Application with Userid=pm6.qa@mailinator.com Password=Pass@123");
+	
     }
 
 	@Test(priority = 2)
@@ -70,16 +62,13 @@ public class ValidateMpnTest {
        System.out.println("cookie"+cook);
        //cook=cook1;
     	response=get.getRestServiceMethod(posturl3, cook);
-    	;
+    	
     	Assert.assertEquals(200, 200);
     	logPassStatus("Validate MPN id"+"<br/>rep"+response.getStatus());
     	test.log(LogStatus.INFO, "Validate MPN id");
     }
 
-	@Test(priority = 3)
-    public void mpn_id_is_validated()  {
-       System.out.println("Done");
-    }
+	
 	
 	public void logPassStatus(String statusMsg)
 	{

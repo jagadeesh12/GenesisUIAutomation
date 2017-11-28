@@ -13,8 +13,9 @@ import com.sun.jersey.api.client.WebResource;
 import com.sun.jersey.multipart.FormDataMultiPart;
 
 public class Post {
+	ClientResponse response = null;
 	 public  ClientResponse getPostByJersey(String posturl,String postparm,NewCookie newCookie){
-		 ClientResponse response = null;
+		 
 	    	  	   	
 	    	
 	            try {
@@ -86,7 +87,7 @@ public class Post {
 	 
 	 //multivalued post with attachments
 	 
-	 public void postMultiValuedWithAttachments(String postUrl,HashMap<String,InputStream> fileloc,FormDataMultiPart formData,NewCookie newCookie)
+	 public ClientResponse postMultiValuedWithAttachments(String postUrl,HashMap<String,InputStream> fileloc,FormDataMultiPart formData,NewCookie newCookie)
 	 {
 		 try {
              Client client = Client.create();
@@ -150,6 +151,8 @@ public class Post {
   			{
   				System.out.println("done");
   			} }
+		
+		return response;
   			
 	 }
 	 
