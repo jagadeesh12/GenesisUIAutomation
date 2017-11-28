@@ -1,12 +1,66 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="0" passed="0">
+<testng-results skipped="0" failed="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Demandware" duration-ms="0" started-at="2017-08-23T22:22:15Z" finished-at="2017-08-23T22:22:15Z">
+  <suite name="Automation" duration-ms="6003" started-at="2017-11-28T05:47:49Z" finished-at="2017-11-28T05:47:55Z">
     <groups>
-      <group name="DW">
-        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.scholastic.torque.runner.Run@6ebc05a6]" name="feature" class="com.scholastic.torque.testng.AbstractTestNGCucumberTests"/>
-      </group> <!-- DW -->
     </groups>
-  </suite> <!-- Demandware -->
+    <test name="Use Case 1a: Login to  Mercury Tours page" duration-ms="6003" started-at="2017-11-28T05:47:49Z" finished-at="2017-11-28T05:47:55Z">
+      <class name="com.dw.api.automation.steps.ValidateMpnTest">
+        <test-method status="PASS" signature="initateExtentManager()[pri:0, instance:com.dw.api.automation.steps.ValidateMpnTest@57855c9a]" name="initateExtentManager" is-config="true" duration-ms="344" started-at="2017-11-28T11:17:49Z" finished-at="2017-11-28T11:17:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initateExtentManager -->
+        <test-method status="PASS" signature="login_to_application()[pri:1, instance:com.dw.api.automation.steps.ValidateMpnTest@57855c9a]" name="login_to_application" duration-ms="4804" started-at="2017-11-28T11:17:49Z" finished-at="2017-11-28T11:17:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_to_application -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.dw.api.automation.steps.ValidateMpnTest@57855c9a]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-11-28T11:17:54Z" finished-at="2017-11-28T11:17:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=login_to_application status=SUCCESS method=ValidateMpnTest.login_to_application()[pri:1, instance:com.dw.api.automation.steps.ValidateMpnTest@57855c9a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="enter_mpn_id()[pri:2, instance:com.dw.api.automation.steps.ValidateMpnTest@57855c9a]" name="enter_mpn_id" duration-ms="453" started-at="2017-11-28T11:17:54Z" finished-at="2017-11-28T11:17:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enter_mpn_id -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.dw.api.automation.steps.ValidateMpnTest@57855c9a]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-11-28T11:17:54Z" finished-at="2017-11-28T11:17:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=enter_mpn_id status=SUCCESS method=ValidateMpnTest.enter_mpn_id()[pri:2, instance:com.dw.api.automation.steps.ValidateMpnTest@57855c9a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="mpn_id_is_validated()[pri:3, instance:com.dw.api.automation.steps.ValidateMpnTest@57855c9a]" name="mpn_id_is_validated" duration-ms="0" started-at="2017-11-28T11:17:54Z" finished-at="2017-11-28T11:17:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mpn_id_is_validated -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.dw.api.automation.steps.ValidateMpnTest@57855c9a]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-11-28T11:17:54Z" finished-at="2017-11-28T11:17:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=mpn_id_is_validated status=SUCCESS method=ValidateMpnTest.mpn_id_is_validated()[pri:3, instance:com.dw.api.automation.steps.ValidateMpnTest@57855c9a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="tear()[pri:0, instance:com.dw.api.automation.steps.ValidateMpnTest@57855c9a]" name="tear" is-config="true" duration-ms="349" started-at="2017-11-28T11:17:54Z" finished-at="2017-11-28T11:17:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tear -->
+      </class> <!-- com.dw.api.automation.steps.ValidateMpnTest -->
+    </test> <!-- Use Case 1a: Login to  Mercury Tours page -->
+  </suite> <!-- Automation -->
 </testng-results>

@@ -1,0 +1,98 @@
+[
+   {
+      "line":1,
+      "elements":[
+         {
+            "line":3,
+            "name":"Validating MPN id",
+            "description":"",
+            "id":"validate-mpn-id;validating-mpn-id",
+            "type":"scenario",
+            "keyword":"Scenario",
+            "steps":[
+               {
+                  "result":{
+                     "status":"undefined"
+                  },
+                  "line":4,
+                  "name":"Login to Application",
+                  "match":{
+                     "location":"Login to Application"
+                  },
+                  "keyword":"Given "
+               },
+               {
+                  "result":{
+                     "status":"undefined"
+                  },
+                  "line":5,
+                  "name":"Enter MPN id",
+                  "match":{
+                     "location":"Enter MPN id"
+                  },
+                  "keyword":"When "
+               },
+               {
+                  "result":{
+                     "status":"undefined"
+                  },
+                  "line":6,
+                  "name":"MPN id is validated",
+                  "match":{
+                     "location":"MPN id is validated"
+                  },
+                  "keyword":"Then "
+               }
+            ]
+         },
+         {
+            "line":8,
+            "name":"Add New Partner Organisation",
+            "description":"",
+            "id":"validate-mpn-id;add-new-partner-organisation",
+            "type":"scenario",
+            "keyword":"Scenario",
+            "steps":[
+               {
+                  "result":{
+                     "status":"undefined"
+                  },
+                  "line":9,
+                  "name":"Login to Application",
+                  "match":{
+                     "location":"Login to Application"
+                  },
+                  "keyword":"Given "
+               },
+               {
+                  "result":{
+                     "status":"undefined"
+                  },
+                  "line":10,
+                  "name":"Provide mandatory orgnisation details",
+                  "match":{
+                     "location":"Provide mandatory orgnisation details"
+                  },
+                  "keyword":"When "
+               },
+               {
+                  "result":{
+                     "status":"undefined"
+                  },
+                  "line":11,
+                  "name":"Validate orgnisation",
+                  "match":{
+                     "location":"Validate orgnisation"
+                  },
+                  "keyword":"Then "
+               }
+            ]
+         }
+      ],
+      "name":"Validate mpn Api - Validate MPN id",
+      "description":"",
+      "id":"Validate mpn Api - validate-mpn-id",
+      "keyword":"Feature",
+      "uri":"Validate mpn Api - features\/API_Testing\/ValidateMPNid.feature"
+   }
+]

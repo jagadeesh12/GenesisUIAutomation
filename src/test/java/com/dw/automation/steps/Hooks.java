@@ -45,15 +45,14 @@ import cucumber.api.java.After;
 import cucumber.api.java.Before;
 
 public class Hooks extends ScenarioHook {
-	StudentFlyerOrdersPage StudFlyPage=new StudentFlyerOrdersPage();
-	TDMClient tdm = new TDMClient(getTestBase().getContext().getString("tdm.server.url"));
+	
 	static {
 		System.setProperty("webdriver.gecko.driver", "servers/geckodriver.exe");
 		System.setProperty("webdriver.firefox.marionette","servers/geckodriver.exe");
 		System.setProperty("webdriver.ie.driver","servers/IEDriverServer.exe");
 	}
 	@Before
-	public void beforeHook(Scenario scenario) {
+	public void beforeHook(Scenario scenario) {/*
 		synchronized (this) {
 			getTestBase().getContext().setProperty("scenario.obj", scenario);
 			TestBase testBase = TestBaseProvider.getTestBase();
@@ -61,7 +60,7 @@ public class Hooks extends ScenarioHook {
 			testBase.getContext().subset("testexecution").clear();
 			String session = testBase.getSessionID();
 
-/*			if (!session.equalsIgnoreCase("") && !testBase.getContext().getString("sauce")
+			if (!session.equalsIgnoreCase("") && !testBase.getContext().getString("sauce")
 					.equalsIgnoreCase("false")) {
 				SauceREST sClient =
 						new SauceREST(testBase.getContext().getString("sauce.username"),
@@ -70,7 +69,7 @@ public class Hooks extends ScenarioHook {
 				Map<String, Object> params = new HashMap<String, Object>();
 				params.put("name", scenario.getName());
 				sClient.updateJobInfo(session, params);
-			}*/
+			}
 
 			testBase.getDriver().manage().deleteAllCookies();
 			testBase.getDriver().get(testBase.getString("url"));
@@ -113,7 +112,7 @@ public class Hooks extends ScenarioHook {
 			PauseUtil.pause(5000);
 			SCHUtils.waitForLoaderToDismiss();
 		}
-	}
+	*/}
 
 	public static void main(String[] args) {
 		String str =
@@ -139,15 +138,7 @@ public class Hooks extends ScenarioHook {
 					/*byte[] screenshot =
 							((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);
 					scenario.embed(screenshot, "image/png");*/
-					if (TestBaseProvider.getTestBase().getContext().getString("tdm.data")
-							.equalsIgnoreCase("on")) {
-						try {
-							tdm.releaseUser(data.getString("userid"),
-									data.getString("tdm.converttotype"), "Deleted");
-						} catch (Exception e) {
-
-						}
-					}
+					
 				} catch (WebDriverException somePlatformsDontSupportScreenshots) {
 					System.err.println(somePlatformsDontSupportScreenshots.getMessage());
 				}
@@ -155,17 +146,7 @@ public class Hooks extends ScenarioHook {
 			} else {
 				if (TestBaseProvider.getTestBase().getContext().getString("tdm.data")
 						.equalsIgnoreCase("on")) {
-					try {
-						if (!data.getString("tdm.converttotype").contains("_")) {
-							tdm.releaseUser(data.getString("userid"),
-									data.getString("tdm.converttotype"), "Deleted");
-						} else {
-							tdm.releaseUser(data.getString("userid"),
-									data.getString("tdm.converttotype"), "Active");
-						}
-					} catch (Exception e) {
-
-					}
+					
 				}
 			}
 			String session = TestBaseProvider.getTestBase().getSessionID();
@@ -212,85 +193,7 @@ public class Hooks extends ScenarioHook {
 				testcaseid.trim());
 		TestBaseProvider.getTestBase().setTestDataFromXml(testcaseid);
 
-		if (getTestBase().getContext().getString("tdm.data").equalsIgnoreCase("on")
-				&& testcaseid != null) {
-			if (getTestBase().getTestData().containsKey("tdm.type")) {
-				try {
-					UserEntity profile =
-							tdm.getUser(getTestBase().getTestData().getString("tdm.type"),
-									getTestBase().getTestData()
-											.getBoolean("tdm.isReserved"),
-							getTestBase().getTestData()
-									.getBoolean("tdm.isBcoeIdRequired"));
-					System.out.println("AltTDMUserType="
-							+ getTestBase().getTestData().getString("tdm.type"));
-					TestBaseProvider.getTestBase().getContext()
-							.setProperty("tdm.UserProfile", profile);
-
-					System.out.println(
-							"Alternate TDM ==> UserName:: " + profile.getEmail());
-					System.out.println(
-							"Alternate TDM ==> Password:: " + profile.getPassword());
-
-					if (null != profile) {
-						TestBaseProvider.getTestBase().getTestData().setProperty("userid",
-								profile.getEmail());
-						TestBaseProvider.getTestBase().getTestData()
-								.setProperty("password", profile.getPassword());
-						TestBaseProvider.getTestBase().getTestData()
-								.setProperty("tdm.userid", profile.getEmail());
-						TestBaseProvider.getTestBase().getTestData()
-								.setProperty("tdm.password", profile.getPassword());
-					}
-				} catch (Exception ex) {
-					System.out.println(
-							"---As no Alternate TDM records found, it is going for test data xml file---");
-				}
-			} else {
-				System.out.println(
-						"---As no Alternate TDM tag is provided, it is going for test data xml file---");
-			}
-		} else {
-			System.out.println(
-					"---As tdm data is off, it is going for test data xml file---");
-		}
-	}
-
-	@SuppressWarnings("unused")
-	private void goForAlternateTDM() {
-		if (getTestBase().getTestData().containsKey("tdm.type")) {
-			try {
-				UserEntity profile = tdm.getUser(
-						getTestBase().getTestData().getString("tdm.type"),
-						getTestBase().getTestData().getBoolean("tdm.isReserved"),
-						getTestBase().getTestData().getBoolean("tdm.isBcoeIdRequired"));
-				System.out.println("AltTDMUserType="
-						+ getTestBase().getTestData().getString("tdm.type"));
-				TestBaseProvider.getTestBase().getContext().setProperty("tdm.UserProfile",
-						profile);
-
-				System.out.println("Alternate TDM ==> UserName:: " + profile.getEmail());
-				System.out
-						.println("Alternate TDM ==> Password:: " + profile.getPassword());
-
-				if (null != profile) {
-					TestBaseProvider.getTestBase().getTestData().setProperty("userid",
-							profile.getEmail());
-					TestBaseProvider.getTestBase().getTestData().setProperty("password",
-							profile.getPassword());
-					TestBaseProvider.getTestBase().getTestData().setProperty("tdm.userid",
-							profile.getEmail());
-					TestBaseProvider.getTestBase().getTestData()
-							.setProperty("tdm.password", profile.getPassword());
-				}
-			} catch (Exception ex) {
-				System.out.println(
-						"---As no Alternate TDM records found, it is going for test data xml file---");
-			}
-		} else {
-			System.out.println(
-					"---As no Alternate TDM tag is provided, it is going for test data xml file---");
-		}
+		
 	}
 
 }

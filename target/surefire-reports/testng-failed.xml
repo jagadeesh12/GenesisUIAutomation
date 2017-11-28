@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Demandware_CA]" parallel="tests">
+  <parameter name="features" value="features/API_Testing/ValidateMPNid.feature"/>
+  <parameter name="glue" value="com.dw.automation.steps"/>
+  <test name="Validate mpn Api(failed)" parallel="tests">
+    <parameter name="features" value="features/API_Testing/ValidateMPNid.feature"/>
+    <parameter name="glue" value="com.dw.automation.steps"/>
+    <classes>
+      <class name="com.scholastic.torque.runner.Run">
+        <methods>
+          <include name="tearDownClass"/>
+          <include name="feature" invocation-numbers="0"/>
+          <include name="setUpClass"/>
+        </methods>
+      </class> <!-- com.scholastic.torque.runner.Run -->
+    </classes>
+  </test> <!-- Validate mpn Api(failed) -->
+</suite> <!-- Failed suite [Demandware_CA] -->

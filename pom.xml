@@ -486,8 +486,9 @@
       <version>2.41.2</version>
       <scope>compile</scope>
     </dependency>
+  </dependencies>
 
-	</dependencies>
+	
 	<repositories>
 		<repository>
 			<id>scholastic-snapshot</id>

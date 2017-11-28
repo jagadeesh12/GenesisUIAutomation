@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="2" tests="2" time="0">
+<testcase classname="Validate MPN id" name="Validating MPN id" time="0">
+<skipped><![CDATA[Given Login to Application..................................................undefined
+When Enter MPN id...........................................................undefined
+Then MPN id is validated....................................................undefined
+]]></skipped>
+</testcase>
+<testcase classname="Validate MPN id" name="Add New Partner Organisation" time="0">
+<skipped><![CDATA[Given Login to Application..................................................undefined
+When Provide mandatory orgnisation details..................................undefined
+Then Validate orgnisation...................................................undefined
+]]></skipped>
+</testcase>
+</testsuite>
