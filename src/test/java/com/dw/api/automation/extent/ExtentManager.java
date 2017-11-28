@@ -51,8 +51,7 @@ public class ExtentManager {
 			"dd-MMM-yyyy hh-mm-ss");
 	static String reportPat = System.getProperty("user.dir")
 			+ "/test-output/Reports";
-	static String snapShotPath = reportPat + "/Automation-Report"
-			+ dateFormat.format(date);
+	static String snapShotPath = reportPat + "/Automation-Report";
 	static String testdatafilepath = "src\\test\\resources\\ConfigSheet.xlsx";
 	static String configSheet = "Configuration";
 
@@ -60,9 +59,9 @@ public class ExtentManager {
 
 		if (extent == null) {
 			String extentReportPath = snapShotPath + "/Automation-Report "
-					+ dateFormat.format(date) + ".html";
+					 + ".html";
 			System.out.println(extentReportPath);
-			extent = new ExtentReports(extentReportPath, true,
+			extent = new ExtentReports(extentReportPath, false,
 					DisplayOrder.OLDEST_FIRST);
 			ExtentReportUtilites ext = new ExtentReportUtilites();
 
