@@ -32,6 +32,8 @@
 				<include name="login_to_application"/>
 				<include name="validateExistingCustomer"/>
 				<include name="validateExistingCustomerWithWrongOrganisationName"/>
+				<include name="validateExistingCustomerWithWrongCompanyCode"/>
+				
 				
 			</methods>
 		</classes>

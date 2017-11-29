@@ -58,7 +58,9 @@ public class MyJersyTestEnv2 {
     InputStream targetStream3 = new FileInputStream(initialFile);
     InputStream targetStream4 = new FileInputStream(initialFile);
     InputStream targetStream5 = new FileInputStream(initialFile);
-	
+    
+    
+    
     HashMap<String,InputStream> fileloc=new HashMap<String,InputStream>();  
 	
     fileloc.put("f1", targetStream1);
