@@ -20,6 +20,7 @@ import com.dw.automation.pages.ITeachersHomePage;
 import com.dw.automation.pages.IYourTeacherOrderPage;
 import com.dw.automation.pages.PCOD_ILoginPage;
 import com.dw.automation.pages.PCOD_IShippingAndPaymentPage;
+import com.dw.automation.pages.impl.CouponCreateImpl;
 import com.dw.automation.pages.impl.CustomerCreateAndApproveImpl;
 import com.dw.automation.pages.impl.MarketPlacePageImpl;
 import com.dw.automation.pages.impl.OrgCreateAndApproveImpl;
@@ -54,6 +55,7 @@ public abstract class PageFactory {
 		}
 		return null; 
 	}
+	public abstract CouponCreateImpl getCouponCreateImpl();
 	
 	public abstract OrgCreditReqImpl getOrgCreditreqImpl();
 	
@@ -261,6 +263,12 @@ public abstract class PageFactory {
 		public OrgCreditReqImpl getOrgCreditreqImpl() {
 			// TODO Auto-generated method stub
 			return new OrgCreditReqImpl();
+		}
+
+		@Override
+		public CouponCreateImpl getCouponCreateImpl() {
+			// TODO Auto-generated method stub
+			return new CouponCreateImpl();
 		}
 
 

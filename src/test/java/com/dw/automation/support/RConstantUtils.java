@@ -14,5 +14,5 @@ public class RConstantUtils {
 	public static final String CUSTOMER_CREATED_SUCCESSFULLY="Customer created successfully.";
 	public static final String CUSTOMER_CREDIT_APPROVE_SUCCESS="Credit limit has been updated";
 	public static final String CUSTOMER_CREDIT_APPROVE_REQUEST="Credit limit change request created";
-	public static final String CUSTOMER_CREDIT_APPROVE_FM_STATUS="Spend limit request has been approved successfully.";
+	public static final String CUSTOMER_CREDIT_APPROVE_FM_STATUS="Spend limit request has been approved";
 }

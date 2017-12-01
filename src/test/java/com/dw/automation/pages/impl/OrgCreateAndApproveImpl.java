@@ -633,6 +633,8 @@ public class OrgCreateAndApproveImpl extends BaseTestPage<TestPage> implements O
         Assert.assertTrue("Partner Entity not created succesfully",partnerEnity);
         wf.click_element(getclosePopup());
         System.out.println("Filled creating new organizaton with domain name "+domainName);
+     
+        PartnerUserPageImpl.writeXML("domain","cust",domainName, "0000");
         return domainName;
 
 	}
@@ -750,7 +752,7 @@ public class OrgCreateAndApproveImpl extends BaseTestPage<TestPage> implements O
 			getcommentTxtBox().sendKeys("APPROVED");
 			wf.click_element(getupdateBtn());
 			PauseUtil.pause(2000);
-			boolean statusApp = getstatusTxt().getText().contains("APPROVED");
+			boolean statusApp = getstatusTxt().getAttribute("title").contains("Approved");
 			Assert.assertTrue("BAM Approval scenario failed",statusApp);
 			System.out.println("BAM approved organization successfully");
 			break;
@@ -760,7 +762,7 @@ public class OrgCreateAndApproveImpl extends BaseTestPage<TestPage> implements O
 			getcommentTxtBox().sendKeys("REJECTED");
 			wf.click_element(getrejectUpdateBAM());
 			PauseUtil.pause(3000);
-			boolean statusReject = getstatusTxt().getText().contains("REJECTED");
+			boolean statusReject = getstatusTxt().getAttribute("title").contains("Rejected");
 			Assert.assertTrue("BAM Approval scenario failed",statusReject);
 			System.out.println("BAM rejeced organization successfully");
 			break;
@@ -771,7 +773,7 @@ public class OrgCreateAndApproveImpl extends BaseTestPage<TestPage> implements O
 			getcommentTxtBox().sendKeys("ONHOLD");
 			wf.click_element(getrejectUpdateBAM());
 			PauseUtil.pause(3000);
-			boolean statusOnhold = getstatusTxt().getText().contains("ONHOLD");
+			boolean statusOnhold = getstatusTxt().getAttribute("title").contains("Onhold");
 			Assert.assertTrue("BAM Approval scenario failed",statusOnhold);
 			System.out.println("BAM onhold organization successfully");
 			break;
@@ -802,7 +804,7 @@ public class OrgCreateAndApproveImpl extends BaseTestPage<TestPage> implements O
 			getcommentTxtBox().sendKeys("APPROVED");
 			wf.click_element(getupdateCABtn());
 			PauseUtil.pause(2000);
-			boolean statusApp = getstatusTxt().getText().contains("APPROVED");
+			boolean statusApp = getstatusTxt().getAttribute("title").contains("Approved");
 			Assert.assertTrue("CA Approval scenario failed",statusApp);
 			System.out.println("CA Approve organization successfully");
 			break;
@@ -813,7 +815,7 @@ public class OrgCreateAndApproveImpl extends BaseTestPage<TestPage> implements O
 			getcommentTxtBox().sendKeys("REJECTED");
 			wf.click_element(getrejectUpdateBAM());
 			PauseUtil.pause(3000);
-			boolean statusReject = getstatusTxt().getText().contains("REJECTED");
+			boolean statusReject = getstatusTxt().getAttribute("title").contains("Rejected");
 			Assert.assertTrue("CA Approval scenario failed",statusReject);
 			System.out.println("CA Reject organization successfully");
 			break;
@@ -824,7 +826,7 @@ public class OrgCreateAndApproveImpl extends BaseTestPage<TestPage> implements O
 			getcommentTxtBox().sendKeys("ONHOLD");
 			wf.click_element(getrejectUpdateBAM());
 			PauseUtil.pause(3000);
-			boolean statusOnhold = getstatusTxt().getText().contains("ONHOLD");
+			boolean statusOnhold = getstatusTxt().getAttribute("title").contains("Onhold");
 			Assert.assertTrue("CA Approval scenario failed",statusOnhold);
 			System.out.println("CA ONHOLD organization successfully");
 			break;
@@ -842,19 +844,19 @@ public class OrgCreateAndApproveImpl extends BaseTestPage<TestPage> implements O
 		wf.click_element(getsearchBtnPm());
 		switch (status) {
 			case "Approve":
-				boolean statusApp = getstatusTxtPM().getText().contains("APPROVED");
+				boolean statusApp = getstatusTxtPM().getAttribute("title").contains("Approved");
 				Assert.assertTrue("PM Verification scenario failed",statusApp);
 				System.out.println("PM org approve Verification scenario ");
 				break;
 				
 			case "Reject":
-				boolean statusReject = getstatusTxtPM().getText().contains("REJECTED");
+				boolean statusReject = getstatusTxtPM().getAttribute("title").contains("Rejected");
 				Assert.assertTrue("PM Verification scenario failed",statusReject);
 				System.out.println("PM org reject Verification scenario ");
 				break;
 				
 			case "Onhold":
-				boolean statusOnhold = getstatusTxtPM().getText().contains("ONHOLD");
+				boolean statusOnhold = getstatusTxtPM().getAttribute("title").contains("Onhold");
 				Assert.assertTrue("PM onhold Verification scenario failed",statusOnhold);
 				break;
 			}

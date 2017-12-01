@@ -14,4 +14,10 @@ public interface MarketPlacePage {
 	String order(String orderNumber, String status);
 
 	String orderStatus(String orderNumber);
+
+	void addBaseProducts();
+
+	void addAddOnProducts();
+
+	
 }

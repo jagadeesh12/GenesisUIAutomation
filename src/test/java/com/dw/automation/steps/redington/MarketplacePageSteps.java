@@ -44,7 +44,7 @@ public class MarketplacePageSteps {
 	@Then("^I approve the product that has been ordered$")
 	public void i_approve_the_product_that_has_been_ordered() throws Throwable {
 		status = "Approved";
-		Assert.assertTrue("Order not approved ",mpp.order(orderNumber,status).contains("APPROVED"));
+		Assert.assertTrue("Order not approved ",mpp.order(orderNumber,status).contains("Approved"));
 	}
 
 	@Given("^I launch the application as a Partner Manager$")
@@ -54,21 +54,34 @@ public class MarketplacePageSteps {
 
 	@Then("^I should see the Product that has been ordered is approved$")
 	public void i_should_see_the_Product_that_has_been_ordered_is_approved() throws Throwable {
-		Assert.assertTrue("Order not approved ",mpp.orderStatus(orderNumber).contains("APPROVED"));
+		Assert.assertTrue("Order not approved ",mpp.orderStatus(orderNumber).contains("Approved"));
 	}
 	
 	@Then("^I reject the product that has been ordered$")
 	public void i_reject_the_product_that_has_been_ordered() throws Throwable {
 		status = "Rejected";
-		Assert.assertTrue("Order not approved ",mpp.order(orderNumber,status).contains("REJECTED"));
+		Assert.assertTrue("Order not approved ",mpp.order(orderNumber,status).contains("Rejected"));
 	}
 
 	@Then("^I should see the Product that has been ordered is rejected$")
 	public void i_should_see_the_Product_that_has_been_ordered_is_rejected() throws Throwable {
-		Assert.assertTrue("Order not approved ",mpp.orderStatus(orderNumber).contains("REJECTED"));
+		Assert.assertTrue("Order not approved ",mpp.orderStatus(orderNumber).contains("Rejected"));
 
 	}
 	
+	
+    @Then("^I add base products to the cart$")
+    public void i_add_base_products_to_the_cart() throws Throwable {
+    	mpp.addBaseProducts();
+    }
+
+
+    @Then("^I add addon products to the cart$")
+    public void i_add_addon_products_to_the_cart() throws Throwable {
+        // Write code here that turns the phrase above into concrete actions
+    	mpp.addAddOnProducts();
+    	orderNumber =  mpp.getOrderNumber();
+    }
 
 
 }

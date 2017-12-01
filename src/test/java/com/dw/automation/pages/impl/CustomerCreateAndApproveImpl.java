@@ -432,7 +432,7 @@ public class CustomerCreateAndApproveImpl extends BaseTestPage<TestPage> impleme
 				getbamCommentTxtBox().sendKeys(testBase.getTestData().getString("approveStatus"));
 				wf.click_element(getBamupdateBtn());
 				RUtils.waitforloadingtodissappear();
-				boolean statusApp = getCustStatusTxt().getText().contains("APPROVED");
+				boolean statusApp = getCustStatusTxt().getAttribute("title").contains("Approved");
 				Assert.assertTrue("BAM Approval failed for Customer Scenario.",statusApp);
 				break;
 			case "Reject":
@@ -441,7 +441,7 @@ public class CustomerCreateAndApproveImpl extends BaseTestPage<TestPage> impleme
 				getbamCommentTxtBox().sendKeys(testBase.getTestData().getString("rejecteStatus"));
 				wf.click_element(getBamupdateBtn());
 				RUtils.waitforloadingtodissappear();
-				statusApp = getCustStatusTxt().getText().contains("REJECTED");
+				statusApp = getCustStatusTxt().getAttribute("title").contains("Rejected");
 				Assert.assertTrue("BAM Rejection failed for Customer Scenario.",statusApp);
 				break;
 		}
@@ -457,13 +457,13 @@ public class CustomerCreateAndApproveImpl extends BaseTestPage<TestPage> impleme
 
 		switch (status) {
 		case "Approve":
-			boolean statusApp = getCustStatusTxt().getText().contains("APPROVED");
+			boolean statusApp = getCustStatusTxt().getAttribute("title").contains("Approved");
 			Assert.assertTrue("PM Verification scenario failed for Customer Approval",statusApp);
 			
 			PartnerUserPageImpl.writeXML("custdomain","cust",domainName, "0000");
 			break;
 		case "Reject":
-			statusApp = getCustStatusTxt().getText().contains("REJECTED");
+			statusApp = getCustStatusTxt().getAttribute("title").contains("Rejected");
 			Assert.assertTrue("PM Verification scenario failed for Customer Rejection",statusApp);
 			break;
 		}
@@ -487,7 +487,7 @@ public class CustomerCreateAndApproveImpl extends BaseTestPage<TestPage> impleme
 		wf.click_element(getpmCreditReqIcon());
 		String credit = getcustSpendLimitTxtBox().getAttribute("value");
 		System.out.println("Customer credit avialable :"+credit);
-
+		PauseUtil.pause(3000);
 		getcustSpendLimitTxtBox().clear();
 		getcustSpendLimitTxtBox().sendKeys(testBase.getTestData().getString("custCreditReq"));
 		System.out.println("Customer credit updated to "+testBase.getTestData().getString("custCreditReq"));
@@ -546,7 +546,7 @@ public class CustomerCreateAndApproveImpl extends BaseTestPage<TestPage> impleme
 		
 		switch(status) {
 		case "Approve":
-			boolean statusApp = getfmCustCreditStatus().getText().contains("APPROVED");
+			boolean statusApp = getfmCustCreditStatus().getAttribute("title").contains("Approved");
 			Assert.assertTrue("PM Verification scenario failed for Customer Credit Approval",statusApp);
 		}
 		

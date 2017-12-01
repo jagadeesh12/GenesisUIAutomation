@@ -156,7 +156,7 @@ public class OrgCreditReqImpl extends BaseTestPage<TestPage> implements OrgCredi
 				getcommentCATxtBox().sendKeys(testBase.getTestData().getString("approveStatus"));
 				wf.click_element(getCAcreditUpdatebtn());
 				PauseUtil.pause(2000);
-				boolean statusApp = getCAcreditstatusTxt().getText().contains("APPROVED");
+				boolean statusApp = getCAcreditstatusTxt().getAttribute("title").contains("Approved");
 				Assert.assertTrue("Organization credit approval scenario failed by CA.",statusApp);
 				System.out.println("Organization credit approved by CA");
 				break;
@@ -167,7 +167,7 @@ public class OrgCreditReqImpl extends BaseTestPage<TestPage> implements OrgCredi
 				getcommentCATxtBox().sendKeys(testBase.getTestData().getString("rejecteStatus"));
 				wf.click_element(getCAcreditUpdatebtn());
 				PauseUtil.pause(2000);
-				statusApp = getCAcreditstatusTxt().getText().contains("REJECTED");
+				statusApp = getCAcreditstatusTxt().getAttribute("title").contains("Rejected");
 				Assert.assertTrue("Organization credit reject scenario failed by CA.",statusApp);
 				System.out.println("Organization credit rejected by CA");
 				break;	
@@ -189,12 +189,12 @@ public class OrgCreditReqImpl extends BaseTestPage<TestPage> implements OrgCredi
 		System.out.println("Starting credit requset verification by PM method.");
 		switch (status) {
 		case "Approve":
-			boolean statusApp = getCreditRequestStatusTxt().getText().contains("APPROVED");
+			boolean statusApp = getCreditRequestStatusTxt().getAttribute("title").contains("Approved");
 			Assert.assertTrue("PM Verification scenario failed for Customer Approval",statusApp);
 			System.out.println("Credit request verification PM is "+getCreditRequestStatusTxt().getText());
 			break;
 		case "Reject":
-			statusApp = getCreditRequestStatusTxt().getText().contains("REJECTED");
+			statusApp = getCreditRequestStatusTxt().getAttribute("title").contains("Rejected");
 			Assert.assertTrue("PM Verification scenario failed for Customer Approval",statusApp);
 			System.out.println("Credit request verification PM is "+getCreditRequestStatusTxt().getText());
 			break;	

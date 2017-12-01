@@ -29,7 +29,7 @@ Feature: Partner Organization creation by PM and Approval by BAM and CA
     #Then I launch the application as a BAM
     #And I approve the organization
     #Then I logout from the application
-    #Then I launch the application as a CA
+    #Then I launch the application as a CAgit
     #And I approve the organization as CA
     #Then I logout from the application
     #Given I launch the application as a Partner Manager

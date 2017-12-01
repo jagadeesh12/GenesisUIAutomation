@@ -4,6 +4,7 @@ import static com.dw.automation.pages.base.PageFactory.getFactory;
 
 import com.dw.automation.pages.OrgCreateAndApprovePage;
 import com.dw.automation.pages.OrgCreditReqPage;
+import com.scholastic.torque.common.TestBaseProvider;
 
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
@@ -14,8 +15,8 @@ public class OrgCreditReqSteps {
 	public String status;
 	@Then("^I apply for partner organization credit request$")
 	public void i_apply_for_partner_organization_credit_request() throws Throwable {
-		domainName = OrgCreateAndApproveSteps.getEntityName();
-		
+		//domainName = OrgCreateAndApproveSteps.getEntityName();
+		domainName = TestBaseProvider.getTestBase().getTestData().getString("domain");
 		ocp.applyForCredit(domainName);
 	}
 

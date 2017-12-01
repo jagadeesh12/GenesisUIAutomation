@@ -1,5 +1,6 @@
 package com.dw.automation.pages.impl;
 
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
@@ -224,9 +225,31 @@ public class MarketPlacePageImpl extends BaseTestPage<TestPage> implements Marke
 		return searchTxtBox;
 	}	
 	
+	
+	@FindBy(locator = "rd.pm.basketpage.txtbox.quantity")
+	private WebElement quantityIcon;
+	
+	public WebElement getquantityTxtBox() {
+		return quantityIcon;
+	}
+	
+	@FindBy(locator = "rd.pm.basketpage.icon.editQuantity")
+	private WebElement editQuantityIcon;
+	
+	public WebElement geteditQuantityIcon() {
+		return editQuantityIcon;
+	}
+	
+	@FindBy(locator = "rd.pm.basketpage.txtbox.editquantity")
+	private WebElement quantityTxtBox;
+	
+	public WebElement getquantityBasketTxtBox() {
+		return quantityTxtBox;
+	}
+	
 	WrapperFunctions wf = new WrapperFunctions();
 	TestBase testBase = TestBaseProvider.getTestBase();
-	
+	WebDriver driver = TestBaseProvider.getTestBase().getDriver();
 	
 	public void loginApplicationAsPM() {
 		System.out.println("Order Placement started.");
@@ -248,7 +271,7 @@ public class MarketPlacePageImpl extends BaseTestPage<TestPage> implements Marke
 		try {
 	    PauseUtil.waitForAjaxToComplete(4000);
 		PauseUtil.pause(4000);
-		getsearchTxtBox().sendKeys("Office 365 Enterprise E3");
+		getsearchTxtBox().sendKeys(TestBaseProvider.getTestBase().getTestData().getString("product"));
 		wf.click_element(getsearchBtn());
 		
 		//RUtils.waitforloadingtodissappear();
@@ -348,7 +371,7 @@ public class MarketPlacePageImpl extends BaseTestPage<TestPage> implements Marke
 		wf.click_element(getSearchBtnFm());
 		PauseUtil.pause(3000);
 		//wf.click_element(getSearchBtnFm());
-		String orderStatus = getOrderStatusTxt().getText();
+		String orderStatus = getOrderStatusTxt().getAttribute("title");
 		System.out.println("Order status FM approved :"+orderStatus);
 		return orderStatus;
 		
@@ -365,9 +388,87 @@ public class MarketPlacePageImpl extends BaseTestPage<TestPage> implements Marke
 		wf.click_element(getOrdersOption());
 		getSearchTxTBox().sendKeys(orderNumber);
 		wf.click_element(getSearchBtnFm());
-		String orderStatus = getOrderStatusTxt().getText();
+		String orderStatus = getOrderStatusTxt().getAttribute("title");
 		System.out.println("Order status :"+orderStatus);
 		return orderStatus;
+	}
+
+	
+	public void addBaseProducts() {
+		try {
+		PauseUtil.waitForAjaxToComplete(4000);
+		PauseUtil.pause(4000);
+		getsearchTxtBox().clear();
+		getsearchTxtBox().sendKeys(TestBaseProvider.getTestBase().getTestData().getString("product"));
+		wf.click_element(getsearchBtn());
+		
+		//RUtils.waitforloadingtodissappear();
+		PauseUtil.pause(4000);
+		wf.click_element(getbuyBtn());
+		System.out.println("Product added to basket");
+		RUtils.waitforloadingtodissappear();
+		getquantityTxtBox().clear();
+		getquantityTxtBox().sendKeys(TestBaseProvider.getTestBase().getTestData().getString("quantity"));
+		wf.click_element(getaddToBasketBtn());
+		RUtils.waitforloadingtodissappear();
+		PauseUtil.pause(3000);
+		wf.click_element(getclosePopupBtn());
+		PauseUtil.pause(2000);		
+
+//		Assert.assertEquals(PauseUtil.getWhenVisible(getorderConfirmTxt(), RUtils.TimeOut).getText(),RConstantUtils.ORDER_CONFIRM_TEXT);
+
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+}
+
+	
+	public void addAddOnProducts() {
+		
+		PauseUtil.pause(4000);
+		getsearchTxtBox().clear();
+		getsearchTxtBox().sendKeys(TestBaseProvider.getTestBase().getTestData().getString("addonProd"));
+		wf.click_element(getsearchBtn());
+		
+		//RUtils.waitforloadingtodissappear();
+		PauseUtil.pause(4000);
+		wf.click_element(getbuyBtn());
+		System.out.println("Product added to basket");
+		RUtils.waitforloadingtodissappear();
+		getquantityTxtBox().clear();
+		getquantityTxtBox().sendKeys("3");
+		wf.click_element(getaddToBasketBtn());
+		RUtils.waitforloadingtodissappear();
+		PauseUtil.pause(3000);
+		wf.click_element(getclosePopupBtn());
+		PauseUtil.pause(2000);
+		wf.click_element(getbasketOptionIcon());
+		wf.click_element(getbasketOptionIcon());
+		wf.click_element(getviewAllOption());
+		boolean prdctname = getproductNameTxt().getText().contains(RConstantUtils.PRODUCT_NAME);
+		Assert.assertTrue(prdctname,"Product Name is not correct.");
+		System.out.println("Verifing product is added");
+		SCHUtils.selectOptionByIndex(getcustomerSelectDrpDwn(), 1);
+		wf.click_element(getplaceOrderBtn());
+		String popupText = getorderPlacementMsgConfirmation().getText();	
+		System.out.println("Pop up Text ===============:"+popupText);
+		wf.click_element(getclosePopupBtn());
+		
+		
+		/*wf.click_element(geteditQuantityIcon());
+		getquantityBasketTxtBox().clear();
+		getquantityBasketTxtBox().sendKeys(TestBaseProvider.getTestBase().getTestData().getString("quantity"));
+		SCHUtils.selectOptionByIndex(getcustomerSelectDrpDwn(), 1);
+
+		wf.click_element(getplaceOrderBtn());
+		RUtils.waitforloadingtodissappear();
+		wf.click_element(getpopUpCloseBtn());*/
+		System.out.println("Placing order......");
+		boolean orderCOnfirmation = getorderConfirmTxt().getText().contains(RConstantUtils.ORDER_CONFIRM_TEXT);
+		Assert.assertTrue(orderCOnfirmation,"Order not placed successfully");
+		System.out.println(getorderConfirmTxt().getText());
+		
 	}
 
 }

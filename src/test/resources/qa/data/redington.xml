@@ -16,9 +16,10 @@
 		<appUrl>https://test.redington.market/</appUrl>
 	</testcase>
 	<testcase id="OrderApproval">
-		<userPM>PMFN_27111459@mailinator.com</userPM>
+		<userPM>PMFN_01121513@mailinator.com</userPM>
+		<domain>www.PMFN01121649.com</domain>
 		<password>Pass@123</password>
-		<userFm>FM27111500@mailinator.com</userFm>
+		<userFm>FM01121515@mailinator.com</userFm>
 		<passFm>Pass@123</passFm>
 		<userBam>bam@axsup.net</userBam>
 		<passBam>Pass@123</passBam>
@@ -37,30 +38,33 @@
 		<tradeLi>32453212</tradeLi>
 		<tradeLicCal>01.11.2017 - 01.11.2018</tradeLicCal>
 		<filePath>src/test/resources/UploadFiles/test.jpg</filePath>
-		<credit>1000</credit>
+		<credit>10000</credit>
 		<creditPMreq>10000</creditPMreq>
-		<creditPMreqRej>100000</creditPMreqRej>
-		<custCredit>100</custCredit>
-		<custCreditreq>120</custCreditreq>
+		<creditPMreqRej>1000000</creditPMreqRej>
+		<custCredit>1000</custCredit>
+		<custCreditreq>1200</custCreditreq>
 		<commentCredit>Credit Approval</commentCredit>
 		<lname>Test</lname>
 		<department>Sales</department>
 		<function>Marketing</function>
 		<approveStatus>APPROVED</approveStatus>
 		<rejecteStatus>REJECTED</rejecteStatus>
-		<custCredit>100</custCredit>
-		<custCreditReq>210</custCreditReq>
-		<custdomain>CUST27111513</custdomain>
+		<custCredit>1000</custCredit>
+		<custCreditReq>2010</custCreditReq>
+		<custdomain>CUST01121655</custdomain>
 		<cust>0000</cust>
-		<orderId>78405100000097</orderId>
+		<orderId>784051000000123</orderId>
 		<ord/>
 		<customercode>1010006975</customercode>
+		<product>Office 365 Enterprise E3</product>
+		<addonProd>Exchange Online Advanced Threat Protection</addonProd>
+		<quantity>3</quantity>
 	    <companycode>1120</companycode>
 	    <orgmpnid>3379748</orgmpnid>
 	    <orgsigningAuthorityName>jagadeesh</orgsigningAuthorityName>
 	    <exorgsignauthemail>jagadeesh.manjunath@relevancelab.com</exorgsignauthemail>
 	    <exorgpartnersegmnt>1: Reseller</exorgpartnersegmnt>
-	
+		
 	</testcase>
 	
 	<testcase id="ExistingOrgOnboard">
