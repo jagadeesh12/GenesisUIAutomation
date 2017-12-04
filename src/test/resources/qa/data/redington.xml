@@ -16,10 +16,10 @@
 		<appUrl>https://test.redington.market/</appUrl>
 	</testcase>
 	<testcase id="OrderApproval">
-		<userPM>PMFN_01121513@mailinator.com</userPM>
-		<domain>www.PMFN01121649.com</domain>
+		<userPM>PMFN_04121132@mailinator.com</userPM>
+		<domain>www.PMFN04121137.com</domain>
 		<password>Pass@123</password>
-		<userFm>FM01121515@mailinator.com</userFm>
+		<userFm>FM04121133@mailinator.com</userFm>
 		<passFm>Pass@123</passFm>
 		<userBam>bam@axsup.net</userBam>
 		<passBam>Pass@123</passBam>
@@ -51,9 +51,9 @@
 		<rejecteStatus>REJECTED</rejecteStatus>
 		<custCredit>1000</custCredit>
 		<custCreditReq>2010</custCreditReq>
-		<custdomain>CUST01121655</custdomain>
+		<custdomain>CUST04121144</custdomain>
 		<cust>0000</cust>
-		<orderId>784051000000123</orderId>
+		<orderId>784051000000129</orderId>
 		<ord/>
 		<customercode>1010006975</customercode>
 		<product>Office 365 Enterprise E3</product>
@@ -64,6 +64,7 @@
 	    <orgsigningAuthorityName>jagadeesh</orgsigningAuthorityName>
 	    <exorgsignauthemail>jagadeesh.manjunath@relevancelab.com</exorgsignauthemail>
 	    <exorgpartnersegmnt>1: Reseller</exorgpartnersegmnt>
+	    <discount>50</discount>
 		
 	</testcase>
 	

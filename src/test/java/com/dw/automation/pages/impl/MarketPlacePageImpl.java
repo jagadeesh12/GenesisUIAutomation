@@ -247,6 +247,37 @@ public class MarketPlacePageImpl extends BaseTestPage<TestPage> implements Marke
 		return quantityTxtBox;
 	}
 	
+	
+	@FindBy(locator = "rd.pm.orderspage.icon.details")
+	private WebElement productDetailsIcon;
+	
+	public WebElement getproductDetailsIcon() {
+		return productDetailsIcon;
+	}
+	
+	@FindBy(locator = "rd.pm.orderspage.btn.fulfillBasePro")
+	private WebElement productFulfillBtnBasePro;
+	
+	public WebElement getproductFulfillBtnBasePro() {
+		return productFulfillBtnBasePro;
+	}
+	
+	@FindBy(locator = "rd.pm.orderspage.btn.fulfillAddonPro")
+	private WebElement productFulfillBtnAddonPro;
+	
+	public WebElement getproductFulfillBtnAddonPro() {
+		return productFulfillBtnAddonPro;
+	}
+	
+	@FindBy(locator = "rd.pm.orderspage.btn.fullfillWait")
+	private WebElement provisionLoadingIcon;
+	
+	public WebElement getprovisionLoadingIcon() {
+		return provisionLoadingIcon;
+	}
+	
+	
+			
 	WrapperFunctions wf = new WrapperFunctions();
 	TestBase testBase = TestBaseProvider.getTestBase();
 	WebDriver driver = TestBaseProvider.getTestBase().getDriver();
@@ -316,12 +347,7 @@ public class MarketPlacePageImpl extends BaseTestPage<TestPage> implements Marke
 		String ord = getorderNumberTxt().getText().replace("Order #: ", "");
 		System.out.println("Order nummber is :"+ord); 
 		System.out.println("Saving order id to xml");
-		String user = "orderId";
-		String pass = "ord";
-		String p="";
-		//RUtils.update_xml(1,user ,pass, email, resetPassword);
-		System.out.println("Writing data to xml");
-		PartnerUserPageImpl.writeXML(user,pass,ord,p);
+		
 
 		return ord;
 		
@@ -455,7 +481,7 @@ public class MarketPlacePageImpl extends BaseTestPage<TestPage> implements Marke
 		System.out.println("Pop up Text ===============:"+popupText);
 		wf.click_element(getclosePopupBtn());
 		
-		
+		//Scenario for adding extra addons and checking that its failing 
 		/*wf.click_element(geteditQuantityIcon());
 		getquantityBasketTxtBox().clear();
 		getquantityBasketTxtBox().sendKeys(TestBaseProvider.getTestBase().getTestData().getString("quantity"));
@@ -469,6 +495,31 @@ public class MarketPlacePageImpl extends BaseTestPage<TestPage> implements Marke
 		Assert.assertTrue(orderCOnfirmation,"Order not placed successfully");
 		System.out.println(getorderConfirmTxt().getText());
 		
+	}
+
+	
+	public void provisionProducts() {
+		 wf.click_element( getproductDetailsIcon());
+		 PauseUtil.pause(3000);
+		 wf.click_element(getproductFulfillBtnBasePro());
+		 wf.click_element(getproductFulfillBtnAddonPro());
+		 //Write wait for provision of product to complete using getprovisionLoadingIcon() for loading icon
+		 
+		 //Provision another product 
+		//Write wait for provision of product to complete using getprovisionLoadingIcon() for loading icon
+		 
+	}
+
+	
+	public void goToApprovedProduct() {
+		//Going to orders page and checking whether product is available and approved
+		wf.click_element(getSelectUserMenu());
+		wf.click_element(getAccntMgnOption());
+		wf.click_element(getOrdersOption());
+		getSearchTxTBox().sendKeys(TestBaseProvider.getTestBase().getTestData().getString("orderId"));
+		wf.click_element(getSearchBtnFm());
+		String orderStatus = getOrderStatusTxt().getAttribute("title");
+		System.out.println("Order status is :"+orderStatus);
 	}
 
 }

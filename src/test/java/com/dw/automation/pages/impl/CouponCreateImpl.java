@@ -10,6 +10,8 @@ import com.dw.automation.support.RUtils;
 import com.dw.automation.support.SCHUtils;
 import com.scholastic.cucumber.uploadResults.WrapperFunctions;
 import com.scholastic.torque.common.BaseTestPage;
+import com.scholastic.torque.common.TestBase;
+import com.scholastic.torque.common.TestBaseProvider;
 import com.scholastic.torque.common.TestPage;
 
 public class CouponCreateImpl extends BaseTestPage<TestPage> implements CouponCreatePage  {
@@ -70,12 +72,26 @@ public class CouponCreateImpl extends BaseTestPage<TestPage> implements CouponCr
 		return generateBtn;
 	}
 	
+	@FindBy(locator = "rd.bam.addCoupon.form.drpdwn.product")
+	private WebElement selectProductDrpDwn;
+	
+	public WebElement getselectProductDrpDwn() {
+		return selectProductDrpDwn;
+	}
+	
+	@FindBy(locator = "rd.bam.addCoupon.form.txtBox.discount")
+	private WebElement discountTxtBox;
+	
+	public WebElement getsdiscountTxtBox() {
+		return discountTxtBox;
+	}
 	
 	
 	
 	
 	WrapperFunctions wf = new WrapperFunctions();
 	OrgCreateAndApproveImpl oca = new OrgCreateAndApproveImpl();
+	TestBase testBase = TestBaseProvider.getTestBase();
 	
 	@Override
 	protected void openPage() {
@@ -99,12 +115,18 @@ public class CouponCreateImpl extends BaseTestPage<TestPage> implements CouponCr
 		wf.click_element(oca.getOrgAddBtn());
 		PauseUtil.pause(3000);
 		//RUtils.waitforloadingtodissappear();
-		SCHUtils.selectOptionByVisibleText(getorgdrpdwn(), "Burhani Computers Trading LLC - www.pmfn29111057.com");
-		//SCHUtils.selectOptionByVisibleText(getdrpdwnCoupon(), "CUST29111103 - cust29111103.onmicrosoft.com");
-		SCHUtils.selectOptionByIndex(getdrpdwnCust(), 1);
+		String org = testBase.getTestData().getString("orgname");
+		String domainName = testBase.getTestData().getString("domain");
+		
+		SCHUtils.selectOptionByVisibleText(getorgdrpdwn(), org + " - "+ domainName.toLowerCase());
+		String custName = testBase.getTestData().getString("custdomain");
+		SCHUtils.selectOptionByVisibleText(getdrpdwnCust(), custName+" - "+custName.toLowerCase()+".onmicrosoft.com");
+		//SCHUtils.selectOptionByIndex(getdrpdwnCust(), 1);
 		SCHUtils.selectOptionByVisibleText(getdrpdwnCountryCode(), "USD");
 		wf.click_element(getnextBtn());
-		getquantityTxtBox().sendKeys("3");
+		SCHUtils.selectOptionByVisibleText(getselectProductDrpDwn(), testBase.getTestData().getString("product"));
+		getquantityTxtBox().sendKeys(testBase.getTestData().getString("quantity"));
+		getsdiscountTxtBox().sendKeys(testBase.getTestData().getString("discount"));
 		wf.click_element(getCouponGenerateBtn());
 		
 		

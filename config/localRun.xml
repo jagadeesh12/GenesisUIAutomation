@@ -50,7 +50,7 @@
 
  </test>  -->
  
-<test name="PartnerUserCreation" enabled="true">
+ <test name="PartnerUserCreation" enabled="true">
   <parameter name="driver.name" value="Firefox"/>
   <parameter name="features" value="features/Redington/UserCreation.feature"/>
 
@@ -59,7 +59,7 @@
   <classes>
    <class name="com.scholastic.torque.runner.Run" />
   </classes> 
-  </test> 
+  </test>  
 
  <test name="OrgCreateAndApproval" enabled="true">
   <parameter name="driver.name" value="Firefox"/>
@@ -80,7 +80,7 @@
    <class name="com.scholastic.torque.runner.Run" />
   </classes>
 </test> 
-<!-- 
+<!--  
  <test name="Creating coupon" enabled="true">
   <parameter name="driver.name" value="Firefox"/>
   <parameter name="features" value="features/Redington/CouponCreate.feature"/>
@@ -91,18 +91,18 @@
   </classes>
 </test> -->
 
-  <test name="Placing multiple order" enabled="true">
+ <test name="Placing multiple order" enabled="true">
   <parameter name="driver.name" value="Firefox"/>
-  <parameter name="features" value="features/Redington/CouponCreate.feature"/>
+  <parameter name="features" value="features/Redington/MultipleOrderPlacementAndApproal.feature"/>
   <parameter name="driver.capabilities"
              value="{'version': '11.0','platform':'Windows 10','name':'P1-Review cart Scenarios'}" />
  <classes>
    <class name="com.scholastic.torque.runner.Run" />
   </classes>
-</test> 
+</test>  -->
 
-
-<!--  <test name="OrderApproval" enabled="true">
+<!-- 
+ <test name="OrderApproval" enabled="true">
   <parameter name="driver.name" value="Firefox"/>
   <parameter name="features" value="features/Redington/OrderApproval.feature"/>
   <parameter name="driver.capabilities"
@@ -120,11 +120,11 @@
   <classes>
    <class name="com.scholastic.torque.runner.Run" />
   </classes>
-</test>
+</test> 
 
  
 
- <test name="OrganizationCreditReqApproval.feature" enabled="true">
+<test name="OrganizationCreditReqApproval.feature" enabled="true">
   <parameter name="driver.name" value="Firefox"/>
   <parameter name="features" value="features/Redington/OrgCreditRequestApproval.feature"/>
   <parameter name="driver.capabilities"
@@ -144,7 +144,7 @@
    <class name="com.scholastic.torque.runner.Run" />
   </classes>
 
-</test> 
+</test>
 
  <test name="OrganizationCreditReqRejection.feature" enabled="true">
   <parameter name="driver.name" value="Firefox"/>

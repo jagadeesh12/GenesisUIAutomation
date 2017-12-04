@@ -3,7 +3,9 @@ package com.dw.automation.steps.redington;
 import static com.dw.automation.pages.base.PageFactory.getFactory;
 
 import com.dw.automation.pages.MarketPlacePage;
+import com.dw.automation.pages.impl.PartnerUserPageImpl;
 
+import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import junit.framework.Assert;
@@ -54,6 +56,12 @@ public class MarketplacePageSteps {
 
 	@Then("^I should see the Product that has been ordered is approved$")
 	public void i_should_see_the_Product_that_has_been_ordered_is_approved() throws Throwable {
+		String user = "orderId";
+		String pass = "ord";
+		String p="";
+		//RUtils.update_xml(1,user ,pass, email, resetPassword);
+		System.out.println("Writing data to xml");
+		PartnerUserPageImpl.writeXML(user,pass,orderNumber,p);
 		Assert.assertTrue("Order not approved ",mpp.orderStatus(orderNumber).contains("Approved"));
 	}
 	
@@ -82,6 +90,16 @@ public class MarketplacePageSteps {
     	mpp.addAddOnProducts();
     	orderNumber =  mpp.getOrderNumber();
     }
+    
 
+    @And("^I do provisioning for products$")
+    public void i_do_provisioning_for_products() throws Throwable {
+    	mpp.provisionProducts();
+    }
+
+    @Then("^I go to orders page and search for the approved product $")
+    public void i_go_to_orders_page_and_search_for_the_approved_product() throws Throwable {
+    	mpp.goToApprovedProduct();
+    }
 
 }

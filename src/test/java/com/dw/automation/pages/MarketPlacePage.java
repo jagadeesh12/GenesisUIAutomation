@@ -19,5 +19,9 @@ public interface MarketPlacePage {
 
 	void addAddOnProducts();
 
+	void provisionProducts();
+
+	void goToApprovedProduct();
+
 	
 }
