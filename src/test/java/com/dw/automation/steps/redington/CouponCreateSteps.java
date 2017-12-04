@@ -30,6 +30,6 @@ public class CouponCreateSteps {
 
 	@Then("^I get coupon number$")
 	public void i_get_coupon_number() throws Throwable {
-
+		ccp.getCouponNumber();
 	}
 }

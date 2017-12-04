@@ -49,7 +49,7 @@
   </classes>
 
  </test>  -->
- 
+
  <test name="PartnerUserCreation" enabled="true">
   <parameter name="driver.name" value="Firefox"/>
   <parameter name="features" value="features/Redington/UserCreation.feature"/>
@@ -60,7 +60,7 @@
    <class name="com.scholastic.torque.runner.Run" />
   </classes> 
   </test>  
-
+  
  <test name="OrgCreateAndApproval" enabled="true">
   <parameter name="driver.name" value="Firefox"/>
   <parameter name="features" value="features/Redington/OrgCreateAndApproval.feature"/>
@@ -79,9 +79,9 @@
   <classes>
    <class name="com.scholastic.torque.runner.Run" />
   </classes>
-</test> 
-<!--  
- <test name="Creating coupon" enabled="true">
+</test>  
+
+<!--  <test name="Creating coupon" enabled="true">
   <parameter name="driver.name" value="Firefox"/>
   <parameter name="features" value="features/Redington/CouponCreate.feature"/>
   <parameter name="driver.capabilities"
@@ -89,9 +89,9 @@
  <classes>
    <class name="com.scholastic.torque.runner.Run" />
   </classes>
-</test> -->
-
- <test name="Placing multiple order" enabled="true">
+</test> 
+ -->
+<test name="Placing multiple order" enabled="true">
   <parameter name="driver.name" value="Firefox"/>
   <parameter name="features" value="features/Redington/MultipleOrderPlacementAndApproal.feature"/>
   <parameter name="driver.capabilities"
@@ -99,7 +99,7 @@
  <classes>
    <class name="com.scholastic.torque.runner.Run" />
   </classes>
-</test>  -->
+</test> 
 
 <!-- 
  <test name="OrderApproval" enabled="true">

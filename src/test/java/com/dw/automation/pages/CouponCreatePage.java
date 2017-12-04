@@ -6,4 +6,6 @@ public interface CouponCreatePage {
 
 	void addCoupon();
 
+	void getCouponNumber();
+
 }

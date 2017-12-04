@@ -284,8 +284,10 @@ public class MarketPlacePageImpl extends BaseTestPage<TestPage> implements Marke
 	
 	public void loginApplicationAsPM() {
 		System.out.println("Order Placement started.");
-		String username = TestBaseProvider.getTestBase().getTestData().getString("userPM");
-		String password = TestBaseProvider.getTestBase().getTestData().getString("password");
+//		String username = TestBaseProvider.getTestBase().getTestData().getString("userPM");
+//		String password = TestBaseProvider.getTestBase().getTestData().getString("password");
+		String username = PartnerUserPageImpl.readXML("userPM");
+		String password = PartnerUserPageImpl.readXML("password");
 		pupi.login(username,password);
         PauseUtil.waitForAjaxToComplete(4000);
 
@@ -375,8 +377,10 @@ public class MarketPlacePageImpl extends BaseTestPage<TestPage> implements Marke
 	
 	public void loginApplicationAsFM() {
 		System.out.println("Order Approval started.");
-		String username = TestBaseProvider.getTestBase().getTestData().getString("userFm");
-		String password = TestBaseProvider.getTestBase().getTestData().getString("passFm");
+/*		String username = TestBaseProvider.getTestBase().getTestData().getString("userFm");
+		String password = TestBaseProvider.getTestBase().getTestData().getString("passFm");*/
+		String username = PartnerUserPageImpl.readXML("userFm");
+		String password = PartnerUserPageImpl.readXML("passFm");
 		pupi.login(username,password);
         PauseUtil.waitForAjaxToComplete(4000);	
         System.out.println("Logged in as FM");
@@ -516,7 +520,7 @@ public class MarketPlacePageImpl extends BaseTestPage<TestPage> implements Marke
 		wf.click_element(getSelectUserMenu());
 		wf.click_element(getAccntMgnOption());
 		wf.click_element(getOrdersOption());
-		getSearchTxTBox().sendKeys(TestBaseProvider.getTestBase().getTestData().getString("orderId"));
+		getSearchTxTBox().sendKeys(PartnerUserPageImpl.readXML("orderId"));
 		wf.click_element(getSearchBtnFm());
 		String orderStatus = getOrderStatusTxt().getAttribute("title");
 		System.out.println("Order status is :"+orderStatus);

@@ -1,12 +1,6 @@
 package com.dw.automation.pages.impl;
 
 import java.awt.AWTException;
-import java.io.File;
-import java.io.IOException;
-import java.text.DateFormat;
-import java.text.SimpleDateFormat;
-import java.util.Date;
-
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.ParserConfigurationException;
@@ -15,19 +9,44 @@ import javax.xml.transform.TransformerException;
 import javax.xml.transform.TransformerFactory;
 import javax.xml.transform.dom.DOMSource;
 import javax.xml.transform.stream.StreamResult;
+import org.w3c.dom.Element;
+import java.io.File;
+import java.io.IOException;
+import javax.xml.xpath.XPath;
+import javax.xml.xpath.XPathConstants;
+import javax.xml.xpath.XPathExpressionException;
+import javax.xml.xpath.XPathFactory;
+import org.w3c.dom.Document;
+import org.w3c.dom.Node;
+
+import org.w3c.dom.NamedNodeMap;
+import org.w3c.dom.NodeList;
+import org.xml.sax.SAXException;
+import java.io.FileInputStream;
+import java.io.FileWriter;
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+import java.util.List;
+
+import javax.xml.stream.XMLEventFactory;
+import javax.xml.stream.XMLEventReader;
+import javax.xml.stream.XMLEventWriter;
+import javax.xml.stream.XMLInputFactory;
+import javax.xml.stream.XMLOutputFactory;
+import javax.xml.stream.events.XMLEvent;
 
 import org.hamcrest.Matchers;
+import org.jdom.input.SAXBuilder;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
-import org.w3c.dom.Document;
-import org.w3c.dom.Node;
-import org.w3c.dom.NodeList;
-import org.xml.sax.SAXException;
 
+
+import org.jdom.JDOMException;
 import com.dw.automation.pages.PartnerUserPage;
 import com.dw.automation.support.ConstantUtils;
 import com.dw.automation.support.PauseUtil;
@@ -39,6 +58,9 @@ import com.scholastic.torque.common.BaseTestPage;
 import com.scholastic.torque.common.TestBase;
 import com.scholastic.torque.common.TestBaseProvider;
 import com.scholastic.torque.common.TestPage;
+
+
+
 
 public class PartnerUserPageImpl extends BaseTestPage<TestPage> implements PartnerUserPage{
 	
@@ -315,6 +337,7 @@ public class PartnerUserPageImpl extends BaseTestPage<TestPage> implements Partn
 	TestBase testBase = TestBaseProvider.getTestBase();
 	public String resetPassword;
 	public static  String filepath;
+	public static String value;
 	
 	public void loginApplication() {
 		try {
@@ -477,6 +500,8 @@ public class PartnerUserPageImpl extends BaseTestPage<TestPage> implements Partn
 		//RUtils.update_xml(1,user ,pass, email, resetPassword);
 		System.out.println("Writing data to xml");
 		   writeXML(user,pass,email, resetPassword);
+		   System.out.println("User PM mail is :"+readXML(user));
+		   ;
 
 	}
 
@@ -554,6 +579,68 @@ public class PartnerUserPageImpl extends BaseTestPage<TestPage> implements Partn
 			sae.printStackTrace();
 		   }
 	}
+	
+	public static String readXML(String key) {
+		
+
+		File currentDir = new File ("src/test/resources/qa/data/redington.xml");
+		try {
+			filepath = currentDir.getCanonicalPath();
+			System.out.println("Baseapth :"+filepath);
+		
+
+					
+			}catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+					}
+		//String filepath = "/home/rle0502/Documents/code/genesis-auto/schl-rco-test-ca/src/test/resources/qa/data/redington.xml";
+		System.out.println(filepath);
+		try {
+			
+			File fXmlFile = new File(filepath);
+			DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
+			DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();
+			Document doc = dBuilder.parse(fXmlFile);
+
+			//optional, but recommended
+			//read this - http://stackoverflow.com/questions/13786607/normalization-in-dom-parsing-with-java-how-does-it-work
+			doc.getDocumentElement().normalize();
+
+			System.out.println("Root element :" + doc.getDocumentElement().getNodeName());
+
+			NodeList nList = doc.getElementsByTagName("testcase");
+
+			System.out.println("----------------------------");
+			//System.out.println("Staff id : " + eElement.getAttribute("id"));
+			for (int temp = 0; temp < nList.getLength(); temp++) {
+
+				Node nNode = nList.item(temp);
+
+				System.out.println("\nCurrent Element :" + nNode.getNodeName());
+
+				if (nNode.getNodeType() == Node.ELEMENT_NODE) {
+
+					Element eElement = (Element) nNode;
+
+					System.out.println("Staff id : " + eElement.getAttribute("id"));
+					if (eElement.getAttribute("id").equals("OrderApproval")) {
+						value = eElement.getElementsByTagName(key).item(0).getTextContent();
+						System.out.println("Key "+key+" value  : " + eElement.getElementsByTagName(key).item(0).getTextContent());
+						//System.out.println("Last Name : " + eElement.getElementsByTagName("domain").item(0).getTextContent());
+						
+					}	
+				}
+			}
+			
+		    } catch (Exception e) {
+			e.printStackTrace();
+		    }
+		return value;
+		
+}
+		
+	
 	@Override
 	public void launchApplication() {
 		testBase.getDriver().get(testBase.getString("url"));		

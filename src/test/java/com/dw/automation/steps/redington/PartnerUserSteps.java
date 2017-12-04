@@ -36,7 +36,7 @@ public class PartnerUserSteps {
     public void i_launch_the_application_as_a_site_adminuserinformation() throws Throwable {
 		System.out.println("Login started steps"+TestBaseProvider.getTestBase().getString("MailinatorURL"));
 
-        //PartnerUserPage pup = getFactory().getPartnerUserPage();
+        
         pup.loginApplication();
         PauseUtil.waitForAjaxToComplete(4000);
 

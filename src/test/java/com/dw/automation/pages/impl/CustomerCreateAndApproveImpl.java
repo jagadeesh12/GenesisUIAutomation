@@ -480,8 +480,9 @@ public class CustomerCreateAndApproveImpl extends BaseTestPage<TestPage> impleme
 		wf.click_element(getcustCreditOption());
 		System.out.println("Going to Customer credit page");
 		PauseUtil.pause(3000);
-		getsearchTxtBox().sendKeys(testBase.getTestData().getString("custdomain"));
-		System.out.println("Searching customer for domain name: "+testBase.getTestData().getString("custdomain"));
+		//getsearchTxtBox().sendKeys(testBase.getTestData().getString("custdomain"));
+		getsearchTxtBox().sendKeys(PartnerUserPageImpl.readXML("custdomain"));
+		System.out.println("Searching customer for domain name: "+PartnerUserPageImpl.readXML("custdomain"));
 		wf.click_element(getpmCustCreditSearchBtn());
 		PauseUtil.pause(3000);
 		wf.click_element(getpmCreditReqIcon());
@@ -508,8 +509,8 @@ public class CustomerCreateAndApproveImpl extends BaseTestPage<TestPage> impleme
 		wf.click_element(getcustCreditOption());
 		System.out.println("Going to Customer credit page");
 		PauseUtil.pause(3000);
-		getsearchTxtBox().sendKeys(testBase.getTestData().getString("custdomain"));
-		System.out.println("Searching customer for domain name: "+testBase.getTestData().getString("custdomain"));
+		getsearchTxtBox().sendKeys(PartnerUserPageImpl.readXML("custdomain"));
+		System.out.println("Searching customer for domain name: "+PartnerUserPageImpl.readXML("custdomain"));
 		wf.click_element(getpmCustCreditSearchBtn());
 		PauseUtil.pause(3000);
 		System.out.println("Clicking customer credit icon");
@@ -539,8 +540,8 @@ public class CustomerCreateAndApproveImpl extends BaseTestPage<TestPage> impleme
 		wf.click_element(getcustCreditOption());
 		System.out.println("Going to Customer credit page");
 		PauseUtil.pause(3000);
-		getsearchTxtBox().sendKeys(testBase.getTestData().getString("custdomain"));
-		System.out.println("Searching customer for domain name: "+testBase.getTestData().getString("custdomain"));
+		getsearchTxtBox().sendKeys(PartnerUserPageImpl.readXML("custdomain"));
+		System.out.println("Searching customer for domain name: "+PartnerUserPageImpl.readXML("custdomain"));
 		wf.click_element(getpmCustCreditSearchBtn());
 		PauseUtil.pause(3000);
 		

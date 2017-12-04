@@ -591,7 +591,7 @@ public class OrgCreateAndApproveImpl extends BaseTestPage<TestPage> implements O
 		getorgsignauthname().sendKeys(testBase.getTestData().getString("signAuth"));
 		getorgsignauthemail().sendKeys(testBase.getTestData().getString("signAuthEmail"));
 		wf.click_element(getorgfinapproval());
-		SCHUtils.selectOptionsByVisibleText(getuserfmDrpdwn(), testBase.getTestData().getString("userFm").toLowerCase());
+		SCHUtils.selectOptionsByVisibleText(getuserfmDrpdwn(), PartnerUserPageImpl.readXML("userFm").toLowerCase());
 		SCHUtils.selectOptionByvalue(getorgpartnersegmnt(), testBase.getTestData().getString("partnerSegment"));
 		//SCHUtils.selectOptionByvalue(getfinEmail(), );
 		String name = RUtils.generateName();

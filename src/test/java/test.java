@@ -22,6 +22,7 @@ import org.w3c.dom.NodeList;
 import org.xml.sax.SAXException;
 
 public class test {
+	public static String filepath;
 //    public static void main(String[] args)
 //    {
 //        System.out.println(ReadFile("/src/test/resources/qa/data/redington.xml","1"));
@@ -70,85 +71,60 @@ public class test {
 		credit = credit.split("\\.",2)[0];
 		System.out.println(credit);
 		
-		//String mainChapterNumber = chapterNumber.split("\\.", 2)[0];
 
-//		   try {
-//			 String testinput = null;
-//             String projectPath=System.getProperty("user.dir");
-//             System.out.println(projectPath);
-//             File filepathx = new File(projectPath+File.separator+"/src/test/resources/qa/data/redington.xml");
-//             
-		    
-//			   String filepath = "/home/rle0502/Documents/code/genesis-auto/schl-rco-test-ca/src/test/resources/qa/data/redington.xml";
-//			   System.out.println(filepath);
-//			DocumentBuilderFactory docFactory = DocumentBuilderFactory.newInstance();
-//			DocumentBuilder docBuilder = docFactory.newDocumentBuilder();
-//			Document doc = docBuilder.parse(filepath);
-//
-//			// Get the root element
-//			Node company = doc.getFirstChild();
-//
-//			// Get the staff element , it may not working if tag has spaces, or
-//			// whatever weird characters in front...it's better to use
-//			// getElementsByTagName() to get it directly.
-//			// Node staff = company.getFirstChild();
-//
-//			// Get the staff element by tag name directly
-//			Node staff = doc.getElementsByTagName("testcase").item(1);
-//
-//			// update staff attribute
-////			NamedNodeMap attr = staff.getAttributes();
-////			Node nodeAttr = attr.getNamedItem("id");
-////			nodeAttr.setTextContent("2");
-//
-//			// append a new node to staff
-////			Element age = doc.createElement("age");
-////			age.appendChild(doc.createTextNode("28"));
-////			staff.appendChild(age);
-//
-//			// loop the staff child node
-//			NodeList list = staff.getChildNodes();
-//
-//			for (int i = 0; i < list.getLength(); i++) {
-//
-//	                   Node node = list.item(i);
-//
-//			   // get the salary element, and update the value
-//			   if ("userPM".equals(node.getNodeName())) {
-//				node.setTextContent("pm14@qa.mailinator.com");
-//			   }
-//
-//			   
-//			   if ("password".equals(node.getNodeName())) {
-//				node.setTextContent("Pass@123");
-//			   }
-//	                   //remove firstname
-////			   if ("firstname".equals(node.getNodeName())) {
-////				staff.removeChild(node);
-////			   }
-//
-//			}
-//
-//			// write the content into xml file
-//			TransformerFactory transformerFactory = TransformerFactory.newInstance();
-//			Transformer transformer = transformerFactory.newTransformer();
-//			DOMSource source = new DOMSource(doc);
-//			StreamResult result = new StreamResult(new File(filepath));
-//			transformer.transform(source, result);
-//
-//			System.out.println("Done");
-//
-//		   } catch (ParserConfigurationException pce) {
-//			pce.printStackTrace();
-//		   } catch (TransformerException tfe) {
-//			tfe.printStackTrace();
-//		   } catch (IOException ioe) {
-//			ioe.printStackTrace();
-//		   } catch (SAXException sae) {
-//			sae.printStackTrace();
-//		   }
-//		}
-	}
+		File currentDir = new File ("src/test/resources/qa/data/redington.xml");
+		try {
+			filepath = currentDir.getCanonicalPath();
+			System.out.println("Baseapth :"+filepath);
+		
+
+					
+			}catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+					}
+		//String filepath = "/home/rle0502/Documents/code/genesis-auto/schl-rco-test-ca/src/test/resources/qa/data/redington.xml";
+		System.out.println(filepath);
+		try {
+
+			File fXmlFile = new File(filepath);
+			DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
+			DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();
+			Document doc = dBuilder.parse(fXmlFile);
+
+			//optional, but recommended
+			//read this - http://stackoverflow.com/questions/13786607/normalization-in-dom-parsing-with-java-how-does-it-work
+			doc.getDocumentElement().normalize();
+
+			System.out.println("Root element :" + doc.getDocumentElement().getNodeName());
+
+			NodeList nList = doc.getElementsByTagName("testcase");
+
+			System.out.println("----------------------------");
+			//System.out.println("Staff id : " + eElement.getAttribute("id"));
+			for (int temp = 0; temp < nList.getLength(); temp++) {
+
+				Node nNode = nList.item(temp);
+
+				System.out.println("\nCurrent Element :" + nNode.getNodeName());
+
+				if (nNode.getNodeType() == Node.ELEMENT_NODE) {
+
+					Element eElement = (Element) nNode;
+
+					System.out.println("Staff id : " + eElement.getAttribute("id"));
+					if (eElement.getAttribute("id").equals("OrderApproval")) {
+						System.out.println("First Name : " + eElement.getElementsByTagName("userPM").item(0).getTextContent());
+						System.out.println("Last Name : " + eElement.getElementsByTagName("domain").item(0).getTextContent());
+				
+					}	
+				}
+			}
+		    } catch (Exception e) {
+			e.printStackTrace();
+		    }
+		
+}
 	}
     
     
