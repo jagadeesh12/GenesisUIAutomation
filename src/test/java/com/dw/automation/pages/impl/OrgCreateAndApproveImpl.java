@@ -850,6 +850,7 @@ public class OrgCreateAndApproveImpl extends BaseTestPage<TestPage> implements O
 				break;
 				
 			case "Reject":
+				PauseUtil.pause(3000);
 				boolean statusReject = getstatusTxtPM().getAttribute("title").contains("Rejected");
 				Assert.assertTrue("PM Verification scenario failed",statusReject);
 				System.out.println("PM org reject Verification scenario ");

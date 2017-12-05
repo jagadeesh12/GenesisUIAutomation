@@ -89,8 +89,8 @@
  <classes>
    <class name="com.scholastic.torque.runner.Run" />
   </classes>
-</test> 
- -->
+</test>  -->
+
 <test name="Placing multiple order" enabled="true">
   <parameter name="driver.name" value="Firefox"/>
   <parameter name="features" value="features/Redington/MultipleOrderPlacementAndApproal.feature"/>
@@ -101,7 +101,7 @@
   </classes>
 </test> 
 
-<!-- 
+
  <test name="OrderApproval" enabled="true">
   <parameter name="driver.name" value="Firefox"/>
   <parameter name="features" value="features/Redington/OrderApproval.feature"/>
@@ -110,7 +110,7 @@
   <classes>
    <class name="com.scholastic.torque.runner.Run" />
   </classes>
-</test> -->
+</test>
 
 <test name="OrderRejection" enabled="true">
   <parameter name="driver.name" value="Firefox"/>
@@ -186,7 +186,7 @@
    <class name="com.scholastic.torque.runner.Run" />
   </classes>
 </test> 
- 
+
  <test name="OrgCreateAndCAOnhold" enabled="true">
   <parameter name="driver.name" value="Firefox"/>
   <parameter name="features" value="features/Redington/OrgCreateAndCAOnhold.feature"/>
@@ -208,6 +208,6 @@
    <class name="com.scholastic.torque.runner.Run" />
   </classes>
 </test> 
- 
+  -->
 
  </suite>
