@@ -1,96 +1,183 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="5" passed="5">
+<testng-results skipped="0" failed="0" total="10" passed="10">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="15625" started-at="2017-11-29T05:55:03Z" finished-at="2017-11-29T05:55:18Z">
+  <suite name="Automation" duration-ms="63423" started-at="2017-12-05T14:03:45Z" finished-at="2017-12-05T14:04:48Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="15625" started-at="2017-11-29T05:55:03Z" finished-at="2017-11-29T05:55:18Z">
-      <class name="com.dw.api.automation.steps.ExistingOrgApiTest">
-        <test-method status="PASS" signature="initateExtentManager()[pri:0, instance:com.dw.api.automation.steps.ExistingOrgApiTest@30b8a058]" name="initateExtentManager" is-config="true" duration-ms="298" started-at="2017-11-29T11:25:03Z" finished-at="2017-11-29T11:25:03Z">
+    <test name="Add New Partner Organisation" duration-ms="29857" started-at="2017-12-05T14:03:45Z" finished-at="2017-12-05T14:04:15Z">
+      <class name="com.dw.api.automation.steps.AddNewPartnerOrganisationTest">
+        <test-method status="PASS" signature="initateExtentManager()[pri:0, instance:com.dw.api.automation.steps.AddNewPartnerOrganisationTest@4bbfb90a]" name="initateExtentManager" is-config="true" duration-ms="297" started-at="2017-12-05T19:33:45Z" finished-at="2017-12-05T19:33:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initateExtentManager -->
-        <test-method status="PASS" signature="login_to_application()[pri:1, instance:com.dw.api.automation.steps.ExistingOrgApiTest@30b8a058]" name="login_to_application" duration-ms="4517" started-at="2017-11-29T11:25:03Z" finished-at="2017-11-29T11:25:08Z">
+        <test-method status="PASS" signature="login_to_application()[pri:1, instance:com.dw.api.automation.steps.AddNewPartnerOrganisationTest@4bbfb90a]" name="login_to_application" duration-ms="5359" started-at="2017-12-05T19:33:45Z" finished-at="2017-12-05T19:33:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login_to_application -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.dw.api.automation.steps.ExistingOrgApiTest@30b8a058]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-11-29T11:25:08Z" finished-at="2017-11-29T11:25:08Z">
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.dw.api.automation.steps.AddNewPartnerOrganisationTest@4bbfb90a]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-12-05T19:33:51Z" finished-at="2017-12-05T19:33:51Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=login_to_application status=SUCCESS method=ExistingOrgApiTest.login_to_application()[pri:1, instance:com.dw.api.automation.steps.ExistingOrgApiTest@30b8a058] output={null}]]]>
+                <![CDATA[[TestResult name=login_to_application status=SUCCESS method=AddNewPartnerOrganisationTest.login_to_application()[pri:1, instance:com.dw.api.automation.steps.AddNewPartnerOrganisationTest@4bbfb90a] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="validateExistingCustomer()[pri:3, instance:com.dw.api.automation.steps.ExistingOrgApiTest@30b8a058]" name="validateExistingCustomer" duration-ms="996" started-at="2017-11-29T11:25:08Z" finished-at="2017-11-29T11:25:09Z">
+        <test-method status="PASS" signature="enter_mpn_id()[pri:2, instance:com.dw.api.automation.steps.AddNewPartnerOrganisationTest@4bbfb90a]" name="enter_mpn_id" duration-ms="6852" started-at="2017-12-05T19:33:51Z" finished-at="2017-12-05T19:33:58Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validateExistingCustomer -->
-        <test-method status="PASS" signature="validateExistingCustomerWithWrongOrganisationName()[pri:3, instance:com.dw.api.automation.steps.ExistingOrgApiTest@30b8a058]" name="validateExistingCustomerWithWrongOrganisationName" duration-ms="625" started-at="2017-11-29T11:25:09Z" finished-at="2017-11-29T11:25:09Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateExistingCustomerWithWrongOrganisationName -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.dw.api.automation.steps.ExistingOrgApiTest@30b8a058]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-11-29T11:25:09Z" finished-at="2017-11-29T11:25:09Z">
+        </test-method> <!-- enter_mpn_id -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.dw.api.automation.steps.AddNewPartnerOrganisationTest@4bbfb90a]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-12-05T19:33:58Z" finished-at="2017-12-05T19:33:58Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=validateExistingCustomer status=SUCCESS method=ExistingOrgApiTest.validateExistingCustomer()[pri:3, instance:com.dw.api.automation.steps.ExistingOrgApiTest@30b8a058] output={null}]]]>
+                <![CDATA[[TestResult name=enter_mpn_id status=SUCCESS method=AddNewPartnerOrganisationTest.enter_mpn_id()[pri:2, instance:com.dw.api.automation.steps.AddNewPartnerOrganisationTest@4bbfb90a] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.dw.api.automation.steps.ExistingOrgApiTest@30b8a058]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-11-29T11:25:09Z" finished-at="2017-11-29T11:25:09Z">
+        <test-method status="PASS" signature="addNewPartnerOrganisation()[pri:3, instance:com.dw.api.automation.steps.AddNewPartnerOrganisationTest@4bbfb90a]" name="addNewPartnerOrganisation" duration-ms="8742" started-at="2017-12-05T19:33:58Z" finished-at="2017-12-05T19:34:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewPartnerOrganisation -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.dw.api.automation.steps.AddNewPartnerOrganisationTest@4bbfb90a]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-12-05T19:34:06Z" finished-at="2017-12-05T19:34:06Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=validateExistingCustomerWithWrongOrganisationName status=SUCCESS method=ExistingOrgApiTest.validateExistingCustomerWithWrongOrganisationName()[pri:3, instance:com.dw.api.automation.steps.ExistingOrgApiTest@30b8a058] output={null}]]]>
+                <![CDATA[[TestResult name=addNewPartnerOrganisation status=SUCCESS method=AddNewPartnerOrganisationTest.addNewPartnerOrganisation()[pri:3, instance:com.dw.api.automation.steps.AddNewPartnerOrganisationTest@4bbfb90a] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="validateExistingCustomerWithWrongCompanyCode()[pri:4, instance:com.dw.api.automation.steps.ExistingOrgApiTest@30b8a058]" name="validateExistingCustomerWithWrongCompanyCode" duration-ms="2094" started-at="2017-11-29T11:25:09Z" finished-at="2017-11-29T11:25:11Z">
+        <test-method status="PASS" signature="orgApproveByBaM()[pri:4, instance:com.dw.api.automation.steps.AddNewPartnerOrganisationTest@4bbfb90a]" name="orgApproveByBaM" duration-ms="3309" started-at="2017-12-05T19:34:06Z" finished-at="2017-12-05T19:34:10Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validateExistingCustomerWithWrongCompanyCode -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.dw.api.automation.steps.ExistingOrgApiTest@30b8a058]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-11-29T11:25:11Z" finished-at="2017-11-29T11:25:11Z">
+        </test-method> <!-- orgApproveByBaM -->
+        <test-method status="PASS" signature="orgBamSearch()[pri:5, instance:com.dw.api.automation.steps.AddNewPartnerOrganisationTest@4bbfb90a]" name="orgBamSearch" duration-ms="1086" started-at="2017-12-05T19:34:10Z" finished-at="2017-12-05T19:34:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orgBamSearch -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.dw.api.automation.steps.AddNewPartnerOrganisationTest@4bbfb90a]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-12-05T19:34:10Z" finished-at="2017-12-05T19:34:10Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=validateExistingCustomerWithWrongCompanyCode status=SUCCESS method=ExistingOrgApiTest.validateExistingCustomerWithWrongCompanyCode()[pri:4, instance:com.dw.api.automation.steps.ExistingOrgApiTest@30b8a058] output={null}]]]>
+                <![CDATA[[TestResult name=orgApproveByBaM status=SUCCESS method=AddNewPartnerOrganisationTest.orgApproveByBaM()[pri:4, instance:com.dw.api.automation.steps.AddNewPartnerOrganisationTest@4bbfb90a] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="editExistingCustomer()[pri:5, instance:com.dw.api.automation.steps.ExistingOrgApiTest@30b8a058]" name="editExistingCustomer" duration-ms="6736" started-at="2017-11-29T11:25:11Z" finished-at="2017-11-29T11:25:18Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- editExistingCustomer -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.dw.api.automation.steps.ExistingOrgApiTest@30b8a058]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-11-29T11:25:18Z" finished-at="2017-11-29T11:25:18Z">
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.dw.api.automation.steps.AddNewPartnerOrganisationTest@4bbfb90a]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-12-05T19:34:11Z" finished-at="2017-12-05T19:34:11Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=editExistingCustomer status=SUCCESS method=ExistingOrgApiTest.editExistingCustomer()[pri:5, instance:com.dw.api.automation.steps.ExistingOrgApiTest@30b8a058] output={null}]]]>
+                <![CDATA[[TestResult name=orgBamSearch status=SUCCESS method=AddNewPartnerOrganisationTest.orgBamSearch()[pri:5, instance:com.dw.api.automation.steps.AddNewPartnerOrganisationTest@4bbfb90a] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="tear()[pri:0, instance:com.dw.api.automation.steps.ExistingOrgApiTest@30b8a058]" name="tear" is-config="true" duration-ms="327" started-at="2017-11-29T11:25:18Z" finished-at="2017-11-29T11:25:18Z">
+        <test-method status="PASS" signature="loginToCAuser()[pri:6, instance:com.dw.api.automation.steps.AddNewPartnerOrganisationTest@4bbfb90a]" name="loginToCAuser" duration-ms="3521" started-at="2017-12-05T19:34:11Z" finished-at="2017-12-05T19:34:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToCAuser -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.dw.api.automation.steps.AddNewPartnerOrganisationTest@4bbfb90a]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-12-05T19:34:14Z" finished-at="2017-12-05T19:34:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginToCAuser status=SUCCESS method=AddNewPartnerOrganisationTest.loginToCAuser()[pri:6, instance:com.dw.api.automation.steps.AddNewPartnerOrganisationTest@4bbfb90a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="orgApprovalByCA()[pri:7, instance:com.dw.api.automation.steps.AddNewPartnerOrganisationTest@4bbfb90a]" name="orgApprovalByCA" duration-ms="344" started-at="2017-12-05T19:34:14Z" finished-at="2017-12-05T19:34:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orgApprovalByCA -->
+        <test-method status="PASS" signature="tear()[pri:0, instance:com.dw.api.automation.steps.AddNewPartnerOrganisationTest@4bbfb90a]" name="tear" is-config="true" duration-ms="321" started-at="2017-12-05T19:34:15Z" finished-at="2017-12-05T19:34:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tear -->
-      </class> <!-- com.dw.api.automation.steps.ExistingOrgApiTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.dw.api.automation.steps.AddNewPartnerOrganisationTest@4bbfb90a]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-12-05T19:34:15Z" finished-at="2017-12-05T19:34:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=orgApprovalByCA status=SUCCESS method=AddNewPartnerOrganisationTest.orgApprovalByCA()[pri:7, instance:com.dw.api.automation.steps.AddNewPartnerOrganisationTest@4bbfb90a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.dw.api.automation.steps.AddNewPartnerOrganisationTest -->
+    </test> <!-- Add New Partner Organisation -->
+    <test name="Use Case 2:Customer on boarding" duration-ms="33551" started-at="2017-12-05T14:04:15Z" finished-at="2017-12-05T14:04:48Z">
+      <class name="com.dw.api.automation.steps.CustomerTest">
+        <test-method status="PASS" signature="initateExtentManager()[pri:0, instance:com.dw.api.automation.steps.CustomerTest@6895a785]" name="initateExtentManager" is-config="true" duration-ms="0" started-at="2017-12-05T19:34:15Z" finished-at="2017-12-05T19:34:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initateExtentManager -->
+        <test-method status="PASS" signature="login_to_application()[pri:1, instance:com.dw.api.automation.steps.CustomerTest@6895a785]" name="login_to_application" duration-ms="3441" started-at="2017-12-05T19:34:15Z" finished-at="2017-12-05T19:34:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_to_application -->
+        <test-method status="PASS" signature="getPartnerEntityid()[pri:2, instance:com.dw.api.automation.steps.CustomerTest@6895a785]" name="getPartnerEntityid" duration-ms="797" started-at="2017-12-05T19:34:18Z" finished-at="2017-12-05T19:34:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPartnerEntityid -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.dw.api.automation.steps.CustomerTest@6895a785]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-12-05T19:34:18Z" finished-at="2017-12-05T19:34:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=login_to_application status=SUCCESS method=CustomerTest.login_to_application()[pri:1, instance:com.dw.api.automation.steps.CustomerTest@6895a785] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.dw.api.automation.steps.CustomerTest@6895a785]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-12-05T19:34:19Z" finished-at="2017-12-05T19:34:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=getPartnerEntityid status=SUCCESS method=CustomerTest.getPartnerEntityid()[pri:2, instance:com.dw.api.automation.steps.CustomerTest@6895a785] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="createNewCustomer()[pri:3, instance:com.dw.api.automation.steps.CustomerTest@6895a785]" name="createNewCustomer" duration-ms="29172" started-at="2017-12-05T19:34:19Z" finished-at="2017-12-05T19:34:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewCustomer -->
+        <test-method status="PASS" signature="tear()[pri:0, instance:com.dw.api.automation.steps.CustomerTest@6895a785]" name="tear" is-config="true" duration-ms="125" started-at="2017-12-05T19:34:48Z" finished-at="2017-12-05T19:34:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tear -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.dw.api.automation.steps.CustomerTest@6895a785]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-12-05T19:34:48Z" finished-at="2017-12-05T19:34:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createNewCustomer status=SUCCESS method=CustomerTest.createNewCustomer()[pri:3, instance:com.dw.api.automation.steps.CustomerTest@6895a785] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.dw.api.automation.steps.CustomerTest -->
+    </test> <!-- Use Case 2:Customer on boarding -->
+  </suite> <!-- Automation -->
 </testng-results>

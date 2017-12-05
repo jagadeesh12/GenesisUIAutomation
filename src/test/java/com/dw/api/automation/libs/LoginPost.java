@@ -23,17 +23,19 @@ public class LoginPost {
                           .post(ClientResponse.class,postparm);
         //       hMap = response.getHeaders();
               
-               
+               System.out.println("Output from Server .... \n");
+               System.out.println("Response="+response.toString());
+               System.out.println("Response status="+response.getStatus());
                if (response.getStatus() != 200) {
                    throw new RuntimeException("Failed : HTTP error code : "
                         + response.getStatus());
                }
-               System.out.println("Output from Server .... \n");
+               
            
               
                String output = response.getEntity(String.class);
                response.getProperties();
-               System.out.println(output);
+               
 
              String tempJson =output;
 

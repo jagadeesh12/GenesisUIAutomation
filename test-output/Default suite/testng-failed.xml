@@ -3,14 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.dw.api.automation.steps.AddNewPartnerOrganisationTest">
+      <class name="com.dw.api.automation.steps.CustomerTest">
         <methods>
-          <include name="tear"/>
-          <include name="addNewPartnerOrganisation"/>
-          <include name="afterMethod"/>
+          <include name="createNewCustomer"/>
           <include name="initateExtentManager"/>
+          <include name="afterMethod"/>
         </methods>
-      </class> <!-- com.dw.api.automation.steps.AddNewPartnerOrganisationTest -->
+      </class> <!-- com.dw.api.automation.steps.CustomerTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

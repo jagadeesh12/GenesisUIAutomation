@@ -23,10 +23,12 @@ public class Post {
 	                WebResource webResource = client
 	                   .resource(posturl);
 	                 response = webResource.type("application/json")
+	                		 .cookie(newCookie)
 	                           .post(ClientResponse.class,postparm);
 	              //  hMap = response.getHeaders();
 	               
-	                
+	                 System.out.println("Response Header ="+  response.toString());
+	             	System.out.println("post staus"+response.getStatus());
 	                if (response.getStatus() != 200) {
 	                    throw new RuntimeException("Failed : HTTP error code : "
 	                         + response.getStatus());
@@ -45,7 +47,7 @@ public class Post {
 	
 		
 
-	System.out.println("Response Header ="+  response.getHeaders());
+	System.out.println("Response Header ="+  response.toString());
 	System.out.println("post staus"+response.getStatus());
 
 	/*
@@ -101,17 +103,22 @@ public class Post {
                      .header("Content-Type", "multipart/form-data")
                      .cookie(newCookie)
                      .type(MediaType.MULTIPART_FORM_DATA)
+                     
                      .post(ClientResponse.class,formData);
+          			   
+          			 System.out.println("Output from Server .... \n");
+              		 System.out.println("post staus with form data"+response.toString());
+                 System.out.println("Response Header ="+  response.getHeaders());
+                 System.out.println("post staus"+response.getStatus());
           		   } catch(Exception e) {
           			   System.out.println("Error is having");
           			   System.out.println(e);
           		   }
          
-             System.out.println("Response Header ="+  response.getHeaders());
-             System.out.println("post staus"+response.getStatus());
-             System.out.println("post staus"+response.toString());
+          		
+             
 
-             System.out.println("Output from Server .... \n");
+            
              
              
              String output = response.getEntity(String.class);

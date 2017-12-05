@@ -416,7 +416,14 @@
 			<groupId>org.apache.poi</groupId>
 			<artifactId>poi-ooxml</artifactId>
 			<version>3.15-beta1</version>
+	
 		</dependency>
+		   <dependency>
+  			<groupId>com.codoid.products</groupId>
+  				<artifactId>fillo</artifactId>
+ 				 <version>1.16</version>
+				</dependency>
+		
 		<!-- http://mvnrepository.com/artifact/org.apache.poi/poi-ooxml-schemas -->
 		<dependency>
 			<groupId>org.apache.poi</groupId>
@@ -487,6 +494,13 @@
       <version>2.41.2</version>
       <scope>compile</scope>
     </dependency>
+    
+    <dependency>
+                    <groupId>org.json</groupId>
+                    <artifactId>json</artifactId>
+                    <version>20160810</version>
+             </dependency>
+    
   </dependencies>
 
 	

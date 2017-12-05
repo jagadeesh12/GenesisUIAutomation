@@ -5,26 +5,13 @@
     <classes>
       <class name="com.dw.api.automation.steps.AddNewPartnerOrganisationTest">
         <methods>
+          <include name="orgApprovalByCA"/>
+          <include name="orgBamSearch"/>
           <include name="tear"/>
-          <include name="addNewPartnerOrganisation"/>
           <include name="afterMethod"/>
           <include name="initateExtentManager"/>
         </methods>
       </class> <!-- com.dw.api.automation.steps.AddNewPartnerOrganisationTest -->
-      <class name="com.dw.api.automation.steps.ExistingOrgApiTest">
-        <methods>
-          <include name="initateExtentManager"/>
-          <include name="afterMethod"/>
-          <include name="tear"/>
-        </methods>
-      </class> <!-- com.dw.api.automation.steps.ExistingOrgApiTest -->
-      <class name="com.dw.api.automation.steps.ValidateMpnTest">
-        <methods>
-          <include name="tear"/>
-          <include name="initateExtentManager"/>
-          <include name="afterMethod"/>
-        </methods>
-      </class> <!-- com.dw.api.automation.steps.ValidateMpnTest -->
     </classes>
   </test> <!-- Add New Partner Organisation(failed) -->
 </suite> <!-- Failed suite [Automation] -->

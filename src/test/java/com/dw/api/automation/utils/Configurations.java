@@ -1,0 +1,92 @@
+package com.dw.api.automation.utils;
+
+import java.io.File;
+import java.io.FileOutputStream;
+import java.io.InputStream;
+import java.io.OutputStream;
+import java.util.Properties;
+
+
+
+
+
+public class Configurations {
+
+	private String browsertype = null;
+
+	public String getBrowserName() {
+		browsertype = getProperty("BrowserName");
+		return browsertype;
+	}
+
+	public String getLibraryPath() {
+		browsertype = getProperty("LibraryFolder");
+		return browsertype;
+	}
+
+	public String getProperty(String Property) {
+		String propertyValue = null;
+		Properties properties = new Properties();
+		InputStream is = Configurations.class
+				.getResourceAsStream("/DriverConfigurations.properties");
+		try {
+			properties.load(is);
+			propertyValue = properties.getProperty(Property);
+		} catch (Exception e) {
+			e.printStackTrace();
+			System.out.println("Could not find the properties file " + e.toString());
+		}
+		return propertyValue;
+	}
+	
+	
+	public String getPropertyfromServices(String Property) {
+		String propertyValue = null;
+		Properties properties = new Properties();
+		InputStream is = Configurations.class
+				.getResourceAsStream("/services.properties");
+		try {
+			properties.load(is);
+			propertyValue = properties.getProperty(Property);
+		} catch (Exception e) {
+			e.printStackTrace();
+			System.out.println("Could not find the properties file " + e.toString());
+		}
+		return propertyValue;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	public void setProperty(String key, String value) {
+		InputStream is = Configurations.class
+				.getResourceAsStream("/DriverConfigurations.properties");
+		Properties properties = new Properties();
+		try {
+			properties.load(is);
+
+		} catch (Exception e) {
+			e.printStackTrace();
+			System.out.println("Could not find the properties file " + e.toString());
+		}
+
+		try {
+			properties.setProperty(key, value);
+			File f = new File("/DriverConfigurations.properties");
+			OutputStream out = new FileOutputStream(f);
+			properties.store(out, "Temporary properties for widget details");
+		} catch (Exception e) {
+			e.printStackTrace();
+			System.out.println("Could not set the properties  " + e.toString());
+		}
+	}
+
+	
+}

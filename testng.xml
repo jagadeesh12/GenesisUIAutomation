@@ -1,12 +1,17 @@
 <suite name="Automation" verbose="1">
-
+ 
 <test name="Add New Partner Organisation">
 		<classes>
+		
 			<class name="com.dw.api.automation.steps.AddNewPartnerOrganisationTest" />
 			<methods>
 				<include name="login_to_application"/>
 				<include name="enter_mpn_id" />
 				<include name="addNewPartnerOrganisation"/>
+				<include name="orgApproveByBaM"/>
+				<include name="orgBamSearch"/>
+				<include name="loginToCAuser"/>
+				<include name="orgApprovalByCA"/>
 			</methods>
 		</classes>
 </test>
@@ -15,16 +20,22 @@
 
 
 
-	<test name="Use Case 1a:Validate mpn">
+	
+	
+
+<test name="Use Case 2:Customer on boarding">
 		<classes>
-			<class name="com.dw.api.automation.steps.ValidateMpnTest" />
+			<class name="com.dw.api.automation.steps.CustomerTest" />
 			<methods>
 				<include name="login_to_application"/>
-				<include name="enter_mpn_id" />
+				<include name="getPartnerEntityid" />
+				<include name="createNewCustomer" />
 				</methods>
 		</classes>
 </test>
 
+
+<!-- 
 <test name="validate Existing Custome">
 <classes>
 			<class name="com.dw.api.automation.steps.ExistingOrgApiTest" />
@@ -38,5 +49,7 @@
 			</methods>
 		</classes>
 	</test>
+-->
+
 
 </suite> 
