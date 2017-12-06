@@ -21,7 +21,13 @@ public class FilloExcelUtility {
 		Connection connection = null;
 		try {
 		//	File file=new File("F:\\auto\\GenesisUIAutomation\\src\\test\\resources\\files\\ConfigSheet.xlsx");
-			connection = fillo.getConnection("F:\\auto\\GenesisUIAutomation\\src\\test\\resources\\files\\ConfigSheet.xlsx");
+			
+			//for windows
+			//connection = fillo.getConnection("F:\\auto\\GenesisUIAutomation\\src\\test\\resources\\files\\ConfigSheet.xlsx");
+			
+			//for linux
+			connection = fillo.getConnection("/var/lib/jenkins/jobs/Genesis_API_Automation/workspace/src/test/resources/files/ConfigSheet.xlsx");
+			
 		} catch (FilloException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
@@ -70,7 +76,10 @@ public class FilloExcelUtility {
 		
 		
 		try {
-			connection = fillo.getConnection("F:\\auto\\GenesisUIAutomation\\src\\test\\resources\\files\\ConfigSheet.xlsx");
+			//for windows
+		//	connection = fillo.getConnection("F:\\auto\\GenesisUIAutomation\\src\\test\\resources\\files\\ConfigSheet.xlsx");
+			//for linux
+			connection = fillo.getConnection("/var/lib/jenkins/jobs/Genesis_API_Automation/workspace/src/test/resources/files/ConfigSheet.xlsx");
 		} catch (FilloException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();

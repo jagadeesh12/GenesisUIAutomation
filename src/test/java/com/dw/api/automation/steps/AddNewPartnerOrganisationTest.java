@@ -113,7 +113,12 @@ public class AddNewPartnerOrganisationTest {
 		String addNewPartnerOrganisationUrl = testdatamap.get("addNewPartnerOrganisationUrl");
 		System.out.println("addNewPartnerOrganisationUrl=" + addNewPartnerOrganisationUrl);
 		// multivalued form data call
-		File initialFile = new File("C:/Users/rle0517/Desktop/6.jpg");
+		
+		//for windows
+		//File initialFile = new File("C:/Users/rle0517/Desktop/6.jpg");
+		
+		//for linux
+		File initialFile = new File("/var/lib/jenkins/jobs/Genesis_API_Automation/workspace/src/test/resources/files/6.jpg");
 		InputStream targetStream1 = new FileInputStream(initialFile);
 		InputStream targetStream2 = new FileInputStream(initialFile);
 		InputStream targetStream3 = new FileInputStream(initialFile);
