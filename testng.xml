@@ -30,6 +30,10 @@
 				<include name="login_to_application"/>
 				<include name="getPartnerEntityid" />
 				<include name="createNewCustomer" />
+				<include name="loginByBaM" />
+				<include name="getCustomerId" />
+				<include name="approveCustomerFromBam" />
+				
 				</methods>
 		</classes>
 </test>

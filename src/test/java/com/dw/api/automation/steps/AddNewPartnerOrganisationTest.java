@@ -57,7 +57,7 @@ public class AddNewPartnerOrganisationTest {
 	@Test(priority = 1)
 	public void login_to_application() {
 		testdatamap = FilloExcelUtility.readExcel();
-		test = ExtentManager.loggerInstance(extent, " Test case: Add NewPartner Organisation");
+		test = ExtentManager.loggerInstance(extent, " Test case: Add NewPartnerOrganisation");
 
 		try {
 			CertificateHandle.IgnoreSSLClient();
