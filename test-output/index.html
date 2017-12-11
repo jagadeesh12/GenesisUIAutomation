@@ -53,7 +53,7 @@
                 </li>
                 <li>
                   <a href="#" class="navigator-link " panel-name="testlist-Automation">
-                    <span class="test-stats">2 tests</span>
+                    <span class="test-stats">3 tests</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -90,7 +90,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">13 methods,   13 passed</span>
+                    <span class="method-stats">17 methods,   17 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -99,6 +99,16 @@
                       <a href="#" panel-name="suite-Automation" class="show-methods passed suite-Automation"> (show)</a> <!-- show-methods passed suite-Automation -->
                     </span>
                     <div class="method-list-content passed suite-Automation">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Automation" title="com.dw.api.automation.steps.MarketPlaceTest" hash-for-method="addAddOnwithFourLicenses">addAddOnwithFourLicenses</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Automation" title="com.dw.api.automation.steps.MarketPlaceTest" hash-for-method="addBaseProductWithThreeLicenses">addBaseProductWithThreeLicenses</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Automation" title="com.dw.api.automation.steps.AddNewPartnerOrganisationTest" hash-for-method="addNewPartnerOrganisation">addNewPartnerOrganisation</a> <!-- method navigator-link -->
@@ -151,6 +161,11 @@
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Automation" title="com.dw.api.automation.steps.MarketPlaceTest" hash-for-method="login_to_application">login_to_application</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Automation" title="com.dw.api.automation.steps.AddNewPartnerOrganisationTest" hash-for-method="orgApprovalByCA">orgApprovalByCA</a> <!-- method navigator-link -->
                       </span>
                       <br/>
@@ -162,6 +177,11 @@
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Automation" title="com.dw.api.automation.steps.AddNewPartnerOrganisationTest" hash-for-method="orgBamSearch">orgBamSearch</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Automation" title="com.dw.api.automation.steps.MarketPlaceTest" hash-for-method="searchBaseProduct">searchBaseProduct</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Automation -->
@@ -176,6 +196,42 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Automation" class="panel Automation">
+          <div class="suite-Automation-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.dw.api.automation.steps.MarketPlaceTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addAddOnwithFourLicenses">
+                  </a> <!-- addAddOnwithFourLicenses -->
+                  <span class="method-name">addAddOnwithFourLicenses</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addBaseProductWithThreeLicenses">
+                  </a> <!-- addBaseProductWithThreeLicenses -->
+                  <span class="method-name">addBaseProductWithThreeLicenses</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="login_to_application">
+                  </a> <!-- login_to_application -->
+                  <span class="method-name">login_to_application</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchBaseProduct">
+                  </a> <!-- searchBaseProduct -->
+                  <span class="method-name">searchBaseProduct</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Automation-class-passed -->
           <div class="suite-Automation-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -322,6 +378,18 @@
       &lt;/class&gt; &lt;!-- com.dw.api.automation.steps.CustomerTest --&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Use Case 2:Customer on boarding --&gt;
+  &lt;test name=&quot;Use Case 3:Customer Market place&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.dw.api.automation.steps.MarketPlaceTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;login_to_application&quot;/&gt;
+          &lt;include name=&quot;searchBaseProduct&quot;/&gt;
+          &lt;include name=&quot;addBaseProductWithThreeLicenses&quot;/&gt;
+          &lt;include name=&quot;addAddOnwithFourLicenses&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.dw.api.automation.steps.MarketPlaceTest --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Use Case 3:Customer Market place --&gt;
 &lt;/suite&gt; &lt;!-- Automation --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -337,6 +405,9 @@
               </li>
               <li>
                 <span class="test-name">Use Case 2:Customer on boarding (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Use Case 3:Customer Market place (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -362,59 +433,75 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(13);
+data.addRows(17);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'createNewCustomer')
 data.setCell(0, 2, 'com.dw.api.automation.steps.CustomerTest')
-data.setCell(0, 3, 30836);
+data.setCell(0, 3, 39391);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'enter_mpn_id')
-data.setCell(1, 2, 'com.dw.api.automation.steps.AddNewPartnerOrganisationTest')
-data.setCell(1, 3, 7276);
+data.setCell(1, 1, 'addBaseProductWithThreeLicenses')
+data.setCell(1, 2, 'com.dw.api.automation.steps.MarketPlaceTest')
+data.setCell(1, 3, 9194);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'addNewPartnerOrganisation')
+data.setCell(2, 1, 'enter_mpn_id')
 data.setCell(2, 2, 'com.dw.api.automation.steps.AddNewPartnerOrganisationTest')
-data.setCell(2, 3, 7245);
+data.setCell(2, 3, 8298);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'login_to_application')
+data.setCell(3, 1, 'addNewPartnerOrganisation')
 data.setCell(3, 2, 'com.dw.api.automation.steps.AddNewPartnerOrganisationTest')
-data.setCell(3, 3, 5559);
+data.setCell(3, 3, 7882);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'loginToCAuser')
+data.setCell(4, 1, 'login_to_application')
 data.setCell(4, 2, 'com.dw.api.automation.steps.AddNewPartnerOrganisationTest')
-data.setCell(4, 3, 3477);
+data.setCell(4, 3, 6547);
 data.setCell(5, 0, 5)
 data.setCell(5, 1, 'login_to_application')
 data.setCell(5, 2, 'com.dw.api.automation.steps.CustomerTest')
-data.setCell(5, 3, 3450);
+data.setCell(5, 3, 4266);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'orgApproveByBaM')
-data.setCell(6, 2, 'com.dw.api.automation.steps.AddNewPartnerOrganisationTest')
-data.setCell(6, 3, 3358);
+data.setCell(6, 1, 'login_to_application')
+data.setCell(6, 2, 'com.dw.api.automation.steps.MarketPlaceTest')
+data.setCell(6, 3, 3729);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'loginByBaM')
-data.setCell(7, 2, 'com.dw.api.automation.steps.CustomerTest')
-data.setCell(7, 3, 3093);
+data.setCell(7, 1, 'orgApproveByBaM')
+data.setCell(7, 2, 'com.dw.api.automation.steps.AddNewPartnerOrganisationTest')
+data.setCell(7, 3, 3664);
 data.setCell(8, 0, 8)
-data.setCell(8, 1, 'orgBamSearch')
-data.setCell(8, 2, 'com.dw.api.automation.steps.AddNewPartnerOrganisationTest')
-data.setCell(8, 3, 1059);
+data.setCell(8, 1, 'loginByBaM')
+data.setCell(8, 2, 'com.dw.api.automation.steps.CustomerTest')
+data.setCell(8, 3, 3662);
 data.setCell(9, 0, 9)
-data.setCell(9, 1, 'getPartnerEntityid')
-data.setCell(9, 2, 'com.dw.api.automation.steps.CustomerTest')
-data.setCell(9, 3, 441);
+data.setCell(9, 1, 'loginToCAuser')
+data.setCell(9, 2, 'com.dw.api.automation.steps.AddNewPartnerOrganisationTest')
+data.setCell(9, 3, 3657);
 data.setCell(10, 0, 10)
-data.setCell(10, 1, 'orgApprovalByCA')
-data.setCell(10, 2, 'com.dw.api.automation.steps.AddNewPartnerOrganisationTest')
-data.setCell(10, 3, 344);
+data.setCell(10, 1, 'addAddOnwithFourLicenses')
+data.setCell(10, 2, 'com.dw.api.automation.steps.MarketPlaceTest')
+data.setCell(10, 3, 1416);
 data.setCell(11, 0, 11)
-data.setCell(11, 1, 'approveCustomerFromBam')
-data.setCell(11, 2, 'com.dw.api.automation.steps.CustomerTest')
-data.setCell(11, 3, 344);
+data.setCell(11, 1, 'orgBamSearch')
+data.setCell(11, 2, 'com.dw.api.automation.steps.AddNewPartnerOrganisationTest')
+data.setCell(11, 3, 1017);
 data.setCell(12, 0, 12)
-data.setCell(12, 1, 'getCustomerId')
+data.setCell(12, 1, 'getPartnerEntityid')
 data.setCell(12, 2, 'com.dw.api.automation.steps.CustomerTest')
-data.setCell(12, 3, 328);
+data.setCell(12, 3, 921);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'searchBaseProduct')
+data.setCell(13, 2, 'com.dw.api.automation.steps.MarketPlaceTest')
+data.setCell(13, 3, 452);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'approveCustomerFromBam')
+data.setCell(14, 2, 'com.dw.api.automation.steps.CustomerTest')
+data.setCell(14, 3, 368);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'orgApprovalByCA')
+data.setCell(15, 2, 'com.dw.api.automation.steps.AddNewPartnerOrganisationTest')
+data.setCell(15, 3, 356);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'getCustomerId')
+data.setCell(16, 2, 'com.dw.api.automation.steps.CustomerTest')
+data.setCell(16, 3, 350);
 window.suiteTableData['Automation']= { tableData: data, tableDiv: 'times-div-Automation'}
 return data;
 }
@@ -452,122 +539,165 @@ return data;
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">login_to_application</span>
-                <span class="method-start">293 ms</span>
+                <span class="method-start">301 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod([TestResult name=login_to_application status=SUCCESS method=AddNewPartnerOrganisationTest.login_to_a...)</span>
-                <span class="method-start">5852 ms</span>
+                <span class="method-start">6854 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
                 <span class="method-name">enter_mpn_id</span>
-                <span class="method-start">5852 ms</span>
+                <span class="method-start">6856 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod([TestResult name=enter_mpn_id status=SUCCESS method=AddNewPartnerOrganisationTest.enter_mpn_id()[pri...)</span>
-                <span class="method-start">13128 ms</span>
+                <span class="method-start">15155 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
                 <span class="method-name">addNewPartnerOrganisation</span>
-                <span class="method-start">13128 ms</span>
+                <span class="method-start">15156 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod([TestResult name=addNewPartnerOrganisation status=SUCCESS method=AddNewPartnerOrganisationTest.addNe...)</span>
-                <span class="method-start">20373 ms</span>
+                <span class="method-start">23040 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
                 <span class="method-name">orgApproveByBaM</span>
-                <span class="method-start">20373 ms</span>
+                <span class="method-start">23041 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod([TestResult name=orgApproveByBaM status=SUCCESS method=AddNewPartnerOrganisationTest.orgApproveByBaM...)</span>
-                <span class="method-start">23732 ms</span>
+                <span class="method-start">26707 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
                 <span class="method-name">orgBamSearch</span>
-                <span class="method-start">23732 ms</span>
+                <span class="method-start">26708 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod([TestResult name=orgBamSearch status=SUCCESS method=AddNewPartnerOrganisationTest.orgBamSearch()[pri...)</span>
-                <span class="method-start">24792 ms</span>
+                <span class="method-start">27727 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
                 <span class="method-name">loginToCAuser</span>
-                <span class="method-start">24792 ms</span>
+                <span class="method-start">27728 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod([TestResult name=loginToCAuser status=SUCCESS method=AddNewPartnerOrganisationTest.loginToCAuser()[p...)</span>
-                <span class="method-start">28269 ms</span>
+                <span class="method-start">31391 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
                 <span class="method-name">orgApprovalByCA</span>
-                <span class="method-start">28269 ms</span>
+                <span class="method-start">31392 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod([TestResult name=orgApprovalByCA status=SUCCESS method=AddNewPartnerOrganisationTest.orgApprovalByCA...)</span>
-                <span class="method-start">28628 ms</span>
+                <span class="method-start">31750 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">tear</span>
-                <span class="method-start">28628 ms</span>
+                <span class="method-start">31751 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.dw.api.automation.steps.CustomerTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">initateExtentManager</span>
-                <span class="method-start">28961 ms</span>
+                <span class="method-start">32114 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">login_to_application</span>
-                <span class="method-start">28961 ms</span>
+                <span class="method-start">32114 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod([TestResult name=login_to_application status=SUCCESS method=CustomerTest.login_to_application()[pri:...)</span>
-                <span class="method-start">32411 ms</span>
+                <span class="method-start">36387 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
                 <span class="method-name">getPartnerEntityid</span>
-                <span class="method-start">32411 ms</span>
+                <span class="method-start">36390 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod([TestResult name=getPartnerEntityid status=SUCCESS method=CustomerTest.getPartnerEntityid()[pri:2, i...)</span>
-                <span class="method-start">32867 ms</span>
+                <span class="method-start">37316 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
                 <span class="method-name">createNewCustomer</span>
-                <span class="method-start">32867 ms</span>
+                <span class="method-start">37317 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod([TestResult name=createNewCustomer status=SUCCESS method=CustomerTest.createNewCustomer()[pri:3, ins...)</span>
-                <span class="method-start">63703 ms</span>
+                <span class="method-start">76710 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
                 <span class="method-name">loginByBaM</span>
-                <span class="method-start">63703 ms</span>
+                <span class="method-start">76711 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod([TestResult name=loginByBaM status=SUCCESS method=CustomerTest.loginByBaM()[pri:4, instance:com.dw.a...)</span>
-                <span class="method-start">66797 ms</span>
+                <span class="method-start">80375 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
                 <span class="method-name">getCustomerId</span>
-                <span class="method-start">66797 ms</span>
+                <span class="method-start">80376 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod([TestResult name=getCustomerId status=SUCCESS method=CustomerTest.getCustomerId()[pri:5, instance:co...)</span>
-                <span class="method-start">67125 ms</span>
+                <span class="method-start">80728 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
                 <span class="method-name">approveCustomerFromBam</span>
-                <span class="method-start">67125 ms</span>
+                <span class="method-start">80729 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod([TestResult name=approveCustomerFromBam status=SUCCESS method=CustomerTest.approveCustomerFromBam()[...)</span>
-                <span class="method-start">67484 ms</span>
+                <span class="method-start">81098 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">tear</span>
-                <span class="method-start">67484 ms</span>
+                <span class="method-start">81099 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.dw.api.automation.steps.MarketPlaceTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">initateExtentManager</span>
+                <span class="method-start">81169 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">login_to_application</span>
+                <span class="method-start">81171 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=login_to_application status=SUCCESS method=MarketPlaceTest.login_to_application()[p...)</span>
+                <span class="method-start">84901 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">searchBaseProduct</span>
+                <span class="method-start">84902 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=searchBaseProduct status=SUCCESS method=MarketPlaceTest.searchBaseProduct()[pri:2, ...)</span>
+                <span class="method-start">85358 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">addBaseProductWithThreeLicenses</span>
+                <span class="method-start">85359 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=addBaseProductWithThreeLicenses status=SUCCESS method=MarketPlaceTest.addBaseProduc...)</span>
+                <span class="method-start">94557 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">addAddOnwithFourLicenses</span>
+                <span class="method-start">94558 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=addAddOnwithFourLicenses status=SUCCESS method=MarketPlaceTest.addAddOnwithFourLice...)</span>
+                <span class="method-start">95976 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">tear</span>
+                <span class="method-start">95977 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

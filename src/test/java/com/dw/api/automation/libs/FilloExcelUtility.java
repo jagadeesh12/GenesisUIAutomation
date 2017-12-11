@@ -26,7 +26,7 @@ public class FilloExcelUtility {
 			//connection = fillo.getConnection("F:\\auto\\GenesisUIAutomation\\src\\test\\resources\\files\\ConfigSheet.xlsx");
 			
 			//for linux
-			connection = fillo.getConnection("/var/lib/jenkins/jobs/Genesis_API_Automation/workspace/src/test/resources/files/ConfigSheet.xlsx");
+				connection = fillo.getConnection("/var/lib/jenkins/jobs/Genesis_API_Automation/workspace/src/test/resources/files/ConfigSheet.xlsx");
 			
 		} catch (FilloException e) {
 			// TODO Auto-generated catch block
@@ -77,7 +77,8 @@ public class FilloExcelUtility {
 		
 		try {
 			//for windows
-		//	connection = fillo.getConnection("F:\\auto\\GenesisUIAutomation\\src\\test\\resources\\files\\ConfigSheet.xlsx");
+			//	connection = fillo.getConnection("F:\\auto\\GenesisUIAutomation\\src\\test\\resources\\files\\ConfigSheet.xlsx");
+			
 			//for linux
 			connection = fillo.getConnection("/var/lib/jenkins/jobs/Genesis_API_Automation/workspace/src/test/resources/files/ConfigSheet.xlsx");
 		} catch (FilloException e) {

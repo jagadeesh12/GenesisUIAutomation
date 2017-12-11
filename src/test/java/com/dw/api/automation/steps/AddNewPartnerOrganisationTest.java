@@ -102,7 +102,7 @@ public class AddNewPartnerOrganisationTest {
 
 		response = get.getRestServiceMethod(verifyMPNidUrl, cook);
 
-		Assert.assertEquals(200, 200);
+	//	Assert.assertEquals(200, 200);
 		logPassStatus("Validate MPN id" + "<br/>rep" + response.getStatus());
 
 	}
