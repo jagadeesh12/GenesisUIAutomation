@@ -55,7 +55,7 @@ public class MarketPlaceTest {
 	@Test(priority = 1)
 	public void login_to_application() {
 		testdatamap = FilloExcelUtility.readExcel();
-		test = ExtentManager.loggerInstance(extent, " Test case: Add NewPartnerOrganisation");
+		test = ExtentManager.loggerInstance(extent, " Test case: Market Place");
 		try {
 			CertificateHandle.IgnoreSSLClient();
 
