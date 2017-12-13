@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Automation]">
-  <test name="Use Case 2:Customer on boarding(failed)">
+  <test name="Use Case 4:Create Coupon(failed)">
     <classes>
       <class name="com.dw.api.automation.steps.AddNewPartnerOrganisationTest">
         <methods>
@@ -15,9 +15,23 @@
           <include name="tear"/>
           <include name="initateExtentManager"/>
           <include name="afterMethod"/>
-          <include name="getCustomerId"/>
         </methods>
       </class> <!-- com.dw.api.automation.steps.CustomerTest -->
+      <class name="com.dw.api.automation.steps.MarketPlaceTest">
+        <methods>
+          <include name="initateExtentManager"/>
+          <include name="afterMethod"/>
+          <include name="tear"/>
+        </methods>
+      </class> <!-- com.dw.api.automation.steps.MarketPlaceTest -->
+      <class name="com.dw.api.automation.steps.CreateCouponTest">
+        <methods>
+          <include name="getCouponCode"/>
+          <include name="tear"/>
+          <include name="afterMethod"/>
+          <include name="initateExtentManager"/>
+        </methods>
+      </class> <!-- com.dw.api.automation.steps.CreateCouponTest -->
     </classes>
-  </test> <!-- Use Case 2:Customer on boarding(failed) -->
+  </test> <!-- Use Case 4:Create Coupon(failed) -->
 </suite> <!-- Failed suite [Automation] -->

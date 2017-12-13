@@ -74,6 +74,23 @@
 </test>
  
  
- 
+  <test name="Use Case 4:Create Coupon">
+		<classes>
+			<class name="com.dw.api.automation.steps.CreateCouponTest" />
+			<methods>
+				<include name="login_to_application"/>
+				<include name="getPartnerEntityid" />
+				<include name="getCustomerId" />
+				<include name="searchBaseProduct" />
+				<include name="loginByBaM" />
+				<include name="createCoupon" />
+				<include name="getCouponCode" />
+				
+				
+				
+								
+				</methods>
+		</classes>
+</test>
 
 </suite> 

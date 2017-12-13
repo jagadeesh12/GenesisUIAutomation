@@ -53,7 +53,7 @@ public class ExtentManager {
 			+ "/test-output/Reports";
 	//static String snapShotPath = reportPat + "/Automation-Report";
 	static String snapShotPath = reportPat ;
-	static String testdatafilepath = "src\\test\\resources\\ConfigSheet.xlsx";
+	//static String testdatafilepath = "src\\test\\resources\\ConfigSheet.xlsx";
 	static String configSheet = "Configuration";
 
 	public static synchronized ExtentReports Instance() {
@@ -79,7 +79,7 @@ public class ExtentManager {
 							config.getProperty("BrowserToRun"));*/
 
 			extent.loadConfig(new File(System.getProperty("user.dir")
-					+ "\\extent-config.xml"));
+					+ "//extent-config.xml"));
 		}
 		System.out.println("extent object value=" + extent);
 		return extent;
