@@ -1,96 +1,97 @@
 <suite name="Automation" verbose="1">
- 
-<test name="Add New Partner Organisation">
+
+	<test name="Add New Partner Organisation">
 		<classes>
-		
+
 			<class name="com.dw.api.automation.steps.AddNewPartnerOrganisationTest" />
 			<methods>
-				<include name="login_to_application"/>
+				<include name="login_to_application" />
 				<include name="enter_mpn_id" />
-				<include name="addNewPartnerOrganisation"/>
-				<include name="orgApproveByBaM"/>
-				<include name="orgBamSearch"/>
-				<include name="loginToCAuser"/>
-				<include name="orgApprovalByCA"/>
+				<include name="addNewPartnerOrganisation" />
+				<include name="orgApproveByBaM" />
+				<include name="orgBamSearch" />
+				<include name="loginToCAuser" />
+				<include name="orgApprovalByCA" />
 			</methods>
 		</classes>
-</test>
+	</test>
 
-
-
-
-
-	
-	
-
-<test name="Use Case 2:Customer on boarding">
+	<test name="Use Case 2:Customer on boarding">
 		<classes>
 			<class name="com.dw.api.automation.steps.CustomerTest" />
 			<methods>
-				<include name="login_to_application"/>
+				<include name="login_to_application" />
 				<include name="getPartnerEntityid" />
 				<include name="createNewCustomer" />
 				<include name="loginByBaM" />
 				<include name="getCustomerId" />
 				<include name="approveCustomerFromBam" />
-				
-				</methods>
-		</classes>
-</test>
-
-
-
-
-
- <!-- 
-<test name="validate Existing Custome">
-<classes>
-			<class name="com.dw.api.automation.steps.ExistingOrgApiTest" />
-			<methods>
-				<include name="login_to_application"/>
-				<include name="validateExistingCustomer"/>
-				<include name="validateExistingCustomerWithWrongOrganisationName"/>
-				<include name="validateExistingCustomerWithWrongCompanyCode"/>
-				
-				
 			</methods>
 		</classes>
 	</test>
 
- -->
- 
- <test name="Use Case 3:Customer Market place">
+<!-- <test name="validate Existing Custome">
+	<classes>
+		<class name="com.dw.api.automation.steps.ExistingOrgApiTest" />
+		<methods>
+			<include name="login_to_application" />
+			<include name="validateExistingCustomer" />
+			<include name="validateExistingCustomerWithWrongOrganisationName" />
+			<include name="validateExistingCustomerWithWrongCompanyCode" />
+		</methods>
+	</classes>
+</test>  -->
+
+	<test name="Use Case 3:Customer Market place">
 		<classes>
 			<class name="com.dw.api.automation.steps.MarketPlaceTest" />
 			<methods>
-				<include name="login_to_application"/>
+				<include name="login_to_application" />
 				<include name="searchBaseProduct" />
 				<include name="addBaseProductWithThreeLicenses" />
 				<include name="addAddOnwithFourLicenses" />
-				
-				
-				</methods>
+			</methods>
 		</classes>
-</test>
- 
- 
-  <test name="Use Case 4:Create Coupon">
+	</test>
+
+
+	<test name="Use Case 4:Organization Credit Request and Approval">
+		<classes>
+			<class name="com.dw.api.automation.steps.OrganizationCreditRequestTest" />
+			<methods>
+				<include name="login_to_application" />
+				<include name="getPartnerEntityid" />
+				<include name="orgCreditRequestPM" />
+				<include name="loginToCAuser" />
+				<include name="orgCreditApproveCA" />
+			</methods>
+		</classes>
+	</test>
+
+	<test name="Use Case 5:Customer Spend limit Update">
+		<classes>
+			<class name="com.dw.api.automation.steps.CustomerSpendLimitTest" />
+			<methods>
+				<include name="login_to_application" />
+				<include name="getCustomerId" />
+				<include name="updateCustomerSpendlimit" />
+			</methods>
+		</classes>
+	</test>
+
+	<test name="Use Case 6:Create Coupon">
 		<classes>
 			<class name="com.dw.api.automation.steps.CreateCouponTest" />
 			<methods>
-				<include name="login_to_application"/>
+				<include name="login_to_application" />
 				<include name="getPartnerEntityid" />
 				<include name="getCustomerId" />
 				<include name="searchBaseProduct" />
 				<include name="loginByBaM" />
 				<include name="createCoupon" />
 				<include name="getCouponCode" />
-				
-				
-				
-								
-				</methods>
+			</methods>
 		</classes>
-</test>
+	</test>
 
 </suite> 

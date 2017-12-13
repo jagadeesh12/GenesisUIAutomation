@@ -107,7 +107,7 @@ public class CreateCouponTest {
 	}
 	
 	@Test(priority = 3)
-	// Login as Bam
+	// Login as PM
 	public void getCustomerId() {
 		testdatamap = FilloExcelUtility.readExcel();
 		String companyName = testdatamap.get("companyName");

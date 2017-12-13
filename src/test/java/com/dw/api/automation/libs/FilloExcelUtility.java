@@ -26,10 +26,10 @@ public class FilloExcelUtility {
 			//connection = fillo.getConnection("F:\\auto\\GenesisUIAutomation\\src\\test\\resources\\files\\ConfigSheet.xlsx");
 			
 			//for Jenkins linux
-             connection = fillo.getConnection("/var/lib/jenkins/jobs/Genesis_API_Automation/workspace/src/test/resources/files/ConfigSheet.xlsx");
+			  connection = fillo.getConnection("/var/lib/jenkins/jobs/Genesis_API_Automation/workspace/src/test/resources/files/ConfigSheet.xlsx");
 			
 			//Jagadeesh System
-			//connection = fillo.getConnection("/home/jagadeesh/Documents/GenesisAPIAutomation/GenesisUIAutomation/src/test/resources/files/ConfigSheet.xlsx");
+			  //connection = fillo.getConnection("/home/jagadeesh/Documents/GenesisAPIAutomation/GenesisUIAutomation/src/test/resources/files/ConfigSheet.xlsx");
 				
 				
 		} catch (FilloException e) {
