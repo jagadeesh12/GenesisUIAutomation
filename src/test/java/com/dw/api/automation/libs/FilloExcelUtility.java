@@ -1,5 +1,6 @@
 package com.dw.api.automation.libs;
 
+import java.io.FileInputStream;
 import java.sql.ResultSet;
 import java.util.HashMap;
 
@@ -7,31 +8,32 @@ import com.codoid.products.exception.FilloException;
 import com.codoid.products.fillo.Connection;
 import com.codoid.products.fillo.Fillo;
 import com.codoid.products.fillo.Recordset;
+import com.dw.api.automation.utils.Configurations;
 
 
 public class FilloExcelUtility {
 	
-	
-	
-	
+	/***For Windows***/
+	//static String  exceldbloc="F:\\\\auto\\\\GenesisUIAutomation\\\\src\\\\test\\\\resources\\\\files\\\\ConfigSheet.xlsx";
+
+	/***For  Linux***/
+	static String  exceldbloc="/var/lib/jenkins/jobs/Genesis_API_Automation/workspace/src/test/resources/files/ConfigSheet.xlsx";
+
 	public static HashMap<String,String> readExcel()
 	{
+	
+	System.out.println("exceldbloc Location="+exceldbloc);	
+		
 		HashMap<String, String> dataMap= new HashMap<String, String>();
 		Fillo fillo=new Fillo();
 		Connection connection = null;
 		try {
-		//	File file=new File("F:\\auto\\GenesisUIAutomation\\src\\test\\resources\\files\\ConfigSheet.xlsx");
+			Configurations config=new Configurations();
+			String fileLoc=config.getProperty("excelLoc");
+			System.out.println("fileLoc="+fileLoc);
+			connection = fillo.getConnection(exceldbloc);
 			
-			//for windows
-			//connection = fillo.getConnection("F:\\auto\\GenesisUIAutomation\\src\\test\\resources\\files\\ConfigSheet.xlsx");
 			
-			//for Jenkins linux
-			  connection = fillo.getConnection("/var/lib/jenkins/jobs/Genesis_API_Automation/workspace/src/test/resources/files/ConfigSheet.xlsx");
-			
-			//Jagadeesh System
-			  //connection = fillo.getConnection("/home/jagadeesh/Documents/GenesisAPIAutomation/GenesisUIAutomation/src/test/resources/files/ConfigSheet.xlsx");
-				
-				
 		} catch (FilloException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
@@ -80,13 +82,8 @@ public class FilloExcelUtility {
 		
 		
 		try {
-			//for windows
-			//	connection = fillo.getConnection("F:\\auto\\GenesisUIAutomation\\src\\test\\resources\\files\\ConfigSheet.xlsx");
 			
-			//for linux
-			connection = fillo.getConnection("/var/lib/jenkins/jobs/Genesis_API_Automation/workspace/src/test/resources/files/ConfigSheet.xlsx");
-			//Jagadeesh System
-			//connection = fillo.getConnection("/home/jagadeesh/Documents/GenesisAPIAutomation/GenesisUIAutomation/src/test/resources/files/ConfigSheet.xlsx");
+				connection = fillo.getConnection(exceldbloc);
 				
 		} catch (FilloException e) {
 			// TODO Auto-generated catch block

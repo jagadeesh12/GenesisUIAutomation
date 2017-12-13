@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Automation]">
-  <test name="Use Case 4:Create Coupon(failed)">
+  <test name="Use Case 4:Organization Credit Request and Approval(failed)">
     <classes>
       <class name="com.dw.api.automation.steps.AddNewPartnerOrganisationTest">
         <methods>
@@ -24,14 +24,29 @@
           <include name="tear"/>
         </methods>
       </class> <!-- com.dw.api.automation.steps.MarketPlaceTest -->
+      <class name="com.dw.api.automation.steps.CustomerSpendLimitTest">
+        <methods>
+          <include name="initateExtentManager"/>
+          <include name="afterMethod"/>
+          <include name="tear"/>
+        </methods>
+      </class> <!-- com.dw.api.automation.steps.CustomerSpendLimitTest -->
+      <class name="com.dw.api.automation.steps.OrganizationCreditRequestTest">
+        <methods>
+          <include name="orgCreditRequestPM"/>
+          <include name="orgCreditApproveCA"/>
+          <include name="initateExtentManager"/>
+          <include name="afterMethod"/>
+          <include name="tear"/>
+        </methods>
+      </class> <!-- com.dw.api.automation.steps.OrganizationCreditRequestTest -->
       <class name="com.dw.api.automation.steps.CreateCouponTest">
         <methods>
-          <include name="getCouponCode"/>
           <include name="tear"/>
           <include name="afterMethod"/>
           <include name="initateExtentManager"/>
         </methods>
       </class> <!-- com.dw.api.automation.steps.CreateCouponTest -->
     </classes>
-  </test> <!-- Use Case 4:Create Coupon(failed) -->
+  </test> <!-- Use Case 4:Organization Credit Request and Approval(failed) -->
 </suite> <!-- Failed suite [Automation] -->
