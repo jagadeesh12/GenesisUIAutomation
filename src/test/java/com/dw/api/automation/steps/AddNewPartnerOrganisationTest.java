@@ -28,6 +28,7 @@ import com.dw.api.automation.libs.Get;
 import com.dw.api.automation.libs.LoginPost;
 import com.dw.api.automation.libs.Post;
 import com.dw.api.automation.libs.Put;
+import com.dw.api.automation.utils.Configurations;
 import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
 import com.relevantcodes.extentreports.LogStatus;
@@ -113,12 +114,15 @@ public class AddNewPartnerOrganisationTest {
 		String addNewPartnerOrganisationUrl = testdatamap.get("addNewPartnerOrganisationUrl");
 		System.out.println("addNewPartnerOrganisationUrl=" + addNewPartnerOrganisationUrl);
 		// multivalued form data call
-		
 		//for windows
-		//File initialFile = new File("C:/Users/rle0517/Desktop/6.jpg");
+        Configurations config=new Configurations();
+		String fileLoc=config.getProperty("jpegfile");
+		System.out.println("fileLoc="+fileLoc);
+		File initialFile = new File(fileLoc);
+		
 		
 		//for linux
-		File initialFile = new File("/var/lib/jenkins/jobs/Genesis_API_Automation/workspace/src/test/resources/files/6.jpg");
+		//	File initialFile = new File("/var/lib/jenkins/jobs/Genesis_API_Automation/workspace/src/test/resources/files/6.jpg");
 		InputStream targetStream1 = new FileInputStream(initialFile);
 		InputStream targetStream2 = new FileInputStream(initialFile);
 		InputStream targetStream3 = new FileInputStream(initialFile);
@@ -244,7 +248,7 @@ public class AddNewPartnerOrganisationTest {
 
 		System.out.println("Cookie====" + cook);
 
-		String put = "{\"status\": \"APPROVED\",\"comment\": \"done\",\"credit\":\"500\",\"financeApproval\": \"false\",\"financeEmail\":\"null\",\"partnerEntityId\":\""
+		String put = "{\"status\": \"APPROVED\",\"comment\": \"done\",\"credit\":\"1000\",\"financeApproval\": \"false\",\"financeEmail\":\"null\",\"partnerEntityId\":\""
 				+ partnerEntityId + "\"}";
 		System.out.println("put=" + put);
 		// String put2 =

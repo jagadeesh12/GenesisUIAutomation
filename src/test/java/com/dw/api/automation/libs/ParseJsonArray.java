@@ -6,6 +6,8 @@ import java.util.List;
 import org.json.JSONArray;
 import org.json.JSONObject;
 
+import com.sun.jersey.api.client.ClientResponse;
+
 public class ParseJsonArray {
 
 
@@ -27,4 +29,20 @@ public class ParseJsonArray {
       return reqid;
 	}
 
-}
+	public static Object parseJsonArray2(String res,String data1)
+	{
+		JSONObject obj = new JSONObject(res);
+		JSONArray docsArray = obj.getJSONArray("data");
+        JSONObject obj2 = null;
+
+        List list = new ArrayList();
+        for (Object object : docsArray) {
+               obj2 = new JSONObject(object.toString());
+               obj2.get("_id");
+              System.out.println( obj2.get("_id"));
+        }
+		return null;
+	
+	
+	
+} }

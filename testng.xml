@@ -65,10 +65,10 @@
 			<methods>
 				<include name="login_to_application"/>
 				<include name="searchBaseProduct" />
-				<include name="addBaseProductWithThreeLicenses" />
-				<include name="addAddOnwithFourLicenses" />
-				
-				
+				<include name="addBaseProductWithFourLicenses" />
+				<include name="addAddOnwithOneLicenses" />
+				<include name="placeOrder" />
+				<include name="orderProvision" />
 				</methods>
 		</classes>
 </test>

@@ -87,6 +87,14 @@ public class Configurations {
 			System.out.println("Could not set the properties  " + e.toString());
 		}
 	}
+	
+	public static void main(String args[])
+	{
+		Configurations config=new Configurations();
+		
+		String fileLoc=config.getProperty("excelLoc");
+		System.out.println("fileLoc="+fileLoc);
+	}
 
 	
 }

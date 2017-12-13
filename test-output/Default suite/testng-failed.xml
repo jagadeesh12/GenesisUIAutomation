@@ -3,13 +3,15 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.dw.api.automation.steps.CustomerTest">
+      <class name="com.dw.api.automation.steps.MarketPlaceTest">
         <methods>
-          <include name="createNewCustomer"/>
           <include name="initateExtentManager"/>
           <include name="afterMethod"/>
+          <include name="validateBasketBaseAddOnProductQunatity"/>
+          <include name="placeOrder"/>
+          <include name="tear"/>
         </methods>
-      </class> <!-- com.dw.api.automation.steps.CustomerTest -->
+      </class> <!-- com.dw.api.automation.steps.MarketPlaceTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -132,7 +132,7 @@ public class CustomerTest {
 				+ "\"Address3\": \"Address3\"}," + "\"City\": \"kuwait\"," + "\"Entity\": \"" + partnerEntityId + "\","
 				+ "\"pinCode\": \"75001\"," + "\"CountryId\": \"KWT\"," + "\"PhoneNumber\": \"9008252576\","
 				+ "\"MobileNumber\": \"9008252576\"," + "\"Email\": \"checkmail@gmail.com\","
-				+ "\"ManagementTypeId\": \"Billing-Only\"," + "\"SpendLimit\": \"100\"," + "\"Department\": \"cse\","
+				+ "\"ManagementTypeId\": \"Billing-Only\"," + "\"SpendLimit\": \"500\"," + "\"Department\": \"cse\","
 				+ "\"Function\": \"devops\"," + "\"PaymentTypeId\": \"Monthly-Invoice\","
 				+ "\"termsAndConditions\": true," + "\"DomainName\": \"" + customerdomainName + "\","
 				+ "\"PartnerEntityId\": \"" + partnerEntityId + "\"}";
