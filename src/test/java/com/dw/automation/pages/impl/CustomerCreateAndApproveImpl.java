@@ -224,6 +224,14 @@ public class CustomerCreateAndApproveImpl extends BaseTestPage<TestPage> impleme
 		return statusTxt;
 	}
 	
+	@FindBy(locator = "rd.custonboard.pm.txt.statusReject")
+	private WebElement statusRejectTxt;
+	
+	public WebElement getstatusRejectTxt() {
+		return statusRejectTxt;
+	}
+	
+	
 	@FindBy(locator = "rd.custonboard.pm.txtbox.search")
 	private WebElement searchTxtBox;
 	
@@ -441,7 +449,7 @@ public class CustomerCreateAndApproveImpl extends BaseTestPage<TestPage> impleme
 				getbamCommentTxtBox().sendKeys(testBase.getTestData().getString("rejecteStatus"));
 				wf.click_element(getBamupdateBtn());
 				RUtils.waitforloadingtodissappear();
-				statusApp = getCustStatusTxt().getAttribute("title").contains("Rejected");
+				statusApp = getstatusRejectTxt().getAttribute("title").contains("Rejected");
 				Assert.assertTrue("BAM Rejection failed for Customer Scenario.",statusApp);
 				break;
 		}
