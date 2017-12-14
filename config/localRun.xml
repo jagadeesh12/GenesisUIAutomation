@@ -208,6 +208,5 @@
    <class name="com.scholastic.torque.runner.Run" />
   </classes>
 </test> 
-  -->
-
+  
  </suite>
