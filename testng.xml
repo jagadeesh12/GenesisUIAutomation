@@ -58,15 +58,55 @@
 	</test>
 
  -->
+ <test name="Use Case 4:Organization Credit Request and Approval">
+		<classes>
+			<class name="com.dw.api.automation.steps.OrganizationCreditRequestTest" />
+			<methods>
+				<include name="login_to_application" />
+				<include name="getPartnerEntityid" />
+				<include name="orgCreditRequestPM" />
+				<include name="loginToCAuser" />
+				<include name="orgCreditApproveCA" />
+			</methods>
+		</classes>
+	</test>
  
- <test name="Use Case 3:Customer Market place">
+ 
+	
+	<test name="Use Case 6:Customer Spend limit Update">
+		<classes>
+			<class name="com.dw.api.automation.steps.CustomerSpendLimitTest" />
+			<methods>
+				<include name="login_to_application" />
+				<include name="getCustomerId" />
+				<include name="updateCustomerSpendlimit" />
+			</methods>
+		</classes>
+	</test>
+
+	<test name="Use Case 7:Create Coupon">
+		<classes>
+			<class name="com.dw.api.automation.steps.CreateCouponTest" />
+			<methods>
+				<include name="login_to_application" />
+				<include name="getPartnerEntityid" />
+				<include name="getCustomerId" />
+				<include name="searchBaseProduct" />
+				<include name="loginByBaM" />
+				<include name="createCoupon" />
+				<include name="getCouponCode" />
+			</methods>
+		</classes>
+	</test>
+ 
+ <test name="Use Case 8: Market place">
 		<classes>
 			<class name="com.dw.api.automation.steps.MarketPlaceTest" />
 			<methods>
 				<include name="login_to_application"/>
 				<include name="searchBaseProduct" />
 				<include name="addBaseProductWithFourLicenses" />
-				<include name="addAddOnwithOneLicenses" />
+			<!--  	<exclude name="addAddOnwithOneLicenses" /> -->
 				<include name="placeOrder" />
 				<include name="orderProvision" />
 				</methods>

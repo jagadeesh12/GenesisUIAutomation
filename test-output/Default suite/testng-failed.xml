@@ -7,8 +7,7 @@
         <methods>
           <include name="initateExtentManager"/>
           <include name="afterMethod"/>
-          <include name="validateBasketBaseAddOnProductQunatity"/>
-          <include name="placeOrder"/>
+          <include name="orderProvision"/>
           <include name="tear"/>
         </methods>
       </class> <!-- com.dw.api.automation.steps.MarketPlaceTest -->

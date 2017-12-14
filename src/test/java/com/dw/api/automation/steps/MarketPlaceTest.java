@@ -51,6 +51,8 @@ public class MarketPlaceTest {
 	Object sku=null;
 	Object skuAddon=null;
 	Object customerId=null;
+	Object vendorId=null;
+	Object parentSubscriptionId=null;
 	@BeforeClass
 	public void initateExtentManager() {
 		extent = ExtentManager.Instance();
@@ -221,7 +223,61 @@ public class MarketPlaceTest {
 		String baseOrderUrl="https://test.redington.market/api/v1/orders/fulfill/"+orderNumber+"";
 		String baseOrderPostParm="{\"sku\":\"796b6b5f-613c-4e24-a17c-eba730d49c02\"}"; 
 		post.getPostByJersey(baseOrderUrl, baseOrderPostParm, cook);
-		//Step-3:order fulfill for AddOn product
+		
+		
+//		
+//		//Step-4:order fulfill for AddOn product
+//		String getaddonParametersUrl="https://test.redington.market/api/v1/orders/"+orderNumber+"";
+//		res=get.getRestServiceMethod2(getaddonParametersUrl, cook);
+//		try {
+//			Thread.sleep(120000);
+//		} catch (InterruptedException e) {
+//			// TODO Auto-generated catch block
+//			e.printStackTrace();
+//		}
+//		
+//		//Get ParentSubscriptionId
+//	
+//		//  parentSubscriptionId = ParseJsonArray.parseJsonArray(res, "data", "orderProducts", "subscriptionId");
+//		  {
+//			  Object reqid1=null;
+//				JSONObject obj1 = new JSONObject(res);
+//				JSONArray docsArray1 = new JSONObject(res).getJSONObject("data").getJSONArray("orderProducts");
+//			List li1 = new ArrayList();
+//			for (Object object1 : docsArray1) {
+//					JSONObject obj2 = new JSONObject(object1.toString());
+//					reqid1= obj2.get("subscriptionId");	
+//		  }
+//			parentSubscriptionId=reqid1;
+//			System.out.println("subscriptionId="+reqid1);
+//			}
+//		System.out.println("subscriptionId="+parentSubscriptionId);
+//		
+//		//Get VendorId 
+//		JSONObject reqid=null;
+//			JSONObject obj = new JSONObject(res);
+//			JSONArray docsArray = new JSONObject(res).getJSONObject("data").getJSONArray("orderProducts");
+//		List li = new ArrayList();
+//		for (Object object : docsArray) {
+//				JSONObject obj2 = new JSONObject(object.toString());
+//				reqid=(JSONObject)obj2.get("botResponse");
+//				 vendorId = reqid.get("id");
+//				System.out.println("The id is ========="+reqid.get("id"));
+//				break;
+//			}
+//		System.out.println("The id is ========="+vendorId);
+//		
+//		
+//		String addOnFullfillRequest="https://test.redington.market/api/v1/orders/fulfill/"+orderNumber+"";
+//		String addOnFullfillPayload="{\"parentSubscriptionId\":\""+parentSubscriptionId+"\",\"sku\": \"53fc25f7-6639-4f78-bb44-3c2dfec3ed40\",\"OrderId\": \""+orderNumber+"\",\"vendorId\": \""+vendorId+"\"}";
+//		post.getPostByJersey(addOnFullfillRequest, addOnFullfillPayload, cook);
+//		
+		
+		// Object parentSubscriptionId = ParseJsonArray.parseJsonArray(res,"data","orderProducts","subscriptionid");
+		// System.out.println("parentSubscriptionId="+parentSubscriptionId);
+		
+		
+		
 	}
 	
 	

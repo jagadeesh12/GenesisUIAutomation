@@ -1,8 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Automation]">
-  <test name="Use Case 2:Customer on boarding(failed)">
+  <test name="Use Case 5:Organization Credit Request and Approval(failed)">
     <classes>
+      <class name="com.dw.api.automation.steps.OrganizationCreditRequestTest">
+        <methods>
+          <include name="orgCreditRequestPM"/>
+          <include name="orgCreditApproveCA"/>
+          <include name="initateExtentManager"/>
+          <include name="initateExtentManager"/>
+          <include name="afterMethod"/>
+          <include name="afterMethod"/>
+          <include name="tear"/>
+          <include name="tear"/>
+        </methods>
+      </class> <!-- com.dw.api.automation.steps.OrganizationCreditRequestTest -->
       <class name="com.dw.api.automation.steps.AddNewPartnerOrganisationTest">
         <methods>
           <include name="tear"/>
@@ -10,14 +22,6 @@
           <include name="initateExtentManager"/>
         </methods>
       </class> <!-- com.dw.api.automation.steps.AddNewPartnerOrganisationTest -->
-      <class name="com.dw.api.automation.steps.CustomerTest">
-        <methods>
-          <include name="tear"/>
-          <include name="initateExtentManager"/>
-          <include name="afterMethod"/>
-          <include name="getCustomerId"/>
-        </methods>
-      </class> <!-- com.dw.api.automation.steps.CustomerTest -->
       <class name="com.dw.api.automation.steps.MarketPlaceTest">
         <methods>
           <include name="initateExtentManager"/>
@@ -25,17 +29,6 @@
           <include name="tear"/>
         </methods>
       </class> <!-- com.dw.api.automation.steps.MarketPlaceTest -->
-    </classes>
-  </test> <!-- Use Case 2:Customer on boarding(failed) -->
-  <test name="Use Case 3:Customer Market place(failed)">
-    <classes>
-      <class name="com.dw.api.automation.steps.AddNewPartnerOrganisationTest">
-        <methods>
-          <include name="tear"/>
-          <include name="afterMethod"/>
-          <include name="initateExtentManager"/>
-        </methods>
-      </class> <!-- com.dw.api.automation.steps.AddNewPartnerOrganisationTest -->
       <class name="com.dw.api.automation.steps.CustomerTest">
         <methods>
           <include name="tear"/>
@@ -43,15 +36,6 @@
           <include name="afterMethod"/>
         </methods>
       </class> <!-- com.dw.api.automation.steps.CustomerTest -->
-      <class name="com.dw.api.automation.steps.MarketPlaceTest">
-        <methods>
-          <include name="initateExtentManager"/>
-          <include name="afterMethod"/>
-          <include name="orderProvision"/>
-          <include name="placeOrder"/>
-          <include name="tear"/>
-        </methods>
-      </class> <!-- com.dw.api.automation.steps.MarketPlaceTest -->
     </classes>
-  </test> <!-- Use Case 3:Customer Market place(failed) -->
+  </test> <!-- Use Case 5:Organization Credit Request and Approval(failed) -->
 </suite> <!-- Failed suite [Automation] -->
