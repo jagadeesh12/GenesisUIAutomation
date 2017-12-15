@@ -800,8 +800,11 @@ public class OrgCreateAndApproveImpl extends BaseTestPage<TestPage> implements O
 			SCHUtils.selectOptionByvalue(getstatusSelectBox(), "1: APPROVED");
 			SCHUtils.selectOptionByvalue(getcompCodeSelect(), "2: 1120/Redington Middleeast");
 			SCHUtils.selectOptionByvalue(getpaymentSelect(), "1: 30 Days from Invoice date");
-			SCHUtils.selectOptionByvalue(getcurrencySelect(), "2: USD");
+			//SCHUtils.selectOptionByvalue(getcurrencySelect(), "2: USD");
+			SCHUtils.selectOptionByVisibleText(getcurrencySelect(), "USD");
+			PauseUtil.pause(4000);
 			getcommentTxtBox().sendKeys("APPROVED");
+			PauseUtil.pause(4000);
 			wf.click_element(getupdateCABtn());
 			PauseUtil.pause(2000);
 			boolean statusApp = getstatusTxt().getAttribute("title").contains("Approved");

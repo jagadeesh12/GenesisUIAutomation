@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="224.687125">
+<testcase classname="Partner Organization creation by PM and Approval by BAM and CA" name="Partner Organization creation by PM and Approval by BAM and CA:[OrderApproval]" time="224.687125">
+<system-out><![CDATA[Then I launch the application as a CA.......................................passed
+And I approve the organization as CA........................................passed
+Then I logout from the application..........................................passed
+Given I launch the application as a Partner Manager.........................passed
+And I verify that the organization is approved..............................passed
+Then I logout from the application..........................................passed
+]]></system-out>
+</testcase>
+</testsuite>

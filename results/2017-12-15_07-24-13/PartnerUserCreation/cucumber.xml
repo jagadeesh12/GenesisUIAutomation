@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="191.679193">
+<testcase classname="Partner user creation." name="Creating a new Partner Manager User:[RedingtonLogin]" time="89.662818">
+<system-out><![CDATA[Given I launch the application as a site admin[UserInformation].............passed
+When I fill partner user form...............................................passed
+Then Temporary password is generated........................................passed
+Given I launch the mail application.........................................passed
+Then I get the verification code............................................passed
+Given I launch the application..............................................passed
+Then I login with new username and temporary password.......................passed
+Then I reset the password...................................................passed
+Given I launch the application..............................................passed
+Then I login with new username and reset password...........................passed
+Then I view the partner user detail.........................................passed
+Then I logout from the application..........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Partner user creation." name="Creating a new Finance Manager User:[RedingtonLogin]" time="102.016375">
+<system-out><![CDATA[Given I launch the application as a site admin[UserInformation].............passed
+When I fill form to create Finance Manager..................................passed
+Then Temporary password is generated........................................passed
+Given I launch the mail application.........................................passed
+Then I get the verification code............................................passed
+Given I launch the application..............................................passed
+Then I login with new username and temporary password.......................passed
+Then I reset the password...................................................passed
+Given I launch the application..............................................passed
+Then I login with new username and reset password...........................passed
+Then I verify login page is displayed.......................................passed
+Then I logout from the application..........................................passed
+]]></system-out>
+</testcase>
+</testsuite>

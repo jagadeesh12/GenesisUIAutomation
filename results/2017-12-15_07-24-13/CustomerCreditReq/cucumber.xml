@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="95.938378">
+<testcase classname="Customer spend limit request and approval by BAM" name="Customer spend limit request and approval by BAM:[OrderApproval]" time="95.938378">
+<system-out><![CDATA[Given I launch the application as a Partner Manager[UserInformation]........passed
+Then I update the customer spend limit......................................passed
+Then I logout from the application..........................................passed
+Given I launch the application as a Finance Manager.........................passed
+Then I approve the customer spend limit.....................................passed
+Then I logout from the application..........................................passed
+Given I launch the application as a Partner Manager.........................passed
+Then I verify that the customer spend limit is updated......................passed
+Then I logout from the application..........................................passed
+]]></system-out>
+</testcase>
+</testsuite>

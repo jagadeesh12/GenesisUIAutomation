@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="103.537995">
+<testcase classname="Customer creation flow by PM and approval by BAM" name="Customer creation by PM and Approval by BAM :[OrderApproval]" time="103.537995">
+<failure message="org.openqa.selenium.NoSuchElementException: Cannot locate element with text: Burhani Computers Trading LLC&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'&#10;System info: host: 'jagadeesh-ThinkPad-L450', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '3.19.0-65-generic', java.version: '1.8.0_101'&#10;Driver info: driver.version: unknown&#10;&#9;at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:151)&#10;&#9;at com.dw.automation.support.SCHUtils.selectOptionByVisibleText(SCHUtils.java:187)&#10;&#9;at com.dw.automation.pages.impl.CustomerCreateAndApproveImpl.createCustomer(CustomerCreateAndApproveImpl.java:390)&#10;&#9;at com.dw.automation.steps.redington.CustomerCreateAndApprove.i_create_an_Customer(CustomerCreateAndApprove.java:24)&#10;&#9;at ✽.Then I create an Customer(features/Redington/CustomerCreateAndApproval.feature:19)&#10;"><![CDATA[Given I launch the application as a Partner Manager[UserInformation]........passed
+When I go to Customer Page..................................................passed
+Then I create an Customer...................................................failed
+Then I logout from the application..........................................skipped
+Then I launch the application as a BAM......................................skipped
+And I approve the customer..................................................skipped
+Then I logout from the application..........................................skipped
+Given I launch the application as a Partner Manager.........................skipped
+When I go to Customer Page..................................................skipped
+And I verify that the customer is approved..................................skipped
+Then I logout from the application..........................................skipped
+
+StackTrace:
+org.openqa.selenium.NoSuchElementException: Cannot locate element with text: Burhani Computers Trading LLC
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'jagadeesh-ThinkPad-L450', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '3.19.0-65-generic', java.version: '1.8.0_101'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:151)
+	at com.dw.automation.support.SCHUtils.selectOptionByVisibleText(SCHUtils.java:187)
+	at com.dw.automation.pages.impl.CustomerCreateAndApproveImpl.createCustomer(CustomerCreateAndApproveImpl.java:390)
+	at com.dw.automation.steps.redington.CustomerCreateAndApprove.i_create_an_Customer(CustomerCreateAndApprove.java:24)
+	at ✽.Then I create an Customer(features/Redington/CustomerCreateAndApproval.feature:19)
+]]></failure>
+</testcase>
+</testsuite>

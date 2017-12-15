@@ -59,7 +59,7 @@
   <classes>
    <class name="com.scholastic.torque.runner.Run" />
   </classes> 
-  </test>  
+  </test>
   
  <test name="OrgCreateAndApproval" enabled="true">
   <parameter name="driver.name" value="Firefox"/>

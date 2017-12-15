@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="262.305888">
+<testcase classname="Partner Organization creation by PM and Approval by BAM and CA" name="Partner Organization creation by PM and Approval by BAM and CA:[OrderApproval]" time="262.305888">
+<failure message="org.openqa.selenium.NoSuchElementException: Cannot locate option with value: 2: USD&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'&#10;System info: host: 'jagadeesh-ThinkPad-L450', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '3.19.0-65-generic', java.version: '1.8.0_101'&#10;Driver info: driver.version: unknown&#10;&#9;at org.openqa.selenium.support.ui.Select.selectByValue(Select.java:209)&#10;&#9;at com.dw.automation.support.SCHUtils.selectOptionByvalue(SCHUtils.java:192)&#10;&#9;at com.dw.automation.pages.impl.OrgCreateAndApproveImpl.approveOrgAsCA(OrgCreateAndApproveImpl.java:803)&#10;&#9;at com.dw.automation.steps.redington.OrgCreateAndApproveSteps.i_approve_the_organization_as_CA(OrgCreateAndApproveSteps.java:53)&#10;&#9;at ✽.And I approve the organization as CA(features/Redington/OrgCreateAndApproval.feature:13)&#10;"><![CDATA[Given I launch the application as a Partner Manager[UserInformation]........passed
+When I go to Organization Page..............................................passed
+Then I onboard an Organization..............................................passed
+Then I logout from the application..........................................passed
+Then I launch the application as a BAM......................................passed
+And I approve the organization..............................................passed
+Then I logout from the application..........................................passed
+Then I launch the application as a CA.......................................passed
+And I approve the organization as CA........................................failed
+Then I logout from the application..........................................skipped
+Given I launch the application as a Partner Manager.........................skipped
+And I verify that the organization is approved..............................skipped
+Then I logout from the application..........................................skipped
+
+StackTrace:
+org.openqa.selenium.NoSuchElementException: Cannot locate option with value: 2: USD
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'jagadeesh-ThinkPad-L450', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '3.19.0-65-generic', java.version: '1.8.0_101'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.selectByValue(Select.java:209)
+	at com.dw.automation.support.SCHUtils.selectOptionByvalue(SCHUtils.java:192)
+	at com.dw.automation.pages.impl.OrgCreateAndApproveImpl.approveOrgAsCA(OrgCreateAndApproveImpl.java:803)
+	at com.dw.automation.steps.redington.OrgCreateAndApproveSteps.i_approve_the_organization_as_CA(OrgCreateAndApproveSteps.java:53)
+	at ✽.And I approve the organization as CA(features/Redington/OrgCreateAndApproval.feature:13)
+]]></failure>
+</testcase>
+</testsuite>
