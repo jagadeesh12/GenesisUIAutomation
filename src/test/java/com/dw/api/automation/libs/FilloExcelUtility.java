@@ -15,11 +15,11 @@ public class FilloExcelUtility {
 	
 	/***For Windows***/
 	/*static String  exceldbloc="F:\\\\auto\\\\GenesisUIAutomation\\\\src\\\\test\\\\resources\\\\files\\\\ConfigSheet.xlsx";*/
-	//static String  exceldbloc="F:\\\\workspace\\\\backup_only_my_changes\\\\GenesisUIAutomation\\\\src\\\\test\\\\resources\\\\files\\\\ConfigSheet.xlsx";
+	static String  exceldbloc="F:\\\\workspace\\\\backup_only_my_changes\\\\GenesisUIAutomation\\\\src\\\\test\\\\resources\\\\files\\\\ConfigSheet.xlsx";
 	
 	
 	/***For  Linux***/
-static String  exceldbloc="/var/lib/jenkins/jobs/Genesis_API_Automation/workspace/src/test/resources/files/ConfigSheet.xlsx";
+	//static String  exceldbloc="/var/lib/jenkins/jobs/Genesis_API_Automation/workspace/src/test/resources/files/ConfigSheet.xlsx";
 
 	public static HashMap<String,String> readExcel()
 	{
@@ -129,7 +129,12 @@ catch (FilloException e1) {
 			// TODO Auto-generated catch block
 			e1.printStackTrace();
 		}
-		
+		try {
+			connection = fillo.getConnection(exceldbloc);
+		} catch (FilloException e1) {
+			// TODO Auto-generated catch block
+			e1.printStackTrace();
+		}
 		
 		
 		
@@ -145,6 +150,34 @@ catch (FilloException e1) {
 
 		connection.close();
 			
+	}
+	
+	
+	public static void  replaceRow(String key,String value,String page)
+	{
+		Fillo fillo=new Fillo();
+		Connection connection = null;
+		String pulledkey=null;
+		
+		
+		try {
+			
+				connection = fillo.getConnection(exceldbloc);
+				
+		} catch (FilloException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		String strQuery="Update Sheet Set value='"+value+"' where key='"+key+"' and page='"+page+"'";
+		 
+		try {
+			connection.executeUpdate(strQuery);
+		} catch (FilloException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		 
+		connection.close();
 	}
 	
 	

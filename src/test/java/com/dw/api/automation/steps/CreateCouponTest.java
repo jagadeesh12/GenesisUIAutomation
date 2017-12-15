@@ -229,6 +229,13 @@ public class CreateCouponTest {
 		}
 		System.out.println("The Coupon code id is =========" + obj2.get("couponCode"));
 		Object couponCode = obj2.get("couponCode");
+		String coupanCodeString=(String) couponCode;
+		FilloExcelUtility.replaceRow("couponCode", coupanCodeString, "couponCode");
+		testdatamap = FilloExcelUtility.readExcel();
+		String couponCodefroExcel = testdatamap.get("couponCode");
+		
+		System.out.println("Updated Coupan Code from Excel="+couponCodefroExcel);
+		
 		logPassStatus("Coupon Code is created sucessfully " + "<br/> Coupon Code is=" + couponCode);
 
 	}

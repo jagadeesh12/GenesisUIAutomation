@@ -104,14 +104,45 @@
 			<class name="com.dw.api.automation.steps.MarketPlaceTest" />
 			<methods>
 				<include name="login_to_application"/>
-				<include name="searchBaseProduct" />
-				<include name="addBaseProductWithFourLicenses" />
-			<!--  	<exclude name="addAddOnwithOneLicenses" /> -->
-				<include name="placeOrder" />
-				<include name="orderProvision" />
+				<include name=""/>
+					<include name="searchBaseProduct"/>
+					<include name="addBaseProductWithFourLicenses"/>
+					<include name="addAddOnwithOneLicenses"/>
+					<include name="placeOrder"/>
+					<include name="orderProvision"/>
+			</methods>
+		</classes>
+</test>
+
+ <test name="Use Case 9: Contracts Management">
+		<classes>
+			<class name="com.dw.api.automation.steps.ContractsManagement" />
+			<methods>
+				<include name="login_to_application"/>
+				<include name="contractDownsize" />
+				<include name="contractDeactivate" />
+				
 				</methods>
 		</classes>
 </test>
+
+ <test name="Use Case 10:Place Order With Coupan Code">
+		<classes>
+			<class name="com.dw.api.automation.steps.PlaceOrderWithCoupanCode" />
+			<methods>
+				<include name="login_to_application"/>
+				<include name="searchBaseProduct"/>
+				<include name="addBaseProductWithFourLicenses"/>
+				<include name="addAddOnwithOneLicenses"/>
+				<include name="contractDownsize" />
+				<include name="contractDeactivate" />
+				<include name="placeOrder"/>
+				
+				</methods>
+		</classes>
+</test>
+ 
+
  
  
  

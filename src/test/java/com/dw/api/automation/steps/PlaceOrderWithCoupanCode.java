@@ -9,7 +9,6 @@ import javax.ws.rs.core.NewCookie;
 
 import org.json.JSONArray;
 import org.json.JSONObject;
-import org.testng.Assert;
 import org.testng.ITestResult;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
@@ -28,14 +27,7 @@ import com.relevantcodes.extentreports.ExtentTest;
 import com.relevantcodes.extentreports.LogStatus;
 import com.sun.jersey.api.client.ClientResponse;
 
-/*
- * 
- * Test Case for Market place
- * 
- * 
- */
-public class MarketPlaceTest {
-
+public class PlaceOrderWithCoupanCode {
 	/* Login to Application */
 	static NewCookie cook;
 	LoginPost lgoin = new LoginPost();
@@ -81,7 +73,7 @@ public class MarketPlaceTest {
 		logPassStatus("login to Application with Userid=pm6.qa@mailinator.com Password=Pass@123");
 
 	}
-
+	
 	/*Search Product --Office 365 Enterprise E3 and get sku-id "796b6b5f-613c-4e24-a17c-eba730d49c02" */
 	@Test(priority = 2)
 	public void searchBaseProduct()
@@ -109,10 +101,11 @@ public class MarketPlaceTest {
 		
 		String baseProduct="https://test.redington.market/api/v1/basket";
 		System.out.println("Base product url="+baseProduct);
-		String baseProductPayload="{\"basket\":{\"sku\":\""+sku+"\",\"productQuantity\":\"4\",\"planType\":\"monthly\",\"countryCode\":\"ARE\"}}";
+		String baseProductPayload="{\"basket\":{\"sku\":\""+sku+"\",\"productQuantity\":\"2\",\"planType\":\"monthly\",\"countryCode\":\"ARE\"}}";
 		response = post.getPostByJersey(baseProduct, baseProductPayload, cook);		
-		logPassStatus(" Base Product Office-365-Enterprise-E3  with  3 Licenses added to the Basket");	
+		logPassStatus(" Base Product Office-365-Enterprise-E3  with  2 Licenses added to the Basket");	
 	}
+	
 	/*Test case : Add AddOn Office 365 Extra File Storage with 1 licenses monthly  */
 	@Test(priority =4)
 	public void addAddOnwithOneLicenses()
@@ -131,7 +124,7 @@ public class MarketPlaceTest {
 	}
 	
 	
-	/*Future Implementation*/
+/*Future Implementation*/
 	
 	/*Validate Basket aganist base product quantity v/s addon product quantity */
 	/*Base quantity=3*/
@@ -161,6 +154,7 @@ public class MarketPlaceTest {
 		logPassStatus(" Validating sucessfully for Place order :<br/>Base product quantity v/s addon product quantity<br/>Base quantity=3  Add on Quantity=4"); 
 			}
 	*/
+	
 	
 	/*Place Order by updating baseproduct and addon product size*/
 	@Test(priority =6)
@@ -195,91 +189,10 @@ public class MarketPlaceTest {
 		String placeOrderPayload="{\"order\":{\"customerId\": \""+_id+"\",\"couponCode\": \"\",\"purchageOrderNumber\": \"1000\"}}";
 		String placeOrderReqUrl="https://test.redington.market/api/v1/orders";
 		System.out.println("placeOrderReqUrl="+ placeOrderReqUrl);
-		post.getPostByJersey(placeOrderReqUrl, placeOrderPayload, cook);
-		logPassStatus("Order Placed SucessFully");	
+	//	post.getPostByJersey(placeOrderReqUrl, placeOrderPayload, cook);
+	//	logPassStatus("Order Placed SucessFully");	
 
 	}
-	
-	
-	/*Order Provision*/
-	@Test(priority =7)
-	public void orderProvision()
-	{
-		//Step-1:Get Order Number
-		testdatamap = FilloExcelUtility.readExcel();
-		String companyName = testdatamap.get("companyName");
-		System.out.println("companyName=" + companyName);
-		String getOrderNumberUrl="https://test.redington.market/api/v1/orders?page=1&pageSize=10&sortBy=modifiedOn&sortOrder=desc&filterBy=period:6Months&searchKey="+companyName+"";
-		String res = get.getRestServiceMethod2(getOrderNumberUrl, cook);
-		 Object orderNumber = ParseJsonArray.parseJsonArray(res,"data","docs","id");
-		 System.out.println("orderNumber="+orderNumber);
-		//Step-2: Get Parent_id and Sku_id
-		String getParentIdUrl="https://test.redington.market/api/v1/orders/"+orderNumber+"";
-		System.out.println("getParentIdUrl="+getParentIdUrl);
-		res=get.getRestServiceMethod2(getParentIdUrl, cook);
-		Object skuId = ParseJsonArray.parseJsonArray(res, "data", "orderProducts", "sku");
-		System.out.println("skuId="+skuId);
-		//Step-3:order fulfill for base product
-		String baseOrderUrl="https://test.redington.market/api/v1/orders/fulfill/"+orderNumber+"";
-		String baseOrderPostParm="{\"sku\":\"796b6b5f-613c-4e24-a17c-eba730d49c02\"}"; 
-		post.getPostByJersey(baseOrderUrl, baseOrderPostParm, cook);
-		
-		
-//		
-//		//Step-4:order fulfill for AddOn product
-//		String getaddonParametersUrl="https://test.redington.market/api/v1/orders/"+orderNumber+"";
-//		res=get.getRestServiceMethod2(getaddonParametersUrl, cook);
-//		try {
-//			Thread.sleep(120000);
-//		} catch (InterruptedException e) {
-//			// TODO Auto-generated catch block
-//			e.printStackTrace();
-//		}
-//		
-//		//Get ParentSubscriptionId
-//	
-//		//  parentSubscriptionId = ParseJsonArray.parseJsonArray(res, "data", "orderProducts", "subscriptionId");
-//		  {
-//			  Object reqid1=null;
-//				JSONObject obj1 = new JSONObject(res);
-//				JSONArray docsArray1 = new JSONObject(res).getJSONObject("data").getJSONArray("orderProducts");
-//			List li1 = new ArrayList();
-//			for (Object object1 : docsArray1) {
-//					JSONObject obj2 = new JSONObject(object1.toString());
-//					reqid1= obj2.get("subscriptionId");	
-//		  }
-//			parentSubscriptionId=reqid1;
-//			System.out.println("subscriptionId="+reqid1);
-//			}
-//		System.out.println("subscriptionId="+parentSubscriptionId);
-//		
-//		//Get VendorId 
-//		JSONObject reqid=null;
-//			JSONObject obj = new JSONObject(res);
-//			JSONArray docsArray = new JSONObject(res).getJSONObject("data").getJSONArray("orderProducts");
-//		List li = new ArrayList();
-//		for (Object object : docsArray) {
-//				JSONObject obj2 = new JSONObject(object.toString());
-//				reqid=(JSONObject)obj2.get("botResponse");
-//				 vendorId = reqid.get("id");
-//				System.out.println("The id is ========="+reqid.get("id"));
-//				break;
-//			}
-//		System.out.println("The id is ========="+vendorId);
-//		
-//		
-//		String addOnFullfillRequest="https://test.redington.market/api/v1/orders/fulfill/"+orderNumber+"";
-//		String addOnFullfillPayload="{\"parentSubscriptionId\":\""+parentSubscriptionId+"\",\"sku\": \"53fc25f7-6639-4f78-bb44-3c2dfec3ed40\",\"OrderId\": \""+orderNumber+"\",\"vendorId\": \""+vendorId+"\"}";
-//		post.getPostByJersey(addOnFullfillRequest, addOnFullfillPayload, cook);
-//		
-		
-		// Object parentSubscriptionId = ParseJsonArray.parseJsonArray(res,"data","orderProducts","subscriptionid");
-		// System.out.println("parentSubscriptionId="+parentSubscriptionId);
-		
-		
-		logPassStatus("Order Placed for Addon SucessFully");	
-	}
-	
 	
 	
 	
@@ -302,6 +215,5 @@ public class MarketPlaceTest {
 			// test.addScreenCapture(ExtentManager.CaprtureScreenshot(driver,result.getInstanceName())));
 			test.log(LogStatus.FAIL, result.getThrowable());
 		}
-	
 	}
 }

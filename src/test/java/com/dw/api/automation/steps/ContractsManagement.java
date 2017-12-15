@@ -14,9 +14,11 @@ import org.testng.annotations.Test;
 
 import com.dw.api.automation.extent.ExtentManager;
 import com.dw.api.automation.libs.CertificateHandle;
+import com.dw.api.automation.libs.Delete;
 import com.dw.api.automation.libs.FilloExcelUtility;
 import com.dw.api.automation.libs.Get;
 import com.dw.api.automation.libs.LoginPost;
+import com.dw.api.automation.libs.ParseJsonArray;
 import com.dw.api.automation.libs.Post;
 import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
@@ -34,6 +36,7 @@ public class ContractsManagement {
 	static ExtentTest test;
 	ClientResponse response = null;
 	HashMap<String, String> testdatamap = null;
+	Delete delete=new Delete();
 	@BeforeClass
 	public void initateExtentManager() {
 		extent = ExtentManager.Instance();
@@ -64,12 +67,48 @@ public class ContractsManagement {
 	}
 	
 	@Test(priority = 2)
+	/*Contract Down size*/
 	public void contractDownsize()
 	{
-		
+		//Step 1:get _id for contract down size
+		testdatamap = FilloExcelUtility.readExcel();
+		String companyName = testdatamap.get("companyName");
+		System.out.println("companyName=" + companyName);
+		String contractDownSizeGetIdUrl="https://test.redington.market/api/v1/contract?page=1&pageSize=10&sortBy=createdOn&sortOrder=desc&filterBy=contractTerminated:false&searchKey="+companyName+"";
+	    System.out.println("contractDownSizeGetIdUrl="+contractDownSizeGetIdUrl);
+		String res = get.getRestServiceMethod2(contractDownSizeGetIdUrl, cook);
+	    Object _id = ParseJsonArray.parseJsonArray(res, "data", "docs", "_id");
+	    System.out.println("_id="+_id);
+	    
+	    //Step 2:Downsize the order by 1 value
+	   String contractDownSizeUrl="https://test.redington.market/api/v1/contract/"+_id+"/1";
+	   System.out.println("contractDownSizeUrl="+contractDownSizeUrl);
+	   String contractDownSizeUrlPayload="{\"headers\":{\"Content-Type\":[\"application/json; charset=utf-8\"],\"user-role\": [\"PM\"],\"Cache-Control\": [\"no-cache\",\"no-cache\",\" no-store\",\" must-revalidate\"],\"Pragma\": [\"no-cache\" ],\"Expires\": [ \"-1\"]}}"; 
+	   	//	post.getPostByJersey(contractDownSizeUrl, contractDownSizeUrlPayload, cook);
+	   logPassStatus("Contract downsize For BaseProduct  done sucessfully");
 	}
 	
-	
+	@Test(priority = 3)
+	/*Contract Down size*/
+	public void contractDeactivate()
+	{
+		//Step 1:get _id for contract down size
+		testdatamap = FilloExcelUtility.readExcel();
+		String companyName = testdatamap.get("companyName");
+		System.out.println("companyName=" + companyName);
+		String contractDownSizeGetIdUrl="https://test.redington.market/api/v1/contract?page=1&pageSize=10&sortBy=createdOn&sortOrder=desc&filterBy=contractTerminated:false&searchKey="+companyName+"";
+	    System.out.println("contractDownSizeGetIdUrl="+contractDownSizeGetIdUrl);
+		String res = get.getRestServiceMethod2(contractDownSizeGetIdUrl, cook);
+	    Object _id = ParseJsonArray.parseJsonArray(res, "data", "docs", "_id");
+	    System.out.println("_id="+_id);
+	    
+	    //Step 2:Downsize the order by 1 value
+	   String contractDeactivateUrl="https://test.redington.market/api/v1/contract/"+_id+"";
+	   System.out.println("contractDownSizeUrl="+contractDeactivateUrl);
+	   delete.delete(contractDeactivateUrl,  cook);
+	   logPassStatus("Contract Deactivate for the Company="+companyName);   		
+	    
+	}
 	
 	
 	
