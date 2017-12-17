@@ -8,14 +8,20 @@
  <parameter name="testdata" value="qa/data"/>
  <parameter name="tdm.data" value="off"/> -->
  <parameter name="url"
-            value="https://dev.redington.market/"/>
+            value="https://test.redington.market/"/>
             
   <parameter name="MailinatorURL" value="https://www.mailinator.com/"/>  
-  <parameter name="userBAM" value="bam27nov@sutiami.ml"/>   
+<!--   <parameter name="userBAM" value="bam27nov@sutiami.ml"/>   
   <parameter name="passBAM" value="Pass@123"/> 
   <parameter name="userCA" value="ca27nov@tempm.ml"/>   
   <parameter name="passCA" value="Pass@123"/> 
   <parameter name="userSA" value="sa27nov@hantem.bid"/>   
+  <parameter name="passSA" value="Pass@123"/>  -->
+  <parameter name="userBAM" value="bam@axsup.net"/>   
+  <parameter name="passBAM" value="Pass@123"/> 
+  <parameter name="userCA" value="ca@nezdiro.org"/>   
+  <parameter name="passCA" value="Pass@123"/> 
+  <parameter name="userSA" value="sa12@coldmail.gq"/>   
   <parameter name="passSA" value="Pass@123"/> 
   <parameter name="userFM" value="fm14@mailinator.com"/>   
   <parameter name="passFM" value="Pass@123"/> 
@@ -81,7 +87,7 @@
   </classes>
 </test>  
 
-<!--  <test name="Creating coupon" enabled="true">
+<test name="Creating coupon" enabled="true">
   <parameter name="driver.name" value="Firefox"/>
   <parameter name="features" value="features/Redington/CouponCreate.feature"/>
   <parameter name="driver.capabilities"
@@ -89,7 +95,7 @@
  <classes>
    <class name="com.scholastic.torque.runner.Run" />
   </classes>
-</test>  -->
+</test> 
 
 <test name="Placing multiple order" enabled="true">
   <parameter name="driver.name" value="Firefox"/>
@@ -102,7 +108,7 @@
 </test> 
 
 
- <test name="OrderApproval" enabled="true">
+<test name="OrderApproval" enabled="true">
   <parameter name="driver.name" value="Firefox"/>
   <parameter name="features" value="features/Redington/OrderApproval.feature"/>
   <parameter name="driver.capabilities"
@@ -144,9 +150,9 @@
    <class name="com.scholastic.torque.runner.Run" />
   </classes>
 
-</test>
+</test>     
 
- <test name="OrganizationCreditReqRejection.feature" enabled="true">
+<test name="OrganizationCreditReqRejection.feature" enabled="true">
   <parameter name="driver.name" value="Firefox"/>
   <parameter name="features" value="features/Redington/OrgCreditRequestReject.feature"/>
   <parameter name="driver.capabilities"
@@ -177,7 +183,7 @@
 </test>
 
 
- <test name="OrgCreateAndCARejection" enabled="true">
+     <test name="OrgCreateAndCARejection" enabled="true">
   <parameter name="driver.name" value="Firefox"/>
   <parameter name="features" value="features/Redington/OrgCreateAndCARejection.feature"/>
   <parameter name="driver.capabilities"

@@ -24,7 +24,7 @@ Feature: Customer creation by PM and Rejection by BAM
     Then I logout from the application
     Given I launch the application as a Partner Manager
 	When I go to Customer Page
-    And I verify that the customer is rejected
+    #And I verify that the customer is rejected
     Then I logout from the application
     Examples:
 	|UsingData     |

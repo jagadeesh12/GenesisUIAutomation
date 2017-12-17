@@ -199,6 +199,13 @@ public class OrgCreateAndApproveImpl extends BaseTestPage<TestPage> implements O
 	public WebElement getorgvatid() {
 		return orgvatid;
 	}
+	
+	@FindBy(locator = "rd.orgonboard.drpdwn.partnerTaxCalculation")
+	private WebElement partnerTaxCalculation;
+	
+	public WebElement getpartnerTaxCalculation() {
+		return partnerTaxCalculation;
+	}
 
 	@FindBy(locator = "rd.orgonboard.chkbox.iagreechkbox")
 	private WebElement orgiagreechkbox;
@@ -509,6 +516,14 @@ public class OrgCreateAndApproveImpl extends BaseTestPage<TestPage> implements O
 		return uploadFileBtn4;
 	}
 	
+	@FindBy(locator = "rd.orgonboard.upload.VATRegistrationCertificate")
+	private WebElement uploadFileBtn5;
+	
+	public WebElement getuploadFileBtn5() {
+		return uploadFileBtn5;
+	}
+	
+	
 	@FindBy(locator = "rd.orgonboard.drpdwn.userfm")
 	private WebElement userfmDrpdwn;
 	
@@ -558,7 +573,7 @@ public class OrgCreateAndApproveImpl extends BaseTestPage<TestPage> implements O
 		wf.click_element(getmpnVerifyBtn());
 		System.out.println("Waiting for mpn verify");
 		RUtils.waitforloadingtodissappear();
-		System.out.println("Starting file upload function");
+		System.out.println("Starting Logo file upload function");
 		wf.click_element(getlogoUpload());
 		File currentDir = new File (testBase.getTestData().getString("filePath"));
 		try {
@@ -573,7 +588,7 @@ public class OrgCreateAndApproveImpl extends BaseTestPage<TestPage> implements O
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 					}
-		System.out.println("End of file upload function");
+		System.out.println("End of Logo file upload function");
 		//PauseUtil.pause(10000);
 		getorgaddr1TxtBox().sendKeys(testBase.getTestData().getString("orgAdd1"));
 		getorgaddr2TxtBox().sendKeys(testBase.getTestData().getString("orgAdd2"));
@@ -600,19 +615,23 @@ public class OrgCreateAndApproveImpl extends BaseTestPage<TestPage> implements O
 		getorgtradelic().sendKeys(testBase.getTestData().getString("tradeLi"));
 		getorgtradecalendar().sendKeys(testBase.getTestData().getString("tradeLicCal"));
 		getorgvatid().sendKeys(testBase.getTestData().getString("tradeLi"));
+		SCHUtils.selectOptionsByVisibleText(getpartnerTaxCalculation(), testBase.getTestData().getString("partnerTaxCalculation"));
 		//PauseUtil.pause(20000);
 		try {
-			System.out.println("Starting 2 file upload function");
+			System.out.println("Starting 2 file upload function" +basepath);
 			wf.click_element(getuploadFileBtn1());
 			RUtils.upload_Documents(basepath);
-			System.out.println("Starting 3 file upload function");
+			System.out.println("Starting 3 file upload function" +basepath);
 			wf.click_element(getuploadFileBtn2());
 			RUtils.upload_Documents(basepath);
-			System.out.println("Starting 4 file upload function");
+			System.out.println("Starting 4 file upload function" +basepath);
 			wf.click_element(getuploadFileBtn3());
 			RUtils.upload_Documents(basepath);
 			System.out.println("Starting 5 file upload function");
 			wf.click_element(getuploadFileBtn4());
+			RUtils.upload_Documents(basepath);
+			System.out.println("Starting 6 file upload function");
+			wf.click_element(getuploadFileBtn5());
 			RUtils.upload_Documents(basepath);
 
 		} catch (AWTException e) {
@@ -693,6 +712,7 @@ public class OrgCreateAndApproveImpl extends BaseTestPage<TestPage> implements O
 		System.out.println("Starting 5 file upload function");
 		wf.click_element(getuploadFileBtn4());
 		RUtils.upload_Documents(basepath);
+
 
 	} catch (AWTException e) {
 		// TODO Auto-generated catch block

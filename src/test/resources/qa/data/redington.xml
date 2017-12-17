@@ -16,10 +16,10 @@
 		<appUrl>https://test.redington.market/</appUrl>
 	</testcase>
 	<testcase id="OrderApproval">
-		<userPM>PMFN_15121254@mailinator.com</userPM>
-		<domain>www.PMFN15121348.com</domain>
+		<userPM>PMFN_17121055@mailinator.com</userPM>
+		<domain>www.PMFN17122049.com</domain>
 		<password>Pass@123</password>
-		<userFm>FM15121256@mailinator.com</userFm>
+		<userFm>FM17121057@mailinator.com</userFm>
 		<passFm>Pass@123</passFm>
 		<userBam>bam@axsup.net</userBam>
 		<passBam>Pass@123</passBam>
@@ -36,6 +36,7 @@
 		<signAuthEmail>pm6.qa@mailinator.com</signAuthEmail>
 		<partnerSegment>Managed Service Provider</partnerSegment>
 		<tradeLi>32453212</tradeLi>
+		<partnerTaxCalculation>Liable for Tax</partnerTaxCalculation>
 		<tradeLicCal>01.11.2017 - 01.11.2018</tradeLicCal>
 		<filePath>src/test/resources/UploadFiles/test.jpg</filePath>
 		<credit>10000</credit>
@@ -51,9 +52,9 @@
 		<rejecteStatus>REJECTED</rejecteStatus>
 		<custCredit>1000</custCredit>
 		<custCreditReq>2010</custCreditReq>
-		<custdomain>CUST15121305</custdomain>
+		<custdomain>CUST17121300</custdomain>
 		<cust>0000</cust>
-		<orderId>784051000000174</orderId>
+		<orderId>784051000000533</orderId>
 		<ord/>
 		<customercode>1010006975</customercode>
 		<product>Office 365 Enterprise E3</product>
