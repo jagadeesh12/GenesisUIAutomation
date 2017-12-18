@@ -1,0 +1,346 @@
+<testdata>
+
+<!-- ##################################################################################################################################################    
+##################################################################################################################################################    
+###########################################   							             #############################################################   
+###########################################   		   DWCAPCOD-101         	     #############################################################
+###########################################   							             #############################################################        
+##################################################################################################################################################        
+################################################################################################################################################## -->
+
+<testcase id="Dev35:Teacher_SOO_NOOrders">
+<userid>165771</userid>
+<password>passw0rd</password>
+<SOOTitle>Student Online Orders</SOOTitle>
+</testcase>
+
+<testcase id="InSprint16.2:PCOD:ParentTeacher_SSO_ReviewCart">
+<userid>166414</userid>
+<password>passw0rd</password>
+</testcase>
+
+
+<testcase id="InSprint16.2:PCOD:ParentTeacher_SSO_YourTeacherOrderOption">
+<userid>166521</userid>
+<password>passw0rd</password>
+<YTOTitle>Your Teacher Order</YTOTitle>
+</testcase>
+
+<testcase id="InSprint16.2:PCOD:ParentTeacher_SSO_StudentFlyerOrdersOption">
+<userid>166571</userid>
+<password>passw0rd</password>
+<SFOTitle>Student Flyer Orders</SFOTitle>
+</testcase>
+
+
+<testcase id="InSprint16.2:PCOD:ParentTeacher_SSO_ViewFullDetailsLink">
+<userid>165755</userid>
+<password>passw0rd</password>
+<BookTitle>Brave</BookTitle>
+</testcase>
+
+<testcase id="InSprint16.2:PCOD:ParentTeacher_SSO_ItemNumber">
+<userid>203498</userid>
+<password>passw0rd</password>
+</testcase>
+
+
+<testcase id="InSprint16.2:PCOD:ParentTeacher_SSO_Totals">
+<userid>166076</userid>
+<password>passw0rd</password>
+</testcase>
+
+
+<testcase id="InSprint16.2:PCOD:ParentTeacher_SSO_ItemTitle_Link">
+<userid>203498</userid>
+<password>passw0rd</password>
+</testcase>
+
+
+
+<testcase id="InSprint16.2:PCOD:ParentTeacher_1Child">
+<userid>166274</userid>
+<password>passw0rd</password>
+</testcase>
+
+<testcase id="InSprint16.2:PCOD:ParentTeacher_2Child">
+<userid>166357</userid>
+<password>passw0rd</password>
+<datatype>2ch1th1ord</datatype>
+</testcase>
+
+<testcase id="InSprint16.2:PCOD:ParentTeacher_2Child_MultipleOrders">
+<userid>166696</userid>
+<password>passw0rd</password>
+<datatype>1pr2ch2ord</datatype>
+</testcase>
+
+
+<!-- ##################################################################################################################################################    
+##################################################################################################################################################    
+###########################################   							             #############################################################   
+###########################################   		   DWCAPCOD-1451         	     #############################################################
+###########################################   							             #############################################################        
+##################################################################################################################################################        
+################################################################################################################################################## -->
+
+<testcase id="InSprint16.2:PCOD:2Parents_1Teacher_2Child_1Order">
+<userid>166688</userid>
+<password>passw0rd</password>
+<datatype>2pr2ch21ord</datatype>
+</testcase>
+
+
+<!-- ##################################################################################################################################################    
+##################################################################################################################################################    
+###########################################   							             #############################################################   
+###########################################   		   DWCAPCOD-1452         	     #############################################################
+###########################################   							             #############################################################        
+##################################################################################################################################################        
+################################################################################################################################################## -->
+
+<testcase id="InSprint16.2:PCOD:Parent_Multiple_Teachers_2Childs_1Order">
+<userid>167842</userid>
+<password>passw0rd</password>
+<datatype>2ch1th1ord</datatype>
+<userid2>167941</userid2>
+<password>passw0rd</password>
+</testcase>
+
+
+<testcase id="InSprint16.2:PCOD:Parent_Multiple_Teachers_2Childs_1OrderChild1">
+<userid>168006</userid>
+<password>passw0rd</password>
+<datatype>1ch1item1ord</datatype>
+<userid2>168064</userid2>
+<password>passw0rd</password>
+</testcase>
+
+<testcase id="InSprint16.2:PCOD:Parent_Multiple_Teachers_2Childs_2Orders">
+<userid>168212</userid>
+<password>passw0rd</password>
+<datatype>1stch1item2ord</datatype>
+<datatype2>2ndch1item2ord</datatype2>
+<userid2>168238</userid2>
+<password>passw0rd</password>
+</testcase>
+	<!-- #####################################################################################################################################
+	##########################################################################################################################################
+	###########################################   							             #####################################################
+	###########################################   		   DWCAPCOD-200          	     #####################################################
+	###########################################   							             #####################################################       
+	##########################################################################################################################################
+	###################################################################################################################################### -->
+
+	<testcase id="InSprint16.2:PCOD:Homepgae_Dropdown_ChildNotConnected">
+		<acc_no>d.w.c.an.adacsrtest@gmail.com</acc_no>
+		<password>passw0rd</password>
+		<firstname>Mary</firstname>
+		<lastname>Sue</lastname>
+		<postalcode>V0B 1G5</postalcode>
+		<SchoolName>Prince Charles Sec School</SchoolName>
+		<accNum>369729</accNum>
+		<TeacherSalutation>miss.</TeacherSalutation>
+		<TeacherFirstname>Paul</TeacherFirstname>
+		<TeacherLastname>Paulinus</TeacherLastname>
+	</testcase>
+	
+	<testcase id="InSprint16.2:PCOD:ReviewCart_ChildNotConnected">
+		<acc_no>d.w.c.a.nadacsrtest@gmail.com</acc_no>
+		<password>passw0rd</password>
+		<itemName>4X1</itemName>
+		<itemQty>1</itemQty>
+		<firstname>Mary</firstname>
+		<lastname>Sue</lastname>
+		<postalcode>V0B 1G5</postalcode>
+		<SchoolName>Prince Charles Sec School</SchoolName>
+		<accNum>369729</accNum>
+		<TeacherSalutation>miss.</TeacherSalutation>
+		<TeacherFirstname>Paul</TeacherFirstname>
+		<TeacherLastname>Paulinus</TeacherLastname>
+	</testcase>
+	
+	<!-- #####################################################################################################################################
+	##########################################################################################################################################
+	###########################################   							             #####################################################
+	###########################################   		   DWCAPCOD-103          	     #####################################################
+	###########################################   							             #####################################################       
+	##########################################################################################################################################
+	###################################################################################################################################### -->
+	
+	<testcase id="InSprint16.2:PCOD:SOO:TCODReviewCart_SOOSection_Collapse">
+		<userid1>268319</userid1>
+		<password1>passw0rd</password1>
+	</testcase>
+	
+	<testcase id="InSprint16.2:PCOD:SOO:TCODReviewCart_SOOSection_Expand">
+		<userid1>268327</userid1>
+		<password1>passw0rd</password1>
+	</testcase>
+	
+	<testcase id="InSprint16.2:PCOD:SOO:TCODReviewCart_2ChildrenPendingOrderfor1_BC">
+		<numChildren>1</numChildren>
+		<userid1>267626</userid1>
+		<password1>passw0rd</password1>
+		<userid2>268450</userid2>
+		<password2>passw0rd</password2>
+		<itemNumber1child1>${item3Number}</itemNumber1child1>
+		<itemTitle1child1>${item3Title}</itemTitle1child1>
+		<itemFlyer1child1>${item3Flyer}</itemFlyer1child1>
+		<itemPrice1child1>${item3Price}</itemPrice1child1>
+		<itemQuantity1child1>${item3Quantity}</itemQuantity1child1>
+		<stateGST>0.05</stateGST>
+		<statePST>0.07</statePST>
+	</testcase>
+	
+	<testcase id="InSprint16.2:PCOD:SOO:TCODReviewCart_1ChildPendingOrders_NB">
+		<numChildren>1</numChildren>
+		<userid1>267949</userid1>
+		<password1>passw0rd</password1>
+		<itemNumber1child1>${item4Number}</itemNumber1child1>
+		<itemTitle1child1>${item4Title}</itemTitle1child1>
+		<itemFlyer1child1>${item4Flyer}</itemFlyer1child1>
+		<itemPrice1child1>${item4Price}</itemPrice1child1>
+		<itemQuantity1child1>${item4Quantity}</itemQuantity1child1>
+		<stateHST>0.15</stateHST>
+	</testcase>
+	
+	<testcase id="InSprint16.2:PCOD:SOO:TCODReviewCart_1ChildFreePickOrder_MB">
+		<numChildren>1</numChildren>
+		<userid1>267569</userid1>
+		<password1>passw0rd</password1>
+		<itemNumber1child1>${item5Number}</itemNumber1child1>
+		<itemTitle1child1>${item5Title}</itemTitle1child1>
+		<itemFlyer1child1>${item5Flyer}</itemFlyer1child1>
+		<itemPrice1child1>${item5Price}</itemPrice1child1>
+		<itemQuantity1child1>${item5Quantity}</itemQuantity1child1>
+		<stateGST>0.05</stateGST>
+	</testcase>
+	
+	<testcase id="InSprint16.2:PCOD:SOO:TCODReviewCart_2ChildrenPendingOrderfor2_NU">
+		<numChildren>2</numChildren>
+		<userid1>267577</userid1>
+		<password1>passw0rd</password1>
+		<userid2>269531</userid2>
+		<password2>passw0rd</password2>
+		<itemNumber1child1>${item3Number}</itemNumber1child1>
+		<itemTitle1child1>${item3Title}</itemTitle1child1>
+		<itemFlyer1child1>${item3Flyer}</itemFlyer1child1>
+		<itemPrice1child1>${item3Price}</itemPrice1child1>
+		<itemQuantity1child1>${item3Quantity}</itemQuantity1child1>
+		<itemNumber1child2>${item4Number}</itemNumber1child2>
+		<itemTitle1child2>${item4Title}</itemTitle1child2>
+		<itemFlyer1child2>${item4Flyer}</itemFlyer1child2>
+		<itemPrice1child2>${item4Price}</itemPrice1child2>
+		<itemQuantity1child2>${item4Quantity}</itemQuantity1child2>
+		<stateGST>0.05</stateGST>
+	</testcase>
+	
+	<testcase id="InSprint16.2:PCOD:SOO:TCODReviewCart_2ChildrenPendingOrderfor2_QC">
+		<numChildren>2</numChildren>
+		<userid1>267882</userid1>
+		<password1>passw0rd</password1>
+		<userid2>269440</userid2>
+		<password2>passw0rd</password2>
+		<itemNumber1child1>${item3Number}</itemNumber1child1>
+		<itemTitle1child1>${item3Title}</itemTitle1child1>
+		<itemFlyer1child1>${item3Flyer}</itemFlyer1child1>
+		<itemPrice1child1>${item3Price}</itemPrice1child1>
+		<itemQuantity1child1>${item3Quantity}</itemQuantity1child1>
+		<itemNumber1child2>${item4Number}</itemNumber1child2>
+		<itemTitle1child2>${item4Title}</itemTitle1child2>
+		<itemFlyer1child2>${item4Flyer}</itemFlyer1child2>
+		<itemPrice1child2>${item4Price}</itemPrice1child2>
+		<itemQuantity1child2>${item4Quantity}</itemQuantity1child2>
+		<stateGST>0.05</stateGST>
+		<stateQST>0.09975</stateQST>
+	</testcase>
+	
+	<testcase id="InSprint16.2:PCOD:SOO:TCODReviewCart_3ChildrenPendingOrdersfor3_YT">
+		<numChildren>3</numChildren>
+		<userid1>268129</userid1>
+		<password1>passw0rd</password1>
+		<userid2>267543</userid2>
+		<password2>passw0rd</password2>
+		<itemNumber1child1>${item1Number}</itemNumber1child1>
+		<itemTitle1child1>${item1Title}</itemTitle1child1>
+		<itemFlyer1child1>${item1Flyer}</itemFlyer1child1>
+		<itemPrice1child1>${item1Price}</itemPrice1child1>
+		<itemQuantity1child1>${item1Quantity}</itemQuantity1child1>
+		<itemNumber1child2>${item2Number}</itemNumber1child2>
+		<itemTitle1child2>${item2Title}</itemTitle1child2>
+		<itemFlyer1child2>${item2Flyer}</itemFlyer1child2>
+		<itemPrice1child2>${item2Price}</itemPrice1child2>
+		<itemQuantity1child2>${item2Quantity}</itemQuantity1child2>
+		<itemNumber1child3>${item1Number}</itemNumber1child3>
+		<itemTitle1child3>${item1Title}</itemTitle1child3>
+		<itemFlyer1child3>${item1Flyer}</itemFlyer1child3>
+		<itemPrice1child3>${item1Price}</itemPrice1child3>
+		<itemQuantity1child3>${item1Quantity}</itemQuantity1child3>
+		<stateGST>0.00</stateGST>
+	</testcase>
+	
+	<testcase id="InSprint16.2:PCOD:SOO:TCODReviewCart_1ChildSameTeacher_NT">
+		<numChildren>2</numChildren>
+		<userid1>268202</userid1>
+		<password1>passw0rd</password1>
+		<itemNumber1child1>${item3Number}</itemNumber1child1>
+		<itemTitle1child1>${item3Title}</itemTitle1child1>
+		<itemFlyer1child1>${item3Flyer}</itemFlyer1child1>
+		<itemPrice1child1>${item3Price}</itemPrice1child1>
+		<itemQuantity1child1>${item3Quantity}</itemQuantity1child1>
+		<itemNumber1child2>${item4Number}</itemNumber1child2>
+		<itemTitle1child2>${item4Title}</itemTitle1child2>
+		<itemFlyer1child2>${item4Flyer}</itemFlyer1child2>
+		<itemPrice1child2>${item4Price}</itemPrice1child2>
+		<itemQuantity1child2>${item4Quantity}</itemQuantity1child2>
+		<stateGST>0.05</stateGST>
+	</testcase>
+
+    <!-- ##################################################################################################################################################
+    ##################################################################################################################################################
+    ###########################################   							             #############################################################
+    ###########################################   		   DWCAPCOD-101         	     #############################################################
+    ###########################################   							             #############################################################
+    ##################################################################################################################################################
+    ################################################################################################################################################## -->
+    <testcase id="InSprint16.2:PCOD:ParentMyAccount:FAT">
+        <acc_no>pcool50@ss.com</acc_no>
+        <password>passw0rd</password>
+        <childfirstname>AutomationChildNameFirst</childfirstname>
+        <childlastname>LastNameAutomation</childlastname>
+        <updatedchildfirstname>AutoNewFirstName</updatedchildfirstname>
+        <updatedchildlastname>AutonNewLastName</updatedchildlastname>
+        <zipcode>T0E 0A0</zipcode>
+        <SchoolName>Grasmere School</SchoolName>
+    </testcase>
+
+    <testcase id="InSprint16.2:PCOD:ParentMyAccount:FAT2">
+        <acc_no>pcool51@ss.com</acc_no>
+        <password>passw0rd</password>
+        <childfirstname>AutomationChildNameFirst</childfirstname>
+        <childlastname>LastNameAutomation</childlastname>
+        <updatedchildfirstname>AutomationChildNameFirst</updatedchildfirstname>
+        <updatedchildlastname>AutonNewLastName</updatedchildlastname>
+        <postalcode>T0E 0A0</postalcode>
+        <SchoolName>Grasmere School</SchoolName>
+    </testcase>
+
+	<testcase id="InSprint16.2:PCOD:AddChildReviewCart:FAT3">
+		<acc_no>pcool51@ss.com</acc_no>
+		<password>passw0rd</password>
+		<childfirstname>AutomationChildNameFirst</childfirstname>
+		<childlastname>LastNameAutomation</childlastname>
+		<updatedchildfirstname>AutomationChildNameFirst</updatedchildfirstname>
+		<updatedchildlastname>AutonNewLastName</updatedchildlastname>
+		<postalcode>T0E 0A0</postalcode>
+		<SchoolName>Grasmere School</SchoolName>
+		<itemName>${PCOD_ITEM1}</itemName>
+		<itemQty>1</itemQty>
+		<childfirstname1>ReviewCartFirstChildName</childfirstname1>
+		<childlastname1>ReviewCartLastNameAutomation</childlastname1>
+
+	</testcase>
+
+</testdata>	
+

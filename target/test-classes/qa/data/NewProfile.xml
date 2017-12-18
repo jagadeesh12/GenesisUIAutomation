@@ -1,0 +1,31 @@
+<testdata>
+	<testcase id="t_with_soo_order">
+		<credential>
+			<customer_no></customer_no>
+		</credential>
+		<profile>
+			<salutation></salutation>
+			<firstname></firstname>
+			<lastname></lastname>
+			<email></email>
+		</profile>
+		<custom>
+			<isProfileTeacher></isProfileTeacher>
+			<isProfileParent></isProfileParent>
+			<isProfileParentOfTeacher></isProfileParentOfTeacher>
+			<isAdminTeacherInClassRoom></isAdminTeacherInClassRoom>
+		</custom>
+		<sps>
+		    <spsid></spsid>
+		    <username></username>
+		    <ucn></ucn>
+		    <bonuspoint></bonuspoint>
+		    <positions></positions>
+		    <schoolid></schoolid>
+		    <status></status>
+		    <readingleveltype></readingleveltype>
+		    <graderoles></graderoles>
+		    <bcoeid></bcoeid>
+		</sps>
+	</testcase>
+</testdata>

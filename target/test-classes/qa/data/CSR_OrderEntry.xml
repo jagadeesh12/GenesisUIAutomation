@@ -1,0 +1,33 @@
+<testdata>
+	<testcase id="CSR_enters_Locate_Account_to_Verify_Account_page">
+		<userid>bmekala</userid>
+		<password>July2018!</password>
+		<AcNum>4857952</AcNum>
+	</testcase>
+	
+	<testcase id="CSR_enters_Verify_Account_to_OrderEntry_page">
+		<userid>bmekala</userid>
+		<password>July2018!</password>
+		<AcNum>4858158</AcNum>
+	</testcase>
+	
+	<testcase id="Order_Entry_tab_highlights">
+		<userid>bmekala</userid>
+		<password>July2018!</password>
+		<AcNum>4890613</AcNum>
+	</testcase>
+	
+	<testcase id="Order_Entry_form_displays_in_Order_Entry_page">
+		<userid>bmekala</userid>
+		<password>July2018!</password>
+		<AcNum>4892651</AcNum>
+	</testcase>
+	
+	<testcase id="Proceed_To_Checkout_button_displays_Order_Entry_page">
+		<userid>bmekala</userid>
+		<password>July2018!</password>
+		<AcNum>4904068</AcNum>
+	</testcase>
+	
+	
+</testdata>

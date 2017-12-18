@@ -1,0 +1,168 @@
+<testdata>
+	<testcase id="Two_layers_displays_CSR_enters_Order_Entry_page">
+		<userid>bmekala</userid>
+		<password>July2018!</password>
+		<AcNum>4904563</AcNum>
+	</testcase>
+	
+	<testcase id="Two_tabs_displays_CSR_enters_Order_Entry_page">
+		<userid>bmekala</userid>
+		<password>July2018!</password>
+		<AcNum>4907830</AcNum>
+	</testcase>
+	
+	<testcase id="Student_Order_tab_disabled_CSR_enters_Order_Entry_page">
+		<userid>bmekala</userid>
+		<password>July2018!</password>
+		<AcNum>4907905</AcNum>
+	</testcase>
+	
+	<testcase id="Teacher_Order_tab_selected_CSR_enters_Order_Entry_page">
+		<userid>bmekala</userid>
+		<password>July2018!</password>
+		<AcNum>4918192</AcNum>
+	</testcase>
+	
+	<testcase id="Three_horizontal_forms_CSR_enters_Order_Entry_page">
+		<userid>bmekala</userid>
+		<password>July2018!</password>
+		<AcNum>4920460</AcNum>
+	</testcase>
+	
+	<testcase id="Flyer_Code_entry_content_field_CSR_enters_Order_Entry_page">
+		<userid>bmekala</userid>
+		<password>July2018!</password>
+		<AcNum>4922656</AcNum>
+	</testcase>
+	
+	<testcase id="Item_entry_content_field_CSR_enters_Order_Entry_page">
+		<userid>bmekala</userid>
+		<password>July2018!</password>
+		<AcNum>4923703</AcNum>
+	</testcase>
+	
+	<testcase id="Form_expansion_button_CSR_enters_Order_Entry_page">
+		<userid>bmekala</userid>
+		<password>July2018!</password>
+		<AcNum>4940781</AcNum>
+	</testcase>
+	
+	<testcase id="FLYER_CODE_label_CSR_enters_Order_Entry_page">
+		<userid>bmekala</userid>
+		<password>July2018!</password>
+		<AcNum>4975340</AcNum>
+	</testcase>
+	
+	<testcase id="Placeholder_text_Fler_Code_field_CSR_enters_Order_Entry_page">
+		<userid>bmekala</userid>
+		<password>July2018!</password>
+		<AcNum>4978310</AcNum>
+	</testcase>
+	
+	<testcase id="alphanumeric_in _the_Flyer_Code_entry_CSR_enters_Order_Entry_page">
+		<userid>bmekala</userid>
+		<password>July2018!</password>
+		<FlyerCode>123456</FlyerCode>
+		<AcNum>4979821</AcNum>
+	</testcase>
+	
+	<testcase id="Item_entry_label_CSR_enters_Order_Entry_page">
+		<userid>bmekala</userid>
+		<password>July2018!</password>
+		<AcNum>4983624</AcNum>
+	</testcase>
+	
+	<testcase id="paid_qty_label_CSR_enters_Order_Entry_page">
+		<userid>bmekala</userid>
+		<password>July2018!</password>
+		<AcNum>4987402</AcNum>
+	</testcase>
+	
+	<testcase id="Bonus_qty_label_CSR_enters_Order_Entry_page">
+		<userid>bmekala</userid>
+		<password>July2018!</password>
+		<AcNum>4990273</AcNum>
+	</testcase>
+	
+	<testcase id="Eight_rows_CSR_enters_Order_Entry_page">
+		<userid>bmekala</userid>
+		<password>July2018!</password>
+		<AcNum>4998003</AcNum>
+	</testcase>
+	
+	<testcase id="Three_textboxes_CSR_enters_Order_Entry_page">
+		<userid>bmekala</userid>
+		<password>July2018!</password>
+		<AcNum>5004619</AcNum>
+	</testcase>
+	
+	<testcase id="Validation_of_Item_num_field_CSR_enters_Order_Entry_page">
+		<userid>bmekala</userid>
+		<password>July2018!</password>
+		<ItemNumber>123456</ItemNumber>
+		<AcNum>5006962</AcNum>v
+	</testcase>
+	
+	<testcase id="CSR_enters_0_in_Paid_Qty">
+		<userid>bmekala</userid>
+		<password>July2018!</password>
+		<PaidQTY>0</PaidQTY>
+		<AcNum>5009073</AcNum>
+	</testcase>
+	
+	<testcase id="CSR_enters_999_in_Paid_Qty">
+		<userid>bmekala</userid>
+		<password>July2018!</password>
+		<PaidQTY>999</PaidQTY>
+		<AcNum>5011432</AcNum>
+	</testcase>
+	
+	<testcase id="CSR_enters_500_in_Paid_Qty">
+		<userid>bmekala</userid>
+		<password>July2018!</password>
+		<PaidQTY>500</PaidQTY>
+		<AcNum>5026093</AcNum>
+	</testcase>
+	
+	<testcase id="CSR_enters_negative_value_in_Paid_Qty">
+		<userid>bmekala</userid>
+		<password>July2018!</password>
+		<PaidQTY>-25</PaidQTY>
+		<AcNum>5027611</AcNum>
+	</testcase>
+	
+	<testcase id="CSR_enters_the_number_1000_in_Paid_Qty">
+		<userid>bmekala</userid>
+		<password>July2018!</password>
+		<PaidQTY>1000</PaidQTY>
+		<AcNum>5039145</AcNum>
+	</testcase>
+	
+	<testcase id="CSR_enters_alphabets_in_Paid_Qty">
+		<userid>bmekala</userid>
+		<password>July2018!</password>
+		<PaidQTY>&lt;&amp;&gt;&quot;&apos;&lt;&amp;</PaidQTY>
+		<AcNum>5046041</AcNum>
+	</testcase>
+	
+	<testcase id="Bonus_Qty_textboxes_disabled_CSR_enters_Order_Entry_page">
+		<userid>bmekala</userid>
+		<password>July2018!</password>
+		<AcNum>5050448</AcNum>
+	</testcase>
+	
+	<testcase id="Form_expands_when_clicks_on_button_CSR_enters_Order_Entry_page">
+		<userid>bmekala</userid>
+		<password>July2018!</password>
+		<AcNum>5053848</AcNum>
+	</testcase>
+	
+	<testcase id="Form_expands_when_perform_Tab_key_CSR_enters_Order_Entry_page">
+		<userid>bmekala</userid>
+		<password>July2018!</password>
+		<AcNum>5057832</AcNum>
+	</testcase>
+	
+	
+
+</testdata>

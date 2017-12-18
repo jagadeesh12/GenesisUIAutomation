@@ -1,0 +1,470 @@
+<testdata>
+	
+	<testcase id="Submitted:TeacherOrder_GST_PST_Province_BC">
+		<userid>1226382</userid>
+		<password>passw0rd</password>
+		<stateTaxGST>5</stateTaxGST>
+		<stateTaxPST>7</stateTaxPST>
+		<sname1>Manu</sname1>
+		<sname2>Rocky</sname2>
+		<sname3>Johnson</sname3>
+		<qty1>1</qty1>
+		<qty2>1</qty2>
+		<qty3>1</qty3>
+	</testcase>
+	
+	<testcase id="Submitted:TeacherOrder_GST_PST_Province_QC">
+		<userid>1226382</userid>
+		<password>passw0rd</password>
+		<stateTaxGST>5</stateTaxGST>
+		<stateTaxPST>9.975</stateTaxPST>
+		<sname1>Manu</sname1>
+		<sname2>Rocky</sname2>
+		<sname3>Johnson</sname3>
+		<qty1>1</qty1>
+		<qty2>1</qty2>
+		<qty3>1</qty3>
+	</testcase>
+	
+	<testcase id="Submitted:TeacherOrder_GST_QST_Province_QC">
+		<userid>1226382</userid>
+		<password>passw0rd</password>
+		<stateTaxGST>5</stateTaxGST>
+		<stateTaxQST>9.975</stateTaxQST>
+		<sname1>Manu</sname1>
+		<sname2>Rocky</sname2>
+		<sname3>Johnson</sname3>
+		<qty1>1</qty1>
+		<qty2>1</qty2>
+		<qty3>1</qty3>
+	</testcase>
+	
+	<testcase id="Submitted:TeacherOrder_HST_Province_NL">
+		<userid>1226382</userid>
+		<password>passw0rd</password>
+		<stateTaxHST>13</stateTaxHST>
+		<sname1>Manu</sname1>
+		<sname2>Rocky</sname2>
+		<sname3>Johnson</sname3>
+		<qty1>1</qty1>
+		<qty2>1</qty2>
+		<qty3>1</qty3>
+	</testcase>
+	
+	<testcase id="Submitted:TeacherOrder_HST_Province_NB">
+		<userid>1226382</userid>
+		<password>passw0rd</password>
+		<stateTaxHST>13</stateTaxHST>
+		<sname1>Manu</sname1>
+		<sname2>Rocky</sname2>
+		<sname3>Johnson</sname3>
+		<qty1>1</qty1>
+		<qty2>1</qty2>
+		<qty3>1</qty3>
+	</testcase>
+	
+	<testcase id="Submitted:TeacherOrder_HST_Province_NS">
+		<userid>1226382</userid>
+		<password>passw0rd</password>
+		<stateTaxHST>15</stateTaxHST>
+		<sname1>Manu</sname1>
+		<sname2>Rocky</sname2>
+		<sname3>Johnson</sname3>
+		<qty1>1</qty1>
+		<qty2>1</qty2>
+		<qty3>1</qty3>
+	</testcase>
+	
+	<testcase id="Submitted:TeacherOrder_HST_Province_ON">
+		<userid>1226382</userid>
+		<password>passw0rd</password>
+		<stateTaxHST>13</stateTaxHST>
+		<sname1>Manu</sname1>
+		<sname2>Rocky</sname2>
+		<sname3>Johnson</sname3>
+		<qty1>1</qty1>
+		<qty2>1</qty2>
+		<qty3>1</qty3>
+	</testcase>
+	
+	<testcase id="Submitted:TeacherOrder_HST_Province_PE">
+		<userid>1226382</userid>
+		<password>passw0rd</password>
+		<stateTaxHST>14</stateTaxHST>
+		<sname1>Manu</sname1>
+		<sname2>Rocky</sname2>
+		<sname3>Johnson</sname3>
+		<qty1>1</qty1>
+		<qty2>1</qty2>
+		<qty3>1</qty3>
+	</testcase>
+	
+	<testcase id="Submitted:TeacherOrder_GST_Province_AB">
+		<userid>1226382</userid>
+		<password>passw0rd</password>
+		<stateTaxGST>5</stateTaxGST>
+		<sname1>Manu</sname1>
+		<sname2>Rocky</sname2>
+		<sname3>Johnson</sname3>
+		<qty1>1</qty1>
+		<qty2>1</qty2>
+		<qty3>1</qty3>
+	</testcase>
+	
+	<testcase id="Submitted:TeacherOrder_GST_Province_NT">
+		<userid>1226382</userid>
+		<password>passw0rd</password>
+		<stateTaxGST>5</stateTaxGST>
+		<sname1>Manu</sname1>
+		<sname2>Rocky</sname2>
+		<sname3>Johnson</sname3>
+		<qty1>1</qty1>
+		<qty2>1</qty2>
+		<qty3>1</qty3>
+	</testcase>
+	
+	<testcase id="Submitted:TeacherOrder_GST_Province_NU">
+		<userid>1226382</userid>
+		<password>passw0rd</password>
+		<stateTaxGST>5</stateTaxGST>
+		<sname1>Manu</sname1>
+		<sname2>Rocky</sname2>
+		<sname3>Johnson</sname3>
+		<qty1>1</qty1>
+		<qty2>1</qty2>
+		<qty3>1</qty3>
+	</testcase>
+	
+	<testcase id="Submitted:TeacherOrder_GST_Province_YT">
+		<userid>1226382</userid>
+		<password>passw0rd</password>
+		<stateTaxGST>5</stateTaxGST>
+		<sname1>Manu</sname1>
+		<sname2>Rocky</sname2>
+		<sname3>Johnson</sname3>
+		<qty1>1</qty1>
+		<qty2>1</qty2>
+		<qty3>1</qty3>
+	</testcase>
+	
+	<testcase id="Submitted:TeacherOrder_GST_Province_AB_2">
+		<userid>1226382</userid>
+		<password>passw0rd</password>
+		<stateTaxGST>5</stateTaxGST>
+		<stateTaxPST>7</stateTaxPST>
+		<sname1>Manu</sname1>
+		<sname2>Rocky</sname2>
+		<sname3>Johnson</sname3>
+		<qty1>1</qty1>
+		<qty2>1</qty2>
+		<qty3>1</qty3>
+	</testcase>
+	
+	<testcase id="Submitted:TeacherOrder_GST_PST_Province_BC_2">
+		<userid>1226382</userid>
+		<password>passw0rd</password>
+		<stateTaxGST>5</stateTaxGST>
+		<stateTaxPST>7</stateTaxPST>
+		<sname1>Manu</sname1>
+		<sname2>Rocky</sname2>
+		<sname3>Johnson</sname3>
+		<qty1>1</qty1>
+		<qty2>1</qty2>
+		<qty3>1</qty3>
+	</testcase>
+	
+	<testcase id="Submitted:TeacherOrder_GST_PST_Province_QC_2">
+		<userid>1226382</userid>
+		<password>passw0rd</password>
+		<stateTaxGST>5</stateTaxGST>
+		<stateTaxPST>9.975</stateTaxPST>
+		<sname1>Manu</sname1>
+		<sname2>Rocky</sname2>
+		<sname3>Johnson</sname3>
+		<qty1>1</qty1>
+		<qty2>1</qty2>
+		<qty3>1</qty3>
+	</testcase>
+	
+	<testcase id="Submitted:TeacherOrder_GST_QST_Province_QC_2">
+		<userid>1226382</userid>
+		<password>passw0rd</password>
+		<stateTaxGST>5</stateTaxGST>
+		<stateTaxQST>9.975</stateTaxQST>
+		<sname1>Manu</sname1>
+		<sname2>Rocky</sname2>
+		<sname3>Johnson</sname3>
+		<qty1>1</qty1>
+		<qty2>1</qty2>
+		<qty3>1</qty3>
+	</testcase>
+	
+	<testcase id="Submitted:TeacherOrder_GST_PST_Province_BC_3">
+		<userid>1226382</userid>
+		<password>passw0rd</password>
+		<stateTaxGST>5</stateTaxGST>
+		<stateTaxPST>7</stateTaxPST>
+		<sname1>Manu</sname1>
+		<sname2>Rocky</sname2>
+		<sname3>Johnson</sname3>
+		<qty1>1</qty1>
+		<qty2>1</qty2>
+		<qty3>1</qty3>
+	</testcase>
+	
+	<testcase id="Submitted:TeacherOrder_GST_PST_Province_QC_3">
+		<userid>1226382</userid>
+		<password>passw0rd</password>
+		<stateTaxGST>5</stateTaxGST>
+		<stateTaxPST>9.975</stateTaxPST>
+		<sname1>Manu</sname1>
+		<sname2>Rocky</sname2>
+		<sname3>Johnson</sname3>
+		<qty1>1</qty1>
+		<qty2>1</qty2>
+		<qty3>1</qty3>
+	</testcase>
+	
+	<testcase id="Submitted:TeacherOrder_GST_QST_Province_QC_3">
+		<userid>1226382</userid>
+		<password>passw0rd</password>
+		<stateTaxGST>5</stateTaxGST>
+		<stateTaxQST>9.975</stateTaxQST>
+		<sname1>Manu</sname1>
+		<sname2>Rocky</sname2>
+		<sname3>Johnson</sname3>
+		<qty1>1</qty1>
+		<qty2>1</qty2>
+		<qty3>1</qty3>
+	</testcase>
+	
+	<testcase id="Submitted:TeacherOrder_GST_QST_Province_QC_4">
+		<userid>1226382</userid>
+		<password>passw0rd</password>
+		<stateTaxGST>5</stateTaxGST>
+		<stateTaxQST>9.975</stateTaxQST>
+		<sname1>Manu</sname1>
+		<sname2>Rocky</sname2>
+		<sname3>Johnson</sname3>
+		<qty1>1</qty1>
+		<qty2>1</qty2>
+		<qty3>1</qty3>
+	</testcase>
+	
+	<testcase id="Submitted:TeacherOrder_HST_Province_NL_2">
+		<userid>1226382</userid>
+		<password>passw0rd</password>
+		<stateTaxHST>13</stateTaxHST>
+		<sname1>Manu</sname1>
+		<sname2>Rocky</sname2>
+		<sname3>Johnson</sname3>
+		<qty1>1</qty1>
+		<qty2>1</qty2>
+		<qty3>1</qty3>
+	</testcase>
+	
+	<testcase id="Submitted:TeacherOrder_HST_Province_NB_2">
+		<userid>1226382</userid>
+		<password>passw0rd</password>
+		<stateTaxHST>13</stateTaxHST>
+		<sname1>Manu</sname1>
+		<sname2>Rocky</sname2>
+		<sname3>Johnson</sname3>
+		<qty1>1</qty1>
+		<qty2>1</qty2>
+		<qty3>1</qty3>
+	</testcase>
+	
+	<testcase id="Submitted:TeacherOrder_HST_Province_NS_2">
+		<userid>1226382</userid>
+		<password>passw0rd</password>
+		<stateTaxHST>15</stateTaxHST>
+		<sname1>Manu</sname1>
+		<sname2>Rocky</sname2>
+		<sname3>Johnson</sname3>
+		<qty1>1</qty1>
+		<qty2>1</qty2>
+		<qty3>1</qty3>
+	</testcase>
+	
+	<testcase id="Submitted:TeacherOrder_HST_Province_ON_2">
+		<userid>1226382</userid>
+		<password>passw0rd</password>
+		<stateTaxHST>13</stateTaxHST>
+		<sname1>Manu</sname1>
+		<sname2>Rocky</sname2>
+		<sname3>Johnson</sname3>
+		<qty1>1</qty1>
+		<qty2>1</qty2>
+		<qty3>1</qty3>
+	</testcase>
+	
+	<testcase id="Submitted:TeacherOrder_HST_Province_PE_2">
+		<userid>1226382</userid>
+		<password>passw0rd</password>
+		<stateTaxHST>14</stateTaxHST>
+		<sname1>Manu</sname1>
+		<sname2>Rocky</sname2>
+		<sname3>Johnson</sname3>
+		<qty1>1</qty1>
+		<qty2>1</qty2>
+		<qty3>1</qty3>
+	</testcase>
+	
+	<testcase id="Submitted:TeacherOrder_HST_Province_NL_3">
+		<userid>1226382</userid>
+		<password>passw0rd</password>
+		<stateTaxHST>13</stateTaxHST>
+		<sname1>Manu</sname1>
+		<sname2>Rocky</sname2>
+		<sname3>Johnson</sname3>
+		<qty1>1</qty1>
+		<qty2>1</qty2>
+		<qty3>1</qty3>
+	</testcase>
+	
+	<testcase id="Submitted:TeacherOrder_HST_Province_NB_3">
+		<userid>1226382</userid>
+		<password>passw0rd</password>
+		<stateTaxHST>13</stateTaxHST>
+		<sname1>Manu</sname1>
+		<sname2>Rocky</sname2>
+		<sname3>Johnson</sname3>
+		<qty1>1</qty1>
+		<qty2>1</qty2>
+		<qty3>1</qty3>
+	</testcase>
+	
+	<testcase id="Submitted:TeacherOrder_HST_Province_NS_3">
+		<userid>1226382</userid>
+		<password>passw0rd</password>
+		<stateTaxHST>15</stateTaxHST>
+		<sname1>Manu</sname1>
+		<sname2>Rocky</sname2>
+		<sname3>Johnson</sname3>
+		<qty1>1</qty1>
+		<qty2>1</qty2>
+		<qty3>1</qty3>
+	</testcase>
+	
+	<testcase id="Submitted:TeacherOrder_HST_Province_ON_3">
+		<userid>1226382</userid>
+		<password>passw0rd</password>
+		<stateTaxHST>13</stateTaxHST>
+		<sname1>Manu</sname1>
+		<sname2>Rocky</sname2>
+		<sname3>Johnson</sname3>
+		<qty1>1</qty1>
+		<qty2>1</qty2>
+		<qty3>1</qty3>
+	</testcase>
+	
+	<testcase id="Submitted:TeacherOrder_HST_Province_PE_3">
+		<userid>1226382</userid>
+		<password>passw0rd</password>
+		<stateTaxHST>14</stateTaxHST>
+		<sname1>Manu</sname1>
+		<sname2>Rocky</sname2>
+		<sname3>Johnson</sname3>
+		<qty1>1</qty1>
+		<qty2>1</qty2>
+		<qty3>1</qty3>
+	</testcase>
+	
+	<testcase id="Submitted:TeacherOrder_GST_Province_AB_3">
+		<userid>1226382</userid>
+		<password>passw0rd</password>
+		<stateTaxGST>5</stateTaxGST>
+		<sname1>Manu</sname1>
+		<sname2>Rocky</sname2>
+		<sname3>Johnson</sname3>
+		<qty1>1</qty1>
+		<qty2>1</qty2>
+		<qty3>1</qty3>
+	</testcase>
+	
+	<testcase id="Submitted:TeacherOrder_GST_Province_NT_3">
+		<userid>1226382</userid>
+		<password>passw0rd</password>
+		<stateTaxGST>5</stateTaxGST>
+		<sname1>Manu</sname1>
+		<sname2>Rocky</sname2>
+		<sname3>Johnson</sname3>
+		<qty1>1</qty1>
+		<qty2>1</qty2>
+		<qty3>1</qty3>
+	</testcase>
+	
+	<testcase id="Submitted:TeacherOrder_GST_Province_NU_3">
+		<userid>1226382</userid>
+		<password>passw0rd</password>
+		<stateTaxGST>5</stateTaxGST>
+		<sname1>Manu</sname1>
+		<sname2>Rocky</sname2>
+		<sname3>Johnson</sname3>
+		<qty1>1</qty1>
+		<qty2>1</qty2>
+		<qty3>1</qty3>
+	</testcase>
+	
+	<testcase id="Submitted:TeacherOrder_GST_Province_YT_3">
+		<userid>1226382</userid>
+		<password>passw0rd</password>
+		<stateTaxGST>5</stateTaxGST>
+		<sname1>Manu</sname1>
+		<sname2>Rocky</sname2>
+		<sname3>Johnson</sname3>
+		<qty1>1</qty1>
+		<qty2>1</qty2>
+		<qty3>1</qty3>
+	</testcase>
+	
+	<testcase id="Submitted:TeacherOrder_GST_Province_AB_4">
+		<userid>1226382</userid>
+		<password>passw0rd</password>
+		<stateTaxGST>5</stateTaxGST>
+		<sname1>Manu</sname1>
+		<sname2>Rocky</sname2>
+		<sname3>Johnson</sname3>
+		<qty1>1</qty1>
+		<qty2>1</qty2>
+		<qty3>1</qty3>
+	</testcase>
+	
+	<testcase id="Submitted:TeacherOrder_GST_Province_NT_4">
+		<userid>1226382</userid>
+		<password>passw0rd</password>
+		<stateTaxGST>5</stateTaxGST>
+		<sname1>Manu</sname1>
+		<sname2>Rocky</sname2>
+		<sname3>Johnson</sname3>
+		<qty1>1</qty1>
+		<qty2>1</qty2>
+		<qty3>1</qty3>
+	</testcase>
+	
+	<testcase id="Submitted:TeacherOrder_GST_Province_NU_4">
+		<userid>1226382</userid>
+		<password>passw0rd</password>
+		<stateTaxGST>5</stateTaxGST>
+		<sname1>Manu</sname1>
+		<sname2>Rocky</sname2>
+		<sname3>Johnson</sname3>
+		<qty1>1</qty1>
+		<qty2>1</qty2>
+		<qty3>1</qty3>
+	</testcase>
+	
+	<testcase id="Submitted:TeacherOrder_GST_Province_YT_4">
+		<userid>1226382</userid>
+		<password>passw0rd</password>
+		<stateTaxGST>5</stateTaxGST>
+		<sname1>Manu</sname1>
+		<sname2>Rocky</sname2>
+		<sname3>Johnson</sname3>
+		<qty1>1</qty1>
+		<qty2>1</qty2>
+		<qty3>1</qty3>
+	</testcase>
+	
+	</testdata>

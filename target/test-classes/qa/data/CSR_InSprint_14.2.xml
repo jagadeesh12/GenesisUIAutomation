@@ -1,0 +1,95 @@
+<testdata>
+	
+	<!-- ############################################ SCSCOD-6238 ############################################### -->
+	<testcase id="RewardsRedemption_BonusBank_Reduced_StudentClubs">
+		<DataLocation>0</DataLocation>
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>255093</AcNum>
+  		<FlyerCode>S0A17</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>2</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>2</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+  		<sBonusBank>10</sBonusBank>
+	</testcase>
+	
+	<testcase id="RewardsRedemption_BonusBank_Reduced_TeacherCatalogue">
+		<DataLocation>1</DataLocation>
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>255085</AcNum>
+  		<FlyerCode>B7A17</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>2</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>2</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+  		<tBonusBank>10</tBonusBank>
+	</testcase>
+	
+	<testcase id="RewardsRedemption_BonusBank_Reduced_PaidShipping">
+		<DataLocation>2</DataLocation>
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>255134</AcNum>
+  		<FlyerCode>S0A17</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>1</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>1</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>1</ItemQty3>
+  		<pBonusBank>3</pBonusBank>
+	</testcase>
+	
+	<testcase id="RewardsRedemption_BonusBank_Same_RemoveBonusAmount_StudentClubs">
+		<DataLocation>3</DataLocation>
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>371120</AcNum>
+  		<FlyerCode>S0A17</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>2</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>2</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+  		<sBonusBank>10</sBonusBank>
+	</testcase>
+
+	<testcase id="RewardsRedemption_BonusBank_Same_RemoveBonusAmount_TeacherCatalogue">
+		<DataLocation>4</DataLocation>
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>261892</AcNum>
+  		<FlyerCode>B7A17</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>2</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>2</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+  		<tBonusBank>10</tBonusBank>
+	</testcase>
+	
+	<testcase id="RewardsRedemption_BonusBank_Same_RemoveBonusAmount_PaidShipping">
+		<DataLocation>5</DataLocation>
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>369729</AcNum>
+  		<FlyerCode>S0A17</FlyerCode>
+  		<ItemNum>1</ItemNum>
+  		<ItemQty>1</ItemQty>
+  		<ItemNum2>2</ItemNum2>
+  		<ItemQty2>1</ItemQty2>
+  		<ItemNum3>3</ItemNum3>
+  		<ItemQty3>1</ItemQty3>
+  		<pBonusBank>3</pBonusBank>
+	</testcase>
+	<!-- ############################################ SCSCOD-6238 ############################################### -->
+	
+</testdata>

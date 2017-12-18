@@ -1,0 +1,631 @@
+<testdata>
+
+<!-- ##################################################################################################################################################    
+##################################################################################################################################################    
+###########################################   							             #############################################################   
+###########################################   		   UNIQUE ITEM ID       	     #############################################################
+###########################################   							             #############################################################        
+##################################################################################################################################################        
+################################################################################################################################################## -->
+
+
+<testcase id="InSprint_12.1:QA:Teacher_UniqueItemIds_GlobalSearch_PDP">
+		<userid>517328</userid>
+		<password>passw0rd</password>
+		<itemName>Sofia the First Movie Theater Storybook &amp; Movie Projector</itemName>
+		<uniqueid>57E5</uniqueid>
+</testcase>
+
+<testcase id="InSprint_12.1:QA:Teacher_Uniqueitemid_Multipleitems_Submit">
+		<userid>517427</userid>
+		<password>passw0rd</password>
+		<itemprice>1.99</itemprice>
+		<itemprice_limit>14.99</itemprice_limit>
+		<itemName>100 Snowmen</itemName>
+		<itemName2>Little Charmers: Santa Sparkle Pack</itemName2>
+		<itemQty>1</itemQty>
+		<itemQty2>1</itemQty2>
+		<studentname>Margit</studentname>
+		<numberofstudents>1</numberofstudents>
+		<postalcode>ABC XYZ</postalcode>
+</testcase>	
+
+
+<testcase id="InSprint_12.1:QA:Student_normal_uniqueitemid_items_submit">
+		<userid>517542</userid>
+		<password>passw0rd</password>
+		<itemprice>1.99</itemprice>
+		<itemprice_limit>14.99</itemprice_limit>
+		<itemName>100 Snowmen</itemName>
+		<itemName2>Little Charmers: Santa Sparkle Pack</itemName2>
+		<itemQty>1</itemQty>
+		<itemQty2>1</itemQty2>
+		<itemprice_limit>14.99</itemprice_limit>
+		<studentname>Margit</studentname>
+		<itemQty>3</itemQty>
+		<numberofstudents>1</numberofstudents>
+		<postalcode>ABC XYZ</postalcode>
+</testcase>	
+
+
+<testcase id="InSprint_12.1:QA:Teacher_DTS_UniqueItemNumber_Submit">
+		<userid>517592</userid>
+		<password>passw0rd</password>
+		<itemprice_limit>14.99</itemprice_limit>
+		<itemName>100 Snowmen</itemName>
+		<itemName2>Little Charmers: Santa Sparkle Pack</itemName2>
+		<itemQty>1</itemQty>
+		<itemQty2>1</itemQty2>
+		<itemprice>1.99</itemprice>
+		<itemprice_limit>14.99</itemprice_limit>
+		<studentname>Margit</studentname>
+		<itemQty>3</itemQty>
+		<numberofstudents>1</numberofstudents>
+		<postalcode>ABC XYZ</postalcode>
+</testcase>	
+
+
+<testcase id="InSprint_12.1:QA:Teacher_FreePick_UniqueItemNumber_Submit">
+		<userid>517617</userid>
+		<password>passw0rd</password>
+		<itemprice_limit>14.99</itemprice_limit>
+		<itemName>100 Snowmen</itemName>
+		<itemName2>Little Charmers: Santa Sparkle Pack</itemName2>
+		<itemQty>1</itemQty>
+		<itemQty2>1</itemQty2>
+		<itemprice>1.99</itemprice>
+		<itemprice_limit>14.99</itemprice_limit>
+		<studentname>Margit</studentname>
+		<itemQty>3</itemQty>
+		<numberofstudents>1</numberofstudents>
+		<postalcode>ABC XYZ</postalcode>
+</testcase>	
+
+
+<testcase id="InSprint_12.1:QA:Student_uniqueitemid_items_submit">
+		<userid>517758</userid>
+		<password>passw0rd</password>
+		<itemprice_limit>14.99</itemprice_limit>
+		<itemName>100 Snowmen</itemName>
+		<itemName2>Little Charmers: Santa Sparkle Pack</itemName2>
+		<itemQty>1</itemQty>
+		<itemQty2>1</itemQty2>s
+		<uniqueid>57E5</uniqueid>
+		<numberofstudents>1</numberofstudents>
+</testcase>	
+
+
+<testcase id="InSprint_12.1:QA:Teacher_UniqueItemIds_GlobalSearch_QuickViewPDP">
+		<userid>517857</userid>
+		<password>passw0rd</password>
+		<itemName>Sofia the First Movie Theater Storybook &amp; Movie Projector</itemName>
+		<uniqueid>57E5</uniqueid>
+</testcase>	
+
+
+<testcase id="InSprint_12.1:QA:Teacher_uniqueitemid_items_submit">
+		<userid>518219</userid>
+		<password>passw0rd</password>
+		<itemName>Sofia the First Movie Theater Storybook &amp; Movie Projector</itemName>
+		<uniqueid>57E5</uniqueid>
+		<itemQty>2</itemQty>
+		<numberofstudents>1</numberofstudents>
+</testcase>	
+
+
+
+<!-- ##################################################################################################################################################    
+##################################################################################################################################################    
+###########################################   							             #############################################################   
+###########################################   		  SCSCOD-4594           	     #############################################################
+###########################################   							             #############################################################        
+##################################################################################################################################################        
+################################################################################################################################################## -->
+
+
+<testcase id="InSprint_12.3:QA:Teacher_Redemptions_Edit_ApplyButtons">
+	<userid>518318</userid>
+	<password>passw0rd</password>
+	<itemName>100 Snowmen</itemName>
+	<itemName2>Animal Stories Scruffy Puppy Pack</itemName2>
+	<itemQty>2</itemQty>
+	<itemQty2>2</itemQty2>
+</testcase>
+
+
+	<testcase
+		id="InSprint_12.3:QA:Teacher_Redemptions_SkipButton_NotPresent">
+		<userid>514952</userid>
+		<password>passw0rd</password>
+		<itemName>Click, Clack, Surprise!</itemName>
+		<itemName2>First Hockey Words</itemName2>
+		<itemQty>2</itemQty>
+		<itemQty2>2</itemQty2>
+	</testcase>
+	
+	
+<!-- ##################################################################################################################################################    
+##################################################################################################################################################    
+###########################################   							             #############################################################   
+###########################################   		   SCSCOD-5033          	     #############################################################
+###########################################   							             #############################################################        
+##################################################################################################################################################        
+################################################################################################################################################## -->
+	
+
+	<testcase
+		id="InSprint_12.3:QA:AlternativeShipping_PostalCode_LowerUpperCase_WithSpace">
+		<userid>515041</userid>
+		<password>passw0rd</password>
+		<itemName>Click, Clack, Surprise!</itemName>
+		<itemQty>2</itemQty>
+		<numberofstudents>1</numberofstudents>
+		<address1>newyork</address1>
+		<address2>newyork</address2>
+		<city>Secaucus</city>
+		<postalcode>t5A 0a7</postalcode>
+		<correct_postalcode>T5A 0A7</correct_postalcode>
+		<province>Alberta</province>
+	</testcase>
+
+
+	<testcase
+		id="InSprint_12.3:QA:AlternativeShipping_PostalCode_LowerCase_WithSpace">
+		<userid>515067</userid>
+		<password>passw0rd</password>
+		<itemName>Click, Clack, Surprise!</itemName>
+		<itemQty>2</itemQty>
+		<numberofstudents>1</numberofstudents>
+		<address1>newyork</address1>
+		<address2>newyork</address2>
+		<city>Secaucus</city>
+		<postalcode>t5a 0a7</postalcode>
+		<correct_postalcode>T5A 0A7</correct_postalcode>
+		<province>Alberta</province>
+	</testcase>
+
+
+	<testcase
+		id="InSprint_12.3:QA:AlternativeShipping_PostalCode_LowerUpperCase_WithoutSpace">
+		<userid>515108</userid>
+		<password>passw0rd</password>
+		<itemName>Click, Clack, Surprise!</itemName>
+		<itemQty>2</itemQty>
+		<numberofstudents>1</numberofstudents>
+		<address1>newyork</address1>
+		<address2>newyork</address2>
+		<city>Secaucus</city>
+		<postalcode>T5a0A7</postalcode>
+		<correct_postalcode>T5A 0A7</correct_postalcode>
+		<province>Alberta</province>
+	</testcase>
+
+
+	<testcase
+		id="InSprint_12.3:QA:AlternativeShipping_PostalCode_Lower_WithoutSpace">
+		<userid>515124</userid>
+		<password>passw0rd</password>
+		<itemName>Click, Clack, Surprise!</itemName>
+		<itemQty>2</itemQty>
+		<numberofstudents>1</numberofstudents>
+		<address1>newyork</address1>
+		<address2>newyork</address2>
+		<city>Secaucus</city>
+		<postalcode>t5a0a7</postalcode>
+		<correct_postalcode>T5A 0A7</correct_postalcode>
+		<province>Alberta</province>
+	</testcase>
+
+	<testcase
+		id="InSprint_12.3:QA:AlternativeShipping_PostalCode_7Char_ErrorMsg">
+		<userid>515132</userid>
+		<password>passw0rd</password>
+		<itemName>Click, Clack, Surprise!</itemName>
+		<itemQty>2</itemQty>
+		<numberofstudents>1</numberofstudents>
+		<postalcode>T5A0A71</postalcode>
+	</testcase>
+
+	<testcase
+		id="InSprint_12.3:QA:AlternativeShipping_PostalCode_6Char_ErrorMsg">
+		<userid>515158</userid>
+		<password>passw0rd</password>
+		<itemName>Click, Clack, Surprise!</itemName>
+		<itemQty>2</itemQty>
+		<numberofstudents>1</numberofstudents>
+		<postalcode>T5A0A</postalcode>
+	</testcase>
+
+	<testcase id="InSprint_12.3:QA:AlternativeShipping_PostalCode_UI">
+		<userid>515190</userid>
+		<password>passw0rd</password>
+		<itemName>Click, Clack, Surprise!</itemName>
+		<itemQty>2</itemQty>
+		<numberofstudents>1</numberofstudents>
+		<exp_postalcodeplaceholder>E.G. M5V 1E1</exp_postalcodeplaceholder>
+	</testcase>
+	
+	
+<!-- ##################################################################################################################################################    
+##################################################################################################################################################    
+###########################################   							             #############################################################   
+###########################################   		   SCSCOD-5052          	     #############################################################
+###########################################   							             #############################################################        
+##################################################################################################################################################        
+################################################################################################################################################## -->
+		
+
+	<testcase id="InSprint_12.3:QA:Teacher_DTS_OrderHistory_UniqueItemId">
+		<userid>515645</userid>
+		<password>passw0rd</password>
+		<itemName>Click, Clack, Surprise!</itemName>
+		<itemQty>8</itemQty>
+		<couponsearch>Sofia the First Movie Theater Storybook &amp; Movie Projector</couponsearch>
+		<numberofstudents>1</numberofstudents>
+	</testcase>
+
+
+
+	<testcase
+		id="InSprint_12.3:QA:Teacher_FreePick_OrderHistory_UniqueItemId">
+		<userid>515679</userid>
+		<password>passw0rd</password>
+		<itemName>Click, Clack, Surprise!</itemName>
+		<itemQty>4</itemQty>
+		<couponsearch>24 Christmas Carols</couponsearch>
+        <selectgrade>yto-early-childhood</selectgrade>
+		<CouponCode>RXYUECE</CouponCode>
+		<numberofstudents>1</numberofstudents>
+	</testcase>
+	
+	
+<!-- ##################################################################################################################################################    
+##################################################################################################################################################    
+###########################################   							             #############################################################   
+###########################################   		   SCSCOD-4486           	     #############################################################
+###########################################   							             #############################################################        
+##################################################################################################################################################        
+################################################################################################################################################## -->
+		
+
+
+	<testcase id="InSprint_12.3:QA:Teacher_UniqueEmail_EditProfile">
+		<userid>515926</userid>
+		<password>passw0rd</password>
+		<myprofile_emailaddress>testsoma123@gbs.com</myprofile_emailaddress>
+	</testcase>
+
+	<testcase
+		id="InSprint_12.3:QA:Teacher_DuplicateEmail_ValidationMsg_EditProfile">
+		<userid>515942</userid>
+		<password>passw0rd</password>
+		<myprofile_emailaddress>qacool2016@gmail.com</myprofile_emailaddress>
+	</testcase>	
+	
+	
+<!-- ##################################################################################################################################################    
+##################################################################################################################################################    
+###########################################   							             #############################################################   
+###########################################   		   SCSCOD-4637           	     #############################################################
+###########################################   							             #############################################################        
+##################################################################################################################################################        
+################################################################################################################################################## -->
+	
+	
+	
+	
+<testcase
+		id="InSprint_12.3:QA:AlternativeShipping_PostalCode_Incorrect_Correct_ContinueChkBtnEnabled">
+		<userid>515984</userid>
+		<password>passw0rd</password>
+		<itemName>Click, Clack, Surprise!</itemName>
+		<itemQty>2</itemQty>
+		<numberofstudents>1</numberofstudents>
+		<address1>newyork</address1>
+		<address2>newyork</address2>
+		<city>Secaucus</city>
+		<postalcode>A51 0A7</postalcode>
+		<correct_postalcode>T5A 0A7</correct_postalcode>
+		<province>Alberta</province>
+	</testcase>
+	
+
+
+<!-- ##################################################################################################################################################    
+##################################################################################################################################################    
+###########################################   							             #############################################################   
+###########################################   		   SCSCOD-4138           	     #############################################################
+###########################################   							             #############################################################        
+##################################################################################################################################################        
+################################################################################################################################################## -->
+
+<testcase id="InSprint_12.3:QA:Teacher_DTS_TopOff_HST_Province_NL">
+		<userid>516023</userid>
+		<password>passw0rd</password>
+		<itemprice>9.99</itemprice>
+		<itemprice_limit>20.99</itemprice_limit>
+		<coupontype>dollartospend</coupontype>
+		<studentname>Manu</studentname>
+		<itemQty>4</itemQty>
+		<topoff_dts>12</topoff_dts>
+		<selectgrade>yto-early-childhood</selectgrade>
+		<itemValue>15</itemValue>
+		<stateTaxHST>15</stateTaxHST>
+        <grade>Kindergarten &amp; Grade 1</grade>
+        <dts_qty>3</dts_qty>
+	</testcase>
+	
+	
+	<testcase id="InSprint_12.3:QA:Teacher_DTS_TopOff_HST_Province_NB">
+		<userid>516049</userid>
+		<password>passw0rd</password>
+		<itemprice>9.99</itemprice>
+		<itemprice_limit>20.99</itemprice_limit>
+		<studentname>Manu</studentname>
+		<itemQty>4</itemQty>
+        <coupontype>dollartospend</coupontype>
+        <grade>Kindergarten &amp; Grade 1</grade>
+		
+		<topoff_dts>12</topoff_dts>
+		<selectgrade>yto-early-childhood</selectgrade>
+		<itemValue>15</itemValue>
+        <dts_qty>3</dts_qty>
+		<stateTaxHST>15</stateTaxHST>
+	</testcase>
+	
+	
+	<testcase id="InSprint_12.3:QA:Teacher_DTS_TopOff_HST_Province_NS">
+		<userid>516130</userid>
+		<password>passw0rd</password>
+		<itemprice>9.99</itemprice>
+		<itemprice_limit>20.99</itemprice_limit>
+		<studentname>Manu</studentname>
+		<itemQty>4</itemQty>
+        <grade>Kindergarten &amp; Grade 1</grade>
+        <dts_qty>3</dts_qty>
+		<coupontype>dollartospend</coupontype>
+		<topoff_dts>12</topoff_dts>
+		<selectgrade>yto-early-childhood</selectgrade>
+		<itemValue>15</itemValue>
+		<stateTaxHST>15</stateTaxHST>
+	</testcase>
+	
+	
+	<testcase id="InSprint_12.3:QA:Teacher_DTS_TopOff_HST_Province_ON">
+		<userid>516198</userid>
+		<password>passw0rd</password>
+		<itemprice>9.99</itemprice>
+		<itemprice_limit>14.99</itemprice_limit>
+		<studentname>Manu</studentname>
+		<itemQty>4</itemQty>		
+		<coupontype>dollartospend</coupontype>
+		<topoff_dts>12</topoff_dts>
+		<selectgrade>yto-early-childhood</selectgrade>
+		<itemValue>15</itemValue>
+		<stateTaxHST>13</stateTaxHST>
+	</testcase>
+	
+	<testcase id="InSprint_12.3:QA5:Teacher_DTS_TopOff_HST_Province_ON">
+		<userid>271205</userid>
+		<password>passw0rd</password>
+		<itemprice>9.99</itemprice>
+		<itemprice_limit>20.99</itemprice_limit>
+		<studentname>Manu</studentname>
+		<itemQty>4</itemQty>
+		<topoff_dts>12</topoff_dts>
+		<selectgrade>yto-early-childhood</selectgrade>
+		<itemValue>15</itemValue>
+		<stateTaxHST>13</stateTaxHST>
+        <dts_qty>3</dts_qty>
+        <grade>Kindergarten &amp; Grade 1</grade>
+		<coupontype>dollartospend</coupontype>
+	</testcase>
+	
+	
+	
+	<testcase id="InSprint_12.3:QA:Teacher_DTS_TopOff_HST_Province_PE">
+		<userid>516271</userid>
+		<password>passw0rd</password>
+		<itemprice>9.99</itemprice>
+		<itemprice_limit>25.99</itemprice_limit>
+		<studentname>Manu</studentname>
+		<itemQty>4</itemQty>
+		<topoff_dts>12</topoff_dts>
+        <grade>Kindergarten &amp; Grade 1</grade>
+        <dts_qty>3</dts_qty>
+		<coupontype>dollartospend</coupontype>
+		<selectgrade>yto-early-childhood</selectgrade>
+		<itemValue>15</itemValue>
+		<stateTaxHST>14</stateTaxHST>
+	</testcase>
+	
+	
+	<testcase id="InSprint_12.3:QA:Teacher_DTS_TopOff_HST_Province_AB">
+		<userid>516700</userid>
+		<password>passw0rd</password>
+		<itemprice>9.99</itemprice>
+		<itemprice_limit>20.99</itemprice_limit>
+		<studentname>Manu</studentname>
+		<itemQty>4</itemQty>
+        <grade>Kindergarten &amp; Grade 1</grade>
+        <dts_qty>3</dts_qty>
+        <coupontype>dollartospend</coupontype>
+		<topoff_dts>12</topoff_dts>
+		<selectgrade>yto-early-childhood</selectgrade>
+		<itemValue>10</itemValue>
+		<stateTaxGST>5</stateTaxGST>
+	</testcase>
+	
+	<testcase id="InSprint_12.3:QA:Teacher_DTS_TopOff_GST_PST_Province_BC">
+		<userid>516768</userid>
+		<password>passw0rd</password>
+		<itemprice>9.99</itemprice>
+		<itemprice_limit>20.99</itemprice_limit>
+		<studentname>Manu</studentname>
+		<itemQty>4</itemQty>
+        <grade>Kindergarten &amp; Grade 1</grade>
+        <dts_qty>3</dts_qty>
+        <coupontype>dollartospend</coupontype>
+		<topoff_dts>12</topoff_dts>
+		<selectgrade>yto-early-childhood</selectgrade>
+		<itemValue>10</itemValue>
+		<stateTaxGST>5</stateTaxGST>
+        <stateTaxPST>7</stateTaxPST>
+	</testcase>
+	
+	
+	<testcase id="InSprint_12.3:QA:Teacher_DTS_TopOff_GST_QST_Province_QC">
+		<userid>516841</userid>
+		<password>passw0rd</password>
+		<itemprice>9.99</itemprice>
+		<itemprice_limit>20.99</itemprice_limit>
+		<studentname>Manu</studentname>
+		<itemQty>4</itemQty>
+		<topoff_dts>12</topoff_dts>
+		<selectgrade>yto-early-childhood</selectgrade>
+        <grade>Kindergarten &amp; Grade 1</grade>
+        <dts_qty>3</dts_qty>
+        <coupontype>dollartospend</coupontype>
+		<itemValue>10</itemValue>
+		<stateTaxGST>5</stateTaxGST>
+        <stateTaxQST>9.975</stateTaxQST>
+	</testcase>
+	
+	
+	<testcase id="InSprint_12.3:QA:TeacherOrder_TopOff_GardenHillHighSchoolGardenHill_MB">
+		<userid>516875</userid>
+		<password>passw0rd</password>
+		<itemprice>9.99</itemprice>
+		<itemprice_limit>20.99</itemprice_limit>
+		<studentname>Manu</studentname>
+		<itemQty>4</itemQty>
+		<topoff_dts>12</topoff_dts>
+		<selectgrade>yto-early-childhood</selectgrade>
+        <grade>Kindergarten &amp; Grade 1</grade>
+        <dts_qty>3</dts_qty>
+        <coupontype>dollartospend</coupontype>
+		<itemValue>10</itemValue>
+        <stateTaxGST>5</stateTaxGST>
+        <stateTaxPST>7</stateTaxPST>
+	</testcase>
+	
+	
+	
+<!-- ##################################################################################################################################################    
+##################################################################################################################################################    
+###########################################   							             #############################################################   
+###########################################   		   YTO                  	     #############################################################
+###########################################   							             #############################################################        
+##################################################################################################################################################        
+################################################################################################################################################## -->
+	
+	
+	
+	<testcase id="InSprint_12.3:QA:Teacher_AllFlyers_SpecGradesFlyerMonth">
+		<userid>516924</userid>
+		<password>passw0rd</password>
+		<month_highlighted>June</month_highlighted>
+	</testcase>
+	
+	
+	<testcase id="InSprint_12.3:QA:Teacher_AllFlyers_SpecialOffersFlyerMonth">
+		<userid>516932</userid>
+		<password>passw0rd</password>
+		<month_highlighted>November</month_highlighted>
+	</testcase>
+	
+	<testcase id="InSprint_12.3:QA:Teacher_AllFlyers_FrenchClubsFlyerMonth">
+		<userid>516940</userid>
+		<password>passw0rd</password>
+		<month_highlighted>June</month_highlighted>
+	</testcase>
+	
+	
+<!-- ##################################################################################################################################################    
+##################################################################################################################################################    
+###########################################   							             #############################################################   
+###########################################   		   Search                  	     #############################################################
+###########################################   							             #############################################################        
+##################################################################################################################################################        
+################################################################################################################################################## -->
+		
+<testcase id="InSprint_12.3:QA:TecherGrade_ProductPDP_MultipleGrades">
+	<userid>517055</userid>
+	<password>passw0rd</password>
+	<itemName>Click, Clack, Surprise!</itemName>
+	<itemQty>1</itemQty>
+    <item_grade>test</item_grade>
+</testcase>
+
+<testcase id="InSprint_12.3:QA:TecherGrade_ProductReviewCart_MultipleGrades">
+	<userid>510471</userid>
+	<password>passw0rd</password>
+	<itemName>Click, Clack, Surprise!</itemName>
+	<itemQty>1</itemQty>
+    <exp_grade>Kindergarten &amp; Grade 1 : January</exp_grade>
+</testcase>
+
+<testcase id="InSprint_12.3:QA:TecherGrade_ProductPDP_NotPresentTeachersGrade">
+	<userid>510637</userid>
+	<password>passw0rd</password>
+	<itemName>Click, Clack, Surprise!</itemName>
+	<itemQty>1</itemQty>
+    <item_grade>Kindergarten &amp; Grade 1 : January</item_grade>
+</testcase>
+
+
+<testcase id="InSprint_12.3:QA:TecherGrade_ProductReviewCart_NotPresentTeachersGrade">
+	<userid>511495</userid>
+	<password>passw0rd</password>
+	<itemName>Click, Clack, Surprise!</itemName>
+	<itemQty>1</itemQty>
+    <exp_grade>Kindergarten &amp; Grade 1 : January</exp_grade>
+</testcase>
+
+<testcase id="InSprint_12.3:QA:TecherGrade_ProductPDP_Admin">
+	<userid>510893</userid>
+	<password>passw0rd</password>
+	<itemName>Click, Clack, Surprise!</itemName>
+	<itemQty>1</itemQty>
+    <exp_grade>Kindergarten &amp; Grade 1 : January</exp_grade>
+</testcase>
+
+
+<testcase id="InSprint_12.3:QA:TecherGrade_ProductPDP_ItemIdsGradesOrder">
+	<userid>511502</userid>
+	<password>passw0rd</password>
+	<itemName>Click, Clack, Surprise!</itemName>
+	<itemQty>1</itemQty>
+    <exp_grade>Kindergarten &amp; Grade 1 : January</exp_grade>
+</testcase>
+
+
+	
+<!-- ##################################################################################################################################################    
+##################################################################################################################################################    
+###########################################   							             #############################################################   
+###########################################   		  SCSCOD-SCSCOD-3737           	     #############################################################
+###########################################   							             #############################################################        
+##################################################################################################################################################        
+################################################################################################################################################## -->
+
+
+ 
+<testcase id="InSprint_12.4:QA:Teacher_RemovesShippingCoupon_UseInAnotherOrder" description="this test data is use for validate shipping after deleting items with manual coupon">
+		<userid>511510</userid>
+		<password>passw0rd</password>
+		<removeCartFlag>true</removeCartFlag>
+		<itemName>Click, Clack, Surprise!</itemName>
+		<itemQty>1</itemQty>
+		<updated_itemQty>9</updated_itemQty>
+		<addAccountInfo>true</addAccountInfo>
+		<numberofstudents>2</numberofstudents>
+		<couponnumber>MAR17FS</couponnumber>
+		<module>teacher</module>
+		<removeCartFlag>true</removeCartFlag>
+		<shippingCharge>FREE!</shippingCharge>
+		<numberofstudents>2</numberofstudents>
+	</testcase>	
+	
+	
+</testdata>	

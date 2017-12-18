@@ -1,0 +1,2701 @@
+<testdata>
+	
+    <testcase id="InSprint15.2:Adds_single_SFO_item_for_one_student">
+		<userid>5537868</userid>
+		<password>passw0rd</password>
+		<stateTaxGST>5</stateTaxGST>
+		<stateTaxPST>7</stateTaxPST>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_multiple_SFO_items_for_one_student">
+		<userid>5537892</userid>
+		<password>passw0rd</password>
+		<stateTaxGST>5</stateTaxGST>
+		<stateTaxPST>7</stateTaxPST>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_multiple_SFO_items_for_multiple_students_QC">
+		<userid>5538759</userid>
+		<password>passw0rd</password>
+		<stateTaxGST>5</stateTaxGST>
+		<stateTaxQST>9.975</stateTaxQST>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_multiple_SFO_items_for_multiple_students_BC">
+		<userid>5537967</userid>
+		<password>passw0rd</password>
+		<stateTaxGST>5</stateTaxGST>
+		<stateTaxPST>7</stateTaxPST>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_multiple_SFO_items_for_multiple_students_NL">
+		<userid>5539046</userid>
+		<password>passw0rd</password>
+		<stateTaxHST>15</stateTaxHST>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_multiple_SFO_items_for_multiple_students_NB">
+		<userid>5539442</userid>
+		<password>passw0rd</password>
+		<stateTaxHST>15</stateTaxHST>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_multiple_SFO_items_for_multiple_students_NS">
+		<userid>5539955</userid>
+		<password>passw0rd</password>
+		<stateTaxHST>15</stateTaxHST>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_multiple_SFO_items_for_multiple_students_ON">
+		<userid>5540192</userid>
+		<password>passw0rd</password>
+		<stateTaxHST>13</stateTaxHST>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_multiple_SFO_items_for_multiple_students_PE">
+		<userid>5540506</userid>
+		<password>passw0rd</password>
+		<stateTaxHST>14</stateTaxHST>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_multiple_SFO_items_for_multiple_students_AB">
+		<userid>5540796</userid>
+		<password>passw0rd</password>
+		<stateTaxGST>5</stateTaxGST>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_multiple_SFO_items_for_multiple_students_MB">
+		<userid>5541091</userid>
+		<password>passw0rd</password>
+		<stateTaxGST>5</stateTaxGST>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_multiple_SFO_items_for_multiple_students_NT">
+		<userid>5541405</userid>
+		<password>passw0rd</password>
+		<stateTaxGST>5</stateTaxGST>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_multiple_SFO_items_for_multiple_students_NU">
+		<userid>5541695</userid>
+		<password>passw0rd</password>
+		<stateTaxGST>5</stateTaxGST>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_multiple_SFO_items_for_multiple_students_SK">
+		<userid>5542015</userid>
+		<password>passw0rd</password>
+		<stateTaxGST>5</stateTaxGST>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_multiple_SFO_items_for_multiple_students_YT">
+		<userid>5542429</userid>
+		<password>passw0rd</password>
+		<stateTaxGST>5</stateTaxGST>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_multiple_SFO_items_for_multiple_students_QC_NoTax">
+		<userid>5542974</userid>
+		<password>passw0rd</password>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_multiple_SFO_items_for_multiple_students_BC_NoTax">
+		<userid>5542776</userid>
+		<password>passw0rd</password>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_multiple_SFO_items_for_multiple_students_NL_NoTax">
+		<userid>5543279</userid>
+		<password>passw0rd</password>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_multiple_SFO_items_for_multiple_students_NB_NoTax">
+		<userid>5543469</userid>
+		<password>passw0rd</password>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_multiple_SFO_items_for_multiple_students_NS_NoTax">
+		<userid>5543592</userid>
+		<password>passw0rd</password>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_multiple_SFO_items_for_multiple_students_ON_NoTax">
+		<userid>5543774</userid>
+		<password>passw0rd</password>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_multiple_SFO_items_for_multiple_students_PE_NoTax">
+		<userid>5543964</userid>
+		<password>passw0rd</password>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_multiple_SFO_items_for_multiple_students_AB_NoTax">
+		<userid>5544277</userid>
+		<password>passw0rd</password>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_multiple_SFO_items_for_multiple_students_MB_NoTax">
+		<userid>5544590</userid>
+		<password>passw0rd</password>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_multiple_SFO_items_for_multiple_students_NT_NoTax">
+		<userid>5544863</userid>
+		<password>passw0rd</password>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_multiple_SFO_items_for_multiple_students_NU_NoTax">
+		<userid>5545001</userid>
+		<password>passw0rd</password>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_multiple_SFO_items_for_multiple_students_SK_NoTax">
+		<userid>5545150</userid>
+		<password>passw0rd</password>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_multiple_SFO_items_for_multiple_students_YT_NoTax">
+		<userid>5545415</userid>
+		<password>passw0rd</password>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_YTO_student_items_QC">
+		<userid>5538775</userid>
+		<password>passw0rd</password>
+		<stateTaxGST>5</stateTaxGST>
+		<stateTaxQST>9.975</stateTaxQST>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_YTO_student_items_BC">
+		<userid>5537983</userid>
+		<password>passw0rd</password>
+		<stateTaxGST>5</stateTaxGST>
+		<stateTaxPST>7</stateTaxPST>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_YTO_student_items_NL">
+		<userid>5539054</userid>
+		<password>passw0rd</password>
+		<stateTaxHST>15</stateTaxHST>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_YTO_student_items_NB">
+		<userid>5539468</userid>
+		<password>passw0rd</password>
+		<stateTaxHST>15</stateTaxHST>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_YTO_student_items_NS">
+		<userid>5539989</userid>
+		<password>passw0rd</password>
+		<stateTaxHST>15</stateTaxHST>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_YTO_student_items_ON">
+		<userid>5540225</userid>
+		<password>passw0rd</password>
+		<stateTaxHST>13</stateTaxHST>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_YTO_student_items_PE">
+		<userid>5540530</userid>
+		<password>passw0rd</password>
+		<stateTaxHST>14</stateTaxHST>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_YTO_student_items_AB">
+		<userid>5540803</userid>
+		<password>passw0rd</password>
+		<stateTaxGST>5</stateTaxGST>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_YTO_student_items_MB">
+		<userid>5541108</userid>
+		<password>passw0rd</password>
+		<stateTaxGST>5</stateTaxGST>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_YTO_student_items_NT">
+		<userid>5541439</userid>
+		<password>passw0rd</password>
+		<stateTaxGST>5</stateTaxGST>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_YTO_student_items_NU">
+		<userid>5541728</userid>
+		<password>passw0rd</password>
+		<stateTaxGST>5</stateTaxGST>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_YTO_student_items_SK">
+		<userid>5542023</userid>
+		<password>passw0rd</password>
+		<stateTaxGST>5</stateTaxGST>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_YTO_student_items_YT">
+		<userid>5542461</userid>
+		<password>passw0rd</password>
+		<stateTaxGST>5</stateTaxGST>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_YTO_student_items_QC_NoTax">
+		<userid>5543063</userid>
+		<password>passw0rd</password>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_YTO_student_items_BC_NoTax">
+		<userid>5542792</userid>
+		<password>passw0rd</password>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_YTO_student_items_NL_NoTax">
+		<userid>5543310</userid>
+		<password>passw0rd</password>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_YTO_student_items_NB_NoTax">
+		<userid>5543485</userid>
+		<password>passw0rd</password>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_YTO_student_items_NS_NoTax">
+		<userid>5543609</userid>
+		<password>passw0rd</password>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_YTO_student_items_ON_NoTax">
+		<userid>5543790</userid>
+		<password>passw0rd</password>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_YTO_student_items_PE_NoTax">
+		<userid>5543980</userid>
+		<password>passw0rd</password>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_YTO_student_items_AB_NoTax">
+		<userid>5544285</userid>
+		<password>passw0rd</password>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_YTO_student_items_MB_NoTax">
+		<userid>5544699</userid>
+		<password>passw0rd</password>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_YTO_student_items_NT_NoTax">
+		<userid>5544904</userid>
+		<password>passw0rd</password>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_YTO_student_items_NU_NoTax">
+		<userid>5545027</userid>
+		<password>passw0rd</password>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_YTO_student_items_SK_NoTax">
+		<userid>5545209</userid>
+		<password>passw0rd</password>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_YTO_student_items_YT_NoTax">
+		<userid>5545423</userid>
+		<password>passw0rd</password>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_YTO_teacher_catalogue_items_QC">
+		<userid>5538791</userid>
+		<password>passw0rd</password>
+		<stateTaxGST>5</stateTaxGST>
+		<stateTaxQST>9.975</stateTaxQST>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_YTO_teacher_catalogue_items_BC">
+		<userid>5538056</userid>
+		<password>passw0rd</password>
+		<stateTaxGST>5</stateTaxGST>
+		<stateTaxPST>7</stateTaxPST>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_YTO_teacher_catalogue_items_NL">
+		<userid>5539088</userid>
+		<password>passw0rd</password>
+		<stateTaxHST>15</stateTaxHST>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_YTO_teacher_catalogue_items_NB">
+		<userid>5539476</userid>
+		<password>passw0rd</password>
+		<stateTaxHST>15</stateTaxHST>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_YTO_teacher_catalogue_items_NS">
+		<userid>5540001</userid>
+		<password>passw0rd</password>
+		<stateTaxHST>15</stateTaxHST>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_YTO_teacher_catalogue_items_ON">
+		<userid>5540291</userid>
+		<password>passw0rd</password>
+		<stateTaxHST>13</stateTaxHST>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_YTO_teacher_catalogue_items_PE">
+		<userid>5540564</userid>
+		<password>passw0rd</password>
+		<stateTaxHST>14</stateTaxHST>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_YTO_teacher_catalogue_items_AB">
+		<userid>5540829</userid>
+		<password>passw0rd</password>
+		<stateTaxGST>5</stateTaxGST>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_YTO_teacher_catalogue_items_MB">
+		<userid>5541158</userid>
+		<password>passw0rd</password>
+		<stateTaxGST>5</stateTaxGST>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_YTO_teacher_catalogue_items_NT">
+		<userid>5541497</userid>
+		<password>passw0rd</password>
+		<stateTaxGST>5</stateTaxGST>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_YTO_teacher_catalogue_items_NU">
+		<userid>5541736</userid>
+		<password>passw0rd</password>
+		<stateTaxGST>5</stateTaxGST>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_YTO_teacher_catalogue_items_SK">
+		<userid>5542073</userid>
+		<password>passw0rd</password>
+		<stateTaxGST>5</stateTaxGST>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_YTO_teacher_catalogue_items_YT">
+		<userid>5542502</userid>
+		<password>passw0rd</password>
+		<stateTaxGST>5</stateTaxGST>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_YTO_teacher_catalogue_items_QC_NoTax">
+		<userid>5543089</userid>
+		<password>passw0rd</password>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_YTO_teacher_catalogue_items_BC_NoTax">
+		<userid>5542817</userid>
+		<password>passw0rd</password>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_YTO_teacher_catalogue_items_NL_NoTax">
+		<userid>5543344</userid>
+		<password>passw0rd</password>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_YTO_teacher_catalogue_items_NB_NoTax">
+		<userid>5543493</userid>
+		<password>passw0rd</password>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_YTO_teacher_catalogue_items_NS_NoTax">
+		<userid>5543625</userid>
+		<password>passw0rd</password>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_YTO_teacher_catalogue_items_ON_NoTax">
+		<userid>5543807</userid>
+		<password>passw0rd</password>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_YTO_teacher_catalogue_items_PE_NoTax">
+		<userid>5544037</userid>
+		<password>passw0rd</password>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_YTO_teacher_catalogue_items_AB_NoTax">
+		<userid>5544300</userid>
+		<password>passw0rd</password>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_YTO_teacher_catalogue_items_MB_NoTax">
+		<userid>5544706</userid>
+		<password>passw0rd</password>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_YTO_teacher_catalogue_items_NT_NoTax">
+		<userid>5544938</userid>
+		<password>passw0rd</password>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_YTO_teacher_catalogue_items_NU_NoTax">
+		<userid>5545043</userid>
+		<password>passw0rd</password>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_YTO_teacher_catalogue_items_SK_NoTax">
+		<userid>5545225</userid>
+		<password>passw0rd</password>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_YTO_teacher_catalogue_items_YT_NoTax">
+		<userid>5545449</userid>
+		<password>passw0rd</password>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_SFO_YTO_items_QC">
+		<userid>5538816</userid>
+		<password>passw0rd</password>
+		<stateTaxGST>5</stateTaxGST>
+		<stateTaxQST>9.975</stateTaxQST>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_SFO_YTO_items_BC">
+		<userid>5538064</userid>
+		<password>passw0rd</password>
+		<stateTaxGST>5</stateTaxGST>
+		<stateTaxPST>7</stateTaxPST>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_SFO_YTO_items_NL">
+		<userid>5539129</userid>
+		<password>passw0rd</password>
+		<stateTaxHST>15</stateTaxHST>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_SFO_YTO_items_NB">
+		<userid>5539525</userid>
+		<password>passw0rd</password>
+		<stateTaxHST>15</stateTaxHST>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_SFO_YTO_items_NS">
+		<userid>5540019</userid>
+		<password>passw0rd</password>
+		<stateTaxHST>15</stateTaxHST>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_SFO_YTO_items_ON">
+		<userid>5540308</userid>
+		<password>passw0rd</password>
+		<stateTaxHST>13</stateTaxHST>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_SFO_YTO_items_PE">
+		<userid>5540572</userid>
+		<password>passw0rd</password>
+		<stateTaxHST>14</stateTaxHST>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_SFO_YTO_items_AB">
+		<userid>5540845</userid>
+		<password>passw0rd</password>
+		<stateTaxGST>5</stateTaxGST>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_SFO_YTO_items_MB">
+		<userid>5541207</userid>
+		<password>passw0rd</password>
+		<stateTaxGST>5</stateTaxGST>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_SFO_YTO_items_NT">
+		<userid>5541546</userid>
+		<password>passw0rd</password>
+		<stateTaxGST>5</stateTaxGST>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_SFO_YTO_items_NU">
+		<userid>5541760</userid>
+		<password>passw0rd</password>
+		<stateTaxGST>5</stateTaxGST>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_SFO_YTO_items_SK">
+		<userid>5542099</userid>
+		<password>passw0rd</password>
+		<stateTaxGST>5</stateTaxGST>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_SFO_YTO_items_YT">
+		<userid>5542510</userid>
+		<password>passw0rd</password>
+		<stateTaxGST>5</stateTaxGST>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_SFO_YTO_TE_items_QC">
+		<userid>5538832</userid>
+		<password>passw0rd</password>
+		<stateTaxGST>5</stateTaxGST>
+		<stateTaxQST>9.975</stateTaxQST>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_SFO_YTO_TE_items_BC">
+		<userid>5538072</userid>
+		<password>passw0rd</password>
+		<stateTaxGST>5</stateTaxGST>
+		<stateTaxPST>7</stateTaxPST>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_SFO_YTO_TE_items_NL">
+		<userid>5539153</userid>
+		<password>passw0rd</password>
+		<stateTaxHST>15</stateTaxHST>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_SFO_YTO_TE_items_NB">
+		<userid>5539913</userid>
+		<password>passw0rd</password>
+		<stateTaxHST>15</stateTaxHST>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_SFO_YTO_TE_items_NS">
+		<userid>5540027</userid>
+		<password>passw0rd</password>
+		<stateTaxHST>15</stateTaxHST>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_SFO_YTO_TE_items_ON">
+		<userid>5540316</userid>
+		<password>passw0rd</password>
+		<stateTaxHST>13</stateTaxHST>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_SFO_YTO_TE_items_PE">
+		<userid>5540580</userid>
+		<password>passw0rd</password>
+		<stateTaxHST>14</stateTaxHST>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_SFO_YTO_TE_items_AB">
+		<userid>5540861</userid>
+		<password>passw0rd</password>
+		<stateTaxGST>5</stateTaxGST>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_SFO_YTO_TE_items_MB">
+		<userid>5541265</userid>
+		<password>passw0rd</password>
+		<stateTaxGST>5</stateTaxGST>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_SFO_YTO_TE_items_NT">
+		<userid>5541687</userid>
+		<password>passw0rd</password>
+		<stateTaxGST>5</stateTaxGST>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_SFO_YTO_TE_items_NU">
+		<userid>5541778</userid>
+		<password>passw0rd</password>
+		<stateTaxGST>5</stateTaxGST>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_SFO_YTO_TE_items_SK">
+		<userid>5542106</userid>
+		<password>passw0rd</password>
+		<stateTaxGST>5</stateTaxGST>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_SFO_YTO_TE_items_YT">
+		<userid>5542768</userid>
+		<password>passw0rd</password>
+		<stateTaxGST>5</stateTaxGST>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_SFO_items_Redemptions_rewards_page_QC">
+		<userid>5538840</userid>
+		<password>passw0rd</password>
+		<stateTaxGST>5</stateTaxGST>
+		<stateTaxQST>9.975</stateTaxQST>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_SFO_items_Redemptions_rewards_page_BC">
+		<userid>5538121</userid>
+		<password>passw0rd</password>
+		<stateTaxGST>5</stateTaxGST>
+		<stateTaxPST>7</stateTaxPST>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_SFO_items_Redemptions_rewards_page_NL">
+		<userid>5539210</userid>
+		<password>passw0rd</password>
+		<stateTaxHST>15</stateTaxHST>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_SFO_items_Redemptions_rewards_page_NB">
+		<userid>5539541</userid>
+		<password>passw0rd</password>
+		<stateTaxHST>15</stateTaxHST>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_SFO_items_Redemptions_rewards_page_NS">
+		<userid>5540035</userid>
+		<password>passw0rd</password>
+		<stateTaxHST>15</stateTaxHST>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_SFO_items_Redemptions_rewards_page_ON">
+		<userid>5540366</userid>
+		<password>passw0rd</password>
+		<stateTaxHST>13</stateTaxHST>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_SFO_items_Redemptions_rewards_page_PE">
+		<userid>5540621</userid>
+		<password>passw0rd</password>
+		<stateTaxHST>14</stateTaxHST>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_SFO_items_Redemptions_rewards_page_AB">
+		<userid>5540902</userid>
+		<password>passw0rd</password>
+		<stateTaxGST>5</stateTaxGST>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_SFO_items_Redemptions_rewards_page_MB">
+		<userid>5541273</userid>
+		<password>passw0rd</password>
+		<stateTaxGST>5</stateTaxGST>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_SFO_items_Redemptions_rewards_page_NT">
+		<userid>5541554</userid>
+		<password>passw0rd</password>
+		<stateTaxGST>5</stateTaxGST>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_SFO_items_Redemptions_rewards_page_NU">
+		<userid>5541794</userid>
+		<password>passw0rd</password>
+		<stateTaxGST>5</stateTaxGST>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_SFO_items_Redemptions_rewards_page_SK">
+		<userid>5542263</userid>
+		<password>passw0rd</password>
+		<stateTaxGST>5</stateTaxGST>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_SFO_items_Redemptions_rewards_page_YT">
+		<userid>5542586</userid>
+		<password>passw0rd</password>
+		<stateTaxGST>5</stateTaxGST>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_SFO_items_Redemptions_rewards_page_QC_NoTax">
+		<userid>5543146</userid>
+		<password>passw0rd</password>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_SFO_items_Redemptions_rewards_page_BC_NoTax">
+		<userid>5542841</userid>
+		<password>passw0rd</password>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_SFO_items_Redemptions_rewards_page_NL_NoTax">
+		<userid>5543352</userid>
+		<password>passw0rd</password>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_SFO_items_Redemptions_rewards_page_NB_NoTax">
+		<userid>5543518</userid>
+		<password>passw0rd</password>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_SFO_items_Redemptions_rewards_page_NS_NoTax">
+		<userid>5543691</userid>
+		<password>passw0rd</password>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_SFO_items_Redemptions_rewards_page_ON_NoTax">
+		<userid>5543815</userid>
+		<password>passw0rd</password>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_SFO_items_Redemptions_rewards_page_PE_NoTax">
+		<userid>5544053</userid>
+		<password>passw0rd</password>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_SFO_items_Redemptions_rewards_page_AB_NoTax">
+		<userid>5544326</userid>
+		<password>passw0rd</password>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_SFO_items_Redemptions_rewards_page_MB_NoTax">
+		<userid>5544722</userid>
+		<password>passw0rd</password>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_SFO_items_Redemptions_rewards_page_NT_NoTax">
+		<userid>5544946</userid>
+		<password>passw0rd</password>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_SFO_items_Redemptions_rewards_page_NU_NoTax">
+		<userid>5545069</userid>
+		<password>passw0rd</password>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_SFO_items_Redemptions_rewards_page_SK_NoTax">
+		<userid>5545241</userid>
+		<password>passw0rd</password>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_SFO_items_Redemptions_rewards_page_YT_NoTax">
+		<userid>5545465</userid>
+		<password>passw0rd</password>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_YTO_items_Redemptions_rewards_page_QC">
+		<userid>5538915</userid>
+		<password>passw0rd</password>
+		<stateTaxGST>5</stateTaxGST>
+		<stateTaxQST>9.975</stateTaxQST>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_YTO_items_Redemptions_rewards_page_BC">
+		<userid>5538155</userid>
+		<password>passw0rd</password>
+		<stateTaxGST>5</stateTaxGST>
+		<stateTaxPST>7</stateTaxPST>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_YTO_items_Redemptions_rewards_page_NL">
+		<userid>5539228</userid>
+		<password>passw0rd</password>
+		<stateTaxHST>15</stateTaxHST>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_YTO_items_Redemptions_rewards_page_NB">
+		<userid>5539632</userid>
+		<password>passw0rd</password>
+		<stateTaxHST>15</stateTaxHST>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_YTO_items_Redemptions_rewards_page_NS">
+		<userid>5540043</userid>
+		<password>passw0rd</password>
+		<stateTaxHST>15</stateTaxHST>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_YTO_items_Redemptions_rewards_page_ON">
+		<userid>5540374</userid>
+		<password>passw0rd</password>
+		<stateTaxHST>13</stateTaxHST>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_YTO_items_Redemptions_rewards_page_PE">
+		<userid>5540663</userid>
+		<password>passw0rd</password>
+		<stateTaxHST>14</stateTaxHST>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_YTO_items_Redemptions_rewards_page_AB">
+		<userid>5540928</userid>
+		<password>passw0rd</password>
+		<stateTaxGST>5</stateTaxGST>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_YTO_items_Redemptions_rewards_page_MB">
+		<userid>5541306</userid>
+		<password>passw0rd</password>
+		<stateTaxGST>5</stateTaxGST>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_YTO_items_Redemptions_rewards_page_NT">
+		<userid>5541562</userid>
+		<password>passw0rd</password>
+		<stateTaxGST>5</stateTaxGST>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_YTO_items_Redemptions_rewards_page_NU">
+		<userid>5541827</userid>
+		<password>passw0rd</password>
+		<stateTaxGST>5</stateTaxGST>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_YTO_items_Redemptions_rewards_page_SK">
+		<userid>5542271</userid>
+		<password>passw0rd</password>
+		<stateTaxGST>5</stateTaxGST>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_YTO_items_Redemptions_rewards_page_YT">
+		<userid>5542601</userid>
+		<password>passw0rd</password>
+		<stateTaxGST>5</stateTaxGST>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_YTO_items_Redemptions_rewards_page_QC_NoTax">
+		<userid>5543196</userid>
+		<password>passw0rd</password>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_YTO_items_Redemptions_rewards_page_BC_NoTax">
+		<userid>5542859</userid>
+		<password>passw0rd</password>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_YTO_items_Redemptions_rewards_page_NL_NoTax">
+		<userid>5543394</userid>
+		<password>passw0rd</password>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_YTO_items_Redemptions_rewards_page_NB_NoTax">
+		<userid>5543542</userid>
+		<password>passw0rd</password>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_YTO_items_Redemptions_rewards_page_NS_NoTax">
+		<userid>5543740</userid>
+		<password>passw0rd</password>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_YTO_items_Redemptions_rewards_page_ON_NoTax">
+		<userid>5543857</userid>
+		<password>passw0rd</password>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_YTO_items_Redemptions_rewards_page_PE_NoTax">
+		<userid>5544102</userid>
+		<password>passw0rd</password>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_YTO_items_Redemptions_rewards_page_AB_NoTax">
+		<userid>5544334</userid>
+		<password>passw0rd</password>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_YTO_items_Redemptions_rewards_page_MB_NoTax">
+		<userid>5544813</userid>
+		<password>passw0rd</password>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_YTO_items_Redemptions_rewards_page_NT_NoTax">
+		<userid>5544970</userid>
+		<password>passw0rd</password>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_YTO_items_Redemptions_rewards_page_NU_NoTax">
+		<userid>5545085</userid>
+		<password>passw0rd</password>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_YTO_items_Redemptions_rewards_page_SK_NoTax">
+		<userid>5545291</userid>
+		<password>passw0rd</password>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_YTO_items_Redemptions_rewards_page_YT_NoTax">
+		<userid>5545473</userid>
+		<password>passw0rd</password>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_Teacher_Exclusives_items_Redemptions_rewards_page_QC">
+		<userid>5538931</userid>
+		<password>passw0rd</password>
+		<stateTaxGST>5</stateTaxGST>
+		<stateTaxQST>9.975</stateTaxQST>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_Teacher_Exclusives_items_Redemptions_rewards_page_BC">
+		<userid>5538171</userid>
+		<password>passw0rd</password>
+		<stateTaxGST>5</stateTaxGST>
+		<stateTaxPST>7</stateTaxPST>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_Teacher_Exclusives_items_Redemptions_rewards_page_NL">
+		<userid>5539244</userid>
+		<password>passw0rd</password>
+		<stateTaxHST>15</stateTaxHST>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_Teacher_Exclusives_items_Redemptions_rewards_page_NB">
+		<userid>5539640</userid>
+		<password>passw0rd</password>
+		<stateTaxHST>15</stateTaxHST>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_Teacher_Exclusives_items_Redemptions_rewards_page_NS">
+		<userid>5540051</userid>
+		<password>passw0rd</password>
+		<stateTaxHST>15</stateTaxHST>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_Teacher_Exclusives_items_Redemptions_rewards_page_ON">
+		<userid>5540407</userid>
+		<password>passw0rd</password>
+		<stateTaxHST>13</stateTaxHST>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_Teacher_Exclusives_items_Redemptions_rewards_page_PE">
+		<userid>5540671</userid>
+		<password>passw0rd</password>
+		<stateTaxHST>14</stateTaxHST>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_Teacher_Exclusives_items_Redemptions_rewards_page_AB">
+		<userid>5540960</userid>
+		<password>passw0rd</password>
+		<stateTaxGST>5</stateTaxGST>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_Teacher_Exclusives_items_Redemptions_rewards_page_MB">
+		<userid>5541314</userid>
+		<password>passw0rd</password>
+		<stateTaxGST>5</stateTaxGST>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_Teacher_Exclusives_items_Redemptions_rewards_page_NT">
+		<userid>5541596</userid>
+		<password>passw0rd</password>
+		<stateTaxGST>5</stateTaxGST>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_Teacher_Exclusives_items_Redemptions_rewards_page_NU">
+		<userid>5541869</userid>
+		<password>passw0rd</password>
+		<stateTaxGST>5</stateTaxGST>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_Teacher_Exclusives_items_Redemptions_rewards_page_SK">
+		<userid>5542320</userid>
+		<password>passw0rd</password>
+		<stateTaxGST>5</stateTaxGST>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_Teacher_Exclusives_items_Redemptions_rewards_page_YT">
+		<userid>5542619</userid>
+		<password>passw0rd</password>
+		<stateTaxGST>5</stateTaxGST>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_Teacher_Exclusives_items_Redemptions_rewards_page_QC_NoTax">
+		<userid>5543237</userid>
+		<password>passw0rd</password>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_Teacher_Exclusives_items_Redemptions_rewards_page_BC_NoTax">
+		<userid>5542875</userid>
+		<password>passw0rd</password>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_Teacher_Exclusives_items_Redemptions_rewards_page_NL_NoTax">
+		<userid>5543435</userid>
+		<password>passw0rd</password>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_Teacher_Exclusives_items_Redemptions_rewards_page_NB_NoTax">
+		<userid>5543550</userid>
+		<password>passw0rd</password>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_Teacher_Exclusives_items_Redemptions_rewards_page_NS_NoTax">
+		<userid>5543758</userid>
+		<password>passw0rd</password>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_Teacher_Exclusives_items_Redemptions_rewards_page_ON_NoTax">
+		<userid>5543865</userid>
+		<password>passw0rd</password>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_Teacher_Exclusives_items_Redemptions_rewards_page_PE_NoTax">
+		<userid>5544152</userid>
+		<password>passw0rd</password>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_Teacher_Exclusives_items_Redemptions_rewards_page_AB_NoTax">
+		<userid>5544475</userid>
+		<password>passw0rd</password>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_Teacher_Exclusives_items_Redemptions_rewards_page_MB_NoTax">
+		<userid>5544847</userid>
+		<password>passw0rd</password>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_Teacher_Exclusives_items_Redemptions_rewards_page_NT_NoTax">
+		<userid>5544988</userid>
+		<password>passw0rd</password>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_Teacher_Exclusives_items_Redemptions_rewards_page_NU_NoTax">
+		<userid>5545118</userid>
+		<password>passw0rd</password>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_Teacher_Exclusives_items_Redemptions_rewards_page_SK_NoTax">
+		<userid>5545308</userid>
+		<password>passw0rd</password>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_Teacher_Exclusives_items_Redemptions_rewards_page_YT_NoTax">
+		<userid>5545522</userid>
+		<password>passw0rd</password>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_single_FreePick_item_for_one_student">
+		<userid>5538303</userid>
+		<password>passw0rd</password>
+		<stateTaxGST>5</stateTaxGST>
+		<stateTaxPST>7</stateTaxPST>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_multiple_FreePick_items_for_multiple_students">
+		<userid>5538361</userid>
+		<password>passw0rd</password>
+		<stateTaxGST>5</stateTaxGST>
+		<stateTaxPST>7</stateTaxPST>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_SFO_YTO_TE_items_Redemptions_rewards_page_QC">
+		<userid>5538957</userid>
+		<password>passw0rd</password>
+		<stateTaxGST>5</stateTaxGST>
+		<stateTaxQST>9.975</stateTaxQST>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_SFO_YTO_TE_items_Redemptions_rewards_page_BC">
+		<userid>5538402</userid>
+		<password>passw0rd</password>
+		<stateTaxGST>5</stateTaxGST>
+		<stateTaxPST>7</stateTaxPST>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_SFO_YTO_TE_items_Redemptions_rewards_page_NL">
+		<userid>5539260</userid>
+		<password>passw0rd</password>
+		<stateTaxHST>15</stateTaxHST>
+    </testcase>
+    
+   <testcase id="InSprint15.2:Adds_SFO_YTO_TE_items_Redemptions_rewards_page_NB">
+		<userid>5539690</userid>
+		<password>passw0rd</password>
+		<stateTaxHST>15</stateTaxHST>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_SFO_YTO_TE_items_Redemptions_rewards_page_NS">
+		<userid>5540077</userid>
+		<password>passw0rd</password>
+		<stateTaxHST>15</stateTaxHST>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_SFO_YTO_TE_items_Redemptions_rewards_page_ON">
+		<userid>5540415</userid>
+		<password>passw0rd</password>
+		<stateTaxHST>13</stateTaxHST>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_SFO_YTO_TE_items_Redemptions_rewards_page_PE">
+		<userid>5540712</userid>
+		<password>passw0rd</password>
+		<stateTaxHST>14</stateTaxHST>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_SFO_YTO_TE_items_Redemptions_rewards_page_AB">
+		<userid>5540986</userid>
+		<password>passw0rd</password>
+		<stateTaxGST>5</stateTaxGST>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_SFO_YTO_TE_items_Redemptions_rewards_page_MB">
+		<userid>5541348</userid>
+		<password>passw0rd</password>
+		<stateTaxGST>5</stateTaxGST>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_SFO_YTO_TE_items_Redemptions_rewards_page_NT">
+		<userid>5541603</userid>
+		<password>passw0rd</password>
+		<stateTaxGST>5</stateTaxGST>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_SFO_YTO_TE_items_Redemptions_rewards_page_NU">
+		<userid>5541877</userid>
+		<password>passw0rd</password>
+		<stateTaxGST>5</stateTaxGST>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_SFO_YTO_TE_items_Redemptions_rewards_page_SK">
+		<userid>5542338</userid>
+		<password>passw0rd</password>
+		<stateTaxGST>5</stateTaxGST>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_SFO_YTO_TE_items_Redemptions_rewards_page_YT">
+		<userid>5542627</userid>
+		<password>passw0rd</password>
+		<stateTaxGST>5</stateTaxGST>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_SFO_YTO_TE_items_Redemptions_rewards_page_QC_NoTax">
+		<userid>5543253</userid>
+		<password>passw0rd</password>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_SFO_YTO_TE_items_Redemptions_rewards_page_BC_NoTax">
+		<userid>5542940</userid>
+		<password>passw0rd</password>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_SFO_YTO_TE_items_Redemptions_rewards_page_NL_NoTax">
+		<userid>5543443</userid>
+		<password>passw0rd</password>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_SFO_YTO_TE_items_Redemptions_rewards_page_NB_NoTax">
+		<userid>5543584</userid>
+		<password>passw0rd</password>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_SFO_YTO_TE_items_Redemptions_rewards_page_NS_NoTax">
+		<userid>5543766</userid>
+		<password>passw0rd</password>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_SFO_YTO_TE_items_Redemptions_rewards_page_ON_NoTax">
+		<userid>5543873</userid>
+		<password>passw0rd</password>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_SFO_YTO_TE_items_Redemptions_rewards_page_PE_NoTax">
+		<userid>5544251</userid>
+		<password>passw0rd</password>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_SFO_YTO_TE_items_Redemptions_rewards_page_AB_NoTax">
+		<userid>5544483</userid>
+		<password>passw0rd</password>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_SFO_YTO_TE_items_Redemptions_rewards_page_MB_NoTax">
+		<userid>5544855</userid>
+		<password>passw0rd</password>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_SFO_YTO_TE_items_Redemptions_rewards_page_NT_NoTax">
+		<userid>5544996</userid>
+		<password>passw0rd</password>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_SFO_YTO_TE_items_Redemptions_rewards_page_NU_NoTax">
+		<userid>5545134</userid>
+		<password>passw0rd</password>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_SFO_YTO_TE_items_Redemptions_rewards_page_SK_NoTax">
+		<userid>5545316</userid>
+		<password>passw0rd</password>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_SFO_YTO_TE_items_Redemptions_rewards_page_YT_NoTax">
+		<userid>5545556</userid>
+		<password>passw0rd</password>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_SFO_items_Redemptions_rewards_page_QC_2.1">
+		<userid>5538965</userid>
+		<password>passw0rd</password>
+		<CreditNotes>2.1</CreditNotes>
+		<stateTaxGST>5</stateTaxGST>
+		<stateTaxQST>9.975</stateTaxQST>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_SFO_items_Redemptions_rewards_page_BC_2.1">
+		<userid>5538452</userid>
+		<password>passw0rd</password>
+		<CreditNotes>2.1</CreditNotes>
+		<stateTaxGST>5</stateTaxGST>
+		<stateTaxPST>7</stateTaxPST>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_SFO_items_Redemptions_rewards_page_NL_2.1">
+		<userid>5539278</userid>
+		<password>passw0rd</password>
+		<CreditNotes>2.1</CreditNotes>
+		<stateTaxHST>15</stateTaxHST>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_SFO_items_Redemptions_rewards_page_NB_2.1">
+		<userid>5539773</userid>
+		<password>passw0rd</password>
+		<CreditNotes>2.1</CreditNotes>
+		<stateTaxHST>15</stateTaxHST>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_SFO_items_Redemptions_rewards_page_NS_2.1">
+		<userid>5540100</userid>
+		<password>passw0rd</password>
+		<CreditNotes>2.1</CreditNotes>
+		<stateTaxHST>15</stateTaxHST>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_SFO_items_Redemptions_rewards_page_ON_2.1">
+		<userid>5540423</userid>
+		<password>passw0rd</password>
+		<CreditNotes>2.1</CreditNotes>
+		<stateTaxHST>13</stateTaxHST>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_SFO_items_Redemptions_rewards_page_PE_2.1">
+		<userid>5540720</userid>
+		<password>passw0rd</password>
+		<CreditNotes>2.1</CreditNotes>
+		<stateTaxHST>14</stateTaxHST>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_SFO_items_Redemptions_rewards_page_AB_2.1">
+		<userid>5541009</userid>
+		<password>passw0rd</password>
+		<CreditNotes>2.1</CreditNotes>
+		<stateTaxGST>5</stateTaxGST>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_SFO_items_Redemptions_rewards_page_MB_2.1">
+		<userid>5541364</userid>
+		<password>passw0rd</password>
+		<CreditNotes>2.1</CreditNotes>
+		<stateTaxGST>5</stateTaxGST>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_SFO_items_Redemptions_rewards_page_NT_2.1">
+		<userid>5541637</userid>
+		<password>passw0rd</password>
+		<CreditNotes>2.1</CreditNotes>
+		<stateTaxGST>5</stateTaxGST>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_SFO_items_Redemptions_rewards_page_NU_2.1">
+		<userid>5541900</userid>
+		<password>passw0rd</password>
+		<CreditNotes>2.1</CreditNotes>
+		<stateTaxGST>5</stateTaxGST>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_SFO_items_Redemptions_rewards_page_SK_2.1">
+		<userid>5542362</userid>
+		<password>passw0rd</password>
+		<CreditNotes>2.1</CreditNotes>
+		<stateTaxGST>5</stateTaxGST>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_SFO_items_Redemptions_rewards_page_YT_2.1">
+		<userid>5542635</userid>
+		<password>passw0rd</password>
+		<CreditNotes>2.1</CreditNotes>
+		<stateTaxGST>5</stateTaxGST>
+    </testcase>
+
+    <testcase id="InSprint15.2:Adds_YTO_items_Redemptions_rewards_page_QC_2.1">
+		<userid>5538973</userid>
+		<password>passw0rd</password>
+		<BonusBank>2.1</BonusBank>
+		<CreditNotes>2.1</CreditNotes>
+		<stateTaxGST>5</stateTaxGST>
+		<stateTaxQST>9.975</stateTaxQST>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_YTO_items_Redemptions_rewards_page_BC_2.1">
+		<userid>5538460</userid>
+		<password>passw0rd</password>
+		<BonusBank>2.1</BonusBank>
+		<CreditNotes>2.1</CreditNotes>
+		<stateTaxGST>5</stateTaxGST>
+		<stateTaxPST>7</stateTaxPST>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_YTO_items_Redemptions_rewards_page_NL_2.1">
+		<userid>5539286</userid>
+		<password>passw0rd</password>
+		<BonusBank>2.1</BonusBank>
+		<CreditNotes>2.1</CreditNotes>
+		<stateTaxHST>15</stateTaxHST>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_YTO_items_Redemptions_rewards_page_NB_2.1">
+		<userid>5539781</userid>
+		<password>passw0rd</password>
+		<BonusBank>2.1</BonusBank>
+		<CreditNotes>2.1</CreditNotes>
+		<stateTaxHST>15</stateTaxHST>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_YTO_items_Redemptions_rewards_page_NS_2.1">
+		<userid>5540126</userid>
+		<password>passw0rd</password>
+		<BonusBank>2.1</BonusBank>
+		<CreditNotes>2.1</CreditNotes>
+		<stateTaxHST>15</stateTaxHST>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_YTO_items_Redemptions_rewards_page_ON_2.1">
+		<userid>5540449</userid>
+		<password>passw0rd</password>
+		<BonusBank>2.1</BonusBank>
+		<CreditNotes>2.1</CreditNotes>
+		<stateTaxHST>13</stateTaxHST>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_YTO_items_Redemptions_rewards_page_PE_2.1">
+		<userid>5540746</userid>
+		<password>passw0rd</password>
+		<BonusBank>2.1</BonusBank>
+		<CreditNotes>2.1</CreditNotes>
+		<stateTaxHST>14</stateTaxHST>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_YTO_items_Redemptions_rewards_page_AB_2.1">
+		<userid>5541067</userid>
+		<password>passw0rd</password>
+		<BonusBank>2.1</BonusBank>
+		<CreditNotes>2.1</CreditNotes>
+		<stateTaxGST>5</stateTaxGST>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_YTO_items_Redemptions_rewards_page_MB_2.1">
+		<userid>5541372</userid>
+		<password>passw0rd</password>
+		<BonusBank>2.1</BonusBank>
+		<CreditNotes>2.1</CreditNotes>
+		<stateTaxGST>5</stateTaxGST>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_YTO_items_Redemptions_rewards_page_NT_2.1">
+		<userid>5541653</userid>
+		<password>passw0rd</password>
+		<BonusBank>2.1</BonusBank>
+		<CreditNotes>2.1</CreditNotes>
+		<stateTaxGST>5</stateTaxGST>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_YTO_items_Redemptions_rewards_page_NU_2.1">
+		<userid>5541934</userid>
+		<password>passw0rd</password>
+		<BonusBank>2.1</BonusBank>
+		<CreditNotes>2.1</CreditNotes>
+		<stateTaxGST>5</stateTaxGST>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_YTO_items_Redemptions_rewards_page_SK_2.1">
+		<userid>5542370</userid>
+		<password>passw0rd</password>
+		<BonusBank>2.1</BonusBank>
+		<CreditNotes>2.1</CreditNotes>
+		<stateTaxGST>5</stateTaxGST>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_YTO_items_Redemptions_rewards_page_YT_2.1">
+		<userid>5542734</userid>
+		<password>passw0rd</password>
+		<BonusBank>2.1</BonusBank>
+		<CreditNotes>2.1</CreditNotes>
+		<stateTaxGST>5</stateTaxGST>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_TE_items_Redemptions_rewards_page_QC_2.1">
+		<userid>5538999</userid>
+		<password>passw0rd</password>
+		<BonusBank>2.1</BonusBank>
+		<CreditNotes>2.1</CreditNotes>
+		<stateTaxGST>5</stateTaxGST>
+		<stateTaxQST>9.975</stateTaxQST>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_TE_items_Redemptions_rewards_page_BC_2.1">
+		<userid>5538634</userid>
+		<password>passw0rd</password>
+		<BonusBank>2.1</BonusBank>
+		<CreditNotes>2.1</CreditNotes>
+		<stateTaxGST>5</stateTaxGST>
+		<stateTaxPST>7</stateTaxPST>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_TE_items_Redemptions_rewards_page_NL_2.1">
+		<userid>5539319</userid>
+		<password>passw0rd</password>
+		<BonusBank>2.1</BonusBank>
+		<CreditNotes>2.1</CreditNotes>
+		<stateTaxHST>15</stateTaxHST>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_TE_items_Redemptions_rewards_page_NB_2.1">
+		<userid>5539848</userid>
+		<password>passw0rd</password>
+		<BonusBank>2.1</BonusBank>
+		<CreditNotes>2.1</CreditNotes>
+		<stateTaxHST>15</stateTaxHST>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_TE_items_Redemptions_rewards_page_NS_2.1">
+		<userid>5540168</userid>
+		<password>passw0rd</password>
+		<BonusBank>2.1</BonusBank>
+		<CreditNotes>2.1</CreditNotes>
+		<stateTaxHST>15</stateTaxHST>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_TE_items_Redemptions_rewards_page_ON_2.1">
+		<userid>5540465</userid>
+		<password>passw0rd</password>
+		<BonusBank>2.1</BonusBank>
+		<CreditNotes>2.1</CreditNotes>
+		<stateTaxHST>13</stateTaxHST>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_TE_items_Redemptions_rewards_page_PE_2.1">
+		<userid>5540770</userid>
+		<password>passw0rd</password>
+		<BonusBank>2.1</BonusBank>
+		<CreditNotes>2.1</CreditNotes>
+		<stateTaxHST>14</stateTaxHST>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_TE_items_Redemptions_rewards_page_AB_2.1">
+		<userid>5541075</userid>
+		<password>passw0rd</password>
+		<BonusBank>2.1</BonusBank>
+		<CreditNotes>2.1</CreditNotes>
+		<stateTaxGST>5</stateTaxGST>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_TE_items_Redemptions_rewards_page_MB_2.1">
+		<userid>5541398</userid>
+		<password>passw0rd</password>
+		<BonusBank>2.1</BonusBank>
+		<CreditNotes>2.1</CreditNotes>
+		<stateTaxGST>5</stateTaxGST>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_TE_items_Redemptions_rewards_page_NT_2.1">
+		<userid>5541661</userid>
+		<password>passw0rd</password>
+		<BonusBank>2.1</BonusBank>
+		<CreditNotes>2.1</CreditNotes>
+		<stateTaxGST>5</stateTaxGST>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_TE_items_Redemptions_rewards_page_NU_2.1">
+		<userid>5541992</userid>
+		<password>passw0rd</password>
+		<BonusBank>2.1</BonusBank>
+		<CreditNotes>2.1</CreditNotes>
+		<stateTaxGST>5</stateTaxGST>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_TE_items_Redemptions_rewards_page_SK_2.1">
+		<userid>5542411</userid>
+		<password>passw0rd</password>
+		<BonusBank>2.1</BonusBank>
+		<CreditNotes>2.1</CreditNotes>
+		<stateTaxGST>5</stateTaxGST>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_TE_items_Redemptions_rewards_page_YT_2.1">
+		<userid>5542742</userid>
+		<password>passw0rd</password>
+		<BonusBank>2.1</BonusBank>
+		<CreditNotes>2.1</CreditNotes>
+		<stateTaxGST>5</stateTaxGST>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_SFO_items_Payment_page_BC_2.1">
+		<userid>5545598</userid>
+		<password>passw0rd</password>
+		<CreditNotes>2.1</CreditNotes>
+		<stateTaxGST>5</stateTaxGST>
+		<stateTaxPST>7</stateTaxPST>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_SFO_items_Payment_page_QC_2.1">
+		<userid>5545770</userid>
+		<password>passw0rd</password>
+		<CreditNotes>2.1</CreditNotes>
+		<stateTaxGST>5</stateTaxGST>
+		<stateTaxQST>9.975</stateTaxQST>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_SFO_items_Payment_page_NL_2.1">
+		<userid>5545845</userid>
+		<password>passw0rd</password>
+		<CreditNotes>2.1</CreditNotes>
+		<stateTaxHST>15</stateTaxHST>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_SFO_items_Payment_page_NB_2.1">
+		<userid>5545952</userid>
+		<password>passw0rd</password>
+		<CreditNotes>2.1</CreditNotes>
+		<stateTaxHST>15</stateTaxHST>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_SFO_items_Payment_page_NS_2.1">
+		<userid>5546067</userid>
+		<password>passw0rd</password>
+		<CreditNotes>2.1</CreditNotes>
+		<stateTaxHST>15</stateTaxHST>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_SFO_items_Payment_page_ON_2.1">
+		<userid>5546182</userid>
+		<password>passw0rd</password>
+		<CreditNotes>2.1</CreditNotes>
+		<stateTaxHST>13</stateTaxHST>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_SFO_items_Payment_page_PE_2.1">
+		<userid>5546380</userid>
+		<password>passw0rd</password>
+		<CreditNotes>2.1</CreditNotes>
+		<stateTaxHST>14</stateTaxHST>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_SFO_items_Payment_page_AB_2.1">
+		<userid>5546562</userid>
+		<password>passw0rd</password>
+		<CreditNotes>2.1</CreditNotes>
+		<stateTaxGST>5</stateTaxGST>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_SFO_items_Payment_page_MB_2.1">
+		<userid>5546653</userid>
+		<password>passw0rd</password>
+		<CreditNotes>2.1</CreditNotes>
+		<stateTaxGST>5</stateTaxGST>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_SFO_items_Payment_page_NT_2.1">
+		<userid>5546827</userid>
+		<password>passw0rd</password>
+		<CreditNotes>2.1</CreditNotes>
+		<stateTaxGST>5</stateTaxGST>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_SFO_items_Payment_page_NU_2.1">
+		<userid>5546992</userid>
+		<password>passw0rd</password>
+		<CreditNotes>2.1</CreditNotes>
+		<stateTaxGST>5</stateTaxGST>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_SFO_items_Payment_page_SK_2.1">
+		<userid>5547106</userid>
+		<password>passw0rd</password>
+		<CreditNotes>2.1</CreditNotes>
+		<stateTaxGST>5</stateTaxGST>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_SFO_items_Payment_page_YT_2.1">
+		<userid>5547247</userid>
+		<password>passw0rd</password>
+		<CreditNotes>2.1</CreditNotes>
+		<stateTaxGST>5</stateTaxGST>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_SFO_items_Payment_page_BC_NoTax_2.1">
+		<userid>5547362</userid>
+		<password>passw0rd</password>
+		<CreditNotes>2.1</CreditNotes>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_SFO_items_Payment_page_QC_NoTax_2.1">
+		<userid>5547502</userid>
+		<password>passw0rd</password>
+		<CreditNotes>2.1</CreditNotes>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_SFO_items_Payment_page_NL_NoTax_2.1">
+		<userid>5547700</userid>
+		<password>passw0rd</password>
+		<CreditNotes>2.1</CreditNotes>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_SFO_items_Payment_page_NB_NoTax_2.1">
+		<userid>5547784</userid>
+		<password>passw0rd</password>
+		<CreditNotes>2.1</CreditNotes>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_SFO_items_Payment_page_NS_NoTax_2.1">
+		<userid>5548188</userid>
+		<password>passw0rd</password>
+		<CreditNotes>2.1</CreditNotes>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_SFO_items_Payment_page_ON_NoTax_2.1">
+		<userid>5548302</userid>
+		<password>passw0rd</password>
+		<CreditNotes>2.1</CreditNotes>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_SFO_items_Payment_page_PE_NoTax_2.1">
+		<userid>5548485</userid>
+		<password>passw0rd</password>
+		<CreditNotes>2.1</CreditNotes>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_SFO_items_Payment_page_AB_NoTax_2.1">
+		<userid>5548716</userid>
+		<password>passw0rd</password>
+		<CreditNotes>2.1</CreditNotes>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_SFO_items_Payment_page_MB_NoTax_2.1">
+		<userid>5548881</userid>
+		<password>passw0rd</password>
+		<CreditNotes>2.1</CreditNotes>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_SFO_items_Payment_page_NT_NoTax_2.1">
+		<userid>5549003</userid>
+		<password>passw0rd</password>
+		<CreditNotes>2.1</CreditNotes>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_SFO_items_Payment_page_NU_NoTax_2.1">
+		<userid>5549201</userid>
+		<password>passw0rd</password>
+		<CreditNotes>2.1</CreditNotes>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_SFO_items_Payment_page_SK_NoTax_2.1">
+		<userid>5549350</userid>
+		<password>passw0rd</password>
+		<CreditNotes>2.1</CreditNotes>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_SFO_items_Payment_page_YT_NoTax_2.1">
+		<userid>5549459</userid>
+		<password>passw0rd</password>
+		<CreditNotes>2.1</CreditNotes>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_YTO_items_Payment_page_BC_2.1">
+		<userid>5545605</userid>
+		<password>passw0rd</password>
+		<BonusBank>2.1</BonusBank>
+		<CreditNotes>2.1</CreditNotes>
+		<stateTaxGST>5</stateTaxGST>
+		<stateTaxPST>7</stateTaxPST>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_YTO_items_Payment_page_QC_2.1">
+		<userid>5545788</userid>
+		<password>passw0rd</password>
+		<BonusBank>2.1</BonusBank>
+		<CreditNotes>2.1</CreditNotes>
+		<stateTaxGST>5</stateTaxGST>
+		<stateTaxQST>9.975</stateTaxQST>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_YTO_items_Payment_page_NL_2.1">
+		<userid>5545879</userid>
+		<password>passw0rd</password>
+		<BonusBank>2.1</BonusBank>
+		<CreditNotes>2.1</CreditNotes>
+		<stateTaxHST>15</stateTaxHST>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_YTO_items_Payment_page_NB_2.1">
+		<userid>5545960</userid>
+		<password>passw0rd</password>
+		<BonusBank>2.1</BonusBank>
+		<CreditNotes>2.1</CreditNotes>
+		<stateTaxHST>15</stateTaxHST>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_YTO_items_Payment_page_NS_2.1">
+		<userid>5546083</userid>
+		<password>passw0rd</password>
+		<BonusBank>2.1</BonusBank>
+		<CreditNotes>2.1</CreditNotes>
+		<stateTaxHST>15</stateTaxHST>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_YTO_items_Payment_page_ON_2.1">
+		<userid>5546249</userid>
+		<password>passw0rd</password>
+		<BonusBank>2.1</BonusBank>
+		<CreditNotes>2.1</CreditNotes>
+		<stateTaxHST>13</stateTaxHST>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_YTO_items_Payment_page_PE_2.1">
+		<userid>5546413</userid>
+		<password>passw0rd</password>
+		<BonusBank>2.1</BonusBank>
+		<CreditNotes>2.1</CreditNotes>
+		<stateTaxHST>14</stateTaxHST>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_YTO_items_Payment_page_AB_2.1">
+		<userid>5546588</userid>
+		<password>passw0rd</password>
+		<BonusBank>2.1</BonusBank>
+		<CreditNotes>2.1</CreditNotes>
+		<stateTaxGST>5</stateTaxGST>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_YTO_items_Payment_page_MB_2.1">
+		<userid>5546695</userid>
+		<password>passw0rd</password>
+		<BonusBank>2.1</BonusBank>
+		<CreditNotes>2.1</CreditNotes>
+		<stateTaxGST>5</stateTaxGST>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_YTO_items_Payment_page_NT_2.1">
+		<userid>5546877</userid>
+		<password>passw0rd</password>
+		<BonusBank>2.1</BonusBank>
+		<CreditNotes>2.1</CreditNotes>
+		<stateTaxGST>5</stateTaxGST>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_YTO_items_Payment_page_NU_2.1">
+		<userid>5547031</userid>
+		<password>passw0rd</password>
+		<BonusBank>2.1</BonusBank>
+		<CreditNotes>2.1</CreditNotes>
+		<stateTaxGST>5</stateTaxGST>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_YTO_items_Payment_page_SK_2.1">
+		<userid>5547122</userid>
+		<password>passw0rd</password>
+		<BonusBank>2.1</BonusBank>
+		<CreditNotes>2.1</CreditNotes>
+		<stateTaxGST>5</stateTaxGST>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_YTO_items_Payment_page_YT_2.1">
+		<userid>5547297</userid>
+		<password>passw0rd</password>
+		<BonusBank>2.1</BonusBank>
+		<CreditNotes>2.1</CreditNotes>
+		<stateTaxGST>5</stateTaxGST>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_YTO_items_Payment_page_BC_NoTax_2.1">
+		<userid>5547403</userid>
+		<password>passw0rd</password>
+		<BonusBank>2.1</BonusBank>
+		<CreditNotes>2.1</CreditNotes>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_YTO_items_Payment_page_QC_NoTax_2.1">
+		<userid>5547510</userid>
+		<password>passw0rd</password>
+		<BonusBank>2.1</BonusBank>
+		<CreditNotes>2.1</CreditNotes>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_YTO_items_Payment_page_NL_NoTax_2.1">
+		<userid>5547734</userid>
+		<password>passw0rd</password>
+		<BonusBank>2.1</BonusBank>
+		<CreditNotes>2.1</CreditNotes>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_YTO_items_Payment_page_NB_NoTax_2.1">
+		<userid>5547833</userid>
+		<password>passw0rd</password>
+		<BonusBank>2.1</BonusBank>
+		<CreditNotes>2.1</CreditNotes>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_YTO_items_Payment_page_NS_NoTax_2.1">
+		<userid>5548229</userid>
+		<password>passw0rd</password>
+		<BonusBank>2.1</BonusBank>
+		<CreditNotes>2.1</CreditNotes>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_YTO_items_Payment_page_ON_NoTax_2.1">
+		<userid>5548352</userid>
+		<password>passw0rd</password>
+		<BonusBank>2.1</BonusBank>
+		<CreditNotes>2.1</CreditNotes>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_YTO_items_Payment_page_PE_NoTax_2.1">
+		<userid>5548526</userid>
+		<password>passw0rd</password>
+		<BonusBank>2.1</BonusBank>
+		<CreditNotes>2.1</CreditNotes>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_YTO_items_Payment_page_AB_NoTax_2.1">
+		<userid>5548732</userid>
+		<password>passw0rd</password>
+		<BonusBank>2.1</BonusBank>
+		<CreditNotes>2.1</CreditNotes>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_YTO_items_Payment_page_MB_NoTax_2.1">
+		<userid>5548930</userid>
+		<password>passw0rd</password>
+		<BonusBank>2.1</BonusBank>
+		<CreditNotes>2.1</CreditNotes>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_YTO_items_Payment_page_NT_NoTax_2.1">
+		<userid>5549061</userid>
+		<password>passw0rd</password>
+		<BonusBank>2.1</BonusBank>
+		<CreditNotes>2.1</CreditNotes>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_YTO_items_Payment_page_NU_NoTax_2.1">
+		<userid>5549219</userid>
+		<password>passw0rd</password>
+		<BonusBank>2.1</BonusBank>
+		<CreditNotes>2.1</CreditNotes>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_YTO_items_Payment_page_SK_NoTax_2.1">
+		<userid>5549392</userid>
+		<password>passw0rd</password>
+		<BonusBank>2.1</BonusBank>
+		<CreditNotes>2.1</CreditNotes>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_YTO_items_Payment_page_YT_NoTax_2.1">
+		<userid>5549467</userid>
+		<password>passw0rd</password>
+		<BonusBank>2.1</BonusBank>
+		<CreditNotes>2.1</CreditNotes>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_TE_items_Payment_page_BC_2.1">
+		<userid>5545689</userid>
+		<password>passw0rd</password>
+		<BonusBank>2.1</BonusBank>
+		<CreditNotes>2.1</CreditNotes>
+		<stateTaxGST>5</stateTaxGST>
+		<stateTaxPST>7</stateTaxPST>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_TE_items_Payment_page_QC_2.1">
+		<userid>5545811</userid>
+		<password>passw0rd</password>
+		<BonusBank>2.1</BonusBank>
+		<CreditNotes>2.1</CreditNotes>
+		<stateTaxGST>5</stateTaxGST>
+		<stateTaxQST>9.975</stateTaxQST>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_TE_items_Payment_page_NL_2.1">
+		<userid>5545895</userid>
+		<password>passw0rd</password>
+		<BonusBank>2.1</BonusBank>
+		<CreditNotes>2.1</CreditNotes>
+		<stateTaxHST>15</stateTaxHST>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_TE_items_Payment_page_NB_2.1">
+		<userid>5546009</userid>
+		<password>passw0rd</password>
+		<BonusBank>2.1</BonusBank>
+		<CreditNotes>2.1</CreditNotes>
+		<stateTaxHST>15</stateTaxHST>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_TE_items_Payment_page_NS_2.1">
+		<userid>5546124</userid>
+		<password>passw0rd</password>
+		<BonusBank>2.1</BonusBank>
+		<CreditNotes>2.1</CreditNotes>
+		<stateTaxHST>15</stateTaxHST>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_TE_items_Payment_page_ON_2.1">
+		<userid>5546257</userid>
+		<password>passw0rd</password>
+		<BonusBank>2.1</BonusBank>
+		<CreditNotes>2.1</CreditNotes>
+		<stateTaxHST>13</stateTaxHST>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_TE_items_Payment_page_PE_2.1">
+		<userid>5546421</userid>
+		<password>passw0rd</password>
+		<BonusBank>2.1</BonusBank>
+		<CreditNotes>2.1</CreditNotes>
+		<stateTaxHST>14</stateTaxHST>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_TE_items_Payment_page_AB_2.1">
+		<userid>5546596</userid>
+		<password>passw0rd</password>
+		<BonusBank>2.1</BonusBank>
+		<CreditNotes>2.1</CreditNotes>
+		<stateTaxGST>5</stateTaxGST>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_TE_items_Payment_page_MB_2.1">
+		<userid>5546736</userid>
+		<password>passw0rd</password>
+		<BonusBank>2.1</BonusBank>
+		<CreditNotes>2.1</CreditNotes>
+		<stateTaxGST>5</stateTaxGST>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_TE_items_Payment_page_NT_2.1">
+		<userid>5546893</userid>
+		<password>passw0rd</password>
+		<BonusBank>2.1</BonusBank>
+		<CreditNotes>2.1</CreditNotes>
+		<stateTaxGST>5</stateTaxGST>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_TE_items_Payment_page_NU_2.1">
+		<userid>5547057</userid>
+		<password>passw0rd</password>
+		<BonusBank>2.1</BonusBank>
+		<CreditNotes>2.1</CreditNotes>
+		<stateTaxGST>5</stateTaxGST>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_TE_items_Payment_page_SK_2.1">
+		<userid>5547130</userid>
+		<password>passw0rd</password>
+		<BonusBank>2.1</BonusBank>
+		<CreditNotes>2.1</CreditNotes>
+		<stateTaxGST>5</stateTaxGST>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_TE_items_Payment_page_YT_2.1">
+		<userid>5547304</userid>
+		<password>passw0rd</password>
+		<BonusBank>2.1</BonusBank>
+		<CreditNotes>2.1</CreditNotes>
+		<stateTaxGST>5</stateTaxGST>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_TE_items_Payment_page_BC_NoTax_2.1">
+		<userid>5547411</userid>
+		<password>passw0rd</password>
+		<BonusBank>2.1</BonusBank>
+		<CreditNotes>2.1</CreditNotes>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_TE_items_Payment_page_QC_NoTax_2.1">
+		<userid>5547552</userid>
+		<password>passw0rd</password>
+		<BonusBank>2.1</BonusBank>
+		<CreditNotes>2.1</CreditNotes>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_TE_items_Payment_page_NL_NoTax_2.1">
+		<userid>5547742</userid>
+		<password>passw0rd</password>
+		<BonusBank>2.1</BonusBank>
+		<CreditNotes>2.1</CreditNotes>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_TE_items_Payment_page_NB_NoTax_2.1">
+		<userid>5547841</userid>
+		<password>passw0rd</password>
+		<BonusBank>2.1</BonusBank>
+		<CreditNotes>2.1</CreditNotes>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_TE_items_Payment_page_NS_NoTax_2.1">
+		<userid>5548237</userid>
+		<password>passw0rd</password>
+		<BonusBank>2.1</BonusBank>
+		<CreditNotes>2.1</CreditNotes>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_TE_items_Payment_page_ON_NoTax_2.1">
+		<userid>5548378</userid>
+		<password>passw0rd</password>
+		<BonusBank>2.1</BonusBank>
+		<CreditNotes>2.1</CreditNotes>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_TE_items_Payment_page_PE_NoTax_2.1">
+		<userid>5548641</userid>
+		<password>passw0rd</password>
+		<BonusBank>2.1</BonusBank>
+		<CreditNotes>2.1</CreditNotes>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_TE_items_Payment_page_AB_NoTax_2.1">
+		<userid>5548815</userid>
+		<password>passw0rd</password>
+		<BonusBank>2.1</BonusBank>
+		<CreditNotes>2.1</CreditNotes>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_TE_items_Payment_page_MB_NoTax_2.1">
+		<userid>5548948</userid>
+		<password>passw0rd</password>
+		<BonusBank>2.1</BonusBank>
+		<CreditNotes>2.1</CreditNotes>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_TE_items_Payment_page_NT_NoTax_2.1">
+		<userid>5549144</userid>
+		<password>passw0rd</password>
+		<BonusBank>2.1</BonusBank>
+		<CreditNotes>2.1</CreditNotes>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_TE_items_Payment_page_NU_NoTax_2.1">
+		<userid>5549227</userid>
+		<password>passw0rd</password>
+		<BonusBank>2.1</BonusBank>
+		<CreditNotes>2.1</CreditNotes>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_TE_items_Payment_page_SK_NoTax_2.1">
+		<userid>5549409</userid>
+		<password>passw0rd</password>
+		<BonusBank>2.1</BonusBank>
+		<CreditNotes>2.1</CreditNotes>
+    </testcase>
+    
+    <testcase id="InSprint15.2:Adds_TE_items_Payment_page_YT_NoTax_2.1">
+		<userid>5549483</userid>
+		<password>passw0rd</password>
+		<BonusBank>2.1</BonusBank>
+		<CreditNotes>2.1</CreditNotes>
+    </testcase>
+   
+    <testcase id="InSprint15.3:Adds_single_SFO_item_for_one_student_Confirm_Submit_BC">
+		<userid>5549516</userid>
+		<password>passw0rd</password>
+		<stateTaxGST>5</stateTaxGST>
+		<stateTaxPST>7</stateTaxPST>
+    </testcase>
+    
+    <testcase id="InSprint15.3:Adds_multiple_SFO_items_for_one_student_Confirm_Submit_BC">
+		<userid>5549540</userid>
+		<password>passw0rd</password>
+		<stateTaxGST>5</stateTaxGST>
+		<stateTaxPST>7</stateTaxPST>
+    </testcase>
+    
+    <testcase id="InSprint15.3:Adds_multiple_SFO_items_for_multiple_students_Confirm_Submit_QC">
+		<userid>5549649</userid>
+		<password>passw0rd</password>
+		<stateTaxGST>5</stateTaxGST>
+		<stateTaxQST>9.975</stateTaxQST>
+    </testcase>
+    
+    <testcase id="InSprint15.3:Adds_multiple_SFO_items_for_multiple_students_Confirm_Submit_BC">
+		<userid>5549566</userid>
+		<password>passw0rd</password>
+		<stateTaxGST>5</stateTaxGST>
+		<stateTaxPST>7</stateTaxPST>
+    </testcase>
+    
+    <testcase id="InSprint15.3:Adds_multiple_SFO_items_for_multiple_students_Confirm_Submit_NL">
+		<userid>5550000</userid>
+		<password>passw0rd</password>
+		<stateTaxHST>15</stateTaxHST>
+    </testcase>
+    
+    <testcase id="InSprint15.3:Adds_multiple_SFO_items_for_multiple_students_Confirm_Submit_NB">
+		<userid>5550224</userid>
+		<password>passw0rd</password>
+		<stateTaxHST>15</stateTaxHST>
+    </testcase>
+    
+    <testcase id="InSprint15.3:Adds_multiple_SFO_items_for_multiple_students_Confirm_Submit_NS">
+		<userid>5550472</userid>
+		<password>passw0rd</password>
+		<stateTaxHST>15</stateTaxHST>
+    </testcase>
+    
+    <testcase id="InSprint15.3:Adds_multiple_SFO_items_for_multiple_students_Confirm_Submit_ON">
+		<userid>5550555</userid>
+		<password>passw0rd</password>
+		<stateTaxHST>13</stateTaxHST>
+    </testcase>
+    
+    <testcase id="InSprint15.3:Adds_multiple_SFO_items_for_multiple_students_Confirm_Submit_PE">
+		<userid>5550696</userid>
+		<password>passw0rd</password>
+		<stateTaxHST>14</stateTaxHST>
+    </testcase>
+    
+    <testcase id="InSprint15.3:Adds_multiple_SFO_items_for_multiple_students_Confirm_Submit_AB">
+		<userid>5550779</userid>
+		<password>passw0rd</password>
+		<stateTaxGST>5</stateTaxGST>
+    </testcase>
+    
+    <testcase id="InSprint15.3:Adds_multiple_SFO_items_for_multiple_students_Confirm_Submit_MB">
+		<userid>5550894</userid>
+		<password>passw0rd</password>
+		<stateTaxGST>5</stateTaxGST>
+    </testcase>
+    
+    <testcase id="InSprint15.3:Adds_multiple_SFO_items_for_multiple_students_Confirm_Submit_NT">
+		<userid>5551032</userid>
+		<password>passw0rd</password>
+		<stateTaxGST>5</stateTaxGST>
+    </testcase>
+    
+    <testcase id="InSprint15.3:Adds_multiple_SFO_items_for_multiple_students_Confirm_Submit_NU">
+		<userid>5551165</userid>
+		<password>passw0rd</password>
+		<stateTaxGST>5</stateTaxGST>
+    </testcase>
+    
+    <testcase id="InSprint15.3:Adds_multiple_SFO_items_for_multiple_students_Confirm_Submit_SK">
+		<userid>5551272</userid>
+		<password>passw0rd</password>
+		<stateTaxGST>5</stateTaxGST>
+    </testcase>
+    
+    <testcase id="InSprint15.3:Adds_multiple_SFO_items_for_multiple_students_Confirm_Submit_YT">
+		<userid>5551389</userid>
+		<password>passw0rd</password>
+		<stateTaxGST>5</stateTaxGST>
+    </testcase>
+    
+    <testcase id="InSprint15.3:Adds_multiple_SFO_items_for_multiple_students_Confirm_Submit_QC_NoTax">
+		<userid>5551652</userid>
+		<password>passw0rd</password>
+    </testcase>
+    
+    <testcase id="InSprint15.3:Adds_multiple_SFO_items_for_multiple_students_Confirm_Submit_BC_NoTax">
+		<userid>5551579</userid>
+		<password>passw0rd</password>
+    </testcase>
+    
+    <testcase id="InSprint15.3:Adds_multiple_SFO_items_for_multiple_students_Confirm_Submit_NL_NoTax">
+		<userid>5551777</userid>
+		<password>passw0rd</password>
+    </testcase>
+    
+    <testcase id="InSprint15.3:Adds_multiple_SFO_items_for_multiple_students_Confirm_Submit_NB_NoTax">
+		<userid>5551975</userid>
+		<password>passw0rd</password>
+    </testcase>
+    
+    <testcase id="InSprint15.3:Adds_multiple_SFO_items_for_multiple_students_Confirm_Submit_NS_NoTax">
+		<userid>5552030</userid>
+		<password>passw0rd</password>
+    </testcase>
+    
+    <testcase id="InSprint15.3:Adds_multiple_SFO_items_for_multiple_students_Confirm_Submit_ON_NoTax">
+		<userid>5552163</userid>
+		<password>passw0rd</password>
+    </testcase>
+    
+    <testcase id="InSprint15.3:Adds_multiple_SFO_items_for_multiple_students_Confirm_Submit_PE_NoTax">
+		<userid>5552329</userid>
+		<password>passw0rd</password>
+    </testcase>
+    
+    <testcase id="InSprint15.3:Adds_multiple_SFO_items_for_multiple_students_Confirm_Submit_AB_NoTax">
+		<userid>5552543</userid>
+		<password>passw0rd</password>
+    </testcase>
+    
+    <testcase id="InSprint15.3:Adds_multiple_SFO_items_for_multiple_students_Confirm_Submit_MB_NoTax">
+		<userid>5552709</userid>
+		<password>passw0rd</password>
+    </testcase>
+    
+    <testcase id="InSprint15.3:Adds_multiple_SFO_items_for_multiple_students_Confirm_Submit_NT_NoTax">
+		<userid>5552767</userid>
+		<password>passw0rd</password>
+    </testcase>
+    
+    <testcase id="InSprint15.3:Adds_multiple_SFO_items_for_multiple_students_Confirm_Submit_NU_NoTax">
+		<userid>142612</userid>
+		<password>passw0rd</password>
+    </testcase>
+    
+    <testcase id="InSprint15.3:Adds_multiple_SFO_items_for_multiple_students_Confirm_Submit_SK_NoTax">
+		<userid>144030</userid>
+		<password>passw0rd</password>
+    </testcase>
+    
+    <testcase id="InSprint15.3:Adds_multiple_SFO_items_for_multiple_students_Confirm_Submit_YT_NoTax">
+		<userid>144816</userid>
+		<password>passw0rd</password>
+    </testcase>
+    
+    <testcase id="InSprint15.3:Adds_YTO_student_items_Confirm_Submit_QC">
+		<userid>5549706</userid>
+		<password>passw0rd</password>
+		<stateTaxGST>5</stateTaxGST>
+		<stateTaxQST>9.975</stateTaxQST>
+    </testcase>
+    
+    <testcase id="InSprint15.3:Adds_YTO_student_items_Confirm_Submit_BC">
+		<userid>5549582</userid>
+		<password>passw0rd</password>
+		<stateTaxGST>5</stateTaxGST>
+		<stateTaxPST>7</stateTaxPST>
+    </testcase>
+    
+    <testcase id="InSprint15.3:Adds_YTO_student_items_Confirm_Submit_NL">
+		<userid>5550068</userid>
+		<password>passw0rd</password>
+		<stateTaxHST>15</stateTaxHST>
+    </testcase>
+    
+    <testcase id="InSprint15.3:Adds_YTO_student_items_Confirm_Submit_NB">
+		<userid>5550232</userid>
+		<password>passw0rd</password>
+		<stateTaxHST>15</stateTaxHST>
+    </testcase>
+    
+    <testcase id="InSprint15.3:Adds_YTO_student_items_Confirm_Submit_NS">
+		<userid>5550505</userid>
+		<password>passw0rd</password>
+		<stateTaxHST>15</stateTaxHST>
+    </testcase>
+    
+    <testcase id="InSprint15.3:Adds_YTO_student_items_Confirm_Submit_ON">
+		<userid>5550571</userid>
+		<password>passw0rd</password>
+		<stateTaxHST>13</stateTaxHST>
+    </testcase>
+    
+    <testcase id="InSprint15.3:Adds_YTO_student_items_Confirm_Submit_PE">
+		<userid>5550703</userid>
+		<password>passw0rd</password>
+		<stateTaxHST>14</stateTaxHST>
+    </testcase>
+    
+    <testcase id="InSprint15.3:Adds_YTO_student_items_Confirm_Submit_AB">
+		<userid>5550802</userid>
+		<password>passw0rd</password>
+		<stateTaxGST>5</stateTaxGST>
+    </testcase>
+    
+    <testcase id="InSprint15.3:Adds_YTO_student_items_Confirm_Submit_MB">
+		<userid>5550901</userid>
+		<password>passw0rd</password>
+		<stateTaxGST>5</stateTaxGST>
+    </testcase>
+    
+    <testcase id="InSprint15.3:Adds_YTO_student_items_Confirm_Submit_NT">
+		<userid>5551074</userid>
+		<password>passw0rd</password>
+		<stateTaxGST>5</stateTaxGST>
+    </testcase>
+    
+    <testcase id="InSprint15.3:Adds_YTO_student_items_Confirm_Submit_NU">
+		<userid>5551181</userid>
+		<password>passw0rd</password>
+		<stateTaxGST>5</stateTaxGST>
+    </testcase>
+    
+    <testcase id="InSprint15.3:Adds_YTO_student_items_Confirm_Submit_SK">
+		<userid>5551280</userid>
+		<password>passw0rd</password>
+		<stateTaxGST>5</stateTaxGST>
+    </testcase>
+    
+    <testcase id="InSprint15.3:Adds_YTO_student_items_Confirm_Submit_YT">
+		<userid>5551397</userid>
+		<password>passw0rd</password>
+		<stateTaxGST>5</stateTaxGST>
+    </testcase>
+    
+    <testcase id="InSprint15.3:Adds_YTO_student_items_Confirm_Submit_QC_NoTax">
+		<userid>5551686</userid>
+		<password>passw0rd</password>
+    </testcase>
+    
+    <testcase id="InSprint15.3:Adds_YTO_student_items_Confirm_Submit_BC_NoTax">
+		<userid>5551602</userid>
+		<password>passw0rd</password>
+    </testcase>
+    
+    <testcase id="InSprint15.3:Adds_YTO_student_items_Confirm_Submit_NL_NoTax">
+		<userid>5551884</userid>
+		<password>passw0rd</password>
+    </testcase>
+    
+    <testcase id="InSprint15.3:Adds_YTO_student_items_Confirm_Submit_NB_NoTax">
+		<userid>5551983</userid>
+		<password>passw0rd</password>
+    </testcase>
+    
+    <testcase id="InSprint15.3:Adds_YTO_student_items_Confirm_Submit_NS_NoTax">
+		<userid>5552056</userid>
+		<password>passw0rd</password>
+    </testcase>
+    
+    <testcase id="InSprint15.3:Adds_YTO_student_items_Confirm_Submit_ON_NoTax">
+		<userid>5552171</userid>
+		<password>passw0rd</password>
+    </testcase>
+    
+    <testcase id="InSprint15.3:Adds_YTO_student_items_Confirm_Submit_PE_NoTax">
+		<userid>5552387</userid>
+		<password>passw0rd</password>
+    </testcase>
+    
+    <testcase id="InSprint15.3:Adds_YTO_student_items_Confirm_Submit_AB_NoTax">
+		<userid>5552551</userid>
+		<password>passw0rd</password>
+    </testcase>
+    
+    <testcase id="InSprint15.3:Adds_YTO_student_items_Confirm_Submit_MB_NoTax">
+		<userid>5552717</userid>
+		<password>passw0rd</password>
+    </testcase>
+    
+    <testcase id="InSprint15.3:Adds_YTO_student_items_Confirm_Submit_NT_NoTax">
+		<userid>142175</userid>
+		<password>passw0rd</password>
+    </testcase>
+    
+    <testcase id="InSprint15.3:Adds_YTO_student_items_Confirm_Submit_NU_NoTax">
+		<userid>143529</userid>
+		<password>passw0rd</password>
+    </testcase>
+    
+    <testcase id="InSprint15.3:Adds_YTO_student_items_Confirm_Submit_SK_NoTax">
+		<userid>144402</userid>
+		<password>passw0rd</password>
+    </testcase>
+    
+    <testcase id="InSprint15.3:Adds_YTO_student_items_Confirm_Submit_YT_NoTax">
+		<userid>145103</userid>
+		<password>passw0rd</password>
+    </testcase>
+    
+    <testcase id="InSprint15.3:Adds_YTO_teacher_catalogue_items_Confirm_Submit_QC">
+		<userid>5549714</userid>
+		<password>passw0rd</password>
+		<stateTaxGST>5</stateTaxGST>
+		<stateTaxQST>9.975</stateTaxQST>
+    </testcase>
+    
+    <testcase id="InSprint15.3:Adds_YTO_teacher_catalogue_items_Confirm_Submit_BC">
+		<userid>5549590</userid>
+		<password>passw0rd</password>
+		<stateTaxGST>5</stateTaxGST>
+		<stateTaxPST>7</stateTaxPST>
+    </testcase>
+    
+    <testcase id="InSprint15.3:Adds_YTO_teacher_catalogue_items_Confirm_Submit_NL">
+		<userid>5550076</userid>
+		<password>passw0rd</password>
+		<stateTaxHST>15</stateTaxHST>
+    </testcase>
+    
+    <testcase id="InSprint15.3:Adds_YTO_teacher_catalogue_items_Confirm_Submit_NB">
+		<userid>5550258</userid>
+		<password>passw0rd</password>
+		<stateTaxHST>15</stateTaxHST>
+    </testcase>
+    
+    <testcase id="InSprint15.3:Adds_YTO_teacher_catalogue_items_Confirm_Submit_NS">
+		<userid>5550521</userid>
+		<password>passw0rd</password>
+		<stateTaxHST>15</stateTaxHST>
+    </testcase>
+    
+    <testcase id="InSprint15.3:Adds_YTO_teacher_catalogue_items_Confirm_Submit_ON">
+		<userid>5550589</userid>
+		<password>passw0rd</password>
+		<stateTaxHST>13</stateTaxHST>
+    </testcase>
+    
+    <testcase id="InSprint15.3:Adds_YTO_teacher_catalogue_items_Confirm_Submit_PE">
+		<userid>5550711</userid>
+		<password>passw0rd</password>
+		<stateTaxHST>14</stateTaxHST>
+    </testcase>
+    
+    <testcase id="InSprint15.3:Adds_YTO_teacher_catalogue_items_Confirm_Submit_AB">
+		<userid>5550836</userid>
+		<password>passw0rd</password>
+		<stateTaxGST>5</stateTaxGST>
+    </testcase>
+    
+    <testcase id="InSprint15.3:Adds_YTO_teacher_catalogue_items_Confirm_Submit_MB">
+		<userid>5550935</userid>
+		<password>passw0rd</password>
+		<stateTaxGST>5</stateTaxGST>
+    </testcase>
+    
+    <testcase id="InSprint15.3:Adds_YTO_teacher_catalogue_items_Confirm_Submit_NT">
+		<userid>5551090</userid>
+		<password>passw0rd</password>
+		<stateTaxGST>5</stateTaxGST>
+    </testcase>
+    
+    <testcase id="InSprint15.3:Adds_YTO_teacher_catalogue_items_Confirm_Submit_NU">
+		<userid>5551199</userid>
+		<password>passw0rd</password>
+		<stateTaxGST>5</stateTaxGST>
+    </testcase>
+    
+    <testcase id="InSprint15.3:Adds_YTO_teacher_catalogue_items_Confirm_Submit_SK">
+		<userid>5551321</userid>
+		<password>passw0rd</password>
+		<stateTaxGST>5</stateTaxGST>
+    </testcase>
+    
+    <testcase id="InSprint15.3:Adds_YTO_teacher_catalogue_items_Confirm_Submit_YT">
+		<userid>5551412</userid>
+		<password>passw0rd</password>
+		<stateTaxGST>5</stateTaxGST>
+    </testcase>
+    
+    <testcase id="InSprint15.3:Adds_YTO_teacher_catalogue_items_Confirm_Submit_QC_NoTax">
+		<userid>5551735</userid>
+		<password>passw0rd</password>
+    </testcase>
+    
+    <testcase id="InSprint15.3:Adds_YTO_teacher_catalogue_items_Confirm_Submit_BC_NoTax">
+		<userid>5551628</userid>
+		<password>passw0rd</password>
+    </testcase>
+    
+    <testcase id="InSprint15.3:Adds_YTO_teacher_catalogue_items_Confirm_Submit_NL_NoTax">
+		<userid>5551892</userid>
+		<password>passw0rd</password>
+    </testcase>
+    
+    <testcase id="InSprint15.3:Adds_YTO_teacher_catalogue_items_Confirm_Submit_NB_NoTax">
+		<userid>5551991</userid>
+		<password>passw0rd</password>
+    </testcase>
+    
+    <testcase id="InSprint15.3:Adds_YTO_teacher_catalogue_items_Confirm_Submit_NS_NoTax">
+		<userid>5552113</userid>
+		<password>passw0rd</password>
+    </testcase>
+    
+    <testcase id="InSprint15.3:Adds_YTO_teacher_catalogue_items_Confirm_Submit_ON_NoTax">
+		<userid>5552254</userid>
+		<password>passw0rd</password>
+    </testcase>
+    
+    <testcase id="InSprint15.3:Adds_YTO_teacher_catalogue_items_Confirm_Submit_PE_NoTax">
+		<userid>5552402</userid>
+		<password>passw0rd</password>
+    </testcase>
+    
+    <testcase id="InSprint15.3:Adds_YTO_teacher_catalogue_items_Confirm_Submit_AB_NoTax">
+		<userid>5552569</userid>
+		<password>passw0rd</password>
+    </testcase>
+    
+    <testcase id="InSprint15.3:Adds_YTO_teacher_catalogue_items_Confirm_Submit_MB_NoTax">
+		<userid>5552725</userid>
+		<password>passw0rd</password>
+    </testcase>
+    
+    <testcase id="InSprint15.3:Adds_YTO_teacher_catalogue_items_Confirm_Submit_NT_NoTax">
+		<userid>142323</userid>
+		<password>passw0rd</password>
+    </testcase>
+    
+    <testcase id="InSprint15.3:Adds_YTO_teacher_catalogue_items_Confirm_Submit_NU_NoTax">
+		<userid>143850</userid>
+		<password>passw0rd</password>
+    </testcase>
+    
+    <testcase id="InSprint15.3:Adds_YTO_teacher_catalogue_items_Confirm_Submit_SK_NoTax">
+		<userid>144585</userid>
+		<password>passw0rd</password>
+    </testcase>
+    
+    <testcase id="InSprint15.3:Adds_YTO_teacher_catalogue_items_Confirm_Submit_YT_NoTax">
+		<userid>145327</userid>
+		<password>passw0rd</password>
+    </testcase>
+    
+    <testcase id="InSprint15.3:Adds_SFO_YTO_items_Confirm_Submit_QC">
+		<userid>5549748</userid>
+		<password>passw0rd</password>
+		<stateTaxGST>5</stateTaxGST>
+		<stateTaxQST>9.975</stateTaxQST>
+    </testcase>
+    
+    <testcase id="InSprint15.3:Adds_SFO_YTO_items_Confirm_Submit_BC">
+		<userid>5545720</userid>
+		<password>passw0rd</password>
+		<stateTaxGST>5</stateTaxGST>
+		<stateTaxPST>7</stateTaxPST>
+    </testcase>
+    
+    <testcase id="InSprint15.3:Adds_SFO_YTO_items_Confirm_Submit_NL">
+		<userid>5550125</userid>
+		<password>passw0rd</password>
+		<stateTaxHST>15</stateTaxHST>
+    </testcase>
+    
+    <testcase id="InSprint15.3:Adds_SFO_YTO_items_Confirm_Submit_NB">
+		<userid>5550331</userid>
+		<password>passw0rd</password>
+		<stateTaxHST>15</stateTaxHST>
+    </testcase>
+    
+    <testcase id="InSprint15.3:Adds_SFO_YTO_items_Confirm_Submit_NS">
+		<userid>5550539</userid>
+		<password>passw0rd</password>
+		<stateTaxHST>15</stateTaxHST>
+    </testcase>
+    
+    <testcase id="InSprint15.3:Adds_SFO_YTO_items_Confirm_Submit_ON">
+		<userid>5550604</userid>
+		<password>passw0rd</password>
+		<stateTaxHST>13</stateTaxHST>
+    </testcase>
+    
+    <testcase id="InSprint15.3:Adds_SFO_YTO_items_Confirm_Submit_PE">
+		<userid>5550745</userid>
+		<password>passw0rd</password>
+		<stateTaxHST>14</stateTaxHST>
+    </testcase>
+    
+    <testcase id="InSprint15.3:Adds_SFO_YTO_items_Confirm_Submit_AB">
+		<userid>5550860</userid>
+		<password>passw0rd</password>
+		<stateTaxGST>5</stateTaxGST>
+    </testcase>
+    
+    <testcase id="InSprint15.3:Adds_SFO_YTO_items_Confirm_Submit_MB">
+		<userid>5550969</userid>
+		<password>passw0rd</password>
+		<stateTaxGST>5</stateTaxGST>
+    </testcase>
+    
+    <testcase id="InSprint15.3:Adds_SFO_YTO_items_Confirm_Submit_NT">
+		<userid>5551123</userid>
+		<password>passw0rd</password>
+		<stateTaxGST>5</stateTaxGST>
+    </testcase>
+    
+    <testcase id="InSprint15.3:Adds_SFO_YTO_items_Confirm_Submit_NU">
+		<userid>5551206</userid>
+		<password>passw0rd</password>
+		<stateTaxGST>5</stateTaxGST>
+    </testcase>
+    
+    <testcase id="InSprint15.3:Adds_SFO_YTO_items_Confirm_Submit_SK">
+		<userid>5551339</userid>
+		<password>passw0rd</password>
+		<stateTaxGST>5</stateTaxGST>
+    </testcase>
+    
+    <testcase id="InSprint15.3:Adds_SFO_YTO_items_Confirm_Submit_YT">
+		<userid>5551420</userid>
+		<password>passw0rd</password>
+		<stateTaxGST>5</stateTaxGST>
+    </testcase>
+    
+    <testcase id="InSprint15.3:Adds_SFO_YTO_TE_items_Confirm_Submit_QC">
+		<userid>5549904</userid>
+		<password>passw0rd</password>
+		<stateTaxGST>5</stateTaxGST>
+		<stateTaxQST>9.975</stateTaxQST>
+    </testcase>
+    
+    <testcase id="InSprint15.3:Adds_SFO_YTO_TE_items_Confirm_Submit_BC">
+		<userid>5545738</userid>
+		<password>passw0rd</password>
+		<stateTaxGST>5</stateTaxGST>
+		<stateTaxPST>7</stateTaxPST>
+    </testcase>
+    
+    <testcase id="InSprint15.3:Adds_SFO_YTO_TE_items_Confirm_Submit_NL">
+		<userid>5550159</userid>
+		<password>passw0rd</password>
+		<stateTaxHST>15</stateTaxHST>
+    </testcase>
+    
+    <testcase id="InSprint15.3:Adds_SFO_YTO_TE_items_Confirm_Submit_NB">
+		<userid>5550422</userid>
+		<password>passw0rd</password>
+		<stateTaxHST>15</stateTaxHST>
+    </testcase>
+    
+    <testcase id="InSprint15.3:Adds_SFO_YTO_TE_items_Confirm_Submit_NS">
+		<userid>5550547</userid>
+		<password>passw0rd</password>
+		<stateTaxHST>15</stateTaxHST>
+    </testcase>
+    
+    <testcase id="InSprint15.3:Adds_SFO_YTO_TE_items_Confirm_Submit_ON">
+		<userid>5550688</userid>
+		<password>passw0rd</password>
+		<stateTaxHST>13</stateTaxHST>
+    </testcase>
+    
+    <testcase id="InSprint15.3:Adds_SFO_YTO_TE_items_Confirm_Submit_PE">
+		<userid>5550761</userid>
+		<password>passw0rd</password>
+		<stateTaxHST>14</stateTaxHST>
+    </testcase>
+    
+    <testcase id="InSprint15.3:Adds_SFO_YTO_TE_items_Confirm_Submit_AB">
+		<userid>5550886</userid>
+		<password>passw0rd</password>
+		<stateTaxGST>5</stateTaxGST>
+    </testcase>
+    
+    <testcase id="InSprint15.3:Adds_SFO_YTO_TE_items_Confirm_Submit_MB">
+		<userid>5550993</userid>
+		<password>passw0rd</password>
+		<stateTaxGST>5</stateTaxGST>
+    </testcase>
+    
+    <testcase id="InSprint15.3:Adds_SFO_YTO_TE_items_Confirm_Submit_NT">
+		<userid>5551157</userid>
+		<password>passw0rd</password>
+		<stateTaxGST>5</stateTaxGST>
+    </testcase>
+    
+    <testcase id="InSprint15.3:Adds_SFO_YTO_TE_items_Confirm_Submit_NU">
+		<userid>5551264</userid>
+		<password>passw0rd</password>
+		<stateTaxGST>5</stateTaxGST>
+    </testcase>
+    
+    <testcase id="InSprint15.3:Adds_SFO_YTO_TE_items_Confirm_Submit_SK">
+		<userid>5551371</userid>
+		<password>passw0rd</password>
+		<stateTaxGST>5</stateTaxGST>
+    </testcase>
+    
+    <testcase id="InSprint15.3:Adds_SFO_YTO_TE_items_Confirm_Submit_YT">
+		<userid>5551438</userid>
+		<password>passw0rd</password>
+		<stateTaxGST>5</stateTaxGST>
+    </testcase>
+    
+    <testcase id="InSprint15.3:Adds_single_FreePick_item_for_one_student_Confirm_Submit_BC">
+		<userid>5538668</userid>
+		<password>passw0rd</password>
+		<stateTaxGST>5</stateTaxGST>
+		<stateTaxPST>7</stateTaxPST>
+    </testcase>
+    
+    <testcase id="InSprint15.3:Adds_multiple_FreePick_items_for_multiple_students_Confirm_Submit_BC">
+		<userid>5538733</userid>
+		<password>passw0rd</password>
+		<stateTaxGST>5</stateTaxGST>
+		<stateTaxPST>7</stateTaxPST>
+    </testcase>
+    
+    
+</testdata>
+

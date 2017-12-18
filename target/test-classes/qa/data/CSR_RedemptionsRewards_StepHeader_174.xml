@@ -1,0 +1,29 @@
+<testdata>
+	<testcase id="Redemptions_Rewards_tab_highlights">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>2131415</AcNum>
+  		<FlyerCode>Z8A16</FlyerCode>
+  		<ItemNum>700</ItemNum>
+  		<ItemQty>1</ItemQty>
+  		<ItemNum2>701</ItemNum2>
+  		<ItemQty2>3</ItemQty2>
+  		<ItemNum3>702</ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+	</testcase>
+	
+	<testcase id="Number_for_the_Redemptions_Rewards_tab">
+		<userid>bmekala</userid>
+  		<password>July2018!</password>
+  		<AcNum>2131457</AcNum>
+  		<FlyerCode>Z8A16</FlyerCode>
+  		<ItemNum>700</ItemNum>
+  		<ItemQty>1</ItemQty>
+  		<ItemNum2>701</ItemNum2>
+  		<ItemQty2>3</ItemQty2>
+  		<ItemNum3>702</ItemNum3>
+  		<ItemQty3>2</ItemQty3>
+	</testcase>
+	
+
+</testdata>

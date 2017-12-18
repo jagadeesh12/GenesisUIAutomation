@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+<title>Results</title>
+<!--
+  One script tag loads all the required libraries! Do not specify any chart types in the
+  autoload statement.
+-->
+<script type="text/javascript"
+      src='https://www.gstatic.com/charts/loader.js'></script>
+<script type="text/javascript">
+  google.charts.load('current');
+  google.charts.setOnLoadCallback(drawVisualization);
+
+  function drawVisualization() {
+    var wrap = new google.visualization.ChartWrapper({
+       'chartType':'LineChart',
+       'dataSourceUrl':'https://docs.google.com/spreadsheets/d/14ASUhCpEGCUZMacHm_U7VSADO56dpea00PJoM6equmw/edit?usp=sharing',
+       'containerId':'visualization',
+       'query':'SELECT A,B,C,D',
+       'options': {
+	   'title':'Automation Performance', 'legend':'none',
+	   'vAxis': {
+	   'title': 'Automation Scripts'
+	   },
+	   'hAxis': {
+	   'title': 'Weeks'
+	   }
+	   }
+       });
+     wrap.draw();
+  }
+</script>
+</head>
+<body>
+  <div id="visualization" style="height: 800px; width: 800px;"></div>
+</body>
+</html>

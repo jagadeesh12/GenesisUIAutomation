@@ -1,0 +1,450 @@
+<testdata>
+
+	<!-- #####################################################################################################################################
+	##########################################################################################################################################
+	###########################################   							             #####################################################
+	###########################################   		   DWCAPCOD-1908          	     #####################################################
+	###########################################   							             #####################################################       
+	##########################################################################################################################################
+	###################################################################################################################################### -->
+
+	<testcase id="InSprint16.3:PCOD:SOO:YTOByFlyer_hyperlink">
+		<userid>262163</userid>
+		<password>passw0rd</password>
+	</testcase>
+	
+	<testcase id="InSprint16.3:PCOD:SOO:YTOByItem_hyperlink">
+		<userid>262337</userid>
+		<password>passw0rd</password>
+		<UniqueItemNum>4X1</UniqueItemNum>
+	</testcase>
+	
+	<testcase id="InSprint16.3:PCOD:SOO:SFO_hyperlink">
+		<userid>262171</userid>
+		<password>passw0rd</password>
+		<sName1>Jerry</sName1>
+		<itemNo1>4X1</itemNo1>
+	</testcase>
+	
+	<!-- #####################################################################################################################################
+	##########################################################################################################################################
+	###########################################   							             #####################################################
+	###########################################   		   DWCAPCOD-159          	     #####################################################
+	###########################################   							             #####################################################       
+	##########################################################################################################################################
+	###################################################################################################################################### -->
+	
+	<testcase id="InSprint16.3:PCOD:TeacherDesk:NoSOO_Orders">
+		<userid>262410</userid>
+		<password>passw0rd</password>
+	</testcase>
+	
+	<testcase id="InSprint16.3:PCOD:TeacherDesk:Pending_SOO_Orders">
+		<userid>262428</userid>
+		<password>passw0rd</password>
+	</testcase>
+	
+	<testcase id="InSprint16.3:PCOD:TeacherDesk:3_SOO_Orders">
+		<userid>262444</userid>
+		<password>passw0rd</password>
+		<orderAmtSOO>3</orderAmtSOO>
+	</testcase>
+        
+<!-- #####################################################################################################################################
+	##########################################################################################################################################
+	###########################################   							             #####################################################
+	###########################################   		   DWCAPCOD-102         	     #####################################################
+	###########################################   							             #####################################################       
+	##########################################################################################################################################
+	###################################################################################################################################### -->
+   
+   
+    <testcase id="Dev35:PCOD:SOO_DeleteItems">
+	<userid>167206</userid>
+	<password>passw0rd</password>
+	<option>Other.</option>
+	</testcase> 
+	
+    <testcase id="Dev35:PCOD:SOO_DeleteItems_No">
+	<userid>167264</userid>
+	<password>passw0rd</password>
+	<option>Other.</option>
+	</testcase> 
+	
+    <testcase id="Dev35:PCOD:SOO_DeleteItems_ModalWindow">
+	<userid>167777</userid>
+	<password>passw0rd</password>
+	<option>Other.</option>
+	<childname>testchild1</childname>
+	</testcase>
+	
+	
+<!-- #####################################################################################################################################
+	##########################################################################################################################################
+	###########################################   							             #####################################################
+	###########################################   		   DWCAPCOD-149         	     #####################################################
+	###########################################   							             #####################################################       
+	##########################################################################################################################################
+	###################################################################################################################################### -->
+   
+   
+    <testcase id="InSprint16.3:PCOD:SOOSFOYTO_RewardsPage_ItemInfo">
+	<userid>168246</userid>
+	<parent>test16schlast@schl.com</parent>
+	<password>passw0rd</password>
+	<studentname1>${studentname1}</studentname1>
+	<sfo_Item1>${PROD_BVT_SFO_ITEM1}</sfo_Item1>
+	<studentname2>${studentname2}</studentname2>
+	<sfo_Item2>${PROD_BVT_SFO_ITEM2}</sfo_Item2>
+	<studentname3>${studentname3}</studentname3>
+	<sfo_Item3>${PROD_BVT_SFO_ITEM3}</sfo_Item3>
+	<itemName>${TCOD_YTO_ITEM3}</itemName>
+    <itemName2>${TCOD_YTO_ITEM1}</itemName2>
+    <shippingCharge>FREE!</shippingCharge>
+	</testcase> 
+		
+	<testcase id="InSprint16.3:PCOD:SOOSFOTE_RewardsPage_ItemInfo">
+	<userid>168353</userid>
+	<parent>test17schlast@schl.com</parent>
+	<password>passw0rd</password>
+	<studentname1>${studentname1}</studentname1>
+	<sfo_Item1>${PROD_BVT_SFO_ITEM1}</sfo_Item1>
+	<studentname2>${studentname2}</studentname2>
+	<sfo_Item2>${PROD_BVT_SFO_ITEM2}</sfo_Item2>
+	<studentname3>${studentname3}</studentname3>
+	<sfo_Item3>${PROD_BVT_SFO_ITEM3}</sfo_Item3>
+	<te_itemName1>${TCOD_TE_ITEM1}</te_itemName1>
+	<te_itemName2>${TCOD_TE_ITEM2}</te_itemName2>
+    <shippingCharge>FREE!</shippingCharge>
+	</testcase>
+	
+	<testcase id="InSprint16.3:PCOD:SOO_RewardsPage_ItemInfo">
+	<userid>168783</userid>
+	<parent>test18schlast@schl.com</parent>
+	<password>passw0rd</password>
+	</testcase>
+	
+	<testcase id="InSprint16.3:PCOD:SOOYTOTE_RewardsPage_ItemInfo">
+	<userid>168923</userid>
+	<parent>test19schlast@schl.com</parent>
+	<password>passw0rd</password>
+	<itemName>${TCOD_YTO_ITEM3}</itemName>
+    <itemName2>${TCOD_YTO_ITEM1}</itemName2>
+    <te_itemName1>${TCOD_TE_ITEM1}</te_itemName1>
+	<te_itemName2>${TCOD_TE_ITEM2}</te_itemName2>
+    <shippingCharge>FREE!</shippingCharge>
+	</testcase>
+	
+	<testcase id="InSprint16.3:PCOD:SOOTE_RewardsPage_ItemInfo_GST">
+	<userid>170283</userid>
+	<parent>test29schlast@schl.com</parent>
+	<password>passw0rd</password>
+    <te_itemName1>${TCOD_TE_ITEM1}</te_itemName1>
+	<te_itemName2>${TCOD_TE_ITEM2}</te_itemName2>
+    <shippingCharge>FREE!</shippingCharge>
+	</testcase>
+	
+	<testcase id="InSprint16.3:PCOD:SOO_RewardsPage_ItemInfo_GSTPST_1Parent_2Teachers_Orderfor1Teacher">
+	<userid>171182</userid>
+	<userid2>171257</userid2>
+	<parent>test30schlast@schl.com</parent>
+	<password>passw0rd</password>
+	</testcase>
+	
+	<testcase id="InSprint16.3:PCOD:SOO_RewardsPage_ItemInfo_GST_1Parent_2Teachers">
+	<userid>176562</userid>
+	<userid2>176603</userid2>
+	<parent>test31schlast@schl.com</parent>
+	<password>passw0rd</password>
+	</testcase>
+	
+	
+	<testcase id="InSprint16.3:PCOD:SOOYTO_RewardsPage_ItemInfo_GSTQST">
+	<userid>176702</userid>
+	<parent>test32schlast@schl.com</parent>
+	<password>passw0rd</password>
+	<itemName>${TCOD_YTO_ITEM3}</itemName>
+    <itemName2>${TCOD_YTO_ITEM1}</itemName2>
+    <shippingCharge>FREE!</shippingCharge>
+	</testcase>
+	
+	
+	<testcase id="InSprint16.3:PCOD:SOOSFO_RewardsPage_ItemInfo_GST">
+	<userid>176752</userid>
+	<parent>test33schlast@schl.com</parent>
+	<password>passw0rd</password>
+	<studentname1>${studentname1}</studentname1>
+	<sfo_Item1>${PROD_BVT_SFO_ITEM1}</sfo_Item1>
+	<studentname2>${studentname2}</studentname2>
+	<sfo_Item2>${PROD_BVT_SFO_ITEM2}</sfo_Item2>
+	<studentname3>${studentname3}</studentname3>
+	<sfo_Item3>${PROD_BVT_SFO_ITEM3}</sfo_Item3>
+    <shippingCharge>FREE!</shippingCharge>
+	</testcase>
+	
+	
+    <testcase id="InSprint16.3:PCOD:SOOSFOYTOTE_RewardsPage_ItemInfo_GST">
+	<userid>176778</userid>
+	<parent>test34schlast@schl.com</parent>
+	<password>passw0rd</password>
+	<studentname1>${studentname1}</studentname1>
+	<sfo_Item1>${PROD_BVT_SFO_ITEM1}</sfo_Item1>
+	<studentname2>${studentname2}</studentname2>
+	<sfo_Item2>${PROD_BVT_SFO_ITEM2}</sfo_Item2>
+	<studentname3>${studentname3}</studentname3>
+	<sfo_Item3>${PROD_BVT_SFO_ITEM3}</sfo_Item3>
+	<itemName>${TCOD_YTO_ITEM3}</itemName>
+    <itemName2>${TCOD_YTO_ITEM1}</itemName2>
+    <te_itemName1>${TCOD_TE_ITEM1}</te_itemName1>
+	<te_itemName2>${TCOD_TE_ITEM2}</te_itemName2>
+    <shippingCharge>FREE!</shippingCharge>
+	</testcase>
+	
+	
+	<testcase id="InSprint16.3:PCOD:SOO_RewardsPage_ItemInfo_2Parents_1Teacher">
+	<userid>176801</userid>
+	<parent>test35schlast@schl.com</parent>
+	<parent>test36schlast@schl.com</parent>
+	<password>passw0rd</password>
+    <shippingCharge>FREE!</shippingCharge>
+	</testcase>
+	
+	
+	<testcase id="InSprint16.3:PCOD:FreePickOnly_RewardsPage_ItemInfo">
+	<userid>177073</userid>
+	<parent>test37schlast@schl.com</parent>
+	<password>passw0rd</password> 
+	</testcase>
+	
+	<testcase id="InSprint16.3:PCOD:SOO_RewardsPage_ItemInfo_2Teachers_TaxExempt">
+	<userid>177479</userid>
+	<userid2>177528</userid2>
+	<parent>test38schlast@schl.com</parent>
+	<password>passw0rd</password>
+	</testcase>
+	
+	<testcase id="InSprint16.3:PCOD:SOO_RewardsPage_ItemInfo_2Teachers_GSTQST">
+	<userid>177560</userid>
+	<userid2>177594</userid2>
+	<parent>test39schlast@schl.com</parent>
+	<password>passw0rd</password>
+	</testcase>
+	
+	<testcase id="InSprint16.3:PCOD:SOOSFOYTOTE_Redemptions_RewardsPage_ItemInfo_GST">
+	<userid>177619</userid>
+	<parent>test40schlast@schl.com</parent>
+	<password>passw0rd</password>
+	<studentname1>${studentname1}</studentname1>
+	<sfo_Item1>${PROD_BVT_SFO_ITEM1}</sfo_Item1>
+	<studentname2>${studentname2}</studentname2>
+	<sfo_Item2>${PROD_BVT_SFO_ITEM2}</sfo_Item2>
+	<studentname3>${studentname3}</studentname3>
+	<sfo_Item3>${PROD_BVT_SFO_ITEM3}</sfo_Item3>
+	<itemName>${TCOD_YTO_ITEM3}</itemName>
+    <itemName2>${TCOD_YTO_ITEM1}</itemName2>
+    <te_itemName1>${TCOD_TE_ITEM1}</te_itemName1>
+	<te_itemName2>${TCOD_TE_ITEM2}</te_itemName2>
+    <shippingCharge>FREE!</shippingCharge>
+    <redemptions>1</redemptions>
+	</testcase>
+	
+	<!-- #####################################################################################################################################
+	##########################################################################################################################################
+	###########################################   							             #####################################################
+	###########################################   		   DWCAPCOD-157          	     #####################################################
+	###########################################   							             #####################################################       
+	##########################################################################################################################################
+	###################################################################################################################################### -->
+
+	<testcase id="InSprint16.3:PCOD:TeacherDesk:SendLettertoParents:EditLetter">
+		<userid>262501</userid>
+		<password>passw0rd</password>
+		<editedMsg>Scholastic Canada</editedMsg>
+	</testcase>
+	
+	<testcase id="InSprint16.3:PCOD:TeacherDesk:SendLettertoParents:RestoreDefaultSelected">
+		<userid>262593</userid>
+		<password>passw0rd</password>
+		<editedMsg>Scholastic Canada</editedMsg>
+	</testcase>
+	
+	<testcase id="InSprint16.3:PCOD:TeacherDesk:SendLettertoParents:ClickCloseonModal">
+		<userid>262668</userid>
+		<password>passw0rd</password>
+		<editedMsg>Scholastic Canada</editedMsg>
+	</testcase>
+	
+	<!-- <testcase id="InSprint16.3:PCOD:TeacherDesk:SendLettertoParents:DownloadLetter">
+		<userid>262501</userid>
+		<password>passw0rd</password>
+		<editedMsg>Scholastic Canada</editedMsg>
+	</testcase> -->
+		
+<!-- #####################################################################################################################################
+	##########################################################################################################################################
+	###########################################   							             #####################################################
+	###########################################   		   DWCAPCOD-1998         	     #####################################################
+	###########################################   							             #####################################################       
+	##########################################################################################################################################
+	###################################################################################################################################### -->
+   
+    <testcase id="InSprint16.3:PCOD:SOO_ItemCount">
+	<userid>169301</userid>
+	<parent>test21schlast@schl.com</parent>
+	<password>passw0rd</password>
+	</testcase> 
+   
+    <testcase id="InSprint16.3:PCOD:SOOSFOYTOTE_ItemCount">
+	<userid>169103</userid>
+	<parent>test20schlast@schl.com</parent>
+	<password>passw0rd</password>
+	<studentname1>${studentname1}</studentname1>
+	<sfo_Item1>${PROD_BVT_SFO_ITEM1}</sfo_Item1>
+	<studentname2>${studentname2}</studentname2>
+	<sfo_Item2>${PROD_BVT_SFO_ITEM2}</sfo_Item2>
+	<studentname3>${studentname3}</studentname3>
+	<sfo_Item3>${PROD_BVT_SFO_ITEM3}</sfo_Item3>
+	<itemName>${TCOD_YTO_ITEM3}</itemName>
+    <itemName2>${TCOD_YTO_ITEM1}</itemName2>
+    <te_itemName1>${TCOD_TE_ITEM1}</te_itemName1>
+	<te_itemName2>${TCOD_TE_ITEM2}</te_itemName2>
+	</testcase>
+	
+	
+	<testcase id="InSprint16.3:PCOD:SOOSFO_ItemCount">
+	<userid>169492</userid>
+	<parent>test22schlast@schl.com</parent>
+	<password>passw0rd</password>
+	<studentname1>${studentname1}</studentname1>
+	<sfo_Item1>${PROD_BVT_SFO_ITEM1}</sfo_Item1>
+	<studentname2>${studentname2}</studentname2>
+	<sfo_Item2>${PROD_BVT_SFO_ITEM2}</sfo_Item2>
+	<studentname3>${studentname3}</studentname3>
+	<sfo_Item3>${PROD_BVT_SFO_ITEM3}</sfo_Item3>
+	</testcase>
+	
+	<testcase id="InSprint16.3:PCOD:SOOYTO_ItemCount">
+	<userid>169575</userid>
+	<parent>test23schlast@schl.com</parent>
+	<password>passw0rd</password>
+	<itemName>${TCOD_YTO_ITEM3}</itemName>
+    <itemName2>${TCOD_YTO_ITEM1}</itemName2>
+	</testcase>
+	
+	<testcase id="InSprint16.3:PCOD:SOOTE_ItemCount">
+	<userid>169723</userid>
+	<parent>test24schlast@schl.com</parent>
+	<password>passw0rd</password>
+    <te_itemName1>${TCOD_TE_ITEM1}</te_itemName1>
+	<te_itemName2>${TCOD_TE_ITEM2}</te_itemName2>
+	</testcase>
+	
+	<testcase id="InSprint16.3:PCOD:SOOSFOYTO_ItemCount">
+	<userid>169757</userid>
+	<parent>test25schlast@schl.com</parent>
+	<password>passw0rd</password>
+	<studentname1>${studentname1}</studentname1>
+	<sfo_Item1>${PROD_BVT_SFO_ITEM1}</sfo_Item1>
+	<studentname2>${studentname2}</studentname2>
+	<sfo_Item2>${PROD_BVT_SFO_ITEM2}</sfo_Item2>
+	<studentname3>${studentname3}</studentname3>
+	<sfo_Item3>${PROD_BVT_SFO_ITEM3}</sfo_Item3>
+	<itemName>${TCOD_YTO_ITEM3}</itemName>
+    <itemName2>${TCOD_YTO_ITEM1}</itemName2>
+	</testcase>
+	
+	
+	<testcase id="InSprint16.3:PCOD:SOOSFOTE_ItemCount">
+	<userid>169830</userid>
+	<parent>test26schlast@schl.com</parent>
+	<password>passw0rd</password>
+	<studentname1>${studentname1}</studentname1>
+	<sfo_Item1>${PROD_BVT_SFO_ITEM1}</sfo_Item1>
+	<studentname2>${studentname2}</studentname2>
+	<sfo_Item2>${PROD_BVT_SFO_ITEM2}</sfo_Item2>
+	<studentname3>${studentname3}</studentname3>
+	<sfo_Item3>${PROD_BVT_SFO_ITEM3}</sfo_Item3>
+    <te_itemName1>${TCOD_TE_ITEM1}</te_itemName1>
+	<te_itemName2>${TCOD_TE_ITEM2}</te_itemName2>
+	</testcase>
+	
+	
+	<testcase id="InSprint16.3:PCOD:SOOSFOFreePick_ItemCount">
+	<userid>169848</userid>
+	<parent>test27schlast@schl.com</parent>
+	<password>passw0rd</password>
+	<sname>John</sname>
+	<sfofreepick>FREEPICK21</sfofreepick>
+	<selectgrade>yto-4th-grade-and-5th-grade</selectgrade>
+	</testcase>
+	
+	<testcase id="InSprint16.3:PCOD:SOO_Delete_ItemCount">
+	<userid>169880</userid>
+	<parent>test28schlast@schl.com</parent>
+	<password>passw0rd</password>
+	</testcase>
+	
+	
+<!-- #####################################################################################################################################
+	##########################################################################################################################################
+	###########################################   							             #####################################################
+	###########################################   		   DWCAPCOD-1991        	     #####################################################
+	###########################################   							             #####################################################       
+	##########################################################################################################################################
+	###################################################################################################################################### -->
+   
+    <testcase id="InSprint16.3:Teacher_AddsYTOSFOItems_InYTO">
+	<userid>169955</userid>
+	<password>passw0rd</password>
+	<itemName>${TEACHERRESOURCEITEM1}</itemName>
+    <itemName2>${CLASSROOMTITLEITEM1}</itemName2>
+    <itemName3>${TEACHERRESOURCEITEM1}</itemName3>
+    <itemName4>${CLASSROOMTITLEITEM1}</itemName4>
+	</testcase>
+	
+	<testcase id="InSprint16.3:Teacher_Search_YTOItems_InFreePickModal">
+	<userid>170192</userid>
+	<password>passw0rd</password>
+	<sname>John</sname>
+	<sfofreepick>FREEPICK21</sfofreepick> 
+    <couponsearch>${TEACHERRESOURCEITEM1}</couponsearch>
+	</testcase>
+	
+	
+	<testcase id="InSprint16.3:Teacher_Search_ClassRoomTitleItems">
+	<userid>170225</userid>
+	<password>passw0rd</password>
+	<itemName>${CLASSROOMTITLEITEM1TITLE}</itemName>
+    <BookTitle>${CLASSROOMTITLEITEM1TITLE}</BookTitle>
+	</testcase>
+	
+	<testcase id="InSprint16.3:Teacher_Search_ClassRoomTitleUniqueNumberItems">
+	<userid>170267</userid>
+	<password>passw0rd</password>
+	<itemName>${CLASSROOMTITLEITEM1}</itemName>
+    <BookTitle>${CLASSROOMTITLEITEM1TITLE}</BookTitle>
+	</testcase>
+	
+	<testcase id="InSprint16.3:Teacher_Search_TeacherResourceItems_Keyword">
+	<userid>170431</userid>
+	<password>passw0rd</password>
+	<itemName>${TEACHERRESOURCEITEM1TITLE}</itemName>
+    <BookTitle>${TEACHERRESOURCEITEM1TITLE}</BookTitle>
+	</testcase>
+	
+	<testcase id="InSprint16.3:Teacher_Search_TeacherResourceItems_UniquID">
+	<userid>170457</userid>
+	<password>passw0rd</password>
+	<itemName>${TEACHERRESOURCEITEM1}</itemName>
+    <BookTitle>${TEACHERRESOURCEITEM1TITLE}</BookTitle>
+	</testcase>
+	
+	<testcase id="InSprint16.3:Teacher_Adds_TeacherResourcesItems_InSFO">
+	<userid>170580</userid>
+	<password>passw0rd</password>
+	<studentname>John</studentname>
+	<itemName>${TEACHERRESOURCEITEM1}</itemName>
+	</testcase>
+	
+	
+</testdata>

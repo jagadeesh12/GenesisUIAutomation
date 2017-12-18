@@ -58,6 +58,8 @@
 	</test>
 
  -->
+ 
+ <!--  
  <test name="Use Case 4:Organization Credit Request and Approval">
 		<classes>
 			<class name="com.dw.api.automation.steps.OrganizationCreditRequestTest" />
@@ -98,6 +100,7 @@
 			</methods>
 		</classes>
 	</test>
+	-->
  
  <test name="Use Case 8: Market place">
 		<classes>
@@ -125,6 +128,10 @@
 				</methods>
 		</classes>
 </test>
+
+
+
+
 
  <test name="Use Case 10:Place Order With Coupan Code">
 		<classes>

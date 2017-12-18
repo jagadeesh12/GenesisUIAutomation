@@ -1,0 +1,2837 @@
+<testdata>
+
+<!-- #############################################################################################################################################    
+##################################################################################################################################################    
+###########################################   							             	 #########################################################   
+###########################################   		   1 PARENT - 1 CHILD - 1 TEACHER    #########################################################
+###########################################   							            	 #########################################################        
+##################################################################################################################################################        
+################################################################################################################################################## -->
+
+<testcase id="PCOD:ParentCreation_1child_1teacher:Parent_01">
+	<teacherDir>${Parent1Child1TeacherDir}</teacherDir>
+	<teacherAssociation>1</teacherAssociation>
+	<firstname>test</firstname>
+	<lastname>test1</lastname>
+	<email>schl</email>
+	<password>passw0rd</password>
+	<mobnumber>2222222222</mobnumber>
+	<child_firstname>child</child_firstname>
+	<child_lastname>test1</child_lastname>
+</testcase>
+
+<testcase id="PCOD:ParentCreation_1child_1teacher:Parent_02">
+	<teacherDir>${Parent1Child1TeacherDir}</teacherDir>
+	<teacherAssociation>2</teacherAssociation>
+	<firstname>test</firstname>
+	<lastname>test1</lastname>
+	<email>schl</email>
+	<password>passw0rd</password>
+	<mobnumber>2222222222</mobnumber>
+	<child_firstname>child</child_firstname>
+	<child_lastname>test1</child_lastname>
+</testcase>
+
+<testcase id="PCOD:ParentCreation_1child_1teacher:Parent_03">
+	<teacherDir>${Parent1Child1TeacherDir}</teacherDir>
+	<teacherDir>${Parent1Child1TeacherDir}</teacherDir>
+	<teacherAssociation>3</teacherAssociation>
+	<firstname>test</firstname>
+	<lastname>test1</lastname>
+	<email>schl</email>
+	<password>passw0rd</password>
+	<mobnumber>2222222222</mobnumber>
+	<child_firstname>child</child_firstname>
+	<child_lastname>test1</child_lastname>
+</testcase>
+
+<testcase id="PCOD:ParentCreation_1child_1teacher:Parent_04">
+	<teacherDir>${Parent1Child1TeacherDir}</teacherDir>
+	<teacherAssociation>4</teacherAssociation>
+	<firstname>test</firstname>
+	<lastname>test1</lastname>
+	<email>schl</email>
+	<password>passw0rd</password>
+	<mobnumber>2222222222</mobnumber>
+	<child_firstname>child</child_firstname>
+	<child_lastname>test1</child_lastname>
+</testcase>
+
+<testcase id="PCOD:ParentCreation_1child_1teacher:Parent_05">
+	<teacherDir>${Parent1Child1TeacherDir}</teacherDir>
+	<teacherAssociation>5</teacherAssociation>
+	<firstname>test</firstname>
+	<lastname>test1</lastname>
+	<email>schl</email>
+	<password>passw0rd</password>
+	<mobnumber>2222222222</mobnumber>
+	<child_firstname>child</child_firstname>
+	<child_lastname>test1</child_lastname>
+</testcase>
+
+<testcase id="PCOD:ParentCreation_1child_1teacher:Parent_06">
+	<teacherDir>${Parent1Child1TeacherDir}</teacherDir>
+	<teacherAssociation>6</teacherAssociation>
+	<firstname>test</firstname>
+	<lastname>test1</lastname>
+	<email>schl</email>
+	<password>passw0rd</password>
+	<mobnumber>2222222222</mobnumber>
+	<child_firstname>child</child_firstname>
+	<child_lastname>test1</child_lastname>
+</testcase>
+
+<testcase id="PCOD:ParentCreation_1child_1teacher:Parent_07">
+	<teacherDir>${Parent1Child1TeacherDir}</teacherDir>
+	<teacherAssociation>7</teacherAssociation>
+	<firstname>test</firstname>
+	<lastname>test1</lastname>
+	<email>schl</email>
+	<password>passw0rd</password>
+	<mobnumber>2222222222</mobnumber>
+	<child_firstname>child</child_firstname>
+	<child_lastname>test1</child_lastname>
+</testcase>
+
+<testcase id="PCOD:ParentCreation_1child_1teacher:Parent_08">
+	<teacherDir>${Parent1Child1TeacherDir}</teacherDir>
+	<teacherAssociation>8</teacherAssociation>
+	<firstname>test</firstname>
+	<lastname>test1</lastname>
+	<email>schl</email>
+	<password>passw0rd</password>
+	<mobnumber>2222222222</mobnumber>
+	<child_firstname>child</child_firstname>
+	<child_lastname>test1</child_lastname>
+</testcase>
+
+<testcase id="PCOD:ParentCreation_1child_1teacher:Parent_09">
+	<teacherDir>${Parent1Child1TeacherDir}</teacherDir>
+	<teacherAssociation>9</teacherAssociation>
+	<firstname>test</firstname>
+	<lastname>test1</lastname>
+	<email>schl</email>
+	<password>passw0rd</password>
+	<mobnumber>2222222222</mobnumber>
+	<child_firstname>child</child_firstname>
+	<child_lastname>test1</child_lastname>
+</testcase>
+
+<testcase id="PCOD:ParentCreation_1child_1teacher:Parent_10">
+	<teacherDir>${Parent1Child1TeacherDir}</teacherDir>
+	<teacherAssociation>10</teacherAssociation>
+	<firstname>test</firstname>
+	<lastname>test1</lastname>
+	<email>schl</email>
+	<password>passw0rd</password>
+	<mobnumber>2222222222</mobnumber>
+	<child_firstname>child</child_firstname>
+	<child_lastname>test1</child_lastname>
+</testcase>
+
+<testcase id="PCOD:ParentCreation_1child_1teacher:Parent_11">
+	<teacherDir>${Parent1Child1TeacherDir}</teacherDir>
+	<teacherAssociation>11</teacherAssociation>
+	<firstname>test</firstname>
+	<lastname>test1</lastname>
+	<email>schl</email>
+	<password>passw0rd</password>
+	<mobnumber>2222222222</mobnumber>
+	<child_firstname>child</child_firstname>
+	<child_lastname>test1</child_lastname>
+</testcase>
+
+<testcase id="PCOD:ParentCreation_1child_1teacher:Parent_12">
+	<teacherDir>${Parent1Child1TeacherDir}</teacherDir>
+	<teacherAssociation>12</teacherAssociation>
+	<firstname>test</firstname>
+	<lastname>test1</lastname>
+	<email>schl</email>
+	<password>passw0rd</password>
+	<mobnumber>2222222222</mobnumber>
+	<child_firstname>child</child_firstname>
+	<child_lastname>test1</child_lastname>
+</testcase>
+
+<testcase id="PCOD:ParentCreation_1child_1teacher:Parent_13">
+	<teacherDir>${Parent1Child1TeacherDir}</teacherDir>
+	<teacherAssociation>13</teacherAssociation>
+	<firstname>test</firstname>
+	<lastname>test1</lastname>
+	<email>schl</email>
+	<password>passw0rd</password>
+	<mobnumber>2222222222</mobnumber>
+	<child_firstname>child</child_firstname>
+	<child_lastname>test1</child_lastname>
+</testcase>
+
+<testcase id="PCOD:ParentCreation_1child_1teacher:Parent_14">
+	<teacherDir>${Parent1Child1TeacherDir}</teacherDir>
+	<teacherAssociation>14</teacherAssociation>
+	<firstname>test</firstname>
+	<lastname>test1</lastname>
+	<email>schl</email>
+	<password>passw0rd</password>
+	<mobnumber>2222222222</mobnumber>
+	<child_firstname>child</child_firstname>
+	<child_lastname>test1</child_lastname>
+</testcase>
+
+<testcase id="PCOD:ParentCreation_1child_1teacher:Parent_15">
+	<teacherDir>${Parent1Child1TeacherDir}</teacherDir>
+	<teacherAssociation>15</teacherAssociation>
+	<firstname>test</firstname>
+	<lastname>test1</lastname>
+	<email>schl</email>
+	<password>passw0rd</password>
+	<mobnumber>2222222222</mobnumber>
+	<child_firstname>child</child_firstname>
+	<child_lastname>test1</child_lastname>
+</testcase>
+
+<testcase id="PCOD:ParentCreation_1child_1teacher:Parent_16">
+	<teacherDir>${Parent1Child1TeacherDir}</teacherDir>
+	<teacherAssociation>16</teacherAssociation>
+	<firstname>test</firstname>
+	<lastname>test1</lastname>
+	<email>schl</email>
+	<password>passw0rd</password>
+	<mobnumber>2222222222</mobnumber>
+	<child_firstname>child</child_firstname>
+	<child_lastname>test1</child_lastname>
+</testcase>
+
+<testcase id="PCOD:ParentCreation_1child_1teacher:Parent_17">
+	<teacherDir>${Parent1Child1TeacherDir}</teacherDir>
+	<teacherAssociation>17</teacherAssociation>
+	<firstname>test</firstname>
+	<lastname>test1</lastname>
+	<email>schl</email>
+	<password>passw0rd</password>
+	<mobnumber>2222222222</mobnumber>
+	<child_firstname>child</child_firstname>
+	<child_lastname>test1</child_lastname>
+</testcase>
+
+<testcase id="PCOD:ParentCreation_1child_1teacher:Parent_18">
+	<teacherDir>${Parent1Child1TeacherDir}</teacherDir>
+	<teacherAssociation>18</teacherAssociation>
+	<firstname>test</firstname>
+	<lastname>test1</lastname>
+	<email>schl</email>
+	<password>passw0rd</password>
+	<mobnumber>2222222222</mobnumber>
+	<child_firstname>child</child_firstname>
+	<child_lastname>test1</child_lastname>
+</testcase>
+
+<testcase id="PCOD:ParentCreation_1child_1teacher:Parent_19">
+	<teacherDir>${Parent1Child1TeacherDir}</teacherDir>
+	<teacherAssociation>19</teacherAssociation>
+	<firstname>test</firstname>
+	<lastname>test1</lastname>
+	<email>schl</email>
+	<password>passw0rd</password>
+	<mobnumber>2222222222</mobnumber>
+	<child_firstname>child</child_firstname>
+	<child_lastname>test1</child_lastname>
+</testcase>
+
+<testcase id="PCOD:ParentCreation_1child_1teacher:Parent_20">
+	<teacherDir>${Parent1Child1TeacherDir}</teacherDir>
+	<teacherAssociation>20</teacherAssociation>
+	<firstname>test</firstname>
+	<lastname>test1</lastname>
+	<email>schl</email>
+	<password>passw0rd</password>
+	<mobnumber>2222222222</mobnumber>
+	<child_firstname>child</child_firstname>
+	<child_lastname>test1</child_lastname>
+</testcase>
+
+<testcase id="PCOD:ParentCreation_1child_1teacher:Parent_21">
+	<teacherDir>${Parent1Child1TeacherDir}</teacherDir>
+	<teacherAssociation>21</teacherAssociation>
+	<firstname>test</firstname>
+	<lastname>test1</lastname>
+	<email>schl</email>
+	<password>passw0rd</password>
+	<mobnumber>2222222222</mobnumber>
+	<child_firstname>child</child_firstname>
+	<child_lastname>test1</child_lastname>
+</testcase>
+
+<testcase id="PCOD:ParentCreation_1child_1teacher:Parent_22">
+	<teacherDir>${Parent1Child1TeacherDir}</teacherDir>
+	<teacherAssociation>22</teacherAssociation>
+	<firstname>test</firstname>
+	<lastname>test1</lastname>
+	<email>schl</email>
+	<password>passw0rd</password>
+	<mobnumber>2222222222</mobnumber>
+	<child_firstname>child</child_firstname>
+	<child_lastname>test1</child_lastname>
+</testcase>
+
+<testcase id="PCOD:ParentCreation_1child_1teacher:Parent_23">
+	<teacherDir>${Parent1Child1TeacherDir}</teacherDir>
+	<teacherAssociation>23</teacherAssociation>
+	<firstname>test</firstname>
+	<lastname>test1</lastname>
+	<email>schl</email>
+	<password>passw0rd</password>
+	<mobnumber>2222222222</mobnumber>
+	<child_firstname>child</child_firstname>
+	<child_lastname>test1</child_lastname>
+</testcase>
+
+<testcase id="PCOD:ParentCreation_1child_1teacher:Parent_24">
+	<teacherDir>${Parent1Child1TeacherDir}</teacherDir>
+	<teacherAssociation>24</teacherAssociation>
+	<firstname>test</firstname>
+	<lastname>test1</lastname>
+	<email>schl</email>
+	<password>passw0rd</password>
+	<mobnumber>2222222222</mobnumber>
+	<child_firstname>child</child_firstname>
+	<child_lastname>test1</child_lastname>
+</testcase>
+
+<testcase id="PCOD:ParentCreation_1child_1teacher:Parent_25">
+	<teacherDir>${Parent1Child1TeacherDir}</teacherDir>
+	<teacherAssociation>25</teacherAssociation>
+	<firstname>test</firstname>
+	<lastname>test1</lastname>
+	<email>schl</email>
+	<password>passw0rd</password>
+	<mobnumber>2222222222</mobnumber>
+	<child_firstname>child</child_firstname>
+	<child_lastname>test1</child_lastname>
+</testcase>
+
+<testcase id="PCOD:ParentCreation_1child_1teacher:Parent_26">
+	<teacherDir>${Parent1Child1TeacherDir}</teacherDir>
+	<teacherAssociation>26</teacherAssociation>
+	<firstname>test</firstname>
+	<lastname>test1</lastname>
+	<email>schl</email>
+	<password>passw0rd</password>
+	<mobnumber>2222222222</mobnumber>
+	<child_firstname>child</child_firstname>
+	<child_lastname>test1</child_lastname>
+</testcase>
+
+<testcase id="PCOD:ParentCreation_1child_1teacher:Parent_27">
+	<teacherDir>${Parent1Child1TeacherDir}</teacherDir>
+	<teacherAssociation>27</teacherAssociation>
+	<firstname>test</firstname>
+	<lastname>test1</lastname>
+	<email>schl</email>
+	<password>passw0rd</password>
+	<mobnumber>2222222222</mobnumber>
+	<child_firstname>child</child_firstname>
+	<child_lastname>test1</child_lastname>
+</testcase>
+
+<testcase id="PCOD:ParentCreation_1child_1teacher:Parent_28">
+	<teacherDir>${Parent1Child1TeacherDir}</teacherDir>
+	<teacherAssociation>28</teacherAssociation>
+	<firstname>test</firstname>
+	<lastname>test1</lastname>
+	<email>schl</email>
+	<password>passw0rd</password>
+	<mobnumber>2222222222</mobnumber>
+	<child_firstname>child</child_firstname>
+	<child_lastname>test1</child_lastname>
+</testcase>
+
+<testcase id="PCOD:ParentCreation_1child_1teacher:Parent_29">
+	<teacherDir>${Parent1Child1TeacherDir}</teacherDir>
+	<teacherAssociation>29</teacherAssociation>
+	<firstname>test</firstname>
+	<lastname>test1</lastname>
+	<email>schl</email>
+	<password>passw0rd</password>
+	<mobnumber>2222222222</mobnumber>
+	<child_firstname>child</child_firstname>
+	<child_lastname>test1</child_lastname>
+</testcase>
+
+<testcase id="PCOD:ParentCreation_1child_1teacher:Parent_30">
+	<teacherDir>${Parent1Child1TeacherDir}</teacherDir>
+	<teacherAssociation>30</teacherAssociation>
+	<firstname>test</firstname>
+	<lastname>test1</lastname>
+	<email>schl</email>
+	<password>passw0rd</password>
+	<mobnumber>2222222222</mobnumber>
+	<child_firstname>child</child_firstname>
+	<child_lastname>test1</child_lastname>
+</testcase>
+
+<testcase id="PCOD:ParentCreation_1child_1teacher:Parent_31">
+	<teacherDir>${Parent1Child1TeacherDir}</teacherDir>
+	<teacherAssociation>31</teacherAssociation>
+	<firstname>test</firstname>
+	<lastname>test1</lastname>
+	<email>schl</email>
+	<password>passw0rd</password>
+	<mobnumber>2222222222</mobnumber>
+	<child_firstname>child</child_firstname>
+	<child_lastname>test1</child_lastname>
+</testcase>
+
+<testcase id="PCOD:ParentCreation_1child_1teacher:Parent_32">
+	<teacherDir>${Parent1Child1TeacherDir}</teacherDir>
+	<teacherAssociation>32</teacherAssociation>
+	<firstname>test</firstname>
+	<lastname>test1</lastname>
+	<email>schl</email>
+	<password>passw0rd</password>
+	<mobnumber>2222222222</mobnumber>
+	<child_firstname>child</child_firstname>
+	<child_lastname>test1</child_lastname>
+</testcase>
+
+<testcase id="PCOD:ParentCreation_1child_1teacher:Parent_33">
+	<teacherDir>${Parent1Child1TeacherDir}</teacherDir>
+	<teacherAssociation>33</teacherAssociation>
+	<firstname>test</firstname>
+	<lastname>test1</lastname>
+	<email>schl</email>
+	<password>passw0rd</password>
+	<mobnumber>2222222222</mobnumber>
+	<child_firstname>child</child_firstname>
+	<child_lastname>test1</child_lastname>
+</testcase>
+
+<testcase id="PCOD:ParentCreation_1child_1teacher:Parent_34">
+	<teacherDir>${Parent1Child1TeacherDir}</teacherDir>
+	<teacherAssociation>34</teacherAssociation>
+	<firstname>test</firstname>
+	<lastname>test1</lastname>
+	<email>schl</email>
+	<password>passw0rd</password>
+	<mobnumber>2222222222</mobnumber>
+	<child_firstname>child</child_firstname>
+	<child_lastname>test1</child_lastname>
+</testcase>
+
+<testcase id="PCOD:ParentCreation_1child_1teacher:Parent_35">
+	<teacherDir>${Parent1Child1TeacherDir}</teacherDir>
+	<teacherAssociation>35</teacherAssociation>
+	<firstname>test</firstname>
+	<lastname>test1</lastname>
+	<email>schl</email>
+	<password>passw0rd</password>
+	<mobnumber>2222222222</mobnumber>
+	<child_firstname>child</child_firstname>
+	<child_lastname>test1</child_lastname>
+</testcase>
+
+<testcase id="PCOD:ParentCreation_1child_1teacher:Parent_36">
+	<teacherDir>${Parent1Child1TeacherDir}</teacherDir>
+	<teacherAssociation>36</teacherAssociation>
+	<firstname>test</firstname>
+	<lastname>test1</lastname>
+	<email>schl</email>
+	<password>passw0rd</password>
+	<mobnumber>2222222222</mobnumber>
+	<child_firstname>child</child_firstname>
+	<child_lastname>test1</child_lastname>
+</testcase>
+
+<testcase id="PCOD:ParentCreation_1child_1teacher:Parent_37">
+	<teacherDir>${Parent1Child1TeacherDir}</teacherDir>
+	<teacherAssociation>37</teacherAssociation>
+	<firstname>test</firstname>
+	<lastname>test1</lastname>
+	<email>schl</email>
+	<password>passw0rd</password>
+	<mobnumber>2222222222</mobnumber>
+	<child_firstname>child</child_firstname>
+	<child_lastname>test1</child_lastname>
+</testcase>
+
+<testcase id="PCOD:ParentCreation_1child_1teacher:Parent_38">
+	<teacherDir>${Parent1Child1TeacherDir}</teacherDir>
+	<teacherAssociation>38</teacherAssociation>
+	<firstname>test</firstname>
+	<lastname>test1</lastname>
+	<email>schl</email>
+	<password>passw0rd</password>
+	<mobnumber>2222222222</mobnumber>
+	<child_firstname>child</child_firstname>
+	<child_lastname>test1</child_lastname>
+</testcase>
+
+<testcase id="PCOD:ParentCreation_1child_1teacher:Parent_39">
+	<teacherDir>${Parent1Child1TeacherDir}</teacherDir>
+	<teacherAssociation>39</teacherAssociation>
+	<firstname>test</firstname>
+	<lastname>test1</lastname>
+	<email>schl</email>
+	<password>passw0rd</password>
+	<mobnumber>2222222222</mobnumber>
+	<child_firstname>child</child_firstname>
+	<child_lastname>test1</child_lastname>
+</testcase>
+
+<testcase id="PCOD:ParentCreation_1child_1teacher:Parent_40">
+	<teacherDir>${Parent1Child1TeacherDir}</teacherDir>
+	<teacherAssociation>40</teacherAssociation>
+	<firstname>test</firstname>
+	<lastname>test1</lastname>
+	<email>schl</email>
+	<password>passw0rd</password>
+	<mobnumber>2222222222</mobnumber>
+	<child_firstname>child</child_firstname>
+	<child_lastname>test1</child_lastname>
+</testcase>
+
+<testcase id="PCOD:ParentCreation_1child_1teacher:Parent_41">
+	<teacherDir>${Parent1Child1TeacherDir}</teacherDir>
+	<teacherAssociation>41</teacherAssociation>
+	<firstname>test</firstname>
+	<lastname>test1</lastname>
+	<email>schl</email>
+	<password>passw0rd</password>
+	<mobnumber>2222222222</mobnumber>
+	<child_firstname>child</child_firstname>
+	<child_lastname>test1</child_lastname>
+</testcase>
+
+<testcase id="PCOD:ParentCreation_1child_1teacher:Parent_42">
+	<teacherDir>${Parent1Child1TeacherDir}</teacherDir>
+	<teacherAssociation>42</teacherAssociation>
+	<firstname>test</firstname>
+	<lastname>test1</lastname>
+	<email>schl</email>
+	<password>passw0rd</password>
+	<mobnumber>2222222222</mobnumber>
+	<child_firstname>child</child_firstname>
+	<child_lastname>test1</child_lastname>
+</testcase>
+
+<testcase id="PCOD:ParentCreation_1child_1teacher:Parent_43">
+	<teacherDir>${Parent1Child1TeacherDir}</teacherDir>
+	<teacherAssociation>43</teacherAssociation>
+	<firstname>test</firstname>
+	<lastname>test1</lastname>
+	<email>schl</email>
+	<password>passw0rd</password>
+	<mobnumber>2222222222</mobnumber>
+	<child_firstname>child</child_firstname>
+	<child_lastname>test1</child_lastname>
+</testcase>
+
+<testcase id="PCOD:ParentCreation_1child_1teacher:Parent_44">
+	<teacherDir>${Parent1Child1TeacherDir}</teacherDir>
+	<teacherAssociation>44</teacherAssociation>
+	<firstname>test</firstname>
+	<lastname>test1</lastname>
+	<email>schl</email>
+	<password>passw0rd</password>
+	<mobnumber>2222222222</mobnumber>
+	<child_firstname>child</child_firstname>
+	<child_lastname>test1</child_lastname>
+</testcase>
+
+<testcase id="PCOD:ParentCreation_1child_1teacher:Parent_45">
+	<teacherDir>${Parent1Child1TeacherDir}</teacherDir>
+	<teacherAssociation>45</teacherAssociation>
+	<firstname>test</firstname>
+	<lastname>test1</lastname>
+	<email>schl</email>
+	<password>passw0rd</password>
+	<mobnumber>2222222222</mobnumber>
+	<child_firstname>child</child_firstname>
+	<child_lastname>test1</child_lastname>
+</testcase>
+
+<testcase id="PCOD:ParentCreation_1child_1teacher:Parent_46">
+	<teacherDir>${Parent1Child1TeacherDir}</teacherDir>
+	<teacherAssociation>46</teacherAssociation>
+	<firstname>test</firstname>
+	<lastname>test1</lastname>
+	<email>schl</email>
+	<password>passw0rd</password>
+	<mobnumber>2222222222</mobnumber>
+	<child_firstname>child</child_firstname>
+	<child_lastname>test1</child_lastname>
+</testcase>
+
+<testcase id="PCOD:ParentCreation_1child_1teacher:Parent_47">
+	<teacherDir>${Parent1Child1TeacherDir}</teacherDir>
+	<teacherAssociation>47</teacherAssociation>
+	<firstname>test</firstname>
+	<lastname>test1</lastname>
+	<email>schl</email>
+	<password>passw0rd</password>
+	<mobnumber>2222222222</mobnumber>
+	<child_firstname>child</child_firstname>
+	<child_lastname>test1</child_lastname>
+</testcase>
+
+<testcase id="PCOD:ParentCreation_1child_1teacher:Parent_48">
+	<teacherDir>${Parent1Child1TeacherDir}</teacherDir>
+	<teacherAssociation>48</teacherAssociation>
+	<firstname>test</firstname>
+	<lastname>test1</lastname>
+	<email>schl</email>
+	<password>passw0rd</password>
+	<mobnumber>2222222222</mobnumber>
+	<child_firstname>child</child_firstname>
+	<child_lastname>test1</child_lastname>
+</testcase>
+
+<testcase id="PCOD:ParentCreation_1child_1teacher:Parent_49">
+	<teacherDir>${Parent1Child1TeacherDir}</teacherDir>
+	<teacherAssociation>49</teacherAssociation>
+	<firstname>test</firstname>
+	<lastname>test1</lastname>
+	<email>schl</email>
+	<password>passw0rd</password>
+	<mobnumber>2222222222</mobnumber>
+	<child_firstname>child</child_firstname>
+	<child_lastname>test1</child_lastname>
+</testcase>
+
+<testcase id="PCOD:ParentCreation_1child_1teacher:Parent_50">
+	<teacherDir>${Parent1Child1TeacherDir}</teacherDir>
+	<teacherAssociation>50</teacherAssociation>
+	<firstname>test</firstname>
+	<lastname>test1</lastname>
+	<email>schl</email>
+	<password>passw0rd</password>
+	<mobnumber>2222222222</mobnumber>
+	<child_firstname>child</child_firstname>
+	<child_lastname>test1</child_lastname>
+</testcase>
+
+<testcase id="PCOD:ParentCreation_1child_1teacher">
+	<numTeachers>50</numTeachers>
+	<firstname>test</firstname>
+	<lastname>test1</lastname>
+	<email>schl</email>
+	<password>passw0rd</password>
+	<mobnumber>2222222222</mobnumber>
+	<child_firstname>test</child_firstname>
+	<child_lastname>schl</child_lastname>
+</testcase>
+
+<!-- #############################################################################################################################################    
+##################################################################################################################################################    
+###########################################   							             	 #########################################################   
+###########################################   		   1 PARENT - 2 CHILDREN - 1 TEACHER #########################################################
+###########################################   							            	 #########################################################        
+##################################################################################################################################################        
+################################################################################################################################################## -->
+
+<testcase id="PCOD:ParentCreation_2child_1teacher:Parent_01">
+	<teacherDir>${Parent2Child1TeacherDir}</teacherDir>
+	<teacherDir>${Parent2Child1TeacherDir}</teacherDir>
+	<teacherAssociation>1</teacherAssociation>
+	<firstname>test</firstname>
+	<lastname>test1</lastname>
+	<email>testls13</email>
+	<password>passw0rd</password>
+	<mobnumber>2222222222</mobnumber>
+	<child_firstname>child1</child_firstname>
+	<child_lastname>test1</child_lastname>
+	<child2_firstname>child2</child2_firstname>
+	<child2_lastname>test1</child2_lastname>
+	<child2grade>second</child2grade>
+	<child2birthmonth>3</child2birthmonth>
+	<child2birthyear>2013</child2birthyear>
+</testcase>
+
+<testcase id="PCOD:ParentCreation_2child_1teacher:Parent_02">
+	<teacherDir>${Parent2Child1TeacherDir}</teacherDir>
+	<teacherAssociation>2</teacherAssociation>
+	<firstname>test</firstname>
+	<lastname>test1</lastname>
+	<email>testls13</email>
+	<password>passw0rd</password>
+	<mobnumber>2222222222</mobnumber>
+	<child_firstname>child1</child_firstname>
+	<child_lastname>test1</child_lastname>
+	<child2_firstname>child2</child2_firstname>
+	<child2_lastname>test1</child2_lastname>
+	<child2grade>second</child2grade>
+	<child2birthmonth>3</child2birthmonth>
+	<child2birthyear>2013</child2birthyear>
+</testcase>
+
+<testcase id="PCOD:ParentCreation_2child_1teacher:Parent_03">
+	<teacherDir>${Parent2Child1TeacherDir}</teacherDir>
+	<teacherAssociation>3</teacherAssociation>
+	<firstname>test</firstname>
+	<lastname>test1</lastname>
+	<email>testls13</email>
+	<password>passw0rd</password>
+	<mobnumber>2222222222</mobnumber>
+	<child_firstname>child1</child_firstname>
+	<child_lastname>test1</child_lastname>
+	<child2_firstname>child2</child2_firstname>
+	<child2_lastname>test1</child2_lastname>
+	<child2grade>second</child2grade>
+	<child2birthmonth>3</child2birthmonth>
+	<child2birthyear>2013</child2birthyear>
+</testcase>
+
+<testcase id="PCOD:ParentCreation_2child_1teacher:Parent_04">
+	<teacherDir>${Parent2Child1TeacherDir}</teacherDir>
+	<teacherAssociation>4</teacherAssociation>
+	<firstname>test</firstname>
+	<lastname>test1</lastname>
+	<email>testls13</email>
+	<password>passw0rd</password>
+	<mobnumber>2222222222</mobnumber>
+	<child_firstname>child1</child_firstname>
+	<child_lastname>test1</child_lastname>
+	<child2_firstname>child2</child2_firstname>
+	<child2_lastname>test1</child2_lastname>
+	<child2grade>second</child2grade>
+	<child2birthmonth>3</child2birthmonth>
+	<child2birthyear>2013</child2birthyear>
+</testcase>
+
+<testcase id="PCOD:ParentCreation_2child_1teacher:Parent_05">
+	<teacherDir>${Parent2Child1TeacherDir}</teacherDir>
+	<teacherAssociation>5</teacherAssociation>
+	<firstname>test</firstname>
+	<lastname>test1</lastname>
+	<email>testls13</email>
+	<password>passw0rd</password>
+	<mobnumber>2222222222</mobnumber>
+	<child_firstname>child1</child_firstname>
+	<child_lastname>test1</child_lastname>
+	<child2_firstname>child2</child2_firstname>
+	<child2_lastname>test1</child2_lastname>
+	<child2grade>second</child2grade>
+	<child2birthmonth>3</child2birthmonth>
+	<child2birthyear>2013</child2birthyear>
+</testcase>
+
+<testcase id="PCOD:ParentCreation_2child_1teacher:Parent_06">
+	<teacherDir>${Parent2Child1TeacherDir}</teacherDir>
+	<teacherAssociation>6</teacherAssociation>
+	<firstname>test</firstname>
+	<lastname>test1</lastname>
+	<email>testls13</email>
+	<password>passw0rd</password>
+	<mobnumber>2222222222</mobnumber>
+	<child_firstname>child1</child_firstname>
+	<child_lastname>test1</child_lastname>
+	<child2_firstname>child2</child2_firstname>
+	<child2_lastname>test1</child2_lastname>
+	<child2grade>second</child2grade>
+	<child2birthmonth>3</child2birthmonth>
+	<child2birthyear>2013</child2birthyear>
+</testcase>
+
+<testcase id="PCOD:ParentCreation_2child_1teacher:Parent_07">
+	<teacherDir>${Parent2Child1TeacherDir}</teacherDir>
+	<teacherAssociation>7</teacherAssociation>
+	<firstname>test</firstname>
+	<lastname>test1</lastname>
+	<email>testls13</email>
+	<password>passw0rd</password>
+	<mobnumber>2222222222</mobnumber>
+	<child_firstname>child1</child_firstname>
+	<child_lastname>test1</child_lastname>
+	<child2_firstname>child2</child2_firstname>
+	<child2_lastname>test1</child2_lastname>
+	<child2grade>second</child2grade>
+	<child2birthmonth>3</child2birthmonth>
+	<child2birthyear>2013</child2birthyear>
+</testcase>
+
+<testcase id="PCOD:ParentCreation_2child_1teacher:Parent_08">
+	<teacherDir>${Parent2Child1TeacherDir}</teacherDir>
+	<teacherAssociation>8</teacherAssociation>
+	<firstname>test</firstname>
+	<lastname>test1</lastname>
+	<email>testls13</email>
+	<password>passw0rd</password>
+	<mobnumber>2222222222</mobnumber>
+	<child_firstname>child1</child_firstname>
+	<child_lastname>test1</child_lastname>
+	<child2_firstname>child2</child2_firstname>
+	<child2_lastname>test1</child2_lastname>
+	<child2grade>second</child2grade>
+	<child2birthmonth>3</child2birthmonth>
+	<child2birthyear>2013</child2birthyear>
+</testcase>
+
+<testcase id="PCOD:ParentCreation_2child_1teacher:Parent_09">
+	<teacherDir>${Parent2Child1TeacherDir}</teacherDir>
+	<teacherAssociation>9</teacherAssociation>
+	<firstname>test</firstname>
+	<lastname>test1</lastname>
+	<email>testls13</email>
+	<password>passw0rd</password>
+	<mobnumber>2222222222</mobnumber>
+	<child_firstname>child1</child_firstname>
+	<child_lastname>test1</child_lastname>
+	<child2_firstname>child2</child2_firstname>
+	<child2_lastname>test1</child2_lastname>
+	<child2grade>second</child2grade>
+	<child2birthmonth>3</child2birthmonth>
+	<child2birthyear>2013</child2birthyear>
+</testcase>
+
+<testcase id="PCOD:ParentCreation_2child_1teacher:Parent_10">
+	<teacherDir>${Parent2Child1TeacherDir}</teacherDir>
+	<teacherAssociation>10</teacherAssociation>
+	<firstname>test</firstname>
+	<lastname>test1</lastname>
+	<email>testls13</email>
+	<password>passw0rd</password>
+	<mobnumber>2222222222</mobnumber>
+	<child_firstname>child1</child_firstname>
+	<child_lastname>test1</child_lastname>
+	<child2_firstname>child2</child2_firstname>
+	<child2_lastname>test1</child2_lastname>
+	<child2grade>second</child2grade>
+	<child2birthmonth>3</child2birthmonth>
+	<child2birthyear>2013</child2birthyear>
+</testcase>
+
+<testcase id="PCOD:ParentCreation_2child_1teacher:Parent_11">
+	<teacherDir>${Parent2Child1TeacherDir}</teacherDir>
+	<teacherAssociation>11</teacherAssociation>
+	<firstname>test</firstname>
+	<lastname>test1</lastname>
+	<email>testls13</email>
+	<password>passw0rd</password>
+	<mobnumber>2222222222</mobnumber>
+	<child_firstname>child1</child_firstname>
+	<child_lastname>test1</child_lastname>
+	<child2_firstname>child2</child2_firstname>
+	<child2_lastname>test1</child2_lastname>
+	<child2grade>second</child2grade>
+	<child2birthmonth>3</child2birthmonth>
+	<child2birthyear>2013</child2birthyear>
+</testcase>
+
+<testcase id="PCOD:ParentCreation_2child_1teacher:Parent_12">
+	<teacherDir>${Parent2Child1TeacherDir}</teacherDir>
+	<teacherAssociation>12</teacherAssociation>
+	<firstname>test</firstname>
+	<lastname>test1</lastname>
+	<email>testls13</email>
+	<password>passw0rd</password>
+	<mobnumber>2222222222</mobnumber>
+	<child_firstname>child1</child_firstname>
+	<child_lastname>test1</child_lastname>
+	<child2_firstname>child2</child2_firstname>
+	<child2_lastname>test1</child2_lastname>
+	<child2grade>second</child2grade>
+	<child2birthmonth>3</child2birthmonth>
+	<child2birthyear>2013</child2birthyear>
+</testcase>
+
+<testcase id="PCOD:ParentCreation_2child_1teacher:Parent_13">
+	<teacherDir>${Parent2Child1TeacherDir}</teacherDir>
+	<teacherAssociation>13</teacherAssociation>
+	<firstname>test</firstname>
+	<lastname>test1</lastname>
+	<email>testls13</email>
+	<password>passw0rd</password>
+	<mobnumber>2222222222</mobnumber>
+	<child_firstname>child1</child_firstname>
+	<child_lastname>test1</child_lastname>
+	<child2_firstname>child2</child2_firstname>
+	<child2_lastname>test1</child2_lastname>
+	<child2grade>second</child2grade>
+	<child2birthmonth>3</child2birthmonth>
+	<child2birthyear>2013</child2birthyear>
+</testcase>
+
+<testcase id="PCOD:ParentCreation_2child_1teacher:Parent_14">
+	<teacherDir>${Parent2Child1TeacherDir}</teacherDir>
+	<teacherAssociation>14</teacherAssociation>
+	<firstname>test</firstname>
+	<lastname>test1</lastname>
+	<email>testls13</email>
+	<password>passw0rd</password>
+	<mobnumber>2222222222</mobnumber>
+	<child_firstname>child1</child_firstname>
+	<child_lastname>test1</child_lastname>
+	<child2_firstname>child2</child2_firstname>
+	<child2_lastname>test1</child2_lastname>
+	<child2grade>second</child2grade>
+	<child2birthmonth>3</child2birthmonth>
+	<child2birthyear>2013</child2birthyear>
+</testcase>
+
+<testcase id="PCOD:ParentCreation_2child_1teacher:Parent_15">
+	<teacherDir>${Parent2Child1TeacherDir}</teacherDir>
+	<teacherAssociation>15</teacherAssociation>
+	<firstname>test</firstname>
+	<lastname>test1</lastname>
+	<email>testls13</email>
+	<password>passw0rd</password>
+	<mobnumber>2222222222</mobnumber>
+	<child_firstname>child1</child_firstname>
+	<child_lastname>test1</child_lastname>
+	<child2_firstname>child2</child2_firstname>
+	<child2_lastname>test1</child2_lastname>
+	<child2grade>second</child2grade>
+	<child2birthmonth>3</child2birthmonth>
+	<child2birthyear>2013</child2birthyear>
+</testcase>
+
+<testcase id="PCOD:ParentCreation_2child_1teacher:Parent_16">
+	<teacherDir>${Parent2Child1TeacherDir}</teacherDir>
+	<teacherAssociation>16</teacherAssociation>
+	<firstname>test</firstname>
+	<lastname>test1</lastname>
+	<email>testls13</email>
+	<password>passw0rd</password>
+	<mobnumber>2222222222</mobnumber>
+	<child_firstname>child1</child_firstname>
+	<child_lastname>test1</child_lastname>
+	<child2_firstname>child2</child2_firstname>
+	<child2_lastname>test1</child2_lastname>
+	<child2grade>second</child2grade>
+	<child2birthmonth>3</child2birthmonth>
+	<child2birthyear>2013</child2birthyear>
+</testcase>
+
+<testcase id="PCOD:ParentCreation_2child_1teacher:Parent_17">
+	<teacherDir>${Parent2Child1TeacherDir}</teacherDir>
+	<teacherAssociation>17</teacherAssociation>
+	<firstname>test</firstname>
+	<lastname>test1</lastname>
+	<email>testls13</email>
+	<password>passw0rd</password>
+	<mobnumber>2222222222</mobnumber>
+	<child_firstname>child1</child_firstname>
+	<child_lastname>test1</child_lastname>
+	<child2_firstname>child2</child2_firstname>
+	<child2_lastname>test1</child2_lastname>
+	<child2grade>second</child2grade>
+	<child2birthmonth>3</child2birthmonth>
+	<child2birthyear>2013</child2birthyear>
+</testcase>
+
+<testcase id="PCOD:ParentCreation_2child_1teacher:Parent_18">
+	<teacherDir>${Parent2Child1TeacherDir}</teacherDir>
+	<teacherAssociation>18</teacherAssociation>
+	<firstname>test</firstname>
+	<lastname>test1</lastname>
+	<email>testls13</email>
+	<password>passw0rd</password>
+	<mobnumber>2222222222</mobnumber>
+	<child_firstname>child1</child_firstname>
+	<child_lastname>test1</child_lastname>
+	<child2_firstname>child2</child2_firstname>
+	<child2_lastname>test1</child2_lastname>
+	<child2grade>second</child2grade>
+	<child2birthmonth>3</child2birthmonth>
+	<child2birthyear>2013</child2birthyear>
+</testcase>
+
+<testcase id="PCOD:ParentCreation_2child_1teacher:Parent_19">
+	<teacherDir>${Parent2Child1TeacherDir}</teacherDir>
+	<teacherAssociation>19</teacherAssociation>
+	<firstname>test</firstname>
+	<lastname>test1</lastname>
+	<email>testls13</email>
+	<password>passw0rd</password>
+	<mobnumber>2222222222</mobnumber>
+	<child_firstname>child1</child_firstname>
+	<child_lastname>test1</child_lastname>
+	<child2_firstname>child2</child2_firstname>
+	<child2_lastname>test1</child2_lastname>
+	<child2grade>second</child2grade>
+	<child2birthmonth>3</child2birthmonth>
+	<child2birthyear>2013</child2birthyear>
+</testcase>
+
+<testcase id="PCOD:ParentCreation_2child_1teacher:Parent_20">
+	<teacherDir>${Parent2Child1TeacherDir}</teacherDir>
+	<teacherAssociation>20</teacherAssociation>
+	<firstname>test</firstname>
+	<lastname>test1</lastname>
+	<email>testls13</email>
+	<password>passw0rd</password>
+	<mobnumber>2222222222</mobnumber>
+	<child_firstname>child1</child_firstname>
+	<child_lastname>test1</child_lastname>
+	<child2_firstname>child2</child2_firstname>
+	<child2_lastname>test1</child2_lastname>
+	<child2grade>second</child2grade>
+	<child2birthmonth>3</child2birthmonth>
+	<child2birthyear>2013</child2birthyear>
+</testcase>
+
+<testcase id="PCOD:ParentCreation_2child_1teacher:Parent_21">
+	<teacherDir>${Parent2Child1TeacherDir}</teacherDir>
+	<teacherAssociation>21</teacherAssociation>
+	<firstname>test</firstname>
+	<lastname>test1</lastname>
+	<email>testls13</email>
+	<password>passw0rd</password>
+	<mobnumber>2222222222</mobnumber>
+	<child_firstname>child1</child_firstname>
+	<child_lastname>test1</child_lastname>
+	<child2_firstname>child2</child2_firstname>
+	<child2_lastname>test1</child2_lastname>
+	<child2grade>second</child2grade>
+	<child2birthmonth>3</child2birthmonth>
+	<child2birthyear>2013</child2birthyear>
+</testcase>
+
+<testcase id="PCOD:ParentCreation_2child_1teacher:Parent_22">
+	<teacherDir>${Parent2Child1TeacherDir}</teacherDir>
+	<teacherAssociation>22</teacherAssociation>
+	<firstname>test</firstname>
+	<lastname>test1</lastname>
+	<email>testls13</email>
+	<password>passw0rd</password>
+	<mobnumber>2222222222</mobnumber>
+	<child_firstname>child1</child_firstname>
+	<child_lastname>test1</child_lastname>
+	<child2_firstname>child2</child2_firstname>
+	<child2_lastname>test1</child2_lastname>
+	<child2grade>second</child2grade>
+	<child2birthmonth>3</child2birthmonth>
+	<child2birthyear>2013</child2birthyear>
+</testcase>
+
+<testcase id="PCOD:ParentCreation_2child_1teacher:Parent_23">
+	<teacherDir>${Parent2Child1TeacherDir}</teacherDir>
+	<teacherAssociation>23</teacherAssociation>
+	<firstname>test</firstname>
+	<lastname>test1</lastname>
+	<email>testls13</email>
+	<password>passw0rd</password>
+	<mobnumber>2222222222</mobnumber>
+	<child_firstname>child1</child_firstname>
+	<child_lastname>test1</child_lastname>
+	<child2_firstname>child2</child2_firstname>
+	<child2_lastname>test1</child2_lastname>
+	<child2grade>second</child2grade>
+	<child2birthmonth>3</child2birthmonth>
+	<child2birthyear>2013</child2birthyear>
+</testcase>
+
+<testcase id="PCOD:ParentCreation_2child_1teacher:Parent_24">
+	<teacherDir>${Parent2Child1TeacherDir}</teacherDir>
+	<teacherAssociation>24</teacherAssociation>
+	<firstname>test</firstname>
+	<lastname>test1</lastname>
+	<email>testls13</email>
+	<password>passw0rd</password>
+	<mobnumber>2222222222</mobnumber>
+	<child_firstname>child1</child_firstname>
+	<child_lastname>test1</child_lastname>
+	<child2_firstname>child2</child2_firstname>
+	<child2_lastname>test1</child2_lastname>
+	<child2grade>second</child2grade>
+	<child2birthmonth>3</child2birthmonth>
+	<child2birthyear>2013</child2birthyear>
+</testcase>
+
+<testcase id="PCOD:ParentCreation_2child_1teacher:Parent_25">
+	<teacherDir>${Parent2Child1TeacherDir}</teacherDir>
+	<teacherAssociation>25</teacherAssociation>
+	<firstname>test</firstname>
+	<lastname>test1</lastname>
+	<email>testls13</email>
+	<password>passw0rd</password>
+	<mobnumber>2222222222</mobnumber>
+	<child_firstname>child1</child_firstname>
+	<child_lastname>test1</child_lastname>
+	<child2_firstname>child2</child2_firstname>
+	<child2_lastname>test1</child2_lastname>
+	<child2grade>second</child2grade>
+	<child2birthmonth>3</child2birthmonth>
+	<child2birthyear>2013</child2birthyear>
+</testcase>
+
+<testcase id="PCOD:ParentCreation_2child_1teacher:Parent_26">
+	<teacherDir>${Parent2Child1TeacherDir}</teacherDir>
+	<teacherAssociation>26</teacherAssociation>
+	<firstname>test</firstname>
+	<lastname>test1</lastname>
+	<email>testls13</email>
+	<password>passw0rd</password>
+	<mobnumber>2222222222</mobnumber>
+	<child_firstname>child1</child_firstname>
+	<child_lastname>test1</child_lastname>
+	<child2_firstname>child2</child2_firstname>
+	<child2_lastname>test1</child2_lastname>
+	<child2grade>second</child2grade>
+	<child2birthmonth>3</child2birthmonth>
+	<child2birthyear>2013</child2birthyear>
+</testcase>
+
+<testcase id="PCOD:ParentCreation_2child_1teacher:Parent_27">
+	<teacherDir>${Parent2Child1TeacherDir}</teacherDir>
+	<teacherAssociation>27</teacherAssociation>
+	<firstname>test</firstname>
+	<lastname>test1</lastname>
+	<email>testls13</email>
+	<password>passw0rd</password>
+	<mobnumber>2222222222</mobnumber>
+	<child_firstname>child1</child_firstname>
+	<child_lastname>test1</child_lastname>
+	<child2_firstname>child2</child2_firstname>
+	<child2_lastname>test1</child2_lastname>
+	<child2grade>second</child2grade>
+	<child2birthmonth>3</child2birthmonth>
+	<child2birthyear>2013</child2birthyear>
+</testcase>
+
+<testcase id="PCOD:ParentCreation_2child_1teacher:Parent_28">
+	<teacherDir>${Parent2Child1TeacherDir}</teacherDir>
+	<teacherAssociation>28</teacherAssociation>
+	<firstname>test</firstname>
+	<lastname>test1</lastname>
+	<email>testls13</email>
+	<password>passw0rd</password>
+	<mobnumber>2222222222</mobnumber>
+	<child_firstname>child1</child_firstname>
+	<child_lastname>test1</child_lastname>
+	<child2_firstname>child2</child2_firstname>
+	<child2_lastname>test1</child2_lastname>
+	<child2grade>second</child2grade>
+	<child2birthmonth>3</child2birthmonth>
+	<child2birthyear>2013</child2birthyear>
+</testcase>
+
+<testcase id="PCOD:ParentCreation_2child_1teacher:Parent_29">
+	<teacherDir>${Parent2Child1TeacherDir}</teacherDir>
+	<teacherAssociation>29</teacherAssociation>
+	<firstname>test</firstname>
+	<lastname>test1</lastname>
+	<email>testls13</email>
+	<password>passw0rd</password>
+	<mobnumber>2222222222</mobnumber>
+	<child_firstname>child1</child_firstname>
+	<child_lastname>test1</child_lastname>
+	<child2_firstname>child2</child2_firstname>
+	<child2_lastname>test1</child2_lastname>
+	<child2grade>second</child2grade>
+	<child2birthmonth>3</child2birthmonth>
+	<child2birthyear>2013</child2birthyear>
+</testcase>
+
+<testcase id="PCOD:ParentCreation_2child_1teacher:Parent_30">
+	<teacherDir>${Parent2Child1TeacherDir}</teacherDir>
+	<teacherAssociation>30</teacherAssociation>
+	<firstname>test</firstname>
+	<lastname>test1</lastname>
+	<email>testls13</email>
+	<password>passw0rd</password>
+	<mobnumber>2222222222</mobnumber>
+	<child_firstname>child1</child_firstname>
+	<child_lastname>test1</child_lastname>
+	<child2_firstname>child2</child2_firstname>
+	<child2_lastname>test1</child2_lastname>
+	<child2grade>second</child2grade>
+	<child2birthmonth>3</child2birthmonth>
+	<child2birthyear>2013</child2birthyear>
+</testcase>
+
+<testcase id="PCOD:ParentCreation_2child_1teacher:Parent_31">
+	<teacherDir>${Parent2Child1TeacherDir}</teacherDir>
+	<teacherAssociation>31</teacherAssociation>
+	<firstname>test</firstname>
+	<lastname>test1</lastname>
+	<email>testls13</email>
+	<password>passw0rd</password>
+	<mobnumber>2222222222</mobnumber>
+	<child_firstname>child1</child_firstname>
+	<child_lastname>test1</child_lastname>
+	<child2_firstname>child2</child2_firstname>
+	<child2_lastname>test1</child2_lastname>
+	<child2grade>second</child2grade>
+	<child2birthmonth>3</child2birthmonth>
+	<child2birthyear>2013</child2birthyear>
+</testcase>
+
+<testcase id="PCOD:ParentCreation_2child_1teacher:Parent_32">
+	<teacherDir>${Parent2Child1TeacherDir}</teacherDir>
+	<teacherAssociation>32</teacherAssociation>
+	<firstname>test</firstname>
+	<lastname>test1</lastname>
+	<email>testls13</email>
+	<password>passw0rd</password>
+	<mobnumber>2222222222</mobnumber>
+	<child_firstname>child1</child_firstname>
+	<child_lastname>test1</child_lastname>
+	<child2_firstname>child2</child2_firstname>
+	<child2_lastname>test1</child2_lastname>
+	<child2grade>second</child2grade>
+	<child2birthmonth>3</child2birthmonth>
+	<child2birthyear>2013</child2birthyear>
+</testcase>
+
+<testcase id="PCOD:ParentCreation_2child_1teacher:Parent_33">
+	<teacherDir>${Parent2Child1TeacherDir}</teacherDir>
+	<teacherAssociation>33</teacherAssociation>
+	<firstname>test</firstname>
+	<lastname>test1</lastname>
+	<email>testls13</email>
+	<password>passw0rd</password>
+	<mobnumber>2222222222</mobnumber>
+	<child_firstname>child1</child_firstname>
+	<child_lastname>test1</child_lastname>
+	<child2_firstname>child2</child2_firstname>
+	<child2_lastname>test1</child2_lastname>
+	<child2grade>second</child2grade>
+	<child2birthmonth>3</child2birthmonth>
+	<child2birthyear>2013</child2birthyear>
+</testcase>
+
+<testcase id="PCOD:ParentCreation_2child_1teacher:Parent_34">
+	<teacherDir>${Parent2Child1TeacherDir}</teacherDir>
+	<teacherAssociation>34</teacherAssociation>
+	<firstname>test</firstname>
+	<lastname>test1</lastname>
+	<email>testls13</email>
+	<password>passw0rd</password>
+	<mobnumber>2222222222</mobnumber>
+	<child_firstname>child1</child_firstname>
+	<child_lastname>test1</child_lastname>
+	<child2_firstname>child2</child2_firstname>
+	<child2_lastname>test1</child2_lastname>
+	<child2grade>second</child2grade>
+	<child2birthmonth>3</child2birthmonth>
+	<child2birthyear>2013</child2birthyear>
+</testcase>
+
+<testcase id="PCOD:ParentCreation_2child_1teacher:Parent_35">
+	<teacherDir>${Parent2Child1TeacherDir}</teacherDir>
+	<teacherAssociation>35</teacherAssociation>
+	<firstname>test</firstname>
+	<lastname>test1</lastname>
+	<email>testls13</email>
+	<password>passw0rd</password>
+	<mobnumber>2222222222</mobnumber>
+	<child_firstname>child1</child_firstname>
+	<child_lastname>test1</child_lastname>
+	<child2_firstname>child2</child2_firstname>
+	<child2_lastname>test1</child2_lastname>
+	<child2grade>second</child2grade>
+	<child2birthmonth>3</child2birthmonth>
+	<child2birthyear>2013</child2birthyear>
+</testcase>
+
+<testcase id="PCOD:ParentCreation_2child_1teacher:Parent_36">
+	<teacherDir>${Parent2Child1TeacherDir}</teacherDir>
+	<teacherAssociation>36</teacherAssociation>
+	<firstname>test</firstname>
+	<lastname>test1</lastname>
+	<email>testls13</email>
+	<password>passw0rd</password>
+	<mobnumber>2222222222</mobnumber>
+	<child_firstname>child1</child_firstname>
+	<child_lastname>test1</child_lastname>
+	<child2_firstname>child2</child2_firstname>
+	<child2_lastname>test1</child2_lastname>
+	<child2grade>second</child2grade>
+	<child2birthmonth>3</child2birthmonth>
+	<child2birthyear>2013</child2birthyear>
+</testcase>
+
+<testcase id="PCOD:ParentCreation_2child_1teacher:Parent_37">
+	<teacherDir>${Parent2Child1TeacherDir}</teacherDir>
+	<teacherAssociation>37</teacherAssociation>
+	<firstname>test</firstname>
+	<lastname>test1</lastname>
+	<email>testls13</email>
+	<password>passw0rd</password>
+	<mobnumber>2222222222</mobnumber>
+	<child_firstname>child1</child_firstname>
+	<child_lastname>test1</child_lastname>
+	<child2_firstname>child2</child2_firstname>
+	<child2_lastname>test1</child2_lastname>
+	<child2grade>second</child2grade>
+	<child2birthmonth>3</child2birthmonth>
+	<child2birthyear>2013</child2birthyear>
+</testcase>
+
+<testcase id="PCOD:ParentCreation_2child_1teacher:Parent_38">
+	<teacherDir>${Parent2Child1TeacherDir}</teacherDir>
+	<teacherAssociation>38</teacherAssociation>
+	<firstname>test</firstname>
+	<lastname>test1</lastname>
+	<email>testls13</email>
+	<password>passw0rd</password>
+	<mobnumber>2222222222</mobnumber>
+	<child_firstname>child1</child_firstname>
+	<child_lastname>test1</child_lastname>
+	<child2_firstname>child2</child2_firstname>
+	<child2_lastname>test1</child2_lastname>
+	<child2grade>second</child2grade>
+	<child2birthmonth>3</child2birthmonth>
+	<child2birthyear>2013</child2birthyear>
+</testcase>
+
+<testcase id="PCOD:ParentCreation_2child_1teacher:Parent_39">
+	<teacherDir>${Parent2Child1TeacherDir}</teacherDir>
+	<teacherAssociation>39</teacherAssociation>
+	<firstname>test</firstname>
+	<lastname>test1</lastname>
+	<email>testls13</email>
+	<password>passw0rd</password>
+	<mobnumber>2222222222</mobnumber>
+	<child_firstname>child1</child_firstname>
+	<child_lastname>test1</child_lastname>
+	<child2_firstname>child2</child2_firstname>
+	<child2_lastname>test1</child2_lastname>
+	<child2grade>second</child2grade>
+	<child2birthmonth>3</child2birthmonth>
+	<child2birthyear>2013</child2birthyear>
+</testcase>
+
+<testcase id="PCOD:ParentCreation_2child_1teacher:Parent_40">
+	<teacherDir>${Parent2Child1TeacherDir}</teacherDir>
+	<teacherAssociation>40</teacherAssociation>
+	<firstname>test</firstname>
+	<lastname>test1</lastname>
+	<email>testls13</email>
+	<password>passw0rd</password>
+	<mobnumber>2222222222</mobnumber>
+	<child_firstname>child1</child_firstname>
+	<child_lastname>test1</child_lastname>
+	<child2_firstname>child2</child2_firstname>
+	<child2_lastname>test1</child2_lastname>
+	<child2grade>second</child2grade>
+	<child2birthmonth>3</child2birthmonth>
+	<child2birthyear>2013</child2birthyear>
+</testcase>
+
+<testcase id="PCOD:ParentCreation_2child_1teacher:Parent_41">
+	<teacherDir>${Parent2Child1TeacherDir}</teacherDir>
+	<teacherAssociation>41</teacherAssociation>
+	<firstname>test</firstname>
+	<lastname>test1</lastname>
+	<email>testls13</email>
+	<password>passw0rd</password>
+	<mobnumber>2222222222</mobnumber>
+	<child_firstname>child1</child_firstname>
+	<child_lastname>test1</child_lastname>
+	<child2_firstname>child2</child2_firstname>
+	<child2_lastname>test1</child2_lastname>
+	<child2grade>second</child2grade>
+	<child2birthmonth>3</child2birthmonth>
+	<child2birthyear>2013</child2birthyear>
+</testcase>
+
+<testcase id="PCOD:ParentCreation_2child_1teacher:Parent_42">
+	<teacherDir>${Parent2Child1TeacherDir}</teacherDir>
+	<teacherAssociation>42</teacherAssociation>
+	<firstname>test</firstname>
+	<lastname>test1</lastname>
+	<email>testls13</email>
+	<password>passw0rd</password>
+	<mobnumber>2222222222</mobnumber>
+	<child_firstname>child1</child_firstname>
+	<child_lastname>test1</child_lastname>
+	<child2_firstname>child2</child2_firstname>
+	<child2_lastname>test1</child2_lastname>
+	<child2grade>second</child2grade>
+	<child2birthmonth>3</child2birthmonth>
+	<child2birthyear>2013</child2birthyear>
+</testcase>
+
+<testcase id="PCOD:ParentCreation_2child_1teacher:Parent_43">
+	<teacherDir>${Parent2Child1TeacherDir}</teacherDir>
+	<teacherAssociation>43</teacherAssociation>
+	<firstname>test</firstname>
+	<lastname>test1</lastname>
+	<email>testls13</email>
+	<password>passw0rd</password>
+	<mobnumber>2222222222</mobnumber>
+	<child_firstname>child1</child_firstname>
+	<child_lastname>test1</child_lastname>
+	<child2_firstname>child2</child2_firstname>
+	<child2_lastname>test1</child2_lastname>
+	<child2grade>second</child2grade>
+	<child2birthmonth>3</child2birthmonth>
+	<child2birthyear>2013</child2birthyear>
+</testcase>
+
+<testcase id="PCOD:ParentCreation_2child_1teacher:Parent_44">
+	<teacherDir>${Parent2Child1TeacherDir}</teacherDir>
+	<teacherAssociation>44</teacherAssociation>
+	<firstname>test</firstname>
+	<lastname>test1</lastname>
+	<email>testls13</email>
+	<password>passw0rd</password>
+	<mobnumber>2222222222</mobnumber>
+	<child_firstname>child1</child_firstname>
+	<child_lastname>test1</child_lastname>
+	<child2_firstname>child2</child2_firstname>
+	<child2_lastname>test1</child2_lastname>
+	<child2grade>second</child2grade>
+	<child2birthmonth>3</child2birthmonth>
+	<child2birthyear>2013</child2birthyear>
+</testcase>
+
+<testcase id="PCOD:ParentCreation_2child_1teacher:Parent_45">
+	<teacherDir>${Parent2Child1TeacherDir}</teacherDir>
+	<teacherAssociation>45</teacherAssociation>
+	<firstname>test</firstname>
+	<lastname>test1</lastname>
+	<email>testls13</email>
+	<password>passw0rd</password>
+	<mobnumber>2222222222</mobnumber>
+	<child_firstname>child1</child_firstname>
+	<child_lastname>test1</child_lastname>
+	<child2_firstname>child2</child2_firstname>
+	<child2_lastname>test1</child2_lastname>
+	<child2grade>second</child2grade>
+	<child2birthmonth>3</child2birthmonth>
+	<child2birthyear>2013</child2birthyear>
+</testcase>
+
+<testcase id="PCOD:ParentCreation_2child_1teacher:Parent_46">
+	<teacherDir>${Parent2Child1TeacherDir}</teacherDir>
+	<teacherAssociation>46</teacherAssociation>
+	<firstname>test</firstname>
+	<lastname>test1</lastname>
+	<email>testls13</email>
+	<password>passw0rd</password>
+	<mobnumber>2222222222</mobnumber>
+	<child_firstname>child1</child_firstname>
+	<child_lastname>test1</child_lastname>
+	<child2_firstname>child2</child2_firstname>
+	<child2_lastname>test1</child2_lastname>
+	<child2grade>second</child2grade>
+	<child2birthmonth>3</child2birthmonth>
+	<child2birthyear>2013</child2birthyear>
+</testcase>
+
+<testcase id="PCOD:ParentCreation_2child_1teacher:Parent_47">
+	<teacherDir>${Parent2Child1TeacherDir}</teacherDir>
+	<teacherAssociation>47</teacherAssociation>
+	<firstname>test</firstname>
+	<lastname>test1</lastname>
+	<email>testls13</email>
+	<password>passw0rd</password>
+	<mobnumber>2222222222</mobnumber>
+	<child_firstname>child1</child_firstname>
+	<child_lastname>test1</child_lastname>
+	<child2_firstname>child2</child2_firstname>
+	<child2_lastname>test1</child2_lastname>
+	<child2grade>second</child2grade>
+	<child2birthmonth>3</child2birthmonth>
+	<child2birthyear>2013</child2birthyear>
+</testcase>
+
+<testcase id="PCOD:ParentCreation_2child_1teacher:Parent_48">
+	<teacherDir>${Parent2Child1TeacherDir}</teacherDir>
+	<teacherAssociation>48</teacherAssociation>
+	<firstname>test</firstname>
+	<lastname>test1</lastname>
+	<email>testls13</email>
+	<password>passw0rd</password>
+	<mobnumber>2222222222</mobnumber>
+	<child_firstname>child1</child_firstname>
+	<child_lastname>test1</child_lastname>
+	<child2_firstname>child2</child2_firstname>
+	<child2_lastname>test1</child2_lastname>
+	<child2grade>second</child2grade>
+	<child2birthmonth>3</child2birthmonth>
+	<child2birthyear>2013</child2birthyear>
+</testcase>
+
+<testcase id="PCOD:ParentCreation_2child_1teacher:Parent_49">
+	<teacherDir>${Parent2Child1TeacherDir}</teacherDir>
+	<teacherAssociation>49</teacherAssociation>
+	<firstname>test</firstname>
+	<lastname>test1</lastname>
+	<email>testls13</email>
+	<password>passw0rd</password>
+	<mobnumber>2222222222</mobnumber>
+	<child_firstname>child1</child_firstname>
+	<child_lastname>test1</child_lastname>
+	<child2_firstname>child2</child2_firstname>
+	<child2_lastname>test1</child2_lastname>
+	<child2grade>second</child2grade>
+	<child2birthmonth>3</child2birthmonth>
+	<child2birthyear>2013</child2birthyear>
+</testcase>
+
+<testcase id="PCOD:ParentCreation_2child_1teacher:Parent_50">
+	<teacherDir>${Parent2Child1TeacherDir}</teacherDir>
+	<teacherAssociation>50</teacherAssociation>
+	<firstname>test</firstname>
+	<lastname>test1</lastname>
+	<email>testls13</email>
+	<password>passw0rd</password>
+	<mobnumber>2222222222</mobnumber>
+	<child_firstname>child1</child_firstname>
+	<child_lastname>test1</child_lastname>
+	<child2_firstname>child2</child2_firstname>
+	<child2_lastname>test1</child2_lastname>
+	<child2grade>second</child2grade>
+	<child2birthmonth>3</child2birthmonth>
+	<child2birthyear>2013</child2birthyear>
+</testcase>
+
+<testcase id="PCOD:ParentCreation_2child_1teacher">
+<cac_no>NNNNN</cac_no>
+<firstname>test</firstname>
+<lastname>test1</lastname>
+<email>testls13</email>
+<password>passw0rd</password>
+<mobnumber>2222222222</mobnumber>
+<child_firstname>test</child_firstname>
+<child_lastname>schl</child_lastname>
+<cacno2>NNNNN</cacno2>
+<child2_firstname>test</child2_firstname>
+<child2_lastname>test2</child2_lastname>
+<child2grade>second</child2grade>
+<child2birthmonth>3</child2birthmonth>
+<child2birthyear>2013</child2birthyear>
+</testcase>
+
+<!-- #############################################################################################################################################    
+##################################################################################################################################################    
+###########################################   							             	 #########################################################   
+###########################################   		   1 PARENT - 2 CHILDREN - 2 TEACHER #########################################################
+###########################################   							            	 #########################################################        
+##################################################################################################################################################        
+################################################################################################################################################## -->
+<testcase id="PCOD:ParentCreation_2child_2teacher:Parent_01">
+	<teacherDir>${Parent2Child2TeacherDir}</teacherDir>
+	<teacherAssociation1>1</teacherAssociation1>
+	<teacherAssociation2>2</teacherAssociation2>
+	<firstname>test</firstname>
+	<lastname>test1</lastname>
+	<email>testls13</email>
+	<password>passw0rd</password>
+	<mobnumber>2222222222</mobnumber>
+	<child_firstname>child1</child_firstname>
+	<child_lastname>test1</child_lastname>
+	<child2_firstname>child2</child2_firstname>
+	<child2_lastname>test1</child2_lastname>
+	<child2grade>second</child2grade>
+	<child2birthmonth>3</child2birthmonth>
+	<child2birthyear>2013</child2birthyear>
+</testcase>
+
+<testcase id="PCOD:ParentCreation_2child_2teacher:Parent_02">
+	<teacherDir>${Parent2Child2TeacherDir}</teacherDir>
+	<teacherAssociation1>3</teacherAssociation1>
+	<teacherAssociation2>4</teacherAssociation2>
+	<firstname>test</firstname>
+	<lastname>test1</lastname>
+	<email>testls13</email>
+	<password>passw0rd</password>
+	<mobnumber>2222222222</mobnumber>
+	<child_firstname>child1</child_firstname>
+	<child_lastname>test1</child_lastname>
+	<child2_firstname>child2</child2_firstname>
+	<child2_lastname>test1</child2_lastname>
+	<child2grade>second</child2grade>
+	<child2birthmonth>3</child2birthmonth>
+	<child2birthyear>2013</child2birthyear>
+</testcase>
+
+<testcase id="PCOD:ParentCreation_2child_2teacher:Parent_03">
+	<teacherDir>${Parent2Child2TeacherDir}</teacherDir>
+	<teacherAssociation1>5</teacherAssociation1>
+	<teacherAssociation2>6</teacherAssociation2>
+	<firstname>test</firstname>
+	<lastname>test1</lastname>
+	<email>testls13</email>
+	<password>passw0rd</password>
+	<mobnumber>2222222222</mobnumber>
+	<child_firstname>child1</child_firstname>
+	<child_lastname>test1</child_lastname>
+	<child2_firstname>child2</child2_firstname>
+	<child2_lastname>test1</child2_lastname>
+	<child2grade>second</child2grade>
+	<child2birthmonth>3</child2birthmonth>
+	<child2birthyear>2013</child2birthyear>
+</testcase>
+
+<testcase id="PCOD:ParentCreation_2child_2teacher:Parent_04">
+	<teacherDir>${Parent2Child2TeacherDir}</teacherDir>
+	<teacherAssociation1>7</teacherAssociation1>
+	<teacherAssociation2>8</teacherAssociation2>
+	<firstname>test</firstname>
+	<lastname>test1</lastname>
+	<email>testls13</email>
+	<password>passw0rd</password>
+	<mobnumber>2222222222</mobnumber>
+	<child_firstname>child1</child_firstname>
+	<child_lastname>test1</child_lastname>
+	<child2_firstname>child2</child2_firstname>
+	<child2_lastname>test1</child2_lastname>
+	<child2grade>second</child2grade>
+	<child2birthmonth>3</child2birthmonth>
+	<child2birthyear>2013</child2birthyear>
+</testcase>
+
+<testcase id="PCOD:ParentCreation_2child_2teacher:Parent_05">
+	<teacherDir>${Parent2Child2TeacherDir}</teacherDir>
+	<teacherAssociation1>9</teacherAssociation1>
+	<teacherAssociation2>10</teacherAssociation2>
+	<firstname>test</firstname>
+	<lastname>test1</lastname>
+	<email>testls13</email>
+	<password>passw0rd</password>
+	<mobnumber>2222222222</mobnumber>
+	<child_firstname>child1</child_firstname>
+	<child_lastname>test1</child_lastname>
+	<child2_firstname>child2</child2_firstname>
+	<child2_lastname>test1</child2_lastname>
+	<child2grade>second</child2grade>
+	<child2birthmonth>3</child2birthmonth>
+	<child2birthyear>2013</child2birthyear>
+</testcase>
+
+<testcase id="PCOD:ParentCreation_2child_2teacher:Parent_06">
+	<teacherDir>${Parent2Child2TeacherDir}</teacherDir>
+	<teacherAssociation1>11</teacherAssociation1>
+	<teacherAssociation2>12</teacherAssociation2>
+	<teacherAssociation>6</teacherAssociation>
+	<firstname>test</firstname>
+	<lastname>test1</lastname>
+	<email>testls13</email>
+	<password>passw0rd</password>
+	<mobnumber>2222222222</mobnumber>
+	<child_firstname>child1</child_firstname>
+	<child_lastname>test1</child_lastname>
+	<child2_firstname>child2</child2_firstname>
+	<child2_lastname>test1</child2_lastname>
+	<child2grade>second</child2grade>
+	<child2birthmonth>3</child2birthmonth>
+	<child2birthyear>2013</child2birthyear>
+</testcase>
+
+<testcase id="PCOD:ParentCreation_2child_2teacher:Parent_07">
+	<teacherDir>${Parent2Child2TeacherDir}</teacherDir>
+	<teacherAssociation1>13</teacherAssociation1>
+	<teacherAssociation2>14</teacherAssociation2>
+	<firstname>test</firstname>
+	<lastname>test1</lastname>
+	<email>testls13</email>
+	<password>passw0rd</password>
+	<mobnumber>2222222222</mobnumber>
+	<child_firstname>child1</child_firstname>
+	<child_lastname>test1</child_lastname>
+	<child2_firstname>child2</child2_firstname>
+	<child2_lastname>test1</child2_lastname>
+	<child2grade>second</child2grade>
+	<child2birthmonth>3</child2birthmonth>
+	<child2birthyear>2013</child2birthyear>
+</testcase>
+
+<testcase id="PCOD:ParentCreation_2child_2teacher:Parent_08">
+	<teacherDir>${Parent2Child2TeacherDir}</teacherDir>
+	<teacherAssociation1>15</teacherAssociation1>
+	<teacherAssociation2>16</teacherAssociation2>
+	<firstname>test</firstname>
+	<lastname>test1</lastname>
+	<email>testls13</email>
+	<password>passw0rd</password>
+	<mobnumber>2222222222</mobnumber>
+	<child_firstname>child1</child_firstname>
+	<child_lastname>test1</child_lastname>
+	<child2_firstname>child2</child2_firstname>
+	<child2_lastname>test1</child2_lastname>
+	<child2grade>second</child2grade>
+	<child2birthmonth>3</child2birthmonth>
+	<child2birthyear>2013</child2birthyear>
+</testcase>
+
+<testcase id="PCOD:ParentCreation_2child_2teacher:Parent_09">
+	<teacherDir>${Parent2Child2TeacherDir}</teacherDir>
+	<teacherAssociation1>17</teacherAssociation1>
+	<teacherAssociation2>18</teacherAssociation2>
+	<firstname>test</firstname>
+	<lastname>test1</lastname>
+	<email>testls13</email>
+	<password>passw0rd</password>
+	<mobnumber>2222222222</mobnumber>
+	<child_firstname>child1</child_firstname>
+	<child_lastname>test1</child_lastname>
+	<child2_firstname>child2</child2_firstname>
+	<child2_lastname>test1</child2_lastname>
+	<child2grade>second</child2grade>
+	<child2birthmonth>3</child2birthmonth>
+	<child2birthyear>2013</child2birthyear>
+</testcase>
+
+<testcase id="PCOD:ParentCreation_2child_2teacher:Parent_10">
+	<teacherDir>${Parent2Child2TeacherDir}</teacherDir>
+	<teacherAssociation1>19</teacherAssociation1>
+	<teacherAssociation2>20</teacherAssociation2>
+	<firstname>test</firstname>
+	<lastname>test1</lastname>
+	<email>testls13</email>
+	<password>passw0rd</password>
+	<mobnumber>2222222222</mobnumber>
+	<child_firstname>child1</child_firstname>
+	<child_lastname>test1</child_lastname>
+	<child2_firstname>child2</child2_firstname>
+	<child2_lastname>test1</child2_lastname>
+	<child2grade>second</child2grade>
+	<child2birthmonth>3</child2birthmonth>
+	<child2birthyear>2013</child2birthyear>
+</testcase>
+
+<testcase id="PCOD:ParentCreation_2child_2teacher:Parent_11">
+	<teacherDir>${Parent2Child2TeacherDir}</teacherDir>
+	<teacherAssociation1>21</teacherAssociation1>
+	<teacherAssociation2>22</teacherAssociation2>
+	<firstname>test</firstname>
+	<lastname>test1</lastname>
+	<email>testls13</email>
+	<password>passw0rd</password>
+	<mobnumber>2222222222</mobnumber>
+	<child_firstname>child1</child_firstname>
+	<child_lastname>test1</child_lastname>
+	<child2_firstname>child2</child2_firstname>
+	<child2_lastname>test1</child2_lastname>
+	<child2grade>second</child2grade>
+	<child2birthmonth>3</child2birthmonth>
+	<child2birthyear>2013</child2birthyear>
+</testcase>
+
+<testcase id="PCOD:ParentCreation_2child_2teacher:Parent_12">
+	<teacherDir>${Parent2Child2TeacherDir}</teacherDir>
+	<teacherAssociation1>23</teacherAssociation1>
+	<teacherAssociation2>24</teacherAssociation2>
+	<firstname>test</firstname>
+	<lastname>test1</lastname>
+	<email>testls13</email>
+	<password>passw0rd</password>
+	<mobnumber>2222222222</mobnumber>
+	<child_firstname>child1</child_firstname>
+	<child_lastname>test1</child_lastname>
+	<child2_firstname>child2</child2_firstname>
+	<child2_lastname>test1</child2_lastname>
+	<child2grade>second</child2grade>
+	<child2birthmonth>3</child2birthmonth>
+	<child2birthyear>2013</child2birthyear>
+</testcase>
+
+<testcase id="PCOD:ParentCreation_2child_2teacher:Parent_13">
+	<teacherDir>${Parent2Child2TeacherDir}</teacherDir>
+	<teacherAssociation1>25</teacherAssociation1>
+	<teacherAssociation2>26</teacherAssociation2>
+	<firstname>test</firstname>
+	<lastname>test1</lastname>
+	<email>testls13</email>
+	<password>passw0rd</password>
+	<mobnumber>2222222222</mobnumber>
+	<child_firstname>child1</child_firstname>
+	<child_lastname>test1</child_lastname>
+	<child2_firstname>child2</child2_firstname>
+	<child2_lastname>test1</child2_lastname>
+	<child2grade>second</child2grade>
+	<child2birthmonth>3</child2birthmonth>
+	<child2birthyear>2013</child2birthyear>
+</testcase>
+
+<testcase id="PCOD:ParentCreation_2child_2teacher:Parent_14">
+	<teacherDir>${Parent2Child2TeacherDir}</teacherDir>
+	<teacherAssociation1>27</teacherAssociation1>
+	<teacherAssociation2>28</teacherAssociation2>
+	<firstname>test</firstname>
+	<lastname>test1</lastname>
+	<email>testls13</email>
+	<password>passw0rd</password>
+	<mobnumber>2222222222</mobnumber>
+	<child_firstname>child1</child_firstname>
+	<child_lastname>test1</child_lastname>
+	<child2_firstname>child2</child2_firstname>
+	<child2_lastname>test1</child2_lastname>
+	<child2grade>second</child2grade>
+	<child2birthmonth>3</child2birthmonth>
+	<child2birthyear>2013</child2birthyear>
+</testcase>
+
+<testcase id="PCOD:ParentCreation_2child_2teacher:Parent_15">
+	<teacherDir>${Parent2Child2TeacherDir}</teacherDir>
+	<teacherAssociation1>29</teacherAssociation1>
+	<teacherAssociation2>30</teacherAssociation2>
+	<firstname>test</firstname>
+	<lastname>test1</lastname>
+	<email>testls13</email>
+	<password>passw0rd</password>
+	<mobnumber>2222222222</mobnumber>
+	<child_firstname>child1</child_firstname>
+	<child_lastname>test1</child_lastname>
+	<child2_firstname>child2</child2_firstname>
+	<child2_lastname>test1</child2_lastname>
+	<child2grade>second</child2grade>
+	<child2birthmonth>3</child2birthmonth>
+	<child2birthyear>2013</child2birthyear>
+</testcase>
+
+<testcase id="PCOD:ParentCreation_2child_2teacher:Parent_16">
+	<teacherDir>${Parent2Child2TeacherDir}</teacherDir>
+	<teacherAssociation1>31</teacherAssociation1>
+	<teacherAssociation2>32</teacherAssociation2>
+	<teacherAssociation>6</teacherAssociation>
+	<firstname>test</firstname>
+	<lastname>test1</lastname>
+	<email>testls13</email>
+	<password>passw0rd</password>
+	<mobnumber>2222222222</mobnumber>
+	<child_firstname>child1</child_firstname>
+	<child_lastname>test1</child_lastname>
+	<child2_firstname>child2</child2_firstname>
+	<child2_lastname>test1</child2_lastname>
+	<child2grade>second</child2grade>
+	<child2birthmonth>3</child2birthmonth>
+	<child2birthyear>2013</child2birthyear>
+</testcase>
+
+<testcase id="PCOD:ParentCreation_2child_2teacher:Parent_17">
+	<teacherDir>${Parent2Child2TeacherDir}</teacherDir>
+	<teacherAssociation1>33</teacherAssociation1>
+	<teacherAssociation2>34</teacherAssociation2>
+	<firstname>test</firstname>
+	<lastname>test1</lastname>
+	<email>testls13</email>
+	<password>passw0rd</password>
+	<mobnumber>2222222222</mobnumber>
+	<child_firstname>child1</child_firstname>
+	<child_lastname>test1</child_lastname>
+	<child2_firstname>child2</child2_firstname>
+	<child2_lastname>test1</child2_lastname>
+	<child2grade>second</child2grade>
+	<child2birthmonth>3</child2birthmonth>
+	<child2birthyear>2013</child2birthyear>
+</testcase>
+
+<testcase id="PCOD:ParentCreation_2child_2teacher:Parent_18">
+	<teacherDir>${Parent2Child2TeacherDir}</teacherDir>
+	<teacherAssociation1>35</teacherAssociation1>
+	<teacherAssociation2>36</teacherAssociation2>
+	<firstname>test</firstname>
+	<lastname>test1</lastname>
+	<email>testls13</email>
+	<password>passw0rd</password>
+	<mobnumber>2222222222</mobnumber>
+	<child_firstname>child1</child_firstname>
+	<child_lastname>test1</child_lastname>
+	<child2_firstname>child2</child2_firstname>
+	<child2_lastname>test1</child2_lastname>
+	<child2grade>second</child2grade>
+	<child2birthmonth>3</child2birthmonth>
+	<child2birthyear>2013</child2birthyear>
+</testcase>
+
+<testcase id="PCOD:ParentCreation_2child_2teacher:Parent_19">
+	<teacherDir>${Parent2Child2TeacherDir}</teacherDir>
+	<teacherAssociation1>37</teacherAssociation1>
+	<teacherAssociation2>38</teacherAssociation2>
+	<firstname>test</firstname>
+	<lastname>test1</lastname>
+	<email>testls13</email>
+	<password>passw0rd</password>
+	<mobnumber>2222222222</mobnumber>
+	<child_firstname>child1</child_firstname>
+	<child_lastname>test1</child_lastname>
+	<child2_firstname>child2</child2_firstname>
+	<child2_lastname>test1</child2_lastname>
+	<child2grade>second</child2grade>
+	<child2birthmonth>3</child2birthmonth>
+	<child2birthyear>2013</child2birthyear>
+</testcase>
+
+<testcase id="PCOD:ParentCreation_2child_2teacher:Parent_20">
+	<teacherDir>${Parent2Child2TeacherDir}</teacherDir>
+	<teacherAssociation1>39</teacherAssociation1>
+	<teacherAssociation2>40</teacherAssociation2>
+	<firstname>test</firstname>
+	<lastname>test1</lastname>
+	<email>testls13</email>
+	<password>passw0rd</password>
+	<mobnumber>2222222222</mobnumber>
+	<child_firstname>child1</child_firstname>
+	<child_lastname>test1</child_lastname>
+	<child2_firstname>child2</child2_firstname>
+	<child2_lastname>test1</child2_lastname>
+	<child2grade>second</child2grade>
+	<child2birthmonth>3</child2birthmonth>
+	<child2birthyear>2013</child2birthyear>
+</testcase>
+
+<testcase id="PCOD:ParentCreation_2child_2teacher:Parent_21">
+	<teacherDir>${Parent2Child2TeacherDir}</teacherDir>
+	<teacherAssociation1>41</teacherAssociation1>
+	<teacherAssociation2>42</teacherAssociation2>
+	<firstname>test</firstname>
+	<lastname>test1</lastname>
+	<email>testls13</email>
+	<password>passw0rd</password>
+	<mobnumber>2222222222</mobnumber>
+	<child_firstname>child1</child_firstname>
+	<child_lastname>test1</child_lastname>
+	<child2_firstname>child2</child2_firstname>
+	<child2_lastname>test1</child2_lastname>
+	<child2grade>second</child2grade>
+	<child2birthmonth>3</child2birthmonth>
+	<child2birthyear>2013</child2birthyear>
+</testcase>
+
+<testcase id="PCOD:ParentCreation_2child_2teacher:Parent_22">
+	<teacherDir>${Parent2Child2TeacherDir}</teacherDir>
+	<teacherAssociation1>43</teacherAssociation1>
+	<teacherAssociation2>44</teacherAssociation2>
+	<firstname>test</firstname>
+	<lastname>test1</lastname>
+	<email>testls13</email>
+	<password>passw0rd</password>
+	<mobnumber>2222222222</mobnumber>
+	<child_firstname>child1</child_firstname>
+	<child_lastname>test1</child_lastname>
+	<child2_firstname>child2</child2_firstname>
+	<child2_lastname>test1</child2_lastname>
+	<child2grade>second</child2grade>
+	<child2birthmonth>3</child2birthmonth>
+	<child2birthyear>2013</child2birthyear>
+</testcase>
+
+<testcase id="PCOD:ParentCreation_2child_2teacher:Parent_23">
+	<teacherDir>${Parent2Child2TeacherDir}</teacherDir>
+	<teacherAssociation1>45</teacherAssociation1>
+	<teacherAssociation2>46</teacherAssociation2>
+	<firstname>test</firstname>
+	<lastname>test1</lastname>
+	<email>testls13</email>
+	<password>passw0rd</password>
+	<mobnumber>2222222222</mobnumber>
+	<child_firstname>child1</child_firstname>
+	<child_lastname>test1</child_lastname>
+	<child2_firstname>child2</child2_firstname>
+	<child2_lastname>test1</child2_lastname>
+	<child2grade>second</child2grade>
+	<child2birthmonth>3</child2birthmonth>
+	<child2birthyear>2013</child2birthyear>
+</testcase>
+
+<testcase id="PCOD:ParentCreation_2child_2teacher:Parent_24">
+	<teacherDir>${Parent2Child2TeacherDir}</teacherDir>
+	<teacherAssociation1>47</teacherAssociation1>
+	<teacherAssociation2>48</teacherAssociation2>
+	<firstname>test</firstname>
+	<lastname>test1</lastname>
+	<email>testls13</email>
+	<password>passw0rd</password>
+	<mobnumber>2222222222</mobnumber>
+	<child_firstname>child1</child_firstname>
+	<child_lastname>test1</child_lastname>
+	<child2_firstname>child2</child2_firstname>
+	<child2_lastname>test1</child2_lastname>
+	<child2grade>second</child2grade>
+	<child2birthmonth>3</child2birthmonth>
+	<child2birthyear>2013</child2birthyear>
+</testcase>
+
+<testcase id="PCOD:ParentCreation_2child_2teacher:Parent_25">
+	<teacherDir>${Parent2Child2TeacherDir}</teacherDir>
+	<teacherAssociation1>49</teacherAssociation1>
+	<teacherAssociation2>50</teacherAssociation2>
+	<firstname>test</firstname>
+	<lastname>test1</lastname>
+	<email>testls13</email>
+	<password>passw0rd</password>
+	<mobnumber>2222222222</mobnumber>
+	<child_firstname>child1</child_firstname>
+	<child_lastname>test1</child_lastname>
+	<child2_firstname>child2</child2_firstname>
+	<child2_lastname>test1</child2_lastname>
+	<child2grade>second</child2grade>
+	<child2birthmonth>3</child2birthmonth>
+	<child2birthyear>2013</child2birthyear>
+</testcase>
+
+<testcase id="PCOD:ParentCreation_2child_2teacher:Parent_26">
+	<teacherDir>${Parent2Child2TeacherDir}</teacherDir>
+	<teacherAssociation1>51</teacherAssociation1>
+	<teacherAssociation2>52</teacherAssociation2>
+	<teacherAssociation>6</teacherAssociation>
+	<firstname>test</firstname>
+	<lastname>test1</lastname>
+	<email>testls13</email>
+	<password>passw0rd</password>
+	<mobnumber>2222222222</mobnumber>
+	<child_firstname>child1</child_firstname>
+	<child_lastname>test1</child_lastname>
+	<child2_firstname>child2</child2_firstname>
+	<child2_lastname>test1</child2_lastname>
+	<child2grade>second</child2grade>
+	<child2birthmonth>3</child2birthmonth>
+	<child2birthyear>2013</child2birthyear>
+</testcase>
+
+<testcase id="PCOD:ParentCreation_2child_2teacher:Parent_27">
+	<teacherDir>${Parent2Child2TeacherDir}</teacherDir>
+	<teacherAssociation1>53</teacherAssociation1>
+	<teacherAssociation2>54</teacherAssociation2>
+	<firstname>test</firstname>
+	<lastname>test1</lastname>
+	<email>testls13</email>
+	<password>passw0rd</password>
+	<mobnumber>2222222222</mobnumber>
+	<child_firstname>child1</child_firstname>
+	<child_lastname>test1</child_lastname>
+	<child2_firstname>child2</child2_firstname>
+	<child2_lastname>test1</child2_lastname>
+	<child2grade>second</child2grade>
+	<child2birthmonth>3</child2birthmonth>
+	<child2birthyear>2013</child2birthyear>
+</testcase>
+
+<testcase id="PCOD:ParentCreation_2child_2teacher:Parent_28">
+	<teacherDir>${Parent2Child2TeacherDir}</teacherDir>
+	<teacherAssociation1>55</teacherAssociation1>
+	<teacherAssociation2>56</teacherAssociation2>
+	<firstname>test</firstname>
+	<lastname>test1</lastname>
+	<email>testls13</email>
+	<password>passw0rd</password>
+	<mobnumber>2222222222</mobnumber>
+	<child_firstname>child1</child_firstname>
+	<child_lastname>test1</child_lastname>
+	<child2_firstname>child2</child2_firstname>
+	<child2_lastname>test1</child2_lastname>
+	<child2grade>second</child2grade>
+	<child2birthmonth>3</child2birthmonth>
+	<child2birthyear>2013</child2birthyear>
+</testcase>
+
+<testcase id="PCOD:ParentCreation_2child_2teacher:Parent_29">
+	<teacherDir>${Parent2Child2TeacherDir}</teacherDir>
+	<teacherAssociation1>57</teacherAssociation1>
+	<teacherAssociation2>58</teacherAssociation2>
+	<firstname>test</firstname>
+	<lastname>test1</lastname>
+	<email>testls13</email>
+	<password>passw0rd</password>
+	<mobnumber>2222222222</mobnumber>
+	<child_firstname>child1</child_firstname>
+	<child_lastname>test1</child_lastname>
+	<child2_firstname>child2</child2_firstname>
+	<child2_lastname>test1</child2_lastname>
+	<child2grade>second</child2grade>
+	<child2birthmonth>3</child2birthmonth>
+	<child2birthyear>2013</child2birthyear>
+</testcase>
+
+<testcase id="PCOD:ParentCreation_2child_2teacher:Parent_30">
+	<teacherDir>${Parent2Child2TeacherDir}</teacherDir>
+	<teacherAssociation1>59</teacherAssociation1>
+	<teacherAssociation2>60</teacherAssociation2>
+	<firstname>test</firstname>
+	<lastname>test1</lastname>
+	<email>testls13</email>
+	<password>passw0rd</password>
+	<mobnumber>2222222222</mobnumber>
+	<child_firstname>child1</child_firstname>
+	<child_lastname>test1</child_lastname>
+	<child2_firstname>child2</child2_firstname>
+	<child2_lastname>test1</child2_lastname>
+	<child2grade>second</child2grade>
+	<child2birthmonth>3</child2birthmonth>
+	<child2birthyear>2013</child2birthyear>
+</testcase>
+
+<testcase id="PCOD:ParentCreation_2child_2teacher:Parent_31">
+	<teacherDir>${Parent2Child2TeacherDir}</teacherDir>
+	<teacherAssociation1>61</teacherAssociation1>
+	<teacherAssociation2>62</teacherAssociation2>
+	<firstname>test</firstname>
+	<lastname>test1</lastname>
+	<email>testls13</email>
+	<password>passw0rd</password>
+	<mobnumber>2222222222</mobnumber>
+	<child_firstname>child1</child_firstname>
+	<child_lastname>test1</child_lastname>
+	<child2_firstname>child2</child2_firstname>
+	<child2_lastname>test1</child2_lastname>
+	<child2grade>second</child2grade>
+	<child2birthmonth>3</child2birthmonth>
+	<child2birthyear>2013</child2birthyear>
+</testcase>
+
+<testcase id="PCOD:ParentCreation_2child_2teacher:Parent_32">
+	<teacherDir>${Parent2Child2TeacherDir}</teacherDir>
+	<teacherAssociation1>63</teacherAssociation1>
+	<teacherAssociation2>64</teacherAssociation2>
+	<firstname>test</firstname>
+	<lastname>test1</lastname>
+	<email>testls13</email>
+	<password>passw0rd</password>
+	<mobnumber>2222222222</mobnumber>
+	<child_firstname>child1</child_firstname>
+	<child_lastname>test1</child_lastname>
+	<child2_firstname>child2</child2_firstname>
+	<child2_lastname>test1</child2_lastname>
+	<child2grade>second</child2grade>
+	<child2birthmonth>3</child2birthmonth>
+	<child2birthyear>2013</child2birthyear>
+</testcase>
+
+<testcase id="PCOD:ParentCreation_2child_2teacher:Parent_33">
+	<teacherDir>${Parent2Child2TeacherDir}</teacherDir>
+	<teacherAssociation1>65</teacherAssociation1>
+	<teacherAssociation2>66</teacherAssociation2>
+	<firstname>test</firstname>
+	<lastname>test1</lastname>
+	<email>testls13</email>
+	<password>passw0rd</password>
+	<mobnumber>2222222222</mobnumber>
+	<child_firstname>child1</child_firstname>
+	<child_lastname>test1</child_lastname>
+	<child2_firstname>child2</child2_firstname>
+	<child2_lastname>test1</child2_lastname>
+	<child2grade>second</child2grade>
+	<child2birthmonth>3</child2birthmonth>
+	<child2birthyear>2013</child2birthyear>
+</testcase>
+
+<testcase id="PCOD:ParentCreation_2child_2teacher:Parent_34">
+	<teacherDir>${Parent2Child2TeacherDir}</teacherDir>
+	<teacherAssociation1>67</teacherAssociation1>
+	<teacherAssociation2>68</teacherAssociation2>
+	<firstname>test</firstname>
+	<lastname>test1</lastname>
+	<email>testls13</email>
+	<password>passw0rd</password>
+	<mobnumber>2222222222</mobnumber>
+	<child_firstname>child1</child_firstname>
+	<child_lastname>test1</child_lastname>
+	<child2_firstname>child2</child2_firstname>
+	<child2_lastname>test1</child2_lastname>
+	<child2grade>second</child2grade>
+	<child2birthmonth>3</child2birthmonth>
+	<child2birthyear>2013</child2birthyear>
+</testcase>
+
+<testcase id="PCOD:ParentCreation_2child_2teacher:Parent_35">
+	<teacherDir>${Parent2Child2TeacherDir}</teacherDir>
+	<teacherAssociation1>69</teacherAssociation1>
+	<teacherAssociation2>70</teacherAssociation2>
+	<firstname>test</firstname>
+	<lastname>test1</lastname>
+	<email>testls13</email>
+	<password>passw0rd</password>
+	<mobnumber>2222222222</mobnumber>
+	<child_firstname>child1</child_firstname>
+	<child_lastname>test1</child_lastname>
+	<child2_firstname>child2</child2_firstname>
+	<child2_lastname>test1</child2_lastname>
+	<child2grade>second</child2grade>
+	<child2birthmonth>3</child2birthmonth>
+	<child2birthyear>2013</child2birthyear>
+</testcase>
+
+<testcase id="PCOD:ParentCreation_2child_2teacher:Parent_36">
+	<teacherDir>${Parent2Child2TeacherDir}</teacherDir>
+	<teacherAssociation1>71</teacherAssociation1>
+	<teacherAssociation2>72</teacherAssociation2>
+	<teacherAssociation>6</teacherAssociation>
+	<firstname>test</firstname>
+	<lastname>test1</lastname>
+	<email>testls13</email>
+	<password>passw0rd</password>
+	<mobnumber>2222222222</mobnumber>
+	<child_firstname>child1</child_firstname>
+	<child_lastname>test1</child_lastname>
+	<child2_firstname>child2</child2_firstname>
+	<child2_lastname>test1</child2_lastname>
+	<child2grade>second</child2grade>
+	<child2birthmonth>3</child2birthmonth>
+	<child2birthyear>2013</child2birthyear>
+</testcase>
+
+<testcase id="PCOD:ParentCreation_2child_2teacher:Parent_37">
+	<teacherDir>${Parent2Child2TeacherDir}</teacherDir>
+	<teacherAssociation1>73</teacherAssociation1>
+	<teacherAssociation2>74</teacherAssociation2>
+	<firstname>test</firstname>
+	<lastname>test1</lastname>
+	<email>testls13</email>
+	<password>passw0rd</password>
+	<mobnumber>2222222222</mobnumber>
+	<child_firstname>child1</child_firstname>
+	<child_lastname>test1</child_lastname>
+	<child2_firstname>child2</child2_firstname>
+	<child2_lastname>test1</child2_lastname>
+	<child2grade>second</child2grade>
+	<child2birthmonth>3</child2birthmonth>
+	<child2birthyear>2013</child2birthyear>
+</testcase>
+
+<testcase id="PCOD:ParentCreation_2child_2teacher:Parent_38">
+	<teacherDir>${Parent2Child2TeacherDir}</teacherDir>
+	<teacherAssociation1>75</teacherAssociation1>
+	<teacherAssociation2>76</teacherAssociation2>
+	<firstname>test</firstname>
+	<lastname>test1</lastname>
+	<email>testls13</email>
+	<password>passw0rd</password>
+	<mobnumber>2222222222</mobnumber>
+	<child_firstname>child1</child_firstname>
+	<child_lastname>test1</child_lastname>
+	<child2_firstname>child2</child2_firstname>
+	<child2_lastname>test1</child2_lastname>
+	<child2grade>second</child2grade>
+	<child2birthmonth>3</child2birthmonth>
+	<child2birthyear>2013</child2birthyear>
+</testcase>
+
+<testcase id="PCOD:ParentCreation_2child_2teacher:Parent_39">
+	<teacherDir>${Parent2Child2TeacherDir}</teacherDir>
+	<teacherAssociation1>77</teacherAssociation1>
+	<teacherAssociation2>78</teacherAssociation2>
+	<firstname>test</firstname>
+	<lastname>test1</lastname>
+	<email>testls13</email>
+	<password>passw0rd</password>
+	<mobnumber>2222222222</mobnumber>
+	<child_firstname>child1</child_firstname>
+	<child_lastname>test1</child_lastname>
+	<child2_firstname>child2</child2_firstname>
+	<child2_lastname>test1</child2_lastname>
+	<child2grade>second</child2grade>
+	<child2birthmonth>3</child2birthmonth>
+	<child2birthyear>2013</child2birthyear>
+</testcase>
+
+<testcase id="PCOD:ParentCreation_2child_2teacher:Parent_40">
+	<teacherDir>${Parent2Child2TeacherDir}</teacherDir>
+	<teacherAssociation1>79</teacherAssociation1>
+	<teacherAssociation2>80</teacherAssociation2>
+	<firstname>test</firstname>
+	<lastname>test1</lastname>
+	<email>testls13</email>
+	<password>passw0rd</password>
+	<mobnumber>2222222222</mobnumber>
+	<child_firstname>child1</child_firstname>
+	<child_lastname>test1</child_lastname>
+	<child2_firstname>child2</child2_firstname>
+	<child2_lastname>test1</child2_lastname>
+	<child2grade>second</child2grade>
+	<child2birthmonth>3</child2birthmonth>
+	<child2birthyear>2013</child2birthyear>
+</testcase>
+<!-- #############################################################################################################################################    
+##################################################################################################################################################    
+###########################################   							             	 #########################################################   
+###########################################   		   2 PARENTS - 1 CHILD - 1 TEACHER 	 #########################################################
+###########################################   							            	 #########################################################        
+##################################################################################################################################################        
+################################################################################################################################################## -->
+<testcase id="PCOD:2ParentCreation_1child_1teacher:Parent_01">
+	<teacherDir>${Parents1Child1TeacherDir}</teacherDir>
+	<teacherAssociation>1</teacherAssociation>
+	<firstname>test</firstname>
+	<lastname>test1</lastname>
+	<email>schl</email>
+	<password>passw0rd</password>
+	<mobnumber>2222222222</mobnumber>
+	<child_firstname>child</child_firstname>
+	<child_lastname>test1</child_lastname>
+</testcase>
+
+<testcase id="PCOD:2ParentCreation_1child_1teacher:Parent_02">
+	<teacherDir>${Parents1Child1TeacherDir}</teacherDir>
+	<teacherDir>${Parents1Child1TeacherDir}</teacherDir>
+	<teacherAssociation>2</teacherAssociation>
+	<firstname>test</firstname>
+	<lastname>test1</lastname>
+	<email>schl</email>
+	<password>passw0rd</password>
+	<mobnumber>2222222222</mobnumber>
+	<child_firstname>child</child_firstname>
+	<child_lastname>test1</child_lastname>
+</testcase>
+
+<testcase id="PCOD:2ParentCreation_1child_1teacher:Parent_03">
+	<teacherDir>${Parents1Child1TeacherDir}</teacherDir>
+	<teacherAssociation>3</teacherAssociation>
+	<firstname>test</firstname>
+	<lastname>test1</lastname>
+	<email>schl</email>
+	<password>passw0rd</password>
+	<mobnumber>2222222222</mobnumber>
+	<child_firstname>child</child_firstname>
+	<child_lastname>test1</child_lastname>
+</testcase>
+
+<testcase id="PCOD:2ParentCreation_1child_1teacher:Parent_04">
+	<teacherDir>${Parents1Child1TeacherDir}</teacherDir>
+	<teacherAssociation>4</teacherAssociation>
+	<firstname>test</firstname>
+	<lastname>test1</lastname>
+	<email>schl</email>
+	<password>passw0rd</password>
+	<mobnumber>2222222222</mobnumber>
+	<child_firstname>child</child_firstname>
+	<child_lastname>test1</child_lastname>
+</testcase>
+
+<testcase id="PCOD:2ParentCreation_1child_1teacher:Parent_05">
+	<teacherDir>${Parents1Child1TeacherDir}</teacherDir>
+	<teacherAssociation>5</teacherAssociation>
+	<firstname>test</firstname>
+	<lastname>test1</lastname>
+	<email>schl</email>
+	<password>passw0rd</password>
+	<mobnumber>2222222222</mobnumber>
+	<child_firstname>child</child_firstname>
+	<child_lastname>test1</child_lastname>
+</testcase>
+
+<testcase id="PCOD:2ParentCreation_1child_1teacher:Parent_06">
+	<teacherDir>${Parents1Child1TeacherDir}</teacherDir>
+	<teacherAssociation>6</teacherAssociation>
+	<firstname>test</firstname>
+	<lastname>test1</lastname>
+	<email>schl</email>
+	<password>passw0rd</password>
+	<mobnumber>2222222222</mobnumber>
+	<child_firstname>child</child_firstname>
+	<child_lastname>test1</child_lastname>
+</testcase>
+
+<testcase id="PCOD:2ParentCreation_1child_1teacher:Parent_07">
+	<teacherDir>${Parents1Child1TeacherDir}</teacherDir>
+	<teacherAssociation>7</teacherAssociation>
+	<firstname>test</firstname>
+	<lastname>test1</lastname>
+	<email>schl</email>
+	<password>passw0rd</password>
+	<mobnumber>2222222222</mobnumber>
+	<child_firstname>child</child_firstname>
+	<child_lastname>test1</child_lastname>
+</testcase>
+
+<testcase id="PCOD:2ParentCreation_1child_1teacher:Parent_08">
+	<teacherDir>${Parents1Child1TeacherDir}</teacherDir>
+	<teacherAssociation>8</teacherAssociation>
+	<firstname>test</firstname>
+	<lastname>test1</lastname>
+	<email>schl</email>
+	<password>passw0rd</password>
+	<mobnumber>2222222222</mobnumber>
+	<child_firstname>child</child_firstname>
+	<child_lastname>test1</child_lastname>
+</testcase>
+
+<testcase id="PCOD:2ParentCreation_1child_1teacher:Parent_09">
+	<teacherDir>${Parents1Child1TeacherDir}</teacherDir>
+	<teacherAssociation>9</teacherAssociation>
+	<firstname>test</firstname>
+	<lastname>test1</lastname>
+	<email>schl</email>
+	<password>passw0rd</password>
+	<mobnumber>2222222222</mobnumber>
+	<child_firstname>child</child_firstname>
+	<child_lastname>test1</child_lastname>
+</testcase>
+
+<testcase id="PCOD:2ParentCreation_1child_1teacher:Parent_10">
+	<teacherDir>${Parents1Child1TeacherDir}</teacherDir>
+	<teacherAssociation>10</teacherAssociation>
+	<firstname>test</firstname>
+	<lastname>test1</lastname>
+	<email>schl</email>
+	<password>passw0rd</password>
+	<mobnumber>2222222222</mobnumber>
+	<child_firstname>child</child_firstname>
+	<child_lastname>test1</child_lastname>
+</testcase>
+
+<testcase id="PCOD:2ParentCreation_1child_1teacher:Parent_11">
+	<teacherDir>${Parents1Child1TeacherDir}</teacherDir>
+	<teacherAssociation>11</teacherAssociation>
+	<firstname>test</firstname>
+	<lastname>test1</lastname>
+	<email>schl</email>
+	<password>passw0rd</password>
+	<mobnumber>2222222222</mobnumber>
+	<child_firstname>child</child_firstname>
+	<child_lastname>test1</child_lastname>
+</testcase>
+
+<testcase id="PCOD:2ParentCreation_1child_1teacher:Parent_12">
+	<teacherDir>${Parents1Child1TeacherDir}</teacherDir>
+	<teacherAssociation>12</teacherAssociation>
+	<firstname>test</firstname>
+	<lastname>test1</lastname>
+	<email>schl</email>
+	<password>passw0rd</password>
+	<mobnumber>2222222222</mobnumber>
+	<child_firstname>child</child_firstname>
+	<child_lastname>test1</child_lastname>
+</testcase>
+
+<testcase id="PCOD:2ParentCreation_1child_1teacher:Parent_13">
+	<teacherDir>${Parents1Child1TeacherDir}</teacherDir>
+	<teacherAssociation>13</teacherAssociation>
+	<firstname>test</firstname>
+	<lastname>test1</lastname>
+	<email>schl</email>
+	<password>passw0rd</password>
+	<mobnumber>2222222222</mobnumber>
+	<child_firstname>child</child_firstname>
+	<child_lastname>test1</child_lastname>
+</testcase>
+
+<testcase id="PCOD:2ParentCreation_1child_1teacher:Parent_14">
+	<teacherDir>${Parents1Child1TeacherDir}</teacherDir>
+	<teacherAssociation>14</teacherAssociation>
+	<firstname>test</firstname>
+	<lastname>test1</lastname>
+	<email>schl</email>
+	<password>passw0rd</password>
+	<mobnumber>2222222222</mobnumber>
+	<child_firstname>child</child_firstname>
+	<child_lastname>test1</child_lastname>
+</testcase>
+
+<testcase id="PCOD:2ParentCreation_1child_1teacher:Parent_15">
+	<teacherDir>${Parents1Child1TeacherDir}</teacherDir>
+	<teacherAssociation>15</teacherAssociation>
+	<firstname>test</firstname>
+	<lastname>test1</lastname>
+	<email>schl</email>
+	<password>passw0rd</password>
+	<mobnumber>2222222222</mobnumber>
+	<child_firstname>child</child_firstname>
+	<child_lastname>test1</child_lastname>
+</testcase>
+
+<testcase id="PCOD:2ParentCreation_1child_1teacher:Parent_16">
+	<teacherDir>${Parents1Child1TeacherDir}</teacherDir>
+	<teacherAssociation>16</teacherAssociation>
+	<firstname>test</firstname>
+	<lastname>test1</lastname>
+	<email>schl</email>
+	<password>passw0rd</password>
+	<mobnumber>2222222222</mobnumber>
+	<child_firstname>child</child_firstname>
+	<child_lastname>test1</child_lastname>
+</testcase>
+
+<testcase id="PCOD:2ParentCreation_1child_1teacher:Parent_17">
+	<teacherDir>${Parents1Child1TeacherDir}</teacherDir>
+	<teacherAssociation>17</teacherAssociation>
+	<firstname>test</firstname>
+	<lastname>test1</lastname>
+	<email>schl</email>
+	<password>passw0rd</password>
+	<mobnumber>2222222222</mobnumber>
+	<child_firstname>child</child_firstname>
+	<child_lastname>test1</child_lastname>
+</testcase>
+
+<testcase id="PCOD:2ParentCreation_1child_1teacher:Parent_18">
+	<teacherDir>${Parents1Child1TeacherDir}</teacherDir>
+	<teacherAssociation>18</teacherAssociation>
+	<firstname>test</firstname>
+	<lastname>test1</lastname>
+	<email>schl</email>
+	<password>passw0rd</password>
+	<mobnumber>2222222222</mobnumber>
+	<child_firstname>child</child_firstname>
+	<child_lastname>test1</child_lastname>
+</testcase>
+
+<testcase id="PCOD:2ParentCreation_1child_1teacher:Parent_19">
+	<teacherDir>${Parents1Child1TeacherDir}</teacherDir>
+	<teacherAssociation>19</teacherAssociation>
+	<firstname>test</firstname>
+	<lastname>test1</lastname>
+	<email>schl</email>
+	<password>passw0rd</password>
+	<mobnumber>2222222222</mobnumber>
+	<child_firstname>child</child_firstname>
+	<child_lastname>test1</child_lastname>
+</testcase>
+
+<testcase id="PCOD:2ParentCreation_1child_1teacher:Parent_20">
+	<teacherDir>${Parents1Child1TeacherDir}</teacherDir>
+	<teacherAssociation>20</teacherAssociation>
+	<firstname>test</firstname>
+	<lastname>test1</lastname>
+	<email>schl</email>
+	<password>passw0rd</password>
+	<mobnumber>2222222222</mobnumber>
+	<child_firstname>child</child_firstname>
+	<child_lastname>test1</child_lastname>
+</testcase>
+
+<testcase id="PCOD:2ParentCreation_1child_1teacher:Parent_21">
+	<teacherDir>${Parents1Child1TeacherDir}</teacherDir>
+	<teacherAssociation>21</teacherAssociation>
+	<firstname>test</firstname>
+	<lastname>test1</lastname>
+	<email>schl</email>
+	<password>passw0rd</password>
+	<mobnumber>2222222222</mobnumber>
+	<child_firstname>child</child_firstname>
+	<child_lastname>test1</child_lastname>
+</testcase>
+
+<testcase id="PCOD:2ParentCreation_1child_1teacher:Parent_22">
+	<teacherDir>${Parents1Child1TeacherDir}</teacherDir>
+	<teacherAssociation>22</teacherAssociation>
+	<firstname>test</firstname>
+	<lastname>test1</lastname>
+	<email>schl</email>
+	<password>passw0rd</password>
+	<mobnumber>2222222222</mobnumber>
+	<child_firstname>child</child_firstname>
+	<child_lastname>test1</child_lastname>
+</testcase>
+
+<testcase id="PCOD:2ParentCreation_1child_1teacher:Parent_23">
+	<teacherDir>${Parents1Child1TeacherDir}</teacherDir>
+	<teacherAssociation>23</teacherAssociation>
+	<firstname>test</firstname>
+	<lastname>test1</lastname>
+	<email>schl</email>
+	<password>passw0rd</password>
+	<mobnumber>2222222222</mobnumber>
+	<child_firstname>child</child_firstname>
+	<child_lastname>test1</child_lastname>
+</testcase>
+
+<testcase id="PCOD:2ParentCreation_1child_1teacher:Parent_24">
+	<teacherDir>${Parents1Child1TeacherDir}</teacherDir>
+	<teacherAssociation>24</teacherAssociation>
+	<firstname>test</firstname>
+	<lastname>test1</lastname>
+	<email>schl</email>
+	<password>passw0rd</password>
+	<mobnumber>2222222222</mobnumber>
+	<child_firstname>child</child_firstname>
+	<child_lastname>test1</child_lastname>
+</testcase>
+
+<testcase id="PCOD:2ParentCreation_1child_1teacher:Parent_25">
+	<teacherDir>${Parents1Child1TeacherDir}</teacherDir>
+	<teacherAssociation>25</teacherAssociation>
+	<firstname>test</firstname>
+	<lastname>test1</lastname>
+	<email>schl</email>
+	<password>passw0rd</password>
+	<mobnumber>2222222222</mobnumber>
+	<child_firstname>child</child_firstname>
+	<child_lastname>test1</child_lastname>
+</testcase>
+
+<testcase id="PCOD:2ParentCreation_1child_1teacher:Parent_26">
+	<teacherDir>${Parents1Child1TeacherDir}</teacherDir>
+	<teacherAssociation>26</teacherAssociation>
+	<firstname>test</firstname>
+	<lastname>test1</lastname>
+	<email>schl</email>
+	<password>passw0rd</password>
+	<mobnumber>2222222222</mobnumber>
+	<child_firstname>child</child_firstname>
+	<child_lastname>test1</child_lastname>
+</testcase>
+
+<testcase id="PCOD:2ParentCreation_1child_1teacher:Parent_27">
+	<teacherDir>${Parents1Child1TeacherDir}</teacherDir>
+	<teacherAssociation>27</teacherAssociation>
+	<firstname>test</firstname>
+	<lastname>test1</lastname>
+	<email>schl</email>
+	<password>passw0rd</password>
+	<mobnumber>2222222222</mobnumber>
+	<child_firstname>child</child_firstname>
+	<child_lastname>test1</child_lastname>
+</testcase>
+
+<testcase id="PCOD:2ParentCreation_1child_1teacher:Parent_28">
+	<teacherDir>${Parents1Child1TeacherDir}</teacherDir>
+	<teacherAssociation>28</teacherAssociation>
+	<firstname>test</firstname>
+	<lastname>test1</lastname>
+	<email>schl</email>
+	<password>passw0rd</password>
+	<mobnumber>2222222222</mobnumber>
+	<child_firstname>child</child_firstname>
+	<child_lastname>test1</child_lastname>
+</testcase>
+
+<testcase id="PCOD:2ParentCreation_1child_1teacher:Parent_29">
+	<teacherDir>${Parents1Child1TeacherDir}</teacherDir>
+	<teacherAssociation>29</teacherAssociation>
+	<firstname>test</firstname>
+	<lastname>test1</lastname>
+	<email>schl</email>
+	<password>passw0rd</password>
+	<mobnumber>2222222222</mobnumber>
+	<child_firstname>child</child_firstname>
+	<child_lastname>test1</child_lastname>
+</testcase>
+
+<testcase id="PCOD:2ParentCreation_1child_1teacher:Parent_30">
+	<teacherDir>${Parents1Child1TeacherDir}</teacherDir>
+	<teacherAssociation>30</teacherAssociation>
+	<firstname>test</firstname>
+	<lastname>test1</lastname>
+	<email>schl</email>
+	<password>passw0rd</password>
+	<mobnumber>2222222222</mobnumber>
+	<child_firstname>child</child_firstname>
+	<child_lastname>test1</child_lastname>
+</testcase>
+
+<testcase id="PCOD:2ParentCreation_1child_1teacher:Parent_31">
+	<teacherDir>${Parents1Child1TeacherDir}</teacherDir>
+	<teacherAssociation>31</teacherAssociation>
+	<firstname>test</firstname>
+	<lastname>test1</lastname>
+	<email>schl</email>
+	<password>passw0rd</password>
+	<mobnumber>2222222222</mobnumber>
+	<child_firstname>child</child_firstname>
+	<child_lastname>test1</child_lastname>
+</testcase>
+
+<testcase id="PCOD:2ParentCreation_1child_1teacher:Parent_32">
+	<teacherDir>${Parents1Child1TeacherDir}</teacherDir>
+	<teacherAssociation>32</teacherAssociation>
+	<firstname>test</firstname>
+	<lastname>test1</lastname>
+	<email>schl</email>
+	<password>passw0rd</password>
+	<mobnumber>2222222222</mobnumber>
+	<child_firstname>child</child_firstname>
+	<child_lastname>test1</child_lastname>
+</testcase>
+
+<testcase id="PCOD:2ParentCreation_1child_1teacher:Parent_33">
+	<teacherDir>${Parents1Child1TeacherDir}</teacherDir>
+	<teacherAssociation>33</teacherAssociation>
+	<firstname>test</firstname>
+	<lastname>test1</lastname>
+	<email>schl</email>
+	<password>passw0rd</password>
+	<mobnumber>2222222222</mobnumber>
+	<child_firstname>child</child_firstname>
+	<child_lastname>test1</child_lastname>
+</testcase>
+
+<testcase id="PCOD:2ParentCreation_1child_1teacher:Parent_34">
+	<teacherDir>${Parents1Child1TeacherDir}</teacherDir>
+	<teacherAssociation>34</teacherAssociation>
+	<firstname>test</firstname>
+	<lastname>test1</lastname>
+	<email>schl</email>
+	<password>passw0rd</password>
+	<mobnumber>2222222222</mobnumber>
+	<child_firstname>child</child_firstname>
+	<child_lastname>test1</child_lastname>
+</testcase>
+
+<testcase id="PCOD:2ParentCreation_1child_1teacher:Parent_35">
+	<teacherDir>${Parents1Child1TeacherDir}</teacherDir>
+	<teacherAssociation>35</teacherAssociation>
+	<firstname>test</firstname>
+	<lastname>test1</lastname>
+	<email>schl</email>
+	<password>passw0rd</password>
+	<mobnumber>2222222222</mobnumber>
+	<child_firstname>child</child_firstname>
+	<child_lastname>test1</child_lastname>
+</testcase>
+
+<testcase id="PCOD:2ParentCreation_1child_1teacher:Parent_36">
+	<teacherDir>${Parents1Child1TeacherDir}</teacherDir>
+	<teacherAssociation>36</teacherAssociation>
+	<firstname>test</firstname>
+	<lastname>test1</lastname>
+	<email>schl</email>
+	<password>passw0rd</password>
+	<mobnumber>2222222222</mobnumber>
+	<child_firstname>child</child_firstname>
+	<child_lastname>test1</child_lastname>
+</testcase>
+
+<testcase id="PCOD:2ParentCreation_1child_1teacher:Parent_37">
+	<teacherDir>${Parents1Child1TeacherDir}</teacherDir>
+	<teacherAssociation>37</teacherAssociation>
+	<firstname>test</firstname>
+	<lastname>test1</lastname>
+	<email>schl</email>
+	<password>passw0rd</password>
+	<mobnumber>2222222222</mobnumber>
+	<child_firstname>child</child_firstname>
+	<child_lastname>test1</child_lastname>
+</testcase>
+
+<testcase id="PCOD:2ParentCreation_1child_1teacher:Parent_38">
+	<teacherDir>${Parents1Child1TeacherDir}</teacherDir>
+	<teacherAssociation>38</teacherAssociation>
+	<firstname>test</firstname>
+	<lastname>test1</lastname>
+	<email>schl</email>
+	<password>passw0rd</password>
+	<mobnumber>2222222222</mobnumber>
+	<child_firstname>child</child_firstname>
+	<child_lastname>test1</child_lastname>
+</testcase>
+
+<testcase id="PCOD:2ParentCreation_1child_1teacher:Parent_39">
+	<teacherDir>${Parents1Child1TeacherDir}</teacherDir>
+	<teacherAssociation>39</teacherAssociation>
+	<firstname>test</firstname>
+	<lastname>test1</lastname>
+	<email>schl</email>
+	<password>passw0rd</password>
+	<mobnumber>2222222222</mobnumber>
+	<child_firstname>child</child_firstname>
+	<child_lastname>test1</child_lastname>
+</testcase>
+
+<testcase id="PCOD:2ParentCreation_1child_1teacher:Parent_40">
+	<teacherDir>${Parents1Child1TeacherDir}</teacherDir>
+	<teacherAssociation>40</teacherAssociation>
+	<firstname>test</firstname>
+	<lastname>test1</lastname>
+	<email>schl</email>
+	<password>passw0rd</password>
+	<mobnumber>2222222222</mobnumber>
+	<child_firstname>child</child_firstname>
+	<child_lastname>test1</child_lastname>
+</testcase>
+
+<testcase id="PCOD:2ParentCreation_1child_1teacher:Parent_41">
+	<teacherDir>${Parents1Child1TeacherDir}</teacherDir>
+	<teacherAssociation>41</teacherAssociation>
+	<firstname>test</firstname>
+	<lastname>test1</lastname>
+	<email>schl</email>
+	<password>passw0rd</password>
+	<mobnumber>2222222222</mobnumber>
+	<child_firstname>child</child_firstname>
+	<child_lastname>test1</child_lastname>
+</testcase>
+
+<testcase id="PCOD:2ParentCreation_1child_1teacher:Parent_42">
+	<teacherDir>${Parents1Child1TeacherDir}</teacherDir>
+	<teacherAssociation>42</teacherAssociation>
+	<firstname>test</firstname>
+	<lastname>test1</lastname>
+	<email>schl</email>
+	<password>passw0rd</password>
+	<mobnumber>2222222222</mobnumber>
+	<child_firstname>child</child_firstname>
+	<child_lastname>test1</child_lastname>
+</testcase>
+
+<testcase id="PCOD:2ParentCreation_1child_1teacher:Parent_43">
+	<teacherDir>${Parents1Child1TeacherDir}</teacherDir>
+	<teacherAssociation>43</teacherAssociation>
+	<firstname>test</firstname>
+	<lastname>test1</lastname>
+	<email>schl</email>
+	<password>passw0rd</password>
+	<mobnumber>2222222222</mobnumber>
+	<child_firstname>child</child_firstname>
+	<child_lastname>test1</child_lastname>
+</testcase>
+
+<testcase id="PCOD:2ParentCreation_1child_1teacher:Parent_44">
+	<teacherDir>${Parents1Child1TeacherDir}</teacherDir>
+	<teacherAssociation>44</teacherAssociation>
+	<firstname>test</firstname>
+	<lastname>test1</lastname>
+	<email>schl</email>
+	<password>passw0rd</password>
+	<mobnumber>2222222222</mobnumber>
+	<child_firstname>child</child_firstname>
+	<child_lastname>test1</child_lastname>
+</testcase>
+
+<testcase id="PCOD:2ParentCreation_1child_1teacher:Parent_45">
+	<teacherDir>${Parents1Child1TeacherDir}</teacherDir>
+	<teacherAssociation>45</teacherAssociation>
+	<firstname>test</firstname>
+	<lastname>test1</lastname>
+	<email>schl</email>
+	<password>passw0rd</password>
+	<mobnumber>2222222222</mobnumber>
+	<child_firstname>child</child_firstname>
+	<child_lastname>test1</child_lastname>
+</testcase>
+
+<testcase id="PCOD:2ParentCreation_1child_1teacher:Parent_46">
+	<teacherDir>${Parents1Child1TeacherDir}</teacherDir>
+	<teacherAssociation>46</teacherAssociation>
+	<firstname>test</firstname>
+	<lastname>test1</lastname>
+	<email>schl</email>
+	<password>passw0rd</password>
+	<mobnumber>2222222222</mobnumber>
+	<child_firstname>child</child_firstname>
+	<child_lastname>test1</child_lastname>
+</testcase>
+
+<testcase id="PCOD:2ParentCreation_1child_1teacher:Parent_47">
+	<teacherDir>${Parents1Child1TeacherDir}</teacherDir>
+	<teacherAssociation>47</teacherAssociation>
+	<firstname>test</firstname>
+	<lastname>test1</lastname>
+	<email>schl</email>
+	<password>passw0rd</password>
+	<mobnumber>2222222222</mobnumber>
+	<child_firstname>child</child_firstname>
+	<child_lastname>test1</child_lastname>
+</testcase>
+
+<testcase id="PCOD:2ParentCreation_1child_1teacher:Parent_48">
+	<teacherDir>${Parents1Child1TeacherDir}</teacherDir>
+	<teacherAssociation>48</teacherAssociation>
+	<firstname>test</firstname>
+	<lastname>test1</lastname>
+	<email>schl</email>
+	<password>passw0rd</password>
+	<mobnumber>2222222222</mobnumber>
+	<child_firstname>child</child_firstname>
+	<child_lastname>test1</child_lastname>
+</testcase>
+
+<testcase id="PCOD:2ParentCreation_1child_1teacher:Parent_49">
+	<teacherDir>${Parents1Child1TeacherDir}</teacherDir>
+	<teacherAssociation>49</teacherAssociation>
+	<firstname>test</firstname>
+	<lastname>test1</lastname>
+	<email>schl</email>
+	<password>passw0rd</password>
+	<mobnumber>2222222222</mobnumber>
+	<child_firstname>child</child_firstname>
+	<child_lastname>test1</child_lastname>
+</testcase>
+
+<testcase id="PCOD:2ParentCreation_1child_1teacher:Parent_50">
+	<teacherDir>${Parents1Child1TeacherDir}</teacherDir>
+	<teacherAssociation>50</teacherAssociation>
+	<firstname>test</firstname>
+	<lastname>test1</lastname>
+	<email>schl</email>
+	<password>passw0rd</password>
+	<mobnumber>2222222222</mobnumber>
+	<child_firstname>child</child_firstname>
+	<child_lastname>test1</child_lastname>
+</testcase>
+
+</testdata>	

@@ -1,0 +1,444 @@
+<testdata>
+
+	<testcase id="your_teacher_order_flyernavigation">
+		<userid>abc_12@gmail.com</userid>
+		<password>passw0rd</password>
+		<grade>2nd Graders</grade>
+		<gradetobeslected>1st Graders</gradetobeslected>
+		<quantity>1</quantity>
+		<clickon>outside</clickon>
+		<bonuspoints>10</bonuspoints>
+		<tdm>
+			<type>teacher_with_no_details</type>
+			<numberOfProfiles>1</numberOfProfiles>
+			<isReserved>Y</isReserved>
+			<converttotype>teacher_with_yto_order</converttotype>
+		</tdm>
+	</testcase>
+
+	<testcase id="your_teacher_order_switching_flyer_item">
+		<userid>abc_12@gmail.com</userid>
+		<password>passw0rd</password>
+		<grade>2nd Graders</grade>
+		<gradetobeslected>1st Graders</gradetobeslected>
+		<quantity>1</quantity>
+		<clickon>outside</clickon>
+		<bonuspoints>10</bonuspoints>
+		<tdm>
+			<type>teacher_with_no_details</type>
+			<numberOfProfiles>1</numberOfProfiles>
+			<isReserved>Y</isReserved>
+			<converttotype>teacher_with_yto_order</converttotype>
+		</tdm>
+	</testcase>
+
+	<testcase id="your_teacher_order_price_quantity">
+		<userid>abc_12@gmail.com</userid>
+		<password>passw0rd</password>
+		<grade>2nd Graders</grade>
+		<gradetobeslected>1st Graders</gradetobeslected>
+		<quantity>1</quantity>
+		<clickon>outside</clickon>
+		<bonuspoints>10</bonuspoints>
+		<tdm>
+			<type>teacher_with_no_details</type>
+			<numberOfProfiles>1</numberOfProfiles>
+			<isReserved>Y</isReserved>
+			<converttotype>teacher_with_yto_order</converttotype>
+		</tdm>
+	</testcase>
+	<testcase id="your_teacher_order_additemfromdifferentsource">
+		<userid>abc_12@gmail.com</userid>
+		<password>passw0rd</password>
+		<grade>2nd Graders</grade>
+		<gradetobeslected>1st Graders</gradetobeslected>
+		<quantity>1</quantity>
+		<clickon>outside</clickon>
+		<bonuspoints>10</bonuspoints>
+		<tdm>
+			<type>teacher_with_no_details</type>
+			<numberOfProfiles>1</numberOfProfiles>
+			<isReserved>Y</isReserved>
+			<converttotype>teacher_with_yto_order</converttotype>
+		</tdm>
+	</testcase>
+
+	<testcase id="your_teacher_order_product_list">
+		<userid>abc_12@gmail.com</userid>
+		<password>passw0rd</password>
+		<numbers>15</numbers>
+		<tdm>
+			<type>teacher_with_no_details</type>
+			<numberOfProfiles>1</numberOfProfiles>
+			<isReserved>Y</isReserved>
+			<converttotype>teacher_with_yto_order</converttotype>
+		</tdm>
+	</testcase>
+
+	<testcase id="your_teacher_order_go_to_pdp">
+		<userid>abc_12@gmail.com</userid>
+		<password>passw0rd</password>
+		<grade>2nd Graders</grade>
+		<gradetobeslected>1st Graders</gradetobeslected>
+		<yto_quantity>1</yto_quantity>
+		<clickon>outside</clickon>
+		<bonuspoints>10</bonuspoints>
+		<tdm>
+			<type>teacher_with_no_details</type>
+			<numberOfProfiles>1</numberOfProfiles>
+			<isReserved>Y</isReserved>
+			<converttotype>teacher_with_yto_order</converttotype>
+		</tdm>
+	</testcase>
+
+	<testcase id="your_teacher_order_navigate_YTOfromSFO">
+		<userid>abc_12@gmail.com</userid>
+		<password>passw0rd</password>
+		<tdm>
+			<type>teacher_with_no_details</type>
+			<numberOfProfiles>1</numberOfProfiles>
+			<isReserved>Y</isReserved>
+			<converttotype>teacher_with_yto_order</converttotype>
+		</tdm>
+	</testcase>
+
+	<testcase id="your_teacher_order_navigate_YTOfromSOO">
+		<userid>abc_12@gmail.com</userid>
+		<password>passw0rd</password>
+		<tdm>
+			<type>teacher_with_no_details</type>
+			<numberOfProfiles>1</numberOfProfiles>
+			<isReserved>Y</isReserved>
+			<converttotype>teacher_with_yto_order</converttotype>
+		</tdm>
+	</testcase>
+
+	<testcase id="your_teacher_order_gradesvalidation">
+		<userid>abc_12@gmail.com</userid>
+		<password>passw0rd</password>
+		<tdm>
+			<type>teacher_with_no_details</type>
+			<numberOfProfiles>1</numberOfProfiles>
+			<isReserved>Y</isReserved>
+			<converttotype>teacher_with_yto_order</converttotype>
+		</tdm>
+	</testcase>
+
+	<testcase id="your_teacher_order_specialcollection">
+		<userid>abc_12@gmail.com</userid>
+		<password>passw0rd</password>
+		<tdm>
+			<type>teacher_with_no_details</type>
+			<numberOfProfiles>1</numberOfProfiles>
+			<isReserved>Y</isReserved>
+			<converttotype>teacher_with_yto_order</converttotype>
+		</tdm>
+	</testcase>
+
+	<testcase id="your_teacher_order_differentmonthflyer">
+		<userid>abc_12@gmail.com</userid>
+		<password>passw0rd</password>
+		<tdm>
+			<type>teacher_with_no_details</type>
+			<numberOfProfiles>1</numberOfProfiles>
+			<isReserved>Y</isReserved>
+			<converttotype>teacher_with_yto_order</converttotype>
+		</tdm>
+	</testcase>
+
+	<testcase id="your_teacher_order_orderformview">
+		<userid>abc_12@gmail.com</userid>
+		<password>passw0rd</password>
+		<tdm>
+			<type>teacher_with_no_details</type>
+			<numberOfProfiles>1</numberOfProfiles>
+			<isReserved>Y</isReserved>
+			<converttotype>teacher_with_yto_order</converttotype>
+		</tdm>
+	</testcase>
+
+	<testcase id="your_teacher_order_crossgradevalidation">
+		<username>test_auto01@scholastic.com</username>
+		<password>passw0rd</password>
+		<tdm>
+			<type>teacher_with_no_details</type>
+			<numberOfProfiles>1</numberOfProfiles>
+			<isReserved>Y</isReserved>
+			<converttotype>teacher_with_yto_order</converttotype>
+		</tdm>
+	</testcase>
+
+	<testcase id="your_teacher_order_orderformview">
+		<username>test_auto01@scholastic.com</username>
+		<password>passw0rd</password>
+		<tdm>
+			<type>teacher_with_no_details</type>
+			<numberOfProfiles>1</numberOfProfiles>
+			<isReserved>Y</isReserved>
+			<converttotype>teacher_with_yto_order</converttotype>
+		</tdm>
+	</testcase>
+
+	<testcase id="your_teacher_order_recommendation_wishlist">
+		<userid>teacher_auto01@scholastic.com</userid>
+		<password>passw0rd</password>
+		<tdm>
+			<type>teacher_with_no_details</type>
+			<numberOfProfiles>1</numberOfProfiles>
+			<isReserved>Y</isReserved>
+			<converttotype>teacher_with_yto_order</converttotype>
+		</tdm>
+	</testcase>
+
+	<testcase id="your_teacher_order_bonus_summary_section">
+		<userid>abc_12@gmail.com</userid>
+		<password>passw0rd</password>
+		<tdm>
+			<type>teacher_with_no_details</type>
+			<numberOfProfiles>1</numberOfProfiles>
+			<isReserved>Y</isReserved>
+			<converttotype>teacher_with_yto_order</converttotype>
+		</tdm>
+	</testcase>
+
+	<testcase id="your_teacher_order_month_flyer_definition">
+		<userid>abc_12@gmail.com</userid>
+		<password>passw0rd</password>
+		<tdm>
+			<type>teacher_with_no_details</type>
+			<numberOfProfiles>1</numberOfProfiles>
+			<isReserved>Y</isReserved>
+			<converttotype>teacher_with_yto_order</converttotype>
+		</tdm>
+	</testcase>
+
+	<testcase id="your_teacher_order_deleteqty">
+		<userid>abc_12@gmail.com</userid>
+		<password>passw0rd</password>
+		<grade>1st Graders</grade>
+		<yto_quantity>1</yto_quantity>
+		<bonuspoints>10</bonuspoints>
+		<tdm>
+			<type>teacher_with_no_details</type>
+			<numberOfProfiles>1</numberOfProfiles>
+			<isReserved>Y</isReserved>
+			<converttotype>teacher_with_yto_order</converttotype>
+		</tdm>
+	</testcase>
+
+	<testcase id="your_teacher_order_addedbybpanddollars">
+		<userid>teacher_auto01@scholastic.com</userid>
+		<password>passw0rd</password>
+		<itemid>1B6</itemid>
+		<gradeName>1st Graders</gradeName>
+		<tdm>
+			<type>teacher_with_no_details</type>
+			<numberOfProfiles>1</numberOfProfiles>
+			<isReserved>Y</isReserved>
+			<converttotype>teacher_with_yto_order</converttotype>
+		</tdm>
+	</testcase>
+
+	<testcase id="your_teacher_order_addeditem">
+		<userid>teacher_auto01@scholastic.com</userid>
+		<password>passw0rd</password>
+		<itemid>1B6</itemid>
+		<quantity>300</quantity>
+		<tdm>
+			<type>teacher_with_no_details</type>
+			<numberOfProfiles>1</numberOfProfiles>
+			<isReserved>Y</isReserved>
+			<converttotype>teacher_with_yto_order</converttotype>
+		</tdm>
+	</testcase>
+
+	<testcase id="your_teacher_order_selectflyerandmonth">
+		<userid>abc_12@gmail.com</userid>
+		<password>passw0rd</password>
+		<grade>1st Graders</grade>
+		<quantity>1</quantity>
+		<tdm>
+			<type>teacher_with_no_details</type>
+			<numberOfProfiles>1</numberOfProfiles>
+			<isReserved>Y</isReserved>
+			<converttotype>teacher_with_yto_order</converttotype>
+		</tdm>
+	</testcase>
+
+	<testcase id="your_teacher_order_addeditem">
+		<userid>teacher_auto01@scholastic.com</userid>
+		<password>passw0rd</password>
+		<itemid>1B6</itemid>
+		<tdm>
+			<type>teacher_with_no_details</type>
+			<numberOfProfiles>1</numberOfProfiles>
+			<isReserved>Y</isReserved>
+			<converttotype>teacher_with_yto_order</converttotype>
+		</tdm>
+	</testcase>
+
+
+	<testcase id="your_teacher_order_addeditem_with_bonus_item_number">
+		<userid>teacher_auto01@scholastic.com</userid>
+		<password>passw0rd</password>
+		<itemid>68408</itemid>
+		<tdm>
+			<type>teacher_with_no_details</type>
+			<numberOfProfiles>1</numberOfProfiles>
+			<isReserved>Y</isReserved>
+			<converttotype>teacher_with_yto_order</converttotype>
+		</tdm>
+	</testcase>
+
+	<testcase id="your_teacher_order_addUpdateQuantity">
+		<userid>mno@example.com</userid>
+		<password>passw0rd</password>
+		<grade>2nd Graders</grade>
+		<yto_quantity>1</yto_quantity>
+		<clickon>save</clickon>
+		<removeCartFlag>true</removeCartFlag>
+		<tdm>
+			<type>teacher_with_no_details</type>
+			<numberOfProfiles>1</numberOfProfiles>
+			<isReserved>Y</isReserved>
+			<converttotype>teacher_with_yto_order</converttotype>
+		</tdm>
+	</testcase>
+
+	<testcase id="your_teacher_order_update_by_clicking_outside">
+		<userid>abc_12@gmail.com</userid>
+		<password>passw0rd</password>
+		<grade>2nd Graders</grade>
+		<yto_quantity>1</yto_quantity>
+		<clickon>outside</clickon>
+		<removeCartFlag>true</removeCartFlag>
+		<tdm>
+			<type>teacher_with_no_details</type>
+			<numberOfProfiles>1</numberOfProfiles>
+			<isReserved>Y</isReserved>
+			<converttotype>teacher_with_yto_order</converttotype>
+		</tdm>
+	</testcase>
+
+	<testcase id="your_teacher_order_additembyPDPandvalidateoncart">
+		<userid>abc_12@gmail.com</userid>
+		<password>passw0rd</password>
+		<grade>2nd Graders</grade>
+		<quantity>1</quantity>
+		<clickon>outside</clickon>
+		<removeCartFlag>true</removeCartFlag>
+		<tdm>
+			<type>teacher_with_no_details</type>
+			<numberOfProfiles>1</numberOfProfiles>
+			<isReserved>Y</isReserved>
+			<converttotype>teacher_with_yto_order</converttotype>
+		</tdm>
+	</testcase>
+
+	<testcase
+		id="your_teacher_order_addeditem_with_bonusquatity_And_itemquantity">
+		<userid>test12@scholastic.com</userid>
+		<password>test123</password>
+		<itemid>146</itemid>
+		<quantity>3</quantity>
+		<bonusquantity>300</bonusquantity>
+		<removeCartFlag>true</removeCartFlag>
+		<tdm>
+			<type>teacher_with_no_details</type>
+			<numberOfProfiles>1</numberOfProfiles>
+			<isReserved>Y</isReserved>
+			<converttotype>teacher_with_yto_order</converttotype>
+		</tdm>
+	</testcase>
+
+	<testcase id="your_teacher_order_seefulllinkandnavigatetoPDP">
+		<userid>xyz_automation@scholastic.com</userid>
+		<password>passw0rd</password>
+		<grade>2nd Graders</grade>
+		<quantity>2</quantity>
+		<clickon>outside</clickon>
+		<removeCartFlag>true</removeCartFlag>
+		<itemid>1L6,2L6</itemid>
+		<tdm>
+			<type>teacher_with_no_details</type>
+			<numberOfProfiles>1</numberOfProfiles>
+			<isReserved>Y</isReserved>
+			<converttotype>teacher_with_yto_order</converttotype>
+		</tdm>
+	</testcase>
+
+	<testcase id="your_teacher_order_addItems_withdollarsandbp">
+		<userid>testtcool123@s.com</userid>
+		<password>passw0rd</password>
+		<grade>2nd Graders</grade>
+		<yto_quantity>1</yto_quantity>
+		<clickon>outside</clickon>
+		<removeCartFlag>true</removeCartFlag>
+		<bonuspoints>10</bonuspoints>
+		<tdm>
+			<type>teacher_with_no_details</type>
+			<numberOfProfiles>1</numberOfProfiles>
+			<isReserved>Y</isReserved>
+			<converttotype>teacher_with_yto_order</converttotype>
+		</tdm>
+	</testcase>
+
+	<testcase id="your_teacher_order_removesitemfromYTOlist">
+		<userid>xyz_automation@scholastic.com</userid>
+		<password>passw0rd</password>
+		<grade>2nd Graders</grade>
+		<yto_quantity>1</yto_quantity>
+		<clickon>outside</clickon>
+		<removeCartFlag>true</removeCartFlag>
+		<bonuspoints>10</bonuspoints>
+		<tdm>
+			<type>teacher_with_no_details</type>
+			<numberOfProfiles>1</numberOfProfiles>
+			<isReserved>Y</isReserved>
+			<converttotype>teacher_with_yto_order</converttotype>
+		</tdm>
+	</testcase>
+	
+	<testcase id="Teacher_Login_4">
+		<userid>7527718</userid>
+		<password>passw0rd</password>
+		<sname1>Manu</sname1>
+	</testcase>
+	
+	<testcase id="YTO:Teacher_Login_5">
+		<userid>7527718</userid>
+		<password>passw0rd</password>
+		<sname1>Manu</sname1>
+		<qty1>3</qty1>
+	</testcase>
+	
+	<testcase id="YTO:Teacher_Login_6">
+		<userid>7527718</userid>
+		<password>passw0rd</password>
+		<sname1>Manu</sname1>
+		<qty1>3</qty1>
+	</testcase>
+	
+	<testcase id="YTO:Teacher_Login_7">
+		<userid>7527718</userid>
+		<password>passw0rd</password>
+		<sname1>Manu</sname1>
+	</testcase>
+	
+	<testcase id="YTO:Teacher_Login_8">
+		<userid>7527700</userid>
+		<password>passw0rd</password>
+	</testcase>
+	
+	<testcase id="YTO:Teacher_Login_9">
+		<userid>7527700</userid>
+		<password>passw0rd</password>
+		<SearchData>item</SearchData>
+	</testcase>
+	
+	<testcase id="YTO:Teacher_Login_10">
+		<userid>7527700</userid>
+		<password>passw0rd</password>
+	</testcase>
+	
+</testdata>
