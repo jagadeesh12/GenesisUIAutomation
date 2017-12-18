@@ -45,7 +45,7 @@ public class ContractsManagement {
 	@Test(priority = 1)
 	public void login_to_application() {
 		testdatamap = FilloExcelUtility.readExcel();
-		test = ExtentManager.loggerInstance(extent, " Test case: Market Place");
+		test = ExtentManager.loggerInstance(extent, " Test case: Contracts Management");
 		try {
 			CertificateHandle.IgnoreSSLClient();
 

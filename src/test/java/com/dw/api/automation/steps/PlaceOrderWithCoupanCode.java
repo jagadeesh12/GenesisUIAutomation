@@ -53,7 +53,7 @@ public class PlaceOrderWithCoupanCode {
 	@Test(priority = 1)
 	public void login_to_application() {
 		testdatamap = FilloExcelUtility.readExcel();
-		test = ExtentManager.loggerInstance(extent, " Test case: Market Place");
+		test = ExtentManager.loggerInstance(extent, " Test case: Place Order With Coupan Code");
 		try {
 			CertificateHandle.IgnoreSSLClient();
 
