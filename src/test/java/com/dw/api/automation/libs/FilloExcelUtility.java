@@ -19,7 +19,7 @@ public class FilloExcelUtility {
 	
 	
 	/***For  Linux***/
-		static String  exceldbloc="/var/lib/jenkins/jobs/Genesis_API_Automation/workspace/src/test/resources/files/ConfigSheet.xlsx";
+			static String  exceldbloc="/var/lib/jenkins/jobs/Genesis_API_Automation/workspace/src/test/resources/files/ConfigSheet.xlsx";
 
 	public static HashMap<String,String> readExcel()
 	{

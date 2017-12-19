@@ -1,9 +1,0 @@
-<testdata>
-
-	<testcase id="PROD:Login:Logout:SearchBar">
-		<userid>7582374</userid>
-		<password>passw0rd</password>
-	</testcase>
-
-
-</testdata>	
