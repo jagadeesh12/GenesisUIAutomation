@@ -15,11 +15,11 @@ public class FilloExcelUtility {
 	
 	/***For Windows***/
 	/*static String  exceldbloc="F:\\\\auto\\\\GenesisUIAutomation\\\\src\\\\test\\\\resources\\\\files\\\\ConfigSheet.xlsx";*/
-	static String  exceldbloc="F:\\\\workspace\\\\backup_only_my_changes\\\\GenesisUIAutomation\\\\src\\\\test\\\\resources\\\\files\\\\ConfigSheet.xlsx";
+	//	static String  exceldbloc="F:\\\\workspace\\\\backup_only_my_changes\\\\GenesisUIAutomation\\\\src\\\\test\\\\resources\\\\files\\\\ConfigSheet.xlsx";
 	
 	
 	/***For  Linux***/
-	//	static String  exceldbloc="/var/lib/jenkins/jobs/Genesis_API_Automation/workspace/src/test/resources/files/ConfigSheet.xlsx";
+		static String  exceldbloc="/var/lib/jenkins/jobs/Genesis_API_Automation/workspace/src/test/resources/files/ConfigSheet.xlsx";
 
 	public static HashMap<String,String> readExcel()
 	{
