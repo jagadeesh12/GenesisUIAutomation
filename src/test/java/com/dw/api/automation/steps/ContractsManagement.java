@@ -77,12 +77,12 @@ public class ContractsManagement {
 		String contractDownSizeGetIdUrl="https://test.redington.market/api/v1/contract?page=1&pageSize=10&sortBy=createdOn&sortOrder=desc&filterBy=contractTerminated:false&searchKey="+companyName+"";
 	    System.out.println("contractDownSizeGetIdUrl="+contractDownSizeGetIdUrl);
 		String res = get.getRestServiceMethod2(contractDownSizeGetIdUrl, cook);
-	    Object _id = ParseJsonArray.parseJsonArray(res, "data", "docs", "_id");
-	    System.out.println("_id="+_id);
+	 //   Object _id = ParseJsonArray.parseJsonArray(res, "data", "docs", "_id");
+	 //   System.out.println("_id="+_id);
 	    
 	    //Step 2:Downsize the order by 1 value
-	   String contractDownSizeUrl="https://test.redington.market/api/v1/contract/"+_id+"/1";
-	   System.out.println("contractDownSizeUrl="+contractDownSizeUrl);
+	  // String contractDownSizeUrl="https://test.redington.market/api/v1/contract/"+_id+"/1";
+	//   System.out.println("contractDownSizeUrl="+contractDownSizeUrl);
 	   String contractDownSizeUrlPayload="{\"headers\":{\"Content-Type\":[\"application/json; charset=utf-8\"],\"user-role\": [\"PM\"],\"Cache-Control\": [\"no-cache\",\"no-cache\",\" no-store\",\" must-revalidate\"],\"Pragma\": [\"no-cache\" ],\"Expires\": [ \"-1\"]}}"; 
 	   	//	post.getPostByJersey(contractDownSizeUrl, contractDownSizeUrlPayload, cook);
 	   logPassStatus("Contract downsize For BaseProduct  done sucessfully");

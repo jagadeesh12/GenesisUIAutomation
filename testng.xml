@@ -42,25 +42,40 @@
 
 
 
- <!-- 
-<test name="validate Existing Custome">
-<classes>
-			<class name="com.dw.api.automation.steps.ExistingOrgApiTest" />
+
+ 
+  
+
+ 
+ <test name="Use Case 3: Market place">
+		<classes>
+			<class name="com.dw.api.automation.steps.MarketPlaceTest" />
 			<methods>
 				<include name="login_to_application"/>
-				<include name="validateExistingCustomer"/>
-				<include name="validateExistingCustomerWithWrongOrganisationName"/>
-				<include name="validateExistingCustomerWithWrongCompanyCode"/>
-				
-				
+				<include name=""/>
+					<include name="searchBaseProduct"/>
+					<include name="addBaseProductWithFourLicenses"/>
+					<include name="addAddOnwithOneLicenses"/>
+					<include name="placeOrder"/>
+					<include name="orderProvision"/>
 			</methods>
 		</classes>
-	</test>
+</test>
 
- -->
- 
- <!--  
- <test name="Use Case 4:Organization Credit Request and Approval">
+ <test name="Use Case 4: Contracts Management">
+		<classes>
+			<class name="com.dw.api.automation.steps.ContractsManagement" />
+			<methods>
+				<include name="login_to_application"/>
+				<include name="contractDownsize" />
+				<include name="contractDeactivate" />
+				
+				</methods>
+		</classes>
+</test>
+
+
+ <test name="Use Case 5:Organization Credit Request and Approval">
 		<classes>
 			<class name="com.dw.api.automation.steps.OrganizationCreditRequestTest" />
 			<methods>
@@ -100,37 +115,7 @@
 			</methods>
 		</classes>
 	</test>
-	-->
- 
- <test name="Use Case 8: Market place">
-		<classes>
-			<class name="com.dw.api.automation.steps.MarketPlaceTest" />
-			<methods>
-				<include name="login_to_application"/>
-				<include name=""/>
-					<include name="searchBaseProduct"/>
-					<include name="addBaseProductWithFourLicenses"/>
-					<include name="addAddOnwithOneLicenses"/>
-					<include name="placeOrder"/>
-					<include name="orderProvision"/>
-			</methods>
-		</classes>
-</test>
-
- <test name="Use Case 9: Contracts Management">
-		<classes>
-			<class name="com.dw.api.automation.steps.ContractsManagement" />
-			<methods>
-				<include name="login_to_application"/>
-				<include name="contractDownsize" />
-				<include name="contractDeactivate" />
-				
-				</methods>
-		</classes>
-</test>
-
-
-
+	
 
 
  <test name="Use Case 10:Place Order With Coupan Code">

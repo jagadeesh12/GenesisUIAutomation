@@ -221,7 +221,7 @@ public class MarketPlaceTest {
 		System.out.println("skuId="+skuId);
 		//Step-3:order fulfill for base product
 		String baseOrderUrl="https://test.redington.market/api/v1/orders/fulfill/"+orderNumber+"";
-		String baseOrderPostParm="{\"sku\":\"796b6b5f-613c-4e24-a17c-eba730d49c02\"}"; 
+		String baseOrderPostParm="{\"sku\":\""+skuId+"\"}"; 
 		post.getPostByJersey(baseOrderUrl, baseOrderPostParm, cook);
 		
 		
