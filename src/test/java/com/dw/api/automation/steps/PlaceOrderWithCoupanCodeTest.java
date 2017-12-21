@@ -520,11 +520,61 @@ public class PlaceOrderWithCoupanCodeTest {
 		response = post.getPostByJersey(addonProductUrl, addOnPayload, cook);*/	
 		logPassStatus(" Add AddOn Office 365 Extra File Storage with 1  licenses monthly to the Basket");	
 	}
-	
-	
-	
-	
-	
+	/*Use Case : Create Coupan Code
+	  * @TestCase-17::login to Application
+	 * @TestCase-18::getPartnerEntityid
+	 * @TestCase-19::getCustomerId
+	 * @TestCase-20::loginByBaM 
+	 * @TestCase-21::createCoupon
+	 * @TestCase-22::getCouponCode
+	 */
+
+	/*@TestCase-17::login to Application*/
+	@Test(priority =17)
+	public void loginAsPa()
+	{
+		testdatamap = FilloExcelUtility.readExcel();
+		try {
+			CertificateHandle.IgnoreSSLClient();
+
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		String posturl = testdatamap.get("testurl");
+		System.out.println("Login Url=" + posturl);
+		String username = testdatamap.get("username");
+		System.out.println("User name==" + username);
+		String password = testdatamap.get("password");
+		System.out.println("Password==" + password);
+		String postparm = "{\"username\":\"" + username + "\",\"password\":\"" + password + "\"}";
+		cook = lgoin.loginGetPostByJersey(posturl, postparm);
+		System.out.println("Cookie as Token paramter=" + cook);
+		logPassStatus("login to Application with Userid=pm6.qa@mailinator.com Password=Pass@123");
+			}
+	/* @TestCase-18::getPartnerEntityid */
+	@Test(priority =18)
+	public void getPartnerEntityidforCoupanCreation() {
+		FilloExcelUtility.updateRow("CoupandomainName", "PlaceOrderWithCoupanCodeTest");
+		testdatamap = FilloExcelUtility.readExcel();
+		String domainName = testdatamap.get("CoupandomainName");
+		System.out.println("domainName=" + domainName);
+		String getPartnerEntityidUrl = "https://test.redington.market/api/v1/partnerEntity?page=1&pageSize=10&sortBy=modifiedOn&sortOrder=desc&searchKey="
+				+ domainName + "";
+		System.out.println("getPartnerEntityidUrl=" + getPartnerEntityidUrl);
+		String res = get.getRestServiceMethod2(getPartnerEntityidUrl, cook);
+		JSONObject obj = new JSONObject(res);
+		JSONArray docsArray = new JSONObject(res).getJSONObject("data").getJSONArray("docs");
+		JSONObject obj2 = null;
+		List li = new ArrayList();
+		for (Object object : docsArray) {
+			obj2 = new JSONObject(object.toString());
+			// System.out.println("The id is ========="+ obj2.get("_id"));
+		}
+		System.out.println("The id is =========" + obj2.get("_id"));
+		partnerEntityId = obj2.get("_id");
+		logPassStatus("Get PartnerEntityid=" + "<br/>partnerEntityId=" + partnerEntityId);
+	}
 	
 	
 	

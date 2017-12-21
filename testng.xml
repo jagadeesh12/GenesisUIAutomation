@@ -139,6 +139,7 @@
 				<include name="searchBaseProduct"/>
 				<include name="addBaseProductWithTwoLicenses"/>
 				<include name="addAddOnwithOneLicenses"/>
+				
 				</methods>
 		</classes>
 </test>
