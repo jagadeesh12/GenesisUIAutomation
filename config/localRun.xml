@@ -17,11 +17,11 @@
   <parameter name="passCA" value="Pass@123"/> 
   <parameter name="userSA" value="sa27nov@hantem.bid"/>   
   <parameter name="passSA" value="Pass@123"/>  -->
-  <parameter name="userBAM" value="bam@axsup.net"/>   
+  <parameter name="userBAM" value="rgqa.bam@gmail.com"/>   
   <parameter name="passBAM" value="Pass@123"/> 
-  <parameter name="userCA" value="ca@nezdiro.org"/>   
+  <parameter name="userCA" value="rgqa.ca@yahoo.com"/>   
   <parameter name="passCA" value="Pass@123"/> 
-  <parameter name="userSA" value="sa12@coldmail.gq"/>   
+  <parameter name="userSA" value="pmapi@mailinator.com"/>   
   <parameter name="passSA" value="Pass@123"/> 
   <parameter name="userFM" value="fm14@mailinator.com"/>   
   <parameter name="passFM" value="Pass@123"/> 
@@ -65,7 +65,7 @@
   <classes>
    <class name="com.scholastic.torque.runner.Run" />
   </classes> 
-  </test>
+  </test> 
   
  <test name="OrgCreateAndApproval" enabled="true">
   <parameter name="driver.name" value="Firefox"/>
@@ -77,7 +77,7 @@
   </classes>
 </test> 
 
-<test name="CustomerCreateAndApproval" enabled="true">
+ <test name="CustomerCreateAndApproval" enabled="true">
   <parameter name="driver.name" value="Firefox"/>
   <parameter name="features" value="features/Redington/CustomerCreateAndApproval.feature"/>
   <parameter name="driver.capabilities"
@@ -85,7 +85,7 @@
   <classes>
    <class name="com.scholastic.torque.runner.Run" />
   </classes>
-</test>  
+</test> 
 
 <!-- <test name="Creating coupon" enabled="true">
   <parameter name="driver.name" value="Firefox"/>
@@ -95,7 +95,7 @@
  <classes>
    <class name="com.scholastic.torque.runner.Run" />
   </classes>
-</test>  -->
+</test>   -->
 
 <test name="Placing multiple order" enabled="true">
   <parameter name="driver.name" value="Firefox"/>
@@ -213,6 +213,6 @@
   <classes>
    <class name="com.scholastic.torque.runner.Run" />
   </classes>
-</test> 
+</test>
   
  </suite>

@@ -16,10 +16,10 @@
 		<appUrl>https://test.redington.market/</appUrl>
 	</testcase>
 	<testcase id="OrderApproval">
-		<userPM>PMFN_17121055@mailinator.com</userPM>
-		<domain>www.PMFN17122049.com</domain>
+		<userPM>PMFN_20121829@mailinator.com</userPM>
+		<domain>www.PMFN21121541.com</domain>
 		<password>Pass@123</password>
-		<userFm>FM17121057@mailinator.com</userFm>
+		<userFm>FM20121831@mailinator.com</userFm>
 		<passFm>Pass@123</passFm>
 		<userBam>bam@axsup.net</userBam>
 		<passBam>Pass@123</passBam>

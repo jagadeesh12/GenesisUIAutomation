@@ -147,11 +147,11 @@ public class CouponCreateImpl extends BaseTestPage<TestPage> implements CouponCr
 		String custName = PartnerUserPageImpl.readXML("custdomain");
 
 		try {
-			//SCHUtils.selectOptionByVisibleText(getdrpdwnCust(), custName+" - "+custName.toLowerCase()+".onmicrosoft.com");
-			//getdrpdwnCust().click();
-		Select sel = new Select(getdrpdwnCust());
+			SCHUtils.selectOptionByVisibleText(getdrpdwnCust(), custName+" - "+custName.toLowerCase()+".onmicrosoft.com");
+			getdrpdwnCust().click();
+		/*Select sel = new Select(getdrpdwnCust());
 		sel.selectByVisibleText( custName+" - "+custName.toLowerCase()+".onmicrosoft.com");
-		SCHUtils.selectOptionByVisibleText(getdrpdwnCust() ,"CUST04121144 - cust04121144.onmicrosoft.com");
+		SCHUtils.selectOptionByVisibleText(getdrpdwnCust() ,"CUST04121144 - cust04121144.onmicrosoft.com");*/
 		PauseUtil.pause(5000);
 		}catch(Exception e) {
 			 Select sel = new Select(getdrpdwnCust());
