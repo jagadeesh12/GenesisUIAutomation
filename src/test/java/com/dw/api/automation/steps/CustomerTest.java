@@ -171,8 +171,7 @@ public class CustomerTest {
 	}
 
 	@Test(priority = 5)
-	// Login as Bam
-	public void getCustomerId() {
+		public void getCustomerId() {
 		testdatamap = FilloExcelUtility.readExcel();
 		String companyName = testdatamap.get("companyName");
 		System.out.println("companyName=" + companyName);

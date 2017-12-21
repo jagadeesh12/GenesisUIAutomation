@@ -202,8 +202,14 @@ public class AddNewPartnerOrganisationTest {
 			e.printStackTrace();
 		}
 
+		
 		String bamSignInUrl = "https://test.redington.market/api/v1/auth/signIn";
-		String postparm = "{\"username\":\"bam@axsup.net\",\"password\":\"Pass@123\"}";
+		String bamusername = testdatamap.get("bamusername");
+		System.out.println("bamusernamee==" + bamusername);
+		String bampassword = testdatamap.get("bampassword");
+		System.out.println("bampassword==" + bampassword);
+		
+		String postparm = "{\"username\":\""+bamusername+"\",\"password\":\""+bampassword+"\"}";
 		cook = lgoin.loginGetPostByJersey(bamSignInUrl, postparm);
 		System.out.println("Cookie as Token paramter=" + cook);
 		logPassStatus("login to Application with Userid=pm6.qa@mailinator.com Password=Pass@123");
