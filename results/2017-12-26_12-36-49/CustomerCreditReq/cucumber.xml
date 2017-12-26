@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="58.548155">
+<testcase classname="Customer spend limit request and approval by BAM" name="Customer spend limit request and approval by BAM:[OrderApproval]" time="58.548155">
+<failure message="org.openqa.selenium.TimeoutException: Expected condition failed: waiting for DefaultElementLocator 'By.xpath: //div[contains(text(),'Credit limit change request created.')]' to be present (tried for 20 second(s) with 1 SECONDS interval)&#10;Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'&#10;System info: host: 'jagadeesh-ThinkPad-L450', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '3.19.0-65-generic', java.version: '1.8.0_101'&#10;Driver info: driver.version: unknown&#10;&#9;at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:264)&#10;&#9;at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:232)&#10;&#9;at com.scholastic.torque.common.WaitUtils.waitForPresent(WaitUtils.java:33)&#10;&#9;at com.scholastic.torque.webdriver.ExtendedElementHandler.invoke(ExtendedElementHandler.java:46)&#10;&#9;at com.sun.proxy.$Proxy19.getText(Unknown Source)&#10;&#9;at com.dw.automation.pages.impl.CustomerCreateAndApproveImpl.updateCustSpendLimit(CustomerCreateAndApproveImpl.java:506)&#10;&#9;at com.dw.automation.steps.redington.CustomerCreateAndApprove.i_update_the_customer_spend_limit(CustomerCreateAndApprove.java:56)&#10;&#9;at ✽.Then I update the customer spend limit(features/Redington/CustCreditReqApproval.feature:5)&#10;"><![CDATA[Given I launch the application as a Partner Manager[UserInformation]........passed
+Then I update the customer spend limit......................................failed
+Then I logout from the application..........................................skipped
+Given I launch the application as a Finance Manager.........................skipped
+Then I approve the customer spend limit.....................................skipped
+Then I logout from the application..........................................skipped
+Given I launch the application as a Partner Manager.........................skipped
+Then I verify that the customer spend limit is updated......................skipped
+Then I logout from the application..........................................skipped
+
+StackTrace:
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for DefaultElementLocator 'By.xpath: //div[contains(text(),'Credit limit change request created.')]' to be present (tried for 20 second(s) with 1 SECONDS interval)
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'jagadeesh-ThinkPad-L450', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '3.19.0-65-generic', java.version: '1.8.0_101'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:264)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:232)
+	at com.scholastic.torque.common.WaitUtils.waitForPresent(WaitUtils.java:33)
+	at com.scholastic.torque.webdriver.ExtendedElementHandler.invoke(ExtendedElementHandler.java:46)
+	at com.sun.proxy.$Proxy19.getText(Unknown Source)
+	at com.dw.automation.pages.impl.CustomerCreateAndApproveImpl.updateCustSpendLimit(CustomerCreateAndApproveImpl.java:506)
+	at com.dw.automation.steps.redington.CustomerCreateAndApprove.i_update_the_customer_spend_limit(CustomerCreateAndApprove.java:56)
+	at ✽.Then I update the customer spend limit(features/Redington/CustCreditReqApproval.feature:5)
+]]></failure>
+</testcase>
+</testsuite>

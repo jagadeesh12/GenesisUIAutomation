@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="222.440449">
+<testcase classname="Placing multiple orders" name="Place Order as PM and approve order and verify approval:[OrderApproval]" time="222.440449">
+<system-out><![CDATA[Given I launch the application as a Partner Manager[UserInformation]........passed
+Then I add base products to the cart........................................passed
+Then I add addon products to the cart.......................................passed
+Then I logout from the application..........................................passed
+Given I launch the application as a Finance Manager.........................passed
+Then I approve the product that has been ordered............................passed
+Then I logout from the application..........................................passed
+Given I launch the application as a Partner Manager.........................passed
+Then I should see the Product that has been ordered is approved.............passed
+Then I logout from the application..........................................passed
+]]></system-out>
+</testcase>
+</testsuite>

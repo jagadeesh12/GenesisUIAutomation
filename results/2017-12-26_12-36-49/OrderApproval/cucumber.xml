@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="235.5123">
+<testcase classname="Order Placement as PM" name="Place Order as PM and approve order and verify approval:[OrderApproval]" time="235.5123">
+<system-out><![CDATA[Given I launch the application as a Partner Manager[UserInformation]........passed
+Then I add a product to the cart............................................passed
+Then I logout from the application..........................................passed
+Given I launch the application as a Finance Manager.........................passed
+Then I approve the product that has been ordered............................passed
+Then I logout from the application..........................................passed
+Given I launch the application as a Partner Manager.........................passed
+Then I should see the Product that has been ordered is approved.............passed
+Then I logout from the application..........................................passed
+]]></system-out>
+</testcase>
+</testsuite>

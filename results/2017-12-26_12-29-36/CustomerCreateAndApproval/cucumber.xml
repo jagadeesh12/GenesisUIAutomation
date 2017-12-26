@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="232.456958">
+<testcase classname="Customer creation flow by PM and approval by BAM" name="Customer creation by PM and Approval by BAM :[OrderApproval]" time="232.456958">
+<system-out><![CDATA[Given I launch the application as a Partner Manager[UserInformation]........passed
+When I go to Customer Page..................................................passed
+Then I create an Customer...................................................passed
+Then I logout from the application..........................................passed
+Then I launch the application as a BAM......................................passed
+And I approve the customer..................................................passed
+Then I logout from the application..........................................passed
+Given I launch the application as a Partner Manager.........................passed
+When I go to Customer Page..................................................passed
+And I verify that the customer is approved..................................passed
+Then I logout from the application..........................................passed
+]]></system-out>
+</testcase>
+</testsuite>

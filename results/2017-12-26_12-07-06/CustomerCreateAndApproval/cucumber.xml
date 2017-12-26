@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="174.935589">
+<testcase classname="Customer creation flow by PM and approval by BAM" name="Customer creation by PM and Approval by BAM :[OrderApproval]" time="174.935589">
+<failure message="org.openqa.selenium.TimeoutException: Expected condition failed: waiting for DefaultElementLocator 'By.xpath: //a[contains(text(),'Verify')]/i' to be present (tried for 20 second(s) with 1 SECONDS interval)&#10;Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'&#10;System info: host: 'jagadeesh-ThinkPad-L450', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '3.19.0-65-generic', java.version: '1.8.0_101'&#10;Driver info: driver.version: RemoteWebDriver&#10;&#9;at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:264)&#10;&#9;at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:232)&#10;&#9;at com.scholastic.torque.common.WaitUtils.waitForPresent(WaitUtils.java:33)&#10;&#9;at com.scholastic.torque.webdriver.ExtendedElementHandler.invoke(ExtendedElementHandler.java:46)&#10;&#9;at com.sun.proxy.$Proxy19.getWrappedElement(Unknown Source)&#10;&#9;at org.openqa.selenium.remote.internal.WebElementToJsonConverter.apply(WebElementToJsonConverter.java:50)&#10;&#9;at com.google.common.collect.Iterators$7.transform(Iterators.java:750)&#10;&#9;at com.google.common.collect.TransformedIterator.next(TransformedIterator.java:47)&#10;&#9;at com.google.common.collect.Iterators.addAll(Iterators.java:367)&#10;&#9;at com.google.common.collect.Lists.newArrayList(Lists.java:165)&#10;&#9;at com.google.common.collect.Lists.newArrayList(Lists.java:150)&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:571)&#10;&#9;at com.dw.automation.support.SCHUtils.clickUsingJavaScript(SCHUtils.java:170)&#10;&#9;at com.scholastic.cucumber.uploadResults.WrapperFunctions.click_element(WrapperFunctions.java:93)&#10;&#9;at com.dw.automation.pages.impl.CustomerCreateAndApproveImpl.createCustomer(CustomerCreateAndApproveImpl.java:379)&#10;&#9;at com.dw.automation.steps.redington.CustomerCreateAndApprove.i_create_an_Customer(CustomerCreateAndApprove.java:24)&#10;&#9;at ✽.Then I create an Customer(features/Redington/CustomerCreateAndApproval.feature:19)&#10;"><![CDATA[Given I launch the application as a Partner Manager[UserInformation]........passed
+When I go to Customer Page..................................................passed
+Then I create an Customer...................................................failed
+Then I logout from the application..........................................skipped
+Then I launch the application as a BAM......................................skipped
+And I approve the customer..................................................skipped
+Then I logout from the application..........................................skipped
+Given I launch the application as a Partner Manager.........................skipped
+When I go to Customer Page..................................................skipped
+And I verify that the customer is approved..................................skipped
+Then I logout from the application..........................................skipped
+
+StackTrace:
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for DefaultElementLocator 'By.xpath: //a[contains(text(),'Verify')]/i' to be present (tried for 20 second(s) with 1 SECONDS interval)
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'jagadeesh-ThinkPad-L450', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '3.19.0-65-generic', java.version: '1.8.0_101'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:264)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:232)
+	at com.scholastic.torque.common.WaitUtils.waitForPresent(WaitUtils.java:33)
+	at com.scholastic.torque.webdriver.ExtendedElementHandler.invoke(ExtendedElementHandler.java:46)
+	at com.sun.proxy.$Proxy19.getWrappedElement(Unknown Source)
+	at org.openqa.selenium.remote.internal.WebElementToJsonConverter.apply(WebElementToJsonConverter.java:50)
+	at com.google.common.collect.Iterators$7.transform(Iterators.java:750)
+	at com.google.common.collect.TransformedIterator.next(TransformedIterator.java:47)
+	at com.google.common.collect.Iterators.addAll(Iterators.java:367)
+	at com.google.common.collect.Lists.newArrayList(Lists.java:165)
+	at com.google.common.collect.Lists.newArrayList(Lists.java:150)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:571)
+	at com.dw.automation.support.SCHUtils.clickUsingJavaScript(SCHUtils.java:170)
+	at com.scholastic.cucumber.uploadResults.WrapperFunctions.click_element(WrapperFunctions.java:93)
+	at com.dw.automation.pages.impl.CustomerCreateAndApproveImpl.createCustomer(CustomerCreateAndApproveImpl.java:379)
+	at com.dw.automation.steps.redington.CustomerCreateAndApprove.i_create_an_Customer(CustomerCreateAndApprove.java:24)
+	at ✽.Then I create an Customer(features/Redington/CustomerCreateAndApproval.feature:19)
+]]></failure>
+</testcase>
+</testsuite>
