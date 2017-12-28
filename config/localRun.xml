@@ -85,9 +85,9 @@
   <classes>
    <class name="com.scholastic.torque.runner.Run" />
   </classes>
-</test>  
+</test>   
 
-<!-- <test name="Creating coupon" enabled="true">
+ <!-- <test name="Creating coupon" enabled="true">
   <parameter name="driver.name" value="Firefox"/>
   <parameter name="features" value="features/Redington/CouponCreate.feature"/>
   <parameter name="driver.capabilities"
@@ -97,7 +97,7 @@
   </classes>
 </test>   -->
 
-<test name="Placing multiple order" enabled="true">
+ <test name="Placing multiple order" enabled="true">
   <parameter name="driver.name" value="Firefox"/>
   <parameter name="features" value="features/Redington/MultipleOrderPlacementAndApproal.feature"/>
   <parameter name="driver.capabilities"
@@ -126,11 +126,11 @@
   <classes>
    <class name="com.scholastic.torque.runner.Run" />
   </classes>
-</test> 
+</test>
 
  
 
-<test name="OrganizationCreditReqApproval.feature" enabled="true">
+ <test name="OrganizationCreditReqApproval.feature" enabled="true">
   <parameter name="driver.name" value="Firefox"/>
   <parameter name="features" value="features/Redington/OrgCreditRequestApproval.feature"/>
   <parameter name="driver.capabilities"
@@ -138,9 +138,9 @@
   <classes>
    <class name="com.scholastic.torque.runner.Run" />
   </classes>
-</test>
+</test> 
  
- <test name="CustomerCreditReq" enabled="true">
+  <test name="CustomerCreditReq" enabled="true">
 
   <parameter name="driver.name" value="Firefox"/>
   <parameter name="features" value="features/Redington/CustCreditReqApproval.feature"/>
