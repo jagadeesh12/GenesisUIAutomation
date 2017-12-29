@@ -404,8 +404,8 @@ public class CustomerCreateAndApproveImpl extends BaseTestPage<TestPage> impleme
 		RUtils.waitforloadingtodissappear();
 		System.out.println("Customer is added");
 		try {
-/*			boolean customerstatus = custlimitreachedPopUp().getText().contains(RConstantUtils.CUSTOMER_CREATED_SUCCESSFULLY);
-	        Assert.assertTrue("Customer not created successfully.",customerstatus);*/
+			boolean customerstatus = custlimitreachedPopUp().getText().contains(RConstantUtils.CUSTOMER_CREATED_SUCCESSFULLY);
+	        Assert.assertTrue("Customer not created successfully.",customerstatus);
         
 		}catch(Exception e) {
 			e.printStackTrace();

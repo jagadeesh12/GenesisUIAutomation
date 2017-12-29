@@ -97,7 +97,7 @@
   </classes>
 </test>   -->
 
- <test name="Placing multiple order" enabled="true">
+  <test name="Placing multiple order" enabled="true">
   <parameter name="driver.name" value="Firefox"/>
   <parameter name="features" value="features/Redington/MultipleOrderPlacementAndApproal.feature"/>
   <parameter name="driver.capabilities"
@@ -214,5 +214,5 @@
    <class name="com.scholastic.torque.runner.Run" />
   </classes>
 </test>
-  
+
  </suite>
