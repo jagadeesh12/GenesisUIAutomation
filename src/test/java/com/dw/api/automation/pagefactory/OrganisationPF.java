@@ -34,14 +34,24 @@ public class OrganisationPF {
 	
 	ApiLoginPF login=new ApiLoginPF();
 	/*Verify MPN Id*/
-	public ClientResponse verifyMPN(String vierifyMpnUrl)
+	public ClientResponse verifyMPN(String testColomName)
 	{
-		response = get.getRestServiceMethod(vierifyMpnUrl, cook);
+		
+		cook=login.loginAsPM();
+		testdatamap = FilloExcelUtility.readExcelWithTestName(testColomName);
+		String verifyMPNidUrl = testdatamap.get("verifyMPNidUrl");
+		System.out.println("Basic verifyMPNidUrl=" + verifyMPNidUrl);
+		String mPNid = testdatamap.get("MPNid");
+		System.out.println("MPNid=" + mPNid);
+		verifyMPNidUrl=verifyMPNidUrl+mPNid;
+		System.out.println(" verifyMPNidUrl=" + verifyMPNidUrl);
+		response = get.getRestServiceMethod(verifyMPNidUrl, cook);
 		return response;
 	}
 	
-	public ClientResponse addNewPartnerOrganisation(String testNameColom,NewCookie cook) throws FileNotFoundException
+	public ClientResponse addNewPartnerOrganisation(String testNameColom) throws FileNotFoundException
 	{
+		cook=login.loginAsPM();
 		testdatamap = FilloExcelUtility.readExcelWithTestName(testNameColom);
 		System.out.println("testNameColom="+testNameColom);
 		String addNewPartnerOrganisationUrl = testdatamap.get("addNewPartnerOrganisationUrl");
@@ -177,6 +187,7 @@ public class OrganisationPF {
 	
 	public void approveNewOrganisationByCA(String testNameColom)
 	{
+		cook=login.loginAsCA();
 		 testdatamap = FilloExcelUtility.readExcelWithTestName("login");
 		String posturl = testdatamap.get("testurl");
 		System.out.println("Login Url=" + posturl);

@@ -11,156 +11,51 @@
 					</methods>
 		</classes>
 </test>
-<test name="Add New Partner Organisation">
+
+
+<test name="AddcNew Partner Org Test">
 		<classes>
 		
-			<class name="com.dw.api.automation.steps.AddNewPartnerOrganisationTest" />
+			<class name="com.dw.api.automation.TestScripts.AddNewPartnerOrgTest" />
 			<methods>
-				<include name="login_to_application"/>
-				<include name="enter_mpn_id" />
+				<include name="loginAsPm"/>
+				<include name="verifyMpnId" />
 				<include name="addNewPartnerOrganisation"/>
-				<include name="orgApproveByBaM"/>
-				<include name="orgBamSearch"/>
-				<include name="loginToCAuser"/>
-				<include name="orgApprovalByCA"/>
-			</methods>
+				<include name="approveNewOrgByBAM"/>
+				<include name="approveNewOrgByCA"/>
+					</methods>
 		</classes>
 </test>
 
-
-
-
-
-	
-	
-
-<test name="Use Case 2:Customer on boarding">
-		<classes>
-			<class name="com.dw.api.automation.steps.CustomerTest" />
-			<methods>
-				<include name="login_to_application"/>
-				<include name="getPartnerEntityid" />
-				<include name="createNewCustomer" />
-				<include name="loginByBaM" />
-				<include name="getCustomerId" />
-				<include name="approveCustomerFromBam" />
-				
-				</methods>
-		</classes>
-</test>
-
-
-
-
-
-
  
-  
-
- 
- <test name="Use Case 3: Market place">
+ <test name="Customer On Boarding ">
 		<classes>
-			<class name="com.dw.api.automation.steps.MarketPlaceTest" />
+			<class name="com.dw.api.automation.TestScripts.CustomerOnBoardingTest" />
 			<methods>
-				<include name="login_to_application"/>
-				<include name=""/>
-					<include name="searchBaseProduct"/>
-					<include name="addBaseProductWithFourLicenses"/>
-					<include name="addAddOnwithOneLicenses"/>
-					<include name="placeOrder"/>
-					<include name="orderProvision"/>
-			</methods>
-		</classes>
-</test>
-
- <test name="Use Case 4: Contracts Management">
-		<classes>
-			<class name="com.dw.api.automation.steps.ContractsManagement" />
-			<methods>
-				<include name="login_to_application"/>
-				<include name="contractDownsize" />
-				<include name="contractDeactivate" />
-				
-				</methods>
-		</classes>
-</test>
-
-<!-- 
-for future use
- <test name="Use Case 5:Organization Credit Request and Approval">
-		<classes>
-			<class name="com.dw.api.automation.steps.OrganizationCreditRequestTest" />
-			<methods>
-				<include name="login_to_application" />
-				<include name="getPartnerEntityid" />
-				<include name="orgCreditRequestPM" />
-				<include name="loginToCAuser" />
-				<include name="orgCreditApproveCA" />
-			</methods>
-		</classes>
-	</test>
- 
- 
-	
-	<test name="Use Case 6:Customer Spend limit Update">
-		<classes>
-			<class name="com.dw.api.automation.steps.CustomerSpendLimitTest" />
-			<methods>
-				<include name="login_to_application" />
-				<include name="getCustomerId" />
-				<include name="updateCustomerSpendlimit" />
-			</methods>
-		</classes>
-	</test>
-
-	<test name="Use Case 7:Create Coupon">
-		<classes>
-			<class name="com.dw.api.automation.steps.CreateCouponTest" />
-			<methods>
-				<include name="login_to_application" />
-				<include name="getPartnerEntityid" />
-				<include name="getCustomerId" />
-				<include name="searchBaseProduct" />
-				<include name="loginByBaM" />
-				<include name="createCoupon" />
-				<include name="getCouponCode" />
-			</methods>
-		</classes>
-	</test>
-	
- -->
-
- <test name="Use Case 10:Place Order With Coupan Code">
-		<classes>
-			<class name="com.dw.api.automation.steps.PlaceOrderWithCoupanCodeTest" />
-			<methods>
-				<include name="login_to_application"/>
-				<include name=""/>
+				<include name="loginAsPm"/>
+				<include name="verifyMpnId" />
 				<include name="addNewPartnerOrganisation"/>
-				<include name="orgApproveByBaM"/>
-				<include name="approveOrganisationFromBAM"/>
-				<include name="loginToCAuser"/>
-				<include name="orgApprovalByCA"/>
-				<include name="loginPa"/>
-				<include name="getPartnerEntityid"/>
+				<include name="approveNewOrgByBAM"/>
+				<include name="approveNewOrgByCA"/>
 				<include name="createNewCustomer"/>
-				<include name="loginByBaM"/>
-				<include name="getCustomerId"/>
-				<include name="approveCustomerFromBam"/>
-				<include name="loginApplication"/>
-				<include name="searchBaseProduct"/>
-				<include name="addBaseProductWithTwoLicenses"/>
-				<include name="addAddOnwithOneLicenses"/>
-				
-				</methods>
+				<include name="getCustomerId" />
+				<include name="approveNewCustomerFromBam"/>
+			</methods>
 		</classes>
 </test>
- 
 
-
-
- 
- 
+ <test name="Market Place And Contract Management">
+		<classes>
+			<class name="com.dw.api.automation.TestScripts.MarketPlaceAndContractManagementTest" />
+			<methods>
+				<include name="loginAsPm"/>
+				<include name="addBaseProductWithTwoLicenses" />
+				<include name="addAddOnProductWithOneLicenses"/>
+				<include name="placeOrder"/>
+				
+			</methods>
+		</classes>
+</test>
 
  
 

@@ -27,6 +27,7 @@ public class MarketPlaceAndContractManagementTest {
 	ExtentReports extent;
 	HashMap<String, String> testdatamap = null;
 	String testColomName="MarketPlaceAndContractManagementTest";
+	String depdentTestColomName="CustomerOnBoardingTest";
 	MarketPlaceAndContractManagementPF baseproduct=new MarketPlaceAndContractManagementPF();
 	static NewCookie cook;
 	ApiLoginPF login=new ApiLoginPF();
@@ -38,7 +39,7 @@ public class MarketPlaceAndContractManagementTest {
 	@Test(priority = 1)
 	public void loginAsPm()
 	{
-		test = ExtentManager.loggerInstance(extent, " Use Case: Customer OnBoarding");
+		test = ExtentManager.loggerInstance(extent, " Use Case: Market Place And Contract Management");
 		testdatamap = FilloExcelUtility.readExcelWithTestName("login");
 		 String posturl = testdatamap.get("testurl");
 		System.out.println("Login Url=" + posturl);
@@ -55,10 +56,40 @@ public class MarketPlaceAndContractManagementTest {
 	
 	
 	@Test(priority =2)
-	public void addBaseProductWithFourLicenses()
+	public void addBaseProductWithTwoLicenses()
 	{
-		baseproduct.addBaseProductWithFourLicenses(testColomName);
+		baseproduct.addBaseProductWithTwoLicenses(testColomName);
+		
+		testdatamap = FilloExcelUtility.readExcelWithTestName(testColomName);
+		String baseProductName=testdatamap.get("baseProductName");
+		System.out.println("baseProductName="+baseProductName);
+		String baseSkuId=testdatamap.get("baseSkuId");
+		System.out.println("baseSkuId="+baseSkuId);
+		logPassStatus("Add Base Product With Two Licenses<br/>"+"Base Product Name="+baseProductName+"<br/>BaseProduct SkuId="+baseSkuId);
+
 	}
+	
+	@Test(priority =3)
+	public void addAddOnProductWithOneLicenses()
+	{
+		baseproduct.addAddOnwithOneLicenses(testColomName);
+		testdatamap = FilloExcelUtility.readExcelWithTestName(testColomName);
+		String addOnProductName=testdatamap.get("addOnProductName");
+		System.out.println("addOnProductName="+addOnProductName);
+		String addOnSKuId=testdatamap.get("addOnSKuId");
+		System.out.println("addOnSKuId="+addOnSKuId);
+		logPassStatus("Add On Product With One License<br/>"+"Base Product Name="+addOnProductName+"<br/>BaseProduct SkuId="+addOnSKuId);
+
+	}
+	
+	@Test(priority =4)
+	public void placeOrder()
+	{
+		baseproduct.placeOrder(testColomName, depdentTestColomName);
+		logPassStatus("Order Placed Successfully");
+
+	}
+	
 	public void logPassStatus(String statusMsg) {
 		test.log(LogStatus.PASS, statusMsg);
 

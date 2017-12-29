@@ -33,18 +33,19 @@ import com.sun.jersey.multipart.file.FileDataBodyPart;
 
 public class AddNewPartnerOrgTest {
 	
+	ExtentReports extent;
+	static ExtentTest test;
+	
+	
 	static NewCookie cook;
 	ApiLoginPF login=new ApiLoginPF();
 	Get get = new Get();
-	ExtentReports extent;
-	static ExtentTest test;
 	ClientResponse response = null;
-	HashMap<String, LinkedHashMap<Integer, List>> outerMap = new LinkedHashMap<String, LinkedHashMap<Integer, List>>();
 	HashMap<String, String> testdatamap = null;
 	Object partnerEntityId;
-	private List li;
 	OrganisationPF org=new OrganisationPF();
 	String testColomName="AddNewPartnerOrgTest";
+	
 	@BeforeClass
 	public void initateExtentManager() {
 		extent = ExtentManager.Instance();
@@ -71,47 +72,50 @@ public class AddNewPartnerOrgTest {
 	@Test(priority =2)
 	public void verifyMpnId()
 	{
-		cook=login.loginAsPM();
-		testdatamap = FilloExcelUtility.readExcelWithTestName("AddNewPartnerOrgTest");
-		String verifyMPNidUrl = testdatamap.get("verifyMPNidUrl");
-		System.out.println("Basic verifyMPNidUrl=" + verifyMPNidUrl);
-		String mPNid = testdatamap.get("MPNid");
-		System.out.println("MPNid=" + mPNid);
-		verifyMPNidUrl=verifyMPNidUrl+mPNid;
-		System.out.println(" verifyMPNidUrl=" + verifyMPNidUrl);
-		response = get.getRestServiceMethod(verifyMPNidUrl, cook);
-		logPassStatus("Validate MPN id="+mPNid);
+		org.verifyMPN(testColomName);
+		testdatamap = FilloExcelUtility.readExcelWithTestName(testColomName);
+		String mpnId=testdatamap.get("MPNid");
+		System.out.println("mpnId="+mpnId);
+		logPassStatus("Validate MPN id="+mpnId);
 	}
 	
 	@Test(priority = 3)
 	public void addNewPartnerOrganisation()  {
-		cook=login.loginAsPM();
+	
 		
 		try {
-			response=org.addNewPartnerOrganisation(testColomName, cook);
+			response=org.addNewPartnerOrganisation(testColomName);
 		} catch (FileNotFoundException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		logPassStatus("Partner Organization created successfully.");
+		testdatamap = FilloExcelUtility.readExcelWithTestName(testColomName);
+		String entityName=testdatamap.get("entityName");
+		System.out.println("entityName="+entityName);
+		logPassStatus("Partner Organization created successfully. You will receive Email notification once approval process is completed<br/>"+"Partner Organizatio name="+entityName);
 		
 	}
 	@Test(priority =4)
 	public void approveNewOrgByBAM()
 	{
-		cook=login.loginAsBAM();
+			
 		org.approveNewOrganisationByBam(testColomName);
-		logPassStatus("Partner Organization Approved From B.A.M");
+		testdatamap = FilloExcelUtility.readExcelWithTestName(testColomName);
+		String entityName=testdatamap.get("entityName");
+		System.out.println("entityName="+entityName);	
+		logPassStatus("Partner Organization Approved From B.A.M<br/>"+"Partner Organizatio name="+entityName);
 
 	}
 	
 	@Test(priority =5)
 	public void approveNewOrgByCA()
 	{
-		cook=login.loginAsCA();
-		OrganisationPF org=new OrganisationPF();
+		
 		org.approveNewOrganisationByCA(testColomName);
-		logPassStatus("Partner Organization Approved From B.A.M");
+		testdatamap = FilloExcelUtility.readExcelWithTestName(testColomName);
+		String entityName=testdatamap.get("entityName");
+		System.out.println("entityName="+entityName);	
+		logPassStatus("Partner Organization Approved From C.A<br/>"+"Partner Organizatio name="+entityName);
 
 	}
 	

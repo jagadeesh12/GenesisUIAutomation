@@ -66,35 +66,39 @@ public class CustomerOnBoardingTest {
 	@Test(priority =2)
 	public void verifyMpnId()
 	{
+		org.verifyMPN(testColomName);
 		testdatamap = FilloExcelUtility.readExcelWithTestName(testColomName);
-		String verifyMPNidUrl = testdatamap.get("verifyMPNidUrl");
-		System.out.println("Basic verifyMPNidUrl=" + verifyMPNidUrl);
-		String mPNid = testdatamap.get("MPNid");
-		System.out.println("MPNid=" + mPNid);
-		verifyMPNidUrl=verifyMPNidUrl+mPNid;
-		System.out.println(" verifyMPNidUrl=" + verifyMPNidUrl);
-		response = get.getRestServiceMethod(verifyMPNidUrl, cook);
-		logPassStatus("Validate MPN id=" + "<br/>rep" + response.getStatus());
+		String mpnId=testdatamap.get("MPNid");
+		System.out.println("mpnId="+mpnId);
+		logPassStatus("Validate MPN id="+mpnId);
 	}
 	
 	@Test(priority = 3)
 	public void addNewPartnerOrganisation()  {
 	
-		
 		try {
-			response=org.addNewPartnerOrganisation(testColomName, cook);
+			response=org.addNewPartnerOrganisation(testColomName);
 		} catch (FileNotFoundException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		logPassStatus("Partner Organization created successfully. You will receive Email notification once approval process is completed");
+		testdatamap = FilloExcelUtility.readExcelWithTestName(testColomName);
+		String entityName=testdatamap.get("entityName");
+		System.out.println("entityName="+entityName);
+		logPassStatus("Partner Organization created successfully. You will receive Email notification once approval process is completed<br/>"+"Partner Organizatio name="+entityName);
+		
+		
 		
 	}
 	@Test(priority =4)
 	public void approveNewOrgByBAM()
 	{
 		org.approveNewOrganisationByBam(testColomName);
-		logPassStatus("Partner Organization Approved From B.A.M");
+		testdatamap = FilloExcelUtility.readExcelWithTestName(testColomName);
+		String entityName=testdatamap.get("entityName");
+		System.out.println("entityName="+entityName);	
+		logPassStatus("Partner Organization Approved From B.A.M<br/>"+"Partner Organizatio name="+entityName);
+
 
 	}
 	
@@ -104,27 +108,41 @@ public class CustomerOnBoardingTest {
 	@Test(priority =5)
 	public void approveNewOrgByCA()
 	{
-		OrganisationPF org=new OrganisationPF();
 		org.approveNewOrganisationByCA(testColomName);
-		logPassStatus("Partner Organization Approved From B.A.M");
+		testdatamap = FilloExcelUtility.readExcelWithTestName(testColomName);
+		String entityName=testdatamap.get("entityName");
+		System.out.println("entityName="+entityName);	
+		logPassStatus("Partner Organization Approved From C.A<br/>"+"Partner Organizatio name="+entityName);
+
 	}
 		
 	@Test(priority =6)
 	public void createNewCustomer()
 	{
 		customer.createNewCustomer(testColomName);
+		testdatamap = FilloExcelUtility.readExcelWithTestName(testColomName);
+		String customername=testdatamap.get("companyName");
+		System.out.println("customername="+customername);
+		
+		logPassStatus("New Customer Created<br/>"+"CustomerName="+customername);
 	}
 	
 	@Test(priority =7)
 	public void getCustomerId()
 	{
+		
 		customer.getCustomerId(testColomName);
+		testdatamap = FilloExcelUtility.readExcelWithTestName(testColomName);
+		String customerId=testdatamap.get("customerId");
+		System.out.println("customerId="+customerId);
+		logPassStatus("New CustomerId="+customerId);
 	}
 	
 	@Test(priority =8)
 	public void approveNewCustomerFromBam()
 	{
 		customer.approveNewCustomerFromBam(testColomName);
+		logPassStatus("Approve Customer from BAM");
 	}
 	
 	

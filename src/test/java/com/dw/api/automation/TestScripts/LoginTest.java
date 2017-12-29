@@ -41,7 +41,7 @@ HashMap<String, String> testdatamap = null;
     //Login As P.A
     @Test(priority = 1)
 	public void loginAsPM() {
-		test = ExtentManager.loggerInstance(extent, " Test Case: Test All Possible Login's");
+		test = ExtentManager.loggerInstance(extent, " Use Case: Test All Possible Login's");
 		//testdatamap = FilloExcelUtility.readExcel();
 		testdatamap = FilloExcelUtility.readExcelWithTestName("login");
 		 String posturl = testdatamap.get("testurl");
