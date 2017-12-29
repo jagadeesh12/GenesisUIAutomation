@@ -1,5 +1,16 @@
 <suite name="Automation" verbose="1">
  
+<test name="Test ALL Possible Logins">
+		<classes>
+		
+			<class name="com.dw.api.automation.TestScripts.LoginTest" />
+			<methods>
+				<include name="loginAsPM"/>
+				<include name="loginAsBAM" />
+				<include name="loginAsCA"/>
+					</methods>
+		</classes>
+</test>
 <test name="Add New Partner Organisation">
 		<classes>
 		
@@ -75,6 +86,7 @@
 </test>
 
 <!-- 
+for future use
  <test name="Use Case 5:Organization Credit Request and Approval">
 		<classes>
 			<class name="com.dw.api.automation.steps.OrganizationCreditRequestTest" />
@@ -116,7 +128,7 @@
 		</classes>
 	</test>
 	
- --> 
+ -->
 
  <test name="Use Case 10:Place Order With Coupan Code">
 		<classes>
@@ -145,6 +157,9 @@
 </test>
  
 
+
+
+ 
  
 
  

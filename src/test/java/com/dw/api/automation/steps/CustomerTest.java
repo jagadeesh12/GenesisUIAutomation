@@ -111,7 +111,11 @@ public class CustomerTest {
 		String customerdomainName = testdatamap.get("customerdomainName");
 		customerdomainName = customerdomainName + ".onmicrosoft.com";
 		System.out.println("customerdomainName=" + customerdomainName);
-
+		/*//Switch location to Kuwait
+		String switchlocKWT=testdatamap.get("switchLocation");
+		get.getRestServiceMethod(switchlocKWT,cook);
+		*/
+		
 		FilloExcelUtility.updateRow("companyName", "CustomerTest");
 		testdatamap = FilloExcelUtility.readExcel();
 		String companyName = testdatamap.get("companyName");
@@ -141,6 +145,7 @@ public class CustomerTest {
 		System.out.println("Cookie as Token paramter=" + cook);
 		System.out.println("Create New Customr Response code=" + response.getStatus());
 		System.out.println("Create New Customr Response=" + response.toString());
+		System.out.println("New Company Created ,Company Name=" + companyName);
 		logPassStatus("New Customer Created Sucessfuly   CustomerName=" + "<br/>companyName=" + companyName);
 	}
 
@@ -172,6 +177,7 @@ public class CustomerTest {
 
 	@Test(priority = 5)
 		public void getCustomerId() {
+		
 		testdatamap = FilloExcelUtility.readExcel();
 		String companyName = testdatamap.get("companyName");
 		System.out.println("companyName=" + companyName);
@@ -207,6 +213,7 @@ public class CustomerTest {
 		p.put(approveCustomerFrmBamUrl, put, cook);
 		testdatamap = FilloExcelUtility.readExcel();
 		String companyName = testdatamap.get("companyName");
+		System.out.println("companyName="+companyName);
 		logPassStatus("Customer has been Approved " + "<br/> Customer name=" + companyName);
 	}
 	public void logPassStatus(String statusMsg) {

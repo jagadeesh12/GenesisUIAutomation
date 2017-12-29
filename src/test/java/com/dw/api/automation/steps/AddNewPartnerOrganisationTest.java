@@ -154,9 +154,9 @@ public class AddNewPartnerOrganisationTest {
 		formData.field("addressLine3", "addressLine3");
 
 		formData.field("pinCode", "60254");
-		formData.field("countryCode", "ARE");
-		formData.field("region", "008");
-		formData.field("city", "dubai");
+		formData.field("countryCode", "KWT");
+		formData.field("region", "003");
+		formData.field("city", "kuwait city");
 		formData.field("contactMobile", "3424242424243");
 		formData.field("phoneNumber", "2323232323233");
 		formData.field("signingAuthorityName", "signingAuthority");

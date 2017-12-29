@@ -20,10 +20,10 @@ public class FilloExcelUtility {
 	
 	
 	/***For  Linux***/
-	//	static String  exceldbloc="/var/lib/jenkins/jobs/Genesis_API_Automation/workspace/src/test/resources/files/ConfigSheet.xlsx";
+		static String  exceldbloc="/var/lib/jenkins/jobs/Genesis_API_Automation/workspace/src/test/resources/files/ConfigSheet.xlsx";
 
 	/*For client linux env*/
-	static String  exceldbloc="/home/genadmin/workspace/Genesis_API_Automation_new/src/test/resources/files/ConfigSheet.xlsx";
+	//	static String  exceldbloc="/home/genadmin/workspace/Genesis_API_Automation_new/src/test/resources/files/ConfigSheet.xlsx";
 	
 	
 	public static HashMap<String,String> readExcel()
@@ -81,6 +81,62 @@ public class FilloExcelUtility {
 		//System.out.println("test data="+dataMap.get("login1"));
 		return dataMap;
 	}
+	
+	//Select Data From Particular Page
+	public static HashMap<String,String> readExcelWithTestName(String page)
+	{
+	
+	System.out.println("exceldbloc Location="+exceldbloc);	
+		
+		HashMap<String, String> dataMap= new HashMap<String, String>();
+		Fillo fillo=new Fillo();
+		Connection connection = null;
+		try {
+			Configurations config=new Configurations();
+			String fileLoc=config.getProperty("excelLoc");
+			System.out.println("exceldbloc="+exceldbloc);
+			connection = fillo.getConnection(exceldbloc);
+			
+			
+		} catch (FilloException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		//String strQuery="Select * from Sheet where page="+page+"";
+		System.out.println("Page Name="+page);
+		Recordset recordset = null;
+		try {
+			recordset = connection.executeQuery("Select * from Sheet").where("page='"+page+"'");
+		} catch (FilloException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		 
+		try {
+			while(recordset.next()){
+				 
+				
+				String key = recordset.getField("key");
+				String value = recordset.getField("value");
+			dataMap.put(key, value);
+			
+				dataMap.put(key, value);
+		
+			
+			
+			}
+		} catch (FilloException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		 
+		recordset.close();
+		connection.close();
+		
+		return dataMap;
+	}
+	
+	
 	public static void updateRow(String key,String page)
 	{
 		Fillo fillo=new Fillo();
@@ -159,6 +215,36 @@ catch (FilloException e1) {
 	
 	
 	public static void  replaceRow(String key,String value,String page)
+	{
+		Fillo fillo=new Fillo();
+		Connection connection = null;
+		String pulledkey=null;
+		
+		
+		try {
+			
+				connection = fillo.getConnection(exceldbloc);
+				
+		} catch (FilloException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		String strQuery="Update Sheet Set value='"+value+"' where key='"+key+"' and page='"+page+"'";
+		 
+		try {
+			connection.executeUpdate(strQuery);
+		} catch (FilloException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		 
+		connection.close();
+	}
+	
+	
+	
+	
+	public static void  replaceRowPartnereEntity(String key,String value,String page)
 	{
 		Fillo fillo=new Fillo();
 		Connection connection = null;

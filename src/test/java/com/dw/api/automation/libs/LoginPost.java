@@ -23,9 +23,10 @@ public class LoginPost {
                           .post(ClientResponse.class,postparm);
         //       hMap = response.getHeaders();
               
-               System.out.println("Output from Server .... \n");
+               System.out.println("Output from Server :Core Library:.... \n");
                System.out.println("Response="+response.toString());
                System.out.println("Response status="+response.getStatus());
+               System.out.println("Response Header ="+  response.getHeaders());
                if (response.getStatus() != 200) {
                    throw new RuntimeException("Failed : HTTP error code : "
                         + response.getStatus());
@@ -50,8 +51,8 @@ newCookie = response.getCookies().get(0);
 //}
 	
 
-System.out.println("Response Header ="+  response.getHeaders());
-System.out.println("post staus"+response.getStatus());
+
+//System.out.println("post staus"+response.getStatus());
 
  
                

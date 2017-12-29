@@ -6,6 +6,8 @@ import com.sun.jersey.api.client.Client;
 import com.sun.jersey.api.client.ClientResponse;
 import com.sun.jersey.api.client.WebResource;
 
+import junit.framework.Assert;
+
 public class Put {
 	ClientResponse response = null;
 	 public  ClientResponse put(String posturl,String postparm,NewCookie newCookie){
@@ -27,13 +29,14 @@ public class Put {
 	            	System.out.println("Response Header ="+  response.toString());
 	            	System.out.println("post staus"+response.getStatus());
 	            	System.out.println("post staus"+response.toString());
-	             	
+	            
+	            	
 	             	if (response.getStatus() != 200) {
 	                    throw new RuntimeException("Failed : HTTP error code : "
 	                         + response.getStatus());
 	                }
 	              
-	            
+	             
 	               
 	               
 	          

@@ -90,6 +90,7 @@ public class MarketPlaceTest {
 		String marketPlaceBaseUrl=testdatamap.get("marketPlaceBaseUrl");
 		System.out.println("marketPlaceBaseUrl=" + marketPlaceBaseUrl);
 		System.out.println("Cookie as Token paramter=" + cook);
+		get.getRestServiceMethod("https://test.redington.market/api/v1/marketPlace/keywordSearch?countryCode=KWT", cook);
 		String res = get.getRestServiceMethod2(marketPlaceBaseUrl, cook);
 				
 		 sku = ParseJsonArray.parseJsonArray(res, "data", "items", "sku");
