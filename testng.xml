@@ -57,6 +57,18 @@
 		</classes>
 </test>
 
+ <test name="Order Provision">
+		<classes>
+			<class name="com.dw.api.automation.TestScripts.OrderProvisonTest" />
+			<methods>
+				<include name="loginAsPm"/>
+				<include name=" " />
+						
+			</methods>
+		</classes>
+</test>
+
+
  
 
 </suite> 

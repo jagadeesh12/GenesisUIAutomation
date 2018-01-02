@@ -32,10 +32,8 @@ public class CustomerOnBoardingTest {
 	ExtentReports extent;
 	static ExtentTest test;
 	ClientResponse response = null;
-	HashMap<String, LinkedHashMap<Integer, List>> outerMap = new LinkedHashMap<String, LinkedHashMap<Integer, List>>();
 	HashMap<String, String> testdatamap = null;
 	Object partnerEntityId;
-	private List li;
 	OrganisationPF org=new OrganisationPF();
 	String testColomName="CustomerOnBoardingTest";
 	CustomerPF customer=new CustomerPF();
