@@ -62,12 +62,26 @@
 			<class name="com.dw.api.automation.TestScripts.OrderProvisonTest" />
 			<methods>
 				<include name="loginAsPm"/>
-				<include name=" " />
+				<include name="orderProvisionForBaseProduct" />
+				<include name="orderProvisionForAddOnProduct" />
 						
 			</methods>
 		</classes>
 </test>
 
+ <test name="Place Order With Coupan Code">
+		<classes>
+			<class name="com.dw.api.automation.TestScripts.PlaceOrderWithCoupanCodeTest" />
+			<methods>
+				<include name="loginAsPm"/>
+				<include name="verifyMpnId"/>
+				<include name="addNewPartnerOrganisation"/>
+				<include name="approveNewOrgByBAM"/>
+				<include name="approveNewOrgByCA"/>
+				
+			</methods>
+		</classes>
+</test>
 
  
 

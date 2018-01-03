@@ -64,6 +64,14 @@ public class OrderProvisonTest {
 		order.orderProvisionForBaseProduct(testColomName, depdentTestColomName1,depdentTestColomName2);
 	}
 	
+	@Test(priority = 3)
+	public void orderProvisionForAddOnProduct()
+	{
+		order.orderProvsionForAddOnProduct(testColomName, depdentTestColomName1,depdentTestColomName2);
+	}
+	
+	
+	
 	public void logPassStatus(String statusMsg) {
 		test.log(LogStatus.PASS, statusMsg);
 

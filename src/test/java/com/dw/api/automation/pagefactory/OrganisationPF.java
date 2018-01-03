@@ -28,7 +28,7 @@ public class OrganisationPF {
 	Post post=new Post();
 	static NewCookie cook;
 	ClientResponse response = null;
-	String testColomName="AddNewPartnerOrgTest";
+	//String testColomName="AddNewPartnerOrgTest";
 	HashMap<String, String> testdatamap = null;
 	Object partnerEntityId;
 	
@@ -36,7 +36,7 @@ public class OrganisationPF {
 	/*Verify MPN Id*/
 	public ClientResponse verifyMPN(String testColomName)
 	{
-		
+		System.out.println(" testColomName=" + testColomName);
 		cook=login.loginAsPM();
 		testdatamap = FilloExcelUtility.readExcelWithTestName(testColomName);
 		String verifyMPNidUrl = testdatamap.get("verifyMPNidUrl");
@@ -130,8 +130,8 @@ public class OrganisationPF {
 		formData.field("termsAndConditions", "on");
 		Post postcall = new Post();
 		response = postcall.postMultiValuedWithAttachments(addNewPartnerOrganisationUrl, fileloc, formData, cook);
-		//return response;
-		return null;
+		return response;
+		//return null;
 		
 	}
 
@@ -169,7 +169,7 @@ public class OrganisationPF {
 		    FilloExcelUtility.replaceRowPartnereEntity("partnerEntityId", (String) partnerEntityId, testNameColom);
 		    testdatamap = FilloExcelUtility.readExcelWithTestName(testNameColom);
 		    System.out.println("partnerEntityId =========" +testdatamap.get("partnerEntityId"));
-					String put = "{\"status\": \"APPROVED\",\"comment\": \"done\",\"credit\":\"1000\",\"financeApproval\": \"false\",\"financeEmail\":\"null\",\"partnerEntityId\":\""
+					String put = "{\"status\": \"APPROVED\",\"comment\": \"done\",\"credit\":\"3000\",\"financeApproval\": \"false\",\"financeEmail\":\"null\",\"partnerEntityId\":\""
 					+ partnerEntityId + "\"}";
 			System.out.println("put=" + put);
 			// String put2 =
@@ -209,7 +209,7 @@ public class OrganisationPF {
 		String vatid=testdatamap.get("vatId");
 		System.out.println("vatid="+vatid);
 			String orgApprovalByCAUrl="https://test.redington.market/api/v1/partnerEntity/"+partnerEntityId+"/changeStatus";
-			String orgApprovalParms= "{\"VATClass\":\"0\",\"billingCurrency\":\"USD\",\"comment\":\"Approved from CA\",\"companyCode\":\"1150/Redington Kuwait\",\"credit\":\"500\",\"partnerEntityId\":\""+partnerEntityId+"\",\"paymentTerm\":\"Advance payment\",\"status\":\"APPROVED\",\"vatId\":\""+vatid+"\"}";
+			String orgApprovalParms= "{\"VATClass\":\"0\",\"billingCurrency\":\"USD\",\"comment\":\"Approved from CA\",\"companyCode\":\"1150/Redington Kuwait\",\"credit\":\"3000\",\"partnerEntityId\":\""+partnerEntityId+"\",\"paymentTerm\":\"Advance payment\",\"status\":\"APPROVED\",\"vatId\":\""+vatid+"\"}";
 			System.out.println("orgApprovalByCAUrl="+orgApprovalByCAUrl);
 			System.out.println("orgApprovalParms="+orgApprovalParms);
 			
