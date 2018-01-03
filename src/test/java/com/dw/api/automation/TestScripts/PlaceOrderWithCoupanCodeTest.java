@@ -44,7 +44,7 @@ public class PlaceOrderWithCoupanCodeTest {
 	@Test(priority = 1)
 	public void loginAsPm()
 	{
-		test = ExtentManager.loggerInstance(extent, " Use Case: Add New Partner Organisation Test");
+		test = ExtentManager.loggerInstance(extent, " Use Case: Place Order With Coupan Code");
 		testdatamap = FilloExcelUtility.readExcelWithTestName("login");
 		 String posturl = testdatamap.get("testurl");
 		System.out.println("Login Url=" + posturl);
