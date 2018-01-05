@@ -8,7 +8,7 @@
  <parameter name="testdata" value="qa/data"/>
  <parameter name="tdm.data" value="off"/> -->
  <parameter name="url"
-            value="https://test.redington.market/"/>
+            value="https://dev.redington.market/"/>
             
   <parameter name="MailinatorURL" value="https://www.mailinator.com/"/>  
 <!--   <parameter name="userBAM" value="bam27nov@sutiami.ml"/>   
@@ -17,11 +17,11 @@
   <parameter name="passCA" value="Pass@123"/> 
   <parameter name="userSA" value="sa27nov@hantem.bid"/>   
   <parameter name="passSA" value="Pass@123"/>  -->
-  <parameter name="userBAM" value="rgqa.bam@gmail.com"/>   
-  <parameter name="passBAM" value="Pass@123"/> 
-  <parameter name="userCA" value="rgqa.ca@yahoo.com"/>   
-  <parameter name="passCA" value="Pass@123"/> 
-  <parameter name="userSA" value="pmapi@mailinator.com"/>   
+  <parameter name="userBAM" value="bam22nov@gmail.com"/>   
+  <parameter name="passBAM" value="Test@1234"/> 
+  <parameter name="userCA" value="ca22nov@gmail.com "/>   
+  <parameter name="passCA" value="Test@1234"/> 
+  <parameter name="userSA" value="sa04@so-net.gq"/>   
   <parameter name="passSA" value="Pass@123"/> 
   <parameter name="userFM" value="fm14@mailinator.com"/>   
   <parameter name="passFM" value="Pass@123"/> 
@@ -75,7 +75,7 @@
  <classes>
    <class name="com.scholastic.torque.runner.Run" />
   </classes>
-</test> 
+</test>  
 
  <test name="CustomerCreateAndApproval" enabled="true">
   <parameter name="driver.name" value="Firefox"/>
@@ -87,7 +87,7 @@
   </classes>
 </test>   
 
-<!--  <test name="Creating coupon" enabled="true">
+   <test name="Creating coupon" enabled="true">
   <parameter name="driver.name" value="Firefox"/>
   <parameter name="features" value="features/Redington/CouponCreate.feature"/>
   <parameter name="driver.capabilities"
@@ -95,9 +95,9 @@
  <classes>
    <class name="com.scholastic.torque.runner.Run" />
   </classes>
-</test>   -->
+</test>  
 
-  <test name="Placing multiple order" enabled="true">
+ <test name="Placing multiple order" enabled="true">
   <parameter name="driver.name" value="Firefox"/>
   <parameter name="features" value="features/Redington/MultipleOrderPlacementAndApproal.feature"/>
   <parameter name="driver.capabilities"
@@ -107,8 +107,7 @@
   </classes>
 </test>
 
-
-<test name="OrderApproval" enabled="true">
+ <test name="OrderApproval" enabled="true">
   <parameter name="driver.name" value="Firefox"/>
   <parameter name="features" value="features/Redington/OrderApproval.feature"/>
   <parameter name="driver.capabilities"
