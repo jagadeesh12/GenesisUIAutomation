@@ -1,6 +1,6 @@
 <suite name="Automation" verbose="1">
  
-  <!-- 
+ 
 <test name="Test ALL Possible Logins">
 		<classes>
 		
@@ -71,7 +71,7 @@
 		</classes>
 </test>
 
- -->
+
  <test name="Place Order With Coupan Code">
 		<classes>
 			<class name="com.dw.api.automation.TestScripts.PlaceOrderWithCoupanCodeTest" />
