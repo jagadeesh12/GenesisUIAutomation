@@ -52,7 +52,7 @@ HashMap<String, String> testdatamap = null;
 		System.out.println("Password==" + password);
 		String postparm = "{\"username\":\"" + username + "\",\"password\":\"" + password + "\"}";
 		System.out.println("postparm="+postparm);
-		cook = login.login(posturl, postparm);
+		cook = login.loginAsPM();
 		System.out.println("Cookie as Token paramter=" + cook);
 		logPassStatus("login to Application  as P.M with <br/> Userid="+username+"<br/>Password="+password);
 	}
@@ -70,7 +70,7 @@ HashMap<String, String> testdatamap = null;
 		System.out.println("bampassword==" + bampassword);
 		String postparm = "{\"username\":\""+bamusername+"\",\"password\":\""+bampassword+"\"}";
 		System.out.println("postparm="+postparm);
-		cook = login.login(posturl, postparm);
+		cook = login.loginAsBAM();
 		System.out.println("Cookie as Token paramter=" + cook);
 		logPassStatus("login to Application  as B.A.M with <br/> Userid="+bamusername+"<br/>Password="+bampassword);
 	    }
@@ -87,7 +87,7 @@ HashMap<String, String> testdatamap = null;
 		System.out.println("bampassword=" + capassword);
 		String postparm = "{\"username\":\""+causername+"\",\"password\":\""+capassword+"\"}";
 		System.out.println("postparm="+postparm);
-		cook = login.login(posturl, postparm);
+		cook = login.loginAsCA();
 		System.out.println("Cookie as Token paramter=" + cook);
 		logPassStatus("login to Application  as C.A with <br/> Userid="+causername+"<br/>Password="+capassword);
 	    }

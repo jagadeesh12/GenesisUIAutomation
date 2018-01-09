@@ -54,7 +54,8 @@ public class OrderProvisonTest {
 		System.out.println("Password==" + password);
 		String postparm = "{\"username\":\"" + username + "\",\"password\":\"" + password + "\"}";
 		System.out.println("postparm="+postparm);
-		cook = login.login(posturl, postparm);
+		/*cook = login.login(posturl, postparm);*/
+		cook = login.loginAsPM();
 		logPassStatus("login to Application  as P.M with <br/> Userid="+username+"<br/>Password="+password);
 	}
 	

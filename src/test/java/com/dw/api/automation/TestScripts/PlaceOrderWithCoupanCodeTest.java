@@ -15,7 +15,10 @@ import com.dw.api.automation.extent.ExtentManager;
 import com.dw.api.automation.libs.FilloExcelUtility;
 import com.dw.api.automation.libs.Get;
 import com.dw.api.automation.pagefactory.ApiLoginPF;
-
+import com.dw.api.automation.pagefactory.CoupanPF;
+import com.dw.api.automation.pagefactory.CustomerPF;
+import com.dw.api.automation.pagefactory.MarketPlaceAndContractManagementPF;
+import com.dw.api.automation.pagefactory.OrderProvisonPF;
 import com.dw.api.automation.pagefactory.OrganisationPF;
 import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
@@ -34,7 +37,12 @@ public class PlaceOrderWithCoupanCodeTest {
 	HashMap<String, String> testdatamap = null;
 	Object partnerEntityId;
 	OrganisationPF org=new OrganisationPF();
+	CoupanPF coupan=new CoupanPF();
+	OrderProvisonPF order=new OrderProvisonPF();
 	String testColomName="PlaceOrderWithCoupanCodeTest";
+	MarketPlaceAndContractManagementPF product=new MarketPlaceAndContractManagementPF();
+
+	CustomerPF customer=new CustomerPF();
 	
 	@BeforeClass
 	public void initateExtentManager() {
@@ -54,7 +62,8 @@ public class PlaceOrderWithCoupanCodeTest {
 		System.out.println("Password==" + password);
 		String postparm = "{\"username\":\"" + username + "\",\"password\":\"" + password + "\"}";
 		System.out.println("postparm="+postparm);
-		cook = login.login(posturl, postparm);
+		/*cook = login.login(posturl, postparm);*/
+		cook = login.loginAsPM();
 		logPassStatus("login to Application  as P.M with <br/> Userid="+username+"<br/>Password="+password);
 	}
 	
@@ -109,6 +118,95 @@ public class PlaceOrderWithCoupanCodeTest {
 
 	}
 	
+	//Create Customer
+	
+	@Test(priority =6)
+	public void createNewCustomer()
+	{
+		customer.createNewCustomer(testColomName);
+		testdatamap = FilloExcelUtility.readExcelWithTestName(testColomName);
+		String customername=testdatamap.get("companyName");
+		System.out.println("customername="+customername);
+		
+		logPassStatus("New Customer Created<br/>"+"CustomerName="+customername);
+	}
+	
+	@Test(priority =7)
+	public void getCustomerId()
+	{
+		
+		customer.getCustomerId(testColomName);
+		testdatamap = FilloExcelUtility.readExcelWithTestName(testColomName);
+		String customerId=testdatamap.get("customerId");
+		System.out.println("customerId="+customerId);
+		logPassStatus("New CustomerId="+customerId);
+	}
+	
+	@Test(priority =8)
+	public void approveNewCustomerFromBam()
+	{
+		customer.approveNewCustomerFromBam(testColomName);
+		logPassStatus("Approve Customer from BAM");
+	}
+	
+	@Test(priority =9)
+	public void createCoupan()
+	{
+		
+		coupan.createCoupanForBaseProduct(testColomName);
+	//	testdatamap = FilloExcelUtility.readExcelWithTestName(testColomName);
+		//String baseCouponCode=testdatamap.get("baseCouponCode");
+		logPassStatus("New Coupan Created");
+	}
+	
+	@Test(priority =10)
+	public void getCouponCode()
+	{
+		coupan.getCouponCode(testColomName);
+	}
+	
+	//Do Market Place
+	@Test(priority =11)
+	public void addBaseProductWithTwoLicenses()
+	{
+		product.addBaseProductWithTwoLicenses(testColomName);
+		
+		testdatamap = FilloExcelUtility.readExcelWithTestName(testColomName);
+		String baseProductName=testdatamap.get("baseProductName");
+		System.out.println("baseProductName="+baseProductName);
+		String baseSkuId=testdatamap.get("baseSkuId");
+		System.out.println("baseSkuId="+baseSkuId);
+		logPassStatus("Add Base Product With Two Licenses<br/>"+"Base Product Name="+baseProductName+"<br/>BaseProduct SkuId="+baseSkuId);
+
+	}
+	
+	@Test(priority =12)
+	public void addAddOnProductWithOneLicenses()
+	{
+		product.addAddOnwithOneLicenses(testColomName);
+		testdatamap = FilloExcelUtility.readExcelWithTestName(testColomName);
+		String addOnProductName=testdatamap.get("addOnProductName");
+		System.out.println("addOnProductName="+addOnProductName);
+		String addOnSKuId=testdatamap.get("addOnSKuId");
+		System.out.println("addOnSKuId="+addOnSKuId);
+		logPassStatus("Add On Product With One License<br/>"+"Base Product Name="+addOnProductName+"<br/>BaseProduct SkuId="+addOnSKuId);
+
+	}
+	
+	
+	
+	
+	/*@Test(priority =11)
+	public void orderProvisionForBaseProduct()
+	{
+		order.orderProvisionForBaseProduct1(testColomName);
+	}
+	
+	@Test(priority =12)
+	public void orderProvsionForAddOnProduct()
+	{
+		order.orderProvsionForAddOnProduct1(testColomName);
+	}*/
 	
 	
 	public void logPassStatus(String statusMsg) {

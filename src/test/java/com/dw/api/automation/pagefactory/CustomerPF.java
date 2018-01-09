@@ -14,6 +14,7 @@ import com.dw.api.automation.libs.Get;
 import com.dw.api.automation.libs.ParseJsonArray;
 import com.dw.api.automation.libs.Post;
 import com.dw.api.automation.libs.Put;
+import com.dw.api.automation.utils.Configurations;
 import com.sun.jersey.api.client.ClientResponse;
 
 public class CustomerPF {
@@ -27,7 +28,7 @@ public class CustomerPF {
 	Object partnerEntityId = null;
 	String customerId;
 	Object customerIdValue;
-	
+	Configurations config=new Configurations();
 	
 	public ClientResponse createNewCustomer(String testNameColom)
 	{
@@ -51,15 +52,23 @@ public class CustomerPF {
 		testdatamap = FilloExcelUtility.readExcelWithTestName(testNameColom);
 		String companyName = testdatamap.get("companyName");
 		System.out.println("companyName=" + companyName);
-		String newCustGetUrl = "https://test.redington.market/api/v1/endCustomers/domainCheck?countryCode=are&domain="
+		
+		String db=config.getProperty("db");
+		System.out.println("dbloc="+db);
+		
+		
+		String newCustGetUrl = "redington.market/api/v1/endCustomers/domainCheck?countryCode=are&domain="
 				+ customerdomainName + "";
+		newCustGetUrl=db+newCustGetUrl;
 		System.out.println("newCustGetUrl=" + newCustGetUrl);
 		System.out.println("cookie" + cook);
 		response = get.getRestServiceMethod(newCustGetUrl, cook);
 		System.out.println("Create New Customr Response code=" + response.getStatus());
 		System.out.println("Create New Customr Response=" + response.getHeaders().toString());
 
-		String newCustPostUrl = "https://test.redington.market/api/v1/endcustomer";
+		String newCustPostUrl = "redington.market/api/v1/endcustomer";
+		newCustPostUrl=db+newCustPostUrl;
+		System.out.println("newCustPostUrle=" + newCustPostUrl);
 
 		String newCustomerpayload = "{\"endCustomerType\": \"New\",\"CompanyName\": \"" + companyName + "\","
 				+ "\"ContactFirstName\": \"ApiFirstname\"," + " \"ContactLastName\": \"ApiLastName\","
@@ -72,7 +81,7 @@ public class CustomerPF {
 				+ "\"termsAndConditions\": true," + "\"DomainName\": \"" + customerdomainName + "\","
 				+ "\"PartnerEntityId\": \"" + partnerEntityId + "\"}";
 		System.out.println("newCustomerpayload=" + newCustomerpayload);
-		response = post.getPostByJersey("https://test.redington.market/api/v1/endcustomer", newCustomerpayload, cook);
+		response = post.getPostByJersey(newCustPostUrl, newCustomerpayload, cook);
 		//System.out.println("Cookie as Token paramter=" + cook);
 		System.out.println("Create New Customr Response code=" + response.getStatus());
 		System.out.println("Create New Customr Response=" + response.toString());
@@ -91,8 +100,11 @@ public class CustomerPF {
 		testdatamap = FilloExcelUtility.readExcelWithTestName(testNameColom);
 		String companyName = testdatamap.get("companyName");
 		System.out.println("companyName=" + companyName);
-		String getCustomerIdUrl = "https://test.redington.market/api/v1/endcustomer/approvalList?page=1&pageSize=10&sortBy=ModifiedOn&sortOrder=desc&searchKey="
+		String db=config.getProperty("db");
+		System.out.println("dbloc="+db);
+		String getCustomerIdUrl = "redington.market/api/v1/endcustomer/approvalList?page=1&pageSize=10&sortBy=ModifiedOn&sortOrder=desc&searchKey="
 				+ companyName + "";
+		getCustomerIdUrl=db+getCustomerIdUrl;
 		System.out.println("getCustomerIdUrl=" + getCustomerIdUrl);
 		String res = get.getRestServiceMethod2(getCustomerIdUrl, cook);
 
@@ -113,7 +125,6 @@ public class CustomerPF {
 		
 		customerId = testdatamap.get("customerId");
 		System.out.println("customerId="+customerId);
-		// FilloExcelUtility.replaceRowPartnereEntity(String customerId,String customerIdValue,String testNameColom);
 		return response;
 	}
 	
@@ -123,7 +134,10 @@ public class CustomerPF {
 		testdatamap = FilloExcelUtility.readExcelWithTestName(testNameColom);
 		customerId = testdatamap.get("customerId");
 		System.out.println("customerId="+customerId);
-		String approveCustomerFrmBamUrl="https://test.redington.market/api/v1/endCustomer/"+customerId+"/changeStatus";
+		String db=config.getProperty("db");
+		System.out.println("dbloc="+db);
+		String approveCustomerFrmBamUrl="redington.market/api/v1/endCustomer/"+customerId+"/changeStatus";
+		approveCustomerFrmBamUrl=db+approveCustomerFrmBamUrl;
 		System.out.println("approveCustomerFrmBamUrl="+approveCustomerFrmBamUrl);
 		String put ="{\"comment\":\"Done\",\"status\":\"APPROVED\"}";
 		System.out.println("approvalParamters="+put); 

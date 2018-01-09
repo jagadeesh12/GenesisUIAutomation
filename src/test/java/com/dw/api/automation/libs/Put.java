@@ -28,7 +28,7 @@ public class Put {
 	                 System.out.println("Output from Server for put Call .... \n");
 	            	System.out.println("Response Header ="+  response.toString());
 	            	System.out.println("post staus"+response.getStatus());
-	            	System.out.println("post staus"+response.toString());
+	            	//System.out.println("post staus"+response.toString());
 	            
 	            	
 	             	if (response.getStatus() != 200) {

@@ -36,14 +36,19 @@ public class OrganisationPF {
 	/*Verify MPN Id*/
 	public ClientResponse verifyMPN(String testColomName)
 	{
+		Configurations config=new Configurations();
+		String db=config.getProperty("db");
+		
+		System.out.println("dbloc="+db);
 		System.out.println(" testColomName=" + testColomName);
 		cook=login.loginAsPM();
 		testdatamap = FilloExcelUtility.readExcelWithTestName(testColomName);
-		String verifyMPNidUrl = testdatamap.get("verifyMPNidUrl");
+		
+		String verifyMPNidUrl = "redington.market/api/v1/partnerEntity/verifyMPN/";
 		System.out.println("Basic verifyMPNidUrl=" + verifyMPNidUrl);
 		String mPNid = testdatamap.get("MPNid");
 		System.out.println("MPNid=" + mPNid);
-		verifyMPNidUrl=verifyMPNidUrl+mPNid;
+		verifyMPNidUrl=db+verifyMPNidUrl+mPNid;
 		System.out.println(" verifyMPNidUrl=" + verifyMPNidUrl);
 		response = get.getRestServiceMethod(verifyMPNidUrl, cook);
 		return response;
@@ -53,12 +58,16 @@ public class OrganisationPF {
 	{
 		cook=login.loginAsPM();
 		testdatamap = FilloExcelUtility.readExcelWithTestName(testNameColom);
+		Configurations config=new Configurations();
+		String db=config.getProperty("db");
+		System.out.println("dbloc="+db);
+		
 		System.out.println("testNameColom="+testNameColom);
-		String addNewPartnerOrganisationUrl = testdatamap.get("addNewPartnerOrganisationUrl");
+		String addNewPartnerOrganisationUrl ="redington.market/api/v1/partnerEntity";
+		addNewPartnerOrganisationUrl=db+addNewPartnerOrganisationUrl;
 		System.out.println("addNewPartnerOrganisationUrl=" + addNewPartnerOrganisationUrl);
 		/* multivalued form data call for windows */
-        Configurations config=new Configurations();
-		String fileLoc=config.getProperty("jpegfile");
+        String fileLoc=config.getProperty("jpegfile");
 		System.out.println("fileLoc="+fileLoc);
 		File initialFile = new File(fileLoc);
 		
@@ -69,12 +78,14 @@ public class OrganisationPF {
 		InputStream targetStream3 = new FileInputStream(initialFile);
 		InputStream targetStream4 = new FileInputStream(initialFile);
 		InputStream targetStream5 = new FileInputStream(initialFile);
+		
 		HashMap<String, InputStream> fileloc = new HashMap<String, InputStream>();
 		fileloc.put("f1", targetStream1);
 		fileloc.put("f2", targetStream2);
 		fileloc.put("f3", targetStream3);
 		fileloc.put("f4", targetStream4);
 		fileloc.put("f5", targetStream5);
+		
 		FormDataMultiPart formData = new FormDataMultiPart();
 		formData.bodyPart(new FileDataBodyPart("logo", initialFile));
 		formData.bodyPart(new FileDataBodyPart("Trade License Copy with Partners Page", initialFile));
@@ -82,6 +93,7 @@ public class OrganisationPF {
 		formData.bodyPart(new FileDataBodyPart("Trade License Copy with Share Certificate", initialFile));
 		formData.bodyPart(new FileDataBodyPart("Owner/Decision Maker/Authorized Signatory Passport Copy with Visa Page",
 				initialFile));
+		
 		formData.field("tradeLicenseValidityFrom", "2017-11-04");
 		formData.field("tradeLicenseValidityTo", "2018-11-26");
 		formData.field("existingType", "New");
@@ -135,9 +147,10 @@ public class OrganisationPF {
 		
 	}
 
-	
+	/*Applicable for both Tax Liable & Not Tax Liable */
 	public void   approveNewOrganisationByBam(String testNameColom)
 	{
+		System.out.println("testNameColom="+testNameColom);
 		//Login as BAM
 		 testdatamap = FilloExcelUtility.readExcelWithTestName("login");
 		 	cook=login.loginAsBAM();
@@ -148,8 +161,12 @@ public class OrganisationPF {
 			domainName = "www." + domainName + ".com";
 			System.out.println("Domain name=" + domainName);
 			// autoupdate domain nmae
-			String orgBamSearchGetUrl = "https://test.redington.market/api/v1/partnerEntity/approvalList?page=1&pageSize=10&sortBy=modifiedOn&sortOrder=desc&searchKey="
+			Configurations config=new Configurations();
+			String db=config.getProperty("db");
+			System.out.println("dbloc="+db);
+			String orgBamSearchGetUrl = "redington.market/api/v1/partnerEntity/approvalList?page=1&pageSize=10&sortBy=modifiedOn&sortOrder=desc&searchKey="
 					+ domainName + "";
+			orgBamSearchGetUrl=db+orgBamSearchGetUrl;
 			System.out.println("Entity idSearchUrl=" + orgBamSearchGetUrl);
 			System.out.println("Cookie as Token paramter=" + cook);
 			String res = get.getRestServiceMethod2(orgBamSearchGetUrl, cook);
@@ -188,7 +205,7 @@ public class OrganisationPF {
 	public void approveNewOrganisationByCA(String testNameColom)
 	{
 		cook=login.loginAsCA();
-		 testdatamap = FilloExcelUtility.readExcelWithTestName("login");
+		/* testdatamap = FilloExcelUtility.readExcelWithTestName("login");
 		String posturl = testdatamap.get("testurl");
 		System.out.println("Login Url=" + posturl);
 		String username = testdatamap.get("causername");
@@ -197,10 +214,10 @@ public class OrganisationPF {
 		System.out.println("CA Password==" + password);
 		String postparm = "{\"username\":\"" + username + "\",\"password\":\"" + password + "\"}";
 		System.out.println("postparm="+postparm);
-		ApiLoginPF login=new ApiLoginPF();
-		cook=login.login(posturl, postparm);
+		ApiLoginPF login=new ApiLoginPF();*/
+		//cook=login.login(posturl, postparm);
 		//System.out.println("partnerEntityIdCA="+partnerEntityIdCA);
-		testdatamap = FilloExcelUtility.readExcelWithTestName("login");
+		//testdatamap = FilloExcelUtility.readExcelWithTestName("login");
 		
 		
 		 testdatamap = FilloExcelUtility.readExcelWithTestName(testNameColom);
@@ -208,7 +225,12 @@ public class OrganisationPF {
 		 System.out.println("partnerEntityId="+partnerEntityId);
 		String vatid=testdatamap.get("vatId");
 		System.out.println("vatid="+vatid);
-			String orgApprovalByCAUrl="https://test.redington.market/api/v1/partnerEntity/"+partnerEntityId+"/changeStatus";
+		Configurations config=new Configurations();
+		String db=config.getProperty("db");
+		System.out.println("dbloc="+db);
+		
+			String orgApprovalByCAUrl="redington.market/api/v1/partnerEntity/"+partnerEntityId+"/changeStatus";
+			orgApprovalByCAUrl=db+orgApprovalByCAUrl;
 			String orgApprovalParms= "{\"VATClass\":\"0\",\"billingCurrency\":\"USD\",\"comment\":\"Approved from CA\",\"companyCode\":\"1150/Redington Kuwait\",\"credit\":\"3000\",\"partnerEntityId\":\""+partnerEntityId+"\",\"paymentTerm\":\"Advance payment\",\"status\":\"APPROVED\",\"vatId\":\""+vatid+"\"}";
 			System.out.println("orgApprovalByCAUrl="+orgApprovalByCAUrl);
 			System.out.println("orgApprovalParms="+orgApprovalParms);
@@ -216,13 +238,136 @@ public class OrganisationPF {
 			Put p = new Put();
 			p.put(orgApprovalByCAUrl, orgApprovalParms, cook);
 		
+				
+	}
+	
+	
+	
+	/**************************Create Organisation with VAT***************************/
+	public ClientResponse addNewPartnerOrganisationWithVat(String testNameColom) throws FileNotFoundException
+	{
+		cook=login.loginAsPM();
+		testdatamap = FilloExcelUtility.readExcelWithTestName(testNameColom);
+		Configurations config=new Configurations();
+		String db=config.getProperty("db");
+		System.out.println("dbloc="+db);
+		
+		System.out.println("testNameColom="+testNameColom);
+		String addNewPartnerOrganisationUrl ="redington.market/api/v1/partnerEntity";
+		addNewPartnerOrganisationUrl=db+addNewPartnerOrganisationUrl;
+		System.out.println("addNewPartnerOrganisationUrl=" + addNewPartnerOrganisationUrl);
+		/* multivalued form data call for windows */
+        String fileLoc=config.getProperty("jpegfile");
+		System.out.println("fileLoc="+fileLoc);
+		File initialFile = new File(fileLoc);
 		
 		
-		
-		
-		
+		//for linux
+		InputStream targetStream1 = new FileInputStream(initialFile);
+		InputStream targetStream2 = new FileInputStream(initialFile);
+		InputStream targetStream3 = new FileInputStream(initialFile);
+		InputStream targetStream4 = new FileInputStream(initialFile);
+		InputStream targetStream5 = new FileInputStream(initialFile);
+		InputStream targetStream6 = new FileInputStream(initialFile);
+		HashMap<String, InputStream> fileloc = new HashMap<String, InputStream>();
+		fileloc.put("f1", targetStream1);
+		fileloc.put("f2", targetStream2);
+		fileloc.put("f3", targetStream3);
+		fileloc.put("f4", targetStream4);
+		fileloc.put("f5", targetStream5);
+		fileloc.put("f6", targetStream6);
+		FormDataMultiPart formData = new FormDataMultiPart();
+		formData.bodyPart(new FileDataBodyPart("logo", initialFile));
+		formData.bodyPart(new FileDataBodyPart("Trade License Copy with Partners Page", initialFile));
+		formData.bodyPart(new FileDataBodyPart("MOA / Shareholding letter (whichever is applicable)", initialFile));
+		formData.bodyPart(new FileDataBodyPart("Trade License Copy with Share Certificate", initialFile));
+		formData.bodyPart(new FileDataBodyPart("Owner/Decision Maker/Authorized Signatory Passport Copy with Visa Page",
+				initialFile));
+		formData.bodyPart(new FileDataBodyPart("VAT Registration Certificate",initialFile));
+		formData.field("tradeLicenseValidityFrom", "2017-11-04");
+		formData.field("tradeLicenseValidityTo", "2018-11-26");
+		formData.field("existingType", "New");
+		String entityName = testdatamap.get("entityName");
+		System.out.println("entityName=" + entityName);
+		formData.field("entityName", entityName);
+		String mpnId = testdatamap.get("mpnId");
+		formData.field("mpnId", mpnId);
+		formData.field("addressLine1", "addressLine1");
+		formData.field("addressLine2", "addressLine2");
+		formData.field("addressLine3", "addressLine3");
+		String pinCode=testdatamap.get("pinCode");
+		System.out.println("pinCode=" + pinCode);
+		formData.field("pinCode", pinCode);
+		String countryCode=testdatamap.get("countryCode");
+		System.out.println("countryCode=" + countryCode);
+		formData.field("countryCode", countryCode);
+		String region=testdatamap.get("region");
+		System.out.println("region=" + region);
+		formData.field("region", region);
+		String city=testdatamap.get("city");
+		System.out.println("city=" + city);
+		formData.field("city", city);
+		formData.field("contactMobile", "3424242424243");
+		formData.field("phoneNumber", "2323232323233");
+		formData.field("signingAuthorityName", "signingAuthority");
+		formData.field("signingAuthorityEmail", "signingAuthority@fff.com");
+		formData.field("financeApproval", "false");
+		formData.field("partnerSegment", "Advisor & Consulting Services");
+		FilloExcelUtility.updateRow("domainName", testNameColom);
+		testdatamap = FilloExcelUtility.readExcelWithTestName(testNameColom);
+		String domainName = testdatamap.get("domainName");
+		domainName = "www." + domainName + ".com";
+		System.out.println("Domain name=" + domainName);
+		formData.field("fqdn", domainName);
+		FilloExcelUtility.updateRow("tradeLicenseNo", testNameColom);
+		testdatamap = FilloExcelUtility.readExcelWithTestName(testNameColom);
+		String tradeLicenseNo = testdatamap.get("tradeLicenseNo");
+		System.out.println("tradeLicenseNo=" + tradeLicenseNo);
+		formData.field("tradeLicenseNo", tradeLicenseNo);
+		FilloExcelUtility.updateRow("vatId", testNameColom);
+		testdatamap = FilloExcelUtility.readExcelWithTestName(testNameColom);
+		String vatId = testdatamap.get("vatId");
+		System.out.println("vatId=" + vatId);
+		formData.field("vatId", vatId);
+		formData.field("termsAndConditions", "on");
+		Post postcall = new Post();
+		response = postcall.postMultiValuedWithAttachments(addNewPartnerOrganisationUrl, fileloc, formData, cook);
+		return response;
+		//return null;
 		
 	}
+
+	/*approve New Organisation By CA with VAT*/
+	public void approveNewOrganisationByCAwithVAT(String testNameColom)
+	{
+		cook=login.loginAsCA();
+		 testdatamap = FilloExcelUtility.readExcelWithTestName(testNameColom);
+		 partnerEntityId=testdatamap.get("partnerEntityId");
+		 System.out.println("partnerEntityId="+partnerEntityId);
+		String vatid=testdatamap.get("vatId");
+		System.out.println("vatid="+vatid);
+		Configurations config=new Configurations();
+		String db=config.getProperty("db");
+		System.out.println("dbloc="+db);
+		
+			String orgApprovalByCAUrl="redington.market/api/v1/partnerEntity/"+partnerEntityId+"/changeStatus";
+			orgApprovalByCAUrl=db+orgApprovalByCAUrl;
+			String orgApprovalParms= "{\"VATClass\":\"1\",\"billingCurrency\":\"USD\",\"comment\":\"Approved from CA\",\"companyCode\":\"1150/Redington Kuwait\",\"credit\":\"3000\",\"partnerEntityId\":\""+partnerEntityId+"\",\"paymentTerm\":\"Advance payment\",\"status\":\"APPROVED\",\"vatId\":\""+vatid+"\"}";
+			System.out.println("orgApprovalByCAUrl="+orgApprovalByCAUrl);
+			System.out.println("orgApprovalParms="+orgApprovalParms);
+			
+			Put p = new Put();
+			p.put(orgApprovalByCAUrl, orgApprovalParms, cook);
+		
+				
+	}
+	
+	
+	
+	
+	
+	
+	
 	
 	//@ToDo
 	public void addNewPartnerOrganisationExisting()

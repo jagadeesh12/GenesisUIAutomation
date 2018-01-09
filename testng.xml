@@ -1,5 +1,6 @@
 <suite name="Automation" verbose="1">
  
+  <!-- 
 <test name="Test ALL Possible Logins">
 		<classes>
 		
@@ -44,6 +45,7 @@
 		</classes>
 </test>
 
+ 
  <test name="Market Place And Contract Management">
 		<classes>
 			<class name="com.dw.api.automation.TestScripts.MarketPlaceAndContractManagementTest" />
@@ -69,6 +71,7 @@
 		</classes>
 </test>
 
+ -->
  <test name="Place Order With Coupan Code">
 		<classes>
 			<class name="com.dw.api.automation.TestScripts.PlaceOrderWithCoupanCodeTest" />
@@ -78,10 +81,42 @@
 				<include name="addNewPartnerOrganisation"/>
 				<include name="approveNewOrgByBAM"/>
 				<include name="approveNewOrgByCA"/>
+				<include name="createNewCustomer"/>
+				<include name="getCustomerId"/>
+				<include name="approveNewCustomerFromBam"/>
+				<include name="createCoupan"/>
+				<include name="getCouponCode"/>
+				<include name="addBaseProductWithTwoLicenses"/>
+				<include name="addAddOnProductWithOneLicenses"/>
+				
 				
 			</methods>
 		</classes>
 </test>
+
+<test name="Place Order With Vat  Coupan Code">
+		<classes>
+			<class name="com.dw.api.automation.TestScripts.PlaceOrderWithVatTest" />
+			<methods>
+				<include name="loginAsPm"/>
+				<include name="verifyMpnId"/>
+				<include name="addNewPartnerOrganisationWithVat"/>
+				<include name="approveNewOrgByBAM"/>
+				<include name="approveNewOrganisationByCAwithVAT"/>
+				<include name="createNewCustomer"/>
+				<include name="getCustomerId"/>
+				<include name="approveNewCustomerFromBam"/>
+				<include name="addBaseProductWithTwoLicenses"/>
+				<include name="createCoupan"/>
+				<include name="placeOrder"/>
+				
+				
+				
+			</methods>
+		</classes>
+</test>
+
+
 
  
 

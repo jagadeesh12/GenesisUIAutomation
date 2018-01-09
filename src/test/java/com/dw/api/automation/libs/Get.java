@@ -12,6 +12,7 @@ import javax.ws.rs.core.NewCookie;
 import org.apache.http.HttpEntity;
 import org.json.JSONArray;
 import org.json.JSONObject;
+import org.testng.Assert;
 
 import com.sun.jersey.api.client.Client;
 import com.sun.jersey.api.client.ClientResponse;
@@ -110,6 +111,7 @@ public class Get {
 				throw new RuntimeException("Failed : HTTP error code : " + response.getStatus());
 			}
 
+			Assert.assertEquals(200, response.getStatus());
 		} catch (Exception e) {
 			System.out.println("Exception at get jersey " + e.getMessage());
 			
